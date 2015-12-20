@@ -20,10 +20,9 @@
                             <li {% if page.url == node.url %} class="active" {% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
                         {% endif %}
                     {% endfor %}
-                    <li><a href="/feed.xml"><i class="fa fa-feed"></i> RSS</a>
-                    {% for link in site.data.links %}
-                        <li><a href="{{ link.url }}"><span class="glyphicon glyphicon-new-window"></span> {{ link.name }}</a></li>
-                    {% endfor %}
+                    <li><a href="/feed.xml"><i class="fa fa-feed"></i> RSS</a></li>
+                    <li><a rel="me" href="https://github.com/nidrissi"><span class="fa fa-github"></span> GitHub</a></li>
+                    <li><a rel="me" href="http://math.univ-lille1.fr/~idrissi"><span class="fa fa-university"></span> Math</a></li>
                 </ul>
             </div>
         </div>

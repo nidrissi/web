@@ -1,9 +1,8 @@
-title: ???
-email: najib.idrissi-kaitouni@math.univ-lille1.fr
+title: Najib Idrissi
+email: najib.idrissi.kaitouni@gmail.com
 description: ???
 baseurl: ""
 url: "http://nidrissi.github.io"
-github_username: nidrissi
 
 markdown: kramdown
 highlighter: pygments
