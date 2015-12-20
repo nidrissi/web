@@ -1,6 +1,39 @@
 ---
-title: Hi
-layout: post
+layout: default
 ---
+<section class="col-md-10">
+    {% for post in site.posts %}
+        <article>
+            <header>
+                <h1 id="post-{{ forloop.index }}" class="target">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h1>
+                <div class="post-time">
+                    <span class="glyphicon glyphicon-time"></span>
+                    <time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                </div>
+            </header>
+            {{ post.content }}
+        </article>
+        {% if forloop.last == false %}
+            <hr>
+        {% endif %}
+    {% endfor %}
+</section>
 
-Hello World !
+<aside class="col-md-2 hidden-sm hidden-xs" id="sidebar">
+    <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="0" role="tablist">
+        {% for post in site.posts %}
+            <li><a href="#post-{{ forloop.index }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</aside>
+
+<script type="text/javascript">
+ $('body').scrollspy({ target: '#sidebar' });
+ /* http://stackoverflow.com/q/18683303 */
+ $(function() {
+     var $affixElement = $('ul[data-spy="affix"]');
+     $affixElement.width($affixElement.parent().width());
+ });
+</script>

@@ -1,0 +1,10 @@
+title: ???
+email: najib.idrissi-kaitouni@math.univ-lille1.fr
+description: ???
+baseurl: ""
+url: "http://nidrissi.github.io"
+github_username: nidrissi
+
+markdown: kramdown
+highlighter: pygments
+permalink: /:year/:month/:day/:title/

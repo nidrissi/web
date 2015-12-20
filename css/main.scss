@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$font-size-base: 16px;
+
+@import "bootstrap";
+@import "pygments";
+
+// navbar
+$navbar-skip: $navbar-height + 20px;
+body {
+  padding-top: $navbar-skip;
+}
+
+// so that anchors work correctly
+// http://stackoverflow.com/a/9618795
+.target:before {
+  content: "";
+  display: block;
+  height: $navbar-skip;
+  margin: -$navbar-skip 0 0;
+}
+
+.post-time {
+  display: block;
+  margin-top: -.6rem;
+  margin-bottom: 2rem;
+  color: #9a9a9a;
+}
