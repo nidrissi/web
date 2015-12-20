@@ -7,7 +7,7 @@ layout: default
         <div class="post-time">
             <span class="fa fa-clock-o"></span>
             <time datetime="{{ page.date }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-            &ndash;
+            |
             <span class="fa fa-comment"></span> <a href="{{ page.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Comments</a>
         </div>
     </header>
