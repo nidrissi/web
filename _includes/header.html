@@ -20,7 +20,7 @@
                             <li {% if page.url == node.url %} class="active" {% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
                         {% endif %}
                     {% endfor %}
-                    <li><a href="/feed.xml"><i class="fa fa-rss"></i> RSS</a>
+                    <li><a href="/feed.xml"><i class="fa fa-feed"></i> RSS</a>
                     {% for link in site.data.links %}
                         <li><a href="{{ link.url }}"><span class="glyphicon glyphicon-new-window"></span> {{ link.name }}</a></li>
                     {% endfor %}
