@@ -20,6 +20,8 @@
                             <li {% if page.url == node.url %}class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
                         {% endif %}
                     {% endfor %}
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     {% for link in site.data.links %}
                         <li><a href="{{ link.url }}" {% if link.rel %}rel="{{ link.rel }}"{% endif %}>{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %} {{ link.name }}</a></li>
                     {% endfor %}
