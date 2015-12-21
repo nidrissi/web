@@ -12,7 +12,7 @@ layout: default
                     <i class="fa fa-clock-o"></i>
                     <time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
                     |
-                    <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
+                    <a href="{{ post.url | prepend: site.baseurl }}#comment_target">
                         <i class="fa fa-comment"></i>
                         <span class="disqus-comment-count" data-disqus-identifier="{{ post.id | slugify }}">Comments</span>
                     </a>
