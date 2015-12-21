@@ -3,6 +3,7 @@ email: najib.idrissi.kaitouni@gmail.com
 description: A blog about operads, algebraic topology, itself, and whatever else I think about.
 baseurl: ""
 url: "https://nidrissi.github.io"
+disqus: nidrissi
 
 markdown: kramdown
 highlighter: pygments
