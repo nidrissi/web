@@ -1,0 +1,13 @@
+- name: GitHub
+  icon: github
+  url: https://github.com/nidrissi
+  rel: me
+
+- name: Math
+  icon: university
+  url: http://math.univ-lille1.fr/~idrissi
+  rel: me
+
+- name: RSS
+  icon: feed
+  url: /feed.xml
