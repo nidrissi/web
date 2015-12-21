@@ -2,7 +2,7 @@ title: Najib Idrissi
 email: najib.idrissi.kaitouni@gmail.com
 description: ???
 baseurl: ""
-url: "http://nidrissi.github.io"
+url: "https://nidrissi.github.io"
 
 markdown: kramdown
 highlighter: pygments
