@@ -3,14 +3,10 @@
 ---
 @charset "utf-8";
 
-// bootstrap configuration
-$font-size-base: 16px;
-
-@import "bootstrap";
 @import "pygments";
 
 // navbar
-$navbar-skip: $navbar-height + 20px;
+$navbar-skip: 70px;
 body {
   padding-top: $navbar-skip;
 }
