@@ -9,10 +9,13 @@ layout: default
                     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h1>
                 <div class="post-time">
-                    <span class="fa fa-clock-o"></span>
+                    <i class="fa fa-clock-o"></i>
                     <time datetime="{{ post.date }}">{{ post.date | date: "%b %-d, %Y" }}</time>
                     |
-                    <span class="fa fa-comment"></span> <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a>
+                    <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
+                        <i class="fa fa-comment"></i>
+                        <span class="disqus-comment-count" data-disqus-identifier="{{ post.id }}">Comments</span>
+                    </a>
                 </div>
             </header>
             {{ post.content }}
