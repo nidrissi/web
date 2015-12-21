@@ -8,9 +8,13 @@ layout: default
             <span class="fa fa-clock-o"></span>
             <time datetime="{{ page.date }}">{{ page.date | date: "%b %-d, %Y" }}</time>
             |
-            <span class="fa fa-comment"></span> <a href="{{ page.url | prepend: site.baseurl }}#disqus_thread" data-disqus-identifier="{{ page.id }}">Comments</a>
+            <a href="#disqus_thread">
+                <i class="fa fa-comment"></i>
+                <span class="disqus-comment-count" data-disqus-identifier="{{ page.id }}">Comments</span>
+            </a>
         </div>
     </header>
     {{ content }}
     {% include disqus.html %}
 </section>
+<script id="dsq-count-scr" src="//nidrissi.disqus.com/count.js" async></script>
