@@ -5,7 +5,7 @@ layout: default
     {% for post in site.posts %}
         <article>
             <header>
-                <h1 id="{{ post.id | replace:'/','' }}" class="target">
+                <h1 id="{{ post.id | slugify }}" class="target">
                     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h1>
                 <div class="post-time">
@@ -31,7 +31,7 @@ layout: default
     <h4>Navigation</h4>
     <ul class="nav nav-pills nav-stacked" role="tablist" id="post-list">
         {% for post in site.posts %}
-            <li><a href="#{{ post.id | replace: '/','' }}">{{ post.title }}</a></li>
+            <li><a href="#{{ post.id | slugify }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
     </div>
