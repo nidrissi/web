@@ -14,7 +14,7 @@ layout: default
                     |
                     <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">
                         <i class="fa fa-comment"></i>
-                        <span class="disqus-comment-count" data-disqus-identifier="{{ post.id }}">Comments</span>
+                        <span class="disqus-comment-count" data-disqus-identifier="{{ post.id | slugify }}">Comments</span>
                     </a>
                 </div>
             </header>

@@ -10,7 +10,7 @@ layout: default
             |
             <a href="#disqus_thread">
                 <i class="fa fa-comment"></i>
-                <span class="disqus-comment-count" data-disqus-identifier="{{ page.id }}">Comments</span>
+                <span class="disqus-comment-count" data-disqus-identifier="{{ page.id | slugify }}">Comments</span>
             </a>
         </div>
     </header>
