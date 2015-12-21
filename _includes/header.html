@@ -21,7 +21,7 @@
                         {% endif %}
                     {% endfor %}
                     {% for link in site.data.links %}
-                        <li><a href="{{ link.url }}" {% if link.rel %}rel="{{ link.rel }}"{% endif %}>{% if link.icon %}<span class="fa fa-{{ link.icon }}"></span>{% endif %} {{ link.name }}</a></li>
+                        <li><a href="{{ link.url }}" {% if link.rel %}rel="{{ link.rel }}"{% endif %}>{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i>{% endif %} {{ link.name }}</a></li>
                     {% endfor %}
                 </ul>
             </div>
