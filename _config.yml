@@ -5,5 +5,5 @@ baseurl: ""
 url: "https://nidrissi.github.io"
 
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 permalink: /:year/:month/:day/:title/
