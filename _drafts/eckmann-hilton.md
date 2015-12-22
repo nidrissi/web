@@ -192,9 +192,52 @@ proof looks just like the picture at the beginning of the section.
 
 ### Monoids and comonoids
 
-Let $$\mathsf{C}$$ be a symmetric monoidal category. A *comonoid* in
+Let $$\mathsf{C}$$ be a cartesian closed category. A *comonoid* in
 $$\mathsf{C}$$ is a monoid in the opposite category
-$$\mathsf{C}^{op}$$. More explicitly, it's an object $$X$$ equipped
-with a "comultiplication" $$\Delta : X \to X \otimes X$$ and a
-"counit" $$\epsilon : X \to 1_{\mathsf{C}}$$ satisfying axioms
-formally dual to that a of a monoid.
+$$\mathsf{C}^{op}$$, equipped with the tensor product given by the
+categorical coproduct. More explicitly, it's an object $$X$$ equipped
+with a "comultiplication" $$\Delta : X \to X \sqcup X$$ and a "counit"
+$$\epsilon : X \to *$$ satisfying axioms formally dual to that a of a
+monoid.
+
+Then if $$M$$ is a monoid in $$\mathsf{C}$$ (with respect to the
+tensor product given by the categorical product), the hom-set
+$$\hom_{\mathsf{C}}(X,M)$$ is equipped with two different
+multiplications: given $$f,g : X \to M$$, one can either consider
+$$f*g : X \to M$$ given by $$X \xrightarrow{\Delta} X \sqcup X
+\xrightarrow{f \sqcup g} M$$, or $$f \cdot g$$ given by $$X
+\xrightarrow{(f,g)} M \times M \xrightarrow{\mu} M$$. 
+One can then check that both are compatible in the sense of
+Eckmann--Hilton, thus $$\hom_{\mathsf{C}}(X,M)$ is a commutative
+monoid.
+
+This is a generalization of the fact about the fundamental groups: let
+$$\mathsf{C} = \mathsf{Top}_*$$ be the category of pointed topological
+spaces. Then $$S^1$$, equipped with the "pinch map" $$S^1 \to S^1 \vee
+S^1$$ that collapses two points, is a comonoid up to homotopy; hence
+if $$M$$ is an H-space, then $$[S^1, M] =: \pi_1(M)$$ is abelian.
+
+### Center of a category
+
+Natural transformations between functors can be composed in two
+different ways:
+
+1. If $$F,G,H : \mathsf{C} \to \mathsf{D}$$ are functors and
+   $$\alpha : F \to G$$ and $$\beta : G \to H$$ are natural
+   transformations, then there is a "vertical composite" $$\beta \circ
+   \alpha : F \to G$$ given componentwise by $$(\beta \circ \alpha)_X
+   = \beta_X \circ \alpha_X$$:
+2. If $$F_1, G_1 : \mathsf{C} \to \mathsf{D}$$ and $$F_2, G_2 :
+   \mathsf{D} \to \mathsf{E}$$ are functors and $$\beta : F_1 \to
+   G_1$$, $$\beta : F_2 \to G_2$$ are natural transformation, there
+   is an horizontal composite $$\alpha * \alpha$$.
+
+![vertical composition](/images/eh-arg-vert.png){:height="100px"}
+![horizontal composition](/images/eh-arg-horiz.png){:height="100px"}
+
+So if one only considers natural transformations from the identity
+functor $$\operatorname{id}_{\mathsf{C}}$$ to itself, one gets two
+different composition laws on
+$$Z(\mathsf{C}) = \operatorname{End}(\operatorname{id}_{\mathsf{C}})$$. Again these two
+laws satisfy the interchange law, and thus $$Z(C)$$, called the
+*center* of the category $$\mathsf{C}$$, is abelian.
