@@ -11,6 +11,6 @@ Hi! My name is Najib Idrissi. I'm a PhD student at [Université Lille 1](http://
 
 I'm mainly interested in [operads](https://en.wikipedia.org/wiki/Operad_theory) and their applications to algebraic topology, homological algebra and quantum field theory. My main goal right now is to exploit the formality of the $E_n$-operads to try and compute explicitly [factorization homology](https://ncatlab.org/nlab/show/factorization+homology) in some cases.
 
-I also have a [webpage hosted by my lab](http://math.univ-lille1.fr/~idrissi), where you can find information about my research, my CV, more contact information...
+I also have a [webpage hosted by my lab](http://math.univ-lille1.fr/~idrissi){:rel="me"}, where you can find information about my research, my CV, more contact information...
 
-I use [Math.StackExchange](http://math.stackexchange.com/users/10014/najib-idrissi) often, and I'm also on [MathOverflow](http://mathoverflow.net/users/36146/najib-idrissi). My ORCID: [![ORCID](/images/orcid.png){:height="16"} orcid.org/0000-0001-7288-6726](http://orcid.org/0000-0001-7288-6726){:rel="me"}.
+I use [Math.StackExchange](http://math.stackexchange.com/users/10014/najib-idrissi){:rel="me"} often, and I'm also on [MathOverflow](http://mathoverflow.net/users/36146/najib-idrissi){:rel="me"}. My ORCID: [![ORCID](/images/orcid.png){:height="16"} orcid.org/0000-0001-7288-6726](http://orcid.org/0000-0001-7288-6726){:rel="me"}.
