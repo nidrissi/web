@@ -13,4 +13,4 @@ I'm mainly interested in [operads](https://en.wikipedia.org/wiki/Operad_theory) 
 
 I also have a [webpage hosted by my lab](http://math.univ-lille1.fr/~idrissi), where you can find information about my research, my CV, more contact information...
 
-I use [Math.StackExchange](http://math.stackexchange.com/users/10014/najib-idrissi) often, and I'm also on [MathOverflow](http://mathoverflow.net/users/36146/najib-idrissi).
+I use [Math.StackExchange](http://math.stackexchange.com/users/10014/najib-idrissi) often, and I'm also on [MathOverflow](http://mathoverflow.net/users/36146/najib-idrissi). My ORCID: [![ORCID](/images/orcid.png){:height="16"} orcid.org/0000-0001-7288-6726](http://orcid.org/0000-0001-7288-6726){:rel="me"}.
