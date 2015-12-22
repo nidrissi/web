@@ -7,17 +7,12 @@
                 <h1 id="{{ post.id | slugify }}" class="target">
                     <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                 </h1>
-                <div class="post-time">
-                    <i class="fa fa-clock-o"></i>
-                    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-                    |
-                    <a href="{{ post.url | prepend: site.baseurl }}#comments">
-                        <i class="fa fa-comment"></i>
-                        <span class="disqus-comment-count" data-disqus-identifier="{{ post.id | slugify }}">Comments</span>
-                    </a>
-                </div>
+                {% include time.html post=post link=1 %}
             </header>
             {{ post.content }}
+            <footer class="pull-right">
+                {% include time.html post=post link=1 %}
+            </footer>
         </article>
         {% unless forloop.last %}
             <hr>

@@ -26,3 +26,12 @@ body {
   margin-bottom: 2rem;
   color: #9a9a9a;
 }
+
+// unstyled links
+.link-unstyled {
+  color: inherit;
+  text-decoration: inherit;
+}
+.link-unstyled:hover {
+  color: inherit;
+}
