@@ -1,6 +1,7 @@
 ---
 title: "The Eckmann–Hilton argument"
 draft: 1
+tags: math homotopy operads
 ---
 
 As promised, this post is about the famous
@@ -124,6 +125,59 @@ loop equal to $e$), and they are compatible in the sense of
 Eckmann--Hilton. It thus follows:
 
 1. That these laws are equal, meaning that the concatenation of two
-loops is homotopic to their product with $\mu$;
+   loops is homotopic to their product with $\mu$;
 2. And commutative, meaning that the concatenation of two loops is
    homotopic to their concatenation in the reverse order!
+
+This has immediate consequences: a space like $S^1 \vee S^1$ with a
+nonabelian fundamental group cannot be given an H-space structure.
+
+### Higher homotopy groups
+
+This section can be summarized by this picture:
+
+![homotopy between fg and gf](/images/eh-arg-htpy.png){:height="130px"}
+
+It is a depiction of the Eckmann--Hilton argument applied to
+$\pi_2(X)$. To understand it, consider a set $M$ with two monoid
+structures; instead of writing them with two different operators,
+represent one of them with horizontal multiplication and the other
+with vertical multiplication, like this:
+
+$$a * b = \begin{pmatrix} a & b \end{pmatrix},
+\qquad
+a \cdot b = \begin{pmatrix} b \\ a \end{pmatrix}.$$
+
+The interchange law then exactly says that this multiplication is not
+ambiguous:
+
+$$\begin{pmatrix} c & d \\ a & b \end{pmatrix}$$
+
+One can either multiply first each line horizontally and then
+vertically to get $(a * b) \cdot (c * d)$, or first each column
+vertically and then horizontally to get $(a \cdot c) * (b \cdot d)$,
+and both are equal by the interchange law. The proof of the
+Eckmann--Hilton argument then goes like this:
+
+$$\begin{align}
+\begin{pmatrix} a & b \end{pmatrix}
+& = \begin{pmatrix} 1 & b \\ a & 1 \end{pmatrix} \\
+& = \begin{pmatrix} b \\ a \end{pmatrix} \\
+& = \begin{pmatrix} b & 1 \\ 1 & a \end{pmatrix} \\
+& = \begin{pmatrix} b & a \end{pmatrix}
+\end{align}$$
+
+This is very similar to the picture at the beginning of the section!
+To understand it, recall that the second fundamental group
+$\pi_2(X,e)$ can be defined as the set:
+
+$$ \pi_2(X,e) = \{ \gamma : [0,1]^2 \to X \mid \gamma(\partial
+[0,1]^2) = \{ x_0 \} \} / \sim$$
+
+quotiented out by homotopy of maps. Since the square $[0,1]^2$ is
+two-dimensional, $\pi_2(X,e)$ has two composition laws: concatenation
+in the horizontal direction, and concatenation in the vertical
+direction. Both are associative, and they satisfy the interchange law
+(the reader is advised to draw a picture), so by the Eckmann--Hilton
+argument, both are equal and commutative! And the proof looks just
+like the picture at the beginning of the section.
