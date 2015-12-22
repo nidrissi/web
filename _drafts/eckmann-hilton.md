@@ -188,8 +188,6 @@ proof looks just like the picture at the beginning of the section.
  an H-space (by concatenation of loops), then its fundamental group is
  abelian. By induction $$\pi_n(X)$$ is abelian for all $$n$.
 
-## More advanced examples
-
 ### Monoids and comonoids
 
 Let $$\mathsf{C}$$ be a cartesian closed category. A *comonoid* in
@@ -217,7 +215,9 @@ spaces. Then $$S^1$$, equipped with the "pinch map" $$S^1 \to S^1 \vee
 S^1$$ that collapses two points, is a comonoid up to homotopy; hence
 if $$M$$ is an H-space, then $$[S^1, M] =: \pi_1(M)$$ is abelian.
 
-### Center of a category
+## Center of a category
+
+### Variant 1
 
 Natural transformations between functors can be composed in two
 different ways:
@@ -240,4 +240,44 @@ functor $$\operatorname{id}_{\mathsf{C}}$$ to itself, one gets two
 different composition laws on
 $$Z(\mathsf{C}) = \operatorname{End}(\operatorname{id}_{\mathsf{C}})$$. Again these two
 laws satisfy the interchange law, and thus $$Z(C)$$, called the
-*center* of the category $$\mathsf{C}$$, is abelian.
+*center* of the category $$\mathsf{C}$$, is abelian. If $$\mathsf{C}$$
+is a monoid seen as a category with one object, then $$Z(\mathsf{C})$$
+is the usual center of the monoid.
+
+### Variant 2
+
+Let $$(\mathsf{C}, \otimes, 1)$$ be a monoidal category. Then
+endomorphisms of the unit objects can be multiplied in two ways: the
+usual composition of morphisms, or a kind of convolution given by
+
+$$f * g : 1 \cong 1 \otimes 1 \xrightarrow{f \otimes g} 1 \otimes 1
+\cong 1.$$
+
+Then both laws are compatible (this isn't easy to check!), and thus in
+a monoidal category, $$\operatorname{End}(1)$$ is abelian. This
+implies that if an object $$X$$ in some category has nonabelian monoid
+of endomorphisms, then that category cannot be given a monoidal
+structure with $X$ as the unit.
+
+### Common generalization
+
+Both variants can be generalized by looking at bicategories. If
+$$\mathscr{C}$$ is a bicategory and $$X$$ is an object, then the
+endomorphisms $$\operatorname{End}(\operatorname{id}_X)$$ of the
+identity of $$X$$ forms an abelian monoid, just like in variant 1.
+
+1. By taking $$\mathscr{C} = \mathsf{Cat}$$, one exactly recovers
+   variant 1;
+2. If $$\mathsf{C}$$ is a monoidal category, then its "suspension"
+   $$\Sigma \mathsf{C}$$ is a bicategory with one object; 1-morphisms
+   are objects of $$\mathsf{C}$$, while 2-morphisms are morphisms of
+   $$\mathsf{C}$$. Horizontal composition is given by tensor product
+   of objects and vertical composition by composition in
+   $$\mathsf{C}$$. Then the endomorphisms of $$* \in \Sigma
+   \mathsf{C}$$ (seen as a bicategory) is exactly the center of
+   $$\mathsf{C}$$ (seen as a monoidal category as in variant 2).
+
+
+## References
+
+- B. Eckmann and P. J. Hilton. “Group-like structures in general categories. I. Multiplications and comultiplications”. In: Math. Ann. 145 (1961–1962), pp. 227–255. ISSN: 0025-5831. [MR0136642](http://www.ams.org/mathscinet-getitem?mr=0136642).
