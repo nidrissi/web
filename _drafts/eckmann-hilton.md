@@ -277,7 +277,37 @@ identity of $$X$$ forms an abelian monoid, just like in variant 1.
    \mathsf{C}$$ (seen as a bicategory) is exactly the center of
    $$\mathsf{C}$$ (seen as a monoidal category as in variant 2).
 
+### Drinfeld center
+
+There exists another, completely different notion of center of a
+monoidal category, called the *Drinfeld center* (independently due to
+Drinfeld and Joyal--Street). It is morally the categorification of the
+notion of center of a monoid (a monoidal category is the same thing as
+a monoid in the category of categories).
+
+Unlike everything we've seen so far, the Drinfeld center of a monoidal
+category isn't a "commutative" (symmetric) monoidal category -- it's a
+**braided** monoidal category, something in-between a monoidal
+category and a monoidal category. A braided monoidal category is a
+monoidal category $$(\mathsf{C}, \otimes)$$ equipped with a braiding,
+that is a natural isomorphism $$\tau_{X,Y} : X \otimes Y \to Y \otimes
+X$$ satisfying some coherence equations; but unlike a symmetric
+monoidal category, $$\tau_{Y,X} \circ \tau_{X,Y}$$ is not the identity
+of $$X \otimes Y$$.
+
+Given a monoidal category $$\mathsf{C}$$, the Drinfeld center
+$$\mathscr{Z}(\mathsf{C})$$ has for objects pairs $$(X, \Phi)$$, where
+$$X$$ is an object of $$\mathsf{C}$$ and $$\Phi$$ is a half-braiding:
+a natural isomorphism $$X \otimes - \to - \otimes X$$. Composition,
+tensor product and braided structure are defined in the obvious way
+(the unconvinced reader is encouraged to write down commutative
+diagrams). Then:
+
+> **Theorem [Drinfeld, Joyal--Street].** The center
+> $$\mathscr{Z}(\mathsf{C})$$ is a braided monoidal category.
 
 ## References
 
-- B. Eckmann and P. J. Hilton. “Group-like structures in general categories. I. Multiplications and comultiplications”. In: Math. Ann. 145 (1961–1962), pp. 227–255. ISSN: 0025-5831. [MR0136642](http://www.ams.org/mathscinet-getitem?mr=0136642).
+- Beno Eckmann and Peter J. Hilton. “Group-like structures in general categories. I. Multiplications and comultiplications”. In: *Math. Ann.* 145 (1961–1962), pp. 227–255. ISSN: 0025-5831. [MR0136642](http://www.ams.org/mathscinet-getitem?mr=0136642).
+- Shahn Majid. “Representations, duals and quantum doubles of monoidal categories”. In: *Proceedings of the Winter School on Geometry and Physics (Srní, 1990)*. 26. 1991, pp. 197–206. [MR1151906](http://www.ams.org/mathscinet-getitem?mr=1151906). *(Note: Majid cites a personal communication of Drinfeld where Drinfeld tells him about the Drinfeld center.)* 
+- André Joyal and Ross Street. “Tortile Yang-Baxter operators in tensor categories”. In: *J. Pure Appl. Algebra* 71.1 (1991), pp. 43–51. ISSN: 0022-4049. DOI: [10.1016/0022-4049(91)90039-5](http://dx.doi.org/10.1016/0022-4049(91)90039-5). [MR1107651](http://www.ams.org/mathscinet-getitem?mr=1107651).
