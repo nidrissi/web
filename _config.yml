@@ -1,4 +1,6 @@
 title: Najib Idrissi
+name: Najib Idrissi
+author: Najib Idrissi # for jekyll-feed
 email: najib.idrissi.kaitouni@gmail.com
 description: A blog about math, operads, algebraic topology, itself, and whatever else I can think about.
 baseurl: ""
@@ -10,6 +12,7 @@ highlighter: pygments
 permalink: /:year/:month/:day/:title/
 
 gems:
+  - jekyll-feed
   - jekyll-sitemap
 
 defaults:
