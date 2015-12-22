@@ -9,6 +9,9 @@ markdown: kramdown
 highlighter: pygments
 permalink: /:year/:month/:day/:title/
 
+gems:
+  - jekyll-sitemap
+
 defaults:
   -
     scope:
