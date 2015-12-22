@@ -225,7 +225,7 @@ different ways:
 1. If $$F,G,H : \mathsf{C} \to \mathsf{D}$$ are functors and
    $$\alpha : F \to G$$ and $$\beta : G \to H$$ are natural
    transformations, then there is a "vertical composite" $$\beta \circ
-   \alpha : F \to G$$ given componentwise by $$(\beta \circ \alpha)_X
+   \alpha : F \to G$$ given component-wise by $$(\beta \circ \alpha)_X
    = \beta_X \circ \alpha_X$$:
 2. If $$F_1, G_1 : \mathsf{C} \to \mathsf{D}$$ and $$F_2, G_2 :
    \mathsf{D} \to \mathsf{E}$$ are functors and $$\beta : F_1 \to
@@ -277,7 +277,7 @@ identity of $$X$$ forms an abelian monoid, just like in variant 1.
    \mathsf{C}$$ (seen as a bicategory) is exactly the center of
    $$\mathsf{C}$$ (seen as a monoidal category as in variant 2).
 
-### Drinfeld center
+### Different variant: the Drinfeld center
 
 There exists another, completely different notion of center of a
 monoidal category, called the *Drinfeld center* (independently due to
@@ -306,8 +306,55 @@ diagrams). Then:
 > **Theorem [Drinfeld, Joyal--Street].** The center
 > $$\mathscr{Z}(\mathsf{C})$$ is a braided monoidal category.
 
+The Drinfeld center also has a completely abstract definition: it is
+the monoidal category of endo-2-functors of the suspension $$\Sigma
+\mathsf{C}$$ (the 2-category with one object associated to
+$$\mathsf{C}$$).
+
+For those interested, I wrote
+[a paper](http://arxiv.org/abs/1507.06844) explaining how algebras on
+the groupoid of the Swiss-Cheese operad are "the same thing" as
+triples $$(\mathsf{M}, \mathsf{N}, F)$$ where $$\mathsf{N}$$ is a
+monoidal category, $$\mathsf{M}$$ is a braided monoidal category, and
+$$F : \mathsf{M} \to \mathscr{Z}(\mathsf{N})$$ is a braided monoidal
+functor. I intend to speak more about that later.
+
+## $$k$$-fold monoidal categories
+
+The Drinfeld center is, in many respects, the "correct" notion of
+center for a monoidal category -- but it is not symmetric, only
+braided. There is some amount of commutativity lost when one goes to
+higher dimensional category theory. This is explained by Baez and
+Dolan in their article (cf. [References](#references)) through
+$$k$$-tuply monoidal $$n$$-categories, an $$n$$-category equipped with
+$$k$$ different "compatible" monoidal structures.
+
+By the Eckmann--Hilton argument, all these monoidal structures are
+equal, but the amount of commutativity one gets changes depending on
+$$n$$ and $$k$$. These types of categories eventually stabilize to a
+"fully symmetric" structure for $$k > n + 1$$, as in this table (Table
+21 in [Baez and Dolan]):
+
+| | $$n=0$$ | $$n=1$$ | $$n=2$$ |
+| $$k=0$$ | sets | categories | 2-categories |
+| $$k=1$$ | monoids | monoidal categories | monoidal 2-categories |
+| $$k=2$$ | commutative monoids | braided monoidal categories | braided monoidal 2-categories |
+| $$k=3$$ | " | symmetric monoidal categories | weakly involutory monoidal 2-categories |
+| $$k=4$$ | " | " | strongly involutory monoidal 2-categories |
+| $$k=5$$ | " | " | " |
+{:.table}
+
+This *Stabilization Hypothesis* is one of the features that is
+expected of any good notion of $$\infty$$-categories, inspired by the
+Freudenthal suspension theorem. The notion of $$k$$-fold monoidal
+categories also appears to be linked to the theory of $$E_k$$-operads
+(cf. [Balteanu et al.]), something on which I intend to speak later
+(cliff-hanger!).
+
 ## References
 
 - Beno Eckmann and Peter J. Hilton. “Group-like structures in general categories. I. Multiplications and comultiplications”. In: *Math. Ann.* 145 (1961–1962), pp. 227–255. ISSN: 0025-5831. [MR0136642](http://www.ams.org/mathscinet-getitem?mr=0136642).
 - Shahn Majid. “Representations, duals and quantum doubles of monoidal categories”. In: *Proceedings of the Winter School on Geometry and Physics (Srní, 1990)*. 26. 1991, pp. 197–206. [MR1151906](http://www.ams.org/mathscinet-getitem?mr=1151906). *(Note: Majid cites a personal communication of Drinfeld where Drinfeld tells him about the Drinfeld center.)* 
 - André Joyal and Ross Street. “Tortile Yang-Baxter operators in tensor categories”. In: *J. Pure Appl. Algebra* 71.1 (1991), pp. 43–51. ISSN: 0022-4049. DOI: [10.1016/0022-4049(91)90039-5](http://dx.doi.org/10.1016/0022-4049(91)90039-5). [MR1107651](http://www.ams.org/mathscinet-getitem?mr=1107651).
+- John C. Baez and James Dolan. “Higher-dimensional algebra and topological quantum field theory”. In: *J. Math. Phys.* 36.11 (1995), pp. 6073–6105. ISSN: 0022-2488. DOI: [10.1063/1.531236](http://dx.doi.org/10.1063/1.531236). arXiv: [q-alg/9503002 [math.QA]](http://arxiv.org/abs/q-alg/9503002). [MR1355899](http://www.ams.org/mathscinet-getitem?mr=1355899).
+- Cornel Balteanu, Zbigniew Fiedorowicz, Roland Schwänzl, and Rainer M. Vogt. “Iterated monoidal categories”. In: *Adv. Math.* 176.2 (2003), pp. 277–349. ISSN: 0001-8708. DOI: [10.1016/S0001-8708(03)00065-3](http://dx.doi.org/10.1016/S0001-8708(03)00065-3). arXiv: [math/9808082 [math.AT]](http://arxiv.org/abs/math/9808082). [MR1982884](http://www.ams.org/mathscinet-getitem?mr=1982884).
