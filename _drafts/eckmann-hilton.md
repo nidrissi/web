@@ -22,7 +22,7 @@ the Eckmann--Hilton argument. You can find it
 mind that we were undergrads when we wrote this).
 
 This was my first exposure to many topics: algebraic topology,
-operads, $\infty$-categories... And it definitely shaped up my current
+operads, $$\infty$$-categories... And it definitely shaped up my current
 mathematical interests. I still remember trying to read Lurie's
 *Higher Algebra* armed only with point-set topology and basic category
 theory! Needless to say I didn't get very far. I very much enjoyed the
@@ -32,13 +32,13 @@ experience anyway.
 
 Without further ado, here is the theorem:
 
-> **Theorem (Eckmann--Hilton argument).** Let $M$ be a set equipped
+> **Theorem (Eckmann--Hilton argument).** Let $$M$$ be a set equipped
 > with two [monoid](https://en.wikipedia.org/wiki/Monoid) structures
-> $$(M,*)$$ and $$(M, \cdot)$$ sharing the same unit $1 \in M$. Assume
-> that they satisfy the *interchange law*:
+> $$(M,*)$$ and $$(M, \cdot)$$ sharing the same unit $$1 \in
+> M$$. Assume that they satisfy the *interchange law*:
 > \\[ (a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d), \; \forall a,b,c,d \in M. \\]
-> Then both structures are equal ($a * b = a \cdot b$) and moreover
-> they are commutative ($a * b = b * a$).
+> Then both structures are equal ($$a * b = a \cdot b$$) and moreover
+> they are commutative ($$a * b = b * a$$).
 
 Basically, what this means is that if you have a set with two
 "compatible" laws on it, then they are equal *and commutative*. It's
@@ -75,17 +75,17 @@ monoids. Thus we get a reformulation of the Eckmann--Hilton argument
 > in the category of monoids is an abelian monoid.
 
 Reformulated in this way, the argument immediately generalizes. Let
-$(\mathsf{C}, \otimes)$ be a monoidal category. The category
-$\mathsf{Mon}(\mathsf{C})$ is the category of monoid objects in
-$\mathsf{C}$: its objects are triplet $(M, \mu, \eta)$, where $M$ is
-an object of $\mathsf{C}$, $\mu : M^2 \to M$ and $\eta :
-1_{\mathsf{C}} \to M$ satisfy the axioms of a monoid (associativity,
+$$(\mathsf{C}, \otimes)$$ be a monoidal category. The category
+$$\mathsf{Mon}(\mathsf{C})$$ is the category of monoid objects in
+$$\mathsf{C}$$: its objects are triplet $$(M, \mu, \eta)$$, where
+$$M$$ is an object of $$\mathsf{C}$$, $$\mu : M^2 \to M$$ and $$\eta :
+1_{\mathsf{C}} \to M$$ satisfy the axioms of a monoid (associativity,
 unitality).
 
-If $\mathsf{C}$ is symmetric monoidal, then $\mathsf{Mon}(C)$ can be
-equipped with a tensor product. If $(M, \mu, \eta)$ and $(M', \mu',
-\eta')$ are two monoids, their tensor product is defined to be $(M
-\otimes M', \tilde{\mu}, \eta \otimes \eta')$, where $\tilde{\mu}$ is
+If $$\mathsf{C}$$ is symmetric monoidal, then $$\mathsf{Mon}(C)$$ can be
+equipped with a tensor product. If $$(M, \mu, \eta)$$ and $$(M', \mu',
+\eta')$$ are two monoids, their tensor product is defined to be $$(M
+\otimes M', \tilde{\mu}, \eta \otimes \eta')$$, where $$\tilde{\mu}$$ is
 the composite (I'm forgetting about associativity constraints):
 
 $$M \otimes M' \otimes M \otimes M' \xrightarrow{\operatorname{id}
@@ -93,12 +93,12 @@ $$M \otimes M' \otimes M \otimes M' \xrightarrow{\operatorname{id}
 M' \otimes M' \xrightarrow{\mu \otimes \mu'} M \otimes M'.$$
 
 So one can speak about monoid objects inside
-$\mathsf{Mon}(\mathsf{CC})$. Then the Eckmann--Hilton argument says:
+$$\mathsf{Mon}(\mathsf{CC})$$. Then the Eckmann--Hilton argument says:
 
-> **Theorem.** Let $(\mathsf{C}, \otimes)$ be a symmetric monoidal
+> **Theorem.** Let $$(\mathsf{C}, \otimes)$$ be a symmetric monoidal
 > category. Then the category of monoid objects in
-> $\mathsf{Mon}(\mathsf{C})$ is equivalent to the category
-> $\mathsf{Mon}_{ab}(\mathsf{C})$ of abelian monoids in $\mathsf{C}$.
+> $$\mathsf{Mon}(\mathsf{C})$$ is equivalent to the category
+> $$\mathsf{Mon}_{ab}(\mathsf{C})$$ of abelian monoids in $$\mathsf{C}$$.
 
 The proof is exactly the same as before, except that you need to
 translate it into commutative diagrams.
@@ -107,29 +107,29 @@ translate it into commutative diagrams.
 
 ### Fundamental groups of H-spaces
 
-An *H-space* is a space $X$ equipped with a "multiplication" $\mu :
-X^2 \to X$ which is unital up to homotopy: there exists $e \in X$ such
-that both $\mu(e, -)$ and $\mu(-,e)$ are homotopic to the identity of
-$X$. Topological monoids are examples of H-spaces.
+An *H-space* is a space $$X$ equipped with a "multiplication" $$\mu :
+X^2 \to X$$ which is unital up to homotopy: there exists $$e \in X$$ such
+that both $$\mu(e, -)$$ and $$\mu(-,e)$$ are homotopic to the identity of
+$$X$. Topological monoids are examples of H-spaces.
 
 Then the Eckmann--Hilton argument can be used to show that the
 [fundamental group](https://en.wikipedia.org/wiki/Fundamental_group)
-$\pi_1(X,e)$ is commutative. Indeed, this fundamental group has two
-multiplications: the usual concatenation of loops $*$, and the
-multiplication of loops $\cdot$ induced by $\mu$, given by:
+$$\pi_1(X,e)$$ is commutative. Indeed, this fundamental group has two
+multiplications: the usual concatenation of loops $$*$, and the
+multiplication of loops $$\cdot$$ induced by $$\mu$$, given by:
 
 $$(\gamma \cdot \gamma')(t) = \mu(\gamma(t), \gamma'(t)).$$
 
 These two laws are unital (the unit being the class of the constant
-loop equal to $e$), and they are compatible in the sense of
+loop equal to $$e$), and they are compatible in the sense of
 Eckmann--Hilton. It thus follows:
 
 1. That these laws are equal, meaning that the concatenation of two
-   loops is homotopic to their product with $\mu$;
+   loops is homotopic to their product with $$\mu$$;
 2. And commutative, meaning that the concatenation of two loops is
    homotopic to their concatenation in the reverse order!
 
-This has immediate consequences: a space like $S^1 \vee S^1$ with a
+This has immediate consequences: a space like $$S^1 \vee S^1$$ with a
 nonabelian fundamental group cannot be given an H-space structure.
 
 ### Higher homotopy groups
@@ -139,7 +139,7 @@ This section can be summarized by this picture:
 ![homotopy between fg and gf](/images/eh-arg-htpy.png){:height="130px"}
 
 It is a depiction of the Eckmann--Hilton argument applied to
-$\pi_2(X)$. To understand it, consider a set $M$ with two monoid
+$$\pi_2(X)$$. To understand it, consider a set $$M$ with two monoid
 structures; instead of writing them with two different operators,
 represent one of them with horizontal multiplication and the other
 with vertical multiplication, like this:
@@ -154,8 +154,8 @@ ambiguous:
 $$\begin{pmatrix} c & d \\ a & b \end{pmatrix}$$
 
 One can either multiply first each line horizontally and then
-vertically to get $(a * b) \cdot (c * d)$, or first each column
-vertically and then horizontally to get $(a \cdot c) * (b \cdot d)$,
+vertically to get $$(a * b) \cdot (c * d)$$, or first each column
+vertically and then horizontally to get $$(a \cdot c) * (b \cdot d)$$,
 and both are equal by the interchange law. The proof of the
 Eckmann--Hilton argument then goes like this:
 
@@ -169,15 +169,32 @@ $$\begin{align}
 
 This is very similar to the picture at the beginning of the section!
 To understand it, recall that the second fundamental group
-$\pi_2(X,e)$ can be defined as the set:
+$$\pi_2(X,e)$$ can be defined as the set:
 
-$$ \pi_2(X,e) = \{ \gamma : [0,1]^2 \to X \mid \gamma(\partial
+$$\pi_2(X,e) = \{ \gamma : [0,1]^2 \to X \mid \gamma(\partial
 [0,1]^2) = \{ x_0 \} \} / \sim$$
 
-quotiented out by homotopy of maps. Since the square $[0,1]^2$ is
-two-dimensional, $\pi_2(X,e)$ has two composition laws: concatenation
-in the horizontal direction, and concatenation in the vertical
-direction. Both are associative, and they satisfy the interchange law
-(the reader is advised to draw a picture), so by the Eckmann--Hilton
-argument, both are equal and commutative! And the proof looks just
-like the picture at the beginning of the section.
+quotiented out by homotopy of maps. Since the square $$[0,1]^2$$ is
+two-dimensional, $$\pi_2(X,e)$$ has two composition laws:
+concatenation in the horizontal direction, and concatenation in the
+vertical direction. Both are associative, and they satisfy the
+interchange law (the reader is advised to draw a picture), so by the
+Eckmann--Hilton argument, both are equal and commutative! And the
+proof looks just like the picture at the beginning of the section.
+
+*Remark.* This can be deduced from the fact that the fundamental group
+ of an H-space is abelian. Indeed, $$\pi_2(X) \cong \pi_1(\Omega X)$$,
+ where $$\Omega X$$ is the loop space of $$X$$; since $$\Omega X$$ is
+ an H-space (by concatenation of loops), then its fundamental group is
+ abelian. By induction $$\pi_n(X)$$ is abelian for all $$n$.
+
+## More advanced examples
+
+### Monoids and comonoids
+
+Let $$\mathsf{C}$$ be a symmetric monoidal category. A *comonoid* in
+$$\mathsf{C}$$ is a monoid in the opposite category
+$$\mathsf{C}^{op}$$. More explicitly, it's an object $$X$$ equipped
+with a "comultiplication" $$\Delta : X \to X \otimes X$$ and a
+"counit" $$\epsilon : X \to 1_{\mathsf{C}}$$ satisfying axioms
+formally dual to that a of a monoid.
