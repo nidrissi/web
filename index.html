@@ -9,7 +9,8 @@
                 </h1>
                 {% include time.html post=post link=1 %}
             </header>
-            {{ post.content }}
+            {{ post.content | truncatewords: 150 }}
+            <a href="{{ post.url | prepend: site.baseurl }}"><i>[Read more]</i></a>
             <footer class="well well-sm">
                 {% include time.html post=post link=1 title=1%}
             </footer>
