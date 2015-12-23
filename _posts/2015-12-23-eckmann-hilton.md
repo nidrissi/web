@@ -4,10 +4,10 @@ tags: math homotopy
 ---
 
 As promised, this post is about the famous
-[Eckmann--Hilton argument](https://en.wikipedia.org/wiki/Eckmann%E2%80%93Hilton_argument). This
-argument, on the surface, looks like a simple algebraic trick; but it
-has deep consequences, which I will now try to explain. This post is
-an expanded version of a
+[Eckmann--Hilton argument](https://en.wikipedia.org/wiki/Eckmann%E2%80%93Hilton_argument).
+This argument, on the surface, looks like a simple algebraic trick;
+but it has deep consequences, which I will now try to explain. This
+post is an expanded version of a
 [math.SE answer](http://math.stackexchange.com/a/1203969/10014) I
 wrote some time ago.
 
@@ -35,7 +35,7 @@ Without further ado, here is the theorem:
 > with two [monoid](https://en.wikipedia.org/wiki/Monoid) structures
 > $$(M,*)$$ and $$(M, \cdot)$$ sharing the same unit $$1 \in
 > M$$. Assume that they satisfy the *interchange law*:
-> \\[ (a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d), \; \forall a,b,c,d \in M. \\]
+> \\[ (a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d). \\]
 > Then both structures are equal ($$a * b = a \cdot b$$) and moreover
 > they are commutative ($$a * b = b * a$$).
 
@@ -87,8 +87,7 @@ equipped with a tensor product. If $$(M, \mu, \eta)$$ and $$(M', \mu',
 \otimes M', \tilde{\mu}, \eta \otimes \eta')$$, where $$\tilde{\mu}$$ is
 the composite (I'm forgetting about associativity constraints):
 
-$$M \otimes M' \otimes M \otimes M' \xrightarrow{\operatorname{id}
-\otimes \sigma_{M, M'} \otimes \operatorname{id}} M \otimes M \otimes
+$$M \otimes M' \otimes M \otimes M' \cong M \otimes M \otimes
 M' \otimes M' \xrightarrow{\mu \otimes \mu'} M \otimes M'.$$
 
 So one can speak about monoid objects inside
