@@ -106,15 +106,15 @@ translate it into commutative diagrams.
 
 ### Fundamental groups of H-spaces
 
-An *H-space* is a space $$X$ equipped with a "multiplication" $$\mu :
+An *H-space* is a space $$X$$ equipped with a "multiplication" $$\mu :
 X^2 \to X$$ which is unital up to homotopy: there exists $$e \in X$$ such
 that both $$\mu(e, -)$$ and $$\mu(-,e)$$ are homotopic to the identity of
-$$X$. Topological monoids are examples of H-spaces.
+$$X$$. Topological monoids are examples of H-spaces.
 
 Then the Eckmann--Hilton argument can be used to show that the
 [fundamental group](https://en.wikipedia.org/wiki/Fundamental_group)
 $$\pi_1(X,e)$$ is commutative. Indeed, this fundamental group has two
-multiplications: the usual concatenation of loops $$*$, and the
+multiplications: the usual concatenation of loops $$*$$, and the
 multiplication of loops $$\cdot$$ induced by $$\mu$$, given by:
 
 $$(\gamma \cdot \gamma')(t) = \mu(\gamma(t), \gamma'(t)).$$
@@ -138,7 +138,7 @@ This section can be summarized by this picture:
 ![homotopy between fg and gf](/images/eh-arg-htpy.png){:height="130px"}
 
 It is a depiction of the Eckmann--Hilton argument applied to
-$$\pi_2(X)$$. To understand it, consider a set $$M$ with two monoid
+$$\pi_2(X)$$. To understand it, consider a set $$M$$ with two monoid
 structures; instead of writing them with two different operators,
 represent one of them with horizontal multiplication and the other
 with vertical multiplication, like this:
@@ -205,7 +205,7 @@ $$f*g : X \to M$$ given by $$X \xrightarrow{\Delta} X \sqcup X
 \xrightarrow{f \sqcup g} M$$, or $$f \cdot g$$ given by $$X
 \xrightarrow{(f,g)} M \times M \xrightarrow{\mu} M$$. 
 One can then check that both are compatible in the sense of
-Eckmann--Hilton, thus $$\hom_{\mathsf{C}}(X,M)$ is a commutative
+Eckmann--Hilton, thus $$\hom_{\mathsf{C}}(X,M)$$ is a commutative
 monoid.
 
 This is a generalization of the fact about the fundamental groups: let
@@ -256,7 +256,7 @@ Then both laws are compatible (this isn't easy to check!), and thus in
 a monoidal category, $$\operatorname{End}(1)$$ is abelian. This
 implies that if an object $$X$$ in some category has nonabelian monoid
 of endomorphisms, then that category cannot be given a monoidal
-structure with $X$ as the unit.
+structure with $$X$$ as the unit.
 
 ### Common generalization
 
