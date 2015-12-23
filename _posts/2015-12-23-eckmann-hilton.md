@@ -135,7 +135,7 @@ nonabelian fundamental group cannot be given an H-space structure.
 
 This section can be summarized by this picture:
 
-![homotopy between fg and gf](/images/eh-arg-htpy.png){:height="130px"}
+![homotopy between fg and gf](/images/eh-arg-htpy.png){:.img-responsive width="550px"}
 
 It is a depiction of the Eckmann--Hilton argument applied to
 $$\pi_2(X)$$. To understand it, consider a set $$M$$ with two monoid
@@ -231,8 +231,8 @@ different ways:
    G_1$$, $$\beta : F_2 \to G_2$$ are natural transformation, there
    is an horizontal composite $$\alpha * \alpha$$.
 
-![vertical composition](/images/eh-arg-vert.png){:height="100px"}
-![horizontal composition](/images/eh-arg-horiz.png){:height="100px"}
+![vertical composition](/images/eh-arg-vert.png){:.img-responsive width="200px"}
+![horizontal composition](/images/eh-arg-horiz.png){:.img-responsive width="280px"}
 
 So if one only considers natural transformations from the identity
 functor $$\operatorname{id}_{\mathsf{C}}$$ to itself, one gets two
