@@ -1,6 +1,6 @@
 ---
 title: "The Eckmann–Hilton argument"
-tags: math homotopy operads
+tags: math homotopy
 ---
 
 As promised, this post is about the famous
