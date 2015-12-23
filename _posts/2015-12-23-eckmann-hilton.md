@@ -38,6 +38,7 @@ Without further ado, here is the theorem:
 > \\[ (a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d). \\]
 > Then both structures are equal ($$a * b = a \cdot b$$) and moreover
 > they are commutative ($$a * b = b * a$$).
+<!--more-->
 
 Basically, what this means is that if you have a set with two
 "compatible" laws on it, then they are equal *and commutative*. It's
