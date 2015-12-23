@@ -1,6 +1,5 @@
 ---
 title: "The Eckmann–Hilton argument"
-draft: 1
 tags: math homotopy operads
 ---
 
