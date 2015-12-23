@@ -16,7 +16,7 @@
                 <ul class="nav navbar-nav">
                     <li {% if page.url == "/index.html" %} class="active" {% endif %}><a href="{{ site.baseurl }}/">Blog</a></li>
                     {% for node in site.pages %}
-                        {% if node.title %}
+                        {% if node.nav %}
                             <li {% if page.url == node.url %}class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
                         {% endif %}
                     {% endfor %}

@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: /about/
+nav: 1
 ---
 
 <div class="pull-right" style="margin: 5px;">
