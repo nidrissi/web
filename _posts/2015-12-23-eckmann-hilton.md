@@ -287,12 +287,12 @@ a monoid in the category of categories).
 Unlike everything we've seen so far, the Drinfeld center of a monoidal
 category isn't a "commutative" (symmetric) monoidal category -- it's a
 **braided** monoidal category, something in-between a monoidal
-category and a monoidal category. A braided monoidal category is a
-monoidal category $$(\mathsf{C}, \otimes)$$ equipped with a braiding,
-that is a natural isomorphism $$\tau_{X,Y} : X \otimes Y \to Y \otimes
-X$$ satisfying some coherence equations; but unlike a symmetric
-monoidal category, $$\tau_{Y,X} \circ \tau_{X,Y}$$ is not the identity
-of $$X \otimes Y$$.
+category and a symmetric monoidal category. A braided monoidal
+category is a monoidal category $$(\mathsf{C}, \otimes)$$ equipped
+with a braiding, that is a natural isomorphism $$\tau_{X,Y} : X
+\otimes Y \to Y \otimes X$$ satisfying some coherence equations; but
+unlike a symmetric monoidal category, $$\tau_{Y,X} \circ \tau_{X,Y}$$
+is not the identity of $$X \otimes Y$$.
 
 Given a monoidal category $$\mathsf{C}$$, the Drinfeld center
 $$\mathscr{Z}(\mathsf{C})$$ has for objects pairs $$(X, \Phi)$$, where
