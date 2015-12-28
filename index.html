@@ -9,7 +9,7 @@ layout: default
                     <h1 id="{{ post.id | slugify }}" class="target">
                         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                     </h1>
-                    {% include time.html post=post link=1 %}
+                    {% include post-meta.html post=post link=1 %}
                 </header>
                 {{ post.excerpt }}
                 <p><a href="{{ post.url | prepend: site.baseurl }}"><i>[Read more...]</i></a></p>
