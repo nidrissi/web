@@ -5,5 +5,5 @@ nav: 1
 ---
 
 {% for post in site.posts %}
-    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time></small></h3>
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small>{% include date.html date=post.date %}</small></h3>
 {% endfor %}

@@ -6,8 +6,7 @@
         |
     {% endif %}
     {% if include.link %}<a href="{{ include.post.url | prepend: site.baseurl }}" class="link-unstyled">{% endif %}
-        <i class="fa fa-clock-o"></i>
-        <time datetime="{{ include.post.date | date: "%Y-%m-%d" }}">{{ include.post.date | date: "%b %-d, %Y" }}</time>
+        <i class="fa fa-clock-o"></i> {% include date.html date=include.post.date %}
     {% if include.link %}</a>{% endif %}
     |
     <a href="{% if include.link %}{{ include.post.url | prepend: site.baseurl }}{% endif %}#comments">
