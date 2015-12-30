@@ -1,5 +1,6 @@
 ---
 title: "Little cubes operad"
+tags: math algtop operads
 draft: 1
 ---
 
