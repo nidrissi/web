@@ -16,7 +16,7 @@
     |
     Tags:
     {% for tag in include.post.tags %}
-        <a href="/tag/{{ tag }}">{{ tag }}</a>
+        <a href="{{ "/tag" | prepend: site.baseurl }}/{{ tag }}">{{ tag }}</a>
         {% unless forloop.last %}&ndash;{% endunless %}
     {% endfor %}
 </div>
