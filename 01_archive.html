@@ -5,5 +5,5 @@ nav: 1
 ---
 
 {% for post in site.posts %}
-    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small>{% include date.html date=post.date %}</small></h3>
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small><i class="fa fa-clock-o"></i> {% include date.html date=post.date %}</small></h3>
 {% endfor %}
