@@ -15,8 +15,11 @@ This was my first exposure to many topics: algebraic topology, operads, $$\infty
 
 Without further ado, here is the theorem:
 
-> **Theorem (Eckmann--Hilton argument).** Let $$M$$ be a set equipped with two [monoid](https://en.wikipedia.org/wiki/Monoid) structures $$(M,*)$$ and $$(M, \cdot)$$ sharing the same unit $$1 \in M$$. Assume that they satisfy the *interchange law*: \\[ (a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d). \\] Then both structures are equal ($$a * b = a \cdot b$$) and moreover they are commutative ($$a * b = b * a$$).
+**Theorem (Eckmann--Hilton argument).** Let $$M$$ be a set equipped with two [monoid](https://en.wikipedia.org/wiki/Monoid) structures $$(M,*)$$ and $$(M, \cdot)$$ sharing the same unit $$1 \in M$$. Assume that they satisfy the *interchange law*:
 
+$$(a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d).$$
+
+Then both structures are equal ($$a * b = a \cdot b$$) and moreover they are commutative ($$a * b = b * a$$).
 <!--more-->
 
 Basically, what this means is that if you have a set with two "compatible" laws on it, then they are equal *and commutative*. It's rather powerful. This theorem can be further refined: you don't need to assume that both laws have the same unit, and you don't even have to assume that they are commutative. It all follows from the interchange law. But for the sack of simplicity I'll stick with these assumptions.
@@ -39,7 +42,7 @@ Pretty nifty!
 
 One can reformulate the interchange law: it is equivalent to the fact that $$* : (M, \cdot)^2 \to (M, \cdot)$$ is a morphism of monoids, and also equivalently, $$\cdot : (M, *)^2 \to (M, *)$$ is a morphism of monoids. Thus we get a reformulation of the Eckmann--Hilton argument (sorry folks, this blog will contain a lot of category theory):
 
-> **Reformulation.** A [monoid object](https://en.wikipedia.org/wiki/Monoid_(category_theory)) in the category of monoids is an abelian monoid.
+**Reformulation.** A [monoid object](https://en.wikipedia.org/wiki/Monoid_(category_theory)) in the category of monoids is an abelian monoid.
 
 Reformulated in this way, the argument immediately generalizes. Let $$(\mathsf{C}, \otimes)$$ be a monoidal category. The category $$\mathsf{Mon}(\mathsf{C})$$ is the category of monoid objects in $$\mathsf{C}$$: its objects are triplet $$(M, \mu, \eta)$$, where $$M$$ is an object of $$\mathsf{C}$$, $$\mu : M^2 \to M$$ and $$\eta : 1_{\mathsf{C}} \to M$$ satisfy the axioms of a monoid (associativity, unitality).
 
@@ -49,7 +52,7 @@ $$M \otimes M' \otimes M \otimes M' \cong M \otimes M \otimes M' \otimes M' \xri
 
 So one can speak about monoid objects inside $$\mathsf{Mon}(\mathsf{CC})$$. Then the Eckmann--Hilton argument says:
 
-> **Theorem.** Let $$(\mathsf{C}, \otimes)$$ be a symmetric monoidal category. Then the category of monoid objects in $$\mathsf{Mon}(\mathsf{C})$$ is equivalent to the category $$\mathsf{Mon}_{ab}(\mathsf{C})$$ of abelian monoids in $$\mathsf{C}$$.
+**Theorem.** Let $$(\mathsf{C}, \otimes)$$ be a symmetric monoidal category. Then the category of monoid objects in $$\mathsf{Mon}(\mathsf{C})$$ is equivalent to the category $$\mathsf{Mon}_{ab}(\mathsf{C})$$ of abelian monoids in $$\mathsf{C}$$.
 
 The proof is exactly the same as before, except that you need to translate it into commutative diagrams.
 
@@ -148,7 +151,7 @@ Unlike everything we've seen so far, the Drinfeld center of a monoidal category 
 
 Given a monoidal category $$\mathsf{C}$$, the Drinfeld center $$\mathscr{Z}(\mathsf{C})$$ has for objects pairs $$(X, \Phi)$$, where $$X$$ is an object of $$\mathsf{C}$$ and $$\Phi$$ is a half-braiding: a natural isomorphism $$X \otimes - \to - \otimes X$$. Composition, tensor product and braided structure are defined in the obvious way (the unconvinced reader is encouraged to write down commutative diagrams). Then:
 
-> **Theorem [Drinfeld, Joyal--Street].** The center $$\mathscr{Z}(\mathsf{C})$$ is a braided monoidal category.
+**Theorem [Drinfeld, Joyal--Street].** The center $$\mathscr{Z}(\mathsf{C})$$ is a braided monoidal category.
 
 The Drinfeld center also has a completely abstract definition: it is the monoidal category of endo-2-functors of the suspension $$\Sigma \mathsf{C}$$ (the 2-category with one object associated to $$\mathsf{C}$$).
 
