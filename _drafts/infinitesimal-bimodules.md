@@ -8,7 +8,7 @@ This post is about something somewhat weird I noticed about infinitesimal bimodu
 
 ## Context: abelian bimodules
 
-As I said, this post is about abelian bimodules, sometimes also called infinitesimal bimodules. They are a "linearized" version of usual bimodules over operads. Let me now recall their definition.
+As I said, this post is about abelian bimodules, sometimes also called infinitesimal or weak bimodules. They are a "linearized" version of usual bimodules over operads. Let me now recall their definition.
 <!--more-->
 
 **Definition.** Let $$\mathtt{P}$$, $$\mathtt{Q}$$ be two operads in a symmetric monoidal category $$\mathsf{C}$$. An *abelian $$(\mathtt{P}, \mathtt{Q})$$-bimodule* is a symmetric collection $$M = \{ M(n) \}_{n \ge 0}$$ equipped with composition morphisms:
@@ -17,4 +17,10 @@ $$M(k) \otimes \mathtt{Q}(l) \xrightarrow{\circ_i} M(k+l-1), \\ \mathtt{P}(k) \o
 
 satisfying obvious equivariance and associativity properties.
 
-By composing multiple times elements of $$M$$ with elements of $$\mathtt{Q}$$, one can give $$M$$ the structure of a full right module over $$\mathtt{Q}$$. However, $$M$$ is not a left module (AKA algebra) over $$\mathtt{P}$$, as only one element of $$M$$ can appear in successive compositions.
+By composing multiple times elements of $$M$$ with elements of $$\mathtt{Q}$$, one can give $$M$$ the structure of a full right module over $$\mathtt{Q}$$. However, $$M$$ is not a left module (AKA algebra) over $$\mathtt{P}$$, as only one element of $$M$$ can appear in successive compositions. Similarly a full bimodule is not necessarily an abelian bimodule. An operad $$\mathtt{P}$$ is always an abelian $$(\mathtt{P}, \mathtt{P})$$-bimodule.
+
+Morally, an abelian bimodule over an operad is exactly the data required to "infinitesimally" extend the operad: if $$M$$ is an abelian bimodule over $$\mathtt{P}$$, then there's an operad $$\mathtt{P} \ltimes M$$ defined by $$(\mathtt{P} \ltimes M)(r) = \mathtt{P}(r) \oplus M(r)$$, and where the composition maps are defined using the composition maps of $$\mathtt{P}$$ and the bimodule structure of $$M$$. See §II.2.1 of [Fresse] for more details.
+
+## References
+
+* Benoit Fresse. [Homotopy of Operads and Grothendieck–Teichmüller Groups](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/). Preprint.
