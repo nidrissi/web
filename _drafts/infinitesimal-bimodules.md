@@ -21,6 +21,12 @@ By composing multiple times elements of $$M$$ with elements of $$\mathtt{Q}$$, o
 
 Morally, an abelian bimodule over an operad is exactly the data required to "infinitesimally" extend the operad: if $$M$$ is an abelian bimodule over $$\mathtt{P}$$, then there's an operad $$\mathtt{P} \ltimes M$$ defined by $$(\mathtt{P} \ltimes M)(r) = \mathtt{P}(r) \oplus M(r)$$, and where the composition maps are defined using the composition maps of $$\mathtt{P}$$ and the bimodule structure of $$M$$. See §II.2.1 of [Fresse] for more details.
 
+## Modules as diagrams
+
+Various categories of (bi)modules over operads can be represented as diagrams over categories associated to these operads. I'll now explain how.
+
 ## References
 
-* Benoit Fresse. [Homotopy of Operads and Grothendieck–Teichmüller Groups](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/). Preprint.
+* Gregory Arone and Victor Turchin. “On the rational homology of high dimensional analogues of spaces of long knots”. In: *Geom. Topol.* 18.3 (2014), pp. 1261–1322. ISSN: 1465-3060. DOI: [10.2140/gt.2014.18.1261](http://dx.doi.org/10.2140/gt.2014.18.1261). arXiv: [1105.1576 [math.AT]](http://arxiv.org/abs/1105.1576). [MR3228453](http://www.ams.org/mathscinet-getitem?mr=3228453).
+* Benoit Fresse. [*Homotopy of Operads and Grothendieck–Teichmüller Groups*](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/). Preprint.
+* Jean-Louis Loday and Bruno Vallette. *Algebraic operads.* Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences] 346. Heidelberg: Springer, 2012, pp. xxiv+634. ISBN: 978-3-642-30361-6. DOI: [10.1007/978-3-642-30362-3](http://dx.doi.org/10.1007/978-3-642-30362-3). [MR2954392](http://www.ams.org/mathscinet-getitem?mr=2954392).
