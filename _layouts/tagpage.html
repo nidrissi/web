@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<!-- http://stackoverflow.com/a/21002505 -->
+<h1>Tag: <b>{{ page.tag }}</b></h1>
+
+{% for post in site.tags[page.tag] %}
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small><i class="fa fa-clock-o"></i> {% include date.html date=post.date %}</small></h3>
+{% endfor %}

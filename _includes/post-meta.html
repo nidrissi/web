@@ -15,5 +15,8 @@
     </a>
     |
     Tags:
-    {% for tag in include.post.tags %}{{ tag }}{% unless forloop.last %} &ndash; {% endunless %}{% endfor %}
+    {% for tag in include.post.tags %}
+        <a href="/tag/{{ tag }}">{{ tag }}</a>
+        {% unless forloop.last %}&ndash;{% endunless %}
+    {% endfor %}
 </div>
