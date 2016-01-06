@@ -8,13 +8,13 @@ This post is about something somewhat weird I noticed about infinitesimal bimodu
 ## Context: abelian bimodules
 
 As I said, this post is about abelian bimodules, sometimes also called infinitesimal or weak bimodules. They are a "linearized" version of usual bimodules over operads. Let me now recall their definition.
-<!--more-->
 
 **Definition.** Let $$\mathtt{P}$$, $$\mathtt{Q}$$ be two operads in a symmetric monoidal category $$\mathsf{C}$$. An *abelian $$(\mathtt{P}, \mathtt{Q})$$-bimodule* is a symmetric collection $$M = \{ M(n) \}_{n \ge 0}$$ equipped with composition morphisms:
 
 $$M(k) \otimes \mathtt{Q}(l) \xrightarrow{\circ_i} M(k+l-1), \\ \mathtt{P}(k) \otimes M(l) \xrightarrow{\circ_i} M(k+l-1),$$
 
 satisfying obvious equivariance and associativity properties.
+<!--more-->
 
 By composing multiple times elements of $$M$$ with elements of $$\mathtt{Q}$$, one can give $$M$$ the structure of a full right module over $$\mathtt{Q}$$. However, $$M$$ is not a left module (AKA algebra) over $$\mathtt{P}$$, as only one element of $$M$$ can appear in successive compositions. Similarly a full bimodule is not necessarily an abelian bimodule. An operad $$\mathtt{P}$$ is always an abelian $$(\mathtt{P}, \mathtt{P})$$-bimodule.
 
