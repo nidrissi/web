@@ -4,6 +4,8 @@ permalink: /archive/
 nav: 1
 ---
 
-{% for post in site.posts %}
-    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small><i class="fa fa-clock-o"></i> {% include date.html date=post.date %}</small></h3>
-{% endfor %}
+<ul>
+    {% for post in site.posts %}
+        <li>{% include post-meta.html post=post link=1 title=1 %}</li>
+    {% endfor %}
+</ul>
