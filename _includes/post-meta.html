@@ -1,20 +1,29 @@
 <div class="post-meta">
+    <ul class="list-inline">
     {% if include.title %}
-        <a href="{{ include.post.url | prepend: site.baseurl }}">
-            {{ include.post.title }}
-        </a>
+        <li>
+            <a href="{{ include.post.url | prepend: site.baseurl }}">
+                {{ include.post.title }}
+            </a>
+        </li>
     {% endif %}
-    {% if include.link %}<a href="{{ include.post.url | prepend: site.baseurl }}" class="link-unstyled">{% endif %}
-        <i class="fa fa-clock-o"></i> {% include date.html date=include.post.date %}
-    {% if include.link %}</a>{% endif %}
-    <a href="{% if include.link %}{{ include.post.url | prepend: site.baseurl }}{% endif %}#comments">
-        <i class="fa fa-comment"></i>
-        <span class="disqus-comment-count" data-disqus-identifier="{{ include.post.id | slugify }}">Comments</span>
-    </a>
-    <i class="fa fa-tags"></i>
-    Tags:
-    {% for tag in include.post.tags %}
-        <a href="{{ "/tag" | prepend: site.baseurl }}/{{ tag }}">{{ tag }}</a>
-        {% unless forloop.last %}&ndash;{% endunless %}
-    {% endfor %}
+    <li>
+        {% if include.link %}<a href="{{ include.post.url | prepend: site.baseurl }}" class="link-unstyled">{% endif %}
+            <i class="fa fa-clock-o"></i> {% include date.html date=include.post.date %}
+            {% if include.link %}</a>{% endif %}
+    </li>
+    <li>
+        <a href="{% if include.link %}{{ include.post.url | prepend: site.baseurl }}{% endif %}#comments">
+            <i class="fa fa-comment"></i>
+            <span class="disqus-comment-count" data-disqus-identifier="{{ include.post.id | slugify }}">Comments</span>
+        </a>
+    </li>
+    <li>
+        <i class="fa fa-tags"></i>
+        Tags:
+        {% for tag in include.post.tags %}
+            <a href="{{ "/tag" | prepend: site.baseurl }}/{{ tag }}">{{ tag }}</a>
+            {% unless forloop.last %}&ndash;{% endunless %}
+        {% endfor %}
+    </li>
 </div>
