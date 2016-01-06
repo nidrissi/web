@@ -62,7 +62,7 @@ Now that everything is defined correctly, this is now a matter of not getting co
 
 ## $$\Gamma$$-spaces
 
-Now here's what I find a bit weird. According to Segal, a "fibrant" (for some right notion of fibrant) functor $$\Gamma^{op} \to \mathsf{Top}$$ yield an infinite loop space, i.e. an $$E_\infty$$-space. Morally, an $$E_\infty$$-space is an algebra over a cofibrant resolution of the topological operad $$\mathtt{Com}$$. But as we just saw, a contravariant functor $$\Gamma^{op} \to \mathsf{C}$$, in the algebraic setting, is the same thing as an abelian bimodule over $$\mathtt{Com}$$. My question is, are these two things related? Or am I grasping at straws?
+Now here's what I find a bit weird. According to Segal, a "fibrant" (for some right notion of fibrant) functor $$\Gamma \to \mathsf{Top}$$ yield an infinite loop space, i.e. an $$E_\infty$$-space. Morally, an $$E_\infty$$-space is an algebra over a cofibrant resolution of the topological operad $$\mathtt{Com}$$. But as we just saw, a contravariant functor $$\Gamma^{op} \to \mathsf{C}$$, in the algebraic setting, is the same thing as an abelian bimodule over $$\mathtt{Com}$$. My question is, are these two things related? Or am I grasping at straws?
 
 ## References
 
