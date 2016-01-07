@@ -24,6 +24,8 @@ Morally, an abelian bimodule over an operad is exactly the data required to "inf
 
 Various categories of (bi)modules over operads can be represented as diagrams over categories associated to these operads. I'll now explain how, using the notations from [Arone--Turchin]. Let $$\mathtt{P}$$ be an operad in a symmetric monoidal category $$\mathsf{C}$$.
 
+### Left modules
+
 **Definition.** The *PROP associated to $$\mathtt{P}$$* is the symmetric monoidal category $$\mathcal{F}(\mathtt{P})$$ whose objects are finite sets and whose morphisms are given by:
 
 $$\operatorname{Hom}_{\mathcal{F}(\mathtt{P})}(A,B) = \coprod_{f : A \to B} \bigotimes_{b \in B} \mathtt{P}(f^{-1}(b)).$$
@@ -34,11 +36,15 @@ In this definition, we implicitly use the fact that operads can equivalently be 
 
 Roughly speaking, a symmetric monoidal functor $$\mathcal{F}(\mathtt{P}) \to \mathsf{C}$$ is determined on objects by its value on a singleton, say $$A$$; then its value on a set with $$n$$ elements is $$A^{\otimes n}$$. The functor then maps elements of $$\mathtt{P}(n)$$ to morphisms $$A^{\otimes n} \to A$$, and then everything fits nicely together to produce an algebra.
 
+### Right modules
+
 **Proposition.** [Arone--Turchin, Lemma 4.3] The category of right modules over $$\mathtt{P}$$ is equivalent to the category of contravariant functors $$\mathcal{F}(\mathtt{P})^{op} \to \mathsf{C}$$.
 
 Note here that functors are no longer assumed to be monoidal. To get an idea of the proof, note that if $$M$$ is a right module over $$\mathtt{P}$$, then one gets maps $$M(B) \otimes \bigotimes_{b \in B} \mathtt{P}(f^{-1}(b)) \to M(A)$$, and again everything fits together. Drawing pictures of trees is immensely helpful here.
 
 *Example.* The category $$\mathcal{F}(\mathtt{Com})$$ is the category of finite sets [exercise]. Thus a right $$\mathtt{Com}$$-module is the same thing as a functor $$\mathsf{Fin} \to \mathsf{C}$$.
+
+### Abelian bimodules
 
 Now we define a new category, $$\Gamma(\mathtt{P})$$, to model abelian bimodules.
 
