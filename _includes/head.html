@@ -41,6 +41,10 @@
 
     <script src="{{ "/js/anchor.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-     $(function(){ anchors.add(); anchors.remove('.no-anchor'); });
+     $(function(){
+         $('h1, h2, h3, h4, h5, h6').addClass('target'); // for the navbar
+         anchors.add();
+         anchors.remove('.no-anchor');
+     });
     </script>
 </head>
