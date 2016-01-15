@@ -113,11 +113,11 @@ The two complexes are both equal to $$M_0 \otimes N_0$$ is degree zero. This giv
 
 $$\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M_\bullet) \cong M_n$$
 
-can then be used to prove that both functors are representable. (I'm omitting a lot of computations here! Though most of it is straightforward.) The acyclic models technique then yields the equivalence
+can then be used to prove that both functors are representable. (I'm omitting a lot of computations here! Though most of it is straightforward.) The acyclic models technique then yields the equivalence:
 
 $$(M \times N)_* \simeq M_* \otimes N_*.$$
 
-Again, what's really interesting is that both maps (and both homotopies!) can be described completely explicitly once you make the right choices (you need to go back to the proof of the first theorem to know what choices I'm talking about. The map $$f : (M \times N)_* \to M_* \otimes N_*$$ is known as the *Alexander--Whitney* map, and it is given by (for $$a \in A_n$$, $$b \in B_n$$):
+Again, what's really interesting is that both maps (and both homotopies!) can be described completely explicitly once you make the right choices (you need to go back to the proof of the first theorem to know what choices I'm talking about). The map $$f : (M \times N)_* \to M_* \otimes N_*$$ is known as the *Alexander--Whitney* map, and it is given by (for $$a \in A_n$$, $$b \in B_n$$):
 
 $$f(a \times b) = \sum_{i = 0}^n \bar{d}^{n-i}a \otimes d_0^i b,$$
 
@@ -127,7 +127,7 @@ Conversely, $$g : M_* \otimes N_* \to (M \times N)_*$$ is known as the *Eilenber
 
 $$g(a \otimes b) = \sum_{(\mu, \nu) \in \mathrm{Sh}_{p,q}} \pm s_{\nu} a \times s_{\mu} b.$$
 
-The sum runs over all $$(p,q)$$-shuffles, with ($$p+q = n$$):
+The sum runs over all $$(p,q)$$-shuffles, with (for $$p+q = n$$):
 
 $$\mathrm{Sh}_{p,q} = \{ (\mu, \nu) \in \{1,\dots,n\}^p \times \{1,\dots,n\}^q \mid \mu(1) < \dots < \mu(p), \nu(1) < \dots < \nu(q), \mu(i) \neq \nu(j) \}$$
 
