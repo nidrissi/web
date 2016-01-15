@@ -131,4 +131,4 @@ The sum runs over all $$(p,q)$$-shuffles, with ($$p+q = n$$):
 
 $$\mathrm{Sh}_{p,q} = \{ (\mu, \nu) \in \{1,\dots,n\}^p \times \{1,\dots,n\}^q \mid \mu(1) < \dots < \mu(p), \nu(1) < \dots < \nu(q), \mu(i) \neq \nu(j) \}$$
 
-$$s_{\mu} = s_{\mu(p)} \circ \dots \circ s_{\mu(1)}$$, and $$s_{\nu} = s_{\nu(q)} \circ \dots \circ s_{\nu(1)}$$. (The reader is encouraged to see explicitly what this all means in small cases, say $$(p,q) = (1,2)$$).
+and where $$s_{\mu} = s_{\mu(p)} \circ \dots \circ s_{\mu(1)}$$, and $$s_{\nu} = s_{\nu(q)} \circ \dots \circ s_{\nu(1)}$$. (The reader is encouraged to see explicitly what this all means in small cases, say $$(p,q) = (1,2)$$).
