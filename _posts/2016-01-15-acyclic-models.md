@@ -121,7 +121,7 @@ Again, what's really interesting is that both maps (and both homotopies!) can be
 
 $$f(a \times b) = \sum_{i = 0}^n \bar{d}^{n-i}a \otimes d_0^i b,$$
 
-where $$d_0 : B_k \to B_{k-1}$$ is the $$0$$th face and $\bar{d} = d_k : A_k \to A_{k-1}$$ is the "last" face.
+where $$d_0 : B_k \to B_{k-1}$$ is the $$0$$th face and $$\bar{d} = d_k : A_k \to A_{k-1}$$ is the "last" face.
 
 Conversely, $$g : M_* \otimes N_* \to (M \times N)_*$$ is known as the *Eilenberg--Zilber* map, given by (for $$a \in A_p$$, $$b \in B_q$$):
 
