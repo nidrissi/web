@@ -64,4 +64,10 @@ The proof of the following theorem is almost the same (exercise!).
 
 These two theorems combine to give:
 
-**Theorem.** Let $$K,L : \mathsf{C} \o \mathsf{Ch}$$ be two functors, and $$f : K \to L$$ be a map truncated in degrees $$< q$$. If $$K_n$$ is representable for all $$n \ge q$$ and $$H_n(L(M)) = 0$$ for all models and for all $$n \ge q - 1$$, then $$f$$ admits a unique (up to homotopy) extension in all degrees.
+**Theorem.** Let $$K,L : \mathsf{C} \to \mathsf{Ch}$$ be two functors, and $$f : K \to L$$ be a map truncated in degrees $$< q$$. If $$K_n$$ is representable for all $$n \ge q$$ and $$H_n(L(M)) = 0$$ for all models and for all $$n \ge q - 1$$, then $$f$$ admits a unique (up to homotopy) extension in all degrees.
+
+## Example: action of a monoid on a group
+
+Let $$W$$ be a monoid and $$\Lambda = \mathbb{Z}[W]$$ be its algebra. We may view $$W$$ as a category $$\mathsf{C}$$ with a unique object and $$\hom_{\mathsf{C}}(*,*) = W$$. We set $$\mathcal{M} = \operatorname{ob} \mathsf{C} = \{*\}$$.
+
+A functor $$T : \mathsf{C} \to \mathsf{Ab}$$ is the same thing as a group equipped with a left action of $$W$$, i.e. a left $$\Lambda$$-module ; the functor $$\tilde{T}$$ is the free abelian group on the set of pairs $$W \times G$$, with $$W$$ acting as $$w \cdot (w',g) := (ww', g)$$. In other words, it's the free $$\Lambda$$-module on $$G$$. The functor $$T$$ is then representable iff $$G$$ is projective as a $$\Lambda$$-module.
