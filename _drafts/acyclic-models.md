@@ -103,3 +103,33 @@ The proof directly uses acyclic models. The set of models can be taken to be the
 In degree $$(-1)$$, all three complexes are equal (which gives the base case for the induction). One needs to know that the homology of $$\Delta^n$$ is trivial (both the normalized and the unnormalized one), which can be proven directly; then one needs to prove that the three functors $$S$$, $$S^N$$ and $$S'$$ are representable, which is almost immediate from the definition.
 
 The interesting thing (IMO) is that one can go through the proof and see that this yields a completely explicit homotopy equivalence between the unnormalized complex and the normalized ones.
+
+## Eilenberg--Zilber theorem
+
+This part is not from the article of Eilenberg--MacLane (but it's nevertheless completely classical, see e.g. MacLane's book *Homology*, chapter VIII.8).
+
+Let $$M$$ and $$N$$ be two simplicial modules over some ring $$R$$. One can produce two chain complexes out this: either take the two Moore complexes $$M_*$$, $$N_*$$ and then take their tensor product, or take the diagonal of the product $$(M \times N)_n = M_n \times N_n$$ and then take the Moore complexes. We will denote the two complexes respectively as $$M_* \otimes N_*$$ and $$(M \times N)_*$$. Of course this yields two functors $$(s\mathsf{Mod}_R)^2 \to \mathsf{Ch}$$, to which we will apply the previous techniques.
+
+The two complexes are both equal to $$M_0 \otimes N_0$$ is degree zero. This gives the base case for the induction (we can just take the map to be the identity). One can then choose as models the simplicial modules given by $$\Delta^n \otimes R$$, which can easily be proven to be acyclic. The adjunctions
+
+$$\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M_\bullet) \cong M_n$$
+
+can then be used to prove that both functors are representable. (I'm omitting a lot of computations here! Though most of it is straightforward.) The acyclic models technique then yields the equivalence
+
+$$(M \times N)_* \simeq M_* \otimes N_*.$$
+
+Again, what's really interesting is that both maps (and both homotopies!) can be described completely explicitly once you make the right choices (you need to go back to the proof of the first theorem to know what choices I'm talking about. The map $$f : (M \times N)_* \to M_* \otimes N_*$$ is known as the *Alexander--Whitney* map, and it is given by (for $$a \in A_n$$, $$b \in B_n$$):
+
+$$f(a \times b) = \sum_{i = 0}^n \bar{d}^{n-i}a \otimes d_0^i b,$$
+
+where $$d_0 : B_k \to B_{k-1}$$ is the $$0$$th face and $\bar{d} = d_k : A_k \to A_{k-1}$$ is the "last" face.
+
+Conversely, $$g : M_* \otimes N_* \to (M \times N)_*$$ is known as the *Eilenberg--Zilber* map, given by (for $$a \in A_p$$, $$b \in B_q$$):
+
+$$g(a \otimes b) = \sum_{(\mu, \nu) \in \mathrm{Sh}_{p,q}} \pm s_{\nu} a \times s_{\mu} b.$$
+
+The sum runs over all $$(p,q)$$-shuffles, with ($$p+q = n$$):
+
+$$\mathrm{Sh}_{p,q} = \{ (\mu, \nu) \in \{1,\dots,n\}^p \times \{1,\dots,n\}^q \mid \mu(1) < \dots < \mu(p), \nu(1) < \dots < \nu(q), \mu(i) \neq \nu(j) \}$$
+
+$$s_{\mu} = s_{\mu(p)} \circ \dots \circ s_{\mu(1)}$$, and $$s_{\nu} = s_{\nu(q)} \circ \dots \circ s_{\nu(1)}$$. (The reader is encouraged to see explicitly what this all means in small cases, say $$(p,q) = (1,2)$$).
