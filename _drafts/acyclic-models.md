@@ -71,3 +71,35 @@ These two theorems combine to give:
 Let $$W$$ be a monoid and $$\Lambda = \mathbb{Z}[W]$$ be its algebra. We may view $$W$$ as a category $$\mathsf{C}$$ with a unique object and $$\hom_{\mathsf{C}}(*,*) = W$$. We set $$\mathcal{M} = \operatorname{ob} \mathsf{C} = \{*\}$$.
 
 A functor $$T : \mathsf{C} \to \mathsf{Ab}$$ is the same thing as a group equipped with a left action of $$W$$, i.e. a left $$\Lambda$$-module ; the functor $$\tilde{T}$$ is the free abelian group on the set of pairs $$W \times G$$, with $$W$$ acting as $$w \cdot (w',g) := (ww', g)$$. In other words, it's the free $$\Lambda$$-module on $$G$$. The functor $$T$$ is then representable iff $$G$$ is projective as a $$\Lambda$$-module.
+
+## Normalization of singular chains
+
+Let $$S_* : \mathsf{Top} \to \mathsf{Ch}$$ be the classical "singular chains" functor. The abelian group $$S_n(X)$$ is free on maps $$\Delta^n \to X$$, where $$\Delta^n$$ is the standard $$n$$-simplex:
+
+$$\Delta^n = \{ (x_0, \dots, x_n) \in [0,1]^{n+1} \mid \sum x_i = 1 \},$$
+
+and $$\partial_n : S_n(X) \to S_{n-1}(X)$$ is the usual differential $$\partial_n = \sum_i (-1)^i d_i$$. We consider the augmented version with $$S_{-1}(X) = \mathbb{Z}$$ and $$\partial_0(x) = 1$$ for all $$x \in X = S_0(X)$$.
+
+Now $$\Delta^\bullet$$ is in fact a cosimplicial space, and so we get degeneracy maps $$s_j : S_n(X) \to S_{n+1}(X)$$. For a simplex $$\sigma : \Delta^n \to X$$, its degeneracy is given by:
+
+$$s_j(\sigma)(x_0, \dots, x_{n+1}) = \sigma(x_0, \dots, x_j + x_{j+1}, \dots, x_{n+1}).$$
+
+These, together with the $$d_i$$, satisfy the usual simplicial identities. One can then normalize the singular chains functor, either by letting
+
+$$\bar{S}_{n+1}(X) = S_{n+1}(X) / \operatorname{im}(s_n : S_n(X) \to S_{n+1}(X))$$
+
+(the complex "normalized at the top") or by letting
+
+$$S^N(X) = S_n(X) / \bigcup_{j=0}^{n-1} \operatorname{im}(s_j)$$
+
+(the "normalized complex").
+
+In the following theorem, $$S'$$ is either $$S^N$$ or $$\bar{S}$$.
+
+**Theorem.** Let $$f : S \to S'$$ be the quotient map. Then there is a map $$g : S' \to S$$ and homotopies $$gf \simeq \operatorname{id}_S$$ and $$fg \simeq \operatorname{id}_{S'}$$.
+
+The proof directly uses acyclic models. The set of models can be taken to be the set of standard simplexes $$\{ \Delta^n \mid n \ge 0 \}$$ (Eilenberg--MacLane use the class of all contractible spaces, but it's not a set and their proof only uses standard simplexes).
+
+In degree $$(-1)$$, all three complexes are equal (which gives the base case for the induction). One needs to know that the homology of $$\Delta^n$$ is trivial (both the normalized and the unnormalized one), which can be proven directly; then one needs to prove that the three functors $$S$$, $$S^N$$ and $$S'$$ are representable, which is almost immediate from the definition.
+
+The interesting thing (IMO) is that one can go through the proof and see that this yields a completely explicit homotopy equivalence between the unnormalized complex and the normalized ones.
