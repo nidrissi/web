@@ -6,7 +6,7 @@ draft: 1
 
 This post is about the Milnor--Moore theorem, a powerful tool describing the structure of (co)commutative Hopf algebras. Like the [Eckmann--Hilton argument]({% post_url 2015-12-23-eckmann-hilton %}), it shows that having multiple compatible operations on the same object can lead to unexpected results about the object. Briefly, the theorem says that as soon as the Hopf algebra is cocommutative and connected, then it is isomorphic to the universal enveloping algebra of a Lie algebra (and a similar dual statement is true for commutative Hopf algebras).
 
-As the name indicates, the theorem is due to Milnor and Moore in the paper cited below. The details of this post will mostly be based on the Chapter 7 of the book of Fresse cited below. As usual, I mostly wanted to write this post because I often find myself forgetting how the proof of the theorem goes, and hopefully writing for a general audience it will fix it in my mind.
+As the name indicates, the theorem is due to Milnor and Moore in the paper cited below. The details of this post will mostly be based on the Chapter 7 of the book of Fresse cited below (if there's no reference for a theorem or a proposition, it can usually be found there). As usual, I mostly wanted to write this post because I often find myself forgetting how the proof of the theorem goes, and hopefully writing for a general audience it will fix it in my mind.
 
 ## Hopf algebras
 
@@ -54,6 +54,27 @@ This is a lot of structure! There's a product, a unit, a coproduct, a counit, an
 
 **Theorem.** Let $$H$$ be a bialgebra, and suppose that $$H$$ is **connected**, i.e. $$H_i = 0$$ for $$i < 0$$ and $$H_0 = \Bbbk$$ (and the (co)unit are the identity). Then there exists an antipode making $$H$$ into a Hopf algebra.
 
+### Examples
+
+### Primitive elements and indecomposable
+
+From now on, we let $$H$$ be some Hopf algebra.
+
+**Definition.** An element $$x \in H$$  is said to be **primitive** if $$\varepsilon(x) = 0$$ and $$\Delta(x) = x \otimes 1 + 1 \otimes x$$. The set of primitive elements is $$\mathbb{P}H$$.
+
+**Proposition.** The set of primitive elements $$\mathbb{P}H$$ is a Lie algebra, with bracket given by the commutator $$[x,y] = xy - \pm yx$$.
+
+This is not very hard to check. We can do a dual construction with indecomposables:
+
+**Definition.** The augmentation ideal of $$H$$ is $$\bar{H} = \ker \varepsilon$$.
+
+More generally, this is defined for an augmented algebra; a Hopf algebra is a particular case. The product of $$H$$ defines a map on the quotient $$\bar{\mu} : \bar{H} \otimes \bar{H} \to \bar{H}$$, and we can define:
+
+**Definition.** The module of **indecomposables** $$QH$$ is the quotient $$\bar{H} / \operatorname{im}(\bar{\mu}) =: \bar{H} / \bar{H}^2$$.
+
+**Proposition.** The dg-module $$QH$$ is a Lie coalgebra, with cobracket $$\delta : QH \to QH \wedge QH$$ given by the antisymmetrisation of the coproduct of $$H$$.
+
+The verification of this is formally dual to the proof of the proposition about primitive elements.
 
 ## References
 
