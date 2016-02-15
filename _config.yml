@@ -10,7 +10,7 @@ disqus_username: nidrissi
 
 # Build conf
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /:year/:month/:day/:title/
 excerpt_separator: <!--more-->
 gems:
