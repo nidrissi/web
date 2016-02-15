@@ -38,7 +38,22 @@ The counitality axiom then becomes, for example, $$\sum_{(x)} \varepsilon(x_1) x
 
 We will immediately switch to the differential graded (dg) setting. A graded vector space is a vector space $$V$$ equipped with a decomposition $$V = \bigoplus_{n \in \mathbb{Z}} V_n$$. A differential on such a vector space is a linear map $$d : V \to V$$ of degree $$-1$$ (i.e. $$d(V_n) \subset V_{n-1}$$) that satisfies $$d \circ d = 0$$.
 
-A **graded algebra** is a graded vector space equipped with the structure of an algebra compatible with the grading: $$\mu(A_p \otimes A_q) \subset A_{p+q}$$. A derivation on a graded associative algebra $$A$$ is a map $$d : A \to A$$ of degree $$-1$$ such that $$d(ab) = (da) \cdot b + (-1)^{|b|} a \cdot (db)$$ (this is the last time I'll write an explicit sign). A **dg-algebra** is, finally, a graded algebra equipped with a derivation $$d$$ satisfying $$d \circ d = 0$$. The definition of a **dg-coalgebra** is similar (just add "co-" in front of every word).
+A **graded algebra** is a graded vector space equipped with the structure of an algebra compatible with the grading: $$\mu(A_p \otimes A_q) \subset A_{p+q}$$. A derivation on a graded associative algebra $$A$$ is a map $$d : A \to A$$ of degree $$-1$$ such that $$d(ab) = (da) \cdot b + (-1)^{\vert b \vert} a \cdot (db)$$ (this is the last time I'll write an explicit sign). A **dg-algebra** is, finally, a graded algebra equipped with a derivation $$d$$ satisfying $$d \circ d = 0$$. The definition of a **dg-coalgebra** is similar (just add "co-" in front of every word).
+
+**Example.** The base field $$\Bbbk$$ itself has both the structure of an algebra and a coalgebra, given by the canonical isomorphism $$\Bbbk \cong \Bbbk \otimes \Bbbk$$, and the identity for the (co)unit.
+
+### Bialgebras and Hopf algebras
+
+**Definition.** A (dg-)**bialgebra** is a dg-vector space $$H$$ equipped with the structure of an algebra and the structure of a coalgebra such that the coproduct and the counit are morphisms of algebras, where $$\Bbbk$$ is given its canonical algebra structure (or equivalently, the product and the unit are morphisms of coalgbras).
+
+A **Hopf algebra** is a bialgebra $$H$$ equipped with a linear endomorphism $$\sigma : H \to H$$ satisfying, for all $$x \in H$$:
+
+$$\sum_{(x)} x_1 \cdot \sigma(x_2) = \eta(\varepsilon(x)) = \sum_{(x)} \sigma(x_1) \cdot x_2.$$
+
+This is a lot of structure! There's a product, a unit, a coproduct, a counit, and an antipode, satisfying a whole bunch of relations. If it exists, the antipode is unique, but its existence is not guaranteed. Fortunately, most of the time the antipode comes for free:
+
+**Theorem.** Let $$H$$ be a bialgebra, and suppose that $$H$$ is **connected**, i.e. $$H_i = 0$$ for $$i < 0$$ and $$H_0 = \Bbbk$$ (and the (co)unit are the identity). Then there exists an antipode making $$H$$ into a Hopf algebra.
+
 
 ## References
 
