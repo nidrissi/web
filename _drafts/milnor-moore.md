@@ -8,6 +8,8 @@ This post is about the Milnor--Moore theorem, a powerful tool describing the str
 
 As the name indicates, the theorem is due to Milnor and Moore in the paper cited below. The details of this post will mostly be based on the Chapter 7 of the book of Fresse cited below (if there's no reference for a theorem or a proposition, it can usually be found there). As usual, I mostly wanted to write this post because I often find myself forgetting how the proof of the theorem goes, and hopefully writing for a general audience it will fix it in my mind.
 
+<!--more-->
+
 ## Hopf algebras
 
 ### Algebras and coalgebras
