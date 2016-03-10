@@ -6,7 +6,7 @@ draft: 1
 
 This post is about the Milnor--Moore theorem, a powerful tool describing the structure of (co)commutative Hopf algebras. Like the [Eckmann--Hilton argument]({% post_url 2015-12-23-eckmann-hilton %}), it shows that having multiple compatible operations on the same object can lead to unexpected results about the object. Briefly, the theorem says that as soon as the Hopf algebra is cocommutative and connected, then it is isomorphic to the universal enveloping algebra of a Lie algebra (and a similar dual statement is true for commutative Hopf algebras).
 
-As the name indicates, the theorem is due to Milnor and Moore in the paper cited below. The details of this post will mostly be based on the Chapter 7 of the book of Fresse cited below (if there's no reference for a theorem or a proposition, it can usually be found there). As usual, I mostly wanted to write this post because I often find myself forgetting how the proof of the theorem goes, and hopefully writing for a general audience it will fix it in my mind.
+As the name indicates, the theorem is due to Milnor and Moore in the paper cited below. The details of this post will mostly be based on the Chapter 7 of the book of Fresse cited below, and if there's no reference for a theorem or a proposition, you can find it there. As usual, I mostly wanted to write this post because I often find myself forgetting how the proof of the theorem goes, and hopefully writing for a general audience it will fix it in my mind.
 
 <!--more-->
 
@@ -106,17 +106,39 @@ From now on, we let $$H$$ be some Hopf algebra.
 
 **Proposition.** The set of primitive elements $$\mathbb{P}H$$ is a Lie algebra, with bracket given by the commutator $$[x,y] = xy - \pm yx$$.
 
-This is not very hard to check. We can do a dual construction with indecomposables:
+This is not very hard to check. The functor $$\mathbb{P}$$ of primitive elements is in fact right adjoint to the functor $$\mathbb{U}$$ of universal enveloping algebras.
 
-**Definition.** The augmentation ideal of $$H$$ is $$\bar{H} = \ker \varepsilon$$.
+**Proposition.** The inclusion $$V \subset S(V)$$ induces isomorphism $$V \cong \mathbb{P}S(V)$$, where $$V$$ is endowed with the abelian Lie algebra structure. The inclusion $$V \subset T(V)$$ induces an isomorphism between $$L(V)$$, the free Lie algebra on $$V$$, and $$\mathbb{P}T(V)$$.
 
-More generally, this is defined for an augmented algebra; a Hopf algebra is a particular case. The product of $$H$$ defines a map on the quotient $$\bar{\mu} : \bar{H} \otimes \bar{H} \to \bar{H}$$, and we can define:
+This gives a concrete way of defining the free Lie algebra.
+
+We can do a dual construction with indecomposables. The augmentation ideal of $$H$$ is $$\bar{H} = \ker \varepsilon$$ (more generally, this is defined for an augmented algebra). The product of $$H$$ defines a map on the quotient $$\bar{\mu} : \bar{H} \otimes \bar{H} \to \bar{H}$$, and we can define:
 
 **Definition.** The module of **indecomposables** $$QH$$ is the quotient $$\bar{H} / \operatorname{im}(\bar{\mu}) =: \bar{H} / \bar{H}^2$$.
 
 **Proposition.** The dg-module $$QH$$ is a Lie coalgebra, with cobracket $$\delta : QH \to QH \wedge QH$$ given by the antisymmetrisation of the coproduct of $$H$$.
 
-The verification of this is formally dual to the proof of the proposition about primitive elements.
+The verification of this is formally dual to the proof of the proposition about primitive elements, and $$Q$$ is left adjoint to the functor $$\mathbb{U}^c$$ of universal coenveloping coalgebras.
+
+**Proposition.** The projection $$S^c(V) \to V$$ induces an isomorphism $$QS^c(V) \to V$$, where $$V$$ is endowed by the abelian Lie coalgebra structure. The projection $$T^c(V) \to V$$ induces an isomorphism from $$QT^c(V)$$ to $$L^c(V)$$, the cofree Lie coalgebra on $$V$$.
+
+### The theorem of Milnor--Moore
+
+Let us now assume that the base field has characteristic zero. We will not state the Milnor--Moore theorem in full generality: I will assume the restrictive hypothesis that $$H$$ is connected and has finite type, but the theorem applies more generally to locally conilpotent Hopf algebras.
+
+**Theorem [Milnor--Moore].** Let $$H$$ be a connected, cocommutative Hopf algebra of finite type. Then the inclusion $$\mathbb{P}H \subset H$$ induces an isomorphism of Hopf algebras $$\mathbb{U}(\mathbb{P}H) \cong H$$.
+
+One also has the dual theorem:
+
+**Theorem$${}^\vee$$ [Milnor--Moore].** Let $$H$$ be a connected, commutative Hopf algebra of finite type. Then the quotient map $$H \to QH$$ induces an isomorphism of Hopf algebras $$H \cong \mathbb{U}^c(QH)$$.
+
+Now the proof (of which I will just give a sketch) is rather nice. I'll more-or-less follow the original proof of Milnor--Moore. It works by induction, which is easier to understand in the dual case. We will first prove that $$H \cong S^c(QH)$$, then conclude by the Poincaré--Birkhoff--Witt theorem.
+
+The first isomorphism is clear if the Hopf algebra only has a single generator (i.e. $$QH$$ is one-dimensional). Now if $$QH = \langle x_1, \dots, x_{n+1} \rangle$$, then one can quotient out by the sub-algebra $$H'$$ generated by the first $$n$$ indecomposables to get $$H''$$. The quotient has a single generator, and the sub-algebra has $$n$$ generators, so it is enough to show that $$H$$ is isomorphic as an algebra to the tensor product of the subalgebra and the quotient.
+
+The quotient map $$\pi : H \to H''$$ has a linear section $$f$$ (which isn't necessarily a morphism of Hopf algebras). This yields a map $$H' \otimes H'' \to H$$. And now the heart of the proof is in proving that this map is an isomorphism of algebras using the Hopf algebra structure. It is used to choose the section $$f$$ wisely enough so that the resulting map is an isomorphism of algebras.
+
+Now the (dual) Poincaré--Birkhoff--Witt theorem says that $$\mathbb{U}^cQH \cong S^c(QH)$$ is an isomorphism of algebras. The isomorphism (which is explicit) fits in a commutative triangle with the isomorphism $$S^c(QH)$$ just constructed and the canonical morphism of Hopf algebras $$H \to \mathbb{U}^c(QH)$$. Using the 2-out-of-3 property of isomorphisms, this last map is thus an isomorphism (of Hopf algebras) $$H \cong \mathbb{U}^c(QH)$$.
 
 ## References
 
