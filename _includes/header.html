@@ -20,6 +20,7 @@
                             <li {% if page.url == node.url %}class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a></li>
                         {% endif %}
                     {% endfor %}
+                    <li><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-feed"></i> RSS</a></li>
                 </ul>
             </div>
         </div>
