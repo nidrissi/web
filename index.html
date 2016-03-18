@@ -18,7 +18,7 @@ layout: default
                 <hr>
             {% endunless %}
         {% endfor %}
-        <footer class="text-center">
+        <footer class="paginator">
             <ul class="list-inline">
                 <li>
                     {% if paginator.previous_page %}
@@ -29,7 +29,7 @@ layout: default
                         </a>
                     {% endif %}
                 </li>
-                <li>Page {{ paginator.page }}/{{ paginator.total_pages }}</li>
+                <li>Page {{ paginator.page }} of {{ paginator.total_pages }}</li>
                 <li>
                     {% if paginator.next_page %}
                         <a href="{{ paginator.next_page_path }}">
