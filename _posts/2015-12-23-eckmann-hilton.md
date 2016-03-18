@@ -20,7 +20,6 @@ Without further ado, here is the theorem:
 $$(a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d).$$
 
 Then both structures are equal ($$a * b = a \cdot b$$) and moreover they are commutative ($$a * b = b * a$$).
-<!--more-->
 
 Basically, what this means is that if you have a set with two "compatible" laws on it, then they are equal *and commutative*. It's rather powerful. This theorem can be further refined: you don't need to assume that both laws have the same unit, and you don't even have to assume that they are commutative. It all follows from the interchange law. But for the sack of simplicity I'll stick with these assumptions.
 
@@ -37,6 +36,7 @@ a * b & = b * a.
 \end{align}$$
 
 Pretty nifty!
+<!--more-->
 
 ### Interpretation
 

@@ -14,7 +14,6 @@ As I said, this post is about abelian bimodules, sometimes also called infinites
 $$M(k) \otimes \mathtt{Q}(l) \xrightarrow{\circ_i} M(k+l-1), \\ \mathtt{P}(k) \otimes M(l) \xrightarrow{\circ_i} M(k+l-1),$$
 
 satisfying obvious equivariance and associativity properties.
-<!--more-->
 
 By composing multiple times elements of $$M$$ with elements of $$\mathtt{Q}$$, one can give $$M$$ the structure of a full right module over $$\mathtt{Q}$$. However, $$M$$ is not a left module (AKA algebra) over $$\mathtt{P}$$, as only one element of $$M$$ can appear in successive compositions. Similarly a full bimodule is not necessarily an abelian bimodule. An operad $$\mathtt{P}$$ is always an abelian $$(\mathtt{P}, \mathtt{P})$$-bimodule.
 
@@ -23,6 +22,7 @@ Morally, an abelian bimodule over an operad is exactly the data required to "inf
 ## Modules as diagrams
 
 Various categories of (bi)modules over operads can be represented as diagrams over categories associated to these operads. I'll now explain how, using the notations from [Arone--Turchin]. Let $$\mathtt{P}$$ be an operad in a symmetric monoidal category $$\mathsf{C}$$.
+<!--more-->
 
 ### Left modules
 
