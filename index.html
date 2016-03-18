@@ -12,7 +12,7 @@ layout: default
                     {% include post-meta.html post=post link=1 %}
                 </header>
                 {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}"><i>[Read more...]</i></a></p>
+                <p><a href="{{ post.url | prepend: site.baseurl }}"><i>[Read more…]</i></a></p>
             </article>
             {% unless forloop.last %}
                 <hr>
