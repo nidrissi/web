@@ -18,26 +18,18 @@ layout: default
                 <hr>
             {% endunless %}
         {% endfor %}
-        <footer class="paginator">
-            <ul class="list-inline">
-                <li>
-                    {% if paginator.previous_page %}
-                        <a href="{{ paginator.previous_page_path }}">
-                    {% endif %}
-                    <i class="fa fa-chevron-circle-left"></i> Previous
-                    {% if paginator.previous_page %}
-                        </a>
-                    {% endif %}
+        <nav>
+            <ul class="pager">
+                <li class="previous {% unless paginator.previous_page %}disabled{% endunless %}">
+                    <a {% if paginator.previous_page %}href="{{ paginator.previous_page_path }}"{% endif %}>
+                        <i aria-hidden="true" class="fa fa-chevron-circle-left"></i> Previous page
+                    </a>
                 </li>
                 <li>Page {{ paginator.page }} of {{ paginator.total_pages }}</li>
-                <li>
-                    {% if paginator.next_page %}
-                        <a href="{{ paginator.next_page_path }}">
-                    {% endif %}
-                    Next <i class="fa fa-chevron-circle-right"></i>
-                    {% if paginator.next_page %}
-                        </a>
-                    {% endif %}
+                <li class="next {% unless paginator.next_page %}disabled{% endunless %}">
+                    <a {% if paginator.next_page %}href="{{ paginator.next_page_path }}"{% endif %}>
+                        Next page <i aria-hidden="true" class="fa fa-chevron-circle-right"></i>
+                    </a>
                 </li>
             </ul>
         </footer>
@@ -45,7 +37,7 @@ layout: default
 
     <aside class="col-md-2 hidden-sm hidden-xs" id="sidebar">
         <div data-spy="affix" data-offset-top="0">
-            <h4 class="no-anchor">Page {{ paginator.page }}</h4>
+            <h4 class="no-anchor">Page {{ paginator.page }} of {{ paginator.total_pages }}</h4>
             <ul class="nav nav-pills nav-stacked" role="tablist" id="post-list">
                 {% for post in paginator.posts %}
                     <li><a href="#{{ post.id | slugify }}">{{ post.title }}<br><span class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</span></a></li>
