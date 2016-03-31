@@ -12,7 +12,7 @@ Let $$\mathtt{P}$$ be a (topological, for example) operad, and let $$\vec{\matht
 
 $$\vec{\mathtt{P}}(x_1, \dots, x_n; a) = \begin{cases} \mathtt{P}(n) & x_i = a \, \forall i, \\ \varnothing & \text{otherwise.} \end{cases}$$
 
-$$\vec{mathtt{P}}(x_1, \dots, x_n; b) = \mathtt{P}(n)$$
+$$\vec{\mathtt{P}}(x_1, \dots, x_n; b) = \mathtt{P}(n)$$
 
 
 Then if $$\mathtt{P}$$ is formal, so is $$\vec{\mathtt{P}}$$. This is to be contrasted with the fact that [the Swiss-Cheese operad is not formal](http://arxiv.org/abs/1404.2484), even though the operad of little $$2$$-disks is. The operad governing morphisms is formal, but not the one governing actions.
