@@ -4,7 +4,7 @@ permalink: /archive/
 nav: 1
 ---
 
-<ul>
+<ul class="list-unstyled">
     {% for post in site.posts %}
         <li>{% include post-meta.html post=post link=1 title=1 %}</li>
     {% endfor %}
