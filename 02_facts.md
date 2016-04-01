@@ -7,6 +7,7 @@ nav: 1
 Here is a list of facts that I would like to remember.
 
 {% for fact in site.data.facts %}
-<b>{{ forloop.index }}.</b> {{ fact }}
-{% unless forloop.last %}<hr>{% endunless %}
+**{{ forloop.index }}.** {{ fact }}
+
+{% unless forloop.last %}---{% endunless %}
 {% endfor %}
