@@ -1,0 +1,9 @@
+{% capture tmpurl %}{{ site.url | uri_escape }}{{ site.baseurl |uri_escape }}{{ page.url | uri_escape }}{% endcapture %}
+{% capture tmptitle %}{{ page.title | uri_escape }}{% endcapture %}
+<p>
+    <i class="fa fa-share-alt"></i> Share this post:
+    <a href="https://plus.google.com/share?url={{ tmpurl }}" target="_blank"><i class="fa fa-google-plus"></i> Google+</a>,
+    <a href="http://www.facebook.com/sharer.php?u={{ tmpurl }}&p[title]={{ tmptitle }}" target="_blank"> <i class="fa fa-facebook"></i> Facebook</a>,
+    <a href="http://twitter.com/share?text={{ tmptitle }}&url={{ tmpurl }}" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>,
+    <a href="http://www.reddit.com/submit?url={{ tmpurl }}&title={{ tmptitle }}" target="_blank"><i class="fa fa-reddit"></i> Reddit</a>.
+</p>
