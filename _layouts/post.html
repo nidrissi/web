@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<section>
+<section class="col-md-9">
     <header class="post-header">
         <h1 class="no-anchor">{{ page.title }}</h1>
         {% include post-meta.html post=page %}
@@ -11,3 +11,5 @@ layout: default
         {% include disqus.html %}
     {% endunless %}
 </section>
+
+{% include sidebar.html width="3" %}
