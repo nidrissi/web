@@ -19,6 +19,10 @@
             </a>
         </li>
         <li>
+            <i class="fa fa-user"></i>
+            {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
+        </li>
+        <li>
             <i class="fa fa-tags"></i>
             Tags:
             {% for tag in include.post.tags %}
