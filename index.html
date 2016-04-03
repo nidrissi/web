@@ -23,7 +23,6 @@ layout: default
                         <i aria-hidden="true" class="fa fa-chevron-circle-left"></i> Previous page
                     </a>
                 </li>
-                <li>Page {{ paginator.page }} of {{ paginator.total_pages }}</li>
                 <li class="next {% unless paginator.next_page %}disabled{% endunless %}">
                     <a {% if paginator.next_page %}href="{{ paginator.next_page_path }}"{% endif %}>
                         Next page <i aria-hidden="true" class="fa fa-chevron-circle-right"></i>
