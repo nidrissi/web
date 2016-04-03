@@ -11,19 +11,19 @@
                     </a>
                 </li>
             {% endfor %}
-            {% unless page.url == "/index.html" or page.url == "/" %}
-                <li class="list-group-item">
+            <li class="list-group-item">
+                {% unless page.url == "/index.html" or page.url == "/" %}
                     <a href="{{ site.baseurl }}/">
                         <i class="fa fa-angle-double-left"></i>
                         <i>Back to home</i>
                     </a>
                     |
-                    <a href="{{ site.baseurl }}/archive">
-                        <i>All posts</i>
-                        <i class="fa fa-angle-double-right"></i>
-                    </a>
-                </li>
-            {% endunless %}
+                {% endunless %}
+                <a href="{{ site.baseurl }}/archive">
+                    <i>All posts</i>
+                    <i class="fa fa-angle-double-right"></i>
+                </a>
+            </li>
         </ul>
     </div>
 </aside>
