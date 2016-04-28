@@ -3,7 +3,7 @@ title: Blogerad
 name: Najib Idrissi
 author: Najib Idrissi # for jekyll-feed
 email: najib.idrissi.kaitouni@gmail.com
-description: A blog about math, operads, algebraic topology, and whatever else I can think about – by Najib Idrissi.
+description: A blog about math, operads, algebraic topology, and whatever else I can think about.
 baseurl: ""
 url: "https://nidrissi.github.io"
 disqus_username: nidrissi
