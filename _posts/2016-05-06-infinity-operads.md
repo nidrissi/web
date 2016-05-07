@@ -7,13 +7,12 @@ The purpose of this post is to record the definition of $$\infty$$-operads and e
 
 Indeed, the definition on an $$\infty$$-operad is a bit mysterious taken "as-is" -- see [HA, §2.1.1.10]. My goal is to explain how to reach this definition, mostly for my own sake. Most of what follows is taken either from the book *Higher Algebra*, the $$n$$Lab, or the semester-long workshop about hgiher category theory in Lille in 2015.
 
-<!--more-->
-
 ## Cartesian morphisms
 
 ### Grothendieck fibrations
 
 The first thing to explain would be Cartesian (and coCartesian) morphisms. They are generalizations of [Grothendieck fibrations](https://ncatlab.org/nlab/show/Grothendieck+fibration) from ordinary category theory. The basic idea of a Grothendieck fibration $$p : E \to B$$ is that the fibers $$E_b = p^{-1}(b)$$ depend contravariantly on $$b$$, i.e. given a morphism $$f : b \to b'$$, there exists a lift (a functor) $$\bar{f} : E_{b'} \to E_b$$. The definition of a Grothendieck fibration is exactly what's needed for all this to work correctly.
+<!--more-->
 
 Following the $$n$$Lab, a morphism $$\phi : e' \to e$$ is said to be **$$p$$-Cartesian lift $$\phi : e' \to e$$. Then $$\hat{p}(f)(b) := e' \in E_{b'}$$. The unique factorizations in the definition of a fibration makes this into a functor $$\hat{p}(f)$$, and this becomes a (pseudo)functor $$B \to \mathsf{Cat}^{\rm op}$$.
 
