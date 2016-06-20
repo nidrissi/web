@@ -5,7 +5,7 @@ author: Najib Idrissi # for jekyll-feed
 email: najib.idrissi.kaitouni@gmail.com
 description: A blog about math, operads, algebraic topology, and whatever else I can think about.
 baseurl: ""
-url: "https://nidrissi.github.io"
+url: "http://blog.erad.fr"
 disqus_username: nidrissi
 paginate: 5
 
