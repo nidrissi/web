@@ -13,9 +13,8 @@
                 {% if include.link %}</a>{% endif %}
         </li>
         <li>
-            <a href="{% if include.link %}{{ include.post.url | prepend: site.baseurl }}{% endif %}#isso-thread">
-                <i class="fa fa-comment"></i> Comments
-            </a>
+            <i class="fa fa-comment"></i>
+            <a href="{% if include.link %}{{ include.post.url | prepend: site.baseurl }}{% endif %}#isso-thread">Comments</a>
         </li>
         <li>
             <i class="fa fa-user"></i>
