@@ -71,6 +71,6 @@ This is not quite right: this encodes a pair consisting of a unital Gerstenhaber
 
 $$a \cdot b = f(a) \cdot b$$
 
-where the first dot is the action of $$A$$ on $$B$$ and the second one the multiplication in $$A$$.
+where the first dot is the action of $$A$$ on $$B$$ and the second one the multiplication in $$B$$.
 
 The main motivation for my paper was to try and "lift" this splitting of the homology of Swiss-cheese to the topological level. Due to the non-formality of the Swiss-cheese operad (cf. Livernet, *Non-formality of the Swiss-cheese operad*), it is not actually possible to do; nevertheless I think I succeeded in showing that the Swiss-cheese operad splits as a "shuffled" Voronov product, a notion that I'd like to formalize someday -- read my paper for more details ;).
