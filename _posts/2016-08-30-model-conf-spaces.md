@@ -1,6 +1,6 @@
 ---
 title: "The Lambrechts–Stanley Model of Configuration Spaces"
-tags: math
+tags: math config-spaces
 ---
 
 I have uploaded a new preprint, *The Lambrechts–Stanley Model of Configuration Spaces*, which you can find at [arXiv:1608.08054 ](http://arxiv.org/abs/1608.08054). Here is the abstract:
