@@ -3,7 +3,7 @@ title: "Configuration Spaces Woes"
 tags: math config-spaces
 ---
 
-I've been neglecting this blog a lot. It turns out that juggling research, teaching, organizing a seminar, and a personal life leaves little time for writing articles!
+I've been neglecting this blog a lot. Juggling research, teaching, organizing a seminar, and a personal life leaves little time for writing articles! (Wait, isn't that the same complaint as last time?)
 
 Most prominently I've been spending a lot of time working on my paper about the Lambrechts--Stanley model for configuration spaces (see [my previous post]({% post_url 2016-08-30-model-conf-spaces %})). The good news is, I'm done (or as done as one can be with a paper), and I've just uploaded the third version of the paper on the [arXiv](https://arxiv.org/abs/1608.08054) (also available [on my lab webpage](http://math.univ-lille1.fr/~idrissi/files/model-conf-sp.pdf)) and submitted it. I've finally managed to remove this bothersome hypothesis about the Euler characteristic of the manifold, and I've fixed an issue about my use of the propagator (PA forms are hard).
 
