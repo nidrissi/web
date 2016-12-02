@@ -4,10 +4,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- metadata -->
-    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | {{ site.name }}{% endif %}</title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    {% feed_meta %} <!-- RSS -->
     <link rel="shortcut icon" href="/favicon.ico" />
 
     <!-- css -->
@@ -58,4 +54,6 @@
 
     <!-- isso -->
     <script data-isso="https://comms.erad.fr/" data-isso-lang="en" data-isso-require-email="true" src="https://comms.erad.fr/js/embed.min.js"></script>
+
+    {% seo %}
 </head>

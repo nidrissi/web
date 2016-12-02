@@ -1,13 +1,18 @@
 # Basic info
+baseurl: ""
+url: "https://blog.erad.fr"
 title: Blogerad
 name: Najib Idrissi
 author: Najib Idrissi # for jekyll-feed
 email: najib.idrissi.kaitouni@gmail.com
 description: A blog about math, operads, algebraic topology, and whatever else I can think about.
-baseurl: ""
-url: "https://blog.erad.fr"
-disqus_username: nidrissi
-paginate: 5
+social:
+  name: Najib Idrissi
+  links:
+    - https://github.com/nidrissi
+    - http://math.stackexchange.com/users/10014/najib-idrissi
+    - http://mathoverflow.net/users/36146/najib-idrissi
+
 
 # Build conf
 markdown: kramdown
@@ -19,12 +24,13 @@ gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
+  - jekyll-seo-tag
 exclude: ["README.md"]
+paginate: 5
 
 # Tags
 tag_page_layout: tag_page
 tag_page_dir: tag
-
 
 defaults:
   -
