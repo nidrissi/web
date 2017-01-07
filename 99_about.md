@@ -16,6 +16,8 @@ I also have a [webpage hosted by my lab](http://math.univ-lille1.fr/~idrissi){:r
 
 I use [Math.StackExchange](http://math.stackexchange.com/users/10014/najib-idrissi){:rel="me"} often, and I'm also on [MathOverflow](http://mathoverflow.net/users/36146/najib-idrissi){:rel="me"}. My ORCID: [![ORCID](/images/orcid.png){:height="16"} orcid.org/0000-0001-7288-6726](http://orcid.org/0000-0001-7288-6726){:rel="me"}.
 
+[<i class="fa fa-key"></i> My GPG Public Key.](#gpg){:role="button" data-toggle="collapse" href="#gpg" aria-expanded="false" aria-controls="gpg"}
+
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG v2
      
@@ -46,3 +48,4 @@ I use [Math.StackExchange](http://math.stackexchange.com/users/10014/najib-idris
     IEUFSl6dbk3DnVcPwcENFnpzV+KRvcmmLakG+YfFgVC9+E1TcXS6e8+sY6R+1BMT
     =Nce1
     -----END PGP PUBLIC KEY BLOCK-----
+{: class="collapse" id="gpg"}
