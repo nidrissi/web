@@ -1,0 +1,352 @@
+---
+title: Curriculum Vitæ (fr) ! Curriculum Vitæ (en)
+firstname: Najib
+familyname: Idrissi
+address:
+  - Université Lille\ 1 -- Laboratoire Paul Painlevé
+  - Cité Scientifique -- Bâtiment M2
+  - "59655 Villeneuve d'Ascq Cedex, France"
+email: najib.idrissi-kaitouni@math.univ-lille1.fr
+extrainfo: Né le 23/11/1991 ! Born 1991-11-23
+homepage: math.univ-lille1.fr/~idrissi/
+section:
+  - title: Travail ! Work
+    entry:
+      - content:
+          - '2015--'
+          - Doctorant contractuel ! Contractual PhD student
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Lille, France
+          - ""
+          - |          
+              Titre : \emph{Formalité opéradique et homologie de factorisation}.\
+              Directeur de thèse : Benoit Fresse.\
+              Sujet : Calcul explicite de l'homologie de factorisation en exploitant la formalité des opérades des petits disques.\
+              Financée par une Allocation Spécifique de l'ENS.
+              !
+              Title: "\emph{Operadic formality and factorization homology}. \qquad"
+              Advisor: Benoit Fresse.\
+              Topic: Explicit computation of factorization homology by using the formality of the little disks operads.\
+              Funded by an ``\emph{Allocation Spécifique}'' of the ENS.
+  - title: Études ! Education
+    entry:
+      - content:
+          - '2015--'
+          - Doctorant contractuel ! Contractual PhD student
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Lille, France
+          - ""
+          - ""
+      - content:
+          - '2011--2015'
+          - "Élève de l'École Normale Supérieure ! Student of the École Normale Supérieure"
+          - ENS Ulm
+          - Paris, France
+          - Département de Mathématiques et Applications
+          - ""
+      - sub: 1
+        content:
+          - '2014--2015'
+          - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Lille, France
+          - ""
+          - |
+              En préparation au début d\'un doctorat en 2015.\
+              Directeur : Benoit Fresse. ! In preparation for beginning a PhD program in 2015.\
+              Advisor: Benoit Fresse.
+      - sub: 1
+        content:
+          - '2013--2014'
+          - "Master\ 2 Recherche de Mathématiques Fondamentales ! 2nd year of Research Master's degree in Pure Mathematics"
+          - Université Paris Diderot
+          - Paris, France
+          - ""
+          - |
+             Mémoire de master : \emph{Homologie, complexe de déformations et opérades $E_{n}$}.\
+             Directeur : Benoit Fresse.\
+             Sujet : Calcul de l\'homologie des algèbres $n$-Poisson à coefficients.
+             !
+             Master\'s thesis: \emph{Homologie, complexe de déformations et opérades $E_{n}$.}\
+             Advisor: Benoit Fresse.\
+             Topic: Computation of the homology of $n$-Poisson algebras with coefficients.
+      - sub: 1
+        content:
+          - Automne 2013 ! Fall 2013
+          - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
+          - Massachusetts Institute of Technology
+          - Cambridge (MA), USA
+          - ""
+          - "Hôte : Haynes Miller. ! Host: Haynes Miller."
+      - sub: 1
+        content:
+          - '2011--2013'
+          - "Licence et Master\ 1 de Mathématiques ! Licence and 1st year of Master's degree in Mathematics"
+          - Université Paris-Sud
+          - Orsay, France
+          - ""
+          - ""
+      - content:
+        - '2009--2011'
+        - CPGE (MPSI \& MP*)
+        - Lycée Henri Wallon
+        - Valenciennes, France
+        - ""
+        - ""
+  - title: Recherche ! Research
+    bib:
+      - title: Prépublications ! Preprints
+        key: preprint
+      - title: Autres documents ! Other documents
+        key: other
+  - title: Enseignement ! Teaching
+    entry:
+      - content:
+          - '2016--2017'
+          - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
+          - Université Lille\ 1
+          - 1er semestre ! 1st semester
+          - Licence MASS
+          - ""
+      - content:
+          - '2015--2016'
+          - Mathématiques fondamentales 2 (Travaux Dirigés) ! Mathématiques fondamentales 2 (Teaching Assistant)
+          - Université Lille\ 1
+          - 2ème semestre ! 2nd semester
+          - Licence SESI
+          - ""
+  - title: Exposés ! Talks
+    entry:
+      - content:
+          - 2016-11-17
+          - Le modèle de Lambrechts--Stanley des espaces de configuration
+          - Université Paris 13
+          - Paris, France
+          - ""
+          - Séminaire de topologie algébrique ! Algebraic topology seminar
+      - content:
+          - 2016-10-26
+          - The Lambrechts--Stanley Model of Configuration Spaces
+          - IHET
+          - ""
+          - Tunis, Tunisie ! Tunisia
+          - "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
+      - content:
+          - 2016-10-13
+          - The Lambrechts--Stanley Model of Configuration Spaces
+          - Université de Picardie Jules Verne, LAMFA
+          - ""
+          - Amiens, France
+          - Colloque 2016 du GDR Topologie Algébrique et Applications
+      - content:
+          - 2016-09-16
+          - Le modèle de Lambrechts--Stanley des espaces de configuration
+          - Université Lille 1
+          - Lille, France
+          - ""
+          - Séminaire de Topologie ! Topology seminar
+      - content:
+          - 2016-06-02
+          - Swiss-Cheese operad and Drinfeld center
+          - ETH Zürich
+          - Zürich, Suisse ! Switzerland
+          - ""
+          - Talks in mathematical physics
+      - content:
+          - 2016-04-05
+          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          - Université Paris\ 7 -- IMJ-PRG
+          - Paris, France
+          - ""
+          - Séminaire de Topologie ! Topology seminar
+      - content:
+          - 2015-12-16
+          - Opérades
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Lille, France
+          - ""
+          - "Séminaire des doctorants ! PhD students' seminar"
+      - content:
+          - 2015-12-03
+          - Opérades
+          - Université de Picardie Jules Verne, LAMFA
+          - Amiens, France
+          - ""
+          - "Séminaire des doctorants ! PhD students' seminar"
+      - content:
+          - 2015-10-28
+          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          - Université Catholique de Louvain, Institut de recherche en mathématique et physique
+          - Louvain-la-Neuve, Belgique ! Louvain-la-Neuve, Belgium
+          - ""
+          - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
+      - content:
+          - 2015-09-25
+          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Lille, France
+          - ""
+          - Séminaire de Topologie ! Topology seminar
+  - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
+    entry:
+        - content:
+            - 2016-10-26
+            - "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
+            - ""
+            - IHET
+            - ""
+            - Tunis, Tunisie ! Tunis, Tunisia
+            - ""
+        - content:
+            - 2016-10-11
+            - Colloque 2016 du GDR Topologie Algébrique et Applications
+            - ""
+            - Université de Picardie Jules Verne, LAMFA
+            - ""
+            - Amiens, France
+            - ""
+        - content:
+            - 2016-07-04
+            - Young Topologists Meeting 2016
+            - Université de Copenhague ! University of Copenhagen
+            - ""
+            - Copenhague, Danemark ! Copenhagen, Denmark
+            - ""
+        - content:
+            - 2016-05-08
+            - "Workshop: Factorization Algebras and Functorial Field Theories"
+            - Mathematisches Forschungsinstitut Oberwolfach
+            - ""
+            - Oberwolfach, Allemagne ! Oberwolfach, Germany
+            - ""
+        - content:
+            - 2016-03-23
+            - Séminaire Itinérant de Catégories
+            - Université Lille\ 1, Laboratoire Paul Painlevé
+            - ""
+            - Lille, France
+            - ""
+        - content:
+            - 2015-10-21
+            - Colloque 2015 du GDR Topologie Algébrique et Applications
+            - Université de Tolouse 3, Institut de Mathématiques de Toulouse
+            - ""
+            - Toulouse, France
+            - ""
+        - content:
+            - 2015-06-15
+            - Lens Topology and geometry 2015
+            - "Université d'Artois, Laboratoire de Mathématiques de Lens"
+            - ""
+            - Lens, France
+            - ""
+        - content:
+            - 2015-05-04
+            - Introductory School -- Homotopy theory, manifolds, and field theories
+            - Hausdorff Research Institute for Mathematics
+            - ""
+            - Bonn, Germany
+            - ""
+        - content:
+            - 2015-03-30
+            - Séminaire du projet ANR HOGT
+            - Université de Strasbourg, Institut de Recherche Mathématique Avancée
+            - ""
+            - Strasbourg, France
+            - ""
+        - content:
+            - 2015-03-16
+            - Second Young Mathematicians Colloquium
+            - KU Leuven Kulak
+            - ""
+            - Courtrai, Belgique ! Kortrijk, Belgium
+            - ""
+        - content:
+            - 2015-03-13
+            - Séminaire Itinérant de Catégories
+            - "Université du Littoral Côte d'Opale, Laboratoire de Mathématiques Pures et Appliquées"
+            - ""
+            - Calais, France
+            - ""
+        - content:
+            - 2015-02-21
+            - "Masterclass : K-théorie topologique et applications"
+            - Université de Strasbourg, Institut de Recherche de Mathématique Avancée
+            - ""
+            - Strasbourg, France
+            - ""
+        - content:
+            - 2015-01-22
+            - Séminaire du projet ANR HOGT
+            - Université Lille\ 1, Laboratoire Paul Painlevé
+            - ""
+            - Lille, France
+            - ""
+        - content:
+            - 2014-10-22
+            - Colloque 2014 du GDR Topologie Algébrique et Applications
+            - Université Blaise Pascal, Laboratoire de Mathématiques
+            - ""
+            - Clermont-Ferrand, France
+            - ""
+        - content:
+            - 2014-09-09
+            - Colloque de clôture du projet ANR HOGT
+            - Université de Nice, Laboratoire J.\ A.\ Dieudonné
+            - ""
+            - Nice, France
+            - ""
+        - content:
+            - 2014-09-01
+            - Espaces des lacets en géométrie et topologie
+            - Université de Nantes, Centre Henri Lebesgue
+            - ""
+            - Nantes, France
+            - ""
+        - content:
+            - 2014-06-30
+            - Young Topologists Meeting 2014
+            - Université de Copenhague ! University of Copenhagen
+            - ""
+            - Copenhague, Danemark ! Copenhagen, Denmark
+            - ""
+        - content:
+            - 2014-05-06
+            - Young Mathematicians Colloquium
+            - Université Lille\ 1, Laboratoire Paul Painlevé
+            - ""
+            - Lille, France
+            - ""
+        - content:
+            - 2014-01-09
+            - Séminaire du projet ANR HOGT
+            - Université Lille\ 1, Laboratoire Paul Painlevé
+            - ""
+            - Lille, France
+            - ""
+        - content:
+            - 2013-09-02
+            - "Gelfand Centennial Conference: A View of 21st Century Mathematics"
+            - Massachusetts Institute of Technology
+            - ""
+            - Cambridge, USA
+            - ""
+        - content:
+            - 2013-05-22
+            - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday"
+            - Université de Nantes, Laboratoire de Mathématiques Jean Leray
+            - ""
+            - Nantes, France
+            - ""
+  - title: Langues ! Languages
+    item:
+      - content:
+        - Français ! French
+        - Langue maternelle ! Native language
+      - content:
+        - Anglais ! English
+        - Couramment ! Fluent
+      - content:
+        - Espagnol ! Spanish
+        - Basique ! Basic
+...

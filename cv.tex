@@ -1,0 +1,73 @@
+\documentclass[a4paper]{moderncv}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Calibri}
+\usepackage{microtype}
+\usepackage[super]{nth}
+
+\usepackage{geometry}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+
+% i18n
+\usepackage{polyglossia}
+\setmainlanguage{$lang$}
+
+% bib
+\usepackage{csquotes}
+\usepackage[defernumbers=true]{biblatex}
+\addbibresource{cv.bib}
+
+% adapted from:
+% http://tex.stackexchange.com/a/161635
+\newcommand*{\cvsubentry}[7][.25em]{%
+  \cvitem[#1]{#2}{%
+    \hspace*{1em}%
+    \begin{minipage}[t]{\dimexpr\linewidth-1em}%
+      {\bfseries#3}%
+      \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+      \ifthenelse{\equal{#5}{}}{}{, #5}%
+      \ifthenelse{\equal{#6}{}}{}{, #6}%
+      .\strut%
+    \end{minipage}%
+    \ifx&#7&%
+    \else{\newline{}\hspace*{1em}\begin{minipage}[t]{\dimexpr\linewidth-1em}\small#7\end{minipage}}\fi}}
+
+
+\title{$title$}
+\firstname{$firstname$}
+\familyname{$familyname$}
+\address$for(address)${$address$}$endfor$
+\email{$email$}
+\extrainfo{$extrainfo$}
+\homepage{$homepage$}
+
+\begin{document}
+\maketitle
+\nocite{*}
+
+$for(section)$
+\section{$section.title$}
+
+$for(section.entry)$
+\cv$if(section.entry.sub)$sub$endif$entry
+$for(section.entry.content)$ {$section.entry.content$} $endfor$
+
+$endfor$
+
+$for(section.bib)$
+\printbibliography[title={$section.bib.title$}, keyword=$section.bib.key$, heading=subbibliography]
+$endfor$
+
+$for(section.item)$
+\cvitem
+$for(section.item.content)${$section.item.content$}$endfor$
+$endfor$
+
+$endfor$
+
+\end{document}
+
+% Local Variables:
+% TeX-engine: xetex
+% End:
