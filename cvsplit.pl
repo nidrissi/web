@@ -7,7 +7,7 @@ use YAML::Tiny;
 use XXX;
 
 my $infile = 'cv.yaml';
-my @outfile = qw/french.out.yaml english.out.yaml/;
+my @outfile = qw(french.out.yaml english.out.yaml);
 
 # Split an array of pairs into a pair of arrays
 sub sep_array {
