@@ -5,7 +5,7 @@
 \usepackage{microtype}
 \usepackage[super]{nth}
 
-\usepackage{geometry}
+\usepackage[scale=0.78]{geometry}
 \moderncvstyle{classic}
 \moderncvcolor{blue}
 
@@ -52,7 +52,6 @@ $for(section)$
 $for(section.entry)$
 \cv$if(section.entry.sub)$sub$endif$entry
 $for(section.entry.content)$ {$section.entry.content$} $endfor$
-
 $endfor$
 
 $for(section.bib)$

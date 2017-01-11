@@ -1,4 +1,4 @@
-PANDOC = pandoc
+PANDOC = pandoc --latex-engine=xelatex
 LATEX = latexmk -pdf -e "$$pdflatex =~ s/pdflatex/xelatex/" -e "$$out_dir = 'build'"
 TEMPLATE = cv.tex
 YAML = cv.yaml
@@ -22,7 +22,7 @@ clean:
 	cmd /c copy build\$@ .
 
 %.tex: %.out.yaml
-	$(PANDOC) -V lang=$(*F) --template $(TEMPLATE) --latex-engine=xelatex $< -o $@
+	$(PANDOC) -V lang=$(*F) --template $(TEMPLATE) $< -o $@
 
 %.out.yaml: $(YAML)
 	perl cvsplit.pl
