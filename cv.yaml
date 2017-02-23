@@ -117,6 +117,13 @@ section:
   - title: Exposés ! Talks
     entry:
       - content:
+          - 2017-02-15
+          - The Lambrechts--Stanley Model of Configuration Spaces
+          - MPIM Bonn
+          - Bonn, Allemagne ! Bonn, Germany
+          - ~
+          - Conference for Young researchers in homotopy theory and categorical structures
+      - content:
           - 2017-01-04
           - Le modèle de Lambrechts--Stanley des espaces de configuration
           - Université Catholique de Louvain, Institut de recherche en mathématique et physique
@@ -195,155 +202,163 @@ section:
           - Séminaire de Topologie ! Topology seminar
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
-        - content:
-            - 2016-10-26
-            - "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
-            - ~
-            - IHET
-            - ~
-            - Tunis, Tunisie ! Tunis, Tunisia
-            - ~
-        - content:
-            - 2016-10-11
-            - Colloque 2016 du GDR Topologie Algébrique et Applications
-            - ~
-            - Université de Picardie Jules Verne, LAMFA
-            - ~
-            - Amiens, France
-            - ~
-        - content:
-            - 2016-07-04
-            - Young Topologists Meeting 2016
-            - Université de Copenhague ! University of Copenhagen
-            - ~
-            - Copenhague, Danemark ! Copenhagen, Denmark
-            - ~
-        - content:
-            - 2016-05-08
-            - "Workshop: Factorization Algebras and Functorial Field Theories"
-            - Mathematisches Forschungsinstitut Oberwolfach
-            - ~
-            - Oberwolfach, Allemagne ! Oberwolfach, Germany
-            - ~
-        - content:
-            - 2016-03-23
-            - Séminaire Itinérant de Catégories
-            - Université Lille\ 1, Laboratoire Paul Painlevé
-            - ~
-            - Lille, France
-            - ~
-        - content:
-            - 2015-10-21
-            - Colloque 2015 du GDR Topologie Algébrique et Applications
-            - Université de Tolouse 3, Institut de Mathématiques de Toulouse
-            - ~
-            - Toulouse, France
-            - ~
-        - content:
-            - 2015-06-15
-            - Lens Topology and geometry 2015
-            - "Université d'Artois, Laboratoire de Mathématiques de Lens"
-            - ~
-            - Lens, France
-            - ~
-        - content:
-            - 2015-05-04
-            - Introductory School -- Homotopy theory, manifolds, and field theories
-            - Hausdorff Research Institute for Mathematics
-            - ~
-            - Bonn, Germany
-            - ~
-        - content:
-            - 2015-03-30
-            - Séminaire du projet ANR HOGT
-            - Université de Strasbourg, Institut de Recherche Mathématique Avancée
-            - ~
-            - Strasbourg, France
-            - ~
-        - content:
-            - 2015-03-16
-            - Second Young Mathematicians Colloquium
-            - KU Leuven Kulak
-            - ~
-            - Courtrai, Belgique ! Kortrijk, Belgium
-            - ~
-        - content:
-            - 2015-03-13
-            - Séminaire Itinérant de Catégories
-            - "Université du Littoral Côte d'Opale, Laboratoire de Mathématiques Pures et Appliquées"
-            - ~
-            - Calais, France
-            - ~
-        - content:
-            - 2015-02-21
-            - "Masterclass : K-théorie topologique et applications"
-            - Université de Strasbourg, Institut de Recherche de Mathématique Avancée
-            - ~
-            - Strasbourg, France
-            - ~
-        - content:
-            - 2015-01-22
-            - Séminaire du projet ANR HOGT
-            - Université Lille\ 1, Laboratoire Paul Painlevé
-            - ~
-            - Lille, France
-            - ~
-        - content:
-            - 2014-10-22
-            - Colloque 2014 du GDR Topologie Algébrique et Applications
-            - Université Blaise Pascal, Laboratoire de Mathématiques
-            - ~
-            - Clermont-Ferrand, France
-            - ~
-        - content:
-            - 2014-09-09
-            - Colloque de clôture du projet ANR HOGT
-            - Université de Nice, Laboratoire J.\ A.\ Dieudonné
-            - ~
-            - Nice, France
-            - ~
-        - content:
-            - 2014-09-01
-            - Espaces des lacets en géométrie et topologie
-            - Université de Nantes, Centre Henri Lebesgue
-            - ~
-            - Nantes, France
-            - ~
-        - content:
-            - 2014-06-30
-            - Young Topologists Meeting 2014
-            - Université de Copenhague ! University of Copenhagen
-            - ~
-            - Copenhague, Danemark ! Copenhagen, Denmark
-            - ~
-        - content:
-            - 2014-05-06
-            - Young Mathematicians Colloquium
-            - Université Lille\ 1, Laboratoire Paul Painlevé
-            - ~
-            - Lille, France
-            - ~
-        - content:
-            - 2014-01-09
-            - Séminaire du projet ANR HOGT
-            - Université Lille\ 1, Laboratoire Paul Painlevé
-            - ~
-            - Lille, France
-            - ~
-        - content:
-            - 2013-09-02
-            - "Gelfand Centennial Conference: A View of 21st Century Mathematics"
-            - Massachusetts Institute of Technology
-            - ~
-            - Cambridge, USA
-            - ~
-        - content:
-            - 2013-05-22
-            - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday"
-            - Université de Nantes, Laboratoire de Mathématiques Jean Leray
-            - ~
-            - Nantes, France
-            - ~
+      - content:
+          - 2017-02-13
+          - Conference for Young researchers in homotopy theory and categorical structures
+          - ~
+          - MPIM Bonn
+          - ~
+          - Bonn, Allemagne ! Bonn, Germany
+          - ~
+      - content:
+          - 2016-10-26
+          - "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
+          - ~
+          - IHET
+          - ~
+          - Tunis, Tunisie ! Tunis, Tunisia
+          - ~
+      - content:
+          - 2016-10-11
+          - Colloque 2016 du GDR Topologie Algébrique et Applications
+          - ~
+          - Université de Picardie Jules Verne, LAMFA
+          - ~
+          - Amiens, France
+          - ~
+      - content:
+          - 2016-07-04
+          - Young Topologists Meeting 2016
+          - Université de Copenhague ! University of Copenhagen
+          - ~
+          - Copenhague, Danemark ! Copenhagen, Denmark
+          - ~
+      - content:
+          - 2016-05-08
+          - "Workshop: Factorization Algebras and Functorial Field Theories"
+          - Mathematisches Forschungsinstitut Oberwolfach
+          - ~
+          - Oberwolfach, Allemagne ! Oberwolfach, Germany
+          - ~
+      - content:
+          - 2016-03-23
+          - Séminaire Itinérant de Catégories
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - ~
+          - Lille, France
+          - ~
+      - content:
+          - 2015-10-21
+          - Colloque 2015 du GDR Topologie Algébrique et Applications
+          - Université de Tolouse 3, Institut de Mathématiques de Toulouse
+          - ~
+          - Toulouse, France
+          - ~
+      - content:
+          - 2015-06-15
+          - Lens Topology and geometry 2015
+          - "Université d'Artois, Laboratoire de Mathématiques de Lens"
+          - ~
+          - Lens, France
+          - ~
+      - content:
+          - 2015-05-04
+          - Introductory School -- Homotopy theory, manifolds, and field theories
+          - Hausdorff Research Institute for Mathematics
+          - ~
+          - Bonn, Germany
+          - ~
+      - content:
+          - 2015-03-30
+          - Séminaire du projet ANR HOGT
+          - Université de Strasbourg, Institut de Recherche Mathématique Avancée
+          - ~
+          - Strasbourg, France
+          - ~
+      - content:
+          - 2015-03-16
+          - Second Young Mathematicians Colloquium
+          - KU Leuven Kulak
+          - ~
+          - Courtrai, Belgique ! Kortrijk, Belgium
+          - ~
+      - content:
+          - 2015-03-13
+          - Séminaire Itinérant de Catégories
+          - "Université du Littoral Côte d'Opale, Laboratoire de Mathématiques Pures et Appliquées"
+          - ~
+          - Calais, France
+          - ~
+      - content:
+          - 2015-02-21
+          - "Masterclass : K-théorie topologique et applications"
+          - Université de Strasbourg, Institut de Recherche de Mathématique Avancée
+          - ~
+          - Strasbourg, France
+          - ~
+      - content:
+          - 2015-01-22
+          - Séminaire du projet ANR HOGT
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - ~
+          - Lille, France
+          - ~
+      - content:
+          - 2014-10-22
+          - Colloque 2014 du GDR Topologie Algébrique et Applications
+          - Université Blaise Pascal, Laboratoire de Mathématiques
+          - ~
+          - Clermont-Ferrand, France
+          - ~
+      - content:
+          - 2014-09-09
+          - Colloque de clôture du projet ANR HOGT
+          - Université de Nice, Laboratoire J.\ A.\ Dieudonné
+          - ~
+          - Nice, France
+          - ~
+      - content:
+          - 2014-09-01
+          - Espaces des lacets en géométrie et topologie
+          - Université de Nantes, Centre Henri Lebesgue
+          - ~
+          - Nantes, France
+          - ~
+      - content:
+          - 2014-06-30
+          - Young Topologists Meeting 2014
+          - Université de Copenhague ! University of Copenhagen
+          - ~
+          - Copenhague, Danemark ! Copenhagen, Denmark
+          - ~
+      - content:
+          - 2014-05-06
+          - Young Mathematicians Colloquium
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - ~
+          - Lille, France
+          - ~
+      - content:
+          - 2014-01-09
+          - Séminaire du projet ANR HOGT
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - ~
+          - Lille, France
+          - ~
+      - content:
+          - 2013-09-02
+          - "Gelfand Centennial Conference: A View of 21st Century Mathematics"
+          - Massachusetts Institute of Technology
+          - ~
+          - Cambridge, USA
+          - ~
+      - content:
+          - 2013-05-22
+          - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday"
+          - Université de Nantes, Laboratoire de Mathématiques Jean Leray
+          - ~
+          - Nantes, France
+          - ~
   - title: Langues ! Languages
     item:
       - content:
