@@ -10,9 +10,9 @@ social:
   name: Najib Idrissi
   links:
     - https://github.com/nidrissi
-    - http://math.stackexchange.com/users/10014/najib-idrissi
-    - http://mathoverflow.net/users/36146/najib-idrissi
-    - http://math.univ-lille1.fr/~idrissi/
+    - https://math.stackexchange.com/users/10014/najib-idrissi
+    - https://mathoverflow.net/users/36146/najib-idrissi
+    - https://math.univ-lille1.fr/~idrissi/
 
 # Build conf
 markdown: kramdown
