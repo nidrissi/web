@@ -27,12 +27,7 @@
 
     <!-- anchors -->
     <script src="{{ "/js/anchor.min.js" | prepend: site.baseurl }}"></script>
-    <script type="text/javascript">
-     $(function(){
-         $('h1, h2, h3, h4, h5, h6').addClass('target'); /* for the navbar */
-         anchors.add().remove('.no-anchor').remove('#isso-thread > h4');
-     });
-    </script>
+    <script src="{{ "/js/myanchor.js" | prepend: site.baseurl }}"></script>
 
     <!-- isso -->
     <script data-isso="https://comms.erad.fr/" data-isso-lang="en" data-isso-require-email="true" src="https://comms.erad.fr/js/embed.min.js"></script>
@@ -40,19 +35,7 @@
     {% seo %}
 
     <!-- Piwik -->
-    <script type="text/javascript">
-     var _paq = _paq || [];
-     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-     _paq.push(['trackPageView']);
-     _paq.push(['enableLinkTracking']);
-     (function() {
-         var u="//stats.erad.fr/";
-         _paq.push(['setTrackerUrl', u+'piwik.php']);
-         _paq.push(['setSiteId', '1']);
-         var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-         g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-     })();
-    </script>
+    <script src="{{ "/js/piwik.js" | prepend: site.baseurl}}"></script>
     <noscript><p><img src="//stats.erad.fr/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
     <!-- End Piwik Code -->
 </head>
