@@ -1,6 +1,6 @@
 ---
 title: "The Voronov product of operads"
-tags: math operads
+tags: math operads swiss-cheese
 ---
 
 My first real post in a while! It turns out that writing an actual paper (cf. previous blog post) takes a lot of time and effort. Who knew?
