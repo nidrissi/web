@@ -1,5 +1,7 @@
 var _paq = _paq || [];
 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+_paq.push(["setDomains", ["*.blog.erad.fr","*.op.erad.fr"]]);
+_paq.push(["enableCrossDomainLinking"]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
