@@ -16,7 +16,7 @@ Of course, if we don't know anything about $$M$$, then this is blatantly false. 
 
 But even then, the question could appear hopeless. Indeed, [Longoni--Salvatore, 2005], found a counterexample: they showed that some $$3$$-dimensional lens spaces are homotopy equivalent and yet their configuration spaces are not homotopy equivalent. But not all hope is lost! Indeed, these lens spaces are not simply connected. So maybe if we restrict to simply connected manifolds, things will work out.
 
-I'll admit it, I'm only comfortable over fields of characteristic zero. And over $$\mathbb{Q}$$, we can use Sullivan's framework of rational models to study the real homotopy type of spaces. So let us take a rational model $$\mathbb{A}$$ of $$M$$, and try to build a rational model of $$\Conf_k(M)$$ from it.
+I'll admit it, I'm only comfortable over fields of characteristic zero. And over $$\mathbb{Q}$$, we can use Sullivan's framework of rational models to study the real homotopy type of spaces. So let us take a rational model $$A$$ of $$M$$, and try to build a rational model of $$\Conf_k(M)$$ from it.
 
 If you recall, we are looking at a closed manifold $$M$$. This feature appears on the level of cohomology in the form of Poincaré duality. Well, it also appears on the level of rational models! [Lambrechts--Stanley, 2008] showed that any *simply-connected* closed manifold has a rational model which is a Poincaré duality CDGA. Roughly speaking, it means that it has a non-degenerate dg-pairing with itself, of formal dimension $$n$$.
 
