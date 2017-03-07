@@ -1,5 +1,5 @@
 ---
-title: "The Milnor–Moore theorem"
+title: "The Milnor–Moore Theorem"
 tags: math algtop
 ---
 

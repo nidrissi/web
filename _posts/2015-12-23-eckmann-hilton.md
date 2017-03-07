@@ -1,5 +1,5 @@
 ---
-title: "The Eckmann–Hilton argument"
+title: "The Eckmann–Hilton Argument"
 tags: math algtop
 ---
 

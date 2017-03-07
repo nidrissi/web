@@ -1,5 +1,5 @@
 ---
-title: "First article accepted!"
+title: "First Article Accepted!"
 tags: math paper swiss-cheese operads
 ---
 

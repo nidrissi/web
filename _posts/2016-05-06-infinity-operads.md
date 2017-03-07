@@ -1,5 +1,5 @@
 ---
-title: "Infinity-operads demystified"
+title: "Infinity-Operads Demystified"
 tags: math algtop operads higher-cat
 ---
 

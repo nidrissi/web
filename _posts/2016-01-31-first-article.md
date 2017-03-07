@@ -1,5 +1,5 @@
 ---
-title: "First article accepted!"
+title: "Paper Accepted!"
 tags: math paper
 ---
 

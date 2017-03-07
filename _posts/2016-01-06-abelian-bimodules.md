@@ -1,5 +1,5 @@
 ---
-title: "About abelian bimodules"
+title: "About Abelian Bimodules"
 tags: math algtop operads
 ---
 

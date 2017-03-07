@@ -1,5 +1,5 @@
 ---
-title: "The Voronov product of operads"
+title: "The Voronov Product of Operads"
 tags: math operads swiss-cheese
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Acyclic models"
+title: "Acyclic Models"
 tags: math algtop
 ---
 
