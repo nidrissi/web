@@ -1,5 +1,5 @@
 ---
-title: "A Model for Configuration Spaces"
+title: "A Model for Configuration Spaces of Closed Manifolds"
 tags: math conf-spaces
 ---
 
