@@ -3,13 +3,13 @@
         <div class="panel-heading">Latest posts</div>
         <ul class="list-group" id="sidebar-post-list">
             {% for post in site.posts limit: 5 %}
-                <li class="list-group-item">
-                    <a href="{{ post.url | prepend: site.baseurl }}">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <li class="list-group-item">
                         {{ post.title }}
                         <br>
                         <span class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</span>
-                    </a>
-                </li>
+                    </li>
+                </a>
             {% endfor %}
             <li class="list-group-item">
                 {% unless page.url == "/index.html" or page.url == "/" %}
