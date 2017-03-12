@@ -1,17 +1,15 @@
 <aside class="col-md-{{ include.width }} hidden-sm hidden-xs" id="sidebar">
     <div class="panel panel-default">
         <div class="panel-heading">Latest posts</div>
-        <ul class="list-group" id="sidebar-post-list">
+        <div class="list-group" id="sidebar-post-list">
             {% for post in site.posts limit: 5 %}
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <li class="list-group-item">
-                        {{ post.title }}
-                        <br>
-                        <span class="text-muted">{{ post.date | date: "%b %-d, %Y" }}</span>
-                    </li>
+                <a href="{{ post.url | prepend: site.baseurl }}" class="list-group-item {% if post.url == page.url %}active{% endif %}">
+                    {{ post.title }}
+                    <br>
+                    <span>{{ post.date | date: "%b %-d, %Y" }}</span>
                 </a>
             {% endfor %}
-            <li class="list-group-item">
+            <div class="list-group-item">
                 {% unless page.url == "/index.html" or page.url == "/" %}
                     <a href="{{ site.baseurl }}/"><i class="fa fa-angle-double-left"></i> <i>Back to home</i></a>
                     | 
