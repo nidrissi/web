@@ -8,7 +8,7 @@ address:
   - "59655 Villeneuve d'Ascq Cedex, France"
 email: najib.idrissi-kaitouni@math.univ-lille1.fr
 extrainfo: Né le 23/11/1991 ! Born 1991-11-23
-homepage: math.univ-lille1.fr/~idrissi/
+homepage: https://math.univ-lille1.fr/~idrissi/
 section:
   - title: Travail ! Work
     entry:
@@ -101,18 +101,32 @@ section:
   - title: Enseignement ! Teaching
     entry:
       - content:
-          - '2016--2017'
+          - 2016--2017
+          - Calcul matriciel (Travaux Dirigés) ! Calcul matriciel (Teaching Assistant)
+          - Université Lille 1
+          - L2 Économie, Gestion, Management
+          - 2ème semestre ! 2nd semester
+          - ~
+      - content:
+          - ~
+          - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
+          - Université Lille 1
+          - L1 Économie, Gestion, Management
+          - 2ème semestre ! 2nd semester
+          - ~
+      - content:
+          - ~
           - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
           - Université Lille\ 1
+          - L1 MASS
           - 1er semestre ! 1st semester
-          - Licence MASS
           - ~
       - content:
           - '2015--2016'
           - Mathématiques fondamentales 2 (Travaux Dirigés) ! Mathématiques fondamentales 2 (Teaching Assistant)
           - Université Lille\ 1
+          - L1 SESI
           - 2ème semestre ! 2nd semester
-          - Licence SESI
           - ~
   - title : Tâches administratives ! Administrative duties
     entry:
