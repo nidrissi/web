@@ -212,6 +212,14 @@ section:
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
       - content:
+          - 2017-03-09
+          - Workshop on Quantum Topology
+          - ~
+          - Laboratoire Paul Painlevé, Université Lille 1
+          - ~
+          - Lille, France
+          - ~
+      - content:
           - 2017-02-13
           - Conference for Young researchers in homotopy theory and categorical structures
           - ~
