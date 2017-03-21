@@ -11,10 +11,10 @@
             {% endfor %}
             <div class="list-group-item">
                 {% unless page.url == "/index.html" or page.url == "/" %}
-                    <a href="{{ site.baseurl }}/"><i class="fa fa-angle-double-left"></i> <em>Back to home</em></a>
+                    <a href="{{ site.baseurl }}/"><span aria-hidden="true" class="fa fa-angle-double-left"></span> <em>Back to home</em></a>
                     | 
                 {% endunless %}
-                <a href="{{ site.baseurl }}/archive"><em>All posts</em> <i class="fa fa-angle-double-right"></i></a>
+                <a href="{{ site.baseurl }}/archive"><em>All posts</em> <span aria-hidden="true" class="fa fa-angle-double-right"></span></a>
             </div>
         </div>
     </div>

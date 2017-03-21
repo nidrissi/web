@@ -9,19 +9,19 @@
         {% endif %}
         <li>
             {% if include.link %}<a href="{{ include.post.url | prepend: site.baseurl }}" class="link-unstyled">{% endif %}
-                <i class="fa fa-clock-o"></i> {% include date.html date=include.post.date %}
+                <span aria-hidden="true" class="fa fa-clock-o"></span> {% include date.html date=include.post.date %}
                 {% if include.link %}</a>{% endif %}
         </li>
         <li>
-            <i class="fa fa-comment"></i>
+            <span aria-hidden="true" class="fa fa-comment"></span>
             <a href="{% if include.link %}{{ include.post.url | prepend: site.baseurl }}{% endif %}#isso-thread">Comments</a>
         </li>
         <li>
-            <i class="fa fa-user"></i>
+            <span aria-hidden="true" class="fa fa-user"></span>
             {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}
         </li>
         <li>
-            <i class="fa fa-tags"></i>
+            <span aria-hidden="true" class="fa fa-tags"></span>
             Tags:
             {% for tag in include.post.tags %}
                 <a href="{{ "/tag" | prepend: site.baseurl }}/{{ tag }}">{{ tag }}</a>
@@ -31,7 +31,7 @@
         {% unless include.link %}
             <li>
                 <a role="button" data-toggle="collapse"  href="#share" aria-expanded="false" aria-controls="share">
-                    <i class="fa fa-share-alt"></i>
+                    <span aria-hidden="true" class="fa fa-share-alt"></span>
                     Share
                 </a>
             </li>

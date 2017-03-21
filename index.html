@@ -20,12 +20,12 @@ layout: default
             <ul class="pager">
                 <li class="previous {% unless paginator.previous_page %}disabled{% endunless %}">
                     <a {% if paginator.previous_page %}href="{{ paginator.previous_page_path }}"{% endif %}>
-                        <i aria-hidden="true" class="fa fa-chevron-circle-left"></i> Previous page
+                        <span aria-hidden="true" class="fa fa-chevron-circle-left"></span> Previous page
                     </a>
                 </li>
                 <li class="next {% unless paginator.next_page %}disabled{% endunless %}">
                     <a {% if paginator.next_page %}href="{{ paginator.next_page_path }}"{% endif %}>
-                        Next page <i aria-hidden="true" class="fa fa-chevron-circle-right"></i>
+                        Next page <span aria-hidden="true" class="fa fa-chevron-circle-right"></span>
                     </a>
                 </li>
             </ul>
