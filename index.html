@@ -6,9 +6,9 @@ layout: default
         {% for post in paginator.posts %}
             <article>
                 <header class="post-header">
-                    <h1 id="{{ post.id | slugify }}">
+                    <h2 id="{{ post.id | slugify }}">
                         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    </h1>
+                    </h2>
                     {% include post-meta.html post=post link=1 %}
                 </header>
                 {{ post.excerpt }}
