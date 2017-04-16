@@ -2,7 +2,7 @@
 abstract = ""
 abstract_short = ""
 date = "2017-01-04"
-event = "Séminaire de topologie algèbrique, Université Catholique de Louvain"
+event = "Séminaire de topologie algébrique, Université Catholique de Louvain"
 event_url = ""
 highlight = true
 location = ""
