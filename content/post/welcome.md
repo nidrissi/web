@@ -8,7 +8,7 @@ Hi! If you're reading this, it means I've finally decided to upload my blog, and
 
 ## Me
 
-If you don't know me (how did you get here?!) I'm Najib Idrissi, a PhD student in math at [Université Lille 1](http://www.univ-lille1.fr). You can also read the [about page]({{ "/about/" | prepend: site.baseurl }}).
+If you don't know me (how did you get here?!) I'm Najib Idrissi, a PhD student in math at [Université Lille 1](http://www.univ-lille1.fr). You can also read the [about page](/#about).
 
 I've decided to create this blog because... well, everybody is doing it. More seriously, I wanted to share stuff about mathematics that I couldn't necessarily share through other means (e.g. [math.SE](http://math.stackexchange.com)). I also wanted to have a website which wasn't hosted by my university (I have [a webpage hosted by my lab](http://math.univ-lille1.fr/~idrissi/)) to have a bit more freedom. Plus, creating the website was an interesting challenge.
 

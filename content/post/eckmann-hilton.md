@@ -78,7 +78,7 @@ This has immediate consequences: a space like $$S^1 \vee S^1$$ with a nonabelian
 
 This section can be summarized by this picture:
 
-![homotopy between fg and gf](/images/eh-arg-htpy.png){:.img-responsive width="550px"}
+![homotopy between fg and gf](/img/eh-arg-htpy.png){:.img-responsive width="550px"}
 
 It is a depiction of the Eckmann--Hilton argument applied to $$\pi_2(X)$$. To understand it, consider a set $$M$$ with two monoid structures; instead of writing them with two different operators, represent one of them with horizontal multiplication and the other with vertical multiplication, like this:
 
@@ -125,8 +125,8 @@ Natural transformations between functors can be composed in two different ways:
 
 1. If $$F,G,H : \mathsf{C} \to \mathsf{D}$$ are functors and $$\alpha : F \to G$$ and $$\beta : G \to H$$ are natural transformations, then there is a "vertical composite" $$\beta \circ \alpha : F \to G$$ given component-wise by $$(\beta \circ \alpha)_X = \beta_X \circ \alpha_X$$: 2. If $$F_1, G_1 : \mathsf{C} \to \mathsf{D}$$ and $$F_2, G_2 : \mathsf{D} \to \mathsf{E}$$ are functors and $$\beta : F_1 \to G_1$$, $$\beta : F_2 \to G_2$$ are natural transformation, there is an horizontal composite $$\alpha * \alpha$$.
 
-![vertical composition](/images/eh-arg-vert.png){:.img-responsive width="200px"}
-![horizontal composition](/images/eh-arg-horiz.png){:.img-responsive width="280px"}
+![vertical composition](/img/eh-arg-vert.png){:.img-responsive width="200px"}
+![horizontal composition](/img/eh-arg-horiz.png){:.img-responsive width="280px"}
 
 So if one only considers natural transformations from the identity functor $$\operatorname{id}_{\mathsf{C}}$$ to itself, one gets two different composition laws on $$Z(\mathsf{C}) = \operatorname{End}(\operatorname{id}_{\mathsf{C}})$$. Again these two laws satisfy the interchange law, and thus $$Z(C)$$, called the *center* of the category $$\mathsf{C}$$, is abelian. If $$\mathsf{C}$$ is a monoid seen as a category with one object, then $$Z(\mathsf{C})$$ is the usual center of the monoid.
 

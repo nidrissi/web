@@ -188,4 +188,3 @@ defaultContentLanguageInSubdir = false
 
 [permalinks]
   post = "/:year/:month/:filename/"
-  

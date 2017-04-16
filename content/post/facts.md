@@ -4,4 +4,4 @@ tags: ['math']
 title: List of Facts
 ---
 
-I just started a [list of facts]({{ "/facts/" | prepend: site.baseurl }}), mainly rather classical facts that I don't want to forget. Before, that list lived on sheets of papers strewn across my desk, which was clearly not optimal. Now it's in a more permanent form.
+I just started a [list of facts](/facts/), mainly rather classical facts that I don't want to forget. Before, that list lived on sheets of papers strewn across my desk, which was clearly not optimal. Now it's in a more permanent form.
