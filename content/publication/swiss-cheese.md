@@ -9,7 +9,7 @@ url_pdf = "/pdf/center.pdf"
 
 [[url_custom]]
 name = "arXiv"
-url = "https://arxiv.org/abs/1507.0684"
+url = "https://arxiv.org/abs/1507.06844"
 
 [[url_custom]]
 name = "HAL"
