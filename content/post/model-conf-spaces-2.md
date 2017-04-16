@@ -9,7 +9,7 @@ Last week I was at the [Max Planck Institute](https://www.mpim-bonn.mpg.de/) for
 
 Consider a manifold $M$. Then given some integer $k \ge 0$, one can build the configuration space of $k$ points in $M$:
 
-$\newcommand{\Conf}{\mathrm{Conf}}\Conf\_k(M) = \{ (x\_1, \dots, x\_k) \in M^{\times k} \mid x\_i \neq x\_j \; \forall i \neq j \}.$
+$$\newcommand{\Conf}{\mathrm{Conf}}\Conf\_k(M) = \\{ (x\_1, \dots, x\_k) \in M^{\times k} \mid x\_i \neq x\_j \; \forall i \neq j \\}.$$
 
 Many people are interested in configuration spaces for many different reasons. One could wonder: what does the homotopy type of $M$ tell us about the homotopy type of $\Conf\_k(M)$? More concretely, does the homotopy type of $\Conf\_k(M)$ depend exclusively on the homotopy type of $M$?
 
@@ -21,7 +21,7 @@ I'll admit it, I'm only comfortable over fields of characteristic zero. And over
 
 If you recall, we are looking at a closed manifold $M$. This feature appears on the level of cohomology in the form of Poincaré duality. Well, it also appears on the level of rational models! [Lambrechts--Stanley, 2008] showed that any *simply-connected* closed manifold has a rational model which is a Poincaré duality CDGA. Roughly speaking, it means that it has a non-degenerate dg-pairing with itself, of formal dimension $n$.
 
-Intuitively, we can look at the configuration space $\Conf\_k(M)$ as the product $M^{\times k}$ from which we removed the fat diagonal $\bigcup\_{i \neq j} \Delta\_{ij}$, where $\Delta\_{ij} = \{ x \in M^{\times k} \mid x\_i = x\_j \}$. We can then reuse the ideas of Poincaré--Lefschetz duality and say that, morally, a model of $\Conf\_k(M)$ should be given by a model of $M^{\times k}$ in which we kill the classes that are Poincaré dual to homology classes from the fat diagonal. We can take $A^{\otimes k}$ to be the model of $M^{\times k}$, and the Poincaré duality allows to build explicit representatives of the fundamental classes of the diagonals $\Delta\_{ij}$.
+Intuitively, we can look at the configuration space $\Conf\_k(M)$ as the product $M^{\times k}$ from which we removed the fat diagonal $\bigcup\_{i \neq j} \Delta\_{ij}$, where $\Delta\_{ij} = \\{ x \in M^{\times k} \mid x\_i = x\_j \\}$. We can then reuse the ideas of Poincaré--Lefschetz duality and say that, morally, a model of $\Conf\_k(M)$ should be given by a model of $M^{\times k}$ in which we kill the classes that are Poincaré dual to homology classes from the fat diagonal. We can take $A^{\otimes k}$ to be the model of $M^{\times k}$, and the Poincaré duality allows to build explicit representatives of the fundamental classes of the diagonals $\Delta\_{ij}$.
 
 This is precisely what [Lambrechts--Stanley, 2008] did, and they considered a CDGA $\mathtt{G}\_A(k)$ given by:
 
@@ -29,7 +29,7 @@ $$\mathtt{G}\_A(k) = \bigl( A^{\otimes k} \otimes S(\omega\_{ij}) / \text{relati
 
 For small $k$, this CDGA is particularly simple:
 
-- $\mathtt{G}\_A(0)$ is isomorphic to $\mathbb{R}$, which is indeed a model for $\Conf\_0(M) = \{ \varnothing \}$;
+- $\mathtt{G}\_A(0)$ is isomorphic to $\mathbb{R}$, which is indeed a model for $\Conf\_0(M) = \\{ \varnothing \\}$;
 - $\mathtt{G}\_A(1)$ is isomorphic to $A$, which is a model for $\Conf\_1(M) = M$;
 - and $\mathtt{G}\_A(2)$ is the mapping cone of $A \to A \otimes A, \, a \mapsto (a \otimes 1) [\Delta]$; it is quasi-isomorphic to $A^{\otimes 2} / (\Delta)$.
 
