@@ -1,8 +1,7 @@
 ---
 date: 2016-08-30T00:00:00Z
-tags: math conf-spaces paper
+tags: ['math', 'conf-spaces', 'paper']
 title: The Lambrechts–Stanley Model of Configuration Spaces
-url: /2016/08/30/model-conf-spaces/
 ---
 
 I have uploaded a new preprint, *The Lambrechts–Stanley Model of Configuration Spaces*, which you can find at [arXiv:1608.08054 ](http://arxiv.org/abs/1608.08054). Here is the abstract:

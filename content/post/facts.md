@@ -1,8 +1,7 @@
 ---
 date: 2016-03-31T00:00:00Z
-tags: math
+tags: ['math']
 title: List of Facts
-url: /2016/03/31/facts/
 ---
 
 I just started a [list of facts]({{ "/facts/" | prepend: site.baseurl }}), mainly rather classical facts that I don't want to forget. Before, that list lived on sheets of papers strewn across my desk, which was clearly not optimal. Now it's in a more permanent form.

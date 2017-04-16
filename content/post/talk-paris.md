@@ -1,8 +1,7 @@
 ---
 date: 2016-04-05T00:00:00Z
-tags: math trip
+tags: ['math', 'trip']
 title: Talk in Paris!
-url: /2016/04/05/talk-paris/
 ---
 
 Today I'm in Paris! I'm giving a talk at the [Séminaire de Topologie](https://www.imj-prg.fr/spip.php?article67) of the Institut de Mathématiques de Jussieu--Paris Rive Gauche, about my preprint [Swiss-Cheese operad and Drinfeld center](http://arxiv.org/abs/1507.06844). Here is the abstract of the talk (in French):

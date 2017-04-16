@@ -1,8 +1,7 @@
 ---
 date: 2016-05-06T00:00:00Z
-tags: math algtop operads higher-cat
+tags: ['math', 'algtop', 'operads', 'higher-cat']
 title: Infinity-Operads Demystified
-url: /2016/05/06/infinity-operads/
 ---
 
 The purpose of this post is to record the definition of $$\infty$$-operads and explain why it works like that. For this I'm using Lurie's definition of $$\infty$$-operads; there is also a definition by Cisinski--Moerdijk--Weiss using dendroidal sets, about which I might talk later.

@@ -1,8 +1,7 @@
 ---
 date: 2015-12-23T00:00:00Z
-tags: math algtop
+tags: ['math', 'algtop']
 title: The Eckmann–Hilton Argument
-url: /2015/12/23/eckmann-hilton/
 ---
 
 As promised, this post is about the famous [Eckmann--Hilton argument](https://en.wikipedia.org/wiki/Eckmann%E2%80%93Hilton_argument). This argument, on the surface, looks like a simple algebraic trick; but it has deep consequences, which I will now try to explain. This post is an expanded version of a [math.SE answer](http://math.stackexchange.com/a/1203969/10014) I wrote some time ago.

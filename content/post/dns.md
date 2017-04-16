@@ -1,6 +1,6 @@
 ---
 date: 2016-06-16T00:00:00Z
-tags: blog
+tags: ['blog']
 title: New Domain Name
 url: /2016/06/16/dns/
 ---

@@ -1,8 +1,7 @@
 ---
 date: 2016-06-05T00:00:00Z
-tags: math trip
+tags: ['math', 'trip']
 title: Talk at ETH Zürich
-url: /2016/06/05/zurich/
 ---
 
 Last week I was invited by [Thomas Willwacher](http://user.math.uzh.ch/willwacher/) to ETH Zürich for a few days, during which I also had the opportunity to give a [talk]({{ '/files/center_slides_en.pdf' | prepend: site.baseurl }}) at the "Talks in Mathematical Physics" seminar. It was a very interesting few days, and I'm very grateful for this invitation!

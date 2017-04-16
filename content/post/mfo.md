@@ -1,8 +1,7 @@
 ---
 date: 2016-05-15T00:00:00Z
-tags: math trip
+tags: ['math', 'trip']
 title: Oberwolfach
-url: /2016/05/15/mfo/
 ---
 
 I just came back from the [Mathematisches Forschungsinstitut Oberwolfach](https://www.mfo.de/)!

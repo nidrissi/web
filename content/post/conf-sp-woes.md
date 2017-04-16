@@ -1,8 +1,7 @@
 ---
 date: 2016-12-02T00:00:00Z
-tags: math conf-spaces paper
+tags: ['math', 'conf-spaces', 'paper']
 title: Configuration Spaces Woes
-url: /2016/12/02/conf-sp-woes/
 ---
 
 I've been neglecting this blog a lot. Juggling research, teaching, organizing a seminar, and a personal life leaves little time for writing articles! (Wait, isn't that the same complaint as last time?)

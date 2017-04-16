@@ -1,8 +1,7 @@
 ---
 date: 2016-09-22T00:00:00Z
-tags: math operads swiss-cheese
+tags: ['math', 'operads', 'swiss-cheese']
 title: The Voronov Product of Operads
-url: /2016/09/22/voronov-product/
 ---
 
 My first real post in a while! It turns out that writing an actual paper (cf. previous blog post) takes a lot of time and effort. Who knew?

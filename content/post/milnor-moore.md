@@ -1,8 +1,7 @@
 ---
 date: 2016-03-10T00:00:00Z
-tags: math algtop
+tags: ['math', 'algtop']
 title: The Milnor–Moore Theorem
-url: /2016/03/10/milnor-moore/
 ---
 
 This post is about the Milnor--Moore theorem, a powerful tool describing the structure of (co)commutative Hopf algebras. Like the [Eckmann--Hilton argument]({% post_url 2015-12-23-eckmann-hilton %}), it shows that having multiple compatible operations on the same object can lead to unexpected results about the object. Briefly, the theorem says that as soon as the Hopf algebra is cocommutative and connected, then it is isomorphic to the universal enveloping algebra of a Lie algebra (and a similar dual statement is true for commutative Hopf algebras).

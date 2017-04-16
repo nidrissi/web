@@ -1,8 +1,7 @@
 ---
 date: 2017-02-24T00:00:00Z
-tags: math conf-spaces
+tags: ['math', 'conf-spaces']
 title: A Model for Configuration Spaces of Closed Manifolds
-url: /2017/02/24/model-conf-sp/
 ---
 
 Last week I was at the [Max Planck Institute](https://www.mpim-bonn.mpg.de/) for the [Conference for Young researchers in homotopy theory and categorical structures](https://www.mpim-bonn.mpg.de/node/6791) (which was, by the way, a great conference -- thanks to the organizers), and I gave yet another talk about [the Lambrechts--Stanley model for configuration spaces]({% post_url 2016-08-30-model-conf-spaces %}). So maybe it's time I write a little bit about it on this blog. I'll write a first post about the model itself, and later I will explain how the Fulton--MacPherson operad is involved in all this.

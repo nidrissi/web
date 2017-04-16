@@ -1,8 +1,7 @@
 ---
 date: 2017-01-13T00:00:00Z
-tags: math paper swiss-cheese operads
+tags: ['math', 'paper', 'swiss-cheese', 'operads']
 title: First Article Accepted!
-url: /2017/01/13/swiss-cheese-accepted/
 ---
 
 My paper [Swiss-Cheese operad and Drinfeld center](https://arxiv.org/abs/1507.06844) has finally been accepted! It is going to appear in the [Israel Journal of Mathematics](http://www.ma.huji.ac.il/~ijmath/). I've made the few corrections suggested by the referee (the new version is [available on the arXiv](https://arxiv.org/pdf/1507.06844)), and I'm now waiting for the final proofs before the paper can be published.
