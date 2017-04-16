@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/gcushen/hugo-academic
+	branch = master
+	commit = 81072922daf1b6be4a14d1188ee08e8605535535
+	parent = f8658c07e1c05c5d728f060343b5375c9a7c978d
+	cmdver = 0.3.1
