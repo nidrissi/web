@@ -5,6 +5,7 @@ title: Hello Everyone!
 ---
 
 Hi! If you're reading this, it means I've finally decided to upload my blog, and this is my first post.
+<!--more-->
 
 ## Me
 
@@ -21,7 +22,6 @@ GitHub Pages uses [Jekyll](https://jekyllrb.com/) to generate the website, a too
 ~~~ markdown
 GitHub Pages uses [Jekyll](https://jekyllrb.com/) to generate the website, a tool written in Ruby to produce static websites. No pesky databases needed! It also easily allows one to structure the website coherently -- those of you who are interested can check out my [GitHub repository](https://github.com/nidrissi/nidrissi.github.io) to see how it works. Once everything is set up correctly, writing a post is as easy as creating a new file in the `_posts` directory and starting to write. Posts themselves are formatted with [Kramdown](http://kramdown.gettalong.org/) for maximum ease -- here's what this paragraph actually looks like from my end:
 ~~~
-<!--more-->
 
 The design itself is done with the [Bootstrap](https://getbootstrap.com/) framework (which uses [jQuery](https://jquery.com/) underneath). It makes it very easy to create navigation bars (at the top), fixed sidebars (on the right), etc. I settled on [<i class="fa fa-fort-awesome"></i> Font Awesome](https://fortawesome.github.io/Font-Awesome/) for the icons. Again, check out the GitHub repository to see how it works. I also set up MathJax to produce math formulas:
 

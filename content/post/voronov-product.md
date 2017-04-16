@@ -7,11 +7,11 @@ title: The Voronov Product of Operads
 My first real post in a while! It turns out that writing an actual paper (cf. previous blog post) takes a lot of time and effort. Who knew?
 
 The Voronov product of operads is an operation introduced by Voronov in his paper *The Swiss-cheese operad* (he just called it "the product"). It combines an operad and a multiplicative operad to yield a new colored operad; the main example I know is the homology of the Swiss-cheese operad. This is a construction that I use in my preprint [Swiss-Cheese operad and Drinfeld center](http://arxiv.org/abs/1507.06844), where as far as I know I coined the name "Voronov product" -- I haven't seen this operation at all outside of Voronov's paper. I wanted to advertise it a bit because I find it quite interesting and I'm eager to see what people can do with it.
+<!--more-->
 
 ### Voronov products
 
 The setting is as follows. Consider two symmetric one-colored operads, $$\mathtt{P}$$ and $$\mathtt{Q}$$, in some monoidal category. Suppose that you're also given a morphism of operads $$\mathtt{Com} \to \mathtt{P}$$, where $$\mathtt{Com}$$ is the operad of commutative algebras. Then Voronov builds a new, bicolored operad $$\mathtt{P} \otimes \mathtt{Q}$$.
-<!--more-->
 
 This operad has two colors, $$\mathfrak{c}$$ and $$\mathfrak{o}$$, that you can think of as "open" and "closed" colors. The operations with closed output are exactly given by $$\mathtt{P}$$, that is:
 

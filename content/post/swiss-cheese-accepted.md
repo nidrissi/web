@@ -5,9 +5,9 @@ title: First Article Accepted!
 ---
 
 My paper [Swiss-Cheese operad and Drinfeld center](https://arxiv.org/abs/1507.06844) has finally been accepted! It is going to appear in the [Israel Journal of Mathematics](http://www.ma.huji.ac.il/~ijmath/). I've made the few corrections suggested by the referee (the new version is [available on the arXiv](https://arxiv.org/pdf/1507.06844)), and I'm now waiting for the final proofs before the paper can be published.
+<!--more-->
 
 If you haven't read the paper yet, I wrote [a post some time ago]({{< ref "post/voronov-product.md" >}}) about the Voronov product of operads. My paper starts with the following observation, due to Voronov: the homology of the Swiss-Cheese operad $$\mathtt{SC}$$ split as a "product" of the Gerstenhaber operad and the associative operad. It thus seems natural to think that the Swiss-Cheese operad itself could split as some kind of product. Unfortunately, this operad is not formal [Livernet, 2015], which makes matters more complex.
-<!--more-->
 
 The first result of the paper is about an operad weakly equivalent to the fundamental groupoid of $$\mathtt{SC}$$, the operad $$\mathtt{PaPB}$$ of parenthesized permutations and braids. This is a combination of the operads of parenthesized permutations (corresponding to the associative part) and of parenthesized braids (corresponding to the Gerstenhaber part). I then prove that an algebra over $$\mathtt{PaPB}$$ is given by the following data:
 

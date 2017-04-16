@@ -5,6 +5,7 @@ title: About Abelian Bimodules
 ---
 
 This post is about something somewhat weird I noticed about infinitesimal bimodules over operads and their relationships with some $$E_n$$ operads. I don't know if it's something significant, and I'd definitely be interested to hear more about it.
+<!--more-->
 
 ## Context: abelian bimodules
 
@@ -23,7 +24,6 @@ Morally, an abelian bimodule over an operad is exactly the data required to "inf
 ## Modules as diagrams
 
 Various categories of (bi)modules over operads can be represented as diagrams over categories associated to these operads. I'll now explain how, using the notations from [Arone--Turchin]. Let $$\mathtt{P}$$ be an operad in a symmetric monoidal category $$\mathsf{C}$$.
-<!--more-->
 
 ### Left modules
 

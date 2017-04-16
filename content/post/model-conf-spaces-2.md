@@ -5,13 +5,13 @@ title: A Model for Configuration Spaces of Closed Manifolds
 ---
 
 Last week I was at the [Max Planck Institute](https://www.mpim-bonn.mpg.de/) for the [Conference for Young researchers in homotopy theory and categorical structures](https://www.mpim-bonn.mpg.de/node/6791) (which was, by the way, a great conference -- thanks to the organizers), and I gave yet another talk about [the Lambrechts--Stanley model for configuration spaces]({{< ref "post/model-conf-spaces.md" >}}). So maybe it's time I write a little bit about it on this blog. I'll write a first post about the model itself, and later I will explain how the Fulton--MacPherson operad is involved in all this.
+<!--more-->
 
 Consider a manifold $$M$$. Then given some integer $$k \ge 0$$, one can build the configuration space of $$k$$ points in $$M$$:
 
 $$\newcommand{\Conf}{\mathrm{Conf}}\Conf_k(M) = \{ (x_1, \dots, x_k) \in M^{\times k} \mid x_i \neq x_j \; \forall i \neq j \}.$$
 
 Many people are interested in configuration spaces for many different reasons. One could wonder: what does the homotopy type of $$M$$ tell us about the homotopy type of $$\Conf_k(M)$$? More concretely, does the homotopy type of $$\Conf_k(M)$$ depend exclusively on the homotopy type of $$M$$?
-<!--more-->
 
 Of course, if we don't know anything about $$M$$, then this is blatantly false. Indeed, consider that $$\Conf_2(\mathbb{R})$$ is homotopy equivalent to $$S^0$$, whereas $$\Conf_2(\mathbb{R}^2)$$ is homotopy equivalent to $$S^1$$, even though $$\mathbb{R} \simeq \mathbb{R}^2$$. The main defect, here, is that $$M$$ is not a closed manifold, so we might as well restrict ourselves to studying closed manifolds.
 
