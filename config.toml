@@ -143,6 +143,11 @@ defaultContentLanguageInSubdir = false
     link = "https://orcid.org/0000-0001-7288-6726"
 
   [[params.social]]
+    icon = "th-list"
+    icon_pack = "fa"
+    link = "https://cv.archives-ouvertes.fr/najib-idrissi"
+
+  [[params.social]]
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/nidrissi"
