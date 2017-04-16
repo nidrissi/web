@@ -16,4 +16,4 @@ autolink = true
 
 +++
 
-My [<span class="fa fa-key"></span> GPG Public Key](/pubkey.asc)
+[<span class="fa fa-key"></span> GPG Public Key](/pubkey.asc)
