@@ -5,7 +5,7 @@ date = "2017-01-10"
 publication_types = ["2"]
 publication = "To appear in Israel J. Math."
 title = "Swiss-Cheese Operad and Drinfeld Center"
-url_pdf = "/pub/center.pdf"
+url_pdf = "/pdf/center.pdf"
 
 [[url_custom]]
 name = "arXiv"
