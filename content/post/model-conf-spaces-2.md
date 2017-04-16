@@ -36,7 +36,7 @@ For small $k$, this CDGA is particularly simple:
 This model has a long history, which I'll try to summarize here (hopefully without forgetting anything):
 
 - Around 1969, Arnold (for $n = 2$) and Cohen (for a general $n$) described the cohomology of $\Conf\_k(\mathbb{R}^n)$; it is suspiciously similar to $\mathtt{G}\_A(k)$ where we take $A$ to be $H^*(\mathbb{R}^n)$ and the diagonal classes vanish.
-- In 1978, Cohen and Taylor built a spectral sequence which converges to $H^*(\Conf\_k(M))$ and whose $E^2$ term is precisely given by $\mathtt{G}\_{H^*(M)}(k)$.
+- In 1978, Cohen and Taylor built a spectral sequence which converges to $H^\*(\Conf\_k(M))$ and whose $E^2$ term is precisely given by $\mathtt{G}\_{H^\*(M)}(k)$.
 - In 1991, Bendersky and Gitler built another spectral sequence which converges instead to the homology of $\Conf\_k(M)$.
 - Around 1994, two independent results were found in the case where $M$ is a smooth projective complex manifold. Note that in this case, $M$ has to be a Kähler manifold, and it is thus formal by a result of [Deligne--Griffiths--Morgan--Sullivan, 1975], i.e. $H^*(M)$ is a rational model of $M$.
   - Totaro showed that the Cohen--Taylor spectral sequence collapses at the $E^2$ page, and therefore that $H^\*(\mathtt{G}\_{H^\*(M)}(k))$ is isomorphic to $H^\*(\Conf\_k(M))$ as a graded algebra (by a result of Deligne);
