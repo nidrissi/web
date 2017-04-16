@@ -5,6 +5,7 @@ title: Talk at ETH Zürich
 ---
 
 Last week I was invited by [Thomas Willwacher](http://user.math.uzh.ch/willwacher/) to ETH Zürich for a few days, during which I also had the opportunity to give a [talk](/pdf/center_slides_en.pdf) at the "Talks in Mathematical Physics" seminar. It was a very interesting few days, and I'm very grateful for this invitation!
+<!--more-->
 
 ![ETH](/img/eth.jpg)
 
