@@ -2,6 +2,7 @@
 date: 2015-12-21T00:00:00Z
 tags: ['hello']
 title: Hello Everyone!
+highlight: true
 ---
 
 Hi! If you're reading this, it means I've finally decided to upload my blog, and this is my first post.
