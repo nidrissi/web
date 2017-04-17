@@ -52,4 +52,4 @@ We now get to my contribution:
 
 Unlike the theorems mentioned before, this describes a model over {{< tex "\mathbb{R}" >}}, not over {{< tex "\mathbb{Q}" >}}. Descent would be an interesting (but difficult problem). Note that since {{< tex "M" >}} is at least {{< tex "3" >}}-dimensional in the theorem, using the Fadell--Neuwirth fibrations one can show that all the {{< tex "\Conf_k(M)" >}} remain simply connected, hence {{< tex "A" >}} completely determines the real homotopy type of {{< tex "\Conf_k(M)" >}}.
 
-I actually showed more than that: the model is compatible with the action of the Fulton--MacPherson operad, by using a proof inspired by Kontsevich's proof of the formality of the little disks operad. What does this mean? How does the proof go? Stay tuney! (Alternatively, you can read my article :wink:.)
+I actually showed more than that: the model is compatible with the action of the Fulton--MacPherson operad, by using a proof inspired by Kontsevich's proof of the formality of the little disks operad. What does this mean? How does the proof go? Stay tuned! (Alternatively, you can read my article :wink:.)
