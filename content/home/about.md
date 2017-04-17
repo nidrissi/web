@@ -17,4 +17,4 @@ I'm Najib Idrissi, a PhD student in mathematics at the [laboratoire Paul Painlev
 
 You can find [my CV here](/files/cv_idrissi_en.pdf) (and also [*en français*](/files/cv_idrissi_fr.pdf)).
 
-<small>My complete family name is “Idrissi Kaïtouni” and it's possible to find this name in some places (e.g. in my email address); that's still me. I prefer to use only “Idrissi” in academic settings for simplicity and to avoid some confusions.</small>
+<small>My complete family name is "Idrissi Kaïtouni" and it's possible to find this name in some places (e.g. in my email address); that's still me. I prefer to use only "Idrissi" in academic settings for simplicity and to avoid some confusions.</small>
