@@ -16,4 +16,6 @@ autolink = true
 
 +++
 
+Office (*Bureau*) : M2-110
+
 <small><span class="fa fa-key"></span> [GPG Public Key](/pubkey.asc)</small>
