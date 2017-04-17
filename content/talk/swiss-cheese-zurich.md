@@ -4,9 +4,7 @@ abstract_short = ""
 date = "2016-06-03"
 event = "Talks in mathematical physics"
 event_url = "https://www.math.ethz.ch/news-and-events/events/research-seminars/talks-in-mathematical-physics.html?s=fs16"
-highlight = true
 location = "ETH Zürich"
-math = false
 selected = false
 title = "Swiss-Cheese Operad and Drinfeld Center"
 url_pdf = "/pdf/center.pdf"

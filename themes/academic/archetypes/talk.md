@@ -7,8 +7,6 @@ event_url = ""
 location = ""
 
 selected = false
-math = false
-highlight = true
 
 url_pdf = ""
 url_slides = ""
