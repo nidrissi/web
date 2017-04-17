@@ -180,7 +180,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Talks"
-  url = "#contact"
+  url = "#talks"
   weight = 4
 
 # Taxonomies.
