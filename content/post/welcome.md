@@ -1,6 +1,6 @@
 ---
 date: 2015-12-21T00:00:00Z
-tags: ['hello']
+tags: ['blog']
 title: Hello Everyone!
 highlight: true
 ---
