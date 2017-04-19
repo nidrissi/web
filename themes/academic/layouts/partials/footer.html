@@ -1,9 +1,12 @@
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"
+            integrity="sha384-j0+T2IX67GvoQTVKSrZABAdInO9MI+4upGGX5r6m3N7IpXBs856R6GXLez2vg/gg" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"
+            integrity="sha384-uBSgcohCxXZ2GYG0COcvBWu18U/3OMuQ3TVUCrSO1FNygZ4YjfdVB/KKmmUVSv1y" crossorigin="anonymous"></script>
     <script src="{{ "/js/jquery-1.12.3.min.js" | relURL }}"></script>
     <script src="{{ "/js/bootstrap.min.js" | relURL }}"></script>
     <script src="{{ "/js/isotope.pkgd.min.js" | relURL }}"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"
+            integrity="sha384-Xe3wc6qrKm5s/0MutOWTCjDHtr0KgeBP8ctVRqs2D3elWg+cBjXYpH+7dazj34Eh" crossorigin="anonymous"></script>
     <script src="{{ "/js/hugo-academic.js" | relURL }}"></script>
     {{ range .Site.Params.custom_js }}
     <script src="{{ "/js/" | relURL }}{{ . }}"></script>
@@ -33,21 +36,8 @@
 
     <!-- Code highlighting -->
     {{ if $.Scratch.Get "highlight_enabled" }}
-      {{ $v := .Site.Params.highlight_version | default "9.9.0" }}
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $v }}/highlight.min.js"></script>
-
-      {{ range .Site.Params.highlight_languages }}
-      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $v }}/languages/{{ . }}.min.js"></script>
-      {{ end }}
-
-      {{ range .Params.highlight_languages }}
-      {{/* Do not double-include languages that are in both .Site.Params and .Params.
-           If Hugo ever grows a "union" function for set union, this range clause can be merged with the one above. */}}
-        {{ if not (in $.Site.Params.highlight_languages .) }}
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/{{ $v }}/languages/{{ . }}.min.js"></script>
-        {{ end }}
-      {{ end }}
-
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"
+              integrity="sha384-EEKn1+/1X9qlVxiFuB664oooAridEz1FSrcb8hOxNUeUPfYxqq2B6FGnfmS7LIE2" crossorigin="anonymous"></script>
       <script>hljs.initHighlightingOnLoad();</script>
     {{ end }}
 
@@ -64,7 +54,8 @@
            }
        });
       </script>
-      <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"
+              integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script>
       {{ end }}
 
       {{ partial "foot_custom" . }}
