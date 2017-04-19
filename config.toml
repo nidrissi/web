@@ -23,6 +23,7 @@ defaultContentLanguageInSubdir = false
   role = "PhD student"
   organization = "Université Lille 1"
   organization_url = "http://www.univ-lille1.fr"
+  description = "I am Najib Idrissi, a PhD student in mathematics at the laboratoire Paul Painlevé, Université Lille 1."
   avatar = "photo.jpg"
   email = "najib.idrissi-kaitouni@math.univ-lille1.fr"
   address = " Université Lille 1 · Laboratoire Paul Painlevé · Cité Scientifique, Bâtiment M2 · 59655 Villeneuve d'Ascq Cedex · France"
