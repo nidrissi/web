@@ -13,4 +13,4 @@ I was there for the "[Factorization Algebras and Functorial Field Theories](http
 
 The ambiance at the institute is amazing too. There were researchers from all around the world, and we were all there without hardly any external distractions: we all ate at the same times, slept in the same buildings... It was rather relaxed (like most mathematical conferences I went to, to be fair), and I particularly liked this informal session on Wednesday between 8PM and 10PM, during which anyone could walk up to the board and give a 5 min talk about whatever they wanted. It was really interesting to learn about all this research.
 
-Of course I'm very grateful to the organizers for giving me the opportunity to come, in particular to [Owen Gwilliam](http://people.mpim-bonn.mpg.de/gwilliam/) (who I think is the one who invited me).
+Of course I'm very grateful to the organizers for giving me the opportunity to come, in particular to [Owen Gwilliam](http://people.mpim-bonn.mpg.de/gwilliam/) (who is the one who invited me).
