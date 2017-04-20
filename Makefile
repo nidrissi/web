@@ -10,8 +10,8 @@ BIB = cv.bib
 all: french.pdf english.pdf $(BIB)
 
 copy: all
-	cmd /c copy /y french.pdf ..\..\homepage\cv_idrissi_fr.pdf
-	cmd /c copy /y english.pdf ..\..\homepage\cv_idrissi_en.pdf
+	cmd /c copy /y french.pdf ..\..\operad\static\files\cv_idrissi_fr.pdf
+	cmd /c copy /y english.pdf ..\..\operad\static\files\cv_idrissi_en.pdf
 
 clean:
 	cmd /c del /q *.pdf *.out.yaml english.tex french.tex build
