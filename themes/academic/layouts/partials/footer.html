@@ -1,17 +1,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" 
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"
-            integrity="sha256-Y7X151r2Tk9/N3WcxW1qQn/phEPJ9mY8uOxqaI4AWW4=" crossorigin="anonymous" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" 
+            integrity="sha256-YrHP9EpeNLlYetSffKlRFg8VWcXFRbz5nhNXTMqlQlo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"
-            integrity="sha384-uBSgcohCxXZ2GYG0COcvBWu18U/3OMuQ3TVUCrSO1FNygZ4YjfdVB/KKmmUVSv1y" crossorigin="anonymous" async></script>
+            integrity="sha384-uBSgcohCxXZ2GYG0COcvBWu18U/3OMuQ3TVUCrSO1FNygZ4YjfdVB/KKmmUVSv1y" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" async></script>
-    <script async src="{{ "/js/isotope.pkgd.min.js" | relURL }}"></script>
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="{{ "/js/isotope.pkgd.min.js" | relURL }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.1/imagesloaded.pkgd.min.js"
-            integrity="sha384-Xe3wc6qrKm5s/0MutOWTCjDHtr0KgeBP8ctVRqs2D3elWg+cBjXYpH+7dazj34Eh" crossorigin="anonymous" async></script>
-    <script async src="{{ "/js/hugo-academic.js" | relURL }}"></script>
+            integrity="sha384-Xe3wc6qrKm5s/0MutOWTCjDHtr0KgeBP8ctVRqs2D3elWg+cBjXYpH+7dazj34Eh" crossorigin="anonymous"></script>
+    <script src="{{ "/js/hugo-academic.js" | relURL }}"></script>
     {{ range .Site.Params.custom_js }}
-    <script async src="{{ "/js/" | relURL }}{{ . }}"></script>
+    <script src="{{ "/js/" | relURL }}{{ . }}"></script>
     {{ end }}
 
     {{ with .Site.GoogleAnalytics }}
@@ -39,7 +39,7 @@
     <!-- Code highlighting -->
     {{ if $.Scratch.Get "highlight_enabled" }}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js" 
-            integrity="sha256-3SFEu3qBPVRitcXI7ITnBKtwkYmoqF7ap4xI5dEexaY=" crossorigin="anonymous" async></script>
+            integrity="sha256-3SFEu3qBPVRitcXI7ITnBKtwkYmoqF7ap4xI5dEexaY=" crossorigin="anonymous"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     {{ end }}
 
