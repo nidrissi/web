@@ -164,4 +164,4 @@ defaultContentLanguageInSubdir = false
   languageCode = "en-us"
 
 [permalinks]
-  post = "/:year/:month/:filename/"
+  post = "/:year/:month/:day/:filename/"
