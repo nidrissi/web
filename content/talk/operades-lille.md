@@ -8,7 +8,7 @@ location = "Université Lille 1"
 selected = false
 title = "Opérades"
 url_pdf = ""
-url_slides = "/pdf/operades.fr"
+url_slides = "/pdf/operades.pdf"
 url_video = ""
 
 +++
