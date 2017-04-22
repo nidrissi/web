@@ -3,7 +3,7 @@
 {{ $posts_len := len (where (where $.Data.Pages "Type" "post") ".Params.notonhomepage" nil) }}
 
 <!-- Blog Posts widget -->
-<div class="row">
+<section class="row">
   <div class="col-xs-12 col-md-4 section-heading">
 
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
@@ -35,4 +35,4 @@
     {{ end }}
 
   </div>
-</div>
+</section>
