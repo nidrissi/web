@@ -21,7 +21,7 @@
   <div>
     <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     {{ if eq .Type "post" }}
-    {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
+    {{ partial "article_metadata" (dict "content" . "is_list" 1) }}
     <div class="article-style">
       {{ if .Params.summary }}
       {{ printf "%s" .Params.summary | markdownify }}

@@ -1,6 +1,6 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<article class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   {{ if .Params.header.image }}
   <div class="article-header">
@@ -99,7 +99,7 @@
     </div>
 
   </div>
-</div>
+</article>
 
 <div class="container">
   {{ partial "section_pager.html" . }}
