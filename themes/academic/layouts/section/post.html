@@ -18,7 +18,7 @@
 
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
-  <div>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
     {{ if .Params.image }}
     <a href="{{ .Permalink }}">
       <img src="{{ $.Site.BaseURL }}img/{{ .Params.image }}" class="article-banner">
@@ -35,7 +35,7 @@
       {{ .Content }}
       {{ end }}
     </p></div>
-  </div>
+  </article>
   {{ end }}
 
   {{ partial "pagination" . }}

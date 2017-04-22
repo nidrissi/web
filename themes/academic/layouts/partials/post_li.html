@@ -1,7 +1,7 @@
 {{ $post := .post }}
 {{ $page := .page }}
 
-<article class="article-list-item" itemscope itemprop="blogPost">
+<article class="article-list-item" itemscope itemtype="http://schema.org/BlogPosting">
   {{ $preview := $post.Params.header.preview | default true }}
   {{ if and $post.Params.header.image $preview }}
   <a href="{{ $post.Permalink }}">
