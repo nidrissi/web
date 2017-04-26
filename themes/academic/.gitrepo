@@ -6,6 +6,6 @@
 [subrepo]
 	remote = https://github.com/gcushen/hugo-academic
 	branch = master
-	commit = 81072922daf1b6be4a14d1188ee08e8605535535
-	parent = f8658c07e1c05c5d728f060343b5375c9a7c978d
+	commit = 20dcd3d88dc0a402dd5b05d92e967ba1eb74b056
+	parent = dde253b2d0e456915f4af25751bce81e182413a4
 	cmdver = 0.3.1
