@@ -1,5 +1,5 @@
-PANDOC = pandoc --latex-engine=xelatex
-LATEX = latexmk -pdf -e "$$pdflatex =~ s/pdflatex/xelatex/" -e "$$out_dir = 'build'"
+PANDOC = pandoc --latex-engine=lualatex
+LATEX = latexmk -pdf -e "$$pdflatex =~ s/pdflatex/lualatex/" -e "$$out_dir = 'build'"
 TEMPLATE = cv.tex
 YAML = cv.yaml
 BIB = cv.bib
