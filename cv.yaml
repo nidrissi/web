@@ -140,6 +140,20 @@ section:
   - title: Exposés ! Talks
     entry:
       - content:
+          - 2017-05-09
+          - Le modèle de Lambrechts--Stanley des espaces de configuration
+          - Université Lille 1
+          - Lille, France
+          - ~
+          - Séminaire de Géométrie des espaces singuliers
+      - content:
+          - 2017-05-02
+          - La compactification de Fulton-MacPherson des espaces de configuration
+          - Université Lille 1
+          - Lille, France
+          - ~
+          -  Séminaire de Géométrie des espaces singuliers
+      - content:
           - 2017-02-15
           - The Lambrechts--Stanley Model of Configuration Spaces
           - MPIM Bonn
@@ -225,6 +239,20 @@ section:
           - Séminaire de Topologie ! Topology seminar
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
+      - content:
+          - 2017-06-02
+          - Fourth Young Mathematicians Colloquium
+          - Vrije Universiteit Brussel
+          - ~
+          - Bruxelles, Belgique ! Brussels, Belgium
+          - ~
+      - content:
+          - 2017-05-22
+          - Lens Topology and geometry 2017
+          - "Université d'Artois, Laboratoire de Mathématiques de Lens"
+          - ~
+          - Lens, France
+          - ~
       - content:
           - 2017-03-09
           - Workshop on Quantum Topology
