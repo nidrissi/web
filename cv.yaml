@@ -19,13 +19,11 @@ section:
           - Lille, France
           - ~
           - |          
-              Titre : \emph{Formalité opéradique et espaces de configuration}.\
+              Titre : \emph{Formalité opéradique et homotopie des espaces de configuration}.\
               Directeur de thèse : Benoit Fresse.\
-              Sujet : Calcul explicite de l'homologie de factorisation en exploitant la formalité des opérades des petits disques.\
               Financée par une Allocation Spécifique de l'ENS.
               !
-              Title: \emph{Operadic Formality and Configuration Spaces}. \qquad Advisor: Benoit Fresse.\
-              Topic: Explicit computation of factorization homology by using the formality of the little disks operads.\
+              Title: \emph{Operadic Formality and Homotopy of Configuration Spaces}. \qquad Advisor: Benoit Fresse.\
               Funded by an ``\emph{Allocation Spécifique}'' of the ENS.
   - title: Études ! Education
     entry:
