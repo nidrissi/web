@@ -28,3 +28,5 @@ url_video = ""
 +++
 
 Expected defense date: November 17th, 2017.
+
+*Note.* This is a preliminary version, and it doesn't take into account any of the referees' reports yet.
