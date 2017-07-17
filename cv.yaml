@@ -21,7 +21,7 @@ section:
           - |          
               Titre : \emph{Formalité opéradique et homotopie des espaces de configuration}.\
               Directeur de thèse : Benoit Fresse.\
-              Financée par une Allocation Spécifique de l'ENS.
+              Financée par une Allocation Spécifique de l\'ENS.
               !
               Title: \emph{Operadic Formality and Homotopy of Configuration Spaces}. \qquad Advisor: Benoit Fresse.\
               Funded by an ``\emph{Allocation Spécifique}'' of the ENS.
@@ -138,6 +138,13 @@ section:
   - title: Exposés ! Talks
     entry:
       - content:
+          - 2017-07-17
+          - The Lambrechts--Stanley Model of Configuration Spaces
+          - Université de Stockholm ! Stockholm University
+          - Stockholm, Suède ! Stockholm, Sweden
+          - ~
+          - Young Topologists Meeting 2017
+      - content:
           - 2017-05-09
           - Le modèle de Lambrechts--Stanley des espaces de configuration
           - Université Lille 1
@@ -237,6 +244,34 @@ section:
           - Séminaire de Topologie ! Topology seminar
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
+      - content:
+          - 2017-07-11
+          - Workshop on Persistent Homology
+          - Université de Montpellier
+          - ~
+          - Montpellier, France
+          - ~
+      - content:
+          - 2017-07-03
+          - Young Topologists Meeting 2017
+          - Université de Stockholm ! Stockholm University
+          - ~
+          - Stockholm, Suède ! Stockholm, Sweden
+          - ~
+      - content:
+          - 2017-06-26
+          - Algebraic Topology and Representation Theory
+          - Université de Lille
+          - ~
+          - Lille, France
+          - ~
+      - content:
+          - 2017-06-12
+          - Derived Algebraic Geometry and Interactions
+          - Université de Toulouse
+          - ~
+          - Toulouse, France
+          - ~
       - content:
           - 2017-06-02
           - Fourth Young Mathematicians Colloquium
