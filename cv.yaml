@@ -28,7 +28,7 @@ section:
   - title: Études ! Education
     entry:
       - content:
-          - '2015--'
+          - '2015--\hphantom{2018}'
           - Doctorant contractuel ! Contractual PhD student
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
