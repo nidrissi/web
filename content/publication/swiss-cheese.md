@@ -8,6 +8,10 @@ title = "Swiss-Cheese Operad and Drinfeld Center"
 url_pdf = "/pdf/center.pdf"
 
 [[url_custom]]
+name = "Journal"
+url = "http://rdcu.be/uvxe"
+
+[[url_custom]]
 name = "arXiv"
 url = "https://arxiv.org/abs/1507.06844"
 
