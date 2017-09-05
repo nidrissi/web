@@ -21,10 +21,12 @@ section:
           - |          
               Titre : \emph{Formalité opéradique et homotopie des espaces de configuration}.\
               Directeur de thèse : Benoit Fresse.\
-              Financée par une Allocation Spécifique de l\'ENS.
+              Financée par une Allocation Spécifique de l\'ENS.\
+              Date de soutenance prévisionnelle : 17 novembre 2017
               !
               Title: \emph{Operadic Formality and Homotopy of Configuration Spaces}. \qquad Advisor: Benoit Fresse.\
-              Funded by an ``\emph{Allocation Spécifique}'' of the ENS.
+              Funded by an ``\emph{Allocation Spécifique}'' of the ENS.\
+              Expected defense date: November 17th, 2017
   - title: Études ! Education
     entry:
       - content:
@@ -92,12 +94,28 @@ section:
         - ~
   - title: Recherche ! Research
     bib:
+      - title: Publications
+        key: publication
       - title: Prépublications ! Preprints
         key: preprint
       - title: Autres documents ! Other documents
         key: other
   - title: Enseignement ! Teaching
     entry:
+      - content:
+          - 2017--2018
+          - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
+          - Université Lille\ 1
+          - L1 MASS
+          - 1er semestre ! 1st semester
+          - ~
+      - content:
+          - ~
+          - Mathématiques fondamentales (colles et tutorat) ! Mathématiques fondamentales (oral exams & tutoring)
+          - Université Lille\ 1
+          - L1 SESI
+          - 1er semestre ! 1st semester
+          - ~
       - content:
           - 2016--2017
           - Calcul matriciel (Travaux Dirigés) ! Calcul matriciel (Teaching Assistant)
@@ -137,6 +155,13 @@ section:
           - ~
   - title: Exposés ! Talks
     entry:
+      - content:
+          - 2017-08-24
+          - Configuration Spaces of Compact Manifolds
+          - ETH Zürich
+          - Zürich, Suisse ! Switzerland
+          - ~
+          - Talks in mathematical physics
       - content:
           - 2017-07-17
           - The Lambrechts--Stanley Model of Configuration Spaces
