@@ -37,7 +37,7 @@ This composition doesn't touch the {{< tex "\mathtt{Q}(n)" >}} factor, and uses 
 
 On the {{< tex "\mathtt{Q}" >}} factors, this is simply given by the composition of {{< tex "\mathtt{Q}" >}}. On the {{< tex "\mathtt{P}" >}} factors, recall that we are given a morphism of operads {{< tex "\mathtt{Com} \to \mathtt{P}" >}}; we thus have some multiplication {{< tex "\mu \in \mathtt{P}(2)" >}}, and we can use it to define:
 
-{{< tex "\begin{align} \mathtt{P}(m) \otimes \mathtt{P}(m') & \to \mathtt{P}(m+m') \\ p \otimes p' & \mapsto \mu(p, p'). \end{align}" >}}
+{{< texd "\begin{align} \mathtt{P}(m) \otimes \mathtt{P}(m') & \to \mathtt{P}(m+m') \\ p \otimes p' & \mapsto \mu(p, p'). \end{align}" >}}
 
 ### Algebras over Voronov products
 
