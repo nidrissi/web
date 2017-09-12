@@ -279,7 +279,7 @@ blockquote p:last-child {
   margin: 0px 0 10px 0;
 }
 
-#profile ul.social-icon {
+#profile ul.soc-ic {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -288,15 +288,15 @@ blockquote p:last-child {
   margin-top: 30px;
 }
 
-#profile .social-icon li {
+#profile .soc-ic li {
   margin-right: 10px;
 }
 
-#profile .social-icon li:last-of-type {
+#profile .soc-ic li:last-of-type {
   margin-right: 0;
 }
 
-#profile .social-icon li:hover {
+#profile .soc-ic li:hover {
   transform: scale(1.2)
 }
 
