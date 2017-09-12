@@ -211,13 +211,13 @@ blockquote p:last-child {
 
 .home-section {
   background-color: rgb(255, 255, 255);
-  padding: 110px 0 110px 0;
+  padding: 40px 0 40px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s;
 }
 
 .home-section:first-of-type {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .home-section:nth-of-type(even) {
@@ -226,10 +226,10 @@ blockquote p:last-child {
 
 @media screen and (max-width: 768px) {
   .home-section {
-    padding: 60px 0 60px 0;
+    padding: 30px 0 30px 0;
   }
   .home-section:first-of-type {
-    padding-top: 40px;
+    padding-top: 20px;
   }
 }
 
@@ -738,8 +738,8 @@ article {
  **************************************************/
 
 footer {
-  margin: 4rem 0 0;
-  padding: 2rem 0;
+  margin: 2rem 0 0;
+  padding: 1rem 0;
   width: 100%;
 }
 
