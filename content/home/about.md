@@ -19,4 +19,4 @@ My main interests are operads (and in particular little disks operads), and thei
 
 You can find [my CV here](/files/cv_idrissi_en.pdf) (and also [*en français*](/files/cv_idrissi_fr.pdf)).
 
-<small>My complete family name is "Idrissi Kaïtouni" and it's possible to find this name in some places (e.g. in my email address); that's still me. I prefer to use only "Idrissi" in academic settings for simplicity and to avoid some confusions (for example, automated systems thinking that "Idrissi" is my middle name and that I should be called "NI Kaïtouni"...).</small>
+<small>My complete family name is "Idrissi Kaïtouni" and it's possible to find this name in some places, e.g. in my email address. I prefer to use only "Idrissi" in academic settings for simplicity and to avoid some confusions (for example, automated systems thinking that "Idrissi" is my middle name and that I should be called "NI Kaïtouni" -- this already happened!).</small>
