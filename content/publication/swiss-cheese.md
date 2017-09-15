@@ -3,13 +3,17 @@ abstract = "We build a model in groupoids for the Swiss-Cheese operad, based on 
 authors = ["Najib Idrissi"]
 date = "2017-01-10"
 publication_types = ["2"]
-publication = "To appear in Israel J. Math."
+publication = "Israel J. Math."
 title = "Swiss-Cheese Operad and Drinfeld Center"
 url_pdf = "/pdf/center.pdf"
 
 [[url_custom]]
 name = "Journal"
 url = "http://rdcu.be/uvxe"
+
+[[url_custom]]
+name = "DOI"
+url = "https://dx.doi.org/10.1007/s11856-017-1559-y"
 
 [[url_custom]]
 name = "arXiv"
