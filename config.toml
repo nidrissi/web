@@ -91,11 +91,6 @@ defaultContentLanguageInSubdir = false
   #   Full list: https://jpswalsh.github.io/academicons/
 
   [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:najib.idrissi-kaitouni@math.univ-lille1.fr"
-
-  [[params.social]]
     icon = "arxiv"
     icon_pack = "ai"
     link = "https://arxiv.org/a/idrissi_n_1.html"
