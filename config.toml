@@ -53,7 +53,7 @@ defaultContentLanguageInSubdir = false
   # Link custom CSS and JS assets
   #   (relative to /static/css and /static/js respectively)
   custom_css = []
-  custom_js  = ['piwik.js']
+  custom_js  = ['piwik.js', 'custom.js']
 
   # Publication types.
   #   Used to categorize publications.
