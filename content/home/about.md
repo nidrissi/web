@@ -22,4 +22,4 @@ of
 
 My main interests are operads, and their applications to algebraic topology, TQFTs... The subject of my PhD thesis is the study of the homotopy type of configuration spaces exploiting the formality of the little disks operads.
 
-You can find [my CV here](/cv_en/) (and also [*en français*](/cv_fr/)).
+You can find [my CV in English here](/cv_en/) ([*aussi disponible en français*](/cv_fr/)).
