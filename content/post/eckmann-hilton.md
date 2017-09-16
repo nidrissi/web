@@ -9,7 +9,7 @@ As promised, this post is about the famous [Eckmann--Hilton argument](https://en
 
 ## Some background
 
-When I was a first-year student at the ENS, we had to write a "*Mémoire de première année*" ("First-year essay") on a topic. I wrote mine together with Maxence Novel, with Grégory Ginot as advisor, about the Eckmann--Hilton argument. You can find it [here](/files/memoire-eckmann-hilton.pdf) (it's in French; bear in mind that we were undergrads when we wrote this).
+When I was a first-year student at the ENS, we had to write a "*Mémoire de première année*" ("First-year essay") on a topic. I wrote mine together with Maxence Novel, with Grégory Ginot as advisor, about the Eckmann--Hilton argument. You can find it [here](/pdf/memoire-eckmann-hilton.pdf) (it's in French; bear in mind that we were undergrads when we wrote this).
 
 This was my first exposure to many topics: algebraic topology, operads, {{< tex "\infty" >}}-categories... And it definitely shaped up my current mathematical interests. I still remember trying to read Lurie's *Higher Algebra* armed only with point-set topology and basic category theory! Needless to say I didn't get very far. I very much enjoyed the experience anyway.
 
