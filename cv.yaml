@@ -13,24 +13,24 @@ section:
   - title: Travail ! Work
     entry:
       - content:
-          - '2015--\hphantom{2018}'
+          - '2015--'
           - Doctorant contractuel ! Contractual PhD student
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
           - ~
           - |
-              Titre : \emph{Formalité opéradique et homotopie des espaces de configuration}.\
+              Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
               Directeur de thèse : Benoit Fresse.\
               Financée par une Allocation Spécifique de l\'ENS.\
               Date de soutenance prévisionnelle : 17 novembre 2017
               !
-              Title: \emph{Operadic Formality and Homotopy of Configuration Spaces}. \qquad Advisor: Benoit Fresse.\
-              Funded by an ``\emph{Allocation Spécifique}'' of the ENS.\
+              Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse.\
+              Funded by an ``*Allocation Spécifique*'' of the ENS.\
               Expected defense date: November 17th, 2017
   - title: Études ! Education
     entry:
       - content:
-          - '2015--\hphantom{2018}'
+          - '2015--'
           - Doctorant contractuel ! Contractual PhD student
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
@@ -62,11 +62,11 @@ section:
           - Paris, France
           - ~
           - |
-             Mémoire de master : \emph{Homologie, complexe de déformations et opérades $E_{n}$}.\
+             Mémoire de master : *Homologie, complexe de déformations et opérades $E_{n}$*.\
              Directeur : Benoit Fresse.\
              Sujet : Calcul de l\'homologie des algèbres $n$-Poisson à coefficients.
              !
-             Master\'s thesis: \emph{Homologie, complexe de déformations et opérades $E_{n}$.}\
+             Master\'s thesis: *Homologie, complexe de déformations et opérades $E_{n}$.*\
              Advisor: Benoit Fresse.\
              Topic: Computation of the homology of $n$-Poisson algebras with coefficients.
       - sub: 1
@@ -77,21 +77,6 @@ section:
           - Cambridge (MA), USA
           - ~
           - "Hôte : Haynes Miller. ! Host: Haynes Miller."
-      - sub: 1
-        content:
-          - '2011--2013'
-          - "Licence et Master\ 1 de Mathématiques ! Licence and 1st year of Master's degree in Mathematics"
-          - Université Paris-Sud
-          - Orsay, France
-          - ~
-          - ~
-      - content:
-        - '2009--2011'
-        - CPGE (MPSI \& MP*)
-        - Lycée Henri Wallon
-        - Valenciennes, France
-        - ~
-        - ~
   - title: Recherche ! Research
     bib:
       - title: Publications
