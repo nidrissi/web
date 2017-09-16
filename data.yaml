@@ -25,7 +25,7 @@ section:
               Date de soutenance prévisionnelle : 17 novembre 2017
               !
               Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse.\
-              Funded by an "*Allocation Spécifique*" of the ENS.\
+              Funded by an ``*Allocation Spécifique*'' of the ENS.\
               Expected defense date: November 17th, 2017
   - title: Études ! Education
     entry:
@@ -79,15 +79,12 @@ section:
           - "Hôte : Haynes Miller. ! Host: Haynes Miller."
   - title: Recherche ! Research
     bib:
-      - subtitle: Publications
-        entry:
-        - content: "Najib Idrissi. \"Swiss-Cheese operad and Drinfeld center\". In : *Israel J. Math* (2017). DOI: [10.1007/s11856-017-1559-y](https://doi.org/10.1007/s11856-017-1559-y). arXiv: [1507.06844](http://arxiv.org/abs/1507.06844)."
-      - subtitle: Prépublications ! Preprints
-        entry:
-          - content: "Najib Idrissi. *The Lambrechts–Stanley Model of Configuration Spaces* (submitted). 2016. arXiv: [1608.08054](https://arxiv.org/abs/1608.08054)."
-      - subtitle: Autres documents ! Other documents
-        entry:
-          - content: "Najib Idrissi. \"Opérades et Structures Commutatives à Homotopie Près\". In: *Graduate J. Math*. 1.1 (2016), p. 9--17."
+      - title: Publications
+        key: publication
+      - title: Prépublications ! Preprints
+        key: preprint
+      - title: Autres documents ! Other documents
+        key: other
   - title: Enseignement ! Teaching
     entry:
       - content:

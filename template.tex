@@ -13,6 +13,11 @@
 \usepackage{polyglossia}
 \setmainlanguage{$lang$}
 
+% bib
+\usepackage{csquotes}
+\usepackage[defernumbers=true]{biblatex}
+\addbibresource{research.bib}
+
 % adapted from:
 % http://tex.stackexchange.com/a/161635
 \newcommand*{\cvsubentry}[7][.25em]{%
@@ -50,12 +55,7 @@ $for(section.entry.content)$ {$section.entry.content$} $endfor$
 $endfor$
 
 $for(section.bib)$
-\subsection{$section.bib.subtitle$}
-\begin{itemize}
-  $for(section.bib.entry)$
-  \item $section.bib.entry.content$
-  $endfor$
-\end{itemize}
+\printbibliography[title={$section.bib.title$}, keyword=$section.bib.key$, heading=subbibliography]
 $endfor$
 
 $for(section.item)$
