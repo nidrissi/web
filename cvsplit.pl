@@ -6,7 +6,7 @@ use experimental qw/switch/;
 use YAML::Tiny;
 use XXX;
 
-my $infile = 'cv.yaml';
+my $infile = 'data.yaml';
 my @outfile = qw(french.out.yaml english.out.yaml);
 
 # Split an array of pairs into a pair of arrays

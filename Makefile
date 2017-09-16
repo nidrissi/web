@@ -1,8 +1,8 @@
 PANDOC = pandoc --latex-engine=lualatex
 LATEX = latexmk -pdf -e "$$pdflatex =~ s/pdflatex/lualatex/" -e "$$out_dir = 'build'"
-TEMPLATE = cv.tex
-YAML = cv.yaml
-BIB = cv.bib
+TEMPLATE = template.tex
+YAML = data.yaml
+BIB = research.bib
 
 .PHONY: all copy clean
 
