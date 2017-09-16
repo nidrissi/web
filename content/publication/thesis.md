@@ -7,7 +7,7 @@ In a second part, we study configuration spaces of closed smooth simply connecte
 Finally, in a third part, we expand this result to a large class of manifolds with boundary. We first use a chain-level Poincaré--Lefschetz duality result to compute the homology of the configuration spaces of these manifolds, then we reuse the methods of the second chapter to obtain our model, which is compatible with the action of the Swiss-Cheese operad SC<sub>n</sub>."""
 abstract_short = ""
 authors = ["Najib Idrissi"]
-date = "2017-06-24"
+date = "2017-09-08"
 image_preview = ""
 publication = "PhD Thesis, Université Lille 1"
 publication_short = ""
