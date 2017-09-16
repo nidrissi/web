@@ -25,7 +25,7 @@ section:
               Date de soutenance prévisionnelle : 17 novembre 2017
               !
               Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse.\
-              Funded by an ``*Allocation Spécifique*'' of the ENS.\
+              Funded by an "*Allocation Spécifique*" of the ENS.\
               Expected defense date: November 17th, 2017
   - title: Études ! Education
     entry:
@@ -136,7 +136,7 @@ section:
           - "Co-organisateur du séminaire des doctorants ! Co-organizer of the PhD students' seminar"
           - Laboratoire Paul Painlevé, Université Lille\ 1
           - Lille, France
-          -
+          - ~
           - ~
   - title: Exposés ! Talks
     entry:
@@ -144,7 +144,7 @@ section:
           - 2017-08-24
           - Configuration Spaces of Compact Manifolds
           - ETH Zürich
-          - Zürich, Suisse ! Switzerland
+          - Zurich, Suisse ! Zürich, Switzerland
           - ~
           - Talks in mathematical physics
       - content:
@@ -254,6 +254,13 @@ section:
           - Séminaire de Topologie ! Topology seminar
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
+      - content:
+          - 2017-09-14
+          - Journée des doctorants du Nord-Pas-de-Calais
+          - ULCO
+          - ~
+          - Calais, France
+          - ~
       - content:
           - 2017-07-11
           - Workshop on Persistent Homology
