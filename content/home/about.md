@@ -11,8 +11,7 @@ weight = 1
  
 +++
 
-I am Najib Idrissi
-<a href="#" data-container="body" data-toggle="popover" data-trigger="focus" tabindex="0" role="button" data-placement="right" data-content="My complete family name is 'Idrissi Kaïtouni' and it's possible to find this name in some places, e.g. in my email address. I prefer to use only 'Idrissi' in academic settings for simplicity and to avoid some confusions (for example, automated systems thinking that 'Idrissi' is my middle name and that I should be called 'NI Kaïtouni' -- this already happened!)."><small><span class="fa fa-question-circle"></span></small></a>,
+I am Najib Idrissi<sup><a href="#" data-container="body" data-toggle="popover" data-trigger="focus" tabindex="0" role="button" data-placement="right" data-content="My complete family name is 'Idrissi Kaïtouni' and it's possible to find this name in some places, e.g. in my email address. I prefer to use only 'Idrissi' in academic settings for simplicity and to avoid some confusions (for example, automated systems thinking that 'Idrissi' is my middle name and that I should be called 'NI Kaïtouni' -- this already happened!)."><small><span class="fa fa-question-circle"></span></small></a></sup>,
 a PhD student in mathematics at the
 [{{< logo "labo.png" "Laboratory Logo" >}} Laboratoire Paul Painlevé](https://math.univ-lille1.fr/)
 of
