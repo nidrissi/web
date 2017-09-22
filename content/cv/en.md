@@ -7,5 +7,6 @@ lastmod: "2017-09-22"
 <object data="/pdf/cv_idrissi_en.pdf" type="application/pdf">
 It seems that you do not have any PDF plugin installed.
 <a href="/pdf/cv_idrissi_en.pdf">My CV may be found here.</a>
+Sorry for the inconvenience.
 </object>
 </div>
