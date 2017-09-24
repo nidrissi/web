@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://git.erad.fr/najib/hugo-academic.git
+	branch = master
+	commit = bfa35d69b246b6e1cb343d1e08f4f3fd4db21cda
+	parent = 2082a303cd097244f4576c3ed7321f4d4a68fab7
+	cmdver = 0.3.1
