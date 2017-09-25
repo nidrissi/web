@@ -6,6 +6,6 @@
 [subrepo]
 	remote = https://git.erad.fr/najib/hugo-academic.git
 	branch = master
-	commit = bfa35d69b246b6e1cb343d1e08f4f3fd4db21cda
-	parent = 2082a303cd097244f4576c3ed7321f4d4a68fab7
+	commit = e3e4e8de2430987053280907936652ca87449199
+	parent = 0f9f8960fb464f448792c445a59a774a765e3973
 	cmdver = 0.3.1
