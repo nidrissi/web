@@ -14,8 +14,8 @@ weight = 20
 # Number of publications to list.
 count = 10
 
-# Show publication details (such as abstract)? (true/false)
-detailed_list = false
+# Citation style
+list_format = 1
 
 +++
 

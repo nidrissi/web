@@ -3,7 +3,7 @@ abstract = "We prove the validity over ℝ of a CDGA model of configuration spac
 authors = ["Najib Idrissi"]
 date = "2016-11-30"
 publication_types = ["3"]
-publication = "Preprint, submitted."
+publication = "Preprint, submitted"
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
 url_pdf = "/pdf/model-conf-sp.pdf"
 

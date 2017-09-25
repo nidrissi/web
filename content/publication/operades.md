@@ -3,7 +3,7 @@ abstract = "Nous donnons une introduction au domaine des opérades, des objets q
 authors = ["Najib Idrissi"]
 date = "2016-09-01"
 publication_types = ["2"]
-publication = "Graduate J. Math. 1.1 (2016), pp. 9–17."
+publication = "Graduate J. Math. 1.1 (2016), pp. 9--17"
 title = "Opérades et Structures Commutatives à Homotopie Près"
 url_pdf = "http://www.gsmd.tn/wp-content/uploads/2016/09/idriss20161-1.pdf"
 
@@ -12,4 +12,4 @@ name = "Journal"
 url = "http://www.gsmd.tn/article/operades-et-structures-commutatives-a-homotopie-pres/"
 +++
 
-Introductory work on operads based on my Master's thesis.
+Introductory work on operads based on my [Master's thesis](/publication/m2/).
