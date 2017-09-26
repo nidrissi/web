@@ -22,4 +22,8 @@ url = "https://arxiv.org/abs/1507.06844"
 [[url_custom]]
 name = "HAL"
 url = "https://hal.archives-ouvertes.fr/hal-01438863"
+
+[[url_custom]]
+name = "MathSciNet"
+url = "http://www.ams.org/mathscinet-getitem?mr=3704940"
 +++
