@@ -4,6 +4,8 @@ copyright = "&copy; 2017 Najib Idrissi"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+paginate = 10
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
@@ -15,16 +17,31 @@ googleAnalytics = ""
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+[outputs]
+  home = [ "HTML", "CSS" ]
+
 [blackfriday]
   hrefTargetBlank = true
 
 [params]
+  # Color theme.
+  #   Choose from `default`, `ocean`, `forest`, or `coffee`.
+  color_theme = "default"
+
+  # Font style.
+  #   Choose from `default` or `classic`.
+  font = "default"
+
+  # Your details.
   name = "Najib Idrissi"
-  role = "PhD student"
-  organization = "Université Lille 1"
-  organization_url = "http://www.univ-lille1.fr"
-  description = "I am Najib Idrissi, a PhD student in mathematics at the Laboratoire Paul Painlevé, Université Lille 1."
-  avatar = "photo.jpg"
+  role = "PhD Student"
+
+  # Organizations/Affiliations.
+  #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
+  organizations = [ { name = "Université Lille 1", url = "http://www.univ-lille1.fr" } ]
+
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
+  avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "najib.idrissi-kaitouni@math.univ-lille1.fr"
   address = " Université Lille 1 · Laboratoire Paul Painlevé · Cité Scientifique, Bâtiment M2 · 59655 Villeneuve d'Ascq Cedex · France (Office|Bureau: 110)"
   office_hours = ""
@@ -39,13 +56,43 @@ defaultContentLanguageInSubdir = false
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "2006-01-02"
 
+  # Show estimated reading time for posts?
+  reading_time = false
+
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
   math = true
 
   # Highlight.js options
+  #   highlight
+  #     Enable global source code highlighting?  If false, you can
+  #     override it for a particular page in that page's preamble.
+  #
+  #     Example: highlight = true
+  #
+  #   highlight_languages
+  #     Add support for highlighting additional languages. Support for
+  #     languages mentioned here will be included in all pages. You
+  #     can also set this variable for a particular page in that
+  #     page's preamble.
+  #
+  #     Example: highlight_languages = ["go", "lisp", "ocaml"]
+  #
+  #   highlight_style
+  #     Choose a different CSS style for highlighting source
+  #     code. Setting this option in a page's preamble has no
+  #     effect.
+  #
+  #     Example: highlight_style = "github-gist"
+  #
+  #   For the list of supported languages and styles, see:
+  #   https://cdnjs.com/libraries/highlight.js/
+  #
+  #   For more info on the highlighting options, see:
+  #   https://sourcethemes.com/academic/post/writing-markdown-latex/#highlighting-options
   highlight = false
   highlight_languages = []
+  # highlight_style = "github"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -89,6 +136,7 @@ defaultContentLanguageInSubdir = false
   #   google-scholar, arxiv, orcid, researchgate, mendeley
   #
   #   Full list: https://jpswalsh.github.io/academicons/
+
 
   [[params.social]]
     icon = "arxiv"
@@ -156,7 +204,7 @@ defaultContentLanguageInSubdir = false
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[languages.en]
+[Languages.en]
   languageCode = "en-us"
 
 [permalinks]
