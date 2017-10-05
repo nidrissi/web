@@ -8,5 +8,8 @@
     {{ else if .Params.event }}
             {{ .Params.event | markdownify }}
     {{ end }}
+    {{ with .Params.location }}
+      ({{ . }})
+    {{ end }}
   </p>
 </div>
