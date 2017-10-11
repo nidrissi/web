@@ -5,7 +5,7 @@ date = "2017-09-22"
 publication_types = ["2"]
 publication = "Israel J. Math. 221.2, pp. 941--927"
 title = "Swiss-Cheese Operad and Drinfeld Center"
-url_pdf = "/pdf/center.pdf"
+url_pdf = "/pdf/papers/center.pdf"
 
 [[url_custom]]
 name = "Journal"
