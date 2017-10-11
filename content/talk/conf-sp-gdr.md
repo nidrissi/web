@@ -7,8 +7,8 @@ event_url = "https://indico.math.cnrs.fr/event/1297/"
 location = "Université de Picardie Jules Vernes, Amiens"
 selected = false
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
-url_pdf = "/pdf/model-conf-sp.pdf"
-url_slides = "/pdf/model-conf-sp_slides_en.pdf"
+url_pdf = "/pdf/papers/model-conf-sp.pdf"
+url_slides = "/pdf/slides/model-conf-sp_slides_en.pdf"
 url_video = ""
 
 +++

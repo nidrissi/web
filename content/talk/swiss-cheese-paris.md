@@ -7,8 +7,8 @@ event_url = "https://www.imj-prg.fr/spip.php?article67&archive=2016&archive=2015
 location = "Université Paris 7"
 selected = false
 title = "L'opérade Swiss-Cheese et le centre de Drinfeld"
-url_pdf = "/pdf/center.pdf"
-url_slides = "/pdf/center_slides.pdf"
+url_pdf = "/pdf/papers/center.pdf"
+url_slides = "/pdf/slides/center_slides.pdf"
 url_video = ""
 
 +++

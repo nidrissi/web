@@ -5,7 +5,7 @@ date = "2016-11-30"
 publication_types = ["3"]
 publication = "Preprint, submitted"
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
-url_pdf = "/pdf/model-conf-sp.pdf"
+url_pdf = "/pdf/papers/model-conf-sp.pdf"
 
 [[url_custom]]
 name = "arXiv"

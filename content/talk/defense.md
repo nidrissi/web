@@ -13,7 +13,7 @@ selected = false
 math = false
 highlight = true
 
-url_pdf = "/pdf/thesis.pdf"
+url_pdf = "/pdf/papers/thesis.pdf"
 url_slides = ""
 url_video = ""
 
