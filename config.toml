@@ -163,6 +163,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "https://github.com/nidrissi"
 
+  [[params.social]]
+    icon = "bitbucket"
+    icon_pack = "fa"
+    link = "https://bitbucket.org/nidrissi"
+
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
