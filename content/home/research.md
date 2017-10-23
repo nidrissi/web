@@ -15,7 +15,7 @@ weight = 20
 count = 10
 
 # Citation style
-list_format = 1
+list_format = 3
 
 +++
 
