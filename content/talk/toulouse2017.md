@@ -1,5 +1,5 @@
 +++
-title = "TBA"
+title = "Espaces de configuration de variétés compactes"
 date = 2017-11-07
 draft = false
 
