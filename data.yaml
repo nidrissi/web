@@ -148,6 +148,27 @@ section:
   - title: Exposés ! Talks
     entry:
       - content:
+          - 2017-10-24
+          - "Introduction à la théorie de l'homotopie rationnelle"
+          - Université Lille 1
+          - Lille, France
+          - ~
+          - Séminaire de Géométrie des Espaces Singuliers
+      - content:
+          - 2017-10-13
+          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          - Université du Littoral
+          - Calais, France
+          - ~
+          - Séminaire Itinérant de Catégories
+      - content:
+          - 2017-10-03
+          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          - Université Lille 1
+          - Lille, France
+          - ~
+          - Séminaire de Géométrie des Espaces Singuliers
+      - content:
           - 2017-08-24
           - Configuration Spaces of Compact Manifolds
           - ETH Zürich
