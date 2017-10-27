@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (fr)"
-lastmod: "2017-10-23"
+lastmod: "2017-10-27"
 ---
 
 <div class="embed-responsive" style="padding-bottom:80%">
