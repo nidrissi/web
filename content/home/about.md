@@ -19,6 +19,7 @@ a PhD student in mathematics at the
 of
 [{{< logo "univ.png" >}} Université Lille 1](http://www.univ-lille1.fr/) (since September 2015). My advisor is [Benoit Fresse](https://math.univ-lille1.fr/~fresse/), and my contract is funded by the
 [{{< logo "ens.jpg" >}} École Normale Supérieure](http://www.ens.fr).
+I defended my PhD on November 17th.
 
 My main interests are operads, and their applications to algebraic topology, TQFTs... The subject of my PhD thesis is the study of the homotopy type of configuration spaces exploiting the formality of the little disks operads.
 
