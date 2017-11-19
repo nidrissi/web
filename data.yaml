@@ -13,7 +13,7 @@ section:
   - title: Travail ! Work
     entry:
       - content:
-          - '2015--'
+          - '2015--2017'
           - Doctorant contractuel ! Contractual PhD student
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
@@ -21,17 +21,15 @@ section:
           - |
               Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
               Directeur de thèse : Benoit Fresse.\
-              Financée par une Allocation Spécifique de l\'ENS.\
-              Date de soutenance prévisionnelle : 17 novembre 2017
+              Soutenue le novembre 2017
               !
               Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse.\
-              Funded by an "*Allocation Spécifique*" of the ENS.\
-              Expected defense date: November 17th, 2017
+              Defended on November 17th, 2017
   - title: Études ! Education
     entry:
       - content:
-          - '2015--'
-          - Doctorant contractuel ! Contractual PhD student
+          - '2015--2017'
+          - Doctorat en Mathématiques ! PhD in Mathematics
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
           - ~
