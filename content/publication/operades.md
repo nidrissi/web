@@ -5,7 +5,7 @@ date = "2016-09-01"
 publication_types = ["2"]
 publication = "Graduate J. Math. 1.1, pp. 9--17"
 title = "Opérades et Structures Commutatives à Homotopie Près"
-url_pdf = "http://www.gsmd.tn/wp-content/uploads/2016/09/idriss20161-1.pdf"
+url_pdf = "http://www.gradmath.org/wp-content/uploads/2016/09/idriss2016.pdf"
 
 [[url_custom]]
 name = "Journal"
