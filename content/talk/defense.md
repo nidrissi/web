@@ -14,8 +14,8 @@ math = false
 highlight = true
 
 url_pdf = "/pdf/papers/thesis.pdf"
-url_slides = ""
-url_video = ""
+url_slides = "/pdf/slides/soutenance.pdf"
+url_video = "/vid/proclam_soutenance.mp4"
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
