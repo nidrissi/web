@@ -14,7 +14,7 @@ math = false
 highlight = false
 
 url_pdf = ""
-url_slides = ""
+url_slides = "/pdf/slides/bord.pdf"
 url_video = ""
 
 # Featured image
