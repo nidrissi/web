@@ -159,20 +159,20 @@ section:
 #          - Strasbourg, France
 #          - ~
 #          - Séminaire Algèbre et topologie 
-#      - content:
-#          - 2017-11-21
-#          - Espaces de configuration de variétés compactes
-#          - "Université d'Angers"
-#          - Angers, France
-#          - ~
-#          - Séminaire de physique mathématique et de topologie algébrique 
-#      - content:
-#          - 2017-11-07
-#          - Espaces de configuration de variétés compactes
-#          - Université Paul Sabatier
-#          - Toulouse, France
-#          - ~
-#          - Séminaire "Homotopie en Géométrie Algébrique"
+      - content:
+          - 2017-11-21
+          - Espaces de configuration de variétés compactes
+          - "Université d'Angers"
+          - Angers, France
+          - ~
+          - Séminaire de physique mathématique et de topologie algébrique 
+      - content:
+          - 2017-11-07
+          - Espaces de configuration de variétés compactes
+          - Université Paul Sabatier
+          - Toulouse, France
+          - ~
+          - Séminaire "Homotopie en Géométrie Algébrique"
       - content:
           - 2017-10-24
           - "Introduction à la théorie de l'homotopie rationnelle"
