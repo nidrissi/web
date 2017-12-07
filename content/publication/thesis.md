@@ -25,4 +25,8 @@ url_video = ""
   caption = ""
   image = ""
 
+[[url_custom]]
+name = "University"
+url = "http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595"
+
 +++
