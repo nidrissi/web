@@ -13,8 +13,24 @@ section:
   - title: Travail ! Work
     entry:
       - content:
-          - '2015--2017'
+          - '02/2018--01/2020'
+          - Chercheur postdoctoral ! Postdoctoral researcher
+          - ETH Zürich
+          - Zürich, Suisse ! Zürich, Switzerland
+          - ~
+          - ~
+      - content:
+          - '09/2015--01/2018'
           - Doctorant contractuel ! Contractual PhD student
+          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Lille, France
+          - ~
+          - ~
+  - title: Études ! Education
+    entry:
+      - content:
+          - '09/2015--01/2018'
+          - Doctorat en Mathématiques ! PhD in Mathematics
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
           - ~
@@ -25,15 +41,6 @@ section:
               !
               Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse.\
               Defended on November 17th, 2017
-  - title: Études ! Education
-    entry:
-      - content:
-          - '2015--2017'
-          - Doctorat en Mathématiques ! PhD in Mathematics
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille, France
-          - ~
-          - ~
       - content:
           - '2011--2015'
           - "Élève de l'École Normale Supérieure ! Student of the École Normale Supérieure"
@@ -145,13 +152,13 @@ section:
           - ~
   - title: Exposés ! Talks
     entry:
-#      - content:
-#          - 2017-12-21
-#          - Séminaire de topologie, géométrie et algèbre
-#          - Université de Nantes
-#          - Nantes, France
-#          - ~
-#          - Espaces de configuration de variétés compactes
+      - content:
+          - 2017-12-21
+          - Séminaire de topologie, géométrie et algèbre
+          - Université de Nantes
+          - Nantes, France
+          - ~
+          - Espaces de configuration de variétés compactes
       - content:
           - 2017-12-05
           - Séminaire Algèbre et topologie 
