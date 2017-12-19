@@ -171,6 +171,11 @@ defaultContentLanguageInSubdir = false
     link = "https://scholar.google.com/citations?user=l23bjS4AAAAJ"
 
   [[params.social]]
+    icon = "university"
+    icon_pack = "fa"
+    link = "https://mathscinet.ams.org/mathscinet/MRAuthorID/1233505"
+
+  [[params.social]]
     icon = "orcid"
     icon_pack = "ai"
     link = "https://orcid.org/0000-0001-7288-6726"
@@ -184,12 +189,6 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/nidrissi"
-
-  [[params.social]]
-    icon = "bitbucket"
-    icon_pack = "fa"
-    link = "https://bitbucket.org/nidrissi"
-
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
