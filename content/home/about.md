@@ -23,16 +23,19 @@ weight = 1
   course = "PhD in Mathematics"
   institution = "Université Lille 1"
   year = 2017
+  url = "http://www.univ-lille1.fr"
 
 [[education.courses]]
   course = "Graduated from ENS Paris"
   institution = "École Normale Supérieure"
   year = 2015
+  url = "https://www.ens.fr"
 
 [[education.courses]]
   course = "Master's degree in Mathematics"
-  institution = "Université Paris 7"
+  institution = "Université Paris Diderot"
   year = 2014
+  url = "https://www.univ-paris-diderot.fr"
  
 +++
 
