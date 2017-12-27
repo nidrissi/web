@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitæ (en)"
+title: "Curriculum Vitæ (English)"
 lastmod: "2017-12-14"
 ---
 
