@@ -15,5 +15,3 @@ weight = 10
 autolink = true
 
 +++
-
-<small><span class="fa fa-key"></span> [GPG Public Key](/pubkey.asc)</small>
