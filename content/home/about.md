@@ -39,10 +39,7 @@ weight = 1
  
 +++
 
-# Hello!
-
-I am Najib Idrissi<sup><a href="#" data-container="body" data-toggle="popover" data-trigger="focus" tabindex="0" role="button" data-placement="right" data-content="My complete family name is 'Idrissi Kaïtouni' and it's possible to find this name in some places, e.g. in my email address. I prefer to use only 'Idrissi' in academic settings for simplicity and to avoid some confusions – for example, automated systems thinking that 'Idrissi' is my middle name and that I should be called 'NI Kaïtouni'...)."><small><span class="fa fa-question-circle"></span></small></a></sup>,
-and I'm a mathematician.
+Hello! I am Najib <abbr title="My complete family name is ‘Idrissi Kaïtouni’ and it's possible to find it in some places, e.g. in my email address. I prefer to use only 'Idrissi' in academic settings for simplicity and to avoid some confusions – for example, automated systems thinking that ‘Idrissi’ is my middle name and that I should be called ‘NI Kaïtouni’...).">Idrissi</abbr>, and I am a mathematician.
 I defended my PhD (under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse)) on November 17th, and I will begin a postdoc at [{{< logo "ethz.png" "ETH" >}} ETH Zürich](https://www.ethz.ch/) with [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/) in February.
 
 You can find [my CV in English here](/cv/en/) ([*aussi disponible en français*](/cv/fr/)).
