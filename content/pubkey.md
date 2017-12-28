@@ -3,6 +3,8 @@ title = "GPG Public Key"
 lastmod = "2016-12-15"
 +++
 
+[<i class="fa fa-download"></i> Download](/najib-idrissi.asc)
+
 ````
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2
