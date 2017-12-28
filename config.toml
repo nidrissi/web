@@ -49,7 +49,7 @@ defaultContentLanguageInSubdir = false
   phone = ""
   skype = ""
   telegram = ""
-  gpg_key_url = "/pubkey.asc"
+  gpg_key_url = "/pubkey/"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
