@@ -1,4 +1,4 @@
-baseurl = "https://idrissi.eu/"
+baseURL = "https://idrissi.eu/"
 title = "Najib Idrissi"
 copyright = "&copy; 2017 Najib Idrissi"
 theme = "academic"
@@ -235,27 +235,26 @@ defaultContentLanguageInSubdir = false
   weight = 2
   role = "Doctorant"
   address = "Université Lille 1 — Laboratoire Paul Painlevé — Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex · France (Bureau : 110)"
-
-[[Languages.fr.menu.main]]
-  name = "Accueil"
-  url = "#about"
-  weight = 1
-[[Languages.fr.menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 2
-[[Languages.fr.menu.main]]
-  name = "Recherche"
-  url = "#research"
-  weight = 3
-[[Languages.fr.menu.main]]
-  name = "Exposés"
-  url = "#talks"
-  weight = 4
-[[Languages.fr.menu.main]]
-  name = "Blog"
-  url = "#posts"
-  weight = 5
+  [[Languages.fr.menu.main]]
+    name = "Accueil"
+    url = "#about"
+    weight = 1
+  [[Languages.fr.menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 2
+  [[Languages.fr.menu.main]]
+    name = "Recherche"
+    url = "#research"
+    weight = 3
+  [[Languages.fr.menu.main]]
+    name = "Exposés"
+    url = "#talks"
+    weight = 4
+  [[Languages.fr.menu.main]]
+    name = "Blog"
+    url = "#posts"
+    weight = 5
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"
