@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
   section = [ "HTML", "RSS" ]
 
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = false
 
 [params]
   # Color theme.
@@ -44,7 +44,7 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "najib.idrissi-kaitouni@math.univ-lille1.fr"
-  address = "Université Lille 1 · Laboratoire Paul Painlevé · Cité Scientifique, Bâtiment M2 · 59655 Villeneuve d'Ascq Cedex · France (Office|Bureau: 110)"
+  address = "Université Lille 1 — Laboratoire Paul Painlevé — Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex · France (Office: 110)"
   office_hours = ""
   phone = ""
   skype = ""
@@ -200,22 +200,18 @@ defaultContentLanguageInSubdir = false
   name = "Home"
   url = "#about"
   weight = 1
-
 [[menu.main]]
   name = "Contact"
   url = "#contact"
   weight = 2
-
 [[menu.main]]
   name = "Research"
   url = "#research"
   weight = 3
-
 [[menu.main]]
   name = "Talks"
   url = "#talks"
   weight = 4
-
 [[menu.main]]
   name = "Blog"
   url = "#posts"
@@ -230,9 +226,36 @@ defaultContentLanguageInSubdir = false
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
-# Configure the English version of the website.
 [Languages.en]
   languageCode = "en-us"
+  weight = 1
+
+[Languages.fr]
+  languageCode = "fr-FR"
+  weight = 2
+  role = "Doctorant"
+  address = "Université Lille 1 — Laboratoire Paul Painlevé — Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex · France (Bureau : 110)"
+
+[[Languages.fr.menu.main]]
+  name = "Accueil"
+  url = "#about"
+  weight = 1
+[[Languages.fr.menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 2
+[[Languages.fr.menu.main]]
+  name = "Recherche"
+  url = "#research"
+  weight = 3
+[[Languages.fr.menu.main]]
+  name = "Exposés"
+  url = "#talks"
+  weight = 4
+[[Languages.fr.menu.main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 5
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"
