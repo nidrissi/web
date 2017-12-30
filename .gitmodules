@@ -1,4 +1,0 @@
-[submodule "themes/academic"]
-	path = themes/academic
-	url = https://git.erad.fr/najib/hugo-academic.git
-	branch = master
