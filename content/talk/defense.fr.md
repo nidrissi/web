@@ -25,11 +25,50 @@ caption = ""
 
 +++
 
-Jury | - | -
----|---|---
-Directeur de thèse : | [Benoit Fresse](https://math.univ-lille1.fr/~fresse/)         | Université Lille 1
-Rapporteurs :        | [Damien Calaque](http://www.math.univ-montp2.fr/~calaque/)        | Université de Montpellier
--                    | [Kathryn Hess Bellwald](http://hessbellwald-lab.epfl.ch/HessBellwald) | École Polytechnique Fédérale de Lausanne
-Examinateurs :       | [Pascal Lambrechts](https://uclouvain.be/fr/repertoires/pascal.lambrechts)     | Université Catholique de Louvain
--                    | [Patrick Popescu-Pampu](http://math.univ-lille1.fr/~popescu/) | Université Lille 1
--                    | [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/)     | École Polytechnique Fédérale de Zurich
+<table class="table">
+<thead>
+<tr>
+<th>Jury</th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Directeur de thèse :</td>
+<td><a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a></td>
+<td>Université Lille 1</td>
+</tr>
+
+<tr>
+<td>Rapporteurs :</td>
+<td><a href="http://www.math.univ-montp2.fr/~calaque/">Damien Calaque</a></td>
+<td>Université de Montpellier</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a href="http://hessbellwald-lab.epfl.ch/HessBellwald">Kathryn Hess Bellwald</a></td>
+<td>École Polytechnique Fédérale de Lausanne</td>
+</tr>
+
+<tr>
+<td>Examinateurs:</td>
+<td><a href="https://uclouvain.be/fr/repertoires/pascal.lambrechts">Pascal Lambrechts</a></td>
+<td>Université Catholique de Louvain</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a href="http://math.univ-lille1.fr/~popescu/">Patrick Popescu-Pampu</a></td>
+<td>Université Lille 1</td>
+</tr>
+
+<tr>
+<td></td>
+<td><a href="https://people.math.ethz.ch/~wilthoma/">Thomas Willwacher</a></td>
+<td>École Polytechnique Fédérale de Zurich</td>
+</tr>
+</tbody>
+</table>
