@@ -42,7 +42,7 @@ defaultContentLanguageInSubdir = false
   sharing = true
 
   custom_css = []
-  custom_js  = ['piwik.js']
+  custom_js  = ['script.js', 'piwik.js']
 
   # Publication types.
   #   Used to categorize publications.
