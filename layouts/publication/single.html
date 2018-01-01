@@ -1,0 +1,68 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<div itemscope itemtype="http://schema.org/CreativeWork">
+
+  {{ partial "header_image.html" . }}
+
+  <div class="container">
+      <h1 itemprop="name">{{ .Title }}</h1>
+      <span class="pull-right">
+          {{ partial "share.html" . }}
+      </span>
+
+      {{ if .Params.image }}
+      <img src="{{ "/img/" | relURL }}{{ .Params.image }}" class="pub-banner" itemprop="image">
+      {{end}}
+
+      <dl class="row">
+          <dt class="col-12 col-sm-2">
+              {{ i18n "authors" }}
+          </dt>
+          <dd class="col-12 col-sm-10" itemprop="author">
+              {{ with .Params.authors }}
+              {{ delimit . ", " | markdownify }}
+              {{ end }}
+          </dd>
+          
+          {{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
+          <dt class="col-12 col-sm-2">{{ i18n "publication_type" }}</dt>
+          <dd class="col-12 col-sm-10">
+              {{ range $index, $pubtype := .Params.publication_types }}
+              <a href="{{ "/publication/" | relLangURL }}#{{ . | urlize }}">
+                  {{ index $.Site.Params.publication_types (int .) }}
+              </a>
+              {{ end }}
+        </ul>
+          </dd>
+          {{ end }}
+          
+          <dt class="col-12 col-sm-2">{{ i18n "publication" }}</dt>
+          <dd class="col-12 col-sm-10">{{ .Params.publication | markdownify }}</dd>
+          
+          <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
+          <dd class="col-12 col-sm-10" itemprop="datePublished">{{ .Date.Format ($.Site.Params.publications.date_format | default "January, 2006") }}</dd>
+          
+          <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
+          <dd class="col-12 col-sm-10">
+              {{ partial "publication_links" (dict "content" . "is_list" 0) }}
+          </dd>
+      
+          <dt class="col-12 col-sm-2">{{ i18n "tags" }}</dt>
+          <dd class="col-12 col-sm-10">{{ partial "tags.html" . }}</dd>
+      </dl>
+      
+      {{ if .Params.abstract }}
+      <h3>{{ i18n "abstract" }}</h3>
+      <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
+      {{ end }}
+      
+      <div>{{ .Content }}</div>
+  </div>
+</div>
+
+<div class="container">
+    {{ partial "section_pager.html" . }}
+</div>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

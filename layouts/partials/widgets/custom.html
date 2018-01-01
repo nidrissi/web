@@ -1,0 +1,18 @@
+{{ $page := .page }}
+
+<!-- Custom widget -->
+<div class="row">
+  {{ if $page.Title }}
+  <div class="col-12 col-md-3 section-heading">
+    <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
+    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-12 col-md-9">
+    {{ $page.Content }}
+  </div>
+  {{ else }}
+  <div class="col-md-12">
+    {{ $page.Content }}
+  </div>
+  {{ end }}
+</div>

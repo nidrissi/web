@@ -1,0 +1,10 @@
+<nav>
+  <ul class="pagination">
+    {{if .PrevInSection}}
+    <li class="page-item"><a class="page-link" href="{{.PrevInSection.Permalink}}"><span aria-hidden="true">&larr;</span> {{.PrevInSection.Title}}</a></li>
+    {{end}}
+    {{if .NextInSection}}
+    <li class="page-item"><a class="page-link" href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}} <span aria-hidden="true">&rarr;</span></a></li>
+    {{end}}
+  </ul>
+</nav>

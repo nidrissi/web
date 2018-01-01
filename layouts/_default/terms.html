@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ partial "header_image.html" . }}
+
+<div class="container">
+    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+
+    {{ with .Content }}
+    <div>{{ . }}</div>
+    {{ end }}
+
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $paginator.Pages }}
+    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{ end }}
+
+    {{ partial "pagination" . }}
+</div>
+
+{{ partial "footer_container.html" . }}
+{{ partial "footer.html" . }}

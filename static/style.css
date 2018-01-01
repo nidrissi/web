@@ -1,0 +1,184 @@
+/* Home sections */
+
+.home-section {
+  padding: 1rem 0;
+}
+
+.home-section:first-of-type {
+  padding-top: .5rem;
+}
+
+.home-section:nth-of-type(even) {
+  background-color: rgb(247, 247, 247);
+}
+
+/* Hero widget */
+
+.hero-overlay {
+  position: relative;
+  padding: 3em 0;
+  clear: both;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: intro 0.3s both;
+  animation-delay: 0s;
+  animation-delay: 0.25s;
+}
+
+.hero-title {
+  font-size: 2.7rem;
+  margin-top: 0;
+  line-height: 1;
+}
+
+.hero-lead {
+  max-width: 768px;
+  font-size: 1.35rem;
+}
+
+.hero-overlay .hero-title,
+.hero-overlay .hero-lead,
+.hero-overlay .btn {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.hero-overlay a {
+  color: #fff;
+}
+
+.hero-overlay .hero-lead a {
+  color: #fff;
+  text-decoration-line: underline;
+}
+
+.hero-overlay .btn-large {
+  font-size: 1.1rem;
+}
+
+/* Biography */
+
+ul.ul-edu li .description p {
+  margin: 0;
+}
+
+ul.ul-edu li .description p.institution {
+  font-size: 0.9rem;
+}
+
+/* Sharing */
+
+.share-box {
+  float: right;
+}
+
+ul.share {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.share li {
+  display: inline-flex;
+  margin-right: 5px;
+}
+
+ul.share li:last-of-type {
+  margin-right: 0;
+}
+
+ul.share li .fa {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+ul.share li a {
+  background-color: #b5c6ce;
+  display: block;
+  border-radius: 50%;
+  text-decoration: none !important;
+  margin: 0;
+}
+
+ul.share li:hover .fa {
+  transform: scale(1.4)
+}
+
+/* Blog articles */
+
+.article-metadata {
+  line-height: 30px; /* Match share bar line height. */
+  overflow: hidden;
+  letter-spacing: 0.03em;
+}
+
+/* Publications */
+
+.pub-banner {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Talks */
+.talk-metadata {
+  color: #4b4f56;
+  font-size: 0.8rem;
+}
+
+/* Projects */
+
+#projects.home-section li {
+  margin-bottom: 1rem;
+}
+
+#projects.home-section li:last-of-type {
+  margin-bottom: 0;
+}
+
+#projects.home-section .project-title {
+  margin-bottom: 6px;
+}
+
+#projects.home-section .project-summary {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+#projects.home-section .project-tags {
+  font-size: 0.75rem;
+  color: #9c9c9c;
+}
+
+.projects-container {
+  display: block;
+  position: relative;
+  /*margin-top: 5rem;*/
+  overflow: hidden;
+}
+
+.project-toolbar{
+  margin-bottom: 2rem;
+}
+
+.project-item {
+  margin-bottom: 1.5rem;
+}
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-item:hover{
+  z-index: 3;
+}

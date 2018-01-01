@@ -1,0 +1,63 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<!-- About widget -->
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
+  <link itemprop="url" href="{{ $.Site.BaseURL }}">
+  <div class="col-12 col-md-4">
+    <div class="card w-75 mx-auto text-center">
+      <img class="card-img-top" src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}" alt="Photo">
+      <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}">
+
+      <div class="card-body">
+        <h5 itemprop="name" class="card-title">{{ $.Site.Params.name }}</h5>
+        <h6 class="card-subtitle">
+            <span itemprop="jobTitle">{{ $.Site.Params.role }}</span>
+            &ndash;
+            <a href="$.Site.Params.organization_url" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
+        </h6>
+
+        {{ range $.Site.Params.social }}
+        {{ $pack := or .icon_pack "fa" }}
+        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener"><i class="{{ $pack }} {{ $pack }}-{{ .icon }}"></i></a>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-8" itemprop="description">
+
+    {{ $page.Content }}
+
+    <div class="row">
+
+      {{ with $page.Params.interests }}
+      <div class="col-sm-5">
+        <h4>{{ i18n "interests" | markdownify }}</h4>
+        <ul class="ul-interests">
+          {{ range .interests }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+      {{ with $page.Params.education }}
+      <div class="col-sm-7">
+        <h4>{{ i18n "education" | markdownify }}</h4>
+        <ul class="ul-edu fa-ul">
+          {{ range .courses }}
+          <li>
+            <i class="fa-li fa fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+              <p class="institution">{{ with .url }}<a href="{{ . }}">{{ end }}{{ .institution }}{{ if .url }}</a>{{ end }}</p>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>

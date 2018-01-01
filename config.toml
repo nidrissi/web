@@ -1,7 +1,7 @@
 baseURL = "https://idrissi.eu/"
 title = "Najib Idrissi"
 copyright = "&copy; 2017 Najib Idrissi"
-theme = "academic"
+# theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
