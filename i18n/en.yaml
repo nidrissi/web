@@ -150,5 +150,5 @@
 - id: page_not_found
   translation: Page not found
 
-- id: 404_recommendations
-  translation: Perhaps you were looking for one of these?
+- id: go_back
+  translation: Go back to the front page

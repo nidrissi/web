@@ -150,5 +150,5 @@
 - id: page_not_found
   translation: Page non disponible
 
-- id: 404_recommendations
-  translation: Vous cherchiez peut-être une des pages suivantes ?
+- id: go_back
+  translation: Retourner à l'accueil
