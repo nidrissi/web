@@ -7,7 +7,7 @@
             <h1>{{ .Title | default (i18n "publications") }}</h1>
 
             {{ with .Content }}
-            <div class="article-style" itemprop="articleBody">{{ . }}</div>
+            <div itemprop="articleBody">{{ . }}</div>
             {{ end }}
 
             {{/* Array of distinct years. */}}

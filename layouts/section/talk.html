@@ -7,7 +7,7 @@
             <h1>{{ .Title | default (i18n "talks") }}</h1>
 
             {{ with .Content }}
-            <div class="article-style" itemprop="articleBody">{{ . }}</div>
+            <div itemprop="articleBody">{{ . }}</div>
             {{ end }}
 
             {{ range .Data.Pages.GroupByDate "2006" }}

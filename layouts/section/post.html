@@ -6,7 +6,7 @@
   <h1>{{ .Title | default (i18n "posts") }}</h1>
 
   {{ with .Content }}
-  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  <div itemprop="articleBody">{{ . }}</div>
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}
