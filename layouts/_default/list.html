@@ -1,16 +1,9 @@
 {{ if .Params.widgets }}
-
 {{ partial "widget_page.html" . }}
-
 {{ else }}
-
 {{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
-
 {{ partial "header_image.html" . }}
-
 <div class="container">
-
   {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 
   {{ with .Content }}
@@ -32,8 +25,6 @@
   {{ end }}
 
   {{ partial "pagination" . }}
-
 </div>
 {{ partial "footer.html" . }}
-
 {{ end }}
