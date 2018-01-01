@@ -10,13 +10,6 @@
     </time>
   </span>
 
-  {{ if ne $.Site.Params.reading_time false }}
-  &ndash;
-  <span class="text-muted">
-    {{ $.ReadingTime }} {{ i18n "minute_read" }}
-  </span>
-  {{ end }}
-
   {{ if isset $.Params "categories" }}
   {{ $categoriesLen := len $.Params.categories }}
   {{ if gt $categoriesLen 0 }}
