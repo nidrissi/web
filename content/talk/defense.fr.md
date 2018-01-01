@@ -11,7 +11,6 @@ location = "Université Lille 1"
 
 selected = false
 math = false
-highlight = true
 
 url_pdf = "/pdf/papers/thesis.pdf"
 url_slides = "/pdf/slides/soutenance.pdf"

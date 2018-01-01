@@ -11,7 +11,6 @@ location = "LAREMA, Université d'Angers"
 
 selected = false
 math = false
-highlight = false
 
 url_pdf = ""
 url_slides = "/pdf/slides/bord.pdf"

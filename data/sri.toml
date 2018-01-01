@@ -16,9 +16,6 @@
 [js.bootstrap]
   version = "4.0.0-beta.3"
   sri = "sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
-[js.highlight]
-  version = "9.12.0"
-  sri = "sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw="
 [js.mathJax]
   version = "2.7.1"
   sri = "sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw=="
@@ -31,12 +28,6 @@
 [js.autotrack]
   version = "2.4.1"
   sri = "sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g=="
-[js.gmaps]
-  version = "0.4.25"
-  sri = "sha256-7vjlAeb8OaTrCXZkCNun9djzuB2owUsaO72kXaFDBJs="
-[js.leaflet]
-  version = "1.2.0"
-  sri = "sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
 
 # CSS
 
@@ -49,6 +40,3 @@
 [css.academicons]
   version = "1.8.1"
   sri = "sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A=="
-[css.leaflet]
-  version = "1.2.0"
-  sri = "sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="

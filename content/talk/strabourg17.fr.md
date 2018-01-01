@@ -11,7 +11,6 @@ location = "IRMA, Université de Strasbourg"
 
 selected = false
 math = false
-highlight = true
 
 url_pdf = ""
 url_slides = "/pdf/slides/bord.pdf"

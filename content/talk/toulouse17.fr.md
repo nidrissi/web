@@ -11,7 +11,6 @@ location = "Université Paul Sabatier, Toulouse"
 
 selected = false
 math = false
-highlight = true
 
 url_pdf = ""
 url_slides = "/pdf/slides/bord.pdf"

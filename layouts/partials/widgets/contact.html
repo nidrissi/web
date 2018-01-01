@@ -87,20 +87,6 @@
           <a href="{{ . | relLangURL }}">{{ i18n "gpg_key" | markdownify }}</a>
       </li>
       {{ end }}
-
     </ul>
-
-    {{ if $.Site.Params.map }}
-    <div class="hidden">
-      <input id="map-provider" value="{{ $.Site.Params.map }}">
-      <input id="map-lat" value="{{ $.Site.Params.latitude }}">
-      <input id="map-lng" value="{{ $.Site.Params.longitude }}">
-      <input id="map-dir" value="{{ $.Site.Params.address }}">
-      <input id="map-zoom" value="{{ $.Site.Params.zoom | default "15" }}">
-      <input id="map-api-key" value="{{ $.Site.Params.map_api_key }}">
-    </div>
-    <div id="map"></div>
-    {{ end }}
-
   </div>
 </div>
