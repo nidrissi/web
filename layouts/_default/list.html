@@ -1,7 +1,7 @@
 {{ if .Params.widgets }}
 {{ partial "widget_page.html" . }}
 {{ else }}
-{{ partialCached "header.html" . }}
+{{ partial "header.html" . }}
 {{ partial "header_image.html" . }}
 <div class="container">
   {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
