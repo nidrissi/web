@@ -154,6 +154,17 @@ defaultContentLanguageInSubdir = false
   weight = 2
   role = "Doctorant"
   address = "Université Lille 1 — Laboratoire Paul Painlevé — Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex – France (Bureau : 110)"
+  publication_types = [
+  'Sans catégorie',  # 0
+  'Actes de conférence',  # 1
+  'Article de journal',  # 2
+  'Travail en cours',  # 3
+  'Rapport technique',  # 4
+  'Livre',  # 5
+  'Chapitre de livre',  # 6
+  'Thèse/mémoire'  # 7
+]
+
   [[Languages.fr.menu.main]]
     name = "Accueil"
     url = "#about"
