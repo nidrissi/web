@@ -14,7 +14,7 @@
         <h6 class="card-subtitle">
             <span itemprop="jobTitle">{{ $.Site.Params.role }}</span>
             &ndash;
-            <a href="$.Site.Params.organization_url" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
+            <a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
         </h6>
 
         {{ range $.Site.Params.social }}
