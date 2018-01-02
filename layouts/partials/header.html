@@ -60,8 +60,6 @@
         {{ if not .Date.IsZero }}<meta property="og:updated_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" | safeHTML }}">{{ end }}
         {{ end }}
 
-        {{ partial "head_custom" . }}
-
         <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
     </head>
