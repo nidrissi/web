@@ -20,13 +20,7 @@
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     {{ range first $page.Params.count (where $.Site.RegularPages "Type" "talk") }}
-      {{ if eq $page.Params.list_format 1 }}
-        {{ partial "talk_li_detailed" . }}
-      {{ else if eq $page.Params.list_format 2 }}
-        {{ partial "talk_li_simple" . }}
-      {{ else }}
-        {{ partial "talk_li_card" . }}
-      {{ end }}
+      {{ partial "talk_li" . }}
     {{ end }}
   </div>
 </div>
