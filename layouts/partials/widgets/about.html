@@ -33,7 +33,7 @@
       {{ with $page.Params.interests }}
       <div class="col-sm-5">
         <h4>{{ i18n "interests" | markdownify }}</h4>
-        <ul class="ul-interests">
+        <ul>
           {{ range .interests }}
           <li>{{ . | markdownify }}</li>
           {{ end }}
@@ -44,14 +44,13 @@
       {{ with $page.Params.education }}
       <div class="col-sm-7">
         <h4>{{ i18n "education" | markdownify }}</h4>
-        <ul class="ul-edu fa-ul">
+        <ul class="fa-ul">
           {{ range .courses }}
           <li>
             <i class="fa-li fa fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ with .url }}<a href="{{ . }}">{{ end }}{{ .institution }}{{ if .url }}</a>{{ end }}</p>
-            </div>
+            {{ .course }}{{ with .year }}, {{ . }}{{ end }}
+            <br>
+            {{ with .url }}<a href="{{ . }}">{{ end }}{{ .institution }}{{ if .url }}</a>{{ end }}
           </li>
           {{ end }}
         </ul>

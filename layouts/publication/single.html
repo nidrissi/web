@@ -6,7 +6,7 @@
         {{ partial "share.html" . }}
 
         {{ if .Params.image }}
-        <img src="{{ "/img/" | relURL }}{{ .Params.image }}" class="pub-banner" itemprop="image">
+        <img src="{{ "/img/" | relURL }}{{ .Params.image }}" itemprop="image">
         {{end}}
 
         <dl class="row">
