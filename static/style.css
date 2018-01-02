@@ -1,9 +1,3 @@
-.home-section {
-    padding: 1rem 0;
-}
-.home-section:first-of-type {
-    padding-top: .5rem;
-}
 .home-section:nth-of-type(even) {
     background-color: rgb(247, 247, 247);
 }

@@ -11,7 +11,7 @@
   <div class="col-12 col-md-9">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
-    <ul class="fa-ul" itemscope>
+    <ul class="fa-ul mb-0" itemscope>
 
       {{ with $.Site.Params.email }}
       <li>
