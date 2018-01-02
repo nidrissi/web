@@ -11,7 +11,7 @@
 
       <div class="card-body">
         <h5 itemprop="name" class="card-title">{{ $.Site.Params.name }}</h5>
-        <h6 class="card-subtitle">
+        <h6 class="card-subtitle mb-2">
             <span itemprop="jobTitle">{{ $.Site.Params.role }}</span>
             &ndash;
             <a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
@@ -19,7 +19,7 @@
 
         {{ range $.Site.Params.social }}
         {{ $pack := or .icon_pack "fa" }}
-        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener"><i class="{{ $pack }} {{ $pack }}-{{ .icon }}"></i></a>
+        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener"><i class="{{ $pack }} {{ $pack }}-{{ .icon }} {{ $pack }}-lg"></i></a>
         {{ end }}
       </div>
     </div>
