@@ -11,8 +11,7 @@
 
   {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
-    {{ $params := dict "post" . }}
-    {{ partial "post_li" $params }}
+  {{ partial "post_li" . }}
   {{ end }}
 
   {{ partial "pagination" . }}
