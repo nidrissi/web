@@ -1,4 +1,4 @@
-<div class="card my-1" itemscope itemtype="http://schema.org/Event">
+<div class="card" itemscope itemtype="http://schema.org/Event">
   <div class="card-body">
     <h5 class="card-title">
       <a href="{{ .Permalink }}">
@@ -12,9 +12,9 @@
         {{ (time $date).Format ($.Site.Params.time_format | default "3:04 PM") }}
         {{ end }}
         {{ with .Params.location }}&ndash; {{ . }}{{ end }}
+        &ndash;
+        {{ i18n "title" }}: {{ .Title }} 
     </h6>
-    {{ i18n "title" }}: {{ .Title }} 
-    <br>
     {{ partial "talk_links" (dict "content" . "is_card" 1) }}
   </div>
 </div>
