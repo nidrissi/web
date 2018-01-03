@@ -23,9 +23,7 @@
             <dt class="col-12 col-sm-2">{{ i18n "publication_type" }}</dt>
             <dd class="col-12 col-sm-10">
                 {{ range $index, $pubtype := .Params.publication_types }}
-                <a href="{{ "/publication/" | relLangURL }}#{{ . | urlize }}">
-                    {{ index $.Site.Params.publication_types (int .) }}
-                </a>
+                {{ index $.Site.Params.publication_types (int .) }}
                 {{ end }}
             </dd>
             {{ end }}
