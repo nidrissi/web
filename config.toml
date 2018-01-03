@@ -41,7 +41,7 @@ defaultContentLanguageInSubdir = false
   # Enable native social sharing buttons?
   sharing = true
 
-  custom_css = []
+  custom_css = ['style.css']
   custom_js  = ['piwik.js']
 
   # Publication types.
