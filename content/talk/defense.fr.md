@@ -53,7 +53,7 @@ caption = ""
 </tr>
 
 <tr>
-<td>Examinateurs:</td>
+<td>Examinateurs :</td>
 <td><a href="https://uclouvain.be/fr/repertoires/pascal.lambrechts">Pascal Lambrechts</a></td>
 <td>Université Catholique de Louvain</td>
 </tr>
