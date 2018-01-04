@@ -2,7 +2,7 @@
 {{ $page := .page }}
 
 <div class="row">
-  <div class="col-12 col-md-3 section-heading">
+  <div class="col-12 col-md-3">
     <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
