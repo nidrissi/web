@@ -1,34 +1,39 @@
 {{ $is_list := .is_list }}
 {{ $is_card := .is_card }}
 {{ $ := .content }}
+{{ if $is_card }}
+{{ $.Scratch.Set "class" "card-link" }}
+{{ else }}
+{{ $.Scratch.Set "class" "btn btn-outline-primary btn-sm"}}
+{{ end }}
 
 {{ with $.Params.url_pdf }}
-<a class="{{ if $is_card }}card-link{{ else }}btn btn-outline-primary btn-sm{{ end }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
     {{ i18n "btn_pdf" }}
 </a>
 {{ end }}
 {{ with $.Params.url_slides }}
-<a class="{{ if $is_card }}card-link{{ else }}btn btn-outline-primary btn-sm{{ end }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
     {{ i18n "btn_slides" }}
 </a>
 {{ end }}
 {{ with $.Params.url_video }}
-<a class="{{ if $is_card }}card-link{{ else }}btn btn-outline-primary btn-sm{{ end }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
     {{ i18n "btn_video" }}
 </a>
 {{ end }}
 {{ with $.Params.url_code }}
-<a class="{{ if $is_card }}card-link{{ else }}btn btn-outline-primary btn-sm{{ end }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
     {{ i18n "btn_code" }}
 </a>
 {{ end }}
 {{ range $.Params.projects }}
-<a class="{{ if $is_card }}card-link{{ else }}btn btn-outline-primary btn-sm{{ end }}" href="{{ printf "project/%s/" . | relURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ printf "project/%s/" . | relURL }}">
     {{ i18n "btn_project" }}
 </a>
 {{ end }}
 {{ range $.Params.url_custom }}
-<a class="{{ if $is_card }}card-link{{ else }}btn btn-outline-primary btn-sm{{ end }}" href="{{ .url | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ .url | absURL }}">
   {{ .name }}
 </a>
 {{ end }}
