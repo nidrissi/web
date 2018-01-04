@@ -48,11 +48,6 @@
                 {{ partial "talk_links" (dict "content" . "is_card" 0) }}
             </dd>
             {{ end }}
-
-            <dt class="col-12 col-sm-2">{{ i18n "tags" }}</dt>
-            <dd class="col-12 col-sm-10">
-                {{ partial "tags.html" . }}
-            </dd>
         </dl>
 
         {{ if .Params.abstract }}

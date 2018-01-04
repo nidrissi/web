@@ -19,15 +19,6 @@
                 {{ end }}
             </dd>
 
-            {{ if (.Params.publication_types) and (ne (index .Params.publication_types 0) "0") }}
-            <dt class="col-12 col-sm-2">{{ i18n "publication_type" }}</dt>
-            <dd class="col-12 col-sm-10">
-                {{ range $index, $pubtype := .Params.publication_types }}
-                {{ index $.Site.Params.publication_types (int .) }}
-                {{ end }}
-            </dd>
-            {{ end }}
-
             <dt class="col-12 col-sm-2">{{ i18n "publication" }}</dt>
             <dd class="col-12 col-sm-10">{{ .Params.publication | markdownify }}</dd>
 
@@ -38,9 +29,6 @@
             <dd class="col-12 col-sm-10">
                 {{ partial "publication_links" (dict "content" . "is_card" 0) }}
             </dd>
-
-            <dt class="col-12 col-sm-2">{{ i18n "tags" }}</dt>
-            <dd class="col-12 col-sm-10">{{ partial "tags.html" . }}</dd>
         </dl>
 
         {{ if .Params.abstract }}
