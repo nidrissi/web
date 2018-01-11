@@ -1,5 +1,5 @@
 baseURL = "https://idrissi.eu/"
-title = "Najib Idrissi"
+title = "Najib Idrissi's homepage"
 enableEmoji = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 paginate = 10
@@ -152,6 +152,7 @@ defaultContentLanguageInSubdir = false
 [Languages.fr]
   languageCode = "fr-FR"
   weight = 2
+  title = "Page perso de Najib Idrissi"
   role = "Doctorant"
   address = "Université Lille 1 — Laboratoire Paul Painlevé — Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex – France (Bureau : 110)"
   publication_types = [
