@@ -1,15 +1,6 @@
 +++
-# About/Biography widget.
-
-date = "2016-04-20T00:00:00"
-draft = false
-
 widget = "about"
-
-# Order that this section will appear in.
 weight = 1
-
-# List your academic interests.
 [interests]
   interests = [
     "Topologie Algébrique",
@@ -17,26 +8,21 @@ weight = 1
     "Espaces de configuration",
     "Complexes de graphes"
   ]
-
-# List your qualifications (such as academic degrees).
 [[education.courses]]
   course = "Doctorat en Mathématiques"
   institution = "Université Lille 1"
   year = 2017
   url = "http://www.univ-lille1.fr"
-
 [[education.courses]]
   course = "Élève de l'ENS Paris"
   institution = "École Normale Supérieure"
   year = 2015
   url = "https://www.ens.fr"
-
 [[education.courses]]
   course = "Master en Mathématiques"
   institution = "Université Paris Diderot"
   year = 2014
   url = "https://www.univ-paris-diderot.fr"
- 
 +++
 
 # Bonjour !
