@@ -84,4 +84,4 @@ Invited by Haynes Miller</dd>
 
 [<i class="fa fa-arrow-right" aria-hidden="true"></i> Please see the main page.](/talk/)
 
-## [Complete version in PDF format](/pdf/cv_idrissi_en.pdf)
+## [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Complete version in PDF format](/pdf/cv_idrissi_en.pdf)
