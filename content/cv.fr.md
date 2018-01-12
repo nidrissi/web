@@ -14,12 +14,12 @@ lastmod: "2017-12-14"
 <dd class="col-md-10"><em>Doctorant contractuel</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-## Studies
+## Études
 
 <div class="row">
 <dt class="col-md-2">09/2015–01/2018</dt>
 <dd class="col-md-10"><em>Doctorat en Mathématiques</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
-Titre : *Formalité opéradique et homotopie des espaces de configuration*. Directeur de thèse : Benoit Fresse.<br>
+Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>. Directeur de thèse : Benoit Fresse.<br>
 Soutenue le 17 novembre 2017.</dd>
 
 <dt class="col-md-2">2011–2015</dt>
@@ -55,20 +55,20 @@ Invité par Haynes Miller</dd>
 
 <div class="row">
 <dt class="col-md-2">2017–2018</dt>
-<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semester.</dd>
+<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
 
 <dt class="col-md-2"></dt>
-<dd class="col-md-10">Mathématiques fondamentales (colles et tutorat), Université Lille 1, L1 SESI, 1er semester.</dd>
+<dd class="col-md-10">Mathématiques fondamentales (colles et tutorat), Université Lille 1, L1 SESI, 1er semestre.</dd>
 
 <dt class="col-md-2">2016–2017</dt>
-<dd class="col-md-10">Calcul matriciel (TD), Université Lille 1, L2 Économie-Gestion-Management, 2ème semester.</dd>
+<dd class="col-md-10">Calcul matriciel (TD), Université Lille 1, L2 Économie-Gestion-Management, 2ème semestre.</dd>
 <dt class="col-md-2"></dt>
-<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 Économie-Gestion-Management, 2ème semester.</dd>
+<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 Économie-Gestion-Management, 2ème semestre.</dd>
 <dt class="col-md-2"></dt>
-<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semester.</dd>
+<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
 
 <dt class="col-md-2">2015–2016</dt>
-<dd class="col-md-10">Mathématiques fondamentales 2 (TD), Université Lille 1, L1 SESI, 2ème semester.</dd>
+<dd class="col-md-10">Mathématiques fondamentales 2 (TD), Université Lille 1, L1 SESI, 2ème semestre.</dd>
 </div>
 
 ## Tâches administratives

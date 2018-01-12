@@ -18,7 +18,7 @@ lastmod: "2017-12-14"
 <div class="row">
 <dt class="col-md-2">09/2015–01/2018</dt>
 <dd class="col-md-10"><em>PhD in Mathematics</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
-Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse.<br>
+Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>. Advisor: Benoit Fresse.<br>
 Defended on November 17th, 2017.</dd>
 
 <dt class="col-md-2">2011–2015</dt>
