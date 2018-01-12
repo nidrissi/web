@@ -7,33 +7,33 @@ lastmod: "2017-12-14"
 ## Travail
 
 <div class="row">
-<dt class="col-md-2">02/2018–01/2020</dt>
-<dd class="col-md-10"><em>Chercheur postdoctorant</em>, ETH Zürich, Zürich, Switzerland</dd>
+<dt class="col-lg-2 col-sm-3">02/2018–01/2020</dt>
+<dd class="col-lg-10 col-sm-9"><em>Chercheur postdoctorant</em>, ETH Zürich, Zürich, Switzerland</dd>
 
-<dt class="col-md-2">09/2015–01/2018</dt>
-<dd class="col-md-10"><em>Doctorant contractuel</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
+<dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
+<dd class="col-lg-10 col-sm-9"><em>Doctorant contractuel</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
 ## Études
 
 <div class="row">
-<dt class="col-md-2">09/2015–01/2018</dt>
-<dd class="col-md-10"><em>Doctorat en Mathématiques</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
+<dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
+<dd class="col-lg-10 col-sm-9"><em>Doctorat en Mathématiques</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
 Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>. Directeur de thèse : Benoit Fresse.<br>
 Soutenue le 17 novembre 2017.</dd>
 
-<dt class="col-md-2">2011–2015</dt>
-<dd class="col-md-10"><em>Élève de l'École Normale Supérieure</em>, ENS Ulm – Département de Mathématiques et Applications, Paris, France</dd>
+<dt class="col-lg-2 col-sm-3">2011–2015</dt>
+<dd class="col-lg-10 col-sm-9"><em>Élève de l'École Normale Supérieure</em>, ENS Ulm – Département de Mathématiques et Applications, Paris, France</dd>
 
-<dt class="col-md-2">2014–2015</dt>
-<dd class="col-md-10"><em>Stage de recherche en topologie algébrique</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
+<dt class="col-lg-2 col-sm-3">2014–2015</dt>
+<dd class="col-lg-10 col-sm-9"><em>Stage de recherche en topologie algébrique</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
 En préparation d'une thèse en 2015, dirigé par Benoit Fresse.</dd>
 
-<dt class="col-md-2">2013–2014</dt>
-<dd class="col-md-10"><em>M2 recherche en Mathématiques Pures</em>, Université Paris Diderot, Paris, France</dd>
+<dt class="col-lg-2 col-sm-3">2013–2014</dt>
+<dd class="col-lg-10 col-sm-9"><em>M2 recherche en Mathématiques Pures</em>, Université Paris Diderot, Paris, France</dd>
 
-<dt class="col-md-2">Automne 2013</dt>
-<dd class="col-md-10"><em>Stage de recherche en topologie algébrique</em>, Massachusetts Institute of Technology, Cambridge (MA), USA<br>
+<dt class="col-lg-2 col-sm-3">Automne 2013</dt>
+<dd class="col-lg-10 col-sm-9"><em>Stage de recherche en topologie algébrique</em>, Massachusetts Institute of Technology, Cambridge (MA), USA<br>
 Invité par Haynes Miller</dd>
 </div>
 
@@ -54,31 +54,31 @@ Invité par Haynes Miller</dd>
 ## Enseignement
 
 <div class="row">
-<dt class="col-md-2">2017–2018</dt>
-<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
+<dt class="col-lg-2 col-sm-3">2017–2018</dt>
+<dd class="col-lg-10 col-sm-9">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
 
-<dt class="col-md-2"></dt>
-<dd class="col-md-10">Mathématiques fondamentales (colles et tutorat), Université Lille 1, L1 SESI, 1er semestre.</dd>
+<dt class="col-lg-2 col-sm-3"></dt>
+<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales (colles et tutorat), Université Lille 1, L1 SESI, 1er semestre.</dd>
 
-<dt class="col-md-2">2016–2017</dt>
-<dd class="col-md-10">Calcul matriciel (TD), Université Lille 1, L2 Économie-Gestion-Management, 2ème semestre.</dd>
-<dt class="col-md-2"></dt>
-<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 Économie-Gestion-Management, 2ème semestre.</dd>
-<dt class="col-md-2"></dt>
-<dd class="col-md-10">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
+<dt class="col-lg-2 col-sm-3">2016–2017</dt>
+<dd class="col-lg-10 col-sm-9">Calcul matriciel (TD), Université Lille 1, L2 Économie-Gestion-Management, 2ème semestre.</dd>
+<dt class="col-lg-2 col-sm-3"></dt>
+<dd class="col-lg-10 col-sm-9">Analyse 1 (TD), Université Lille 1, L1 Économie-Gestion-Management, 2ème semestre.</dd>
+<dt class="col-lg-2 col-sm-3"></dt>
+<dd class="col-lg-10 col-sm-9">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
 
-<dt class="col-md-2">2015–2016</dt>
-<dd class="col-md-10">Mathématiques fondamentales 2 (TD), Université Lille 1, L1 SESI, 2ème semestre.</dd>
+<dt class="col-lg-2 col-sm-3">2015–2016</dt>
+<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2 (TD), Université Lille 1, L1 SESI, 2ème semestre.</dd>
 </div>
 
 ## Tâches administratives
 
 <div class="row">
-<dt class="col-md-2">2017-10-17</dt>
-<dd class="col-md-10">Co-organisateur de la journée introductive pour jeunes chercheurs, Colloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
+<dt class="col-lg-2 col-sm-3">2017-10 col-sm-9-17</dt>
+<dd class="col-lg-10 col-sm-9">Co-organisateur de la journée introductive pour jeunes chercheurs, col-smloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
 
-<dt class="col-md-2">2016–2017</dt>
-<dd class="col-md-10">Co-organisateur du séminaire des doctorants, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
+<dt class="col-lg-2 col-sm-3">2016–2017</dt>
+<dd class="col-lg-10 col-sm-9">Co-organisateur du séminaire des doctorants, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
 ## Exposés
