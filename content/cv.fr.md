@@ -4,7 +4,7 @@ lastmod: "2017-12-14"
 ---
 
 
-## Travail
+### Travail
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">02/2018–01/2020</dt>
@@ -14,7 +14,7 @@ lastmod: "2017-12-14"
 <dd class="col-lg-10 col-sm-9"><em>Doctorant contractuel</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-## Études
+### Études
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
@@ -37,21 +37,21 @@ En préparation d'une thèse en 2015, dirigé par Benoit Fresse.</dd>
 Invité par Haynes Miller</dd>
 </div>
 
-## Recherche <small>[(plus d'infos)](/research/)</small>
+### Recherche <small>[(plus d'infos)](/research/)</small>
 
-#### Publications
+##### Publications
 
 1. Najib Idrissi. "Swiss-Cheese Operad and Drinfeld center". In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844).
 
-#### Prépublications
+##### Prépublications
 
 1. Najib Idrissi. *The Lambrechts–Stanley Model of Configuration Spaces.* Version 3 (submitted). 2016. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
 
-#### Autres documents
+##### Autres documents
 
 1. Najib Idrissi. "Opérades et Structures Commutatives à Homotopie Près". In: *Graduate J. Math.* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
 
-## Enseignement
+### Enseignement
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
@@ -71,7 +71,7 @@ Invité par Haynes Miller</dd>
 <dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2 (TD), Université Lille 1, L1 SESI, 2ème semestre.</dd>
 </div>
 
-## Tâches administratives
+### Tâches administratives
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">2017-10 col-sm-9-17</dt>
@@ -81,8 +81,8 @@ Invité par Haynes Miller</dd>
 <dd class="col-lg-10 col-sm-9">Co-organisateur du séminaire des doctorants, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-## Exposés
+### Exposés
 
 [<i class="fa fa-arrow-right" aria-hidden="true"></i> Veuillez vous référer à la page principale.](/talk/)
 
-## [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Version complète au format PDF](/pdf/cv_idrissi_fr.pdf)
+### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Version complète au format PDF](/pdf/cv_idrissi_fr.pdf)

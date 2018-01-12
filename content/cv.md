@@ -3,7 +3,7 @@ title: "Curriculum Vitæ (English)"
 lastmod: "2017-12-14"
 ---
 
-## Work
+### Work
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">02/2018–01/2020</dt>
@@ -13,7 +13,7 @@ lastmod: "2017-12-14"
 <dd class="col-lg-10 col-sm-9"><em>Contractual PhD student</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-## Studies
+### Studies
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
@@ -36,7 +36,7 @@ In preparation for a PhD program in 2015, supervised by Benoit Fresse.</dd>
 Invited by Haynes Miller</dd>
 </div>
 
-## Research <small>[(more info)](/research/)</small>
+### Research <small>[(more info)](/research/)</small>
 
 #### Publications
 
@@ -50,7 +50,7 @@ Invited by Haynes Miller</dd>
 
 1. Najib Idrissi. "Opérades et Structures Commutatives à Homotopie Près". In: *Graduate J. Math.* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
 
-## Teaching
+### Teaching
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
@@ -70,7 +70,7 @@ Invited by Haynes Miller</dd>
 <dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2 (teaching assistant), Université Lille 1, L1 SESI, 2nd semester.</dd>
 </div>
 
-## Administrative duties
+### Administrative duties
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">2017-10-17</dt>
@@ -80,8 +80,8 @@ Invited by Haynes Miller</dd>
 <dd class="col-lg-10 col-sm-9">Co-organizer of the PhD students' seminar, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-## Talks
+### Talks
 
 [<i class="fa fa-arrow-right" aria-hidden="true"></i> Please see the main page.](/talk/)
 
-## [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Complete version in PDF format](/pdf/cv_idrissi_en.pdf)
+### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Complete version in PDF format](/pdf/cv_idrissi_en.pdf)
