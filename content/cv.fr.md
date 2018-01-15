@@ -74,7 +74,7 @@ Invité par Haynes Miller</dd>
 ### Tâches administratives
 
 <div class="row">
-<dt class="col-lg-2 col-sm-3">2017-10 col-sm-9-17</dt>
+<dt class="col-lg-2 col-sm-3">2017-10-17</dt>
 <dd class="col-lg-10 col-sm-9">Co-organisateur de la journée introductive pour jeunes chercheurs, col-smloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
