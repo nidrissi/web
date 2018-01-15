@@ -10,18 +10,19 @@
             <div itemprop="articleBody">{{ . }}</div>
             {{ end }}
 
-            {{ range .Data.Pages.GroupByDate "2006" }}
-            <div class="row" id="talk_list">
-                <div class="col-md-2">
-                    <h3>{{ .Key }}</h3>
-                </div>
+            {{ $paginator := .Paginate (where .Data.Pages "Type" "talk") }}
+            <div class="row">
+                {{ range $paginator.Pages.GroupByDate "2006" }}
+                <h3 class="col-md-2">{{ .Key }}</h3>
                 <div class="col-md-10">
                     {{ range .Pages.ByDate.Reverse }}
                     {{ partial "talk_li" . }}
                     {{ end }}
                 </div>
+                {{ end }}
             </div>
-            {{ end }}
+
+            {{ partial "pagination" . }}
         </div>
     </div>
 
