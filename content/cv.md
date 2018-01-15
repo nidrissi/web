@@ -3,6 +3,8 @@ title: "Curriculum Vitæ (English)"
 lastmod: "2017-12-14"
 ---
 
+<p class="lead"><a href="/pdf/cv_idrissi_en.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Complete version in PDF format</a></p>
+
 ### Work
 
 <div class="row">
@@ -83,5 +85,3 @@ Invited by Haynes Miller</dd>
 ### Talks
 
 [<i class="fa fa-arrow-right" aria-hidden="true"></i> Please see the main page.](/talk/)
-
-### [<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Complete version in PDF format](/pdf/cv_idrissi_en.pdf)
