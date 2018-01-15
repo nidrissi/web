@@ -12,4 +12,4 @@ name = "Journal"
 url = "http://www.gsmd.tn/article/operades-et-structures-commutatives-a-homotopie-pres/"
 +++
 
-Introductory work on operads based on my [Master's thesis](/publication/m2/).
+Introductory work on operads based on my [Master's thesis]({{< relref "m2.md" >}}).

@@ -8,7 +8,7 @@
         <div class="pub-title">
             <h1 itemprop="name">{{ .Title }}</h1>
             {{ partial "share.html" . }}
-            <span class="pub-authors" itemprop="author">
+            <span itemprop="author">
                 {{ with .Params.authors }}
                 {{ delimit . ", " }}
                 {{ end }}
@@ -17,7 +17,7 @@
 
         <dl class="row">
             <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
-            <dd class="col-12 col-sm-10" itemprop="datePublished">
+            <dd class="col-12 col-sm-10" itemprop="startDate">
                 {{ $date := .Params.time_start | default .Date }}
                 {{ (time $date).Format $.Site.Params.date_format }}
                 <div class="talk-time">
@@ -39,7 +39,7 @@
 
             {{ with .Params.location }}
             <dt class="col-12 col-sm-2">{{ i18n "location" }}</dt>
-            <dd class="col-12 col-sm-10">{{ . | markdownify }}</dd>
+            <dd class="col-12 col-sm-10" itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . | markdownify }}</span></dd>
             {{ end }}
 
             {{ if .Params.url_pdf | or .Params.url_slides | or .Params.url_video | or .Params.url_code | or .Params.projects | or .Params.url_custom }}
@@ -52,7 +52,7 @@
 
         {{ if .Params.abstract }}
         <h3>{{ i18n "abstract" }}</h3>
-        <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
+        <p itemprop="description">{{ .Params.abstract | markdownify }}</p>
         {{ else }}
         <br>
         {{ end }}

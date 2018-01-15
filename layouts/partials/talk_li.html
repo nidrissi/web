@@ -1,17 +1,17 @@
 <div class="card" itemscope itemtype="http://schema.org/Event">
   <div class="card-body">
-    <h5 class="card-title">
+    <h5 class="card-title" itemprop="name">
       <a href="{{ .Permalink }}">
        {{ .Params.event | markdownify }}
       </a>
     </h5>
-    <h6 class="card-subtitle" itemprop="startDate">
+    <h6 class="card-subtitle">
         {{ $date := .Params.time_start | default .Date }}
-        {{ (time $date).Format $.Site.Params.date_format }}
+        <span itemprop="startDate">{{ (time $date).Format $.Site.Params.date_format }}</span>
         {{ if $.Site.Params.talks.time }}
         {{ (time $date).Format ($.Site.Params.time_format | default "3:04 PM") }}
         {{ end }}
-        {{ with .Params.location }}&ndash; {{ . }}{{ end }}
+        {{ with .Params.location }}&ndash; <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
         &ndash;
         {{ i18n "title" }}: {{ .Title }} 
     </h6>
