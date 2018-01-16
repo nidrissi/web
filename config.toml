@@ -154,7 +154,7 @@ defaultContentLanguageInSubdir = false
   weight = 2
   title = "Page perso de Najib Idrissi"
   role = "Doctorant"
-  address = "Université Lille 1 — Laboratoire Paul Painlevé — Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex – France (Bureau : 110)"
+  address = "Université Lille 1 – Laboratoire Paul Painlevé – Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex – France (Bureau : 110)"
   publication_types = [
   'Sans catégorie',  # 0
   'Actes de conférence',  # 1
