@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2017-12-14"
+lastmod: "2018-01-17"
 ---
 
 <p class="lead"><a href="/pdf/cv_idrissi_fr.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Version complète au format PDF</a></p>
@@ -76,7 +76,7 @@ Invité par Haynes Miller</dd>
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">2017-10-17</dt>
-<dd class="col-lg-10 col-sm-9">Co-organisateur de la journée introductive pour jeunes chercheurs, col-smloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9">Co-organisateur de la journée introductive pour jeunes chercheurs, colloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
 <dd class="col-lg-10 col-sm-9">Co-organisateur du séminaire des doctorants, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
