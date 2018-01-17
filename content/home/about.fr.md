@@ -10,9 +10,9 @@ weight = 1
   ]
 [[education.courses]]
   course = "Doctorat en Mathématiques"
-  institution = "Université Lille 1"
+  institution = "Université de Lille"
   year = 2017
-  url = "http://www.univ-lille1.fr"
+  url = "http://www.univ-lille.fr"
 [[education.courses]]
   course = "Ancien élève de l'ENS Paris"
   institution = "École Normale Supérieure"
