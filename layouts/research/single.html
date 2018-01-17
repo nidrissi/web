@@ -1,47 +1,43 @@
 {{ partial "header.html" . }}
-<div itemscope itemtype="http://schema.org/CreativeWork">
+<article itemscope itemtype="http://schema.org/CreativeWork">
     {{ partial "header_image.html" . }}
-    <div class="container">
-        <h1 itemprop="name">{{ .Title }}</h1>
-        {{ partial "share.html" . }}
+    <h1 itemprop="name">{{ .Title }}</h1>
+    {{ partial "share.html" . }}
 
-        {{ if .Params.image }}
-        <img src="{{ "/img/" | relURL }}{{ .Params.image }}" itemprop="image">
-        {{end}}
+    {{ if .Params.image }}
+    <img src="{{ "/img/" | relURL }}{{ .Params.image }}" itemprop="image">
+    {{end}}
 
-        <dl class="row">
-            <dt class="col-12 col-sm-2">
-                {{ i18n "authors" }}
-            </dt>
-            <dd class="col-12 col-sm-10" itemprop="author">
-                {{ with .Params.authors }}
-                {{ delimit . ", " | markdownify }}
-                {{ end }}
-            </dd>
+    <dl class="row">
+        <dt class="col-12 col-sm-2">
+            {{ i18n "authors" }}
+        </dt>
+        <dd class="col-12 col-sm-10" itemprop="author">
+            {{ with .Params.authors }}
+            {{ delimit . ", " | markdownify }}
+            {{ end }}
+        </dd>
 
-            <dt class="col-12 col-sm-2">{{ i18n "publication" }}</dt>
-            <dd class="col-12 col-sm-10">{{ .Params.publication | markdownify }}</dd>
+        <dt class="col-12 col-sm-2">{{ i18n "publication" }}</dt>
+        <dd class="col-12 col-sm-10">{{ .Params.publication | markdownify }}</dd>
 
-            <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
-            <dd class="col-12 col-sm-10" itemprop="datePublished">{{ .Date.Format ($.Site.Params.publications.date_format | default "January, 2006") }}</dd>
+        <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
+        <dd class="col-12 col-sm-10" itemprop="datePublished">{{ .Date.Format ($.Site.Params.publications.date_format | default "January, 2006") }}</dd>
 
-            <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
-            <dd class="col-12 col-sm-10">
-                {{ partial "publication_links" (dict "content" . "is_card" 0) }}
-            </dd>
-        </dl>
+        <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
+        <dd class="col-12 col-sm-10">
+            {{ partial "publication_links" (dict "content" . "is_card" 0) }}
+        </dd>
+    </dl>
 
-        {{ if .Params.abstract }}
-        <h3>{{ i18n "abstract" }}</h3>
-        <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
-        {{ end }}
+    {{ if .Params.abstract }}
+    <h3>{{ i18n "abstract" }}</h3>
+    <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
+    {{ end }}
 
-        <div>{{ .Content }}</div>
-    </div>
-</div>
+    <div>{{ .Content }}</div>
+</article>
 
-<div class="container">
-    {{ partial "section_pager.html" . }}
-</div>
+{{ partial "section_pager.html" . }}
 
 {{ partialCached "footer.html" . }}

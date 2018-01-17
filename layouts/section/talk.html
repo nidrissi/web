@@ -1,30 +1,27 @@
 {{ partial "header.html" . }}
 {{ partial "header_image.html" . }}
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>{{ .Title | default (i18n "talks") }}</h1>
+<div class="row">
+    <div class="col-md-12">
+        <h1>{{ .Title | default (i18n "talks") }}</h1>
 
-            {{ with .Content }}
-            <div itemprop="articleBody">{{ . }}</div>
-            {{ end }}
+        {{ with .Content }}
+        <div itemprop="articleBody">{{ . }}</div>
+        {{ end }}
 
-            {{ $paginator := .Paginate (where .Data.Pages "Type" "talk") }}
-            <div class="row">
-                {{ range $paginator.Pages.GroupByDate "2006" }}
-                <h3 class="col-md-2">{{ .Key }}</h3>
-                <div class="col-md-10">
-                    {{ range .Pages.ByDate.Reverse }}
-                    {{ partial "talk_li" . }}
-                    {{ end }}
-                </div>
+        {{ $paginator := .Paginate (where .Data.Pages "Type" "talk") }}
+        <div class="row">
+            {{ range $paginator.Pages.GroupByDate "2006" }}
+            <h3 class="col-md-2">{{ .Key }}</h3>
+            <div class="col-md-10">
+                {{ range .Pages.ByDate.Reverse }}
+                {{ partial "talk_li" . }}
                 {{ end }}
             </div>
-
-            {{ partial "pagination" . }}
+            {{ end }}
         </div>
-    </div>
 
+        {{ partial "pagination" . }}
+    </div>
 </div>
 {{ partialCached "footer.html" . }}

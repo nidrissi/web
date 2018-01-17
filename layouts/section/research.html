@@ -1,27 +1,25 @@
 {{ partial "header.html" . }}
 {{ partial "header_image.html" . }}
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <h1>{{ .Title | default (i18n "publications") }}</h1>
+<div class="row">
+    <div class="col-md-12">
+        <h1>{{ .Title | default (i18n "publications") }}</h1>
 
-            {{ with .Content }}
-            <div itemprop="articleBody">{{ . }}</div>
-            {{ end }}
-            {{ range .Data.Pages.GroupByDate "2006" }}
-            <div class="row" id="talk_list">
-                <div class="col-md-2">
-                    <h3>{{ .Key }}</h3>
-                </div>
-                <div class="col-md-10">
-                    {{ range .Pages.ByDate.Reverse }}
-                    {{ partial "publication_li" . }}
-                    {{ end }}
-                </div>
+        {{ with .Content }}
+        <div itemprop="articleBody">{{ . }}</div>
+        {{ end }}
+        {{ range .Data.Pages.GroupByDate "2006" }}
+        <div class="row" id="talk_list">
+            <div class="col-md-2">
+                <h3>{{ .Key }}</h3>
             </div>
-            {{ end }}
+            <div class="col-md-10">
+                {{ range .Pages.ByDate.Reverse }}
+                {{ partial "publication_li" . }}
+                {{ end }}
+            </div>
         </div>
+        {{ end }}
     </div>
 </div>
 {{ partialCached "footer.html" . }}

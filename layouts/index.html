@@ -1,6 +1,4 @@
 {{ partial "header.html" . }}
-<!-- Flag for jQuery -->
-<span id="homepage" style="display: none"></span>
 
 {{ if .IsHome }}
 {{ .Scratch.Set "section" "home" }}
@@ -9,14 +7,12 @@
 {{ end }}
 {{ $section := .Scratch.Get "section" }}
 
-<div class="container">
-    {{ range $index, $page := where (where .Data.Pages "Section" $section) ".Params.active" "!=" false }}
-    {{ $params := dict "root" $ "page" $page }}
-    {{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
-    {{ if $index }}<hr class="my-4">{{ end }}
-    <section id="{{ $page.File.TranslationBaseName }}">
-        {{ partial $widget $params }}
-    </section>
-    {{ end }}
-</div>
+{{ range $index, $page := where (where .Data.Pages "Section" $section) ".Params.active" "!=" false }}
+{{ $params := dict "root" $ "page" $page }}
+{{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
+{{ if $index }}<hr class="my-4">{{ end }}
+<section id="{{ $page.File.TranslationBaseName }}">
+    {{ partial $widget $params }}
+</section>
+ {{ end }}
 {{ partialCached "footer.html" . }}

@@ -1,18 +1,16 @@
 {{ partial "header.html" . }}
 {{ partial "header_image.html" . }}
 
-<div class="container">
-    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
-    {{ with .Content }}
-    <div>{{ . }}</div>
+{{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+{{ with .Content }}
+<div>{{ . }}</div>
+{{ end }}
+<ul>
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $paginator.Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
     {{ end }}
-    <ul>
-        {{ $paginator := .Paginate .Data.Pages }}
-        {{ range $paginator.Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-        {{ end }}
-    </ul>
-    {{ partial "pagination" . }}
-</div>
+</ul>
+{{ partial "pagination" . }}
 
 {{ partialCached "footer.html" . }}

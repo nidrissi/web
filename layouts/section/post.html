@@ -1,19 +1,18 @@
 {{ partial "header.html" . }}
 {{ partial "header_image.html" . }}
 
-<div class="container">
 
-  <h1>{{ .Title | default (i18n "posts") }}</h1>
+<h1>{{ .Title | default (i18n "posts") }}</h1>
 
-  {{ with .Content }}
-  <div itemprop="articleBody">{{ . }}</div>
-  {{ end }}
+{{ with .Content }}
+<div itemprop="articleBody">{{ . }}</div>
+{{ end }}
 
-  {{ $paginator := .Paginate .Data.Pages }}
-  {{ range $paginator.Pages }}
-  {{ partial "post_li" . }}
-  {{ end }}
+{{ $paginator := .Paginate .Data.Pages }}
+{{ range $paginator.Pages }}
+{{ partial "post_li" . }}
+{{ end }}
 
-  {{ partial "pagination" . }}
-</div>
+{{ partial "pagination" . }}
+
 {{ partialCached "footer.html" . }}
