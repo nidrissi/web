@@ -14,7 +14,7 @@ weight = 1
   year = 2017
   url = "http://www.univ-lille1.fr"
 [[education.courses]]
-  course = "Élève de l'ENS Paris"
+  course = "Ancien élève de l'ENS Paris"
   institution = "École Normale Supérieure"
   year = 2015
   url = "https://www.ens.fr"
