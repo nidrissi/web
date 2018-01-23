@@ -55,7 +55,7 @@
 # About widget
 
 - id: interests
-  translation: Intérêts
+  translation: "Centres d'intérêts"
 
 - id: education
   translation: Formation
