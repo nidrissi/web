@@ -26,13 +26,10 @@ url_pdf = "/pdf/papers/thesis.pdf"
 url_project = ""
 url_slides = ""
 url_video = ""
-
-[header]
-  caption = ""
-  image = ""
-
 [[url_custom]]
 name = "Université"
 url = "http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595"
-
+[[url_custom]]
+name = "Soutenance"
+url = "/fr/talk/defense/"
 +++
