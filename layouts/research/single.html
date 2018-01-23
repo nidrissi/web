@@ -31,7 +31,8 @@
 
     {{ if .Params.abstract }}
     <h3>{{ i18n "abstract" }}</h3>
-    <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
+    <p itemprop="text">{{ .Params.abstract | markdownify }}</p>
+    <hr>
     {{ end }}
 
     <div>{{ .Content }}</div>

@@ -41,11 +41,10 @@
         {{ end }}
     </dl>
 
-    {{ if .Params.abstract }}
+    {{ with .Params.abstract }}
     <h3>{{ i18n "abstract" }}</h3>
-    <p itemprop="description">{{ .Params.abstract | markdownify }}</p>
-    {{ else }}
-    <br>
+    <p itemprop="description">{{ . | markdownify }}</p>
+    <hr>
     {{ end }}
 
     <div>{{ .Content }}</div>
