@@ -1,8 +1,5 @@
 {{ partial "header.html" . }}
 <article itemscope itemtype="http://schema.org/Event">
-
-    {{ partial "header_image.html" . }}
-
     <div class="pub-title">
         <h1 itemprop="name">{{ .Title }}</h1>
         {{ partial "share.html" . }}
@@ -16,14 +13,10 @@
     <dl class="row">
         <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
         <dd class="col-12 col-sm-10" itemprop="startDate">
-            {{ $date := .Params.time_start | default .Date }}
-            {{ (time $date).Format $.Site.Params.date_format }}
+            {{ (time .Date).Format $.Site.Params.date_format }}
             <div class="talk-time">
                 {{ if $.Site.Params.talks.time }}
-                {{ (time $date).Format ($.Site.Params.time_format | default "3:04 PM") }}
-                {{ with .Params.time_end }}
-                &mdash; {{ (time .).Format ($.Site.Params.time_format | default "3:04 PM") }}
-                {{ end }}
+                {{ (time .Date).Format ($.Site.Params.time_format | default "3:04 PM") }}
                 {{ end }}
             </div>
         </dd>

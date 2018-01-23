@@ -6,10 +6,9 @@
       </a>
     </h5>
     <h6 class="card-subtitle">
-        {{ $date := .Params.time_start | default .Date }}
-        <span itemprop="startDate">{{ (time $date).Format $.Site.Params.date_format }}</span>
+        <span itemprop="startDate">{{ (time .Date).Format $.Site.Params.date_format }}</span>
         {{ if $.Site.Params.talks.time }}
-        {{ (time $date).Format ($.Site.Params.time_format | default "3:04 PM") }}
+        {{ (time .Date).Format ($.Site.Params.time_format | default "3:04 PM") }}
         {{ end }}
         {{ with .Params.location }}&ndash; <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
         &ndash;
