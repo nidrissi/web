@@ -18,8 +18,8 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Najib Idrissi"
   role = "PhD Student"
-  organization = "Université Lille 1"
-  organization_url = "http://www.univ-lille1.fr"
+  organization = "Université de Lille"
+  organization_url = "http://www.univ-lille.fr"
   avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "najib.idrissi-kaitouni@math.univ-lille1.fr"
   address = "Université Lille 1 – Laboratoire Paul Painlevé – Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex – France (Office: 110)"
