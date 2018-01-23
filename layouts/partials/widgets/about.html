@@ -33,7 +33,7 @@
       {{ with $page.Params.interests }}
       <div class="col-sm-5">
         <h4>{{ i18n "interests" | markdownify }}</h4>
-        <ul>
+        <ul class="list-unstyled">
           {{ range .interests }}
           <li>{{ . | markdownify }}</li>
           {{ end }}
