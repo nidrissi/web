@@ -12,7 +12,7 @@ weight = 1
   course = "PhD in Mathematics"
   institution = "Université de Lille"
   year = 2017
-  url = "http://www.univ-lille.fr"
+  url = "https://www.univ-lille.fr"
 [[education.courses]]
   course = "Graduated from ENS Paris"
   institution = "École Normale Supérieure"
