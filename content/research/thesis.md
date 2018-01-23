@@ -27,3 +27,5 @@ url = "http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595"
 name = "Defense"
 url = "/talk/defense/"
 +++
+
+Thesis realized under the supervision of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at [Université de Lille](https://www.univ-lille.fr) and funded by an *Allocation Spécifique* from the [École Normale Supérieure](https://www.ens.fr).
