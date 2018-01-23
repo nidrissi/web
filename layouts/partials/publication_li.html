@@ -1,17 +1,17 @@
 <div class="card" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="card-body">
         <h5 class="card-title"><a itemprop="name" href="{{ .Permalink }}">{{ .Title }}</a></h5>
-        <h6 class="card-subtitle" itemprop="author">
+        <h6 class="card-subtitle">
             {{ with .Params.authors }}
-            {{ delimit . ", " | markdownify }}
+            <span itemprop="author">{{ delimit . ", " | markdownify }}</span>
             {{ end }}
             &ndash;
             {{ if .Params.publication_short }}
             {{- .Params.publication_short | markdownify -}}
             {{ else }}
             {{- .Params.publication | markdownify -}}
-            {{ end }},&nbsp;
-            {{- .Date.Format "2006" -}}.
+            {{ end }},
+            <time datetime="{{ .Date.Format "2006" }}" itemprop="datePublished">{{- .Date.Format "2006" -}}.
         </h6>
         {{ partial "publication_links" (dict "content" . "is_card" 1) }}
     </div>
