@@ -56,6 +56,6 @@
         <title>{{ if not .IsHome }}{{ .Title }}{{ with .Params.event }} @ {{ . }}{{ end }} | {{ end }}{{ .Site.Title }}</title>
 
     </head>
-    <body id="top" data-spy="scroll" data-target="{{ if or .IsHome .Params.widgets }}#navbar-main{{ else }}#toc{{ end }}">
+    <body>
         {{ partial "navbar.html" . }}
         <div id="main-container" class="container py-3">

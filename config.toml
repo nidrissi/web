@@ -117,24 +117,12 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Home"
-  url = "#about"
+  url = "/"
   weight = 1
 [[menu.main]]
-  name = "Contact"
-  url = "#contact"
+  name = "CV"
+  url = "/cv/"
   weight = 2
-[[menu.main]]
-  name = "Research"
-  url = "#research"
-  weight = 3
-[[menu.main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 4
-[[menu.main]]
-  name = "Blog"
-  url = "#posts"
-  weight = 5
 
 # Taxonomies.
 [taxonomies]
@@ -168,24 +156,12 @@ defaultContentLanguageInSubdir = false
 
   [[Languages.fr.menu.main]]
     name = "Accueil"
-    url = "#about"
+    url = "/fr/"
     weight = 1
   [[Languages.fr.menu.main]]
-    name = "Contact"
-    url = "#contact"
+    name = "CV"
+    url = "/fr/cv/"
     weight = 2
-  [[Languages.fr.menu.main]]
-    name = "Recherche"
-    url = "#research"
-    weight = 3
-  [[Languages.fr.menu.main]]
-    name = "Exposés"
-    url = "#talks"
-    weight = 4
-  [[Languages.fr.menu.main]]
-    name = "Blog"
-    url = "#posts"
-    weight = 5
 
 [permalinks]
   post = "/:year/:month/:day/:filename/"

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-dark bg-primary navbar-expand-md sticky-top" id="navbar-main">
+<nav class="navbar navbar-dark bg-primary navbar-expand-md sticky-top">
     <a class="navbar-brand" href="{{ "/" | relLangURL }}">
         {{- if .Site.Params.logo -}}
         <img src="{{ printf "/img/%s" .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}">
@@ -35,14 +35,8 @@
                 </div>
             </li>
             {{ else }}
-            {{ if eq "http" (slicestr .URL 0 4) }}
-            {{ $.Scratch.Set "target" " target=\"_blank\" rel=\"noopener\"" }}
-            {{ else }}
-            {{ $.Scratch.Set "target" "" }}
-            {{ end }}
             <li class="nav-item">
-                <a class="nav-link" href="{{ .URL | relLangURL }}"
-                   {{ if $.IsHome }}data-target="{{ .URL }}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
+                <a class="nav-link" href="{{ .URL | relLangURL }}">
                     {{ .Pre }}
                     <span>{{ .Name }}</span>
                     {{ .Post }}
