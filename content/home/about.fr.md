@@ -27,7 +27,7 @@ weight = 1
 
 # Bonjour !
 
-Je suis Najib <abbr title="Mon nom complet est « Idrissi Kaïtouni », comme par exemple dans mon adresse email. Je préfère utiliser « Idrissi » dans les milieux académiques pour plus de simplicité et pour éviter certains problèmes – par exemple, des systèmes informatiques qui croient que « Idrissi » est mon deuxième prénom et qu'il faut m'appeler « NI Kaïtouni »...).">Idrissi</abbr>, et je fais des maths.
-J'ai soutenu [ma thèse]({{< ref "research/thesis.fr.md" >}}) (sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse)) le 17 novembre, et je vais commencer un postdoc à [{{< logo "ethz.png" "ETH" >}} l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/) en février.
+Je suis Najib <abbr title="Mon nom complet est « Idrissi Kaïtouni ». Je préfère utiliser « Idrissi » dans les milieux académiques pour plus de simplicité et pour éviter certains problèmes – par exemple, des systèmes informatiques qui croient que « Idrissi » est mon deuxième prénom et qu'il faut m'appeler « NI Kaïtouni »...).">Idrissi</abbr>, et je fais des maths.
+J'ai soutenu [ma thèse]({{< ref "research/thesis.fr.md" >}}) (sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse)) le 17 novembre, et je suis maintenant postdoc à [{{< logo "ethz.png" "ETH" >}} l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 
 Vous pouvez trouver [mon CV ici]({{< ref "cv.fr.md" >}}).

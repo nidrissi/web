@@ -17,12 +17,12 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Najib Idrissi"
-  role = "PhD Student"
-  organization = "Université de Lille"
-  organization_url = "http://www.univ-lille.fr"
+  role = "Postdoc"
+  organization = "ETH Zürich"
+  organization_url = "https://www.ethz.ch"
   avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "najib.idrissi-kaitouni@math.univ-lille1.fr"
-  address = "Université Lille 1 – Laboratoire Paul Painlevé – Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex – France (Office: 110)"
+  email = "najib.idrissi@math.ethz.ch"
+  address = "ETH Zürich – Rämistrasse 101 – 8092 Zürich – Switzerland"
   office_hours = ""
   phone = ""
   skype = ""
@@ -141,8 +141,8 @@ defaultContentLanguageInSubdir = false
   languageCode = "fr-FR"
   weight = 2
   title = "Page perso de Najib Idrissi"
-  role = "Doctorant"
-  address = "Université Lille 1 – Laboratoire Paul Painlevé – Cité Scientifique, Bâtiment M2 – 59655 Villeneuve d'Ascq Cedex – France (Bureau : 110)"
+  role = "Postdoc"
+  address = "ETH Zürich – Rämistrasse 101 – 8092 Zürich – Suisse"
   publication_types = [
   'Sans catégorie',  # 0
   'Actes de conférence',  # 1
