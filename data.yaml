@@ -1,12 +1,12 @@
 ---
-title: Curriculum Vitæ (fr) ! Curriculum Vitæ (en)
+title: Curriculum Vitæ | fr ! Curriculum Vitæ | en
 firstname: Najib
 familyname: Idrissi
 address:
-  - Université Lille\ 1 -- Laboratoire Paul Painlevé
-  - Cité Scientifique -- Bâtiment M2
-  - "59655 Villeneuve d'Ascq Cedex, France"
-email: najib.idrissi-kaitouni@math.univ-lille1.fr
+  - ETH Zürich
+  - Rämistrasse 101
+  - 8092 Zürich, Suisse ! 8092 Zürich, Switzerland
+email: najib.idrissi@math.ethz.ch
 extrainfo: ''
 homepage: https://idrissi.eu/fr ! https://idrissi.eu
 section:
@@ -315,6 +315,13 @@ section:
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
+      - content:
+          - 2018-01-18
+          - Rational Homotopy and Its Applications
+          - Université de Lille
+          - Lille
+          - France
+          - ~
       - content:
           - 2017-10-17
           - Colloque 2017 du GDR Topologie Algébrique
