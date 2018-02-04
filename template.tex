@@ -50,8 +50,11 @@ $for(section)$
 \section{$section.title$}
 
 $for(section.entry)$
-\cv$if(section.entry.sub)$sub$endif$entry
-$for(section.entry.content)$ {$section.entry.content$} $endfor$
+  $if(section.entry.content)$
+    \cv$if(section.entry.sub)$sub$endif$entry
+    $for(section.entry.content)$ {$section.entry.content$} $endfor$
+  $endif$
+  $if(section.entry.subsection)$\subsection{$section.entry.subsection$}$endif$
 $endfor$
 
 $for(section.bib)$
