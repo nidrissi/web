@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2018-01-17"
+lastmod: "2018-02-05"
 ---
 
 <p class="lead"><a href="/pdf/cv_idrissi_fr.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Version complète au format PDF</a></p>
@@ -46,7 +46,8 @@ Invité par Haynes Miller</dd>
 
 ##### Prépublications
 
-1. Najib Idrissi. *The Lambrechts–Stanley Model of Configuration Spaces.* Version 3 (submitted). 2016. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+1. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *Configuration Spaces of Manifolds with Boundary.* 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
+2. Najib Idrissi. *The Lambrechts–Stanley Model of Configuration Spaces.* Version 3 (submitted). 2016. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
 
 ##### Autres documents
 
