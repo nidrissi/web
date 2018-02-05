@@ -4,7 +4,7 @@ lastmod = "2016-12-15"
 +++
 
 [<i class="fa fa-download"></i> Download](/najib-idrissi.asc)
-<small>[(explanations)](https://en.wikipedia.org/wiki/GNU_Privacy_Guard)</small>
+<small>[(explanations)](http://download.fsfe.org/advocacy/promomaterial/Email-self-defense/gnupg-leaflet.en.pdf)</small>
 
 ````
 -----BEGIN PGP PUBLIC KEY BLOCK-----
