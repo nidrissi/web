@@ -19,7 +19,7 @@ So for the next two years (and perhaps even a third) the pressure of job applica
 
 Between all these administrative troubles I am still doing math, of course.
 With Ricardo Campos, Pascal Lambrechts, and Thomas Willwacher, we have [uploaded a preprint]({{< relref "research/config-boundary.md" >}}) of our work on configuration spaces of manifolds with boundary, a follow-up to [my previous paper]({{< relref "research/conf-spaces.md" >}}) and [the paper of Ricardo and Thomas](https://arxiv.org/abs/1604.02043).
-A part of the paper is based on the third chapter of my thesis (which I had done in collaboration with Pascal), the rest is new.
+Our paper paper contains the third chapter of my thesis (which I had done in collaboration with Pascal), as well as several new results and ideas.
 
 With 107 pages, our paper contains many new results.
 Most prominently, we prove that the real homotopy types of configuration spaces of manifolds with boundary only depends on the real homotopy type of the pair (manifold, boundary), provided the manifold and its boundary are simply connected and the dimension of the manifold is at least 4.
