@@ -17,7 +17,6 @@ date = "2017-11-17"
 image_preview = ""
 publication = "Thèse de doctorat, Université Lille 1"
 publication_short = ""
-publication_types = ["7"]
 selected = false
 title = "Formalité opéradique et homotopie des espaces de configuration"
 url_code = "https://github.com/nidrissi/thesis"

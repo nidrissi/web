@@ -3,7 +3,6 @@ title = "{{ replace .TranslationBaseName "-" " " | title }}"
 date = {{ .Date }}
 draft = false
 authors = [""]
-publication_types = ["0"]
 publication = ""
 publication_short = ""
 abstract = ""

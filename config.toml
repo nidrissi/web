@@ -44,23 +44,6 @@ defaultContentLanguageInSubdir = false
   custom_css = ['style.css']
   custom_js  = ['piwik.js']
 
-  # Publication types.
-  #   Used to categorize publications.
-  #   The index of the publication type in the list is used as its unique numerical identifier.
-  #   The numeric ID is used in a publication's frontmatter to categorize it.
-  #   The language can be edited below.
-  #   For multi-lingual sites, copy this block to each language section at the end of this file.
-  publication_types = [
-    'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal paper',  # 2
-    'Work in progress',  # 3
-    'Technical report',  # 4
-    'Book',  # 5
-    'Book chapter',  # 6
-    'Thesis'  # 7
-  ]
-
   # Social/Academic Networking
   #
   # Icon pack "fa" includes the following social network icons:
@@ -128,7 +111,6 @@ defaultContentLanguageInSubdir = false
 [taxonomies]
   tag = "tags"
   category = "categories"
-  publication_type = "publication_types"
 
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
@@ -143,16 +125,6 @@ defaultContentLanguageInSubdir = false
   title = "Page perso de Najib Idrissi"
   role = "Postdoc"
   address = "ETH Zürich (D-MATH, Pool Group 5) – Rämistrasse 101 – 8092 Zürich – Suisse (Bureau : HG F27.4)"
-  publication_types = [
-  'Sans catégorie',  # 0
-  'Actes de conférence',  # 1
-  'Article de journal',  # 2
-  'Travail en cours',  # 3
-  'Rapport technique',  # 4
-  'Livre',  # 5
-  'Chapitre de livre',  # 6
-  'Thèse/mémoire'  # 7
-]
 
   [[Languages.fr.menu.main]]
     name = "Accueil"
