@@ -20,7 +20,7 @@
                 <br>
                 {{ range $.Site.Params.social }}
                 {{ $pack := or .icon_pack "fa" }}
-                <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener"><i class="{{ $pack }} {{ $pack }}-{{ .icon }} {{ $pack }}-lg"></i></a>
+                <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener"><i class="{{ $pack }} {{ .icon }} fa-lg ai-lg"></i></a>
                 {{ end }}
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <ul class="fa-ul">
                     {{ range .courses }}
                     <li>
-                        <i class="fa-li fa fa-graduation-cap"></i>
+                        <i class="fa-li fas fa-graduation-cap"></i>
                         {{ .course }}{{ with .year }}, {{ . }}{{ end }}
                         <br>
                         {{ with .url }}<a href="{{ . }}">{{ end }}{{ .institution }}{{ if .url }}</a>{{ end }}

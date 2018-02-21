@@ -3,7 +3,7 @@ title: "Curriculum Vitæ (français)"
 lastmod: "2018-02-05"
 ---
 
-<p class="lead"><a href="/pdf/cv_idrissi_fr.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Version complète au format PDF</a></p>
+<p class="lead"><a href="/pdf/cv_idrissi_fr.pdf"><i class="far fa-file-pdf" aria-hidden="true"></i> Version complète au format PDF</a></p>
 
 ### Travail
 
@@ -85,5 +85,5 @@ Invité par Haynes Miller</dd>
 
 ### Exposés
 
-[<i class="fa fa-arrow-right" aria-hidden="true"></i> Veuillez vous référer à la page principale.](/talk/)
+[<i class="fas fa-arrow-right" aria-hidden="true"></i> Veuillez vous référer à la page principale.](/talk/)
 

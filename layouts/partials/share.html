@@ -2,23 +2,23 @@
 <div aria-label="Share" class="btn-group btn-group-sm pull-right" role="group">
     <a href="https://twitter.com/intent/tweet?text={{ .Title | html }}&amp;url={{ .Permalink | html }}"
        target="_blank" rel="noopener" class="btn btn-info" role="button">
-        <i class="fa fa-twitter"></i>
+        <i class="fab fa-twitter"></i>
     </a>
     <a href="https://www.facebook.com/sharer.php?u={{ .Permalink | html }}"
        target="_blank" rel="noopener" class="btn btn-info" role="button">
-        <i class="fa fa-facebook"></i>
+        <i class="fab fa-facebook"></i>
     </a>
     <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url={{ .Permalink | html }}&amp;title={{ .Title | html }}"
        target="_blank" rel="noopener" class="btn btn-info" role="button">
-        <i class="fa fa-linkedin"></i>
+        <i class="fab fa-linkedin"></i>
     </a>
     <a href="http://service.weibo.com/share/share.php?url={{ .Permalink | html }}&amp;title={{ .Title | html }}"
        target="_blank" rel="noopener" class="btn btn-info" role="button">
-        <i class="fa fa-weibo"></i>
+        <i class="fab fa-weibo"></i>
     </a>
     <a href="mailto:?subject={{ .Title | html }}&amp;body={{ .Permalink | html }}"
        class="btn btn-info" role="button">
-        <i class="fa fa-envelope"></i>
+        <i class="far fa-envelope"></i>
     </a>
 </div>
 {{ end }}

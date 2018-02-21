@@ -3,7 +3,7 @@ title = "GPG Public Key"
 lastmod = "2016-12-15"
 +++
 
-[<i class="fa fa-download"></i> Download](/najib-idrissi.asc)
+[<i class="fas fa-download"></i> Download](/najib-idrissi.asc)
 <small>[(explanations)](http://download.fsfe.org/advocacy/promomaterial/Email-self-defense/gnupg-leaflet.en.pdf)</small>
 
 ````
