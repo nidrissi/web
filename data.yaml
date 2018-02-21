@@ -14,7 +14,7 @@ section:
     entry:
       - content:
           - '02/2018--01/2020'
-          - Chercheur postdoctoral ! Postdoctoral researcher
+          - Chercheur postdoctorant ! Postdoctoral researcher
           - ETH Zürich
           - Zürich, Suisse ! Zürich, Switzerland
           - ~
@@ -100,7 +100,7 @@ section:
           - 1er semestre ! 1st semester
           - ~
       - content:
-          - ~
+          - .
           - Mathématiques fondamentales (colles et tutorat) ! Mathématiques fondamentales (oral exams & tutoring)
           - Université Lille\ 1
           - L1 SESI
@@ -114,14 +114,14 @@ section:
           - 2ème semestre ! 2nd semester
           - ~
       - content:
-          - ~
+          - .
           - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
           - Université Lille 1
           - L1 Économie, Gestion, Management
           - 2ème semestre ! 2nd semester
           - ~
       - content:
-          - ~
+          - .
           - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
           - Université Lille\ 1
           - L1 MASS
@@ -153,6 +153,20 @@ section:
   - title: Exposés ! Talks
     entry:
       - subsection: Invités ! Invited
+      # - content:
+      #     - 2019-01-21
+      #     - Structures Supérieures ! Higher Structures
+      #     - Centre international de rencontres mathématique
+      #     - Marseille
+      #     - France
+      #     - ???
+      # - content:
+      #     - 2018-05-22
+      #     - Graph Complexes, Configuration Spaces and Manifold Calculus
+      #     - University of British Columbia
+      #     - Vancouver
+      #     - Canada
+      #     - ???
       - content:
           - 2017-10-13
           - Séminaire Itinérant de Catégories
@@ -318,6 +332,20 @@ section:
           - The Lambrechts--Stanley Model of Configuration Spaces
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
+      # - content:
+      #     - 2019-01-21
+      #     - Structures Supérieures ! Higher Structures
+      #     - Centre international de rencontres mathématiques  
+      #     - Marseille
+      #     - France
+      #     - ~
+      # - content:
+      #     - 2018-05-22
+      #     - Graph Complexes, Configuration Spaces and Manifold Calculus
+      #     - University of British Columbia
+      #     - Vancouver
+      #     - Canada
+      #     - ~
       - content:
           - 2018-01-18
           - Rational Homotopy and Its Applications
