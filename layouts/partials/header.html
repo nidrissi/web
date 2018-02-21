@@ -12,9 +12,10 @@
         {{ end }}
         <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
-        <link rel="stylesheet" href="/css/bootstrap.min.css">
 
-        <script defer src="/js/fontawesome-all.min.js"></script>
+        {{ range .Site.Params.css }}
+        <link rel="stylesheet" href="/css/{{ . }}">
+        {{ end }}
 
         <script type="text/x-mathjax-config">
          MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
