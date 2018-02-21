@@ -15,7 +15,7 @@
 
       {{ with $.Site.Params.email }}
       <li>
-        <i class="fa-li fas fa-envelope" aria-hidden="true"></i>
+        <i class="fa-li fas fa-envelope"></i>
         <span itemprop="email">
             {{- if $autolink }}<a href="mailto:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
@@ -24,7 +24,7 @@
 
       {{ with $.Site.Params.discussion }}
       <li>
-        <i class="fa-li fas fa-comments-o" aria-hidden="true"></i>
+        <i class="fa-li fas fa-comments-o"></i>
         <span>
           <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
         </span>
@@ -33,7 +33,7 @@
 
       {{ with $.Site.Params.keybase }}
       <li>
-        <i class="fa-li fas fa-lock" aria-hidden="true"></i>
+        <i class="fa-li fas fa-lock"></i>
         <span>
           <a href="https://keybase.io/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a> on Keybase.
         </span>
@@ -42,7 +42,7 @@
 
       {{ with $.Site.Params.phone }}
       <li>
-        <i class="fa-li fas fa-phone" aria-hidden="true"></i>
+        <i class="fa-li fas fa-phone"></i>
         <span itemprop="telephone">
         {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
@@ -51,7 +51,7 @@
 
       {{ with $.Site.Params.skype }}
       <li>
-        <i class="fa-li fab fa-skype" aria-hidden="true"></i>
+        <i class="fa-li fab fa-skype"></i>
         <span>
         {{- if $autolink }}<a href="skype:{{ . }}?call">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
@@ -60,7 +60,7 @@
 
       {{ with $.Site.Params.telegram }}
       <li>
-        <i class="fa-li fab fa-telegram" aria-hidden="true"></i>
+        <i class="fa-li fab fa-telegram"></i>
         <span>
         {{- if $autolink }}<a href="https://telegram.me/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a>{{ else }}@{{ . }}{{ end -}}
         </span>
@@ -69,28 +69,28 @@
 
       {{ with $.Site.Params.address }}
       <li>
-        <i class="fa-li fas fa-map" aria-hidden="true"></i>
+        <i class="fa-li fas fa-map"></i>
         <span id="person-address" itemprop="address">{{ replace . "\n" "<br>" | safeHTML }}</span>
       </li>
       {{ end }}
 
       {{ with $.Site.Params.office}}
       <li>
-          <i class="fa-li fas fa-building" aria-hidden="true"></i>
+          <i class="fa-li fas fa-building"></i>
           <span>{{ . }}</span>
       </li>
       {{ end }}
 
       {{ with $.Site.Params.office_hours }}
       <li>
-        <i class="fa-li far fa-clock" aria-hidden="true"></i>
+        <i class="fa-li far fa-clock"></i>
         <span>{{ . }}</span>
       </li>
       {{ end }}
 
       {{ with $.Site.Params.gpg_key_url }}
       <li>
-          <i class="fa-li fas fa-key" aria-hidden="true"></i>
+          <i class="fa-li fas fa-key"></i>
           <a href="{{ . | relLangURL }}">{{ i18n "gpg_key" | markdownify }}</a>
       </li>
       {{ end }}
