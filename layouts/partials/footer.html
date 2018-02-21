@@ -1,4 +1,11 @@
 </div><!-- container -->
+{{ range .Site.Params.css }}
+<link rel="stylesheet" href="/css/{{ . }}">
+{{ end }}
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+</script>
+<script async src="/mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
 {{ range .Site.Params.js }}
 <script src="/js/{{ . }}"></script>
 {{ end }}

@@ -12,16 +12,6 @@
         {{ end }}
         <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
-
-        {{ range .Site.Params.css }}
-        <link rel="stylesheet" href="/css/{{ . }}">
-        {{ end }}
-
-        <script type="text/x-mathjax-config">
-         MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
-        </script>
-        <script async src="/mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
-
         {{ if or .Site.RSSLink .RSSLink }}
         <link rel="alternate" href="{{ .RSSLink | default .Site.RSSLink  }}" type="application/rss+xml" title="{{ .Site.Title }}">
         <link rel="feed" href="{{ .RSSLink | default .Site.RSSLink }}" type="application/rss+xml" title="{{ .Site.Title }}">
