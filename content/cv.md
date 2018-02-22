@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (English)"
-lastmod: "2018-02-05"
+lastmod: "2018-02-22"
 ---
 
 <p class="lead"><a href="/pdf/cv_idrissi_en.pdf"><i class="far fa-file-pdf"></i> Complete version in PDF format</a></p>
@@ -9,10 +9,12 @@ lastmod: "2018-02-05"
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">02/2018–01/2020</dt>
-<dd class="col-lg-10 col-sm-9"><em>Postdoctoral researcher</em>, ETH Zürich, Zürich, Switzerland</dd>
+<dd class="col-lg-10 col-sm-9"><em>Postdoctoral researcher</em>, ETH Zürich, Zürich, Switzerland<br>
+Supervised by Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><em>Contractual PhD student</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
+<dd class="col-lg-10 col-sm-9"><em>Contractual PhD student</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
+Advisor: Benoit Fresse. Funded by an <em>Allocation Spécifique</em> of the ENS.</dd>
 </div>
 
 ### Studies
