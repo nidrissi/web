@@ -1,4 +1,4 @@
-PANDOC = pandoc --latex-engine=lualatex
+PANDOC = pandoc --pdf-engine=lualatex
 LATEX = latexmk -pdf -e "$$pdflatex =~ s/pdflatex/lualatex/" -e "$$out_dir = 'build'"
 TEMPLATE = template.tex
 YAML = data.yaml
@@ -13,7 +13,7 @@ all: french.pdf english.pdf $(BIB)
 copy: all
 	cmd /c copy /y french.pdf $(TARGET)\cv_idrissi_fr.pdf
 	cmd /c copy /y english.pdf $(TARGET)\cv_idrissi_en.pdf
-	echo Update lastmod!
+	@echo Update lastmod!
 
 clean:
 	cmd /c del /q *.pdf *.out.yaml english.tex french.tex build
