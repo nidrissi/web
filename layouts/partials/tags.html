@@ -1,6 +1,7 @@
 {{ if isset $.Params "tags" }}
 {{ $tagsLen := len $.Params.tags }}
 {{ if gt $tagsLen 0 }}
+&ndash;
 {{ range $k, $v := $.Params.tags }}
 <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}">#{{ . }}</a>
 {{ end }}
