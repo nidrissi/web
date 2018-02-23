@@ -7,7 +7,7 @@ title: Oberwolfach
 I just came back from the [Mathematisches Forschungsinstitut Oberwolfach](https://www.mfo.de/)!
 <!--more-->
 
-![The library](/img/mfo.jpg)
+<img alt="The library" src="/img/mfo.jpg" class="img-fluid">
 
 I was there for the "[Factorization Algebras and Functorial Field Theories](https://www.mfo.de/occasion/1619/www_view)" workshop. It was an incredible experience. The talks were all, of course, very interesting, and I learned a lot about QFT. But more than that, I learned a lot speaking to the people about various research topics -- several people made several very interesting remarks to me, and others explained to me various points to mathematics that had remained obscure to me until this point.
 
