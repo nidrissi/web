@@ -115,8 +115,7 @@ So if one only considers natural transformations from the identity functor {{< t
 
 ### Variant 2
 
-Let {{< tex "(\mathsf{C}, \otimes, 1)" >}} be a monoidal category. Then endomorphisms of the unit objects can be multiplied in two ways: the usual composition of morphisms, or a kind of convolution given by {{< tex "f * g : 1 \cong 1 \otimes 1 \xrightarrow{f \otimes g} 1 \otimes 1
-\cong 1" >}}
+Let {{< tex "(\mathsf{C}, \otimes, 1)" >}} be a monoidal category. Then endomorphisms of the unit objects can be multiplied in two ways: the usual composition of morphisms, or a kind of convolution given by {{< tex "f * g : 1 \cong 1 \otimes 1 \xrightarrow{f \otimes g} 1 \otimes 1 \cong 1" >}}
 
 Then both laws are compatible (this isn't easy to check!), and thus in a monoidal category, {{< tex "\operatorname{End}(1)" >}} is abelian. This implies that if an object {{< tex "X" >}} in some category has nonabelian monoid of endomorphisms, then that category cannot be given a monoidal structure with {{< tex "X" >}} as the unit.
 
