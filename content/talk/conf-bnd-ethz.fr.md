@@ -7,7 +7,7 @@ event_url = "https://www.math.ethz.ch/news-and-events/events/research-seminars/t
 location = "ETH Zürich"
 selected = false
 title = "Configuration Spaces of Compact Manifolds"
-url_pdf = ""
+url_pdf = "/pdf/papers/config-boundary.pdf"
 url_slides = "/pdf/slides/config_boundary.pdf"
 
 +++

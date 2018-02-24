@@ -12,7 +12,7 @@ location = "Université de Nantes"
 selected = false
 math = false
 
-url_pdf = ""
+url_pdf = "/pdf/papers/config-boundary.pdf"
 url_slides = "/pdf/slides/bord.pdf"
 url_video = ""
 
