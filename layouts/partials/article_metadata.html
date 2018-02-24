@@ -9,7 +9,6 @@
     {{ if isset .Params "categories" }}
     {{ $categoriesLen := len .Params.categories }}
     {{ if gt $categoriesLen 0 }}
-    &ndash;
     <span class="text-muted">
         <i class="far fa-folder"></i>
         {{ range $k, $v := .Params.categories }}
