@@ -87,5 +87,4 @@ Invité par Haynes Miller</dd>
 
 ### Exposés
 
-[<i class="fas fa-arrow-right"></i> Veuillez vous référer à la page principale.](/talk/)
-
+[→ Veuillez vous référer à la page principale.](/talk/)

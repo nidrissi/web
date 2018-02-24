@@ -10,8 +10,8 @@
     {{ if gt $pubs_len $page.Params.count }}
     <p class="view-all">
       <a href="{{ "/research/" | relLangURL }}">
-        {{ i18n "more_publications" | markdownify }}
-        <i class="fas fa-angle-double-right"></i>
+          {{ i18n "more_publications" | markdownify }}
+          »
       </a>
     </p>
     {{ end }}

@@ -87,4 +87,4 @@ Invited by Haynes Miller</dd>
 
 ### Talks
 
-[<i class="fas fa-arrow-right"></i> Please see the main page.](/talk/)
+[→ Please see the main page.](/talk/)
