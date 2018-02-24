@@ -9,6 +9,6 @@ I am Najib <abbr title="My complete family name is ‘Idrissi Kaïtouni’ and i
 I am mainly interested in operads and their applications to algebraic topology, more specifically the study fo configuration spaces and their links to graph complexes.
 
 I was a student of the [École Normale Supérieure](https://www.ens.fr) from 2011 to 2015, then [I completed my PhD]({{< ref "research/thesis.md" >}}) in November 2017 under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse) at [Université Lille 1](https://www.univ-lille.fr).
-Since February 2018, I became a postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
+I am now a postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/), since February 2018.
 
 You can find [my CV in English here]({{< ref "cv.md" >}}).
