@@ -10,7 +10,7 @@ lastmod: "2018-02-22"
 <div class="row">
 <dt class="col-lg-2 col-sm-3">02/2018–01/2020</dt>
 <dd class="col-lg-10 col-sm-9"><em>Postdoctoral researcher</em>, ETH Zürich, Zürich, Switzerland<br>
-Supervised by Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX.</dd>
+Supervised by Thomas Willwacher. Funded by ERC StG 678156—GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
 <dd class="col-lg-10 col-sm-9"><em>Contractual PhD student</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
@@ -35,7 +35,7 @@ In preparation for a PhD program in 2015, supervised by Benoit Fresse.</dd>
 <dt class="col-lg-2 col-sm-3">2013–2014</dt>
 <dd class="col-lg-10 col-sm-9"><em>Research Master's degree in Pure Mathematics</em>, Université Paris Diderot, Paris, France</dd>
 
-<dt class="col-lg-2 col-sm-3">Fall 2013</dt>
+<dt class="col-lg-2 col-sm-3">09/2013–12/2013</dt>
 <dd class="col-lg-10 col-sm-9"><em>Research internship in algebraic topology</em>, Massachusetts Institute of Technology, Cambridge (MA), USA<br>
 Invited by Haynes Miller</dd>
 </div>

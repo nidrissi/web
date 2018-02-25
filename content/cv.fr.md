@@ -10,7 +10,7 @@ lastmod: "2018-02-22"
 <div class="row">
 <dt class="col-lg-2 col-sm-3">02/2018–01/2020</dt>
 <dd class="col-lg-10 col-sm-9"><em>Chercheur postdoctorant</em>, ETH Zürich, Zürich, Switzerland<br>
-Supervisé par Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX.</dd>
+Supervisé par Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
 <dd class="col-lg-10 col-sm-9"><em>Doctorant contractuel</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
@@ -35,7 +35,7 @@ En préparation d'une thèse en 2015, dirigé par Benoit Fresse.</dd>
 <dt class="col-lg-2 col-sm-3">2013–2014</dt>
 <dd class="col-lg-10 col-sm-9"><em>M2 recherche en Mathématiques Pures</em>, Université Paris Diderot, Paris, France</dd>
 
-<dt class="col-lg-2 col-sm-3">Automne 2013</dt>
+<dt class="col-lg-2 col-sm-3">09/2013–12/2013</dt>
 <dd class="col-lg-10 col-sm-9"><em>Stage de recherche en topologie algébrique</em>, Massachusetts Institute of Technology, Cambridge (MA), USA<br>
 Invité par Haynes Miller</dd>
 </div>
