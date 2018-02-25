@@ -20,7 +20,7 @@ Directeur de thèse : Benoit Fresse. Financé par une Allocation Spécifique de 
 ### Études
 
 <div class="row">
-<dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
+<dt class="col-lg-2 col-sm-3">09/2015–11/2017</dt>
 <dd class="col-lg-10 col-sm-9"><em>Doctorat en Mathématiques</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
 Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>. Directeur de thèse : Benoit Fresse.<br>
 Soutenue le 17 novembre 2017.</dd>
@@ -28,14 +28,14 @@ Soutenue le 17 novembre 2017.</dd>
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
 <dd class="col-lg-10 col-sm-9"><em>Élève de l'École Normale Supérieure</em>, ENS Ulm – Département de Mathématiques et Applications, Paris, France</dd>
 
-<dt class="col-lg-2 col-sm-3">2014–2015</dt>
+<dt class="col-lg-2 col-sm-3">⤷ 2014–2015</dt>
 <dd class="col-lg-10 col-sm-9"><em>Stage de recherche en topologie algébrique</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
 En préparation d'une thèse en 2015, dirigé par Benoit Fresse.</dd>
 
-<dt class="col-lg-2 col-sm-3">2013–2014</dt>
+<dt class="col-lg-2 col-sm-3">⤷ 2013–2014</dt>
 <dd class="col-lg-10 col-sm-9"><em>M2 recherche en Mathématiques Pures</em>, Université Paris Diderot, Paris, France</dd>
 
-<dt class="col-lg-2 col-sm-3">09/2013–12/2013</dt>
+<dt class="col-lg-2 col-sm-3">⤷ Fin 2013</dt>
 <dd class="col-lg-10 col-sm-9"><em>Stage de recherche en topologie algébrique</em>, Massachusetts Institute of Technology, Cambridge (MA), USA<br>
 Invité par Haynes Miller</dd>
 </div>

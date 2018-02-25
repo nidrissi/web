@@ -20,7 +20,7 @@ Advisor: Benoit Fresse. Funded by an <em>Allocation Spécifique</em> of the ENS.
 ### Studies
 
 <div class="row">
-<dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
+<dt class="col-lg-2 col-sm-3">09/2015–11/2017</dt>
 <dd class="col-lg-10 col-sm-9"><em>PhD in Mathematics</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
 Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>. Advisor: Benoit Fresse.<br>
 Defended on November 17th, 2017.</dd>
@@ -28,14 +28,14 @@ Defended on November 17th, 2017.</dd>
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
 <dd class="col-lg-10 col-sm-9"><em>Student of the École Normale Supérieure</em>, ENS Ulm – Département de Mathématiques et Applications, Paris, France</dd>
 
-<dt class="col-lg-2 col-sm-3">2014–2015</dt>
+<dt class="col-lg-2 col-sm-3">⤷ 2014–2015</dt>
 <dd class="col-lg-10 col-sm-9"><em>Research internship in algebraic topology</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
 In preparation for a PhD program in 2015, supervised by Benoit Fresse.</dd>
 
-<dt class="col-lg-2 col-sm-3">2013–2014</dt>
+<dt class="col-lg-2 col-sm-3">⤷ 2013–2014</dt>
 <dd class="col-lg-10 col-sm-9"><em>Research Master's degree in Pure Mathematics</em>, Université Paris Diderot, Paris, France</dd>
 
-<dt class="col-lg-2 col-sm-3">09/2013–12/2013</dt>
+<dt class="col-lg-2 col-sm-3">⤷ Fall 2013</dt>
 <dd class="col-lg-10 col-sm-9"><em>Research internship in algebraic topology</em>, Massachusetts Institute of Technology, Cambridge (MA), USA<br>
 Invited by Haynes Miller</dd>
 </div>
