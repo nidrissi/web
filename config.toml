@@ -42,8 +42,8 @@ defaultContentLanguageInSubdir = false
   # Enable native social sharing buttons?
   sharing = true
 
-  css = ['bundle.css']
-  js = ['bundle.js']
+  css = ['academicons.css', 'bootstrap.min.css', 'style.css']
+  js = ['jquery.slim.min.js', 'bootstrap.bundle.min.js', 'fontawesome-all.min.js', 'piwik.js']
 
   # Social/Academic Networking
   #
