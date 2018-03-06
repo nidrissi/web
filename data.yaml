@@ -9,74 +9,82 @@ address:
 email: najib.idrissi@math.ethz.ch
 extrainfo: ''
 homepage: https://idrissi.eu/fr ! https://idrissi.eu
+moderntl:
+  first: 2011
+  last: 2020
 section:
   - title: Travail ! Work
     entry:
-      - content:
-          - '02/2018--01/2020'
+      - timeline: 1
+        content:
+          - 2018/2
+          - 0
           - Chercheur postdoctorant ! Postdoctoral researcher
           - ETH Zürich
           - Zürich, Suisse ! Zürich, Switzerland
           - ~
           - "Superviseur : Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Supervisor: Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
-      - content:
-          - '09/2015--01/2018'
+      - timeline: 1
+        content:
+          - 2015/9
+          - 2018/1
           - Doctorant contractuel ! Contractual PhD student
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
           - ~
-          - ~
+          - "Directeur de thèse : Benoit Fresse. Financé par une Allocation Spécifique de l'ENS. ! Advisor: Benoit Fresse. Funded by an *Allocation Spécifique* of the ENS."
   - title: Études ! Education
     entry:
-      - content:
-          - '09/2015--01/2018'
+      - timeline: 1
+        content:
+          - 2015/9
+          - 2017/11
           - Doctorat en Mathématiques ! PhD in Mathematics
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
           - ~
           - |
               Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
-              Directeur de thèse : Benoit Fresse.\
-              Soutenue le 17 novembre 2017
+              Directeur de thèse : Benoit Fresse. Soutenue le 17 novembre 2017
               !
-              Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse.\
-              Defended on November 17th, 2017
-      - content:
-          - '2011--2015'
+              Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse. Defended on November 17th, 2017
+      - timeline: 1
+        content:
+          - 2011
+          - 2015
           - "Élève de l'École Normale Supérieure ! Student of the École Normale Supérieure"
           - ENS Ulm
           - Paris, France
           - Département de Mathématiques et Applications
           - ~
-      - sub: 1
+      - timeline: 1
         content:
-          - '2014--2015'
+          - 2014
+          - 2015
           - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
           - ~
           - |
-              En préparation au début d\'un doctorat en 2015.\
-              Directeur : Benoit Fresse. ! In preparation for beginning a PhD program in 2015.\
-              Advisor: Benoit Fresse.
-      - sub: 1
+              En préparation au début d\'un doctorat en 2015. Directeur : Benoit Fresse. ! In preparation for beginning a PhD program in 2015. Advisor: Benoit Fresse.
+      - timeline: 1
         content:
-          - '2013--2014'
+          - 2013
+          - 2014
           - "Master Recherche en Mathématiques Fondamentales ! Research Master's degree in Pure Mathematics"
           - Université Paris Diderot
           - Paris, France
           - ~
           - |
-             Mémoire de master : *Homologie, complexe de déformations et opérades $E_{n}$*.\
-             Directeur : Benoit Fresse.\
-             Sujet : Calcul de l\'homologie des algèbres $n$-Poisson à coefficients.
+             Mémoire de master : *Homologie, complexe de déformations et opérades $E_{n}$*. Directeur : Benoit Fresse.
              !
-             Master\'s thesis: *Homologie, complexe de déformations et opérades $E_{n}$.*\
-             Advisor: Benoit Fresse.\
-             Topic: Computation of the homology of $n$-Poisson algebras with coefficients.
-      - sub: 1
+             Master\'s thesis: *Homologie, complexe de déformations et opérades $E_{n}$.* Advisor: Benoit Fresse.
+      - timeline: 1
+        label: 1
         content:
-          - Automne 2013 ! Fall 2013
+          - 2013/9
+          - 2013/12
+          - Sept--Dec 2013 ! Sept--Déc 2013
           - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
           - Massachusetts Institute of Technology
           - Cambridge (MA), USA

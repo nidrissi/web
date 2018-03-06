@@ -18,21 +18,8 @@
 \usepackage[defernumbers=true,sorting=nyt, maxnames=10]{biblatex}
 \addbibresource{research.bib}
 
-% adapted from:
-% http://tex.stackexchange.com/a/161635
-\newcommand*{\cvsubentry}[7][.25em]{%
-  \cvitem[#1]{#2}{%
-    \hspace*{1em}%
-    \begin{minipage}[t]{\dimexpr\linewidth-1em}%
-      {\bfseries#3}%
-      \ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
-      \ifthenelse{\equal{#5}{}}{}{, #5}%
-      \ifthenelse{\equal{#6}{}}{}{, #6}%
-      .\strut%
-    \end{minipage}%
-    \ifx&#7&%
-    \else{\newline{}\hspace*{1em}\begin{minipage}[t]{\dimexpr\linewidth-1em}\small#7\end{minipage}}\fi}}
-
+% timeline
+\usepackage[firstyear=$moderntl.first$,lastyear=$moderntl.last$]{moderntimeline}
 
 \title{$title$}
 \firstname{$firstname$}
@@ -51,7 +38,7 @@ $for(section)$
 
 $for(section.entry)$
   $if(section.entry.content)$
-    \cv$if(section.entry.sub)$sub$endif$entry
+    \$if(section.entry.timeline)$tl$if(section.entry.label)$label$endif$$endif$cventry
     $for(section.entry.content)$ {$section.entry.content$} $endfor$
   $endif$
   $if(section.entry.subsection)$\subsection{$section.entry.subsection$}$endif$
