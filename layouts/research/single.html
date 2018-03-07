@@ -1,7 +1,6 @@
 {{ partial "header.html" . }}
 <article itemscope itemtype="http://schema.org/CreativeWork">
     <h1 itemprop="name">{{ .Title }}</h1>
-    {{ partial "share.html" . }}
 
     {{ if .Params.image }}
     <img src="{{ "/img/" | relURL }}{{ .Params.image }}" itemprop="image">

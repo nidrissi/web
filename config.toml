@@ -39,9 +39,6 @@ defaultContentLanguageInSubdir = false
 
   math = true
 
-  # Enable native social sharing buttons?
-  sharing = false
-
   css = ['bundle.css']
   css_footer = ['bundle.footer.css']
   js = ['jquery.slim.min.js', 'bootstrap.min.js', 'piwik.js']

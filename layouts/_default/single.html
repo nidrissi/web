@@ -1,7 +1,6 @@
 {{ partial "header.html" . }}
 <article class="article" itemscope itemtype="http://schema.org/Article">
     <h1 itemprop="name">{{ .Title }}</h1>
-    {{ partial "share.html" . }}
     {{ partial "article_metadata" . }}
     <div itemprop="articleBody">{{ .Content }}</div>
 

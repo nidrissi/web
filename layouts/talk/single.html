@@ -2,7 +2,6 @@
 <article itemscope itemtype="http://schema.org/Event">
     <div class="pub-title">
         <h1 itemprop="name">{{ .Title }}</h1>
-        {{ partial "share.html" . }}
         <span itemprop="author">
             {{ with .Params.authors }}
             {{ delimit . ", " }}
