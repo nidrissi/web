@@ -6,7 +6,7 @@ paginate = 10
 enableRobotsTXT = true
 
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
