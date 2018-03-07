@@ -21,6 +21,30 @@
 % timeline
 \usepackage[firstyear=$moderntl.first$,lastyear=$moderntl.last$]{moderntimeline}
 
+% https://tex.stackexchange.com/a/289622/14965
+\makeatletter
+\renewcommand{\tl@formatstartyear}[1]{
+  \startyeartrue
+  \tl@yearfraction{#1}
+  \pgfmathsetmacro\tl@startfraction{(\tl@startyear-\tl@firstyear)/(\tl@lastyear-\tl@firstyear)}%
+  \ifissince
+    \xdef\tl@startlabel{\tl@since \tl@tmpmonth/\tl@tmpyear}
+  \else
+    \xdef\tl@startlabel{\tl@tmpmonth/\tl@tmpyear}
+  \fi
+}
+\renewcommand{\tl@formatendyear}[1]{
+  \startyearfalse%
+  \tl@yearfraction{#1}
+  \pgfmathsetmacro\tl@endfraction{(\tl@endyear-\tl@firstyear)/(\tl@lastyear-\tl@firstyear)}%
+  \ifissince%
+    \xdef\tl@endlabel{}
+  \else
+    \xdef\tl@endlabel{\tl@tmpmonth/\tl@tmpyear}
+  \fi
+}
+\makeatother
+
 \title{$title$}
 \firstname{$firstname$}
 \familyname{$familyname$}

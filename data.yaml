@@ -50,8 +50,8 @@ section:
               Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse. Defended on November 17th, 2017
       - timeline: 1
         content:
-          - 2011
-          - 2015
+          - 2011/9
+          - 2015/8
           - "Élève de l'École Normale Supérieure ! Student of the École Normale Supérieure"
           - ENS Ulm
           - Paris, France
@@ -59,8 +59,8 @@ section:
           - ~
       - timeline: 1
         content:
-          - 2014
-          - 2015
+          - 2014/9
+          - 2015/8
           - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
           - Université Lille\ 1, Laboratoire Paul Painlevé
           - Lille, France
@@ -69,8 +69,8 @@ section:
               En préparation au début d\'un doctorat en 2015. Directeur : Benoit Fresse. ! In preparation for beginning a PhD program in 2015. Advisor: Benoit Fresse.
       - timeline: 1
         content:
-          - 2013
-          - 2014
+          - 2013/9
+          - 2014/6
           - "Master Recherche en Mathématiques Fondamentales ! Research Master's degree in Pure Mathematics"
           - Université Paris Diderot
           - Paris, France
@@ -84,7 +84,7 @@ section:
         content:
           - 2013/9
           - 2013/12
-          - Sept--Dec 2013 ! Sept--Déc 2013
+          - 09--12/2013
           - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
           - Massachusetts Institute of Technology
           - Cambridge (MA), USA
