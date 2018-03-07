@@ -43,7 +43,8 @@ defaultContentLanguageInSubdir = false
   sharing = false
 
   css = ['bundle.css']
-  js = ['jquery.slim.min.js', 'bootstrap.min.js', 'fontawesome-all.min.js', 'piwik.js']
+  css_footer = ['bundle.footer.css']
+  js = ['jquery.slim.min.js', 'bootstrap.min.js', 'piwik.js']
 
   # Social/Academic Networking
   #

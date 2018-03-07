@@ -2,6 +2,9 @@
 {{ range .Site.Params.js }}
 <script src="/js/{{ . }}"></script>
 {{ end }}
+{{ range .Site.Params.css_footer }}
+<link rel="stylesheet" href="/css/{{ . }}">
+{{ end }}
 <noscript><p><img src="//stats.erad.fr/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
 </body>
 </html>
