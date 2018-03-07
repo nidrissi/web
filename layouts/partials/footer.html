@@ -2,6 +2,10 @@
 {{ range .Site.Params.js }}
 <script defer src="/js/{{ . }}"></script>
 {{ end }}
+<script type="text/x-mathjax-config">
+ MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+</script>
+<script async src="/mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
 {{ range .Site.Params.css_footer }}
 <link rel="stylesheet" href="/css/{{ . }}">
 {{ end }}
