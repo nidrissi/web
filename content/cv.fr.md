@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2018-02-22"
+lastmod: "2018-03-07"
 ---
 
 <p class="lead"><a href="/pdf/cv_idrissi_fr.pdf"><i class="far fa-file-pdf"></i> Version complète au format PDF</a></p>
