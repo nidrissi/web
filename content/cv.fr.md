@@ -40,7 +40,7 @@ En préparation d'une thèse en 2015, dirigé par Benoit Fresse.</dd>
 Invité par Haynes Miller</dd>
 </div>
 
-### Recherche <small>[(plus d'infos)](/research/)</small>
+### Recherche <small>[(plus d'infos)](/fr/research/)</small>
 
 ##### Publications
 
@@ -87,4 +87,4 @@ Invité par Haynes Miller</dd>
 
 ### Exposés
 
-[→ Veuillez vous référer à la page principale.](/talk/)
+[→ Veuillez vous référer à la page principale.](/fr/talk/)
