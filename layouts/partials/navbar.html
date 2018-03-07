@@ -52,7 +52,7 @@
                     <i class="fas fa-globe"></i>
                     <span>{{ index .Site.Data.i18n.languages .Lang }}</span>
                 </a>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu dropdown-menu-right">
                     {{ range .Translations }}
                     <a href="{{ .URL }}" class="dropdown-item" {{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
                         <span>{{ index .Site.Data.i18n.languages .Lang }}</span>
