@@ -8,7 +8,7 @@ address:
   - 8092 Zürich, Suisse ! 8092 Zürich, Switzerland
 email: najib.idrissi@math.ethz.ch
 extrainfo: ''
-homepage: https://idrissi.eu/fr ! https://idrissi.eu
+homepage: idrissi.eu/fr ! idrissi.eu
 moderntl:
   first: 2011
   last: 2020
@@ -161,20 +161,20 @@ section:
   - title: Exposés ! Talks
     entry:
       - subsection: Invités ! Invited
-      # - content:
-      #     - 2019-01-21
-      #     - Structures Supérieures ! Higher Structures
-      #     - Centre international de rencontres mathématique
-      #     - Marseille
-      #     - France
-      #     - ???
-      # - content:
-      #     - 2018-05-22
-      #     - Graph Complexes, Configuration Spaces and Manifold Calculus
-      #     - University of British Columbia
-      #     - Vancouver
-      #     - Canada
-      #     - ???
+      - content:
+          - 2019-01-21\*
+          - Structures Supérieures ! Higher Structures
+          - Centre international de rencontres mathématique
+          - Marseille
+          - France
+          - ~
+      - content:
+          - 2018-05-22\*
+          - Graph Complexes, Configuration Spaces and Manifold Calculus
+          - University of British Columbia
+          - Vancouver
+          - Canada
+          - ~
       - content:
           - 2017-10-13
           - Séminaire Itinérant de Catégories
@@ -338,22 +338,29 @@ section:
           - Amiens
           - France
           - The Lambrechts--Stanley Model of Configuration Spaces
+      - content:
+          - '\*:'
+          - ~
+          - Confirmé ! Confirmed
+          - ~
+          - ~
+          - ~
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
-      # - content:
-      #     - 2019-01-21
-      #     - Structures Supérieures ! Higher Structures
-      #     - Centre international de rencontres mathématiques  
-      #     - Marseille
-      #     - France
-      #     - ~
-      # - content:
-      #     - 2018-05-22
-      #     - Graph Complexes, Configuration Spaces and Manifold Calculus
-      #     - University of British Columbia
-      #     - Vancouver
-      #     - Canada
-      #     - ~
+      - content:
+          - 2019-01-21\*
+          - Structures Supérieures ! Higher Structures
+          - Centre international de rencontres mathématiques  
+          - Marseille
+          - France
+          - ~
+      - content:
+          - 2018-05-22\*
+          - Graph Complexes, Configuration Spaces and Manifold Calculus
+          - University of British Columbia
+          - Vancouver
+          - Canada
+          - ~
       - content:
           - 2018-01-18
           - Rational Homotopy and Its Applications
@@ -584,6 +591,13 @@ section:
           - Université de Nantes, Laboratoire de Mathématiques Jean Leray
           - Nantes
           - France
+          - ~
+      - content:
+          - '\*:'
+          - ~
+          - Confirmé ! Confirmed
+          - ~
+          - ~
           - ~
   - title: Langues ! Languages
     item:
