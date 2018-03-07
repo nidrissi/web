@@ -15,12 +15,15 @@ defaultContentLanguageInSubdir = false
 [blackfriday]
   hrefTargetBlank = false
 
+[permalinks]
+  post = "/:year/:month/:day/:filename/"
+
 [params]
   name = "Najib Idrissi"
   role = "Postdoc"
   organization = "ETH Zürich"
   organization_url = "https://www.ethz.ch"
-  avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "photo.jpg"
   email = "najib.idrissi@math.ethz.ch"
   address = "ETH Zürich (D-MATH, Pool Group 5) – Rämistrasse 101 – 8092 Zürich – Switzerland"
   office = "Office: HG F27.4"
@@ -28,13 +31,9 @@ defaultContentLanguageInSubdir = false
   phone = ""
   skype = ""
   telegram = ""
+  keybase = ""
   gpg_key_url = "/pubkey/"
 
-  # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = ""
-
-  # Date format (refer to Go's date format: http://flippinggodateformat.com )
-  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
   date_format = "2006-01-02"
 
   math = true
@@ -42,25 +41,6 @@ defaultContentLanguageInSubdir = false
   css = ['bundle.css']
   css_footer = ['bundle.footer.css']
   js = ['jquery.slim.min.js', 'bootstrap.min.js', 'piwik.js']
-
-  # Social/Academic Networking
-  #
-  # Icon pack "fa" includes the following social network icons:
-  #
-  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus,
-  #   youtube, instagram, soundcloud
-  #
-  #   For email icon, use "fa" icon pack, "envelope" icon, and
-  #   "mailto:your@email.com" as the link.
-  #
-  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
-  #
-  # Icon pack "ai" includes the following academic network icons:
-  #
-  #   google-scholar, arxiv, orcid, researchgate, mendeley
-  #
-  #   Full list: https://jpswalsh.github.io/academicons/
-
 
   [[params.social]]
     icon = "ai-arxiv"
@@ -92,11 +72,6 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fab"
     link = "https://github.com/nidrissi"
 
-# Navigation Links
-#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-#     desired widget in your `content/home/` folder.
-#   The weight parameter defines the order that the links will appear in.
-
 [[menu.main]]
   name = "Home"
   url = "/"
@@ -106,13 +81,9 @@ defaultContentLanguageInSubdir = false
   url = "/cv/"
   weight = 2
 
-# Taxonomies.
 [taxonomies]
   tag = "tags"
   category = "categories"
-
-# Languages
-#   Create a [languages.X] block for each language you want, where X is the language ID.
 
 [Languages.en]
   languageCode = "en-us"
@@ -134,6 +105,3 @@ defaultContentLanguageInSubdir = false
     name = "CV"
     url = "/fr/cv/"
     weight = 2
-
-[permalinks]
-  post = "/:year/:month/:day/:filename/"
