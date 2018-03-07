@@ -42,15 +42,14 @@ $for(section.entry)$
     $for(section.entry.content)$ {$section.entry.content$} $endfor$
   $endif$
   $if(section.entry.subsection)$\subsection{$section.entry.subsection$}$endif$
+  $if(section.entry.item)$
+    \cvitem
+    $for(section.entry.item)$ {$section.entry.item$} $endfor$
+  $endif$
 $endfor$
 
 $for(section.bib)$
 \printbibliography[title={$section.bib.title$}, keyword=$section.bib.key$, heading=subbibliography]
-$endfor$
-
-$for(section.item)$
-\cvitem
-$for(section.item.content)${$section.item.content$}$endfor$
 $endfor$
 
 $endfor$

@@ -338,13 +338,9 @@ section:
           - Amiens
           - France
           - The Lambrechts--Stanley Model of Configuration Spaces
-      - content:
-          - '\*:'
-          - ~
-          - Confirmé ! Confirmed
-          - ~
-          - ~
-          - ~
+      - item:
+          - '(\*:'
+          - Futur) ! Future)
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
       - content:
@@ -592,22 +588,18 @@ section:
           - Nantes
           - France
           - ~
-      - content:
-          - '\*:'
-          - ~
-          - Confirmé ! Confirmed
-          - ~
-          - ~
-          - ~
+      - item:
+          - '(\*:'
+          - Futur) ! Future)
   - title: Langues ! Languages
-    item:
-      - content:
+    entry:
+      - item:
         - Français ! French
         - Langue maternelle ! Native language
-      - content:
+      - item:
         - Anglais ! English
         - Couramment ! Fluent
-      - content:
+      - item:
         - Espagnol ! Spanish
         - Basique ! Basic
 ...
