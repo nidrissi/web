@@ -1,6 +1,6 @@
 </div><!-- container -->
 {{ range .Site.Params.js }}
-<script src="/js/{{ . }}"></script>
+<script defer src="/js/{{ . }}"></script>
 {{ end }}
 {{ range .Site.Params.css_footer }}
 <link rel="stylesheet" href="/css/{{ . }}">
