@@ -40,7 +40,7 @@ In preparation for a PhD program in 2015, supervised by Benoit Fresse.</dd>
 Invited by Haynes Miller</dd>
 </div>
 
-### Research <small>[(more info)](/research/)</small>
+### Research <small>[(more info)](/en/research/)</small>
 
 #### Publications
 
@@ -87,4 +87,4 @@ Invited by Haynes Miller</dd>
 
 ### Talks
 
-[→ Please see the main page.](/talk/)
+[→ Please see the main page.](/en/talk/)
