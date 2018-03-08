@@ -74,6 +74,7 @@ defaultContentLanguageInSubdir = true
 
 [[menu.main]]
   name = "Home"
+  pre = "<i class=\"fas fa-home\"></i>"
   url = "/"
   weight = 1
 [[menu.main]]
@@ -99,6 +100,7 @@ defaultContentLanguageInSubdir = true
 
   [[Languages.fr.menu.main]]
     name = "Accueil"
+    pre = "<i class=\"fas fa-home\"></i>"
     url = "/fr/"
     weight = 1
   [[Languages.fr.menu.main]]
