@@ -1,1 +1,5 @@
-${{ .Get 0 }}$
+{{ if .IsNamedParams }} <!-- display mode, wrap eqn with $$ $$-->
+$${{ .Get "display" }}$$
+{{ else }}              <!-- inline mode, wrap eqn with \(  \)-->
+\({{ .Get 0 }}\)
+{{ end }}

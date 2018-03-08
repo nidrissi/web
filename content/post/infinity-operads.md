@@ -89,7 +89,7 @@ Two types of morphisms appear in the previous discussion, which lead to the foll
 1. For every inert morphism {{< tex "f : m_+ \to n_+" >}} and every {{< tex "C \in \mathsf{C}^\otimes_m" >}}, there is a {{< tex "p" >}}-coCartesian morphism {{< tex "\bar{f} : C \to C'" >}} lifting {{< tex "f" >}}, which induces a functor {{< tex "f_! : \mathsf{C}^\otimes_m \to \mathsf{C}^\otimes_n" >}}.  
    Recall that the inert morphisms are those who "forget" points. The functor {{< tex "f_!" >}} is the functor which, given an {{< tex "m" >}}-uple, forgets some of the factors. The object {{< tex "C" >}} is a sequence of colors, and {{< tex "C'" >}} is the same sequence with some colors forgotten.
 2. For {{< tex "f : n_+ \to m_+" >}}, let {{< tex "\mathsf{C}^\otimes_f(-,-) \subset \mathsf{C}^\otimes(-,-)" >}} be the connected components lying over {{< tex "f" >}}. Then
-   {{< texd "\mathsf{C}^\otimes_f(C, C') \to \prod_{1 \le k \le m} \mathsf{C}^\otimes_{\rho^i \circ f}(C, C'_i)" >}}
+   {{< tex display="\mathsf{C}^\otimes_f(C, C') \to \prod_{1 \le k \le m} \mathsf{C}^\otimes_{\rho^i \circ f}(C, C'_i)" >}}
    is a homotopy equivalence. This means that an "operation" {{< tex "[c_1, \dots, c_n] \to [d_1, \dots, d_n]" >}} is "the same" as a collection of operations {{< tex "\mathtt{P}((c_i)_{f(i) = j}, d_j)" >}}.
 3. For every collection of objects {{< tex "c_1, \dots, c_n \in \mathsf{C}^\otimes_1" >}}, there exists an object {{< tex "C \in \mathsf{C}^\otimes_n" >}} and {{< tex "p" >}}-Cartesian morphisms {{< tex "C \to c_i" >}} covering {{< tex "\rho^i" >}}.  
    This means that {{< tex "\prod \rho^i_! : \mathsf{C}^\otimes_n \to (\mathsf{C}^\otimes_1)^{\times n}" >}} is an equivalence.

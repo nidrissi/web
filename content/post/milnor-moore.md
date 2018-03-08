@@ -18,9 +18,9 @@ A Hopf algebra is the combination of two structures: associative algebra and coa
 
 **Definition.** A (unital) associative algebra is a vector space {{< tex "A" >}} equipped with a product {{< tex "\mu : A \otimes A \to A" >}} and a unit {{< tex "\eta : \Bbbk \to A" >}} satisfying:
 
-{{< texd "\mu \circ (\mu \otimes \operatorname{id}_A) = \mu \circ (\operatorname{id}_A \otimes \mu)," >}}
+{{< tex display="\mu \circ (\mu \otimes \operatorname{id}_A) = \mu \circ (\operatorname{id}_A \otimes \mu)," >}}
 
-{{< texd "\mu \circ (\eta \otimes \operatorname{id}_A) = \operatorname{id}_A = \mu \circ (\operatorname{id}_A \otimes \eta)." >}}
+{{< tex display="\mu \circ (\eta \otimes \operatorname{id}_A) = \operatorname{id}_A = \mu \circ (\operatorname{id}_A \otimes \eta)." >}}
 
 If we write {{< tex "\mu(a \otimes b) = a \cdot b" >}} and {{< tex "\eta(1_\Bbbk) = 1_A" >}}, then these two axioms merely say that {{< tex "(a \cdot b) \cdot c = a \cdot (b \cdot c)" >}} and {{< tex "1_A \cdot a = a = a \cdot 1_A" >}}.
 
@@ -28,13 +28,13 @@ The definition of a coalgebra is more-or-less formally dual:
 
 **Definition.** A coassociative coalgebra is a vector space {{< tex "C" >}} equipped with a coproduct {{< tex "\Delta : C \to C \otimes C" >}} and a counit {{< tex "\varepsilon : C \to \Bbbk" >}} satisfying:
 
-{{< texd "(\Delta \otimes \operatorname{id}_C) \circ \Delta = (\operatorname{id}_C \otimes \Delta) \circ \Delta," >}}
+{{< tex display="(\Delta \otimes \operatorname{id}_C) \circ \Delta = (\operatorname{id}_C \otimes \Delta) \circ \Delta," >}}
 
-{{< texd "(\varepsilon \otimes \operatorname{id}_C) \circ \Delta = \operatorname{id}_C = (\operatorname{id}_C \otimes \varepsilon) \circ \Delta." >}}
+{{< tex display="(\varepsilon \otimes \operatorname{id}_C) \circ \Delta = \operatorname{id}_C = (\operatorname{id}_C \otimes \varepsilon) \circ \Delta." >}}
 
 We will use Sweedler's notation: for {{< tex "x \in C" >}}, we write
 
-{{< texd "\Delta(x) = \sum_{(x)} x_1 \otimes x_2." >}}
+{{< tex display="\Delta(x) = \sum_{(x)} x_1 \otimes x_2." >}}
 
 The counitality axiom then becomes, for example, {{< tex "\sum_{(x)} \varepsilon(x_1) x_2 = x = \sum_{(x)} x_1 \varepsilon(x_2)" >}}.
 
@@ -50,7 +50,7 @@ A **graded algebra** is a graded vector space equipped with the structure of an 
 
 A **Hopf algebra** is a bialgebra {{< tex "H" >}} equipped with a linear endomorphism {{< tex "\sigma : H \to H" >}} satisfying, for all {{< tex "x \in H" >}}:
 
-{{< texd "\sum_{(x)} x_1 \cdot \sigma(x_2) = \eta(\varepsilon(x)) = \sum_{(x)} \sigma(x_1) \cdot x_2." >}}
+{{< tex display="\sum_{(x)} x_1 \cdot \sigma(x_2) = \eta(\varepsilon(x)) = \sum_{(x)} \sigma(x_1) \cdot x_2." >}}
 
 This is a lot of structure! There's a product, a unit, a coproduct, a counit, and an antipode, satisfying a whole bunch of relations. If it exists, the antipode is unique, but its existence is not guaranteed. Fortunately, most of the time the antipode comes for free:
 
@@ -62,17 +62,17 @@ This is a lot of structure! There's a product, a unit, a coproduct, a counit, an
 
 The tensor algebra {{< tex "T(V)" >}} on some dg-module {{< tex "V" >}} is given by:
 
-{{< texd "T(V) = \bigoplus_{n \ge 0} V^{\otimes n}," >}}
+{{< tex display="T(V) = \bigoplus_{n \ge 0} V^{\otimes n}," >}}
 
 with grading and differential induced by the grading and the differential of {{< tex "V" >}} ({{< tex "V^{\otimes 0} = \Bbbk" >}} is put in degree 0 and has trivial differential). The product is given by concatenation of tensors:
 
-{{< texd "(v_1 \otimes \dots \otimes v_n) \cdot (v_{n+1} \otimes \dots \otimes v_{n+m}) := v_1 \otimes \dots \otimes v_{n+m}," >}}
+{{< tex display="(v_1 \otimes \dots \otimes v_n) \cdot (v_{n+1} \otimes \dots \otimes v_{n+m}) := v_1 \otimes \dots \otimes v_{n+m}," >}}
 
 and the unit is {{< tex "\eta : \Bbbk \cong V^{\otimes 0}" >}}. Then {{< tex "T(V)" >}} is the free associative algebra on {{< tex "V" >}}: for all algebras {{< tex "A" >}} and dg-linear morphism {{< tex "f : V \to A" >}}, there exists a unique dg-algebra morphism {{< tex "T(V) \to A" >}} lifting {{< tex "f" >}} (through the obvious inclusion {{< tex "V = V^{\otimes 1} \subset T(V)" >}}).
 
 One can then define a Hopf algebra structure on {{< tex "T(V)" >}}: the counit {{< tex "\varepsilon : T(V) \to \Bbbk" >}} lifts {{< tex "0 : V \to \Bbbk" >}}, the coproduct lifts {{< tex "V \to T(V) \otimes T(V)" >}}, {{< tex "v \mapsto v \otimes 1 + 1 \otimes v" >}}, and the antipode lifts {{< tex "V \to T(V)" >}}, {{< tex "v \mapsto -v" >}}. It's possible to explicitly describe the coproduct using [shuffles](https://ncatlab.org/nlab/show/shuffle):
 
-{{< texd "\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p+q=n} \sum_{(\mu,\nu) \in \operatorname{Sh}_{p,q}} (v_{\mu_1} \otimes \dots \otimes v_{\mu_p}) \otimes (v_{\nu_1} \otimes \dots \otimes v_{\nu_q})." >}}
+{{< tex display="\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p+q=n} \sum_{(\mu,\nu) \in \operatorname{Sh}_{p,q}} (v_{\mu_1} \otimes \dots \otimes v_{\mu_p}) \otimes (v_{\nu_1} \otimes \dots \otimes v_{\nu_q})." >}}
 
 Note that the coproduct is cocommutative, but the product is not commutative.
 
@@ -80,11 +80,11 @@ Note that the coproduct is cocommutative, but the product is not commutative.
 
 The tensor coalgebra {{< tex "T^c(V)" >}} on some dg-module {{< tex "V" >}} is also given by:
 
-{{< texd "T^c(V) = \bigoplus_{n \ge 0} V^{\otimes n}." >}}
+{{< tex display="T^c(V) = \bigoplus_{n \ge 0} V^{\otimes n}." >}}
 
 The underlying dg-module is the same, but the Hopf algebra structure is different. Now it's the coproduct that's described more easily: it is given by deconcatenation of tensors,
 
-{{< texd "\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p=0}^n (v_1 \otimes \dots \otimes v_p) \otimes (v_{p+1} \otimes \dots \otimes v_n)." >}}
+{{< tex display="\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p=0}^n (v_1 \otimes \dots \otimes v_p) \otimes (v_{p+1} \otimes \dots \otimes v_n)." >}}
 
 The counit is again given by {{< tex "\varepsilon(v_1 \otimes \dots \otimes v_n) = 0" >}} if {{< tex "n \ge 1" >}}. Then {{< tex "T^c(V)" >}} is the cofree *conilpotent* coassociative coalgebra on {{< tex "V" >}}: for every conilpotent coalgebra {{< tex "C" >}} and every dg-linear morphism {{< tex "f : C \to V" >}}, there exists a unique dg-coalgebra morphism {{< tex "C \to T^c(V)" >}} lifting {{< tex "f" >}} through the obvious projection {{< tex "T^c(V) \to V" >}}. (A fun exercise.)
 

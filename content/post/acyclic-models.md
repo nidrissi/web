@@ -30,7 +30,7 @@ The functor {{< tex "T" >}} is then said to be **representable** (the terminolog
 
 In other words, this means that for all {{< tex "A \in \mathsf{C}" >}}, {{< tex "T(A)" >}} has a "basis" (consisting of models objects) which is described by {{< tex "\Psi" >}}: {{< tex "\Psi_A : T(A) \to \widetilde{T}(A)" >}} sends {{< tex "x \in T(A)" >}} to a sum {{< tex "\sum_{\alpha} (M_\alpha, \varphi_\alpha, m_\alpha)" >}} such that
 
-{{< texd "x = \sum_\alpha T(\varphi_\alpha)(m_\alpha)." >}}
+{{< tex display="x = \sum_\alpha T(\varphi_\alpha)(m_\alpha)." >}}
 
 When a functor is representable, we will be able to check equalities on {{< tex "\mathcal{M}" >}}, and equalities on {{< tex "\mathsf{C}" >}} will follow.
 
@@ -40,7 +40,7 @@ Now suppose we are given a functor {{< tex "K : \mathsf{C} \to \mathsf{Ch}" >}} 
 
 If {{< tex "K" >}} and {{< tex "L" >}} are two such functors, then we can define maps {{< tex "K \to L" >}} in the obvious way, and we can also define truncated maps in degrees {{< tex "\le n" >}}. Similarly given two maps, we can define homotopies between then, as well as truncated homotopies, which satisfy
 
-{{< texd "\partial_{q+1} h_q + h_{q-1} \partial_q = g_q - f_q" >}}
+{{< tex display="\partial_{q+1} h_q + h_{q-1} \partial_q = g_q - f_q" >}}
 
 in degrees {{< tex "\le n" >}}.
 
@@ -50,7 +50,7 @@ in degrees {{< tex "\le n" >}}.
 
 Now we let {{< tex "\Lambda : \widetilde{K_q} \to L_q" >}} be defined by
 
-{{< texd "\Lambda_A(M, \varphi, m) := L_q(\varphi)(\lambda(m))." >}}
+{{< tex display="\Lambda_A(M, \varphi, m) := L_q(\varphi)(\lambda(m))." >}}
 
 It's easy to check that this is a natural transformation, and that {{< tex "\partial_q \Lambda = f_{q-1} \partial_q \Phi" >}} (where {{< tex "\Phi : \widetilde{K_q} \to K_q" >}} is the canonical morphism).
 
@@ -76,21 +76,21 @@ A functor {{< tex "T : \mathsf{C} \to \mathsf{Ab}" >}} is the same thing as a gr
 
 Let {{< tex "S_* : \mathsf{Top} \to \mathsf{Ch}" >}} be the classical "singular chains" functor. The abelian group {{< tex "S_n(X)" >}} is free on maps {{< tex "\Delta^n \to X" >}}, where {{< tex "\Delta^n" >}} is the standard {{< tex "n" >}}-simplex:
 
-{{< texd "\Delta^n = \{ (x_0, \dots, x_n) \in [0,1]^{n+1} \mid \sum x_i = 1 \}," >}}
+{{< tex display="\Delta^n = \{ (x_0, \dots, x_n) \in [0,1]^{n+1} \mid \sum x_i = 1 \}," >}}
 
 and {{< tex "\partial_n : S_n(X) \to S_{n-1}(X)" >}} is the usual differential {{< tex "\partial_n = \sum_i (-1)^i d_i" >}}. We consider the augmented version with {{< tex "S_{-1}(X) = \mathbb{Z}" >}} and {{< tex "\partial_0(x) = 1" >}} for all {{< tex "x \in X = S_0(X)" >}}.
 
 Now {{< tex "\Delta^\bullet" >}} is in fact a cosimplicial space, and so we get degeneracy maps {{< tex "s_j : S_n(X) \to S_{n+1}(X)" >}}. For a simplex {{< tex "\sigma : \Delta^n \to X" >}}, its degeneracy is given by:
 
-{{< texd "s_j(\sigma)(x_0, \dots, x_{n+1}) = \sigma(x_0, \dots, x_j + x_{j+1}, \dots, x_{n+1})." >}}
+{{< tex display="s_j(\sigma)(x_0, \dots, x_{n+1}) = \sigma(x_0, \dots, x_j + x_{j+1}, \dots, x_{n+1})." >}}
 
 These, together with the {{< tex "d_i" >}}, satisfy the usual simplicial identities. One can then normalize the singular chains functor, either by letting
 
-{{< texd "\bar{S}_{n+1}(X) = S_{n+1}(X) / \operatorname{im}(s_n : S_n(X) \to S_{n+1}(X))" >}}
+{{< tex display="\bar{S}_{n+1}(X) = S_{n+1}(X) / \operatorname{im}(s_n : S_n(X) \to S_{n+1}(X))" >}}
 
 (the complex "normalized at the top") or by letting
 
-{{< texd "S^N(X) = S_n(X) / \bigcup_{j=0}^{n-1} \operatorname{im}(s_j)" >}}
+{{< tex display="S^N(X) = S_n(X) / \bigcup_{j=0}^{n-1} \operatorname{im}(s_j)" >}}
 
 (the "normalized complex").
 
@@ -112,25 +112,25 @@ Let {{< tex "M" >}} and {{< tex "N" >}} be two simplicial modules over some ring
 
 The two complexes are both equal to {{< tex "M_0 \otimes N_0" >}} is degree zero. This gives the base case for the induction (we can just take the map to be the identity). One can then choose as models the simplicial modules given by {{< tex "\Delta^n \otimes R" >}}, which can easily be proven to be acyclic. The adjunctions
 
-{{< texd "\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M_\bullet) \cong M_n" >}}
+{{< tex display="\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M_\bullet) \cong M_n" >}}
 
 can then be used to prove that both functors are representable. (I'm omitting a lot of computations here! Though most of it is straightforward.) The acyclic models technique then yields the equivalence:
 
-{{< texd "(M \times N)_* \simeq M_* \otimes N_*." >}}
+{{< tex display="(M \times N)_* \simeq M_* \otimes N_*." >}}
 
 Again, what's really interesting is that both maps (and both homotopies!) can be described completely explicitly once you make the right choices (you need to go back to the proof of the first theorem to know what choices I'm talking about). The map {{< tex "f : (M \times N)_* \to M_* \otimes N_*" >}} is known as the *Alexander--Whitney* map, and it is given by (for {{< tex "a \in A_n" >}}, {{< tex "b \in B_n" >}}):
 
-{{< texd "f(a \times b) = \sum_{i = 0}^n \bar{d}^{n-i}a \otimes d_0^i b," >}}
+{{< tex display="f(a \times b) = \sum_{i = 0}^n \bar{d}^{n-i}a \otimes d_0^i b," >}}
 
 where {{< tex "d_0 : B_k \to B_{k-1}" >}} is the {{< tex "0" >}}th face and {{< tex "\bar{d} = d_k : A_k \to A_{k-1}" >}} is the "last" face.
 
 Conversely, {{< tex "g : M_* \otimes N_* \to (M \times N)_*" >}} is known as the *Eilenberg--Zilber* map, given by (for {{< tex "a \in A_p" >}}, {{< tex "b \in B_q" >}}):
 
-{{< texd "g(a \otimes b) = \sum_{(\mu, \nu) \in \mathrm{Sh}_{p,q}} \pm s_{\nu} a \times s_{\mu} b." >}}
+{{< tex display="g(a \otimes b) = \sum_{(\mu, \nu) \in \mathrm{Sh}_{p,q}} \pm s_{\nu} a \times s_{\mu} b." >}}
 
 The sum runs over all {{< tex "(p,q)" >}}-shuffles, with (for {{< tex "p+q = n" >}}):
 
-{{< texd "\mathrm{Sh}_{p,q} = \{ (\mu, \nu) \in \{1,\dots,n\}^p \times \{1,\dots,n\}^q \mid \mu(1) < \dots < \mu(p), \nu(1) < \dots < \nu(q), \mu(i) \neq \nu(j) \}" >}}
+{{< tex display="\mathrm{Sh}_{p,q} = \{ (\mu, \nu) \in \{1,\dots,n\}^p \times \{1,\dots,n\}^q \mid \mu(1) < \dots < \mu(p), \nu(1) < \dots < \nu(q), \mu(i) \neq \nu(j) \}" >}}
 
 and where {{< tex "s_{\mu} = s_{\mu(p)} \circ \dots \circ s_{\mu(1)}" >}}, and {{< tex "s_{\nu} = s_{\nu(q)} \circ \dots \circ s_{\nu(1)}" >}}. (The reader is encouraged to see explicitly what this all means in small cases, say {{< tex "(p,q) = (1,2)" >}}).
 
