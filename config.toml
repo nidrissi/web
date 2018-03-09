@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = true
 
   css = ['bundle.css']
   css_footer = ['bundle.footer.css']
-  js = ['jquery.slim.min.js', 'bootstrap.min.js', 'piwik.js']
+  js = ['jquery.slim.min.js', 'bootstrap.min.js', 'fontawesome-all.min.js', 'piwik.js']
 
   [[params.social]]
     icon = "ai-arxiv"
