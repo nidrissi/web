@@ -2,7 +2,7 @@
 {{ range .Site.Params.js }}
 <script defer src="/js/{{ . }}"></script>
 {{ end }}
-<script async src="/mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
+<script async src="/mathjax/MathJax.js?config=TeX-MML-AM_SVG"></script>
 {{ range .Site.Params.css_footer }}
 <link rel="stylesheet" href="/css/{{ . }}">
 {{ end }}
