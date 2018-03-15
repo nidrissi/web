@@ -48,8 +48,8 @@ Invité par Haynes Miller</dd>
 
 ##### Prépublications
 
-1. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *Configuration Spaces of Manifolds with Boundary.* 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
-2. Najib Idrissi. *The Lambrechts–Stanley Model of Configuration Spaces.* Version 3 (submitted). 2016. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+1. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *Configuration Spaces of Manifolds with Boundary.* 2018. 107 pages. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
+2. Najib Idrissi. *The Lambrechts–Stanley Model of Configuration Spaces.* Version 3 (submitted). 2016. 50 pages. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
 
 ##### Autres documents
 
