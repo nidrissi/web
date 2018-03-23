@@ -19,8 +19,7 @@
                 <a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
                 <br>
                 {{ range $.Site.Params.social }}
-                {{ $pack := or .icon_pack "fa" }}
-                <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener"><i class="{{ $pack }} {{ .icon }} fa-lg ai-lg"></i></a>
+                <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .icon | safeHTML }}</a>
                 {{ end }}
             </div>
         </div>
