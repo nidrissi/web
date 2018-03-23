@@ -12,7 +12,6 @@
     {{ end }}
     <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
-
     {{ range .Site.Params.css }}
     <link rel="stylesheet" href="/css/{{ . }}">
     {{ end }}
@@ -64,6 +63,15 @@
     {{ end }}
 
     <title>{{ if not .IsHome }}{{ .Title }}{{ with .Params.event }} @ {{ . }}{{ end }} | {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{- if .IsPage -}}
+                    {{- if or .Type "publication" .Type "talk" -}}
+          {{- with .Params.abstract -}}{{- . -}}{{- end -}}
+          {{- else -}}
+          {{- .Summary -}}
+          {{- end -}}
+          {{- else -}}
+          {{- with .Site.Params.role -}}{{- . -}}{{- end -}}
+          {{- end -}}">
 
   </head>
   <body>
