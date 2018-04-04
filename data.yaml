@@ -1,5 +1,5 @@
 ---
-title: Curriculum Vitæ | fr ! Curriculum Vitæ | en
+title: Curriculum Vitæ (fr) ! Curriculum Vitæ (en)
 firstname: Najib
 familyname: Idrissi
 address:
@@ -7,8 +7,8 @@ address:
   - Rämistrasse 101
   - 8092 Zürich, Suisse ! 8092 Zürich, Switzerland
 email: najib.idrissi@math.ethz.ch
-extrainfo: ''
-homepage: idrissi.eu/fr ! idrissi.eu
+extrainfo: 2018-03-24
+homepage: https://idrissi.eu/fr ! https://idrissi.eu
 moderntl:
   first: 2011
   last: 2020
@@ -167,14 +167,21 @@ section:
           - Centre international de rencontres mathématique
           - Marseille
           - France
-          - ~
+          - TBA
+      - content:
+          - 06/2018\*
+          - "École d'été ``Derived Geometry and Higher Categorical Structures in Geometry and Physics'' (orateur junior) ! Summer school ``Derived Geometry and Higher Categorical Structures in Geometry and Physics'' (junior speaker)"
+          - Fields Institute
+          - Toronto
+          - Canada
+          - TBA
       - content:
           - 05/2018\*
           - Graph Complexes, Configuration Spaces and Manifold Calculus
           - University of British Columbia
           - Vancouver
           - Canada
-          - ~
+          - Configuration Spaces of Manifolds with Boundary
       - content:
           - 10/2017
           - Séminaire Itinérant de Catégories
