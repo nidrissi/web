@@ -25,4 +25,8 @@ url = "https://hal.archives-ouvertes.fr/hal-01438863"
 [[url_custom]]
 name = "MathSciNet"
 url = "http://www.ams.org/mathscinet-getitem?mr=3704940"
+
+[[url_custom]]
+name = "zbmath"
+url = "https://zbmath.org/?q=an:06808424"
 +++
