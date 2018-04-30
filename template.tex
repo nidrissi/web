@@ -18,33 +18,6 @@
 \usepackage[defernumbers=true,sorting=nyt, maxnames=10]{biblatex}
 \addbibresource{research.bib}
 
-% timeline
-\usepackage[firstyear=$moderntl.first$,lastyear=$moderntl.last$]{moderntimeline}
-
-% https://tex.stackexchange.com/a/289622/14965
-\makeatletter
-\renewcommand{\tl@formatstartyear}[1]{
-  \startyeartrue
-  \tl@yearfraction{#1}
-  \pgfmathsetmacro\tl@startfraction{(\tl@startyear-\tl@firstyear)/(\tl@lastyear-\tl@firstyear)}%
-  \ifissince
-    \xdef\tl@startlabel{\tl@since \tl@tmpmonth/\tl@tmpyear}
-  \else
-    \xdef\tl@startlabel{\tl@tmpmonth/\tl@tmpyear}
-  \fi
-}
-\renewcommand{\tl@formatendyear}[1]{
-  \startyearfalse%
-  \tl@yearfraction{#1}
-  \pgfmathsetmacro\tl@endfraction{(\tl@endyear-\tl@firstyear)/(\tl@lastyear-\tl@firstyear)}%
-  \ifissince%
-    \xdef\tl@endlabel{}
-  \else
-    \xdef\tl@endlabel{\tl@tmpmonth/\tl@tmpyear}
-  \fi
-}
-\makeatother
-
 \title{$title$}
 \firstname{$firstname$}
 \familyname{$familyname$}
@@ -62,7 +35,7 @@ $for(section)$
 
 $for(section.entry)$
   $if(section.entry.content)$
-    \$if(section.entry.timeline)$tl$if(section.entry.label)$label$endif$$endif$cventry
+    \cventry
     $for(section.entry.content)$ {$section.entry.content$} $endfor$
   $endif$
   $if(section.entry.subsection)$\subsection{$section.entry.subsection$}$endif$
