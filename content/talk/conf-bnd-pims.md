@@ -14,7 +14,7 @@ event = "Graph Complexes, Configuration Spaces and Manifold Calculus"
 event_url = "https://www.pims.math.ca/scientific-event/180522-gccsmc"
 location = "University of British Columbia, Canada"
 url_pdf = "/pdf/papers/config-boundary.pdf"
-url_slides = ""
+url_slides = "/pdf/slides/vancouver18.pdf"
 url_video = ""
 url_code = ""
 +++
