@@ -1,7 +1,7 @@
 +++
 title = "Configuration Spaces of Manifolds with Boundary"
-date = 2018-05-22
-TBA = true
+date = 2018-05-24
+TBA = false
 draft = false
 abstract = """
 We study the real homotopy type of configuration spaces of smooth compact manifolds with boundary. We built combinatorial model based on graph complexes for these configuration spaces. We have three different approaches:
