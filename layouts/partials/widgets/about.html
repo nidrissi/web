@@ -1,62 +1,117 @@
 {{ $ := .root }}
 {{ $page := .page }}
+{{ $autolink := default true $page.Params.autolink }}
 
 <!-- About widget -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
-    <link itemprop="url" href="{{ $.Site.BaseURL }}">
-    <div class="col-12 col-md-4">
-        <div class="card text-center">
-            <img class="card-img-top w-75 mx-auto" src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}" alt="Photo">
-            <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}">
+  <link itemprop="url" href="{{ $.Site.BaseURL }}">
+  <div class="col-12 col-md-4">
+    <div class="card text-center">
+      <img class="card-img-top w-75 mx-auto" src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}" alt="Photo">
+      <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}">
 
-            <div class="card-body">
-                <h4 itemprop="name" class="card-title">{{ $.Site.Params.name }}</h5>
-                {{ with $.Site.Params.email }}
-                <h6 class="card-subtitle"><a href="mailto:{{ . }}">{{ . }}</a></h6>
-                {{ end }}
-                <span itemprop="jobTitle">{{ $.Site.Params.role }}</span>
-                &ndash;
-                <a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
-                <br>
-                {{ range $.Site.Params.social }}
-                <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .icon | safeHTML }}</a>
-                {{ end }}
-            </div>
-        </div>
+      <div class="card-body">
+        <h4 itemprop="name" class="card-title">{{ $.Site.Params.name }}</h5>
+          {{ with $.Site.Params.email }}
+          <h6 class="card-subtitle"><a href="mailto:{{ . }}">{{ . }}</a></h6>
+          {{ end }}
+          <span itemprop="jobTitle">{{ $.Site.Params.role }}</span>
+          &ndash;
+          <a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
+          <br>
+          {{ range $.Site.Params.social }}
+          <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .icon | safeHTML }}</a>
+          {{ end }}
+      </div>
     </div>
-    <div class="col-12 col-md-8" itemprop="description">
+  </div>
+  <div class="col-12 col-md-8" itemprop="description">
 
-        {{ $page.Content }}
+    {{ $page.Content }}
 
-        <div class="row">
+    <h4>Contact</h4>
+    <ul class="fa-ul mb-0" itemscope>
+        {{ with $.Site.Params.email }}
+        <li>
+          <svg class="svg-inline--fa fa-envelope fa-w-16 fa-li" aria-hidden="true" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+          <span itemprop="email">
+            {{- if $autolink }}<a href="mailto:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+          </span>
+        </li>
+        {{ end }}
 
-            {{ with $page.Params.interests }}
-            <div class="col-sm-5">
-                <h4>{{ i18n "interests" | markdownify }}</h4>
-                <ul class="list-unstyled">
-                    {{ range .interests }}
-                    <li>{{ . | markdownify }}</li>
-                    {{ end }}
-                </ul>
-            </div>
-            {{ end }}
+        {{ with $.Site.Params.discussion }}
+        <li>
+          <i class="fa-li fas fa-comments-o"></i>
+          <span>
+            <a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>
+          </span>
+        </li>
+        {{ end }}
 
-            {{ with $page.Params.education }}
-            <div class="col-sm-7">
-                <h4>{{ i18n "education" | markdownify }}</h4>
-                <ul class="fa-ul">
-                    {{ range .courses }}
-                    <li>
-                        <i class="fa-li fas fa-graduation-cap"></i>
-                        {{ .course }}{{ with .year }}, {{ . }}{{ end }}
-                        <br>
-                        {{ with .url }}<a href="{{ . }}">{{ end }}{{ .institution }}{{ if .url }}</a>{{ end }}
-                    </li>
-                    {{ end }}
-                </ul>
-            </div>
-            {{ end }}
+        {{ with $.Site.Params.keybase }}
+        <li>
+          <i class="fa-li fas fa-lock"></i>
+          <span>
+            <a href="https://keybase.io/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a> on Keybase.
+          </span>
+        </li>
+        {{ end }}
 
-        </div>
+        {{ with $.Site.Params.phone }}
+        <li>
+          <i class="fa-li fas fa-phone"></i>
+          <span itemprop="telephone">
+            {{- if $autolink }}<a href="tel:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+          </span>
+        </li>
+        {{ end }}
+
+        {{ with $.Site.Params.skype }}
+        <li>
+          <i class="fa-li fab fa-skype"></i>
+          <span>
+            {{- if $autolink }}<a href="skype:{{ . }}?call">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+          </span>
+        </li>
+        {{ end }}
+
+        {{ with $.Site.Params.telegram }}
+        <li>
+          <i class="fa-li fab fa-telegram"></i>
+          <span>
+            {{- if $autolink }}<a href="https://telegram.me/{{ . }}" target="_blank" rel="noopener">@{{ . }}</a>{{ else }}@{{ . }}{{ end -}}
+          </span>
+        </li>
+        {{ end }}
+
+        {{ with $.Site.Params.address }}
+        <li>
+          <svg class="svg-inline--fa fa-map fa-w-18 fa-li" aria-hidden="true" data-prefix="fas" data-icon="map" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M576 56.015v335.97a23.998 23.998 0 0 1-13.267 21.466l-128 64C418.948 485.344 400 473.992 400 455.985v-335.97a23.998 23.998 0 0 1 13.267-21.466l128-64C557.052 26.656 576 38.008 576 56.015zm-206.253 42.07l-144-64c-15.751-7-33.747 4.461-33.747 21.932v335.967a24 24 0 0 0 14.253 21.931l144 64c15.751 7 33.747-4.461 33.747-21.931V120.017a24 24 0 0 0-14.253-21.932zm-228.48-63.536l-128 63.985A23.998 23.998 0 0 0 0 120v335.985c0 18.007 18.948 29.359 34.733 21.466l128-63.985A23.998 23.998 0 0 0 176 392V56.015c0-18.007-18.948-29.359-34.733-21.466z"></path></svg>
+          <span id="person-address" itemprop="address">{{ replace . "\n" "<br>" | safeHTML }}</span>
+        </li>
+        {{ end }}
+
+        {{ with $.Site.Params.office}}
+        <li>
+          <svg class="svg-inline--fa fa-building fa-w-14 fa-li" aria-hidden="true" data-prefix="fas" data-icon="building" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M436 480h-20V24c0-13.255-10.745-24-24-24H56C42.745 0 32 10.745 32 24v456H12c-6.627 0-12 5.373-12 12v20h448v-20c0-6.627-5.373-12-12-12zM128 76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76zm0 96c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40zm52 148h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40c0 6.627-5.373 12-12 12zm76 160h-64v-84c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v84zm64-172c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12v-40c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40zm0-96c0 6.627-5.373 12-12 12h-40c-6.627 0-12-5.373-12-12V76c0-6.627 5.373-12 12-12h40c6.627 0 12 5.373 12 12v40z"></path></svg>
+          <span>{{ . }}</span>
+        </li>
+        {{ end }}
+
+        {{ with $.Site.Params.office_hours }}
+        <li>
+          <i class="fa-li far fa-clock"></i>
+          <span>{{ . }}</span>
+        </li>
+        {{ end }}
+
+        {{ with $.Site.Params.gpg_key_url }}
+        <li>
+          <svg class="svg-inline--fa fa-key fa-w-16 fa-li" aria-hidden="true" data-prefix="fas" data-icon="key" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M512 176.001C512 273.203 433.202 352 336 352c-11.22 0-22.19-1.062-32.827-3.069l-24.012 27.014A23.999 23.999 0 0 1 261.223 384H224v40c0 13.255-10.745 24-24 24h-40v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-78.059c0-6.365 2.529-12.47 7.029-16.971l161.802-161.802C163.108 213.814 160 195.271 160 176 160 78.798 238.797.001 335.999 0 433.488-.001 512 78.511 512 176.001zM336 128c0 26.51 21.49 48 48 48s48-21.49 48-48-21.49-48-48-48-48 21.49-48 48z"></path></svg>
+          <a href="{{ . | relLangURL }}">{{ i18n "gpg_key" | markdownify }}</a>
+        </li>
+        {{ end }}
+      </ul>
     </div>
 </div>
