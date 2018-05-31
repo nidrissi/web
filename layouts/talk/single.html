@@ -1,54 +1,46 @@
 {{ partial "header.html" . }}
 <article itemscope itemtype="http://schema.org/Event">
-    <div class="pub-title">
-        <h1 itemprop="name">{{ .Title }}</h1>
-        <span itemprop="author">
-            {{ with .Params.authors }}
-            {{ delimit . ", " }}
-            {{ end }}
-        </span>
-    </div>
-
-    <dl class="row">
-        <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
-        <dd class="col-12 col-sm-10" itemprop="startDate">
-            {{ (time .Date).Format $.Site.Params.date_format }}
-            <div class="talk-time">
-                {{ if $.Site.Params.talks.time }}
-                {{ (time .Date).Format ($.Site.Params.time_format | default "3:04 PM") }}
-                {{ end }}
-            </div>
-        </dd>
-
-        <dt class="col-12 col-sm-2">{{ i18n "event" }}</dt>
-        <dd class="col-12 col-sm-10">
-            {{ with .Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
-            {{ .Params.event | markdownify }}
-            {{ if .Params.event_url }}</a>{{ end }}
-        </dd>
-
-        {{ with .Params.location }}
-        <dt class="col-12 col-sm-2">{{ i18n "location" }}</dt>
-        <dd class="col-12 col-sm-10" itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . | markdownify }}</span></dd>
+  <dl class="row">
+    <dt class="col-12 col-sm-2">{{ i18n "title" }}</dt>
+    <dd class="col-12 col-sm-10" itemprop="name">{{ .Title }}
+    </dd>
+    <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
+    <dd class="col-12 col-sm-10" itemprop="startDate">
+      {{ (time .Date).Format $.Site.Params.date_format }}
+      <div class="talk-time">
+        {{ if $.Site.Params.talks.time }}
+        {{ (time .Date).Format ($.Site.Params.time_format | default "3:04 PM") }}
         {{ end }}
+      </div>
+    </dd>
 
-        {{ if .Params.url_pdf | or .Params.url_slides | or .Params.url_video | or .Params.url_code | or .Params.projects | or .Params.url_custom }}
-        <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
-        <dd class="col-12 col-sm-10">
-            {{ partial "talk_links" (dict "content" . "is_card" 0) }}
-        </dd>
-        {{ end }}
-    </dl>
+    <dt class="col-12 col-sm-2">{{ i18n "event" }}</dt>
+    <dd class="col-12 col-sm-10">
+      {{ with .Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}
+      {{ .Params.event | markdownify }}
+      {{ if .Params.event_url }}</a>{{ end }}
+    </dd>
 
-    {{ with .Params.abstract }}
-    <h3>{{ i18n "abstract" }}</h3>
-    <p itemprop="description">{{ . | markdownify }}</p>
-    <hr>
+    {{ with .Params.location }}
+    <dt class="col-12 col-sm-2">{{ i18n "location" }}</dt>
+    <dd class="col-12 col-sm-10" itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . | markdownify }}</span></dd>
     {{ end }}
 
-    <div>{{ .Content }}</div>
+    {{ with .Params.abstract }}
+    <dt class="col-12 col-sm-2">{{ i18n "abstract" }}</dt>
+    <dd class="col-12 col-sm-10" itemprop="description">{{ . | markdownify }}</dd>
+    {{ end }}
+    {{ if .Params.url_pdf | or .Params.url_slides | or .Params.url_video | or .Params.url_code | or .Params.projects | or .Params.url_custom }}
+    <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
+    <dd class="col-12 col-sm-10">
+      {{ partial "talk_links" (dict "content" . "is_card" 0) }}
+    </dd>
+    {{ end }}
+  </dl>
 
-    {{ partial "section_pager.html" . }}
+  <div>{{ .Content }}</div>
+
+  {{ partial "section_pager.html" . }}
 </article>
 
 {{ partialCached "footer.html" . }}
