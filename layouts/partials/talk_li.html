@@ -6,11 +6,12 @@
       </a>
     </h5>
     <h6 class="card-subtitle">
-        <span itemprop="startDate">{{ (time .Date).Format $.Site.Params.date_format }}</span>{{ if .Params.TBA }}?{{ end }}
-        {{ with .Params.location }}&ndash; <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
-        &ndash;
-        {{ i18n "title" }}: {{ .Title }} 
+      <span itemprop="startDate">{{ (time .Date).Format $.Site.Params.date_format }}</span>{{ if .Params.TBA }}?{{ end }}
+      {{ with .Params.location }}&ndash; <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
+      &ndash;
+      <a class="dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="collapseExample">Info</a>
     </h6>
+    <p id="talk-{{ .UniqueID }}" class="collapse card-text"><strong>{{ .Params.Title }}</strong><br>{{ i18n "abstract" }}: {{ .Params.Abstract }}</p>
     {{ partial "talk_links" (dict "content" . "is_card" 1) }}
   </div>
 </div>
