@@ -154,9 +154,9 @@ section:
           - Fields Institute
           - Toronto
           - Canada
-          - TBA
+          - Curved Koszul Duality for Algebras over Unital Operads
       - content:
-          - 05/2018\*
+          - 05/2018
           - Graph Complexes, Configuration Spaces and Manifold Calculus
           - University of British Columbia
           - Vancouver
@@ -177,6 +177,13 @@ section:
           - Tunisie ! Tunisia
           - The Lambrechts--Stanley Model of Configuration Spaces
       - subsection: Séminaires ! Seminars
+      - content:
+         - 06/2018
+         - Department colloquium
+         - University of Regina
+         - Regina (SK)
+         - Canada
+         - Configuration Spaces and Graphs Complexes
       - content:
           - 12/2017
           - Séminaire de topologie, géométrie et algèbre
@@ -338,7 +345,14 @@ section:
           - France
           - ~
       - content:
-          - 05/2018\*
+          - 06/2018\*
+          - "École d'été ``Derived Geometry and Higher Categorical Structures in Geometry and Physics'' ! Summer school ``Derived Geometry and Higher Categorical Structures in Geometry and Physics''"
+          - Fields Institute
+          - Toronto
+          - Canada
+          - ~
+      - content:
+          - 05/2018
           - Graph Complexes, Configuration Spaces and Manifold Calculus
           - University of British Columbia
           - Vancouver
