@@ -8,19 +8,16 @@
         <div itemprop="articleBody">{{ . }}</div>
         {{ end }}
 
-        {{ $paginator := .Paginate (where .Data.Pages "Type" "talk") }}
         <div class="row">
-            {{ range $paginator.Pages.GroupByDate "2006" }}
+          {{ range (where .Data.Pages "Type" "talk").GroupByDate "2006" }}
             <h3 class="col-md-2">{{ .Key }}</h3>
             <div class="col-md-10">
-                {{ range .Pages.ByDate.Reverse }}
-                {{ partial "talk_li" . }}
-                {{ end }}
+              {{ range .Pages.ByDate.Reverse }}
+              {{ partial "talk_li" . }}
+              {{ end }}
             </div>
             {{ end }}
         </div>
-
-        {{ partial "pagination" . }}
     </div>
 </div>
 {{ partialCached "footer.html" . }}
