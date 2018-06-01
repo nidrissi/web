@@ -2,8 +2,8 @@
   <div class="card-body px-3 py-2">
     <h5 class="card-title" itemprop="name">
       {{ .Params.event | markdownify }}
-      {{ with .Params.location }}@ <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
     </h5>
+    {{ with .Params.location }}<h6 class="card-subtitle" itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></h6>{{ end }}
     <span class="card-link" itemprop="startDate">{{ (time .Date).Format $.Site.Params.date_format }}{{ if .Params.TBA }}?{{ end }}</span>
     <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="collapseExample">{{ i18n "title" }}+{{ i18n "abstract" }}</a>
     {{ partial "talk_links" (dict "content" . "is_card" 1) }}
