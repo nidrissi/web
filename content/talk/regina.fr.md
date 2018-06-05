@@ -8,7 +8,7 @@ event = "Colloque du département"
 event_url = ""
 location = "University of Regina"
 url_pdf = ""
-url_slides = ""
+url_slides = "/pdf/slides/regina.pdf"
 url_video = ""
 url_code = ""
 +++
