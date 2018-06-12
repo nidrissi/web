@@ -1,14 +1,14 @@
 <div class="card" itemscope itemtype="http://schema.org/Event">
   <div class="card-body px-3 py-2">
     <h5 class="card-title" itemprop="name">
-      {{ .Params.event | markdownify }}
+      {{ with .Params.event_url }}<a class="card-link" href="{{ . }}">{{ end}}{{ .Params.event | markdownify }}{{ with .Params.event_url }}</a>{{ end }}
     </h5>
     <h6 class="card-subtitle">
       <span itemprop="startDate">{{ (time .Date).Format $.Site.Params.date_format }}{{ if .Params.TBA }}?{{ end }}</span>
       {{ with .Params.location }}&ndash; <span class="card-subtitle" itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
     </h6>
     <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="collapseExample">{{ i18n "title" }}+{{ i18n "abstract" }}</a>
-    {{ with .Params.event_url }}<a class="card-link" href="{{ . }}">{{ i18n "event" }}</a>{{ end }}
+    
     {{ partial "talk_links" (dict "content" . "is_card" 1) }}
     <p id="talk-{{ .UniqueID }}" class="collapse card-text"><strong>{{ .Params.Title }}</strong><br>{{ i18n "abstract" }}: {{ .Params.Abstract }}</p>
   </div>
