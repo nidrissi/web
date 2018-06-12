@@ -12,5 +12,4 @@ Starting in September, I will be *maître de conférences* at [Université Paris
 
 I am currently a postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 [I completed my PhD]({{< relref "research/thesis.md" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse) at [Université Lille 1](https://www.univ-lille.fr) in November 2017.
-Before that I was a student of the [École Normale Supérieure](https://www.ens.fr).
 You can find more info [my CV]({{< relref "cv.md" >}}).
