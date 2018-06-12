@@ -11,6 +11,6 @@ I am mainly interested in operads and their applications to algebraic topology, 
 Starting in September, I will be *maître de conférences* at [Université Paris Diderot](https://www.univ-paris-diderot.fr), affiliated to the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr), and to the [mathematics teaching department](https://www.math.univ-paris-diderot.fr/).
 
 I am currently a postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
-[I completed my PhD]({{< relref "research/thesis.md" >}}) in November 2017 under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse) at [Université Lille 1](https://www.univ-lille.fr).
+[I completed my PhD]({{< relref "research/thesis.md" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse) at [Université Lille 1](https://www.univ-lille.fr) in November 2017.
 Before that I was a student of the [École Normale Supérieure](https://www.ens.fr).
 You can find more info [my CV]({{< relref "cv.md" >}}).
