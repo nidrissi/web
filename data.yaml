@@ -9,67 +9,51 @@ address:
 email: najib.idrissi@math.ethz.ch
 homepage: https://idrissi.eu/fr ! https://idrissi.eu
 section:
-  - title: Travail ! Work
+  - title: Parcours ! Career
     entry:
       - content:
-          - 02/2018--
+          - 09/2018--ajd. ! 09/2018--now
+          - Maître de conférences
+          - Université Paris Diderot -- IMJ-PRG
+          - Paris
+          - France
+          - |
+            !
+            Permanent position -- ½ research + ½ teaching -- junior level.
+      - content:
+          - 02/2018--08/2018
           - Chercheur postdoctorant ! Postdoctoral researcher
-          - ETH Zürich
-          - Zürich, Suisse ! Zürich, Switzerland
-          - ~
+          - ETH Zürich -- D-MATH
+          - Zürich
+          - Suisse ! Switzerland
           - "Superviseur : Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Supervisor: Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
       - content:
-          - 09/2015--01/2018
-          - Doctorant contractuel ! Contractual PhD student
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille, France
-          - ~
-          - "Directeur de thèse : Benoit Fresse. Financé par une Allocation Spécifique de l'ENS. ! Advisor: Benoit Fresse. Funded by an *Allocation Spécifique* of the ENS."
-  - title: Études ! Education
-    entry:
-      - content:
-          - 09/2015--11/2017
+          - 09/2015--01/201
           - Doctorat en Mathématiques ! PhD in Mathematics
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille, France
-          - ~
+          - Université Lille\ 1 -- Laboratoire Paul Painlevé
+          - Lille
+          - France
           - |
               Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
-              Directeur de thèse : Benoit Fresse. Soutenue le 17 novembre 2017
+              Directeur de thèse : Benoit Fresse. Soutenue le 17 novembre 2017.\
+              Financé par une Allocation Spécifique de l'ENS.
               !
-              Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse. Defended on November 17th, 2017
+              Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse. Defended on November 17th, 2017.
+              Funded by an *Allocation Spécifique* of the ENS.
       - content:
           - 09/2011--08/2015
           - "Élève de l'École Normale Supérieure ! Student of the École Normale Supérieure"
-          - ENS Ulm
-          - Paris, France
-          - Département de Mathématiques et Applications
-          - ~
-      - content:
-          - 09/2014--08/2015
-          - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille, France
-          - ~
+          - ENS Ulm -- DMA
+          - Paris
+          - France
           - |
-              En préparation au début d\'un doctorat en 2015. Directeur : Benoit Fresse. ! In preparation for beginning a PhD program in 2015. Advisor: Benoit Fresse.
-      - content:
-          - 09/2013--06/2014
-          - "Master Recherche en Mathématiques Fondamentales ! Research Master's degree in Pure Mathematics"
-          - Université Paris Diderot
-          - Paris, France
-          - ~
-          - |
-             Mémoire de master : *Homologie, complexe de déformations et opérades $E_{n}$*. Directeur : Benoit Fresse.
-             !
-             Master\'s thesis: *Homologie, complexe de déformations et opérades $E_{n}$.* Advisor: Benoit Fresse.
-      - content:
-          - 09--12/2013
-          - Stage de recherche en topologie algébrique ! Research internship in algebraic topology
-          - Massachusetts Institute of Technology
-          - Cambridge (MA), USA
-          - ~
-          - "Hôte : Haynes Miller. ! Host: Haynes Miller."
+            Inclut : Stage de recherche en préparation à un doctorat -- Université Lille 1 (2015) ;\
+            Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot (2014) ;\
+            Stage de recherche en topologie algébrique -- Massachusetts Institute of Technology (Automne 2013)
+            !
+            Includes: Research internship to prepare for a PhD -- Université Lille 1 (2015);\
+            Master's degree in Fundamental Mathematics -- Université Paris Diderot (2014);\
+            Research internship in algebraic topology -- Massachusetts Institute of Technology (Fall 2013)
   - title: Recherche ! Research
     bib:
       - title: Publications
