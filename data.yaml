@@ -28,7 +28,7 @@ section:
           - Suisse ! Switzerland
           - "Superviseur : Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Supervisor: Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
       - content:
-          - 09/2015--01/201
+          - 09/2015--01/2018
           - Doctorat en Mathématiques ! PhD in Mathematics
           - Université Lille\ 1 -- Laboratoire Paul Painlevé
           - Lille
@@ -64,48 +64,30 @@ section:
         key: other
   - title: Enseignement ! Teaching
     entry:
-      - content:
+      - item:
           - 2017--2018
-          - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
-          - Université Lille\ 1
-          - L1 MASS
-          - 1er semestre ! 1st semester
-          - ~
-      - content:
-          - .
-          - Mathématiques fondamentales (colles et tutorat) ! Mathématiques fondamentales (oral exams & tutoring)
-          - Université Lille\ 1
-          - L1 SESI
-          - 1er semestre ! 1st semester
-          - ~
-      - content:
+          - |
+            Analyse 1, L1 MASS (TD) ;
+            Mathématiques fondamentales, L1 SESI (colles et tutorat)
+            !
+            Calculus I, L1 MASS (TA);
+            Fundamental mathematics I, L1 SESI (oral exams & tutoring)
+      - item:
           - 2016--2017
-          - Calcul matriciel (Travaux Dirigés) ! Calcul matriciel (Teaching Assistant)
-          - Université Lille 1
-          - L2 Économie, Gestion, Management
-          - 2ème semestre ! 2nd semester
-          - ~
-      - content:
-          - .
-          - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
-          - Université Lille 1
-          - L1 Économie, Gestion, Management
-          - 2ème semestre ! 2nd semester
-          - ~
-      - content:
-          - .
-          - Analyse 1 (Travaux Dirigés) ! Analyse 1 (Teaching Assistant)
-          - Université Lille\ 1
-          - L1 MASS
-          - 1er semestre ! 1st semester
-          - ~
-      - content:
-          - '2015--2016'
-          - Mathématiques fondamentales 2 (Travaux Dirigés) ! Mathématiques fondamentales 2 (Teaching Assistant)
-          - Université Lille\ 1
-          - L1 SESI
-          - 2ème semestre ! 2nd semester
-          - ~
+          - |
+            Calcul matriciel, L2 éco-gestion-management (TD) ;
+            Analyse 1, L1 éco-gestion-management (TD) ;
+            Analyse 1, L1 MASS (TA)
+            !
+            Matrix calculus, L2 econ-management (TA);
+            Calculus I, L1 econ-management (TA);
+            Calculus I, L1 MASS (TA)
+      - item:
+          - 2015--2016
+          - |
+            Mathématiques fondamentales 2, L1 SESI (TA)
+            !
+            Fundamental mathematics II, L1 SESI (TA)
   - title : Tâches administratives ! Administrative duties
     entry:
       - content:
