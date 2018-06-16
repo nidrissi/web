@@ -12,14 +12,14 @@ section:
   - title: Parcours ! Career
     entry:
       - content:
-          - 09/2018--ajd. ! 09/2018--now
+          - 09/2018--...
           - Maître de conférences
           - Université Paris Diderot -- IMJ-PRG
           - Paris
           - France
           - |
             !
-            Permanent position -- ½ research + ½ teaching -- junior level.
+            Permanent junior faculty position.
       - content:
           - 02/2018--08/2018
           - Chercheur postdoctorant ! Postdoctoral researcher
@@ -34,12 +34,15 @@ section:
           - Lille
           - France
           - |
-              Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
-              Directeur de thèse : Benoit Fresse. Soutenue le 17 novembre 2017.\
-              Financé par une Allocation Spécifique de l'ENS.
-              !
-              Title: *Operadic Formality and Homotopy of Configuration Spaces*. Advisor: Benoit Fresse. Defended on November 17th, 2017.
-              Funded by an *Allocation Spécifique* of the ENS.
+            Soutenue le 17 novembre 2017.\
+            Directeur : Benoit Fresse.
+            Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
+            Financé par une Allocation Spécifique de l'ENS.
+            !
+            Defended on November 17th, 2017.\
+            Advisor: Benoit Fresse.
+            Title: *Operadic Formality and Homotopy of Configuration Spaces*.\
+            Funded by an *Allocation Spécifique* of the ENS.
       - content:
           - 09/2011--08/2015
           - "Élève de l'École Normale Supérieure ! Student of the École Normale Supérieure"
@@ -47,12 +50,12 @@ section:
           - Paris
           - France
           - |
-            Inclut : Stage de recherche en préparation à un doctorat -- Université Lille 1 (2015) ;\
-            Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot (2014) ;\
+            Inclut : Stage de recherche en préparation à un doctorat -- Université Lille 1 (2014--2015) ;\
+            Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot (2013--2014) ;\
             Stage de recherche en topologie algébrique -- Massachusetts Institute of Technology (Automne 2013)
             !
-            Includes: Research internship to prepare for a PhD -- Université Lille 1 (2015);\
-            Master's degree in Fundamental Mathematics -- Université Paris Diderot (2014);\
+            Includes: Research internship in preparation of a PhD -- Université Lille 1 (2014--2015);\
+            Master's degree in Fundamental Mathematics -- Université Paris Diderot (2013--2014);\
             Research internship in algebraic topology -- Massachusetts Institute of Technology (Fall 2013)
   - title: Recherche ! Research
     bib:
@@ -110,7 +113,7 @@ section:
       - content:
           - 01/2019\*
           - Structures Supérieures ! Higher Structures
-          - Centre international de rencontres mathématique
+          - Centre international de rencontres mathématiques
           - Marseille
           - France
           - TBA
