@@ -9,7 +9,7 @@ date: "2018-01-01"
 ### Career
 
 <div class="row">
-<dt class="col-lg-2 col-sm-3">09/2018–</dt>
+<dt class="col-lg-2 col-sm-3">09/2018–…</dt>
 <dd class="col-lg-10 col-sm-9"><em>Maître de conférences</em>, Université Paris Diderot – IMJ-PRG, Paris, France<br>
 <small>(Permanent faculty position, lower of the two French academic ranks.)</small></dd>
 
