@@ -11,7 +11,7 @@ A new life is about to begin...
 
 I've been at the Fields Institute (in Toronto) for a week now, to participate in the summer school on derived geometry and higher structures.
 The lectures and talks are delightful! 
-This whole conference is impressive (especially the abundant food)!
+This whole conference is impressive!
 Hopefully my own talk yesterday was not out of place.
 I also learned that some people actually do read my blog! 
 I was a bit surprised. So now I have the moral obligation to flesh out my posts a little. 
