@@ -8,8 +8,8 @@
       {{ with .Params.location }}&ndash; <span class="card-subtitle" itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
     </h6>
     <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="collapseExample">{{ i18n "title" }}+{{ i18n "abstract" }}</a>
-    
     {{ partial "talk_links" (dict "content" . "is_card" 1) }}
+
     <p id="talk-{{ .UniqueID }}" class="collapse card-text"><strong>{{ .Params.Title }}</strong><br>{{ i18n "abstract" }}: {{ .Params.Abstract }}</p>
   </div>
 </div>
