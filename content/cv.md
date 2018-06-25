@@ -51,20 +51,13 @@ Research internship in algebraic topology, Massachusetts Institute of Technology
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1 (teaching assistant), Université Lille 1, L1 MASS, 1st semester.</dd>
-
-<dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales (oral exams and tutoring), Université Lille 1, L1 SESI, 1st semester.</dd>
+<dd class="col-lg-10 col-sm-9">Calculus I, L1 MASS (TA); Fundamental mathematics I, L1 SESI (oral exams & tutoring)</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Calcul matriciel (teaching assistant), Université Lille 1, L2 Économie-Gestion-Management, 2nd semester.</dd>
-<dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1 (teaching assistant), Université Lille 1, L1 Économie-Gestion-Management, 2nd semester.</dd>
-<dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1 (teaching assistant), Université Lille 1, L1 MASS, 1st semester.</dd>
+<dd class="col-lg-10 col-sm-9">Matrix calculus, L2 econ-management (TA); Calculus I, L1 econ-management (TA); Calculus I, L1 MASS (TA)</dd>
 
 <dt class="col-lg-2 col-sm-3">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2 (teaching assistant), Université Lille 1, L1 SESI, 2nd semester.</dd>
+<dd class="col-lg-10 col-sm-9">Fundamental mathematics II, L1 SESI (TA)</dd>
 </div>
 
 ### Administrative duties

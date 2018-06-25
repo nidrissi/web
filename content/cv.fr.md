@@ -52,20 +52,13 @@ Stage de recherche en topologie algébrique, Massachusetts Institute of Technolo
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
-
-<dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales (colles et tutorat), Université Lille 1, L1 SESI, 1er semestre.</dd>
+<dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD) ; Mathématiques fondamentales, L1 SESI (colles et tutorat)</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Calcul matriciel (TD), Université Lille 1, L2 Économie-Gestion-Management, 2ème semestre.</dd>
-<dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1 (TD), Université Lille 1, L1 Économie-Gestion-Management, 2ème semestre.</dd>
-<dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1 (TD), Université Lille 1, L1 MASS, 1er semestre.</dd>
+<dd class="col-lg-10 col-sm-9">Calcul matriciel, L2 éco-gestion-management (TD) ; Analyse 1, L1 éco-gestion-management (TD) ; Analyse 1, L1 MASS (TA)</dd>
 
 <dt class="col-lg-2 col-sm-3">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2 (TD), Université Lille 1, L1 SESI, 2ème semestre.</dd>
+<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2, L1 SESI (TA)</dd>
 </div>
 
 ### Tâches administratives
