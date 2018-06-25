@@ -10,22 +10,22 @@ date: "2018-01-01"
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–…</dt>
-<dd class="col-lg-10 col-sm-9"><em>Maître de conférences</em>, Université Paris Diderot – IMJ-PRG, Paris, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot – IMJ-PRG</em>, Paris, France<br>
 <small>(Permanent faculty position, lower of the two French academic ranks.)</small></dd>
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><em>Postdoctoral researcher</em>, ETH Zürich, Zürich, Switzerland<br>
+<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich</em>, Zürich, Switzerland<br>
 Supervised by Thomas Willwacher. Funded by ERC StG 678156—GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><em>PhD in Mathematics</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>PhD in Mathematics</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France<br>
 Defended on November 17th, 2017.<br>
 Advisor: Benoit Fresse.
 Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.<br>
 Funded by an <em>Allocation Spécifique</em> of the ENS.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
-<dd class="col-lg-10 col-sm-9"><em>Student of the École Normale Supérieure</em>, ENS Ulm – DMA, Paris, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Student of the École Normale Supérieure</strong>, <em>ENS Ulm – DMA</em>, Paris, France<br>
 Includes: Research internship in preparation of a PhD, Université Lille 1 (2014–2015);<br>
 Master's degree in Fundamental Mathematics, Université Paris Diderot (2013–2014);<br>
 Research internship in algebraic topology, Massachusetts Institute of Technology (Fall 2013)</dd>

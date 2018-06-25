@@ -10,22 +10,22 @@ date: "2018-01-01"
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–…</dt>
-<dd class="col-lg-10 col-sm-9"><em>Maître de conférences</em>, Université Paris Diderot – IMJ-PRG, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot – IMJ-PRG</em>, Paris, France</dd>
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><em>Chercheur postdoctorant</em>, ETH Zürich, Zürich, Switzerland<br>
+<dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zürich</em>, Zürich, Switzerland<br>
 Supervisé par Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><em>Doctorat en Mathématiques</em>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France<br>
 Soutenue le 17 novembre 2017.<br>
 Directeur : Benoit Fresse.
 Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.<br>
 Financé par une Allocation Spécifique de l'ENS.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
-<dd class="col-lg-10 col-sm-9"><em>Élève de l'École Normale Supérieure</em>, ENS Ulm – DMA, Paris, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Élève de l'École Normale Supérieure</strong>, <em>ENS Ulm – DMA</em>, Paris, France<br>
 Inclut : Stage de recherche en préparation à un doctorat, Université Lille 1 (2014--2015)&nbsp;;<br>
 Master Recherche en Mathématiques Fondamentales, Université Paris Diderot (2013--2014)&nbsp;;<br>
 Stage de recherche en topologie algébrique, Massachusetts Institute of Technology (Automne 2013)
