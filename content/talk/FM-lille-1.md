@@ -10,10 +10,5 @@ title = "La compactification de Fulton–MacPherson des espaces de configuration
 url_pdf = ""
 url_slides = ""
 url_video = ""
-
-[header]
-  caption = ""
-  image = ""
-
 +++
 

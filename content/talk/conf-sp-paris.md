@@ -7,8 +7,7 @@ event_url = "https://www.math.univ-paris13.fr/laga/index.php/fr/ta/seminaires"
 location = "Université Paris 13"
 selected = false
 title = "Le modèle de Lambrechts–Stanley des espaces de configuration"
-url_pdf = "/pdf/papers/model-conf-sp.pdf"
+url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]
 url_slides = "/pdf/slides/model-conf-sp_slides_fr.pdf"
 url_video = ""
-
 +++

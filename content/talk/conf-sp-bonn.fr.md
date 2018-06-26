@@ -7,8 +7,7 @@ event_url = "https://www.mpim-bonn.mpg.de/node/6791"
 location = "MPIM Bonn"
 selected = false
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
-url_pdf = "/pdf/papers/model-conf-sp.pdf"
+url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]
 url_slides = "/pdf/slides/model-conf-sp_slides_en.pdf"
 url_video = ""
-
 +++

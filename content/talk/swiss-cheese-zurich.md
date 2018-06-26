@@ -7,8 +7,7 @@ event_url = "https://www.math.ethz.ch/news-and-events/events/research-seminars/t
 location = "ETH Zürich"
 selected = false
 title = "Swiss-Cheese Operad and Drinfeld Center"
-url_pdf = "/pdf/papers/center.pdf"
+url_custom = [{name = "Article", url = "/pdf/papers/center.pdf"}]
 url_slides = "/pdf/slides/center_slides_en.pdf"
 url_video = ""
-
 +++

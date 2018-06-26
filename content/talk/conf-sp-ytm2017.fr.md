@@ -7,13 +7,8 @@ event_url = "https://www.math-stockholm.se/en/konferenser-och-akti/young-topolog
 location = "Stockholm, Sweden"
 selected = false
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
-url_pdf = "/pdf/papers/model-conf-sp.pdf"
+url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]
 url_slides = "/pdf/slides/ytm2017.pdf"
 url_video = ""
-
-[header]
-  caption = ""
-  image = ""
-
 +++
 

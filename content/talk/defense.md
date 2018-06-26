@@ -2,26 +2,14 @@
 title = "Operadic Formality and Homotopy of Configuration Spaces"
 date = 2017-11-17
 draft = false
-
 abstract = ""
 abstract_short = ""
 event = "PhD thesis defense"
 event_url = ""
 location = "Université Lille 1"
-
-selected = false
-math = false
-
-url_pdf = "/pdf/papers/thesis.pdf"
+url_custom = [{name="Thesis", url="/pdf/papers/thesis.pdf"}]
 url_slides = "/pdf/slides/soutenance.pdf"
 url_video = "/vid/proclam_soutenance.mp4"
-
-# Featured image
-# Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
-[header]
-image = ""
-caption = ""
-
 +++
 
 <table class="table">
