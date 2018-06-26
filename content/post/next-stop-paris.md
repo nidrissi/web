@@ -33,7 +33,7 @@ In France, almost all academics work in public institutions.
 Permanent hires are actually civil servants.
 I will be appointed in the *corps* (group of civil servants) of *maître de conférences* (MCF), the junior level (or "rank B") of the two levels of permanent faculty.
 The other rank is *professeurs des universités* (PR).
-Since this is a national deal, I will be appointed by the ministry of Higher Education and Research, while professors are appointed by the president of the Republic.
+Since this is a national deal, I will be appointed by the Minister of Higher Education and Research, while professors are appointed by the President of the Republic.
 
 <img src="/img/univ-paris-diderot.png" alt="Logo Université Paris-VII" class="float-right img-fluid" width="200px">
 
@@ -55,12 +55,13 @@ These UMRs are created by a contract between a university and a national researc
 The CNRS is a big, national umbrella organization that manages most of French scientific research.
 Some other specialized institutes exists, e.g. INRIA for computer science.
 The CNRS provides funds for travel, administrative personnel, computer equipment... and in exchange university research personnel works in a mixed university+CNRS unit.
-The CNRS also hires some permanent researchers directly, as *chargés de recherches* (scientist) and *directeurs de recherches* (senior scientists), who have statuses approximately equivalent to maître de conférences and professeurs except they have no teaching duties.
+The CNRS also hires some permanent researchers directly, as *chargés de recherches* (scientist) and *directeurs de recherches* (senior scientists), who have statuses approximately equivalent to *maître de conférences* and *professeurs* except they have no teaching duties.
 
 The IMJ-PRG, which is devoted to fundamental mathematics, is even a somewhat special case: it is shared between the CNRS, Université Paris-VII, and Sorbonne Université.
 It is a big organization, perhaps even the biggest math research unit in Europe, with more than 200 permanent researchers and 500 staff in total. 
 To deal with this, the IMJ-PRG is itself divided in twelve thematic team-projects, each with a head and a budget.
 I will myself be part of the "Algebraic Topology and Geometry" team. There are other mathematics research units in Paris, five counting the IMJ-PRG, all part of the math research federation of Paris-center.
+Other math research units are located in suburbs of Paris, such as the LAGA in Paris-XIII (north of Paris) or the IMO in Paris-XI (south of Paris).
 
 Yes, this is complex, and it is not always easy to determine who does what and who to ask a question.
 Fortunately, most of the administrative staff I have dealt with has been very nice and competent. 
