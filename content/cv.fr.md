@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2018-06-18"
+lastmod: "2018-07-02"
 date: "2018-01-01"
 ---
 
@@ -61,9 +61,16 @@ Stage de recherche en topologie algébrique, Massachusetts Institute of Technolo
 <dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2, L1 SESI (TA)</dd>
 </div>
 
-### Tâches administratives
+### Service à la profession
 
 <div class="row">
+<dt class="col-lg-2 col-sm-3">en cours</dt>
+<dd class="col-lg-10 col-sm-9">Évaluation d'articles.<br>
+Letters in Mathematical Physics; Royal Society of Edinburgh: Proceedings A</dd>
+
+<dt class="col-lg-2 col-sm-3">en cours</dt>
+<dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH.</dd>
+
 <dt class="col-lg-2 col-sm-3">2017-10-17</dt>
 <dd class="col-lg-10 col-sm-9">Co-organisateur de la journée introductive pour jeunes chercheurs, colloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
 

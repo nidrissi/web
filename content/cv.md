@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (English)"
-lastmod: "2018-06-18"
+lastmod: "2018-07-02"
 date: "2018-01-01"
 ---
 
@@ -60,9 +60,16 @@ Research internship in algebraic topology, Massachusetts Institute of Technology
 <dd class="col-lg-10 col-sm-9">Fundamental mathematics II, L1 SESI (TA)</dd>
 </div>
 
-### Administrative duties
+### Service
 
 <div class="row">
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
+<dd class="col-lg-10 col-sm-9">Peer reviews.<br>
+Letters in Mathematical Physics; Royal Society of Edinburgh: Proceedings A</dd>
+
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
+<dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH.</dd>
+
 <dt class="col-lg-2 col-sm-3">2017-10-17</dt>
 <dd class="col-lg-10 col-sm-9">Co-organizer of the introductory day for young researchers, 2017 Colloquium of the Algebraic Topology GDR, Paris, France</dd>
 
