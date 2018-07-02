@@ -19,7 +19,7 @@ section:
           - France
           - |
             !
-            Permanent faculty position, lower of the two ranks in French academia.
+            Permanent faculty position, lower of the two French academic ranks.
       - content:
           - 02/2018--08/2018
           - Chercheur postdoctorant ! Postdoctoral researcher
@@ -52,11 +52,11 @@ section:
           - |
             Inclut : Stage de recherche en préparation à un doctorat -- Université Lille 1 (2014--2015) ;\
             Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot (2013--2014) ;\
-            Stage de recherche en topologie algébrique -- Massachusetts Institute of Technology (Automne 2013)
+            Stage de recherche en topologie algébrique -- Massachusetts Institute of Technology (Automne 2013).
             !
             Includes: Research internship in preparation of a PhD -- Université Lille 1 (2014--2015);\
             Master's degree in Fundamental Mathematics -- Université Paris Diderot (2013--2014);\
-            Research internship in algebraic topology -- Massachusetts Institute of Technology (Fall 2013)
+            Research internship in algebraic topology -- Massachusetts Institute of Technology (Fall 2013).
   - title: Recherche ! Research
     bib:
       - title: Publications
@@ -91,8 +91,22 @@ section:
             Mathématiques fondamentales 2, L1 SESI (TA)
             !
             Fundamental mathematics II, L1 SESI (TA)
-  - title : Tâches administratives ! Administrative duties
+  - title : Services rendus ! Service
     entry:
+      - content:
+          - en cours ! ongoing
+          - "Évaluation d'articles ! Peer reviews"
+          - 
+          - ~
+          - ~
+          - "Letters in Mathematical Physics; Royal Society of Edinburgh: Proceedings A"
+      - content:
+          - en cours ! ongoing
+          - "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
+          - ~
+          - ~
+          - ~
+          - ~
       - content:
           - 10/2017
           - "Co-organisateur de la journée de préparation pour jeunes chercheurs ! Co-organizer of the introductory day for young researchers"
@@ -219,7 +233,7 @@ section:
       - content:
           - 01/2017
           - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
-          - Université Catholique de Louvain, Institut de recherche en mathématique et physique
+          - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
           - Louvain-la-Neuve
           - Belgique ! Belgium
           - Le modèle de Lambrechts--Stanley des espaces de configuration
@@ -254,28 +268,28 @@ section:
       - content:
           - 12/2015
           - "Séminaire des doctorants ! PhD students' seminar"
-          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Université Lille\ 1 -- Laboratoire Paul Painlevé
           - Lille
           - France
           - Opérades
       - content:
           - 12/2015
           - "Séminaire des doctorants ! PhD students' seminar"
-          - Université de Picardie Jules Verne, LAMFA
+          - Université de Picardie Jules Verne -- LAMFA
           - Amiens
           - France
           - Opérades
       - content:
           - 10/2015
           - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
-          - Université Catholique de Louvain, Institut de recherche en mathématique et physique
+          - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
           - Louvain-la-Neuve, Belgique ! Louvain-la-Neuve, Belgium
           - ~
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - content:
           - 09/2015
           - Séminaire de Topologie ! Topology seminar
-          - Université Lille\ 1, Laboratoire Paul Painlevé
+          - Université Lille\ 1 -- Laboratoire Paul Painlevé
           - Lille
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
@@ -297,7 +311,7 @@ section:
       - content:
           - 10/2016
           - Colloque 2016 du GDR Topologie Algébrique et Applications
-          - Université de Picardie Jules Verne, LAMFA
+          - Université de Picardie Jules Verne -- LAMFA
           - Amiens
           - France
           - The Lambrechts--Stanley Model of Configuration Spaces
@@ -306,258 +320,114 @@ section:
           - Futur) ! Future)
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
-      - content:
+      - item:
           - 01/2019\*
-          - Structures Supérieures ! Higher Structures
-          - Centre international de rencontres mathématiques  
-          - Marseille
-          - France
-          - ~
-      - content:
+          - Structures Supérieures ! Higher Structures @ Centre international de rencontres mathématiques  
+      - item:
           - 06/2018\*
-          - "École d'été ``Derived Geometry and Higher Categorical Structures in Geometry and Physics'' ! Summer school ``Derived Geometry and Higher Categorical Structures in Geometry and Physics''"
-          - Fields Institute
-          - Toronto
-          - Canada
-          - ~
-      - content:
+          - Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields ! Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Fields Institute
+      - item:
           - 05/2018
-          - Graph Complexes, Configuration Spaces and Manifold Calculus
-          - University of British Columbia
-          - Vancouver
-          - Canada
-          - ~
-      - content:
+          - Graph Complexes, Configuration Spaces and Manifold Calculus @ University of British Columbia (Vancouver)
+      - item:
           - 01/2018
-          - Rational Homotopy and Its Applications
-          - Université de Lille
-          - Lille
-          - France
-          - ~
-      - content:
+          - Rational Homotopy and Its Applications @ Université de Lille
+      - item:
           - 10/2017
-          - Colloque 2017 du GDR Topologie Algébrique
-          - Université Paris 7
-          - Paris
-          - France
-          - ~
-      - content:
+          - Colloque 2017 du GDR Topologie Algébrique @ Université Paris 7
+      - item:
           - 10/2017
-          - Séminaire Itinérant de Catégories
-          - ULCO
-          - Calais
-          - France
-          - ~
-      - content:
+          - "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale (Calais)"
+      - item:
           - 09/2017
-          - Journée des doctorants du Nord-Pas-de-Calais
-          - ULCO
-          - Calais
-          - France
-          - ~
-      - content:
+          - "Journée des doctorants du Nord-Pas-de-Calais @ Université du Littoral Côte d'Opale (Calais)"
+      - item:
           - 07/2017
-          - Workshop on Persistent Homology
-          - Université de Montpellier
-          - Montpellier
-          - France
-          - ~
-      - content:
+          - Workshop on Persistent Homology @ Université de Montpellier
+      - item:
           - 07/2017
-          - Young Topologists Meeting 2017
-          - Université de Stockholm ! Stockholm University
-          - Stockholm
-          - Suède ! Sweden
-          - ~
-      - content:
+          - Young Topologists Meeting 2017 @ Université de Stockholm ! Young Topologists Meeting 2017 @ Stockholm University
+      - item:
           - 06/2017
-          - Algebraic Topology and Representation Theory
-          - Université de Lille
-          - Lille
-          - France
-          - ~
-      - content:
+          - Algebraic Topology and Representation Theory @ Université de Lille
+      - item:
           - 06/2017
-          - Derived Algebraic Geometry and Interactions
-          - Université de Toulouse
-          - Toulouse
-          - France
-          - ~
-      - content:
+          - Derived Algebraic Geometry and Interactions @ Université de Toulouse
+      - item:
           - 06/2017
-          - Fourth Young Mathematicians Colloquium
-          - Vrije Universiteit Brussel
-          - Bruxelles ! Brusseles
-          - Belgique ! Belgium
-          - ~
-      - content:
+          - Fourth Young Mathematicians Colloquium @ Vrije Universiteit Brussel
+      - item:
           - 05/2017
-          - Lens Topology and geometry 2017
-          - "Université d'Artois, Laboratoire de Mathématiques de Lens"
-          - Lens
-          - France
-          - ~
-      - content:
+          - "Lens Topology and geometry 2017 @ Université d'Artois (Lens)"
+      - item:
           - 03/2017
-          - Workshop on Quantum Topology
-          - Laboratoire Paul Painlevé, Université Lille 1
-          - Lille
-          - France
-          - ~
-      - content:
+          - Workshop on Quantum Topology @ Université Lille 1
+      - item:
           - 02/2017
-          - Conference for Young researchers in homotopy theory and categorical structures
-          - MPIM Bonn
-          - Bonn
-          - Allemagne ! Germany
-          - ~
-      - content:
+          - Conference for Young researchers in homotopy theory and categorical structures @ MPIM Bonn
+      - item:
           - 10/2016
-          - "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
-          - IHET
-          - Tunis
-          - Tunisie ! Tunisia
-          - ~
-      - content:
+          - "Conférence en l'honneur de Saïd Zarati @ IHET (Tunis) ! Conference in the honour of Saïd Zarati @ IHET (Tunis)"
+      - item:
           - 10/2016
-          - Colloque 2016 du GDR Topologie Algébrique et Applications
-          - Université de Picardie Jules Verne, LAMFA
-          - Amiens
-          - France
-          - ~
-      - content:
+          - Colloque 2016 du GDR Topologie Algébrique et Applications @ Université de Picardie Jules Verne (Amiens)
+      - item:
           - 07/2016
-          - Young Topologists Meeting 2016
-          - Université de Copenhague ! University of Copenhagen
-          - Copenhague ! Copenhagen
-          - Danemark ! Denmark
-          - ~
-      - content:
+          - Young Topologists Meeting 2016 @ Université de Copenhague ! Young Topologists Meeting 2016 @ University of Copenhagen
+      - item:
           - 05/2016
-          - "Workshop: Factorization Algebras and Functorial Field Theories"
-          - Mathematisches Forschungsinstitut Oberwolfach
-          - Oberwolfach
-          - Allemagne ! Germany
-          - ~
-      - content:
+          - "Workshop: Factorization Algebras and Functorial Field Theories @ Mathematisches Forschungsinstitut Oberwolfach"
+      - item:
           - 03/2016
-          - Séminaire Itinérant de Catégories
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - ~
-      - content:
+          - Séminaire Itinérant de Catégories @ Université Lille\ 1
+      - item:
           - 10/2015
-          - Colloque 2015 du GDR Topologie Algébrique et Applications
-          - Université de Tolouse 3, Institut de Mathématiques de Toulouse
-          - Toulouse
-          - France
-          - ~
-      - content:
+          - Colloque 2015 du GDR Topologie Algébrique et Applications @ Université de Toulouse-3
+      - item:
           - 06/2015
-          - Lens Topology and geometry 2015
-          - "Université d'Artois, Laboratoire de Mathématiques de Lens"
-          - Lens
-          - France
-          - ~
-      - content:
+          - "Lens Topology and geometry 2015 @ Université d'Artois (Lens)"
+      - item:
           - 05/2015
-          - Introductory School -- Homotopy theory, manifolds, and field theories
-          - Hausdorff Research Institute for Mathematics
-          - Bonn
-          - Allemagne ! Germany
-          - ~
-      - content:
+          - Introductory School -- Homotopy theory, manifolds, and field theories @ Hausdorff Research Institute for Mathematics
+      - item:
           - 03/2015
-          - Séminaire du projet ANR HOGT
-          - Université de Strasbourg, Institut de Recherche Mathématique Avancée
-          - Strasbourg
-          - France
-          - ~
-      - content:
+          - Séminaire du projet ANR HOGT @ Université de Strasbourg
+      - item:
           - 03/2015
-          - Second Young Mathematicians Colloquium
-          - KU Leuven Kulak
-          - Courtrai ! Kortijk
-          - Belgique ! Belgium
-          - ~
-      - content:
+          - Second Young Mathematicians Colloquium @ KU Leuven Kulak
+      - item:
           - 03/2015
-          - Séminaire Itinérant de Catégories
-          - "Université du Littoral Côte d'Opale, Laboratoire de Mathématiques Pures et Appliquées"
-          - Calais
-          - France
-          - ~
-      - content:
+          - "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale (Calais)"
+      - item:
           - 02/2015
-          - "Masterclass : K-théorie topologique et applications"
-          - Université de Strasbourg, Institut de Recherche de Mathématique Avancée
-          - Strasbourg
-          - France
-          - ~
-      - content:
+          - "Masterclass : K-théorie topologique et applications @ Université de Strasbourg"
+      - item:
           - 01/2015
-          - Séminaire du projet ANR HOGT
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - ~
-      - content:
+          - Séminaire du projet ANR HOGT @ Université Lille\ 1
+      - item:
           - 10/2014
-          - Colloque 2014 du GDR Topologie Algébrique et Applications
-          - Université Blaise Pascal, Laboratoire de Mathématiques
-          - Clermont-Ferrand
-          - France
-          - ~
-      - content:
+          - Colloque 2014 du GDR Topologie Algébrique et Applications @ Université Blaise Pascal (Clermont-Ferrand)
+      - item:
           - 09/2014
-          - Colloque de clôture du projet ANR HOGT
-          - Université de Nice, Laboratoire J.\ A.\ Dieudonné
-          - Nice
-          - France
-          - ~
-      - content:
+          - Colloque de clôture du projet ANR HOGT @ Université de Nice
+      - item:
           - 09/2014
-          - Espaces des lacets en géométrie et topologie
-          - Université de Nantes, Centre Henri Lebesgue
-          - Nantes
-          - France
-          - ~
-      - content:
+          - Espaces des lacets en géométrie et topologie @ Université de Nantes
+      - item:
           - 06/2014
-          - Young Topologists Meeting 2014
-          - Université de Copenhague ! University of Copenhagen
-          - Copenhague ! Copenhagen
-          - Danemark ! Denmark
-          - ~
-      - content:
+          - Young Topologists Meeting 2014 @ Université de Copenhague ! Young Topologists Meeting 2014 @ University of Copenhagen
+      - item:
           - 05/2014
-          - Young Mathematicians Colloquium
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - ~
-      - content:
+          - Young Mathematicians Colloquium @ Université Lille\ 1
+      - item:
           - 01/2014
-          - Séminaire du projet ANR HOGT
-          - Université Lille\ 1, Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - ~
-      - content:
+          - Séminaire du projet ANR HOGT @ Université Lille\ 1
+      - item:
           - 09/2013
-          - "Gelfand Centennial Conference: A View of 21st Century Mathematics"
-          - Massachusetts Institute of Technology
-          - Cambridge (MA)
-          - USA
-          - ~
-      - content:
+          - "Gelfand Centennial Conference: A View of 21st Century Mathematics @ Massachusetts Institute of Technology"
+      - item:
           - 05/2013
-          - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday"
-          - Université de Nantes, Laboratoire de Mathématiques Jean Leray
-          - Nantes
-          - France
-          - ~
+          - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
       - item:
           - '(\*:'
           - Futur) ! Future)
