@@ -148,7 +148,7 @@
 # Error 404
 
 - id: page_not_found
-  translation: Page non disponible
+  translation: Page introuvable
 
 - id: go_back
   translation: Retourner à l'accueil
