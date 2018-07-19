@@ -145,10 +145,13 @@
 - id: projects
   translation: Projets
 
-# Error 404
+# Errors
 
 - id: page_not_found
   translation: Page introuvable
+
+- id: forbidden
+  translation: Accès interdit
 
 - id: go_back
   translation: Retourner à l'accueil

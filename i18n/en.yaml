@@ -150,5 +150,8 @@
 - id: page_not_found
   translation: Page not found
 
+- id: forbidden
+  translation: Forbidden
+
 - id: go_back
   translation: Go back to the front page

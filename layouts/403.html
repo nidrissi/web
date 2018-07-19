@@ -1,0 +1,7 @@
+{{ partial "header.html" . }}
+<div class="jumbotron">
+  <h1 class="text-center mt-4">403 {{ i18n "forbidden" }}</h1>
+  <hr class="my-4">
+  <p class="text-center"><a class="btn btn-primary btn-lg" href="{{ "/" | relLangURL }}" role="button">{{ i18n "go_back"}}</a></p>
+</div>
+{{ partialCached "footer.html" . }}
