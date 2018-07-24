@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2018-07-02"
+lastmod: "2018-07-24"
 date: "2018-01-01"
 ---
 
@@ -40,6 +40,7 @@ Stage de recherche en topologie algébrique, Massachusetts Institute of Technolo
 
 ##### Prépublications
 
+1. Ricardo Campos, Julien Ducoulombier, Najib Idrissi, Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "research/framed-conf.md" >}}).* 27 pages. Version 1. 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
 1. Najib Idrissi. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "research/curved-koszul.md" >}}).* 32 pages. Version 1. 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
 2. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "research/config-boundary.fr.md" >}}).* 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
 3. Najib Idrissi. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "research/conf-spaces.fr.md" >}}).* Version 3 (soumis). 2016. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
