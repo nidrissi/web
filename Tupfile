@@ -1,0 +1,3 @@
+: data.yaml |> perl cvsplit.pl |> french-out.yaml english-out.yaml
+: foreach *-out.yaml |> pandoc -V lang=%g --pdf-engine=lualatex --template template.tex %f -o %o |> %g-out.tex
+: foreach *-out.tex |> latexmk -pdf %f |> %g.pdf

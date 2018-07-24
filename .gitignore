@@ -21,10 +21,11 @@ auto/
 *.pdf
 
 # CV
-*.out.yaml
+*-out.yaml
+*-out.tex
 french.tex
 english.tex
-build
+#build
 
 # tup
 .tup/
