@@ -25,3 +25,6 @@ auto/
 french.tex
 english.tex
 build
+
+# tup
+.tup/
