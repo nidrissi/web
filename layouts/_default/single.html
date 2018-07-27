@@ -10,10 +10,13 @@
     <h3>{{ i18n "related" }}</h3>
     <ul>
         {{ range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-        {{ end }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
     </ul>
     {{ end }}
+
+    <hr>
+    <section id="isso-thread"></section>
 
     {{ if .Site.Params.section_pager }}
     {{ partial "section_pager.html" . }}
