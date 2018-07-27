@@ -14,6 +14,9 @@
 - id: minute_read
   translation: min read
 
+- id: comments
+  translation: Commentaires
+
 # Buttons
 
 - id: btn_preprint
