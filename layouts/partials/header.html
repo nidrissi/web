@@ -19,6 +19,7 @@
     {{ range .Site.Params.js }}
     <script defer src="/js/{{ . }}"></script>
     {{ end }}
+    <script async data-isso="https://comms.idrissi.eu/" src="https://comms.idrissi.eu/js/embed.min.js"></script>
     <script type="text/x-mathjax-config">
      MathJax.Hub.Config({
        tex2jax: {
