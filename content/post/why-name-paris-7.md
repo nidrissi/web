@@ -37,31 +37,32 @@ De Gaulle also decreed the dissolution of the National Assembly (the main legisl
 He also announced a referendum on a constitutional reform at that time, which took place a year after.
 He lost that referendum, had to resign, and was replaced by Pompidou.
 May 68 is still largely present in French culture (although it has been... sugarcoated in collective memory and mediatic renditions).
-Some slogans are still very well known, such as the rhyming "CRS, SS", CRS being the name of the French riot police, and the SS being the Nazi political police.
-The legends tell us that CRS's chanted "*étudiants, diants, diants*" back, "étudiants" meaning "students" and "diants" being meaningless.
+Some slogans are still very well known, such as the rhyming "*CRS, SS*", where CRS is the French riot police, and SS is the Nazi political police.
+The legends tell us that CRS's chanted back "*étudiants, diants, diants*" back, where "étudiants" means "students" and "diants" is meaningless.
 
 Following this eventful month, a reform of French higher education was seen as necessary.
-In 1970, the government invited professors to divide themselves in the newly created Teaching and Research Units (UFR) that replaced the former faculties, while the UFRs themselves former new universities.
+In 1970, the government invited professors to divide themselves in the newly created Teaching and Research Units (UFR) that replaced the former faculties, while the UFRs themselves grouped into new universities.
 Rivalries and office politics apparently played a large role.
 On December 31st, thirteen new universities were created out of the old University of Paris.
-Some of them were created based on geographic criteria (e.g. Paris-XI is Paris-South in Orsay, Paris-XIII is Paris-North in Villetaneuse and so on).
+Some of them were created based on geographic criteria (e.g. Paris-XI is Paris-South in Orsay, a suburb at the south of Paris; Paris-XIII is Paris-North in Villetaneuse, another suburb in the north; and so on).
 The ones in the center of Paris were created mostly based on academic subdivisions.
 The main examples you may know, since you are probably mathematicians, are probably Paris-VI (Pierre et Marie Curie, that you may also know as "Jussieu") and Paris-VII (Diderot) -- the first one being dedicated to sciences and medicine, the second to sciences, literature & social sciences, and medicine.
 
-Almost all universities above a certain size in other French cities were split in a similar way.
-Since none were as big as the university of Paris, the "traditional" split that was applied was to create three universities: sciences, law/medicine, literature/language/art/social sciences.
+Almost all French universities above a certain size were split in a similar way.
+Since none were as big as the university of Paris, the "traditional" split was to create three universities: science/technology, law/medicine, literature/language/art/social sciences.
 
 ## Merging back
 
 Of course, this is not the end of the story.
 Some time ago, it was realized that French universities do not perform very well in international rankings of universities – you know the ones.
-I will not comment on my opinion of these rankings, but the political power took it very seriously.
 There are several reasons that French universities are not ranked well, but an important one is that the criteria used by these rankings are often absolute numbers, not compared to the number of students of the university, which led to some absurdities.
+I will not comment on my opinion of these rankings, but the political power took it very seriously.
+In fact, in 2007, president Sarkozy addressed a [letter of mission](http://discours.vie-publique.fr/notices/077002458.html) to Mrs. Pécresse, the ministry of Higher Education and Research, expressly asking her to "improve the ranks of [French] higher education centers in international rankings, with the objective of getting at least two French establishments in the top 20 and ten in the top 50".
 
 So a simple trick was discovered: universities can merge back.
 The governement created huge multi-annual grants called IDEX, worth close to a billion euros each.
 The criterion used is essentially the performance of the university in these international rankings.
-(You may think I am exagerating -- I am not.)
+(You may think I am exagerating... unfortunately I am not.)
 All universities competed (and still compete) for these grants, and for a new kind of grant called I-SITE, which has the same basic function but of a smaller caliber (a third to half a billion euros).
 
 Fast forward to today, all universities in France are merging back again in the hopes of being awarded these grants.
