@@ -12,7 +12,7 @@ section:
   - title: Parcours ! Career
     entry:
       - content:
-          - 09/2018--...
+          - 09/2018--\makebox[0pt][l]{\dots}\hphantom{09/2018}
           - Maître de conférences
           - Université Paris Diderot -- IMJ-PRG
           - Paris
@@ -68,29 +68,37 @@ section:
   - title: Enseignement ! Teaching
     entry:
       - item:
+          - 2018--2019
+          - |
+            Algèbre et analyse élémentaires I (cours/TD) ;
+            Algèbre et analyse élémentaires II (TD)
+            !
+            Elementary Algebra and Analysis I (lecture+exercises);
+            Elementary Algebra and Analysis II (exercises)
+      - item:
           - 2017--2018
           - |
             Analyse 1, L1 MASS (TD) ;
-            Mathématiques fondamentales, L1 SESI (colles et tutorat)
+            Mathématiques fondamentales I, L1 SESI (colles et tutorat)
             !
-            Calculus I, L1 MASS (TA);
+            Calculus I, L1 MASS (exercises);
             Fundamental mathematics I, L1 SESI (oral exams & tutoring)
       - item:
           - 2016--2017
           - |
             Calcul matriciel, L2 éco-gestion-management (TD) ;
             Analyse 1, L1 éco-gestion-management (TD) ;
-            Analyse 1, L1 MASS (TA)
+            Analyse 1, L1 MASS (TD)
             !
-            Matrix calculus, L2 econ-management (TA);
-            Calculus I, L1 econ-management (TA);
-            Calculus I, L1 MASS (TA)
+            Matrix calculus, L2 econ-management (exercises);
+            Calculus I, L1 econ-management (exercises);
+            Calculus I, L1 MASS (exercises)
       - item:
           - 2015--2016
           - |
-            Mathématiques fondamentales 2, L1 SESI (TA)
+            Mathématiques fondamentales II, L1 SESI (TD)
             !
-            Fundamental mathematics II, L1 SESI (TA)
+            Fundamental mathematics II, L1 SESI (exercises)
   - title : Services rendus ! Service
     entry:
       - content:
@@ -322,7 +330,7 @@ section:
     entry:
       - item:
           - 01/2019\*
-          - Structures Supérieures ! Higher Structures @ Centre international de rencontres mathématiques  
+          - Structures Supérieures @ Centre international de rencontres mathématiques, Marseille ! Higher Structures @ Centre international de rencontres mathématiques, Marseille
       - item:
           - 06/2018
           - Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields ! Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Fields Institute
