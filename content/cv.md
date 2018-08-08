@@ -11,7 +11,7 @@ date: "2018-01-01"
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–…</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot – IMJ-PRG</em>, Paris, France<br>
-<small>(Permanent faculty position, lower of the two French academic ranks.)</small></dd>
+<small>(Permanent faculty position, rank B.)</small></dd>
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich</em>, Zürich, Switzerland<br>
@@ -51,6 +51,9 @@ Research internship in algebraic topology, Massachusetts Institute of Technology
 ### Teaching
 
 <div class="row">
+<dt class="col-lg-2 col-sm-3">2018–2019</dt>
+<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis I (lecture+exercises); Elementary Algebra and Analysis II (exercises)</dd>
+
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
 <dd class="col-lg-10 col-sm-9">Calculus I, L1 MASS (TA); Fundamental mathematics I, L1 SESI (oral exams & tutoring)</dd>
 

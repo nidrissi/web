@@ -52,6 +52,9 @@ Stage de recherche en topologie algébrique, Massachusetts Institute of Technolo
 ### Enseignement
 
 <div class="row">
+<dt class="col-lg-2 col-sm-3">2018–2019</dt>
+<dd class="col-lg-10 col-sm-9">Algèbre et analyse élémentaires I (cours/TD) ; Algèbre et analyse élémentaires II (TD)</dd>
+
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
 <dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD) ; Mathématiques fondamentales, L1 SESI (colles et tutorat)</dd>
 
