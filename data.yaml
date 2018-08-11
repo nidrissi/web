@@ -34,12 +34,12 @@ section:
           - Lille
           - France
           - |
-            Soutenue le 17 novembre 2017.\
+            Thèse soutenue le 17 novembre 2017.\
             Directeur : Benoit Fresse.
             Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
             Financé par une Allocation Spécifique de l'ENS.
             !
-            Defended on November 17th, 2017.\
+            Thesis defended on November 17th, 2017.\
             Advisor: Benoit Fresse.
             Title: *Operadic Formality and Homotopy of Configuration Spaces*.\
             Funded by an *Allocation Spécifique* of the ENS.
@@ -50,13 +50,15 @@ section:
           - Paris
           - France
           - |
-            Inclut : Stage de recherche en préparation à un doctorat -- Université Lille 1 (2014--2015) ;\
-            Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot (2013--2014) ;\
-            Stage de recherche en topologie algébrique -- Massachusetts Institute of Technology (Automne 2013).
+            Classé premier au concours d'entrée INFO. Inclut:\
+            2014--2015 : Stage de recherche en préparation à un doctorat -- Université Lille 1 ;\
+            2013--2014 : Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot ;\
+            Automne 2013 : Stage de recherche en topologie algébrique -- Massachusetts Institute of Technology.
             !
-            Includes: Research internship in preparation of a PhD -- Université Lille 1 (2014--2015);\
-            Master's degree in Fundamental Mathematics -- Université Paris Diderot (2013--2014);\
-            Research internship in algebraic topology -- Massachusetts Institute of Technology (Fall 2013).
+            Ranked first on the \"INFO\" entrance exam. Includes:\
+            2014--2015: Research internship in preparation of a PhD -- Université Lille 1;\
+            2013--2014: Master's degree in Fundamental Mathematics -- Université Paris Diderot;\
+            Fall 2013 Research internship in algebraic topology -- Massachusetts Institute of Technology.
   - title: Recherche ! Research
     bib:
       - title: Publications
