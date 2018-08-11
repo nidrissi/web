@@ -26,9 +26,10 @@ Financé par une Allocation Spécifique de l'ENS.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Élève de l'École Normale Supérieure</strong>, <em>ENS Ulm – DMA</em>, Paris, France<br>
-Inclut : Stage de recherche en préparation à un doctorat, Université Lille 1 (2014--2015)&nbsp;;<br>
-Master Recherche en Mathématiques Fondamentales, Université Paris Diderot (2013--2014)&nbsp;;<br>
-Stage de recherche en topologie algébrique, Massachusetts Institute of Technology (Automne 2013)
+Classé premier au concours d'entrée INFO. Inclut :<br>
+2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille 1 &nbsp;;<br>
+2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot &nbsp;;<br>
+Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.
 </dd>
 </div>
 
