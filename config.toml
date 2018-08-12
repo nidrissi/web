@@ -67,11 +67,15 @@ defaultContentLanguageInSubdir = true
 
 [[menu.main]]
   name = "Home"
-  url = "/"
+  url = "/en/"
   weight = 1
 [[menu.main]]
   name = "CV"
-  url = "/cv/"
+  url = "/en/cv/"
+  weight = 2
+[[menu.main]]
+  name = "Research"
+  url = "/en/research/"
   weight = 2
 
 [taxonomies]
@@ -98,3 +102,7 @@ defaultContentLanguageInSubdir = true
     name = "CV"
     url = "/fr/cv/"
     weight = 2
+  [[Languages.fr.menu.main]]
+    name = "Recherche"
+    url = "/fr/research/"
+    weight = 3
