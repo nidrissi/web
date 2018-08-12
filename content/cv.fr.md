@@ -57,13 +57,13 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 <dd class="col-lg-10 col-sm-9">Algèbre et analyse élémentaires I (cours/TD) ; Algèbre et analyse élémentaires II (TD)</dd>
 
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD) ; Mathématiques fondamentales, L1 SESI (colles et tutorat)</dd>
+<dd class="col-lg-10 col-sm-9">Analyse 1 (TD) ; Mathématiques fondamentales 1 (colles et tutorat)</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Calcul matriciel, L2 éco-gestion-management (TD) ; Analyse 1, L1 éco-gestion-management (TD) ; Analyse 1, L1 MASS (TA)</dd>
+<dd class="col-lg-10 col-sm-9">Calcul matriciel (TD) ; Analyse 1 (TD, ×2)</dd>
 
 <dt class="col-lg-2 col-sm-3">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2, L1 SESI (TA)</dd>
+<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2 (TA)</dd>
 </div>
 
 ### Service à la profession
