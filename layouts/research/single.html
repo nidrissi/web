@@ -29,7 +29,6 @@
     </dl>
 
     {{ if .Params.abstract }}
-    <h3>{{ i18n "abstract" }}</h3>
     <p itemprop="text">{{ .Params.abstract | markdownify }}</p>
     <hr>
     {{ end }}
