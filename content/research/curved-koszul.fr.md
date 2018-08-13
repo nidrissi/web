@@ -1,6 +1,6 @@
 +++
 title = "Curved Koszul Duality for Algebras over Unital Operads"
-date = 2018-04-30
+date = 2018-08-10
 draft = false
 authors = ["Najib Idrissi"]
 publication = "Preprint, 32 pages"
