@@ -25,7 +25,7 @@ Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.<br>
 Funded by an <em>Allocation Spécifique</em> of the ENS.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Student of the École Normale Supérieure</strong>, <em>ENS Ulm – DMA</em>, Paris, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Student of the École Normale Supérieure</strong>, <em>ENS Paris – DMA</em>, Paris, France<br>
 Ranked first on the "INFO" entrance exam. Includes:<br>
 2014–2015: Research internship in preparation of a PhD, Université Lille 1;<br>
 2013–2014: Master's degree in Fundamental Mathematics, Université Paris Diderot;<br>

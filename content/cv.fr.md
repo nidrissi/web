@@ -25,7 +25,7 @@ Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em
 Financé par une Allocation Spécifique de l'ENS.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève de l'École Normale Supérieure</strong>, <em>ENS Ulm – DMA</em>, Paris, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Élève de l'École Normale Supérieure</strong>, <em>ENS Paris – DMA</em>, Paris, France<br>
 Classé premier au concours d'entrée INFO. Inclut :<br>
 2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille 1 &nbsp;;<br>
 2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot &nbsp;;<br>

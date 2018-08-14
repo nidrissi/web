@@ -14,7 +14,7 @@ Je m'intéresse aux opérades et leurs applications à la topologie algébrique,
 
 Je suis actuellement postdoc à [l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/), depuis février 2018.
 J'ai obtenu [mon doctorat]({{< ref "/research/thesis.fr.md" >}}) sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse) à l'[Université Lille 1](https://www.univ-lille.fr) en novembre 2017.
-Avant ça, j'étais élève à [l'ENS Ulm](https://www.ens.fr).
+Avant ça, j'étais élève à [l'ENS Paris](https://www.ens.fr).
 J'ai noté plus d'informations dans [mon CV]({{< ref "/cv.fr.md" >}}).
 
 Je suis membre de la [SMF](http://smf.emath.fr/) et de [l'EMS](http://www.euro-math-soc.eu/).
