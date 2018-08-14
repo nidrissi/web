@@ -76,7 +76,11 @@ defaultContentLanguageInSubdir = true
 [[menu.main]]
   name = "Research"
   url = "/en/research/"
-  weight = 2
+  weight = 3
+[[menu.main]]
+  name = "Teaching"
+  url = "/en/teaching/"
+  weight = 4
 
 [taxonomies]
   tag = "tags"
@@ -106,3 +110,7 @@ defaultContentLanguageInSubdir = true
     name = "Recherche"
     url = "/fr/research/"
     weight = 3
+  [[Languages.fr.menu.main]]
+    name = "Enseignement"
+    url = "/fr/teaching/"
+    weight = 4

@@ -50,22 +50,6 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 1. Najib Idrissi. "Opérades et Structures Commutatives à Homotopie Près". In: *Graduate J. Math.* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
 
-### Enseignement
-
-<div class="row">
-<dt class="col-lg-2 col-sm-3">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Algèbre et analyse élémentaires I (cours/TD) ; Algèbre et analyse élémentaires II (TD)</dd>
-
-<dt class="col-lg-2 col-sm-3">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1 (TD) ; Mathématiques fondamentales 1 (colles et tutorat)</dd>
-
-<dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Calcul matriciel (TD) ; Analyse 1 (TD, ×2)</dd>
-
-<dt class="col-lg-2 col-sm-3">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2 (TA)</dd>
-</div>
-
 ### Service à la profession
 
 <div class="row">
@@ -83,6 +67,6 @@ Letters in Mathematical Physics ; Proceedings of the Edinburgh Mathematical Soci
 <dd class="col-lg-10 col-sm-9">Co-organisateur du séminaire des doctorants, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-### Exposés
+### [Enseignement]({{< ref "teaching.fr.md" >}})
 
-[→ Veuillez vous référer à la page principale.](/fr/talk/)
+### [Exposés]({{< ref "talk/_index.fr.md" >}})
