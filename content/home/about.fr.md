@@ -10,6 +10,8 @@ Je m'intéresse aux opérades et leurs applications à la topologie algébrique,
 
 À partir de septembre, je serai maître de conférences à [l'Université Paris Diderot (Paris 7)](https://www.univ-paris-diderot.fr), rattaché à l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 
+**Note*** : comme je ne sais pas quand mon adresse `@ethz.ch` sera désactivée, merci de me contacter sur ma nouvelle adresse email ci-contre pour éviter les problèmes plus tard.
+
 Je suis actuellement postdoc à [l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/), depuis février 2018.
 J'ai obtenu [mon doctorat]({{< ref "/research/thesis.fr.md" >}}) sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse) à l'[Université Lille 1](https://www.univ-lille.fr) en novembre 2017.
 Avant ça, j'étais élève à [l'ENS Ulm](https://www.ens.fr).
