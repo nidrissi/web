@@ -70,7 +70,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="row">
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Peer reviews.<br>
-Letters in Mathematical Physics; Royal Society of Edinburgh: Proceedings A</dd>
+Letters in Mathematical Physics; Proceedings of the Edinburgh Mathematical Society; Royal Society of Edinburgh: Proceedings A</dd>
 
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH.</dd>
