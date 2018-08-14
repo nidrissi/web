@@ -66,7 +66,7 @@ Other math research units are located in suburbs of Paris, such as the LAGA in P
 Yes, this is complex, and it is not always easy to determine who does what and who to ask a question.
 Fortunately, most of the administrative staff I have dealt with has been very nice and competent. 
 I tried to draw a diagram explaining all of this, but I eventually gave up.
-Besides, that diagram will be obsolete in a few months: Paris-VII is merging with another university, Paris-V (AKA Paris-Descartes), to create a new big university with a yet unknown name, much like what was formerly known as Paris-VI (Université Pierre et Marie Curie, that you perhaps know as "Jussieu") merged with Paris-IV to create "*Sorbonne Université*" (yes, the name in French follows the English word order -- don't ask me why<sup>\*</sup>).
+Besides, that diagram will be obsolete in a few months: Paris-VII is merging with another university, Paris-V (AKA Paris-Descartes), to create a new big university with a yet unknown name, much like what was formerly known as Paris-VI (Université Pierre et Marie Curie, that you perhaps know as "Jussieu") merged with Paris-IV to create "*Sorbonne Université*" (yes, the name in French follows the English word order -- don't ask me why<sup>★</sup>).
 While the research side of the story will probably not be affected, teaching certainly will.
 
 I have been told that the true test of one's bureaucratic mettle is the habilitation (HDR), the diploma who allows you to supervise PhD students alone and to apply for full professor positions.
@@ -76,7 +76,7 @@ This was of course unacceptable and was resolved in a different way, but still, 
 
 ---
 
-<sup>\*</sup>
+<sup>★</sup>
 Update August 2018: I have learned why.
 The IDEX grant (see [my other post]({{< ref "/post/why-name-paris-7.md" >}})) that was the main driving force behind the creation of *Sorbonne Université* was named *Sorbonne Universités à Paris pour l'Enseignement et la Recherche* ("Sorbonne Universities at Paris for Education and Research").
 Its acronym is SUPER.
