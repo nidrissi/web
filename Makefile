@@ -10,9 +10,9 @@ TARGET = ..\idrissi\static\pdf
 # Beurk
 all: french.pdf english.pdf $(BIB)
 
-copy: all
-	cmd /c copy /y french.pdf $(TARGET)\cv_idrissi_fr.pdf
-	cmd /c copy /y english.pdf $(TARGET)\cv_idrissi_en.pdf
+copy:
+	cmd /c copy /y french-out.pdf $(TARGET)\cv_idrissi_fr.pdf
+	cmd /c copy /y english-out.pdf $(TARGET)\cv_idrissi_en.pdf
 	@echo Update lastmod!
 
 clean:
