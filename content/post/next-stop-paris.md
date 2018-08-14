@@ -26,7 +26,7 @@ So I will try to describe my own situation, hoping that it can help people tryin
 
 <figure class="figure">
 <img src="/img/mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="500px">
-<figcaption class="figure-caption">A *mille-feuille* (image from <a href="https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg">Wikipedia</a>).</figcaption>
+<figcaption class="figure-caption">A <em>mille-feuille</em> (image from <a href="https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg">Wikipedia</a>).</figcaption>
 </figure>
 
 In France, almost all academics work in public institutions.
@@ -81,3 +81,7 @@ Update August 2018: I have learned why.
 The IDEX grant (see [my other post]({{< ref "/post/why-name-paris-7.md" >}})) that was the main driving force behind the creation of *Sorbonne Université* was named *Sorbonne Universités à Paris pour l'Enseignement et la Recherche* ("Sorbonne Universities at Paris for Education and Research").
 Its acronym is SUPER.
 I imagine that "USPER" was less catchy.
+
+Update 2: well, apparently it also stems from a dispute between the university and the local government in Paris.
+The local government did not want one university to monopolize the name "Sorbonne", and the "compromise" that was reached was the name "Université Sorbonne-Université".
+What can I say... politics can be intricate sometimes.
