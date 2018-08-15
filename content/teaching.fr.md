@@ -22,7 +22,7 @@ date: "2018-01-01"
 
 * Calcul matriciel, L2 MASS, TD (36h).
 * Analyse 1, L1 MASS, TD (15h).
-* Analyse 1, L1 SESI, TD  (15h).
+* Analyse 1, L1 SESI, TD (15h).
 
 ##### 2015--2016
 
