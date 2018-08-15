@@ -6,52 +6,37 @@
 {{ $.Scratch.Set "class" "btn btn-outline-primary btn-sm"}}
 {{ end }}
 
-{{ with $.Params.url_preprint }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_preprint" }}
-</a>
-{{ end }}
 {{ with $.Params.url_pdf }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_pdf" }}
+  {{ i18n "btn_pdf" }}
 </a>
 {{ end }}
 {{ with $.Params.url_code }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_code" }}
-</a>
-{{ end }}
-{{ with $.Params.url_dataset }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_dataset" }}
+  {{ i18n "btn_code" }}
 </a>
 {{ end }}
 {{ if $.Params.projects }}
 {{ range $.Params.projects }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ printf "project/%s/" . | relURL }}">
-    {{ i18n "btn_project" }}
+  {{ i18n "btn_project" }}
 </a>
 {{ end }}
 {{ else }}
 {{ with $.Params.url_project }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . | absLangURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_project" }}
+  {{ i18n "btn_project" }}
 </a>
 {{ end }}
-{{ end }}
-{{ with $.Params.url_poster }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_poster" }}
-</a>
 {{ end }}
 {{ with $.Params.url_slides }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_slides" }}
+  {{ i18n "btn_slides" }}
 </a>
 {{ end }}
 {{ with $.Params.url_video }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_video" }}
+  {{ i18n "btn_video" }}
 </a>
 {{ end }}
 {{ with $.Params.url_source }}
@@ -61,6 +46,18 @@
 {{ end }}
 {{ with $.Params.url_arxiv }}
 <a class="{{ $.Scratch.Get "class" }}" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
+{{ end }}
+{{ with $.Params.url_hal }}
+<a class="{{ $.Scratch.Get "class" }}" href="https://hal.archives-ouvertes.fr/hal-{{ . }}" target="_blank" rel="noopener">hal-{{ . }}</a>
+{{ end }}
+{{ with $.Params.url_doi }}
+<a class="{{ $.Scratch.Get "class" }}" href="https://dx.doi.org/{{ . }}" target="_blank" rel="noopener">DOI:{{ . }}</a>
+{{ end }}
+{{ with $.Params.url_mr }}
+<a class="{{ $.Scratch.Get "class" }}" href="http://www.ams.org/mathscinet-getitem?mr={{ . }}" target="_blank" rel="noopener">MR{{ . }}</a>
+{{ end }}
+{{ with $.Params.url_zbl }}
+<a class="{{ $.Scratch.Get "class" }}" href="https://zbmath.org/?q=an:{{ . }}" target="_blank" rel="noopener">Zbl{{ . }}</a>
 {{ end }}
 {{ range $.Params.url_custom }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ .url | absURL }}" target="_blank" rel="noopener">

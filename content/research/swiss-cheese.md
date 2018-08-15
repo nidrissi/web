@@ -6,24 +6,8 @@ publication = "Israel J. Math. 221.2, pp. 941--927"
 title = "Swiss-Cheese Operad and Drinfeld Center"
 url_pdf = "/pdf/papers/center.pdf"
 url_arxiv = "1507.06844" 
-
-[[url_custom]]
-name = "Journal"
-url = "http://rdcu.be/v4C2"
-
-[[url_custom]]
-name = "DOI"
-url = "https://dx.doi.org/10.1007/s11856-017-1579-7"
-
-[[url_custom]]
-name = "HAL"
-url = "https://hal.archives-ouvertes.fr/hal-01438863"
-
-[[url_custom]]
-name = "MathSciNet"
-url = "http://www.ams.org/mathscinet-getitem?mr=3704940"
-
-[[url_custom]]
-name = "zbmath"
-url = "https://zbmath.org/?q=an:06808424"
+url_doi = "10.1007/s11856-017-1579-7"
+url_mr = "3704940"
+url_zbl = "06808424"
+url_hal = "01438863"
 +++
