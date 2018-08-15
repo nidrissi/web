@@ -14,7 +14,5 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
-[[url_custom]]
-name = "arXiv"
-url = "https://arxiv.org/abs/1802.00716"
+url_arxiv = "1802.00716"
 +++

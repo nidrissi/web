@@ -5,11 +5,7 @@ date = "2016-11-30"
 publication = "Prépublication, en révision, 50 pages"
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
 url_pdf = "/pdf/papers/model-conf-sp.pdf"
-
-[[url_custom]]
-name = "arXiv"
-url = "https://arxiv.org/abs/1608.08054"
-
+url_arxiv = "1608.08054"
 [[url_custom]]
 name = "HAL"
 url = "https://hal.archives-ouvertes.fr/hal-01438861"

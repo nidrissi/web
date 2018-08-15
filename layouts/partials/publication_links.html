@@ -56,8 +56,11 @@
 {{ end }}
 {{ with $.Params.url_source }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-    {{ i18n "btn_source" }}
+  {{ i18n "btn_source" }}
 </a>
+{{ end }}
+{{ with $.Params.url_arxiv }}
+<a class="{{ $.Scratch.Get "class" }}" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
 {{ end }}
 {{ range $.Params.url_custom }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ .url | absURL }}" target="_blank" rel="noopener">

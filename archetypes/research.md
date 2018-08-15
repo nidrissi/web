@@ -18,5 +18,6 @@ url_slides = ""
 url_video = ""
 url_poster = ""
 url_source = ""
+url_arxiv = ""
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 +++
