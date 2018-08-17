@@ -1,6 +1,6 @@
 ---
 title: "Enseignement"
-lastmod: "2018-08-14"
+lastmod: "2018-08-17"
 date: "2018-01-01"
 ---
 
@@ -8,7 +8,7 @@ date: "2018-01-01"
 
 ##### 2018--2019
 
-* Algèbre et analyse élémentaires 1, L1, cours-TD (90h).
+* Algèbre et analyse élémentaires 1, L1 MIASHS, cours-TD (90h).
 * Algèbre et analyse élémentaires 2, L1 Chimie, TD (36h).
 
 #### Université de Lille

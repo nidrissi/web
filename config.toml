@@ -79,7 +79,7 @@ defaultContentLanguageInSubdir = true
   weight = 3
 [[menu.main]]
   name = "Teaching"
-  url = "/en/teaching/"
+  url = "/en/enseignement/"
   weight = 4
 
 [taxonomies]
@@ -112,5 +112,5 @@ defaultContentLanguageInSubdir = true
     weight = 3
   [[Languages.fr.menu.main]]
     name = "Enseignement"
-    url = "/fr/teaching/"
+    url = "/fr/enseignement/"
     weight = 4

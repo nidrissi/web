@@ -67,6 +67,6 @@ Letters in Mathematical Physics ; Proceedings of the Edinburgh Mathematical Soci
 <dd class="col-lg-10 col-sm-9">Co-organisateur du séminaire des doctorants, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-### [Enseignement]({{< ref "teaching.fr.md" >}})
+### [Enseignement]({{< ref "enseignement.fr.md" >}})
 
 ### [Exposés]({{< ref "talk/_index.fr.md" >}})
