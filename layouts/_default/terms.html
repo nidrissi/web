@@ -4,12 +4,10 @@
 {{ with .Content }}
 <div>{{ . }}</div>
 {{ end }}
-<ul>
-    {{ $paginator := .Paginate .Data.Pages }}
-    {{ range $paginator.Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-    {{ end }}
-</ul>
+{{ $paginator := .Paginate .Data.Pages }}
+{{ range $paginator.Pages }}
+<h3><a href="{{ .Permalink }}">#{{ .Title }}</a></h3>
+{{ end }}
 {{ partial "pagination" . }}
 
 {{ partialCached "footer.html" . }}
