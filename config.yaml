@@ -60,9 +60,6 @@ params:
 
 menu:
   main:
-    - name: Home
-      url: /en/
-      weight: 1
     - name: CV
       url: /en/cv/
       weight: 2
@@ -90,9 +87,6 @@ languages:
     office: "Bureau : HG F27.4"
     menu:
       main:
-        - name: Accueil
-          url: /fr/
-          weight: 1
         - name: CV
           url: /fr/cv/
           weight: 2
