@@ -3,7 +3,7 @@ LATEX = latexmk -pdf -e "$$pdflatex =~ s/pdflatex/lualatex/" -e "$$out_dir = 'bu
 TEMPLATE = template.tex
 YAML = data.yaml
 BIB = research.bib
-TARGET = ..\idrissi\static\pdf
+TARGET = ..\web\static\pdf
 
 .PHONY: all copy clean
 
