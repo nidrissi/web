@@ -9,19 +9,21 @@
     <div class="card text-center">
       <img class="card-img-top w-75 mx-auto" src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}" alt="Photo">
       <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}">
-
       <div class="card-body">
-        <h4 itemprop="name" class="card-title">{{ $.Site.Params.name }}</h5>
-          {{ with $.Site.Params.email }}
-          <h6 class="card-subtitle"><a href="mailto:{{ . }}">{{ . }}</a></h6>
-          {{ end }}
-          <span itemprop="jobTitle">{{ $.Site.Params.role }}</span>
-          &ndash;
-          <a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a>
+        <h5 class="card-title" itemprop="name">{{ $.Site.Params.name }}</h5>
+        <h6 class="card-subtitle" itemprop="jobTitle">{{ $.Site.Params.role }}</h6>
+        <div class="card-text">
+          {{ if $.Site.Params.organization }}<a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a><br>{{ end }}
+          {{ range $.Site.Params.organizations }}
+          <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <a href="{{ .url }}" target="_blank" itemprop="url" rel="noopener"><span itemprop="name">{{ .name }}</span></a>
+          </span>
           <br>
+          {{ end }}
           {{ range $.Site.Params.social }}
           <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .icon | safeHTML }}</a>
           {{ end }}
+        </div>
       </div>
     </div>
   </div>

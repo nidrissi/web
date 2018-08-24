@@ -27,9 +27,13 @@ params:
   name: Najib Idrissi
   role: Postdoc
   organization: ETH Zürich
-  # role: Maître de conférences
-  # organization: Université Paris Diderot – IMJ-PRG
   organization_url: https://www.ethz.ch
+  # role: Maître de conférences
+  # organizations:
+  #   - name: Université Paris Diderot
+  #     url: https://www.univ-paris-diderot.fr/
+  #   - name: Institut de Mathématiques de Jussieu – Paris Rive Gauche
+  #     url: https://www.imj-prg.fr/
   avatar: photo.jpg
   email: najib.idrissi-kaitouni@imj-prg.fr
   address: ETH Zürich (D-MATH, Pool Group 5) – Rämistrasse 101 – 8092 Zürich – Switzerland
