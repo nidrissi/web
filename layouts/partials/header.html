@@ -12,6 +12,8 @@
     {{ end }}
     <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
+    <link rel="preconnect" href="https://comms.idrissi.eu">
+
     {{ range .Site.Params.css }}
     <link rel="stylesheet" href="/css/{{ . }}">
     {{ end }}
