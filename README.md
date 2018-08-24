@@ -15,6 +15,6 @@ https://gohugo.io/
   * `jquery.slim.js`
   * Pas besoin de popper.js
   * `bootstrap.js` : compilé à partir de la source en gardant `Util`, `Collapse` et `Dropdown`
-  * `piwik.js`
+  * `sta.js`
 
 Pour trafiquer bootstrap : modifier `scss/bootstrap.scss` et `js/src/index.js`.

@@ -9,13 +9,8 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 
 outputs:
-  home:
-    - HTML
-    - CSS
-    - RSS
-  section:
-    - HTML
-    - RSS
+  home: ["HTML", "CSS", "RSS"]
+  section: ["HTML", "RSS"]
 
 blackfriday:
   hrefTargetBlank: false
@@ -53,7 +48,7 @@ params:
   date_format: 2006-01-02
   math: true
   css: ['bundle.css']
-  js: ['jquery.slim.min.js', 'bootstrap.min.js', 'piwik.js']
+  js: ['jquery.slim.min.js', 'bootstrap.min.js', 'sta.js']
 
   social:
     - icon: '<i class="ai ai-arxiv ai-lg"></i>'
