@@ -48,7 +48,7 @@ params:
   date_format: 2006-01-02
   math: true
   css: ['bundle.css']
-  js: ['jquery.slim.min.js', 'bootstrap.min.js', 'sta.js']
+  js: ['jquery.slim.min.js', 'bootstrap.min.js']
 
   social:
     - icon: '<i class="ai ai-arxiv ai-lg"></i>'
