@@ -27,13 +27,20 @@ params:
   name: Najib Idrissi
   role: Postdoc
   organization: ETH Zürich
+  # role: Maître de conférences
+  # organization: Université Paris Diderot – IMJ-PRG
   organization_url: https://www.ethz.ch
   avatar: photo.jpg
   email: najib.idrissi-kaitouni@imj-prg.fr
   address: ETH Zürich (D-MATH, Pool Group 5) – Rämistrasse 101 – 8092 Zürich – Switzerland
   office: "Office: HG F27.4"
+  # address: Université Paris Diderot, IMJ-PRG – Bâtiment Sophie Germain –  8 place Aurélie Nemours – 75013 Paris – France
+  # office: "Office: SG-7032 (Building Sophie Germain)"
   office_hours: ~
   phone: ~
+  # phone:
+  #   pretty: "(+33) 01 57 27 91 16"
+  #   ugly: "+33157279116"
   skype: ~
   telegram: ~
   keybase: ~
@@ -85,6 +92,7 @@ languages:
     role: Postdoc
     address: ETH Zürich (D-MATH, Pool Group 5) – Rämistrasse 101 – 8092 Zürich – Suisse
     office: "Bureau : HG F27.4"
+    # office: "Bureau : SG-7032 (Bâtiment Sophie Germain)"
     menu:
       main:
         - name: CV
