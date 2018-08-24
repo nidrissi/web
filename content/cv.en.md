@@ -36,14 +36,14 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 #### Publications
 
-1. Najib Idrissi. "[Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese.md" >}})". In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844).
+1. Najib Idrissi. "[Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese.en.md" >}})". In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844).
 
 #### Preprints
 
-1. Ricardo Campos, Julien Ducoulombier, Najib Idrissi, Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "/research/framed-conf.md" >}}).* 27 pages. Version 1. Juillet 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
-1. Najib Idrissi. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "/research/curved-koszul.md" >}}).* 32 pages. Version 2. Août 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
-2. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "/research/config-boundary.md" >}}).* February 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
-3. Najib Idrissi. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/conf-spaces.md" >}}).* Version 3, in revision. Novembre 2016. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+1. Ricardo Campos, Julien Ducoulombier, Najib Idrissi, Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "/research/framed-conf.en.md" >}}).* 27 pages. Version 1. Juillet 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
+1. Najib Idrissi. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "/research/curved-koszul.en.md" >}}).* 32 pages. Version 2. Août 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
+2. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "/research/config-boundary.en.md" >}}).* February 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
+3. Najib Idrissi. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/conf-spaces.en.md" >}}).* Version 3, in revision. Novembre 2016. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
 
 #### Other documents
 
@@ -67,6 +67,6 @@ Letters in Mathematical Physics; Proceedings of the Edinburgh Mathematical Socie
 <dd class="col-lg-10 col-sm-9">Co-organizer of the PhD students' seminar, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-### [Teaching]({{< ref "enseignement.md" >}})
+### [Teaching]({{< ref "enseignement.en.md" >}})
 
-### [Talks]({{< ref "talk/_index.md" >}})
+### [Talks]({{< ref "talk/_index.en.md" >}})

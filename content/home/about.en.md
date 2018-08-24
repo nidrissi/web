@@ -14,9 +14,9 @@ I will be affiliated to the team-project [Algebraic Topology & Geometry](https:/
 *As I do not know when my `@ethz.ch` address will be deactivated, please contact me using the email address `@imj-prg.fr` written here, to avoid later problems.*
  
 I am currently a postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
-I completed [my PhD]({{< ref "/research/thesis.md" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at the [University of Lille](https://www.univ-lille.fr) in November 2017.
+I completed [my PhD]({{< ref "/research/thesis.en.md" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at the [University of Lille](https://www.univ-lille.fr) in November 2017.
 Before that, I was student of the [ENS Paris](https://www.ens.fr).
-You can find more info in [my CV]({{< ref "/cv.md" >}}).
+You can find more info in [my CV]({{< ref "/cv.en.md" >}}).
 
 I am a member of the [SMF](http://smf.emath.fr/) and the [EMS](http://www.euro-math-soc.eu/).
 I also write [reviews for zbMATH](https://zbmath.org/?q=rv%3Anajib%2Bidrissi).

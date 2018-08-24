@@ -78,7 +78,7 @@ This was of course unacceptable and was resolved in a different way, but still, 
 
 <sup>★</sup>
 Update August 2018: I have learned why.
-The IDEX grant (see [my other post]({{< ref "/post/why-name-paris-7.md" >}})) that was the main driving force behind the creation of *Sorbonne Université* was named *Sorbonne Universités à Paris pour l'Enseignement et la Recherche* ("Sorbonne Universities at Paris for Education and Research").
+The IDEX grant (see [my other post]({{< ref "/post/why-name-paris-7.en.md" >}})) that was the main driving force behind the creation of *Sorbonne Université* was named *Sorbonne Universités à Paris pour l'Enseignement et la Recherche* ("Sorbonne Universities at Paris for Education and Research").
 Its acronym is SUPER.
 I imagine that "USPER" was less catchy.
 
