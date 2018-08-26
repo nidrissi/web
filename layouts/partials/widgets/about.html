@@ -13,7 +13,6 @@
         <h5 class="card-title" itemprop="name">{{ $.Site.Params.name }}</h5>
         <h6 class="card-subtitle" itemprop="jobTitle">{{ $.Site.Params.role }}</h6>
         <div class="card-text">
-          {{ if $.Site.Params.organization }}<a href="{{ $.Site.Params.organization_url }}" itemprop="worksFor">{{ $.Site.Params.organization }}</a><br>{{ end }}
           {{ range $.Site.Params.organizations }}
           <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
             <a href="{{ .url }}" target="_blank" itemprop="url" rel="noopener"><span itemprop="name">{{ .name }}</span></a>

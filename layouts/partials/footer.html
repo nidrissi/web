@@ -1,3 +1,13 @@
+<hr>
+<footer class="text-muted text-center">
+  {{ .Site.Params.name }}
+  |
+  {{ .Site.Params.role}}
+  |
+  {{ range $i, $e := .Site.Params.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $e.url }}" target="_blank" rel="noopener">{{ $e.name }}</a>{{ end }}
+  |
+  <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+</footer>
 </div><!-- container -->
 </body>
 </html>

@@ -21,8 +21,9 @@ permalinks:
 params:
   name: Najib Idrissi
   role: Postdoc
-  organization: ETH Zürich
-  organization_url: https://www.ethz.ch
+  organizations:
+    - name: ETH Zürich
+      url: https://www.ethz.ch
   # role: Maître de conférences
   # organizations:
   #   - name: Université Paris Diderot
