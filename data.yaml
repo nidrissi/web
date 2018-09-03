@@ -106,31 +106,31 @@ section:
       - content:
           - en cours ! ongoing
           - "Évaluation d'articles ! Peer reviews"
-          - 
-          - ~
-          - ~
+          - ""
+          - ""
+          - ""
           - "Letters in Mathematical Physics; Proceedings of the Edinburgh Mathematical Society; Royal Society of Edinburgh: Proceedings A"
       - content:
           - en cours ! ongoing
           - "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
-          - ~
-          - ~
-          - ~
-          - ~
+          - ""
+          - ""
+          - ""
+          - ""
       - content:
           - 10/2017
           - "Co-organisateur de la journée de préparation pour jeunes chercheurs ! Co-organizer of the introductory day for young researchers"
           - Colloque 2017 du GDR Topologie Algébrique
           - Paris
           - France
-          - ~
+          - ""
       - content:
           - 2016--2017
           - "Co-organisateur du séminaire des doctorants ! Co-organizer of the PhD students' seminar"
           - Laboratoire Paul Painlevé, Université Lille\ 1
           - Lille
           - France
-          - ~
+          - ""
   - title: Exposés ! Talks
     entry:
       - subsection: Invités ! Invited
@@ -294,7 +294,7 @@ section:
           - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
           - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
           - Louvain-la-Neuve, Belgique ! Louvain-la-Neuve, Belgium
-          - ~
+          - ""
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - content:
           - 09/2015
