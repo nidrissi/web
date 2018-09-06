@@ -36,7 +36,6 @@ params:
   skype: ~
   telegram: ~
   keybase: ~
-  gpg_key_url: pubkey/
 
   date_format: 2006-01-02
   math: true
