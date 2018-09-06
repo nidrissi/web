@@ -8,7 +8,7 @@ weight = 1
 Je suis Najib <abbr title="Mon nom complet est « Idrissi Kaïtouni ». Je préfère utiliser « Idrissi » dans les milieux académiques pour plus de simplicité et pour éviter certains problèmes – par exemple, des systèmes informatiques qui croient que « Idrissi » est mon deuxième prénom et qu'il faut m'appeler « NI Kaïtouni »...).">Idrissi</abbr>, et je suis mathématicien.
 Je m'intéresse aux opérades et leurs applications à la topologie algébrique, plus particulièrement à l'étude des espaces de configuration et leurs liens avec les complexes de graphes.
 
-Je suis maître de conférences à [l'Université Paris Diderot (Paris 7)](https://www.univ-paris-diderot.fr).
+Je suis maître de conférences à [l'Université Paris Diderot](https://www.univ-paris-diderot.fr) dans [l'UFR de mathématiques](https://www.math.univ-paris-diderot.fr/).
 Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 Je suis aussi membre de la [SMF](http://smf.emath.fr/) et de [l'EMS](http://www.euro-math-soc.eu/) et j'écris des [résumés pour zbMATH](https://zbmath.org/?q=rv%3Anajib%2Bidrissi).
 

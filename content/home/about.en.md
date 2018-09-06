@@ -8,7 +8,7 @@ weight = 1
 I am Najib <abbr title="My complete family name is ‘Idrissi Kaïtouni’ and it's possible to find it in some places. I prefer to use only 'Idrissi' in academic settings for simplicity and to avoid some confusions – for example, automated systems thinking that ‘Idrissi’ is my middle name and that I should be called ‘NI Kaïtouni’...).">Idrissi</abbr>, and I am a mathematician.
 I am mainly interested in operads and their applications to algebraic topology, more specifically the study of configuration spaces and their links to graph complexes.
 
-I am *maître de conférences* (= permanent faculty, rank B) at [Paris Diderot University (Paris 7)](https://www.univ-paris-diderot.fr).
+I am *maître de conférences* (= permanent faculty, rank B) at [Paris Diderot University](https://www.univ-paris-diderot.fr) in the [Mathematics Department](https://www.math.univ-paris-diderot.fr/).
 I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 I am also a member of the [SMF](http://smf.emath.fr/) and the [EMS](http://www.euro-math-soc.eu/) and I write [reviews for zbMATH](https://zbmath.org/?q=rv%3Anajib%2Bidrissi).
  
