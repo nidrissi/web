@@ -14,5 +14,4 @@ Je suis aussi membre de la [SMF](http://smf.emath.fr/) et de [l'EMS](http://www.
 
 De février à août 2018, j'étais postdoc à [l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 En novembre 2017, j'ai soutenu [ma thèse de doctorat]({{< ref "/research/thesis.fr.md" >}}) sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) à l'[Université de Lille](https://www.univ-lille.fr).
-Avant ça, j'étais élève à [l'ENS Paris](https://www.ens.fr).
 J'ai noté plus d'informations dans [mon CV]({{< ref "/cv.fr.md" >}}).
