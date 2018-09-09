@@ -11,18 +11,13 @@
       <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}">
       <div class="card-body">
         <h5 class="card-title" itemprop="name">{{ $.Site.Params.name }}</h5>
-        <h6 class="card-subtitle" itemprop="jobTitle">{{ $.Site.Params.role }}</h6>
-        <div class="card-text">
-          {{ range $.Site.Params.organizations }}
-          <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-            <a href="{{ .url }}" target="_blank" itemprop="url" rel="noopener"><span itemprop="name">{{ .name }}</span></a>
-          </span>
-          <br>
-          {{ end }}
-          {{ range $.Site.Params.social }}
-          <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .icon | safeHTML }}</a>
-          {{ end }}
-        </div>
+        <h6 class="card-subtitle mb-1" itemprop="jobTitle">{{ $.Site.Params.role }}</h6>
+        <p class="card-text">
+          {{ range $i, $org := $.Site.Params.organizations }}{{ if $i }}, {{ end }}<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="{{ $org.url }}" target="_blank" itemprop="url" rel="noopener"><span itemprop="name">{{ $org.name }}</span></a></span>{{ end }}
+        </p>
+        {{ range $.Site.Params.social }}
+        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .icon | safeHTML }}</a>
+        {{ end }}
       </div>
     </div>
   </div>
