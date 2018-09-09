@@ -65,7 +65,7 @@ The criterion used is essentially the performance of the university in these int
 All universities competed (and still compete) for these grants, and for a new kind of grant called I-SITE, which has the same basic function but of a smaller caliber (a third to half a billion euros).
 
 Fast forward to today, all universities in France are merging back again in the hopes of being awarded these grants.
-In Lille (where I did my PhD) this already happened, and the three universities (Lille-I, where I worked, Lille-II, and Lille-III) now form the University of Lille.
+In Lille (where I did my doctorate) this already happened, and the three universities (Lille-I, where I worked, Lille-II, and Lille-III) now form the University of Lille.
 In Paris this is not so simple, as simply merging everything would be a huge incoherent administrative mess.
 So some universities are merging with one another to create a few big Parisian universities.
 This already happened to Paris-VI ("Jussieu"): it merged with Paris-IV (known as Paris-Sorbonne) to create "*Sorbonne Université*".

@@ -4,7 +4,7 @@ date = 2017-11-17
 draft = false
 abstract = ""
 abstract_short = ""
-event = "PhD thesis defense"
+event = "Doctoral thesis defense"
 event_url = ""
 location = "Université Lille 1"
 url_custom = [{name="Thesis", url="/pdf/papers/thesis.pdf"}]

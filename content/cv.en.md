@@ -18,7 +18,7 @@ Permanent faculty position, rank B.</dd>
 Supervised by Thomas Willwacher. Funded by ERC StG 678156—GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>PhD in Mathematics</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France<br>
 Defended on November 17th, 2017.<br>
 Advisor: Benoit Fresse.
 Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.<br>
@@ -27,7 +27,7 @@ Funded by an <em>Allocation Spécifique</em> of the ENS.</dd>
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Student of the École Normale Supérieure</strong>, <em>ENS Paris – DMA</em>, Paris, France<br>
 Ranked first on the "INFO" entrance exam. Includes:<br>
-2014–2015: Research internship in preparation of a PhD, Université Lille 1;<br>
+2014–2015: Research internship in preparation of a doctorate, Université Lille 1;<br>
 2013–2014: Master's degree in Fundamental Mathematics, Université Paris Diderot;<br>
 Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
 </div>
@@ -64,7 +64,7 @@ Letters in Mathematical Physics; Proceedings of the Edinburgh Mathematical Socie
 <dd class="col-lg-10 col-sm-9">Co-organizer of the introductory day for young researchers, 2017 Colloquium of the Algebraic Topology GDR, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Co-organizer of the PhD students' seminar, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
+<dd class="col-lg-10 col-sm-9">Co-organizer of the doctoral students' seminar, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
 ### [Teaching]({{< ref "enseignement.en.md" >}})

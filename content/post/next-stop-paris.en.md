@@ -69,7 +69,7 @@ I tried to draw a diagram explaining all of this, but I eventually gave up.
 Besides, that diagram will be obsolete in a few months: Paris-VII is merging with another university, Paris-V (AKA Paris-Descartes), to create a new big university with a yet unknown name, much like what was formerly known as Paris-VI (Université Pierre et Marie Curie, that you perhaps know as "Jussieu") merged with Paris-IV to create "*Sorbonne Université*" (yes, the name in French follows the English word order -- don't ask me why<sup>★</sup>).
 While the research side of the story will probably not be affected, teaching certainly will.
 
-I have been told that the true test of one's bureaucratic mettle is the habilitation (HDR), the diploma who allows you to supervise PhD students alone and to apply for full professor positions.
+I have been told that the true test of one's bureaucratic mettle is the habilitation (HDR), the diploma who allows you to supervise doctoral students alone and to apply for full professor positions.
 Since you have no advisor to guide you through the administration, it can get... interesting.
 As a funny anecdote, someone once told me that through a complex network of signature delegations and counter-signatures, he was the one required to eventually authorize his own habilitation defense.
 This was of course unacceptable and was resolved in a different way, but still, interesting things can happen.

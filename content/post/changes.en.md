@@ -8,7 +8,7 @@ categories = []
 
 Many changes have happened in my life recently!
 
-I defended [my PhD]({{< ref "/research/thesis.en.md" >}}) on November 17th.
+I defended [my doctorate]({{< ref "/research/thesis.en.md" >}}) on November 17th.
 I guess I'm a doctor now!
 There are too many people to thank for that, so please see the "Thanks" section of my thesis.
 I am now entering the scary world of job applications.
