@@ -9,10 +9,11 @@ I am Najib <abbr title="My complete family name is ‘Idrissi Kaïtouni’ and i
 I am mainly interested in operads and their applications to algebraic topology, more specifically the study of configuration spaces and their links to graph complexes.
 
 I am *maître de conférences* (= permanent faculty, rank B) at [Paris Diderot University](https://www.univ-paris-diderot.fr) in the [Mathematics Department](https://www.math.univ-paris-diderot.fr/).
-I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
-I am also a member of the [SMF](http://smf.emath.fr/) and the [EMS](http://www.euro-math-soc.eu/) and I write [reviews for zbMATH](https://zbmath.org/?q=rv%3Anajib%2Bidrissi).
+I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche (IMJ-PRG)](https://www.imj-prg.fr).
  
 Between February and August 2018, I was postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 In November 2017, I defended [my doctoral thesis]({{< ref "/research/thesis.en.md" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at the [University of Lille](https://www.univ-lille.fr).
 You can find more info in [my CV]({{< ref "/cv.en.md" >}}).
 
+I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG.
+If you would like to subscribe to the corresponding mailing-list, [please enter your email address there](https://listes.services.cnrs.fr/wws/subscribe/sem-top.paris).

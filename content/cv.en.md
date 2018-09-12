@@ -60,11 +60,14 @@ Letters in Mathematical Physics; Proceedings of the Edinburgh Mathematical Socie
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH.</dd>
 
+<dt class="col-lg-2 col-sm-3">en cours</dt>
+<dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
+
 <dt class="col-lg-2 col-sm-3">2017-10-17</dt>
-<dd class="col-lg-10 col-sm-9">Co-organizer of the introductory day for young researchers, 2017 Colloquium of the Algebraic Topology GDR, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9">Participation to the organization of the introductory day for young researchers, 2017 Colloquium of the Algebraic Topology GDR, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Co-organizer of the doctoral students' seminar, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
+<dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="http://math.univ-lille1.fr/d7/sdocpo">Doctoral Students' Seminar</a>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
 ### [Teaching]({{< ref "enseignement.en.md" >}})
