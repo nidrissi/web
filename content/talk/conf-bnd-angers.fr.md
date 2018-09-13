@@ -6,7 +6,7 @@ abstract = "L'objet de cet exposé est le type d'homotopie réel des espaces de 
 abstract_short = ""
 event = "Séminaire de physique mathématique et de topologie algébrique"
 event_url = "http://recherche.math.univ-angers.fr/spip.php?article29&site=56&session=15&presentation=180"
-location = "Université d'Angers"
+location = "Université d'Angers, Angers, France"
 url_custom = [{name="Article", url="/pdf/papers/config-boundary.pdf"}]
 url_slides = "/pdf/slides/bord.pdf"
 url_video = ""

@@ -6,7 +6,7 @@ abstract = ""
 abstract_short = ""
 event = "Doctoral thesis defense"
 event_url = ""
-location = "Université Lille 1"
+location = "Université Lille 1, Villeneuve d'Ascq, France"
 url_custom = [{name="Thesis", url="/pdf/papers/thesis.pdf"}]
 url_slides = "/pdf/slides/soutenance.pdf"
 url_video = "/vid/proclam_soutenance.mp4"

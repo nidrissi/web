@@ -6,7 +6,7 @@ abstract = "L'objet de cet exposé est le type d'homotopie réel des espaces de 
 abstract_short = ""
 event = "Séminaire Algèbre et topologie"
 event_url = "http://irma.math.unistra.fr/article286.html"
-location = "IRMA, Université de Strasbourg"
+location = "Université de Strasbourg, Strasbourg, France"
 url_custom = [{name = "Article", url = "/pdf/papers/config-boundary.pdf"}]
 url_slides = "/pdf/slides/bord.pdf"
 url_video = ""

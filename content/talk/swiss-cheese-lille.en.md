@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2015-09-25"
 event = "Séminaire de Topologie"
 event_url = "http://math.univ-lille1.fr/d7/node/8621"
-location = "Université Lille 1"
+location = "Université Lille 1, Villeneuve d'Ascq, France"
 selected = false
 title = "L'opérade Swiss-Cheese et le centre de Drinfeld"
 url_custom = [{name = "Article", url = "/pdf/papers/center.pdf"}]

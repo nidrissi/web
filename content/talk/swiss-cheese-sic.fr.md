@@ -6,7 +6,7 @@ abstract = "L'opérade $SC$ \"Swiss-Cheese\" de Voronov gouverne l'action d'une 
 abstract_short = ""
 event = "Séminaire Itinérant de Catégories"
 event_url = "http://www-lmpa.univ-littoral.fr/~sic/wordpress/?page_id=858"
-location = "Université du Littoral, Calais"
+location = "Université du Littoral, Calais, France"
 url_custom = [{name = "Article", url = "/pdf/papers/center.pdf"}]
 url_slides = "/pdf/slides/sic.pdf"
 url_video = ""

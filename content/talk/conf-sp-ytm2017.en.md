@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2017-07-06"
 event = "Young Topologists Meeting 2017"
 event_url = "https://www.math-stockholm.se/en/konferenser-och-akti/young-topologists-meeting-2017-1.670396"
-location = "Stockholm, Sweden"
+location = "Stockholm University & Royal Institute of Technology (KTH), Stockholm, Sweden"
 selected = false
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
 url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]

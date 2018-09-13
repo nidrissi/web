@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2016-04-05"
 event = "Séminaire de Topologie Algébrique"
 event_url = "https://www.imj-prg.fr/spip.php?article67&archive=2016&archive=2015"
-location = "Université Paris 7"
+location = "Université Paris Diderot, Paris, France"
 selected = false
 title = "L'opérade Swiss-Cheese et le centre de Drinfeld"
 url_custom = [{name = "Article", url = "/pdf/papers/center.pdf"}]

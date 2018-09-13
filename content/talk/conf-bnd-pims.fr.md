@@ -12,7 +12,7 @@ We study the real homotopy type of configuration spaces of smooth compact manifo
 abstract_short = ""
 event = "Graph Complexes, Configuration Spaces and Manifold Calculus"
 event_url = "https://www.pims.math.ca/scientific-event/180522-gccsmc"
-location = "University of British Columbia, Canada"
+location = "University of British Columbia, Vancouver, Canada"
 url_custom = [{name = "Article", url = "/pdf/papers/config-boundary.pdf"}]
 url_slides = "/pdf/slides/vancouver18.pdf"
 url_video = ""

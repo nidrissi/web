@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2015-10-28"
 event = "Séminaire de Topologie Algébrique"
 event_url = ""
-location = "Université Catholique de Louvain"
+location = "Université Catholique de Louvain, Louvain-la-Neuve, Belgium"
 selected = false
 title = "L'opérade Swiss-Cheese et le centre de Drinfeld"
 url_custom = [{name = "Article", url = "/pdf/papers/center.pdf"}]

@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2016-10-26"
 event = "Conference in the honour of Saïd Zarati"
 event_url = "http://www.mims.tn/events/details/74"
-location = "Institut des Hautes Études (IHET), Tunis"
+location = "Institut des Hautes Études (IHET), Tunis, Tunisie"
 selected = false
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
 url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]

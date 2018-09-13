@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2016-09-16"
 event = "Séminaire de topologie"
 event_url = "http://math.univ-lille1.fr/d7/node/9057"
-location = "Université Lille 1"
+location = "Université Lille 1, Villeneuve d'Ascq, France"
 selected = false
 title = "Le modèle de Lambrechts–Stanley des espaces de configuration"
 url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]

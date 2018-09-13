@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2016-11-17"
 event = "Séminaire de topologie"
 event_url = "https://www.math.univ-paris13.fr/laga/index.php/fr/ta/seminaires"
-location = "Université Paris 13"
+location = "Université Paris 13, Villetaneuse, France"
 selected = false
 title = "Le modèle de Lambrechts–Stanley des espaces de configuration"
 url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]

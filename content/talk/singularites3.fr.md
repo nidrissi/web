@@ -9,7 +9,7 @@ abstract_short = ""
 date = "2017-10-03"
 event = "Séminaire de Géométrie des Espaces Singuliers"
 event_url = "http://math.univ-lille1.fr/d7/node/9492"
-location = "Université Lille 1"
+location = "Université Lille 1, Villeneuve d'Ascq, France"
 selected = false
 title = "L'opérade Swiss-Cheese et le centre de Drinfeld"
 url_custom = [{name = "Article", url = "/pdf/papers/center.pdf"}]

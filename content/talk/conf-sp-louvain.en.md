@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2017-01-04"
 event = "Séminaire de topologie algébrique"
 event_url = ""
-location = "Université Catholique de Louvain"
+location = "Université Catholique de Louvain, Louvain-la-Neuve, Belgium"
 selected = false
 title = "Le modèle de Lambrechts–Stanley des espaces de configuration"
 url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]

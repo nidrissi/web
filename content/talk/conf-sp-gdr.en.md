@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2016-10-13"
 event = "Colloque 2016 du GDR Topologie Algébrique et Applications"
 event_url = "https://indico.math.cnrs.fr/event/1297/"
-location = "Université de Picardie Jules Vernes, Amiens"
+location = "Université de Picardie Jules Vernes, Amiens, France"
 selected = false
 title = "The Lambrechts–Stanley Model of Configuration Spaces"
 url_custom = [{name = "Article", url = "/pdf/papers/model-conf-sp.pdf"}]

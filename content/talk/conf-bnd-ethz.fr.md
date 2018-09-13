@@ -4,7 +4,7 @@ abstract_short = ""
 date = "2017-08-24"
 event = "Talks in mathematical physics"
 event_url = "https://www.math.ethz.ch/news-and-events/events/research-seminars/talks-in-mathematical-physics.html?s=hs17"
-location = "ETH Zürich"
+location = "ETH Zurich, Zurich, Suisse"
 selected = false
 title = "Configuration Spaces of Compact Manifolds"
 url_custom = [{name = "Article", url = "/pdf/papers/config-boundary.pdf"}]
