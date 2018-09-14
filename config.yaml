@@ -28,7 +28,7 @@ params:
   avatar: photo.jpg
   email: najib.idrissi-kaitouni@imj-prg.fr
   address: Université Paris Diderot, IMJ-PRG – Bâtiment Sophie Germain –  8 place Aurélie Nemours – 75013 Paris – France
-  office: "Office: Sophie Germain - 7032"
+  office: "Office 7032"
   office_hours: ~
   phone:
     pretty: "(+33) 01 57 27 91 16"
@@ -80,7 +80,7 @@ languages:
     languageCode: fr-FR
     weight: 2
     title: Page perso de Najib Idrissi
-    office: "Bureau : Sophie Germain - 7032"
+    office: "Bureau 7032"
     menu:
       main:
         - name: CV
