@@ -6,7 +6,7 @@
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if $.Site.Params.email }}person-email{{ end }}{{ if $.Site.Params.phone }} person-telephone{{ end }}{{ if $.Site.Params.address}} person-address{{ end }}">
   <link itemprop="url" href="{{ $.Site.BaseURL }}">
   <div class="col-12 col-md-4">
-    <div class="card text-center">
+    <div class="card border-light text-center">
       <img class="card-img-top w-75 mx-auto" src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}" alt="Photo">
       <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}">
       <div class="card-body">
