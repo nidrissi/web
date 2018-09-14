@@ -4,7 +4,7 @@
 
 <!-- Blog Posts widget -->
 <div class="row">
-  <div class="col-12 col-md-3">
+  <div class="col-12 col-md-2">
 
     <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
@@ -18,7 +18,7 @@
     {{ end }}
 
   </div>
-  <div class="col-12 col-md-9">
+  <div class="col-12 col-md-10">
 
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
