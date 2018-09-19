@@ -11,7 +11,7 @@ date: "2018-01-01"
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–…</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu - Paris Rive Gauche</em>, Paris, France<br>
-Permanent faculty position, rank B.</dd>
+= permanent faculty position, rank B.</dd>
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Switzerland<br>
