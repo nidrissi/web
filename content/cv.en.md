@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (English)"
-lastmod: "2018-07-24"
+lastmod: "2018-09-19"
 date: "2018-01-01"
 ---
 

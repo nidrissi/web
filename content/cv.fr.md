@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2018-07-24"
+lastmod: "2018-09-19"
 date: "2018-01-01"
 ---
 
@@ -11,7 +11,6 @@ date: "2018-01-01"
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–…</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu - Paris Rive Gauche</em>, Paris, France</dd>
-
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zurich / D-MATH</em>, Zurich, Suisse<br>
