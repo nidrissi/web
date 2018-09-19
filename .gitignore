@@ -21,10 +21,8 @@ auto/
 *.pdf
 
 # CV
-*-out.yaml
-*-out.tex
-french.tex
-english.tex
+*.out.yaml
+*.out.tex
 #build
 
 # tup
