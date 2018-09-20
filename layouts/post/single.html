@@ -4,17 +4,6 @@
     {{ partial "article_metadata" . }}
     <div itemprop="articleBody">{{ .Content }}</div>
 
-    {{ $related := .Site.RegularPages.Related . | first 5 }}
-    {{ with $related }}
-    <hr>
-    <h3>{{ i18n "related" }}</h3>
-    <ul>
-        {{ range . }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-    {{ end }}
-
     <hr>
     <section id="isso-thread"></section>
 
