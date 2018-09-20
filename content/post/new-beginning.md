@@ -39,4 +39,5 @@ I hope to be able to use this result to study configuration spaces of complement
 
 <sup>(1)</sup> For those who don't know, in France, there is a separation between the teaching department (UFR in French) and the research lab.
 The teaching department is part of the university, while the research lab is part of the university and the CNRS.
-The math research lab I'm at is called the ""Institute of Mathematics of Jussieu-Paris Left Bank" so I tend to call it "the institute" or "the IMJ".
+The math research lab I'm at is called the "Institute of Mathematics of Jussieu-Paris Left Side" so I tend to call it "the institute" or "the IMJ".
+(In this case it's even part of CNRS and *two* university: Paris Diderot and Sorbonne Université.)
