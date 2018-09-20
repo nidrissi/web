@@ -9,6 +9,9 @@ I've been in Paris for almost a month now.
 It's been great!
 People at the math department and the math institute<sup>★</sup> have all been welcoming and have helped me a lot in getting settled.
 There have been a lot of administrative procedures to complete -- and I am unfortunately not done -- and it's great to have had people being able to guide me.
+And I finally found an apartment in Paris!
+It was unexpectedly hard -- faculty salaries are not very high compared to the cost of living, and the first year is technically on "probation", meaning I could theoretically get fired next August...
+Landlords in Paris have very rigid expectations and this made me fall outside them.
 <!--more-->
 
 I've also started teaching a course called "Elementary Algebra and Analysis I".
