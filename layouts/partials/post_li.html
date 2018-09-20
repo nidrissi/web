@@ -11,6 +11,6 @@
       {{ .Content }}
       {{ end }}
     </div>
-    <a href="{{ .Permalink }}" class="card-link">{{ i18n "continue_reading" }}</a>
+    <a href="{{ .Permalink }}" class="card-link">{{ if or .Params.summary .Truncated }}[…] {{ end }}{{ i18n "continue_reading" }}</a>
   </div>
 </div>  
