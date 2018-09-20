@@ -16,7 +16,7 @@ It's basically the course that gets taught everywhere around the world to first 
 I'm really teaching the course (to a small group of 25 students) this time, and not just doing the exercise sessions, so it's something new to get used to.
 
 I have not been idle on the research side, either.
-At the end of July, joint with Ricardo Campos, Julien Ducoulombier, and Thomas Willwacher, we put a new preprint on the arXiv.
+At the end of July, joint with Ricardo Campos, Julien Ducoulombier, and Thomas Willwacher, we put [a new preprint on the arXiv](https://arxiv.org/abs/1807.08319).
 We study the "framed" configuration spaces of a closed manifold.
 Recall that for a manifold {{< tex "M" >}}, the configuration space {{< tex "\operatorname{Conf}_k(M)" >}} is the space of {{< tex "k" >}} ordered pairwise distinct points in {{< tex "M" >}}.
 The framed configuration space {{< tex "\operatorname{Conf}^{\mathrm{fr}}_k(M)" >}} is a bundle over {{< tex "\operatorname{Conf}_k(M)" >}}, with fiber the {{< tex "k" >}}-fold product of the frame bundle of {{< tex "M" >}}.
