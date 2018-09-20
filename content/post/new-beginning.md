@@ -1,6 +1,6 @@
 +++
 title = "Life in Paris"
-date = 2018-09-20
+date = 2018-09-19
 draft = false
 tags = ["job", "paper"]
 +++
