@@ -35,6 +35,12 @@ While the Swiss-Cheese operad is naturally associated to manifolds with boundary
 I proved that this operad is formal over {{< tex "\mathbb{R}" >}}.
 I hope to be able to use this result to study configuration spaces of complements of embedded submanifolds.
 
+PS: I've asked a [question on MathOverflow](https://mathoverflow.net/q/310921/36146) about something that appears in my paper.
+I have a central derivation {{< tex "B[n-m-1] \to A" >}} where $B$ is a Poisson $n$-algebra and $A$ is a Poisson $m$-algebra.
+So I was led to look at {{< tex "A[\varepsilon]" >}}, i.e. I add a new square-zero variable to $A$.
+I'm pretty much looking for a fancy interpretation of this new Poisson algebra in terms of the old one.
+If you think of something, let me know...
+
 ---
 
 <sup>(1)</sup> For those who don't know, in France, there is a separation between the teaching department (UFR in French) and the research lab.
