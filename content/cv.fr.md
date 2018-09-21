@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2018-09-19"
+lastmod: "2018-09-21"
 date: "2018-01-01"
 ---
 
@@ -40,6 +40,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 ##### Prépublications
 
+1. Najib Idrissi. *[Formality of a higher-codimensional Swiss-Cheese operad]({{< ref "/research/codim-swiss-cheese.fr.md" >}}).* 40 pages. Version 1. Septembre 2018. [arXiv:1809.07667](http://arxiv.org/abs/1809.07667)
 1. Ricardo Campos, Julien Ducoulombier, Najib Idrissi, Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "/research/framed-conf.fr.md" >}}).* 27 pages. Version 1. Juillet 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
 1. Najib Idrissi. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "/research/curved-koszul.fr.md" >}}).* 32 pages. Version 2. Août 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
 2. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "/research/config-boundary.fr.md" >}}).* Février 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
