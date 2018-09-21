@@ -10,6 +10,6 @@ url_arxiv = "1809.07667"
 url_doi = ""
 url_mr = ""
 url_zbl = ""
-url_hal = ""
+url_hal = "01878406"
 # url_custom = [{name = "Custom Link", url = "http://example.org"}]
 +++
