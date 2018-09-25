@@ -7,7 +7,7 @@ abstract = "Koszul duality is a powerful tool that can be used to produce resolu
 abstract_short = ""
 event = "Derived Geometry and Higher Categorical Structures in Geometry and Physics"
 event_url = "http://www.fields.utoronto.ca/activities/17-18/sms-2018"
-location = "The Fields Institute, Toronto, Canada"
+location = "Fields Institute, Toronto, Canada"
 url_custom = [{name = "Article", url = "/pdf/papers/curved-koszul.pdf"}]
 url_slides = "/pdf/slides/fields18.pdf"
 url_video = "http://www.fields.utoronto.ca/video-archive/static/2018/06/2388-18977/mergedvideo.ogv"
