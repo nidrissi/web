@@ -4,9 +4,6 @@
     {{ partial "article_metadata" . }}
     <div itemprop="articleBody">{{ .Content }}</div>
 
-    <hr>
-    <section id="isso-thread"></section>
-
     {{ if .Site.Params.section_pager }}
     {{ partial "section_pager.html" . }}
     {{ end }}

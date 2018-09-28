@@ -12,8 +12,6 @@
     {{ end }}
     <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
-    <link rel="preconnect" href="https://comms.idrissi.eu">
-
     {{ range .Site.Params.css }}
     <link rel="stylesheet" href="/css/{{ . }}">
     {{ end }}
@@ -21,9 +19,6 @@
     {{ range .Site.Params.js }}
     <script defer src="/js/{{ . }}"></script>
     {{ end }}
-    <script async data-isso="https://comms.idrissi.eu/" src="https://comms.idrissi.eu/js/embed.min.js"
-            data-isso-require-author="true"
-            data-isso-require-email="true"></script>
 
     <script type="text/x-mathjax-config">
      MathJax.Hub.Config({
