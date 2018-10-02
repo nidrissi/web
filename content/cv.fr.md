@@ -55,7 +55,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 <div class="row">
 <dt class="col-lg-2 col-sm-3">en cours</dt>
 <dd class="col-lg-10 col-sm-9">Évaluation d'articles.<br>
-Letters in Mathematical Physics ; Proceedings of the Edinburgh Mathematical Society ; Royal Society of Edinburgh: Proceedings A</dd>
+Lett. Math. Phys. ; Proc. Edinb. Math. Soc. ; Proc. Roy. Soc. Edinburgh Sect. A</dd>
 
 <dt class="col-lg-2 col-sm-3">en cours</dt>
 <dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH.</dd>
