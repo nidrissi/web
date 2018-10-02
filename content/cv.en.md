@@ -61,7 +61,7 @@ Lett. Math. Phys.; Proc. Edinb. Math. Soc.; Proc. Roy. Soc. Edinburgh Sect. A</d
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH.</dd>
 
-<dt class="col-lg-2 col-sm-3">en cours</dt>
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
 
 <dt class="col-lg-2 col-sm-3">2017-10-17</dt>
