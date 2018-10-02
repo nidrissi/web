@@ -1,2 +1,2 @@
-cp french-out.pdf ../web/static/pdf/cv_idrissi_fr.pdf
-cp english-out.pdf ../web/static/pdf/cv_idrissi_en.pdf
+cp french.out.pdf ../web/static/pdf/cv_idrissi_fr.pdf
+cp english.out.pdf ../web/static/pdf/cv_idrissi_en.pdf
