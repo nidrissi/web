@@ -1,7 +1,7 @@
 +++
 title = "TBA"
 date = 2018-11-08
-draft = true
+draft = false
 abstract = "TBA"
 event = "Geometry & Topology Seminar"
 event_url = ""
