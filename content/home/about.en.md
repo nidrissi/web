@@ -5,10 +5,10 @@ weight = 10
 
 # Hello!
 
-I am Najib <abbr title="My complete family name is ‘Idrissi Kaïtouni’ and it's possible to find it in some places. I prefer to use only 'Idrissi' in academic settings for simplicity and to avoid some confusions – for example, automated systems thinking that ‘Idrissi’ is my middle name and that I should be called ‘NI Kaïtouni’...).">Idrissi</abbr>, and I am a mathematician.
+I am Najib <abbr title="My complete family name is ‘Idrissi Kaïtouni’ and it is possible to find it in some places. I prefer to use only 'Idrissi' in academic settings for simplicity and to avoid some confusions – for example, automated systems thinking that ‘Idrissi’ is my middle name and that I should be called ‘NI Kaïtouni’...).">Idrissi</abbr>, and I am a mathematician.
 I am mainly interested in operads and their applications to algebraic topology, more specifically the study of configuration spaces and their links to graph complexes.
 
-I work at [Paris Diderot University](https://www.univ-paris-diderot.fr) in the [Mathematics Department](https://www.math.univ-paris-diderot.fr/) as a *maître de conférences* (literally "lecturer", it's a permanent B-rank faculty position).
+I work at [Paris Diderot University](https://www.univ-paris-diderot.fr) in the [Mathematics Department](https://www.math.univ-paris-diderot.fr/) as a *maître de conférences* (literally "lecturer" in English, it is a permanent B-rank faculty position).
 I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche (IMJ-PRG)](https://www.imj-prg.fr).
 
 Between February and August 2018, I was postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
