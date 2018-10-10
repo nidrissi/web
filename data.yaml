@@ -140,7 +140,7 @@ section:
           - ""
   - title: Exposés ! Talks
     entry:
-      - subsection: Invités ! Invited
+      - subsection: Sur invitation ! Invited
       - content:
           - 01/2019\*
           - Structures Supérieures ! Higher Structures
@@ -324,7 +324,7 @@ section:
           - Lille
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      - subsection: Contribués ! Contributed
+      - subsection: Sur proposition ! Contributed
       - content:
           - 07/2017
           - Young Topologists Meeting 2017
