@@ -13,7 +13,7 @@ section:
     entry:
       - content:
           - 09/2018--\makebox[0pt][l]{\dots}\hphantom{09/2018}
-          - *Maître de conférences*
+          - Maître de conférences ! *Maître de conférences*
           - Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
@@ -244,7 +244,7 @@ section:
           - 08/2017
           - Exposés de physique mathématiques ! Talks in mathematical physics
           - ETH Zürich
-          - Zurich ! Zürich
+          - Zürich
           - Suisse ! Switzerland
           - Configuration Spaces of Compact Manifolds
       - content:
@@ -285,14 +285,14 @@ section:
       - content:
           - 06/2016
           - Exposés en Physique Mathématique ! Talks in Mathematical Physics
-          - ETH Zurich ! ETH Zürich
-          - Zurich ! Zürich
+          - ETH Zürich
+          - Zürich
           - Suisse ! Switzerland
           - Swiss-Cheese operad and Drinfeld center
       - content:
           - 04/2016
           - Séminaire de Topologie ! Topology Seminar
-          - Université Paris\ 7 -- IMJ-PRG
+          - IMJ-PRG
           - Paris
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
@@ -314,8 +314,8 @@ section:
           - 10/2015
           - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
           - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
-          - Louvain-la-Neuve, Belgique ! Louvain-la-Neuve, Belgium
-          - ""
+          - Louvain-la-Neuve
+          - Belgique ! Belgium
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - content:
           - 09/2015
@@ -328,7 +328,7 @@ section:
       - content:
           - 07/2017
           - Young Topologists Meeting 2017
-          - Université de Stockholm ! Stockholm University
+          - SU + KTH
           - Stockholm
           - Suède ! Sweden
           - The Lambrechts--Stanley Model of Configuration Spaces
@@ -353,19 +353,19 @@ section:
     entry:
       - item:
           - 01/2019\*
-          - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM), Marseille ! Higher Structures @ Centre international de rencontres mathématiques (CIRM), Marseille
+          - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy/Marseille) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy/Marseille)
       - item:
           - 10/2018\*
           - Colloque 2018 du GDR Topologie Algébrique @ Université de Montpellier
       - item:
           - 06/2018
-          - Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields ! Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Fields Institute
+          - Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields (Toronto) ! Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Fields Institute (Toronto)
       - item:
           - 05/2018
           - Graph Complexes, Configuration Spaces and Manifold Calculus @ University of British Columbia (Vancouver)
       - item:
           - 01/2018
-          - Rational Homotopy and Its Applications @ Université de Lille
+          - Rational Homotopy and its Applications @ Université de Lille
       - item:
           - 10/2017
           - Colloque 2017 du GDR Topologie Algébrique @ Université Paris 7
@@ -380,7 +380,7 @@ section:
           - Workshop on Persistent Homology @ Université de Montpellier
       - item:
           - 07/2017
-          - Young Topologists Meeting 2017 @ Université de Stockholm ! Young Topologists Meeting 2017 @ Stockholm University
+          - Young Topologists Meeting 2017 @ SU + KTH (Stockholm)
       - item:
           - 06/2017
           - Algebraic Topology and Representation Theory @ Université de Lille
@@ -407,7 +407,7 @@ section:
           - Colloque 2016 du GDR Topologie Algébrique et Applications @ Université de Picardie Jules Verne (Amiens)
       - item:
           - 07/2016
-          - Young Topologists Meeting 2016 @ Université de Copenhague ! Young Topologists Meeting 2016 @ University of Copenhagen
+          - Young Topologists Meeting 2016 @ Københavns Universitet
       - item:
           - 05/2016
           - "Workshop: Factorization Algebras and Functorial Field Theories @ Mathematisches Forschungsinstitut Oberwolfach"
@@ -449,7 +449,7 @@ section:
           - Espaces des lacets en géométrie et topologie @ Université de Nantes
       - item:
           - 06/2014
-          - Young Topologists Meeting 2014 @ Université de Copenhague ! Young Topologists Meeting 2014 @ University of Copenhagen
+          - Young Topologists Meeting 2014 @ Københavns Universitet
       - item:
           - 05/2014
           - Young Mathematicians Colloquium @ Université Lille\ 1
