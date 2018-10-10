@@ -1,5 +1,5 @@
 PANDOC = pandoc --pdf-engine=lualatex
-LATEX = latexmk -pdf -e '$$pdflatex =~ s/pdflatex/lualatex/' -e '$$out_dir = build'
+LATEX = latexmk -pdf -e '$$pdflatex =~ s/pdflatex/lualatex/' -outdir="build"
 TEMPLATE = template.tex
 WTARGET = ..\web\static\pdf
 TARGET = ../web/static/pdf

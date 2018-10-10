@@ -13,13 +13,13 @@ section:
     entry:
       - content:
           - 09/2018--\makebox[0pt][l]{\dots}\hphantom{09/2018}
-          - Maître de conférences
+          - *Maître de conférences*
           - Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
           - |
             !
-            = permanent faculty position, rank B.
+            (literally, "lecturer" = permanent faculty position, rank B)
       - content:
           - 02/2018--08/2018
           - Chercheur postdoctorant ! Postdoctoral researcher
@@ -45,8 +45,8 @@ section:
             Funded by an *Allocation Spécifique* of the ENS.
       - content:
           - 09/2011--08/2015
-          - "Élève de l'École Normale Supérieure ! Student of the École Normale Supérieure"
-          - ENS Paris / Département de Mathématiques et Applications
+          - "Élève de l'École Normale Supérieure ! Student of the *École Normale Supérieure*"
+          - ENS Paris / DMA
           - Paris
           - France
           - |
@@ -186,112 +186,112 @@ section:
           - TBA
       - content:
           - 11/2018\*
-          - Séminaire Géométrie \& Topologie
+          - Séminaire Géométrie \& Topologie ! Geometry \& Topology Seminar
           - IMJ-PRG
           - Paris
           - France
           - TBA
       - content:
          - 06/2018
-         - Department colloquium
+         - Departmental Colloquium ! Colloque du département
          - University of Regina
          - Regina (SK)
          - Canada
          - Configuration Spaces and Graphs Complexes
       - content:
           - 12/2017
-          - Séminaire de topologie, géométrie et algèbre
+          - Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
           - Université de Nantes
           - Nantes
           - France
           - Espaces de configuration de variétés compactes
       - content:
           - 12/2017
-          - Séminaire Algèbre et topologie 
+          - Séminaire Algèbre et Topologie ! Algebra and Topology seminar
           - Université de Strasbourg
           - Strasbourg
           - France
           - Espaces de configuration de variétés compactes
       - content:
           - 11/2017
-          - Séminaire de physique mathématique et de topologie algébrique 
+          - Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
           - "Université d'Angers"
           - Angers
           - France
           - Espaces de configuration de variétés compactes
       - content:
           - 11/2017
-          - Séminaire "Homotopie en Géométrie Algébrique"
+          - Séminaire Homotopie en Géométrie Algébrique ! Homotopy in Algebraic Geometry Seminar
           - Université Paul Sabatier
           - Toulouse
           - France
           - Espaces de configuration de variétés compactes
       - content:
           - 10/2017
-          - Séminaire de Géométrie des Espaces Singuliers
+          - Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - "Introduction à la théorie de l'homotopie rationnelle"
       - content:
           - 10/2017
-          - Séminaire de Géométrie des Espaces Singuliers
+          - Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - content:
           - 08/2017
-          - Talks in mathematical physics
+          - Exposés de physique mathématiques ! Talks in mathematical physics
           - ETH Zürich
           - Zurich ! Zürich
           - Suisse ! Switzerland
           - Configuration Spaces of Compact Manifolds
       - content:
           - 05/2017
-          - Séminaire de Géométrie des espaces singuliers
+          - Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - Le modèle de Lambrechts--Stanley des espaces de configuration
       - content:
           - 05/2017
-          - Séminaire de Géométrie des espaces singuliers
+          - Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - La compactification de Fulton-MacPherson des espaces de configuration
       - content:
           - 01/2017
-          - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
+          - Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
           - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
           - Louvain-la-Neuve
           - Belgique ! Belgium
           - Le modèle de Lambrechts--Stanley des espaces de configuration
       - content:
           - 11/2016
-          - Séminaire de topologie algébrique ! Algebraic topology seminar
+          - Séminaire de topologie algébrique ! Algebraic Topology Seminar
           - Université Paris 13
           - Paris
           - France
           - Le modèle de Lambrechts--Stanley des espaces de configuration
       - content:
           - 09/2016
-          - Séminaire de Topologie ! Topology seminar
+          - Séminaire de Topologie ! Topology Seminar
           - Université Lille 1
           - Lille
           - France
           - Le modèle de Lambrechts--Stanley des espaces de configuration
       - content:
           - 06/2016
-          - Talks in mathematical physics
+          - Exposés en Physique Mathématique ! Talks in Mathematical Physics
           - ETH Zurich ! ETH Zürich
           - Zurich ! Zürich
           - Suisse ! Switzerland
           - Swiss-Cheese operad and Drinfeld center
       - content:
           - 04/2016
-          - Séminaire de Topologie ! Topology seminar
+          - Séminaire de Topologie ! Topology Seminar
           - Université Paris\ 7 -- IMJ-PRG
           - Paris
           - France
@@ -319,7 +319,7 @@ section:
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - content:
           - 09/2015
-          - Séminaire de Topologie ! Topology seminar
+          - Séminaire de Topologie ! Topology Seminar
           - Université Lille\ 1 -- Laboratoire Paul Painlevé
           - Lille
           - France
@@ -341,7 +341,7 @@ section:
           - The Lambrechts--Stanley Model of Configuration Spaces
       - content:
           - 10/2016
-          - Colloque 2016 du GDR Topologie Algébrique et Applications
+          - Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
           - Université de Picardie Jules Verne -- LAMFA
           - Amiens
           - France
