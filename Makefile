@@ -1,5 +1,5 @@
-PANDOC = pandoc --pdf-engine=lualatex
-LATEX = latexmk -pdf -e '$$pdflatex =~ s/pdflatex/lualatex/' -outdir="build"
+PANDOC = pandoc --template $(TEMPLATE)
+LATEX = latexmk -pdf
 TEMPLATE = template.tex
 WTARGET = ..\web\static\pdf
 TARGET = ../web/static/pdf
@@ -9,8 +9,8 @@ TARGET = ../web/static/pdf
 # Beurk
 all:
 	perl cvsplit.pl
-	$(PANDOC) -V mylang=french --template $(TEMPLATE) french.out.yaml -o french.out.tex
-	$(PANDOC) -V mylang=english --template $(TEMPLATE) english.out.yaml -o english.out.tex
+	$(PANDOC) -V mylang=french french.out.yaml -o french.out.tex
+	$(PANDOC) -V mylang=english english.out.yaml -o english.out.tex
 	$(LATEX) french.out.tex
 	$(LATEX) english.out.tex
 	cp build/*.pdf .
