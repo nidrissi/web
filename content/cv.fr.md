@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitæ (français)"
-lastmod: "2018-09-21"
+lastmod: "2018-10-19"
 date: "2018-01-01"
 ---
 
