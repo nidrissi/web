@@ -4,7 +4,7 @@ lastmod: "2018-08-17"
 date: "2018-01-01"
 ---
 
-#### Université Paris-Diderot
+#### Université Paris Diderot
 
 ##### 2018--2019
 
@@ -27,3 +27,14 @@ date: "2018-01-01"
 ##### 2015--2016
 
 * Mathématiques fondamentales 2, L1 SESI, TD (66h).
+
+---
+
+<p class="small">
+Acronymes :
+<dl class="small">
+<dt>MASS</dt><dd>Mathématiques Appliquées aux Sciences Sociales.</dd>
+<dt>MIASHS</dt><dd>Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales</dd>
+<dt>SESI</dt><dd>Sciences Exactes et Sciences de l'Ingénieur.</dd>
+</dl>
+</p>

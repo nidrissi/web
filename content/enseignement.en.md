@@ -4,7 +4,7 @@ lastmod: "2018-08-17"
 date: "2018-01-01"
 ---
 
-#### University Paris-Diderot
+#### University Paris Diderot
 
 ##### 2018--2019
 
@@ -30,9 +30,12 @@ date: "2018-01-01"
 
 ---
 
+<p class="small">
+Acronyms:
 <dl class="small">
 <dt>License (L1/L2/L3)</dt><dd>First university degree in the European Higher Education Area (≈ bachelor). Divided in three years: L1, L2, and L3.</dd>
 <dt>MASS</dt><dd>Mathematics Applied to Social Sciences.</dd>
 <dt>MIASHS</dt><dd>Mathematics and Computer science Applied to Social and Human Sciences</dd>
 <dt>SESI</dt><dd>Exact Sciences and Engineering Sciences.</dd>
 </dl>
+</p>
