@@ -35,7 +35,7 @@ In bold are the organizations that I belong to.
 I couldn't decide on a nice way to show that the research structures (the IMJ-PRG and the other labs) administratively depend on the two universities and the CNRS.**
 
 <figure class="figure">
-<img src="/img/diagram.svg" alt="Organizational diagram" class="figure-img img-fluid" width="500px">
+<a href="/img/diagram.svg"><img src="/img/diagram.svg" alt="Organizational diagram" class="figure-img img-fluid" width="500px"></a>
 <figcaption class="figure-caption">A silly organizational chart.</figcaption>
 </figure>
 

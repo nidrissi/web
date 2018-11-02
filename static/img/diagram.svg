@@ -1,140 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="206.55489mm"
-   height="214.68959mm"
-   viewBox="0 0 206.55489 214.68959"
-   version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="diagram.svg">
+   version="1.1"
+   viewBox="0 0 206.55489 214.68959"
+   height="214.68959mm"
+   width="206.55489mm">
   <defs
      id="defs2">
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker2025"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Mend">
+       style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         id="path2023"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path2023" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
     </marker>
     <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
+       orient="auto"
+       refY="0"
+       refX="0"
        id="marker2015"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Mend">
+       style="overflow:visible">
       <path
-         inkscape:connector-curvature="0"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         id="path2013"
          d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path2013" />
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
     </marker>
     <marker
-       inkscape:isstock="true"
        style="overflow:visible"
-       id="marker1957"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend">
-      <path
-         inkscape:connector-curvature="0"
-         transform="matrix(-0.8,0,0,-0.8,-10,0)"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path1955" />
-    </marker>
-    <marker
-       inkscape:isstock="true"
-       style="overflow:visible"
-       id="marker1923"
-       refX="0"
-       refY="0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend">
-      <path
-         inkscape:connector-curvature="0"
-         transform="matrix(-0.8,0,0,-0.8,-10,0)"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path1921" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Mend"
-       orient="auto"
-       refY="0"
-       refX="0"
        id="marker2733"
-       style="overflow:visible"
-       inkscape:isstock="true"
-       inkscape:collect="always">
-      <path
-         id="path2731"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="matrix(-0.4,0,0,-0.4,-4,0)"
-         inkscape:connector-curvature="0" />
-    </marker>
-    <marker
-       inkscape:stockid="Arrow1Lstart"
-       orient="auto"
-       refY="0"
        refX="0"
-       id="Arrow1Lstart"
-       style="overflow:visible"
-       inkscape:isstock="true">
+       refY="0"
+       orient="auto">
       <path
-         id="path2268"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         inkscape:connector-curvature="0" />
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path2731" />
     </marker>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="252.35864"
-     inkscape:cy="260.17032"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:measure-start="0,0"
-     inkscape:measure-end="0,0"
-     inkscape:snap-global="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="999"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -143,565 +57,486 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-0.86976069,-28.5813)">
+     transform="translate(-0.86976069,-28.5813)"
+     id="layer1">
     <rect
-       style="opacity:0.26100003;fill:#0000ff;stroke:none;stroke-width:0.21220148;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1090"
-       width="65.679031"
-       height="40.254887"
-       x="141.74562"
+       ry="0"
+       rx="0"
        y="117.47541"
-       rx="0"
-       ry="0" />
+       x="141.74562"
+       height="40.254887"
+       width="65.679031"
+       id="rect1090"
+       style="opacity:0.26100003;fill:#0000ff;stroke:none;stroke-width:0.21220148;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55161953px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
-       x="174.62372"
+       id="text1094"
        y="132.25194"
-       id="text1094"><tspan
-         sodipodi:role="line"
-         x="174.62372"
-         y="132.25194"
-         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1096">Centre national de la</tspan><tspan
-         sodipodi:role="line"
-         x="174.62372"
-         y="139.3075"
-         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1806">recherche scientifique</tspan><tspan
-         sodipodi:role="line"
-         x="174.62372"
-         y="146.36305"
-         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1098">(CNRS)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="69.222809"
-       y="21.712385"
-       id="text1123"><tspan
-         sodipodi:role="line"
-         id="tspan1121"
-         x="69.222809"
-         y="27.954899"
-         style="font-size:7.05555534px;stroke-width:0.26458332" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="70.826424"
-       y="22.514194"
-       id="text1127"><tspan
-         sodipodi:role="line"
-         id="tspan1125"
-         x="70.826424"
-         y="28.756708"
-         style="font-size:7.05555534px;stroke-width:0.26458332" /></text>
-    <rect
-       style="opacity:0.26100003;fill:#ff0000;stroke:none;stroke-width:0.21220148;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1090-6"
-       width="65.679031"
-       height="40.254887"
-       x="72.558105"
-       y="117.47548"
-       rx="0"
-       ry="6.9613724" />
-    <text
-       xml:space="preserve"
+       x="174.62372"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55161953px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
-       x="105.31984"
-       y="124.43938"
-       id="text1094-7"><tspan
-         sodipodi:role="line"
-         x="105.31984"
-         y="124.43938"
-         style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1098-5">Sorbonne Université</tspan></text>
-    <g
-       id="g947">
-      <rect
-         ry="5.873529"
-         y="141.90807"
-         x="75.998009"
-         height="11.747058"
-         width="26.300335"
-         id="rect1100-6"
-         style="opacity:0.26;fill:#ff0000;stroke:#000000;stroke-width:0.23617975;stroke-miterlimit:4;stroke-dasharray:none" />
-      <text
-         id="text1104-2"
-         y="146.59811"
-         x="89.151482"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38988543px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21186784"
-         xml:space="preserve"><tspan
-           id="tspan1106-0"
-           style="text-align:center;text-anchor:middle;stroke-width:0.21186784"
-           y="146.59811"
-           x="89.151482"
-           sodipodi:role="line">Mathematics</tspan><tspan
-           id="tspan1226"
-           style="text-align:center;text-anchor:middle;stroke-width:0.21186784"
-           y="150.83546"
-           x="89.151482"
-           sodipodi:role="line">department</tspan></text>
-    </g>
-    <g
-       id="g3397">
-      <rect
-         ry="5.873529"
-         y="141.90559"
-         x="106.62054"
-         height="11.747058"
-         width="26.300335"
-         id="rect1100-6-9"
-         style="opacity:1;fill:none;stroke:#666666;stroke-width:0.23617975;stroke-miterlimit:4;stroke-dasharray:none" />
-      <text
-         id="text1104-2-3"
-         y="146.82838"
-         x="119.76225"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.65636992px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.16602312"
-         xml:space="preserve"><tspan
-           id="tspan3383"
-           style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.16602312"
-           y="146.82838"
-           x="119.76225"
-           sodipodi:role="line">Other</tspan><tspan
-           id="tspan3391"
-           style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.16602312"
-           y="150.14885"
-           x="119.76225"
-           sodipodi:role="line">departments</tspan></text>
-    </g>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot1380"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
-         id="flowRegion1382"><rect
-           id="rect1384"
-           width="294.96454"
-           height="294.96454"
-           x="-31.31473"
-           y="256.81894" /></flowRegion><flowPara
-         id="flowPara1386" /></flowRoot>    <rect
-       style="opacity:0.26100003;fill:#ff00ff;stroke:none;stroke-width:0.21220148;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1090-6-6"
-       width="65.679031"
+       xml:space="preserve"><tspan
+         id="tspan1096"
+         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="132.25194"
+         x="174.62372">Centre national de la</tspan><tspan
+         id="tspan1806"
+         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="139.3075"
+         x="174.62372">recherche scientifique</tspan><tspan
+         id="tspan1098"
+         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="146.36305"
+         x="174.62372">(CNRS)</tspan></text>
+    <text
+       id="text1123"
+       y="21.712385"
+       x="69.222809"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:7.05555534px;stroke-width:0.26458332"
+         y="27.954899"
+         x="69.222809"
+         id="tspan1121" /></text>
+    <text
+       id="text1127"
+       y="22.514194"
+       x="70.826424"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-size:7.05555534px;stroke-width:0.26458332"
+         y="28.756708"
+         x="70.826424"
+         id="tspan1125" /></text>
+    <rect
+       ry="6.9613724"
+       rx="0"
+       y="117.47548"
+       x="72.558105"
        height="40.254887"
-       x="3.4839902"
-       y="116.08154"
-       rx="0"
-       ry="6.9613724" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55162001px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
-       x="36.245743"
-       y="123.04544"
-       id="text1094-7-2"><tspan
-         sodipodi:role="line"
-         x="36.245743"
-         y="123.04544"
-         style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1098-5-6">Université Paris Diderot</tspan><tspan
-         sodipodi:role="line"
-         x="36.245743"
-         y="128.73497"
-         style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1378">(Paris 7)</tspan></text>
-    <g
-       id="g935">
-      <rect
-         ry="5.873529"
-         y="140.51413"
-         x="6.9238982"
-         height="11.747058"
-         width="26.300335"
-         id="rect1100-6-1"
-         style="opacity:0.26;fill:#ff00ff;stroke:#000000;stroke-width:0.23617977;stroke-miterlimit:4;stroke-dasharray:none" />
-      <text
-         id="text1104-2-8"
-         y="145.20418"
-         x="20.077368"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38988543px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21186784"
-         xml:space="preserve"><tspan
-           id="tspan1106-0-7"
-           style="font-weight:bold;font-size:3.17499995px;text-align:center;text-anchor:middle;stroke-width:0.21186784"
-           y="145.20418"
-           x="20.077368"
-           sodipodi:role="line">Mathematics</tspan><tspan
-           id="tspan1226-9"
-           style="font-weight:bold;font-size:3.17499995px;text-align:center;text-anchor:middle;stroke-width:0.21186784"
-           y="149.44153"
-           x="20.077368"
-           sodipodi:role="line">department</tspan></text>
-    </g>
-    <g
-       id="g941">
-      <rect
-         ry="5.873529"
-         y="140.51166"
-         x="37.54644"
-         height="11.747058"
-         width="26.300335"
-         id="rect1100-6-9-2"
-         style="opacity:1;fill:none;stroke:#666666;stroke-width:0.23617977;stroke-miterlimit:4;stroke-dasharray:none" />
-      <text
-         id="text1104-2-3-0"
-         y="145.43445"
-         x="50.688148"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.65636992px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.16602312"
-         xml:space="preserve"><tspan
-           id="tspan1106-0-6-2"
-           style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.16602312"
-           y="145.43445"
-           x="50.688148"
-           sodipodi:role="line">Other</tspan><tspan
-           id="tspan1226-0-3"
-           style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.16602312"
-           y="148.75491"
-           x="50.688148"
-           sodipodi:role="line">departments</tspan></text>
-    </g>
-    <rect
-       style="opacity:0.26100003;fill:#800080;stroke:#000000;stroke-width:0.13982359;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1090-6-6-9"
        width="65.679031"
-       height="17.477636"
-       x="3.4839902"
-       y="96.637566"
-       rx="0"
-       ry="3.022449" />
+       id="rect1090-6"
+       style="opacity:0.26100003;fill:#ff0000;stroke:none;stroke-width:0.21220148;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55162001px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
-       x="36.334618"
-       y="103.99734"
-       id="text1094-7-2-2"><tspan
-         sodipodi:role="line"
-         x="36.334618"
-         y="103.99734"
+       id="text1094-7"
+       y="124.43938"
+       x="105.31984"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55161953px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
+       xml:space="preserve"><tspan
+         id="tspan1098-5"
          style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1098-5-6-2">Université Paris Descartes</tspan><tspan
-         sodipodi:role="line"
-         x="36.334618"
-         y="109.68686"
-         style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1378-8">(Paris 5)</tspan></text>
+         y="124.43938"
+         x="105.31984">Sorbonne Université</tspan></text>
     <rect
-       style="opacity:0.26100003;fill:#00ffff;stroke:#000000;stroke-width:0.13982359;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1090-6-6-9-9"
-       width="65.679031"
-       height="17.477636"
-       x="3.4839902"
-       y="77.123695"
-       rx="0"
-       ry="0" />
+       ry="5.873529"
+       y="141.90807"
+       x="75.998009"
+       height="11.747058"
+       width="26.300335"
+       id="rect1100-6"
+       style="opacity:0.26000001;fill:#ff0000;stroke:#000000;stroke-width:0.23617975;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55162001px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
-       x="36.334618"
-       y="84.483475"
-       id="text1094-7-2-2-4"><tspan
-         sodipodi:role="line"
-         x="36.334618"
-         y="84.483475"
-         style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
-         id="tspan1378-8-8">Institut de Physique du</tspan><tspan
-         id="tspan1593"
-         sodipodi:role="line"
-         x="36.334618"
-         y="90.172997"
-         style="text-align:center;text-anchor:middle;stroke-width:0.17068574">Globe de Paris (IPGP)</tspan></text>
+       id="text1104-2"
+       y="146.59811"
+       x="89.151482"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38988543px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21186784"
+       xml:space="preserve"><tspan
+         id="tspan1106-0"
+         style="text-align:center;text-anchor:middle;stroke-width:0.21186784"
+         y="146.59811"
+         x="89.151482">Mathematics</tspan><tspan
+         id="tspan1226"
+         style="text-align:center;text-anchor:middle;stroke-width:0.21186784"
+         y="150.83546"
+         x="89.151482">department</tspan></text>
     <rect
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.26638618;stroke-miterlimit:4;stroke-dasharray:2.13108946, 2.13108946;stroke-dashoffset:0"
-       id="rect1619"
-       width="68.393486"
-       height="96.224663"
-       x="2.1267612"
-       y="61.37244"
-       ry="5.1561041" />
+       ry="5.873529"
+       y="141.90559"
+       x="106.62054"
+       height="11.747058"
+       width="26.300335"
+       id="rect1100-6-9"
+       style="opacity:1;fill:none;stroke:#666666;stroke-width:0.23617975;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.30682325px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19900587"
-       x="36.379219"
-       y="67.568336"
-       id="text1623"><tspan
-         sodipodi:role="line"
-         id="tspan1621"
-         x="36.379219"
-         y="67.568336"
-         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.19900587">Université de Paris 2019</tspan><tspan
-         sodipodi:role="line"
-         x="36.379219"
-         y="74.201866"
-         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.19900587"
-         id="tspan1625">(temporary name)</tspan></text>
-    <rect
-       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:0.52999997, 0.52999997;stroke-dashoffset:0"
-       id="rect1726"
-       width="70.9879"
-       height="129.70145"
-       x="1.0022607"
-       y="28.7138"
-       ry="5.1560941" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.20783615px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15779385"
-       x="36.502373"
-       y="33.616169"
-       id="text1730"><tspan
-         sodipodi:role="line"
-         id="tspan1728"
-         x="36.502373"
-         y="33.616169"
-         style="text-align:center;text-anchor:middle;stroke-width:0.15779385">Université Sorbonne-Paris-Cité</tspan><tspan
-         sodipodi:role="line"
-         x="36.502373"
-         y="38.875965"
-         style="text-align:center;text-anchor:middle;stroke-width:0.15779385"
-         id="tspan1732">(association of universities)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="36.554089"
-       y="47.471664"
-       id="text1736"><tspan
-         sodipodi:role="line"
-         x="36.554089"
-         y="47.471664"
-         style="font-size:2.82222223px;line-height:1;text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.26458332"
-         id="tspan1738">Other members: EHESP, Inalco, Sciences Po,</tspan><tspan
-         sodipodi:role="line"
-         x="36.554089"
-         y="51.704998"
-         style="font-size:2.82222223px;line-height:1;text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.26458332"
-         id="tspan1742">Université Sorbonne-Nouvelle (Paris 3),</tspan><tspan
-         sodipodi:role="line"
-         x="36.554089"
-         y="55.938332"
-         style="font-size:2.82222223px;line-height:1;text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.26458332"
-         id="tspan1744">Université Paris-Nord (Paris 13), FMSH</tspan></text>
-    <g
-       id="g2578"
-       transform="translate(0,-8.4666671)">
-      <rect
-         y="182.73779"
-         x="106.02232"
-         height="15.698612"
-         width="80.847786"
-         id="rect1844"
-         style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text1848"
-         y="189.4276"
-         x="146.27017"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="189.4276"
-           x="146.27017"
-           id="tspan1846"
-           sodipodi:role="line">Laboratoire Jacques-Louis Lions</tspan><tspan
-           id="tspan1850"
-           style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="193.30815"
-           x="146.27017"
-           sodipodi:role="line">(LJLL, applied math)</tspan></text>
-    </g>
-    <g
-       id="g2572"
-       transform="translate(0,-8.4666671)">
-      <rect
-         y="204.04936"
-         x="105.81377"
-         height="15.119049"
-         width="81.2649"
-         id="rect1844-0"
-         style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text1848-6"
-         y="210.73917"
-         x="145.87263"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan1850-2"
-           style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="210.73917"
-           x="145.87263"
-           sodipodi:role="line">Laboratoire de Probabilité,</tspan><tspan
-           style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="214.61972"
-           x="145.87263"
-           sodipodi:role="line"
-           id="tspan1901">Statistiques et Modélisation (LPSM)</tspan></text>
-    </g>
+       id="text1104-2-3"
+       y="146.82838"
+       x="119.76225"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.65636992px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.16602312"
+       xml:space="preserve"><tspan
+         id="tspan3383"
+         style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.16602312"
+         y="146.82838"
+         x="119.76225">Other</tspan><tspan
+         id="tspan3391"
+         style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.16602312"
+         y="150.14885"
+         x="119.76225">departments</tspan></text>
     <flowRoot
-       xml:space="preserve"
-       id="flowRoot1903"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:0;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
-         id="flowRegion1905"><rect
-           id="rect1907"
-           width="218.57143"
-           height="92.85714"
-           x="392.85715"
-           y="729.66254" /></flowRegion><flowPara
-         id="flowPara1909" /></flowRoot>    <g
-       id="g2566"
-       transform="translate(0,-8.4666669)">
-      <rect
-         y="225.07114"
-         x="105.53029"
-         height="15.119049"
-         width="81.831863"
-         id="rect1844-6"
-         style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text1848-1"
-         y="231.76094"
-         x="146.49359"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           id="tspan1850-5"
-           style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="231.76094"
-           x="146.49359"
-           sodipodi:role="line">Institut de Recherche en Informatique</tspan><tspan
-           style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="235.64149"
-           x="146.49359"
-           sodipodi:role="line"
-           id="tspan1940">Fondamentale (IRIF, computer science)</tspan></text>
-    </g>
-    <rect
-       style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:2.1199999, 1.05999995;stroke-dashoffset:0"
-       id="rect1952"
-       width="182.5625"
-       height="74.083344"
-       x="8.8824406"
-       y="169.05505" />
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1380"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1382"><rect
+           y="256.81894"
+           x="-31.31473"
+           height="294.96454"
+           width="294.96454"
+           id="rect1384" /></flowRegion><flowPara
+         id="flowPara1386" /></flowRoot>    <rect
+       ry="6.9613724"
+       rx="0"
+       y="116.08154"
+       x="3.4839902"
+       height="40.254887"
+       width="65.679031"
+       id="rect1090-6-6"
+       style="opacity:0.26100003;fill:#ff00ff;stroke:none;stroke-width:0.21220148;stroke-miterlimit:4;stroke-dasharray:none" />
     <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:0;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="29.568262"
+       id="text1094-7-2"
+       y="123.04544"
+       x="36.245743"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55162001px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
+       xml:space="preserve"><tspan
+         id="tspan1098-5-6"
+         style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="123.04544"
+         x="36.245743">Université Paris Diderot</tspan><tspan
+         id="tspan1378"
+         style="font-weight:bold;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="128.73497"
+         x="36.245743">(Paris 7)</tspan></text>
+    <rect
+       ry="5.873529"
+       y="140.51413"
+       x="6.9238982"
+       height="11.747058"
+       width="26.300335"
+       id="rect1100-6-1"
+       style="opacity:0.26000001;fill:#ff00ff;stroke:#000000;stroke-width:0.23617977;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       id="text1104-2-8"
+       y="145.20418"
+       x="20.077368"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.38988543px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21186784"
+       xml:space="preserve"><tspan
+         id="tspan1106-0-7"
+         style="font-weight:bold;font-size:3.17499995px;text-align:center;text-anchor:middle;stroke-width:0.21186784"
+         y="145.20418"
+         x="20.077368">Mathematics</tspan><tspan
+         id="tspan1226-9"
+         style="font-weight:bold;font-size:3.17499995px;text-align:center;text-anchor:middle;stroke-width:0.21186784"
+         y="149.44153"
+         x="20.077368">department</tspan></text>
+    <rect
+       ry="5.873529"
+       y="140.51166"
+       x="37.54644"
+       height="11.747058"
+       width="26.300335"
+       id="rect1100-6-9-2"
+       style="opacity:1;fill:none;stroke:#666666;stroke-width:0.23617977;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       id="text1104-2-3-0"
+       y="145.43445"
+       x="50.688148"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.65636992px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.16602312"
+       xml:space="preserve"><tspan
+         id="tspan1106-0-6-2"
+         style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.16602312"
+         y="145.43445"
+         x="50.688148">Other</tspan><tspan
+         id="tspan1226-0-3"
+         style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.16602312"
+         y="148.75491"
+         x="50.688148">departments</tspan></text>
+    <rect
+       ry="3.022449"
+       rx="0"
+       y="96.637566"
+       x="3.4839902"
+       height="17.477636"
+       width="65.679031"
+       id="rect1090-6-6-9"
+       style="opacity:0.26100003;fill:#800080;stroke:#000000;stroke-width:0.13982359;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       id="text1094-7-2-2"
+       y="103.99734"
+       x="36.334618"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55162001px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
+       xml:space="preserve"><tspan
+         id="tspan1098-5-6-2"
+         style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="103.99734"
+         x="36.334618">Université Paris Descartes</tspan><tspan
+         id="tspan1378-8"
+         style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="109.68686"
+         x="36.334618">(Paris 5)</tspan></text>
+    <rect
+       ry="0"
+       rx="0"
+       y="77.123695"
+       x="3.4839902"
+       height="17.477636"
+       width="65.679031"
+       id="rect1090-6-6-9-9"
+       style="opacity:0.26100003;fill:#00ffff;stroke:#000000;stroke-width:0.13982359;stroke-miterlimit:4;stroke-dasharray:none" />
+    <text
+       id="text1094-7-2-2-4"
+       y="84.483475"
+       x="36.334618"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55162001px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
+       xml:space="preserve"><tspan
+         id="tspan1378-8-8"
+         style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="84.483475"
+         x="36.334618">Institut de Physique du</tspan><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="90.172997"
+         x="36.334618"
+         id="tspan1593">Globe de Paris (IPGP)</tspan></text>
+    <rect
+       ry="5.1561041"
+       y="61.37244"
+       x="2.1267612"
+       height="96.224663"
+       width="68.393486"
+       id="rect1619"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.26638618;stroke-miterlimit:4;stroke-dasharray:2.13108946, 2.13108946;stroke-dashoffset:0" />
+    <text
+       id="text1623"
+       y="67.568336"
+       x="36.379219"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.30682325px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.19900587"
+       xml:space="preserve"><tspan
+         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.19900587"
+         y="67.568336"
+         x="36.379219"
+         id="tspan1621">Université de Paris 2019</tspan><tspan
+         id="tspan1625"
+         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.19900587"
+         y="74.201866"
+         x="36.379219">(temporary name)</tspan></text>
+    <rect
+       ry="5.1560941"
+       y="28.7138"
+       x="1.0022607"
+       height="129.70145"
+       width="70.9879"
+       id="rect1726"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:0.52999997, 0.52999997;stroke-dashoffset:0" />
+    <text
+       id="text1730"
+       y="33.616169"
+       x="36.502373"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.20783615px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15779385"
+       xml:space="preserve"><tspan
+         style="text-align:center;text-anchor:middle;stroke-width:0.15779385"
+         y="33.616169"
+         x="36.502373"
+         id="tspan1728">Université Sorbonne-Paris-Cité</tspan><tspan
+         id="tspan1732"
+         style="text-align:center;text-anchor:middle;stroke-width:0.15779385"
+         y="38.875965"
+         x="36.502373">(association of universities)</tspan></text>
+    <text
+       id="text1736"
+       y="47.471664"
+       x="36.554089"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333311px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan1738"
+         style="font-size:2.82222223px;line-height:1;text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.26458332"
+         y="47.471664"
+         x="36.554089">Other members: EHESP, Inalco, Sciences Po,</tspan><tspan
+         id="tspan1742"
+         style="font-size:2.82222223px;line-height:1;text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.26458332"
+         y="51.704998"
+         x="36.554089">Université Sorbonne-Nouvelle (Paris 3),</tspan><tspan
+         id="tspan1744"
+         style="font-size:2.82222223px;line-height:1;text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.26458332"
+         y="55.938332"
+         x="36.554089">Université Paris-Nord (Paris 13), FMSH</tspan></text>
+    <rect
+       y="174.27113"
+       x="106.02232"
+       height="15.698612"
+       width="80.847786"
+       id="rect1844"
+       style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       id="text1848"
+       y="180.96094"
+       x="146.27017"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="180.96094"
+         x="146.27017"
+         id="tspan1846">Laboratoire Jacques-Louis Lions</tspan><tspan
+         id="tspan1850"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="184.84149"
+         x="146.27017">(LJLL, applied math)</tspan></text>
+    <rect
+       y="195.5827"
+       x="105.81377"
+       height="15.119049"
+       width="81.2649"
+       id="rect1844-0"
+       style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       id="text1848-6"
+       y="202.27251"
+       x="145.87263"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan1850-2"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="202.27251"
+         x="145.87263">Laboratoire de Probabilité,</tspan><tspan
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="206.15306"
+         x="145.87263"
+         id="tspan1901">Statistiques et Modélisation (LPSM)</tspan></text>
+    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666698px;line-height:0;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1903"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1905"><rect
+           y="729.66254"
+           x="392.85715"
+           height="92.85714"
+           width="218.57143"
+           id="rect1907" /></flowRegion><flowPara
+         id="flowPara1909" /></flowRoot>    <rect
+       y="216.60448"
+       x="105.53029"
+       height="15.119049"
+       width="81.831863"
+       id="rect1844-6"
+       style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       id="text1848-1"
+       y="223.29428"
+       x="146.49359"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         id="tspan1850-5"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="223.29428"
+         x="146.49359">Institut de Recherche en Informatique</tspan><tspan
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="227.17484"
+         x="146.49359"
+         id="tspan1940">Fondamentale (IRIF, computer science)</tspan></text>
+    <rect
+       y="169.05505"
+       x="8.8824406"
+       height="74.083344"
+       width="182.5625"
+       id="rect1952"
+       style="opacity:1;fill:none;stroke:#808080;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:2.1199999, 1.05999995;stroke-dashoffset:0" />
+    <text
+       id="text1956"
        y="238.90414"
-       id="text1956"><tspan
-         sodipodi:role="line"
-         id="tspan1954"
-         x="29.568262"
-         y="238.90414"
-         style="font-size:4.58611107px;stroke-width:0.26458332">Fédération de Recherche en Mathématiques de Paris Centre</tspan><tspan
-         sodipodi:role="line"
-         x="29.568262"
-         y="238.90414"
+       x="29.568262"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.88055563px;line-height:0;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
          style="font-size:4.58611107px;stroke-width:0.26458332"
-         id="tspan1958" /><tspan
-         sodipodi:role="line"
-         x="29.568262"
          y="238.90414"
+         x="29.568262"
+         id="tspan1954">Fédération de Recherche en Mathématiques de Paris Centre</tspan><tspan
+         id="tspan1958"
          style="font-size:4.58611107px;stroke-width:0.26458332"
-         id="tspan1960" /></text>
+         y="238.90414"
+         x="29.568262" /><tspan
+         id="tspan1960"
+         style="font-size:4.58611107px;stroke-width:0.26458332"
+         y="238.90414"
+         x="29.568262" /></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2025)"
-       d="m 36.687376,156.39371 0.188749,25.23715"
        id="path949"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
-    <g
-       id="g2593"
-       transform="translate(0,-8.4666671)">
-      <rect
-         ry="0"
-         y="190.86429"
-         x="13.418154"
-         height="38.553585"
-         width="84.288689"
-         id="rect1773"
-         style="opacity:0.35400008;fill:#ffff00;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:0.53, 0.53;stroke-dashoffset:0" />
-      <text
-         transform="scale(0.95222788,1.0501688)"
-         id="text1777"
-         y="187.68497"
-         x="58.323429"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.70294762px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25194362"
-         xml:space="preserve"><tspan
-           id="tspan1789"
-           style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
-           y="187.68497"
-           x="58.323429"
-           sodipodi:role="line">Institut de Mathématiques de Jussieu</tspan><tspan
-           id="tspan1787"
-           style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
-           y="192.38791"
-           x="58.323429"
-           sodipodi:role="line">- Paris Rive Gauche (IMJ-PRG)</tspan><tspan
-           id="tspan1779"
-           style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
-           y="197.09087"
-           x="58.323429"
-           sodipodi:role="line" /><tspan
-           id="tspan1781"
-           style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
-           y="201.79381"
-           x="58.323429"
-           sodipodi:role="line" /></text>
-      <rect
-         y="211.14748"
-         x="33.828873"
-         height="16.885994"
-         width="41.766373"
-         id="rect1793"
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.21533415;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-      <text
-         id="text1828"
-         y="215.99043"
+       d="m 36.687376,156.39371 c 0.06292,8.41238 0.125833,16.82477 0.188749,25.23715"
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2025)" />
+    <rect
+       ry="0"
+       y="182.39763"
+       x="13.418154"
+       height="38.553585"
+       width="84.288689"
+       id="rect1773"
+       style="opacity:0.35400008;fill:#ffff00;stroke:none;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:0.53, 0.53;stroke-dashoffset:0" />
+    <text
+       transform="scale(0.95222788,1.0501688)"
+       id="text1777"
+       y="179.62277"
+       x="58.323429"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.70294762px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25194362"
+       xml:space="preserve"><tspan
+         id="tspan1789"
+         style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
+         y="179.62277"
+         x="58.323429">Institut de Mathématiques de Jussieu</tspan><tspan
+         id="tspan1787"
+         style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
+         y="184.32571"
+         x="58.323429">- Paris Rive Gauche (IMJ-PRG)</tspan><tspan
+         id="tspan1779"
+         style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
+         y="189.02867"
+         x="58.323429" /><tspan
+         id="tspan1781"
+         style="font-weight:bold;font-size:4.03109789px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.25194362"
+         y="193.73161"
+         x="58.323429" /></text>
+    <rect
+       y="202.68082"
+       x="33.828873"
+       height="16.885994"
+       width="41.766373"
+       id="rect1793"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.21533415;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       id="text1828"
+       y="207.52377"
+       x="54.681053"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-weight:bold;font-size:3.52777767px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="207.52377"
          x="54.681053"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-weight:bold;font-size:3.52777767px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="215.99043"
-           x="54.681053"
-           id="tspan1826"
-           sodipodi:role="line">Algebraic Topology</tspan><tspan
-           id="tspan1830"
-           style="font-weight:bold;font-size:3.52777767px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
-           y="220.92932"
-           x="54.681053"
-           sodipodi:role="line">and Geometry team</tspan></text>
-      <text
-         id="text2558"
-         y="227.3437"
+         id="tspan1826">Algebraic Topology</tspan><tspan
+         id="tspan1830"
+         style="font-weight:bold;font-size:3.52777767px;line-height:1;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         y="212.46266"
+         x="54.681053">and Geometry team</tspan></text>
+    <text
+       id="text2558"
+       y="218.87704"
+       x="71.673737"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';stroke-width:0.26458332"
+         y="218.87704"
          x="71.673737"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.82222223px;line-height:0;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.41111112px;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';stroke-width:0.26458332"
-           y="227.3437"
-           x="71.673737"
-           id="tspan2556"
-           sodipodi:role="line">Me :)</tspan></text>
-      <rect
-         y="226.02907"
-         x="71.413872"
-         height="1.9770492"
-         width="4.1577377"
-         id="rect2560"
-         style="opacity:1;fill:none;stroke:#000000;stroke-width:0.18520834;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
-    </g>
+         id="tspan2556">Me :)</tspan></text>
+    <rect
+       y="217.56241"
+       x="71.413872"
+       height="1.9770492"
+       width="4.1577377"
+       id="rect2560"
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:0.18520834;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2733)"
-       d="m 89.505176,157.47029 c 0,0 -16.414597,6.51977 -22.86756,12.28423 -3.714149,3.31787 -8.504464,12.28423 -8.504464,12.28423"
        id="path1887"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cac" />
+       d="M 89.505176,157.47029 C 76.94277,162.51454 63.611954,168.64077 58.133152,182.03875"
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2733)" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2015)"
-       d="m 176.25071,157.2813 c 0,0 -12.87792,6.69952 -29.35686,7.00185 -16.47895,0.30233 -42.41756,-0.31188 -53.797898,5.84934 -6.661859,3.60668 -8.315477,12.28423 -8.315477,12.28423"
        id="path1889"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssc" />
+       d="m 176.25071,157.2813 c -26.22252,13.71322 -57.62268,1.17109 -84.146596,13.45799 -3.865257,2.72805 -6.35187,7.10193 -7.323639,11.67743"
+       style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2015)" />
   </g>
 </svg>
