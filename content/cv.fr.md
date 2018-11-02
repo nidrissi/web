@@ -18,14 +18,12 @@ Supervisé par Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France<br>
-Soutenue le 17 novembre 2017.<br>
+Financée par une Allocation Spécifique de l'ENS. Soutenue le 17 novembre 2017.<br>
 Directeur : Benoit Fresse.
-Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.<br>
-Financé par une Allocation Spécifique de l'ENS.</dd>
+Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Élève de l'École Normale Supérieure</strong>, <em>ENS Paris / Département de Mathématiques et Applications</em>, Paris, France<br>
-Classé premier au concours d'entrée INFO. Inclut :<br>
 2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille 1 &nbsp;;<br>
 2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot &nbsp;;<br>
 Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.
