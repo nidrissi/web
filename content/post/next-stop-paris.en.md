@@ -19,14 +19,24 @@ Here's something that I hope people will find interesting.
 
 ## The mille-feuille
 
+<figure class="figure float-right">
+<img src="/img/mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="500px">
+<figcaption class="figure-caption">A <em>mille-feuille</em> (image from <a href="https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg">Wikipedia</a>).</figcaption>
+</figure>
+
 When I tell people I got the job, they usually ask me where I will be working.
 This is a bit complicated: French academia is organized in many layers, and it is not easy to extricate what is going on.
 A usual way to describe it is as a [*mille-feuille*](https://en.wikipedia.org/wiki/Mille-feuille), a typical French dessert that is supposedly made out of a thousands sheets of pastry.
 So I will try to describe my own situation, hoping that it can help people trying to navigate French academia better.
 
+**Update November 2018: today is holiday, it's raining outside and the temperature is about 10°C.
+So I decided to make a diagram!
+In bold are the organizations that I belong to.
+I couldn't decide on a nice way to show that the research structures (the IMJ-PRG and the other labs) administratively depend on the two universities and the CNRS.**
+
 <figure class="figure">
-<img src="/img/mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="500px">
-<figcaption class="figure-caption">A <em>mille-feuille</em> (image from <a href="https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg">Wikipedia</a>).</figcaption>
+<img src="/img/diagram.svg" alt="Organizational diagram" class="figure-img img-fluid" width="500px">
+<figcaption class="figure-caption">A silly organizational chart.</figcaption>
 </figure>
 
 In France, almost all academics work in public institutions.
