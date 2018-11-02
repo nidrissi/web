@@ -58,7 +58,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 Lett. Math. Phys. ; Proc. Edinb. Math. Soc. ; Proc. Roy. Soc. Edinburgh Sect. A</dd>
 
 <dt class="col-lg-2 col-sm-3">en cours</dt>
-<dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH.</dd>
+<dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">liste</a>).</dd>
 
 <dt class="col-lg-2 col-sm-3">en cours</dt>
 <dd class="col-lg-10 col-sm-9">Un des organisateurs du <a href="https://www.imj-prg.fr/spip.php?article67">Séminaire de topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
