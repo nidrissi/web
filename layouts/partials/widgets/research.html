@@ -8,12 +8,10 @@
     <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
     {{ if gt $pubs_len $page.Params.count }}
-    <p class="view-all">
-      <a href="{{ "/research/" | relLangURL }}">
-          {{ i18n "more_publications" | markdownify }}
-          »
-      </a>
-    </p>
+    <p><a href="{{ "/research/" | relLangURL }}">{{ i18n "more_publications" | markdownify }} »</a></p>
+    {{ end }}
+    {{ with $.Site.Params.arxiv_id }}
+    <h4><a href="https://arxiv.org/a/{{ . }}.html">arXiv »</a></h4>
     {{ end }}
   </div>
   <div class="col-12 col-md-10">

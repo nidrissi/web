@@ -37,6 +37,8 @@ params:
   telegram: ~
   keybase: ~
 
+  arxiv_id: idrissi_n_1
+
   date_format: 2006-01-02
   math: true
   css: ['bundle.css']

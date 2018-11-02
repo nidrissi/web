@@ -15,14 +15,10 @@
         <p class="card-text">
           {{ range $i, $org := $.Site.Params.organizations }}{{ if $i }}, {{ end }}<span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><a href="{{ $org.url }}" target="_blank" itemprop="url" rel="noopener"><span itemprop="name">{{ $org.name }}</span></a></span>{{ end }}
         </p>
-        {{ range $.Site.Params.social }}
-        <a itemprop="sameAs" href="{{ .link | safeURL }}" target="_blank" rel="noopener">{{ .icon | safeHTML }}</a>
-        {{ end }}
       </div>
     </div>
   </div>
   <div class="col-12 col-md-8" itemprop="description">
-
     {{ $page.Content }}
 
     <h4>Contact</h4>

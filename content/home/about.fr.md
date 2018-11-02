@@ -17,3 +17,5 @@ J'ai noté plus d'informations dans [mon CV]({{< ref "/cv.fr.md" >}}).
 
 Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG.
 Si vous souhaitez vous inscrire à la liste de diffusion correspondante, [veuillez entrer votre adresse de courriel ici](https://listes.services.cnrs.fr/wws/subscribe/sem-top.paris).
+
+Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) et [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).
