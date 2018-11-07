@@ -7,7 +7,7 @@ event = "Séminaire Géométrie & Topologie"
 event_url = "https://www.imj-prg.fr/spip.php?evenement2396"
 location = "Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France"
 url_pdf = ""
-url_slides = ""
+url_slides = "/pdf/slides/geom-top18.pdf"
 url_video = ""
 url_code = ""
 +++
