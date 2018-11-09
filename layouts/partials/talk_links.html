@@ -8,22 +8,22 @@
 {{ end }}
 
 {{ with $.Params.url_pdf }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . }}">
     {{ i18n "btn_pdf" }}
 </a>
 {{ end }}
 {{ with $.Params.url_slides }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . }}">
     {{ i18n "btn_slides" }}
 </a>
 {{ end }}
 {{ with $.Params.url_video }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . }}">
     {{ i18n "btn_video" }}
 </a>
 {{ end }}
 {{ with $.Params.url_code }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ . }}">
     {{ i18n "btn_code" }}
 </a>
 {{ end }}
@@ -33,7 +33,7 @@
 </a>
 {{ end }}
 {{ range $.Params.url_custom }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ .url | absURL }}">
+<a class="{{ $.Scratch.Get "class" }}" href="{{ .url }}">
   {{ .name }}
 </a>
 {{ end }}

@@ -1,15 +1,12 @@
 +++
-title = "Operadic Formality and Homotopy of Configuration Spaces"
+title = "Formalité opéradique et homotopie des espaces de configuration"
 date = 2017-11-17
 draft = false
-abstract = ""
-abstract_short = ""
-event = "Doctoral thesis defense"
-event_url = ""
+event = "Soutenance de thèse"
 location = "Université Lille 1, Villeneuve d'Ascq, France"
-url_custom = [{name="Thesis", url="/pdf/papers/thesis.pdf"}]
-url_slides = "/pdf/slides/soutenance.pdf"
-url_video = "/vid/proclam_soutenance.mp4"
+url_custom = [{name = "Thèse", url = "/pdf/papers/thesis.pdf"}]
+url_slides = "soutenance.pdf"
+url_video = "proclamation.mp4"
 +++
 
 <table class="table">
@@ -23,13 +20,13 @@ url_video = "/vid/proclam_soutenance.mp4"
 
 <tbody>
 <tr>
-<td>Advisor:</td>
+<td>Directeur de thèse :</td>
 <td><a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a></td>
 <td>Université Lille 1</td>
 </tr>
 
 <tr>
-<td>Referees:</td>
+<td>Rapporteurs :</td>
 <td><a href="http://www.math.univ-montp2.fr/~calaque/">Damien Calaque</a></td>
 <td>Université de Montpellier</td>
 </tr>
@@ -41,7 +38,7 @@ url_video = "/vid/proclam_soutenance.mp4"
 </tr>
 
 <tr>
-<td>Examiners:</td>
+<td>Examinateurs :</td>
 <td><a href="https://uclouvain.be/fr/repertoires/pascal.lambrechts">Pascal Lambrechts</a></td>
 <td>Université Catholique de Louvain</td>
 </tr>
