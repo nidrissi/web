@@ -1,16 +1,18 @@
-+++
-title = "Operadic Formality and Homotopy of Configuration Spaces"
-date = 2017-11-17
-draft = false
-abstract = ""
-abstract_short = ""
-event = "Doctoral thesis defense"
-event_url = ""
-location = "Université Lille 1, Villeneuve d'Ascq, France"
-url_custom = [{name="Thesis", url="/pdf/papers/thesis.pdf"}]
-url_slides = "soutenance.pdf"
-url_video = "proclamation.mp4"
-+++
+---
+title: Operadic Formality and Homotopy of Configuration Spaces
+date: 2017-11-17
+draft: false
+event: Doctoral thesis defense
+location: Université Lille 1, Villeneuve d'Ascq, France
+url_custom:
+  - name: Thesis
+    url: /pdf/papers/thesis.pdf
+resources:
+  - name: slides
+    src: soutenance.pdf
+  - name: video
+    src: proclamation.mp4
+---
 
 <table class="table">
 <thead>

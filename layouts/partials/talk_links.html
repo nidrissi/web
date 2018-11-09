@@ -9,17 +9,27 @@
 
 {{ with $.Params.url_pdf }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . }}">
-    {{ i18n "btn_pdf" }}
+  {{ i18n "btn_pdf" }}
 </a>
 {{ end }}
 {{ with $.Params.url_slides }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . }}">
-    {{ i18n "btn_slides" }}
+  {{ i18n "btn_slides" }}
+</a>
+{{ end }}
+{{ with $.Resources.GetMatch "slides" }}
+<a class="{{ $.Scratch.Get "class" }}" href="{{ .Permalink }}">
+  {{ i18n "btn_slides" }}
 </a>
 {{ end }}
 {{ with $.Params.url_video }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ . }}">
-    {{ i18n "btn_video" }}
+  {{ i18n "btn_video" }}
+</a>
+{{ end }}
+{{ with $.Resources.GetMatch "video" }}
+<a class="{{ $.Scratch.Get "class" }}" href="{{ .Permalink }}">
+  {{ i18n "btn_video" }}
 </a>
 {{ end }}
 {{ with $.Params.url_code }}

@@ -1,13 +1,18 @@
-+++
-title = "Formalité opéradique et homotopie des espaces de configuration"
-date = 2017-11-17
-draft = false
-event = "Soutenance de thèse"
-location = "Université Lille 1, Villeneuve d'Ascq, France"
-url_custom = [{name = "Thèse", url = "/pdf/papers/thesis.pdf"}]
-url_slides = "soutenance.pdf"
-url_video = "proclamation.mp4"
-+++
+---
+title: Formalité opéradique et homotopie des espaces de configuration
+date: 2017-11-17
+draft: false
+event: Soutenance de thèse
+location: Université Lille 1, Villeneuve d'Ascq, France
+url_custom:
+  - name: Thèse
+    url: /pdf/papers/thesis.pdf
+resources:
+  - name: slides
+    src: soutenance.pdf
+  - name: video
+    src: proclamation.mp4
+---
 
 <table class="table">
 <thead>
