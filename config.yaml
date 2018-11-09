@@ -7,10 +7,6 @@ enableRobotsTXT: true
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 
-outputs:
-  home: ["HTML", "CSS", "RSS"]
-  section: ["HTML", "RSS"]
-
 blackfriday:
   hrefTargetBlank: false
 
