@@ -34,7 +34,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 ##### Publications
 
-1. Najib Idrissi. "[Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese.fr.md" >}})". In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
+1. Najib Idrissi. « [Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese.fr.md" >}}) ». In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
 
 ##### Prépublications
 
@@ -46,7 +46,9 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 ##### Autres documents
 
-1. Najib Idrissi. "Opérades et Structures Commutatives à Homotopie Près". In: *Graduate J. Math.* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
+1. Najib Idrissi. « [Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis.fr.md" >}}) ». Thèse de doctorat. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
+1. Najib Idrissi. « Opérades et Structures Commutatives à Homotopie Près ». In: *Graduate J. Math.* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
+1. Najib Idrissi. « Homologie et complexe de déformations d'opérades $E_n$ ». Mémoire de master. Université Paris Diderot, 2014.
 
 ### Service à la profession
 
