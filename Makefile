@@ -31,5 +31,4 @@ wcopy:
 	@echo Update lastmod!
 
 wclean:
-	cmd /c del /q *.pdf *.out.yaml *.out.tex
-	cmd /c rd /q build
+	cmd /c del /q *.pdf *.out.yaml *.out.tex build
