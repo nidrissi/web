@@ -26,8 +26,8 @@ clean:
 
 # windows
 wcopy:
-	cmd /c copy /y french.out.pdf $(TARGET)\cv_idrissi_fr.pdf
-	cmd /c copy /y english.out.pdf $(TARGET)\cv_idrissi_en.pdf
+	cmd /c copy /y french.out.pdf $(WTARGET)\cv_idrissi_fr.pdf
+	cmd /c copy /y english.out.pdf $(WTARGET)\cv_idrissi_en.pdf
 	@echo Update lastmod!
 
 wclean:
