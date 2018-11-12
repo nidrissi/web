@@ -7,5 +7,5 @@ publication: Preprint v3, in revision, 50 pages
 title: The Lambrechts–Stanley Model of Configuration Spaces
 url_pdf: /pdf/papers/model-conf-sp.pdf
 url_arxiv: 1608.08054
-url_hal: 01438861
+url_hal: "01438861"
 ---

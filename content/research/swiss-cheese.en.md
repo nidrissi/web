@@ -8,7 +8,7 @@ title: Swiss-Cheese Operad and Drinfeld Center
 url_pdf: /pdf/papers/center.pdf
 url_arxiv: 1507.06844
 url_doi: 10.1007/s11856-017-1579-7
-url_mr: 3704940
-url_zbl: 06808424
-url_hal: 01438863
+url_mr: "3704940"
+url_zbl: "06808424"
+url_hal: "01438863"
 ---
