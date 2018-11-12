@@ -70,7 +70,7 @@ This has immediate consequences: a space like {{< tex "S^1 \vee S^1" >}} with a 
 
 This section can be summarized by this picture:
 
-<img src="/img/eh-arg-htpy.png" alt="homotopy between fg and gf" class="img-fluid" width="500px">
+<img src="arg-htpy.png" alt="homotopy between fg and gf" class="img-fluid" width="500px">
 
 It is a depiction of the Eckmann--Hilton argument applied to {{< tex "\pi_2(X)" >}}. To understand it, consider a set {{< tex "M" >}} with two monoid structures; instead of writing them with two different operators, represent one of them with horizontal multiplication and the other with vertical multiplication, like this:
 
@@ -108,8 +108,8 @@ Natural transformations between functors can be composed in two different ways:
 
 1. If {{< tex "F,G,H : \mathsf{C} \to \mathsf{D}" >}} are functors and {{< tex "\alpha : F \to G" >}} and {{< tex "\beta : G \to H" >}} are natural transformations, then there is a "vertical composite" {{< tex "\beta \circ \alpha : F \to G" >}} given component-wise by {{< tex "(\beta \circ \alpha)_X = \beta_X \circ \alpha_X" >}}: 2. If {{< tex "F_1, G_1 : \mathsf{C} \to \mathsf{D}" >}} and {{< tex "F_2, G_2 : \mathsf{D} \to \mathsf{E}" >}} are functors and {{< tex "\beta : F_1 \to G_1" >}}, {{< tex "\beta : F_2 \to G_2" >}} are natural transformation, there is an horizontal composite {{< tex "\alpha * \alpha" >}}.
 
-<img alt="vertical composition" src="/img/eh-arg-vert.png" class="img-fluid" width="200px">
-<img alt="horizontal composition" src="/img/eh-arg-horiz.png" class="img-fluid" width="200px">
+<img alt="vertical composition" src="arg-vert.png" class="img-fluid" width="200px">
+<img alt="horizontal composition" src="arg-horiz.png" class="img-fluid" width="200px">
 
 So if one only considers natural transformations from the identity functor {{< tex "\operatorname{id}_{\mathsf{C}}" >}} to itself, one gets two different composition laws on {{< tex "Z(\mathsf{C}) = \operatorname{End}(\operatorname{id}_{\mathsf{C}})" >}}. Again these two laws satisfy the interchange law, and thus {{< tex "Z(C)" >}}, called the *center* of the category {{< tex "\mathsf{C}" >}}, is abelian. If {{< tex "\mathsf{C}" >}} is a monoid seen as a category with one object, then {{< tex "Z(\mathsf{C})" >}} is the usual center of the monoid.
 
