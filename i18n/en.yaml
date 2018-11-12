@@ -63,11 +63,6 @@
 - id: education
   translation: Education
 
-# Contact widget
-
-- id: gpg_key
-  translation: Public GPG key
-
 # Publications widget
 
 - id: more_publications
