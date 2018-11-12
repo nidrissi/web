@@ -20,7 +20,7 @@ Here's something that I hope people will find interesting.
 ## The mille-feuille
 
 <figure class="figure float-right">
-<img src="/img/mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="200px">
+<img src="mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="200px">
 <figcaption class="figure-caption">A <em>mille-feuille</em> (image from <a href="https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg">Wikipedia</a>).</figcaption>
 </figure>
 
