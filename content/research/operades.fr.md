@@ -8,7 +8,7 @@ title: Opérades et Structures Commutatives à Homotopie Près
 url_pdf: http://www.gradmath.org/wp-content/uploads/2016/09/idriss2016.pdf
 url_custom:
   - name: Journal
-    url: http://www.gsmd.tn/article/operades-et-structures-commutatives-a-homotopie-pres/
+    url: http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/
 ---
 
 Travail introductif sur la théorie des opérades basé sur mon [mémoire de master]({{< ref "/research/m2.fr.md" >}})
