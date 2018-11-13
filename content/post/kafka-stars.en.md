@@ -1,9 +1,9 @@
-+++
-title = "Kafka in the stars"
-date = 2018-03-16
-draft = false
-tags = ['job']
-+++
+---
+title: Kafka in the stars
+date: 2018-03-16
+draft: false
+tags: [job]
+---
 
 This is a cautionary tale, with the hope that this post could help future applicants for permanent academic positions in France.
 

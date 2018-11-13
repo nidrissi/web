@@ -1,6 +1,6 @@
-+++
-title = "Recherche"
-widget = "research"
-weight = 20
-count = 10
-+++
+---
+title: Recherche
+widget: research
+weight: 20
+count: 10
+---

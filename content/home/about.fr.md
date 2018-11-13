@@ -1,7 +1,7 @@
-+++
-widget = "about"
-weight = 10
-+++
+---
+widget: about
+weight: 10
+---
 
 # Bonjour !
 

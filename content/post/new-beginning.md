@@ -1,9 +1,9 @@
-+++
-title = "Life in Paris"
-date = 2018-09-19
-draft = false
-tags = ["job", "paper"]
-+++
+---
+title: Life in Paris
+date: 2018-09-19
+draft: false
+tags: [job, paper]
+---
 
 I've been in Paris for almost a month now.
 It's been great!

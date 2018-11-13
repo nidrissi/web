@@ -1,10 +1,9 @@
-+++
-title = "Why is it called “Paris 7”?"
-date = 2018-06-26
-draft = false
-tags = ['job']
-categories = []
-+++
+---
+title: Why is it called “Paris 7”?
+date: 2018-06-26
+draft: false
+tags: [job]
+---
 
 One question people often ask is why the university is called "Paris 7", followed by the realization that there are (were!) thirteen universities in Paris, numbered from "Paris 1" to "Paris 13".
 Here's an attempt at explaining it (though I'm sure I can't cover all the reasons.)
@@ -37,8 +36,8 @@ President De Gaulle also decreed the dissolution of the National Assembly (the m
 He also announced a referendum on a constitutional reform at that time, which took place a year after.
 He lost that referendum, had to resign, and was replaced by Pompidou.
 May 68 is still largely present in French culture (although it has been... sugarcoated in collective memory and mediatic renditions).
-Some slogans are still very well known, such as the rhyming "*CRS = SS*", where CRS is the French riot police, and SS is the Nazi political police.
-The legends tell us that CRS's chanted back "*étudiants = diants diants*", where "*étudiants*" means "students" and "*diants*"... is meaningless.
+Some slogans are still very well known, such as the rhyming "*CRS: SS*", where CRS is the French riot police, and SS is the Nazi political police.
+The legends tell us that CRS's chanted back "*étudiants: diants diants*", where "*étudiants*" means "students" and "*diants*"... is meaningless.
 
 Following this eventful month, a reform of French higher education was seen as necessary.
 In 1970, the government invited professors to divide themselves in the newly created Teaching and Research Units (UFR) that replaced the former faculties, while the UFRs themselves grouped into new universities.

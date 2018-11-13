@@ -1,9 +1,8 @@
-+++
-title = "Facts"
-date = "2017-01-01"
-lastmod = "2017-10-31"
-math = true
-+++
+---
+title: Facts
+date: 2017-01-01
+lastmod: 2017-10-31
+---
 
 Let {{< tex "\mathtt{P}" >}} be a (topological, for example) operad, and let {{< tex "\vec{\mathtt{P}}" >}} be the associated bicolored operad whose algebras are triplets {{< tex "(A,B,f)" >}} where {{< tex "A" >}} and {{< tex "B" >}} are {{< tex "\mathtt{P}" >}}-algebras and {{< tex "f" >}} is a morphism of such algebras. It has two colors {{< tex "a" >}} and {{< tex "b" >}} and is given by:
 
