@@ -69,6 +69,10 @@ Lett. Math. Phys.; Proc. Edinb. Math. Soc.; Proc. Roy. Soc. Edinburgh Sect. A</d
 <dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="http://math.univ-lille1.fr/d7/sdocpo">Doctoral Students' Seminar</a>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
 </div>
 
-### [Teaching]({{< ref "enseignement.en.md" >}})
+### Teaching
 
-### [Talks]({{< ref "talk/_index.en.md" >}})
+[→ see dedicated page.]({{< ref "enseignement.en.md" >}})
+
+### Talks
+
+[→ see dedicated page.]({{< ref "talk/_index.en.md" >}})
