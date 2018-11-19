@@ -15,6 +15,7 @@ Hopefully my own talk yesterday was not out of place.
 I also learned that some people actually do read my blog! 
 I was a bit surprised. So now I have the moral obligation to flesh out my posts a little. 
 Here's something that I hope people will find interesting.
+<!--more-->
 
 ## The mille-feuille
 
