@@ -15,7 +15,6 @@ Between February and August 2018, I was postdoc at [ETH Zürich](https://www.eth
 In November 2017, I defended [my doctoral thesis]({{< ref "/research/thesis.en.md" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at the [University of Lille](https://www.univ-lille.fr).
 You can find more info in [my CV]({{< ref "/cv.en.md" >}}).
 
-I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG.
-If you would like to subscribe to the corresponding mailing-list, [please enter your email address there](https://listes.services.cnrs.fr/wws/subscribe/sem-top.paris).
+I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG ([mailing list](https://listes.services.cnrs.fr/wws/subscribe/sem-top.paris)).
 
 I am active on [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) and [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).
