@@ -45,9 +45,9 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 #### Other documents
 
-1. Najib Idrissi. "[Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis.en.md" >}})". PhD Thesis. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
+1. Najib Idrissi. *[Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis.en.md" >}})*. Doctoral thesis. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
 1. Najib Idrissi. "Opérades et Structures Commutatives à Homotopie Près". In: *Graduate J. Math.* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
-1. Najib Idrissi. "Homologie et complexe de déformations d'opérades $E_n$". Master's thesis. Université Paris Diderot, 2014.
+1. Najib Idrissi. *Homologie et complexe de déformations d'opérades $E_n$*. Master's thesis. Université Paris Diderot, 2014.
 
 ### Service
 
