@@ -33,7 +33,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 #### Publications
 
-1. Najib Idrissi. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/conf-spaces.en.md" >}}).* To appear in *Invent. Math*. Novembre 2018. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+1. Najib Idrissi. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/conf-spaces.en.md" >}}).* To appear in *Invent. Math*, 61 pages. Novembre 2018. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
 2. Najib Idrissi. "[Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese.en.md" >}})". In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
 
 #### Preprints
