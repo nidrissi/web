@@ -11,7 +11,7 @@
     <p><a href="{{ "/research/" | relLangURL }}">{{ i18n "more_publications" | markdownify }} »</a></p>
     {{ end }}
     {{ with $.Site.Params.arxiv_id }}
-    <h4><a href="https://arxiv.org/a/{{ . }}.html">arXiv »</a></h4>
+    <p><a href="https://arxiv.org/a/{{ . }}.html">arXiv »</a></p>
     {{ end }}
   </div>
   <div class="col-12 col-md-10">
