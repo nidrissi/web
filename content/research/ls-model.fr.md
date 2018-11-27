@@ -7,4 +7,5 @@ title: The Lambrechts–Stanley Model of Configuration Spaces
 url_pdf: /pdf/papers/model-conf-sp.pdf
 url_arxiv: 1608.08054
 url_hal: "01438861"
+# url_doi: 10.1007/s00222-018-0842-9
 ---
