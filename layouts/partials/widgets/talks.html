@@ -7,14 +7,7 @@
   <div class="col-12 col-md-2">
     <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
-    {{ if gt $talks_len $page.Params.count }}
-    <p class="view-all">
-      <a href="{{ "/talk/" | relLangURL }}">
-          {{ i18n "more_talks" | markdownify }}
-          »
-      </a>
-    </p>
-    {{ end }}
+    <p><a href="{{ "/talk/" | relLangURL }}">{{ i18n "more_talks" | markdownify }} »</a></p>
   </div>
   <div class="col-12 col-md-10">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}

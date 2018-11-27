@@ -5,21 +5,11 @@
 <!-- Blog Posts widget -->
 <div class="row">
   <div class="col-12 col-md-2">
-
     <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
-    {{ if gt $posts_len $page.Params.count }}
-    <p class="view-all">
-      <a href="{{ "/post/" | relLangURL }}">
-          {{ i18n "more_posts" | markdownify }}
-          »
-      </a>
-    </p>
-    {{ end }}
-
+    <p><a href="{{ "/post/" | relLangURL }}">{{ i18n "more_posts" | markdownify }} »</a></p>
   </div>
   <div class="col-12 col-md-10">
-
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     {{ $posts := where (where $.Site.RegularPages "Type" "post") ".Params.notonhomepage" nil }}
