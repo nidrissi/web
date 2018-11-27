@@ -5,9 +5,8 @@
 <!-- Blog Posts widget -->
 <div class="row">
   <div class="col-12 col-md-2">
-    <h2>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h2>
-    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
-    <p><a href="{{ "/post/" | relLangURL }}">{{ i18n "more_posts" | markdownify }} »</a></p>
+    <h2><a href="{{ "/post/" | relLangURL }}">{{ with $page.Title }}{{ . | markdownify }}{{ end }}</a></h2>
+    {{ with $page.Params.subtitle }}<h3>{{ . | markdownify }}</h3>{{ end }}
   </div>
   <div class="col-12 col-md-10">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
