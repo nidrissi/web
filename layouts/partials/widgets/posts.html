@@ -16,5 +16,9 @@
     {{ range $post := first $page.Params.count $posts }}
     {{ partial "post_li" . }}
     {{end}}
+
+    {{ if gt $posts_len $page.Params.count }}
+    <h6 class="mt-2 mb-0"><a href="{{ "/post/" | relLangURL }}">… {{ i18n "more_posts" }} »</a></h6>
+    {{ end }}
   </div>
 </div>

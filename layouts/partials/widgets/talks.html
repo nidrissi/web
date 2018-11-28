@@ -12,7 +12,11 @@
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     {{ range first $page.Params.count (where $.Site.RegularPages "Type" "talk") }}
-      {{ partial "talk_li" . }}
+    {{ partial "talk_li" . }}
+    {{ end }}
+
+    {{ if gt $talks_len $page.Params.count }}
+    <h6 class="mt-2 mb-0"><a href="{{ "/talk/" | relLangURL }}">… {{ i18n "more_talks" }} »</a></h6>
     {{ end }}
   </div>
 </div>
