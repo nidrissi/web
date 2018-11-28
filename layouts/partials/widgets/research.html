@@ -11,20 +11,8 @@
   <div class="col-12 col-md-10">
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
-    {{ if and ($page.Params.research_type) (ne $page.Params.research_type "-1") }}
-      {{ $.Scratch.Set "recent_pubs" (where (where $.Site.RegularPages "Type" "research") ".Params.research_types" "intersect" (slice $page.Params.research_type)) }}
-    {{ else }}
-      {{ $.Scratch.Set "recent_pubs" (where $.Site.RegularPages "Type" "research") }}
+    {{ range first $page.Params.count (where $.Site.RegularPages "Type" "research") }}
+    {{ partial "publication_li" .}}
     {{ end }}
-
-    {{ if $page.Params.exclude_selected }}
-      {{ $.Scratch.Set "recent_pubs" ( ($.Scratch.Get "recent_pubs") | intersect (where (where $.Site.RegularPages "Type" "research") ".Params.selected" "!=" true) ) }}
-    {{ end }}
-
-    {{ $recent_pubs := $.Scratch.Get "recent_pubs" }}
-    {{ range first $page.Params.count $recent_pubs }}
-      {{ partial "publication_li" .}}
-    {{ end }}
-
   </div>
 </div>
