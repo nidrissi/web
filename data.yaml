@@ -22,7 +22,7 @@ section:
           - France
           - |
             !
-            (literally, "lecturer" = permanent faculty position, rank B)
+            (= permanent faculty position, rank B)
       - content:
           - 02/2018--08/2018
           - Chercheur postdoctorant ! Postdoctoral researcher
@@ -32,7 +32,7 @@ section:
           - "Superviseur : Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Supervisor: Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
       - content:
           - 09/2015--01/2018
-          - Doctorat en Mathématiques ! PhD in Mathematics
+          - Doctorat en Mathématiques ! Doctorate in Mathematics
           - Université Lille\ 1 / Laboratoire Paul Painlevé
           - Lille
           - France
@@ -184,7 +184,7 @@ section:
           - Suède ! Sweden
           - TBA
       - content:
-          - 11/2018\*
+          - 11/2018
           - Séminaire Géométrie \& Topologie ! Geometry \& Topology Seminar
           - IMJ-PRG
           - Paris
