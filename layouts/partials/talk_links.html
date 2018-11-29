@@ -43,11 +43,6 @@
   {{ i18n "btn_code" }}
 </a>
 {{ end }}
-{{ range $.Params.projects }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ printf "project/%s/" . | relURL }}">
-  {{ i18n "btn_project" }}
-</a>
-{{ end }}
 {{ range $.Params.url_custom }}
 <a class="{{ $.Scratch.Get "class" }}" href="{{ .url }}">
   {{ .name }}

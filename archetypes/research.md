@@ -4,12 +4,10 @@ date: {{ .Date }}
 draft: false
 authors: [""]
 publication:
-publication_short:
 abstract:
 tags: []
 url_pdf:
 url_code:
-url_project:
 url_slides:
 url_video:
 url_source:

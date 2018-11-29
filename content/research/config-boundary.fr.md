@@ -13,7 +13,6 @@ url_pdf: /pdf/papers/config-boundary.pdf
 url_preprint:
 url_code:
 url_dataset:
-url_project:
 url_slides:
 url_video:
 url_poster:

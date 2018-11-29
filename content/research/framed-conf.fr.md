@@ -12,7 +12,6 @@ url_pdf: /pdf/papers/framed-conf.pdf
 url_preprint:
 url_code:
 url_dataset:
-url_project:
 url_slides:
 url_video:
 url_poster:
