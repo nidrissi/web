@@ -30,11 +30,6 @@
   {{ i18n "btn_video" }}
 </a>
 {{ end }}
-{{ with $.Params.url_source }}
-<a class="{{ $.Scratch.Get "class" }}" href="{{ . | absURL }}" target="_blank" rel="noopener">
-  {{ i18n "btn_source" }}
-</a>
-{{ end }}
 {{ with $.Params.url_arxiv }}
 <a class="{{ $.Scratch.Get "class" }}" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
 {{ end }}
