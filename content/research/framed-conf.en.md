@@ -16,5 +16,5 @@ url_slides:
 url_video:
 url_poster:
 url_source:
-url_arxiv: 1807.08319
+arxiv: 1807.08319
 ---

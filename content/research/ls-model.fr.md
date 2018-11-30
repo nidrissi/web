@@ -5,7 +5,7 @@ date: 2018-11-22
 publication: 61 pages, à paraître dans *Invent. Math*
 title: The Lambrechts–Stanley Model of Configuration Spaces
 url_pdf: /pdf/papers/model-conf-sp.pdf
-url_arxiv: 1608.08054
-url_hal: "01438861"
-# url_doi: 10.1007/s00222-018-0842-9
+arxiv: 1608.08054
+hal: "01438861"
+# doi: 10.1007/s00222-018-0842-9
 ---

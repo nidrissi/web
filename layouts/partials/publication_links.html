@@ -30,19 +30,19 @@
   {{ i18n "btn_video" }}
 </a>
 {{ end }}
-{{ with $.Params.url_arxiv }}
+{{ with $.Params.arxiv }}
 <a class="{{ $.Scratch.Get "class" }}" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv:{{ . }}</a>
 {{ end }}
-{{ with $.Params.url_hal }}
+{{ with $.Params.hal }}
 <a class="{{ $.Scratch.Get "class" }}" href="https://hal.archives-ouvertes.fr/hal-{{ . }}" target="_blank" rel="noopener">hal-{{ . }}</a>
 {{ end }}
-{{ with $.Params.url_doi }}
+{{ with $.Params.doi }}
 <a class="{{ $.Scratch.Get "class" }}" href="https://dx.doi.org/{{ . }}" target="_blank" rel="noopener">DOI:{{ . }}</a>
 {{ end }}
-{{ with $.Params.url_mr }}
+{{ with $.Params.mathrev }}
 <a class="{{ $.Scratch.Get "class" }}" href="http://www.ams.org/mathscinet-getitem?mr={{ . }}" target="_blank" rel="noopener">MR{{ . }}</a>
 {{ end }}
-{{ with $.Params.url_zbl }}
+{{ with $.Params.zbmath }}
 <a class="{{ $.Scratch.Get "class" }}" href="https://zbmath.org/?q=an:{{ . }}" target="_blank" rel="noopener">Zbl{{ . }}</a>
 {{ end }}
 {{ range $.Params.url_custom }}
