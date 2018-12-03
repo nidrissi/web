@@ -4,8 +4,8 @@
         <h6 class="card-subtitle">
             <span itemprop="author">{{ delimit .Params.authors ", " | markdownify }}</span>
             &ndash;
-            {{- .Params.publication | markdownify -}},
-            <time datetime="{{ .Date.Format "2006" }}" itemprop="datePublished">{{- .Date.Format "2006" -}}</time>.
+            {{ .Params.publication | markdownify }}
+            (<time datetime="{{ .Date.Format "2006" }}" itemprop="datePublished">{{- .Date.Format "2006" -}})</time>.
         </h6>
         {{ partial "publication_links" (dict "content" . "is_card" 1) }}
     </div>
