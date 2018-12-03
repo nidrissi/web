@@ -2,8 +2,7 @@
     <div class="card-body px-3 py-2">
         <h5 class="card-title"><a itemprop="name" href="{{ .Permalink }}">{{ .Title }}</a></h5>
         <h6 class="card-subtitle">
-            <span itemprop="author">{{ delimit .Params.authors ", " | markdownify }}</span>
-            &ndash;
+            <span itemprop="author">{{ delimit .Params.authors ", " | markdownify }}</span>;
             {{ .Params.publication | markdownify }}
             (<time datetime="{{ .Date.Format "2006" }}" itemprop="datePublished">{{- .Date.Format "2006" -}})</time>.
         </h6>
