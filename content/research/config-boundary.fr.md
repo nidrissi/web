@@ -4,7 +4,7 @@ date: 2018-02-02
 draft: false
 authors:
   - "[Ricardo Campos](https://www.math.univ-paris13.fr/~campos/)"
-  - Najib Idrissi
+  - N.I.
   - "[Pascal Lambrechts](https://uclouvain.be/fr/repertoires/pascal.lambrechts)"
   - "[Thomas Willwacher](https://www.math.ethz.ch/research/mathematical-physics/thomas-willwacher.html)"
 publication: Prépublication v1, 107 pages
