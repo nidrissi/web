@@ -32,7 +32,7 @@ resources:
 
 <tr>
 <td>Referees:</td>
-<td><a href="http://www.math.univ-montp2.fr/~calaque/">Damien Calaque</a></td>
+<td><a href="http://imag.umontpellier.fr/~calaque/">Damien Calaque</a></td>
 <td>Université de Montpellier</td>
 </tr>
 
