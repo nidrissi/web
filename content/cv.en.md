@@ -23,7 +23,7 @@ Advisor: Benoit Fresse.
 Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Student of the École Normale Supérieure</strong>, <em>ENS Paris / Département de Mathématiques et Applications</em>, Paris, France<br>
+<dd class="col-lg-10 col-sm-9"><strong>Élève</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France<br>
 2014–2015: Research internship in preparation of a doctorate, Université Lille 1;<br>
 2013–2014: Master's degree in Fundamental Mathematics, Université Paris Diderot;<br>
 Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
