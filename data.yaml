@@ -16,7 +16,7 @@ section:
     entry:
       - content:
           - 09/2018--\makebox[0pt][l]{\dots}\hphantom{09/2018}
-          - Maître de conférences ! *Maître de conférences*
+          - Maître de conférences
           - Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
@@ -46,8 +46,8 @@ section:
             Title: *Operadic Formality and Homotopy of Configuration Spaces*.
       - content:
           - 09/2011--08/2015
-          - "Élève de l'École Normale Supérieure ! *Élève* of the *École Normale Supérieure*"
-          - ENS Paris / DMA
+          - Élève
+          - École Normale Supérieure de Paris
           - Paris
           - France
           - |
