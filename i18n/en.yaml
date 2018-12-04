@@ -20,7 +20,7 @@
 - id: more_publications
   translation: More research
 - id: authors
-  translation: Authors
+  translation: Author(s)
 # Posts widget
 - id: continue_reading
   translation: continue reading
@@ -35,7 +35,7 @@
 - id: abstract
   translation: Abstract
 - id: publication
-  translation: Publication
+  translation: Reference
 - id: date
   translation: Date
 - id: last_updated
@@ -52,4 +52,4 @@
 - id: forbidden
   translation: Forbidden
 - id: go_back
-  translation: Go back to the front page
+  translation: Back to the front page
