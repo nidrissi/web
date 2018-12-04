@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-lastmod: 2018-11-21
+lastmod: 2018-12-04
 date: 2018-01-01
 ---
 
