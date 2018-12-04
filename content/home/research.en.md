@@ -2,5 +2,5 @@
 title: Research
 widget: research
 weight: 20
-count: 10
+count: 7
 ---
