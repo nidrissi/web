@@ -1,11 +1,11 @@
 <nav aria-label="Pagination">
-    <ul class="pagination justify-content-center">
-        {{if .PrevInSection}}
-        <li class="page-item"><a class="page-link" href="{{ .PrevInSection.Permalink }}"><span aria-hidden="true">&larr;</span> {{ .PrevInSection.Title }}</a></li>
-        {{end}}
-        <li class="page-item"><a class="page-link" href="{{ .Parent.Permalink }}">&uarr; {{ .Parent.Title }}</a></li>
-        {{if .NextInSection}}
-        <li class="page-item"><a class="page-link" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} <span aria-hidden="true">&rarr;</span></a></li>
-        {{end}}
-    </ul>
+  <ul class="pagination justify-content-center">
+    {{ if .PrevInSection }}
+    <li class="page-item"><a class="page-link" href="{{ .PrevInSection.Permalink }}"><span aria-hidden="true">⯇ </span>{{ .PrevInSection.Title }}</a></li>
+    {{ end }}
+    <li class="page-item"><a class="page-link" href="{{ .Parent.Permalink }}"><span aria-hidden="true">⯅ </span>{{ .Parent.Title }}</a></li>
+    {{ if .NextInSection }}
+    <li class="page-item"><a class="page-link" href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }}<span aria-hidden="true"> ⯈</span></a></li>
+    {{ end }}
+  </ul>
 </nav>

@@ -7,9 +7,7 @@
     {{end}}
 
     <dl class="row">
-        <dt class="col-12 col-sm-2">
-            {{ i18n "authors" }}
-        </dt>
+        <dt class="col-12 col-sm-2">{{ i18n "authors" }}</dt>
         <dd class="col-12 col-sm-10" itemprop="author">
             {{ with .Params.authors }}
             {{ delimit . ", " | markdownify }}
