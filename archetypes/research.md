@@ -11,10 +11,10 @@ url_code:
 url_slides:
 url_video:
 url_source:
-url_arxiv:
-url_doi:
-url_mr:
-url_zbl:
-url_hal:
+arxiv:
+doi:
+mathrev:
+zbmath:
+hal:
 # url_custom: [{name = "Custom Link", url = "http://example.org"}]
 ---
