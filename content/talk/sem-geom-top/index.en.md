@@ -6,7 +6,5 @@ abstract: "Les espaces de configuration de points sont des objets classiques en 
 event: Geometry & Topology Seminar
 event_url: https://www.imj-prg.fr/spip.php?evenement2396
 location: Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France
-resources:
-  - name: slides
-    src: geom-top.pdf
+url_slides: geom-top.pdf
 ---

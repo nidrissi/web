@@ -8,9 +8,7 @@ event: Derived Geometry and Higher Categorical Structures in Geometry and Physic
 event_url: http://www.fields.utoronto.ca/activities/17-18/sms-2018
 location: Fields Institute, Toronto, Canada
 url_video: http://www.fields.utoronto.ca/video-archive/static/2018/06/2388-18977/mergedvideo.ogv
-resources:
-  - name: slides
-    src: fields.pdf
+url_slides: fields.pdf
 ---
 
 Junior speaker at the summer school "*Séminaire de mathématiques supérieures* – Derived Geometry and Higher Categorical Structures in Geometry and Physics".

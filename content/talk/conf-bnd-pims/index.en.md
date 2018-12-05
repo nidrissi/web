@@ -15,7 +15,5 @@ location: University of British Columbia, Vancouver, Canada
 url_custom:
   - name: Article
     url: /pdf/papers/config-boundary.pdf
-resources:
-  - name: slides
-    src: pims.pdf
+url_slides: pims.pdf
 ---

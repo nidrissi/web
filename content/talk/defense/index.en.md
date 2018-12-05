@@ -7,11 +7,8 @@ location: Université Lille 1, Villeneuve d'Ascq, France
 url_custom:
   - name: Thesis
     url: /pdf/papers/thesis.pdf
-resources:
-  - name: slides
-    src: soutenance.pdf
-  - name: video
-    src: proclamation.mp4
+url_slides: soutenance.pdf
+url_video: proclamation.mp4
 ---
 
 <table class="table">
