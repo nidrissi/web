@@ -10,9 +10,6 @@ defaultContentLanguageInSubdir: true
 blackfriday:
   hrefTargetBlank: false
 
-permalinks:
-  post: /:year/:month/:day/:filename/
-
 params:
   name: Najib Iᴅʀɪssɪ
   role: Maître de conférences
