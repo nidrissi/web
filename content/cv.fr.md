@@ -34,19 +34,19 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 ##### Publications
 
-3. Najib Idrissi. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model.fr.md" >}}).* To appear in *Invent. Math*, 61 pages. Novembre 2018. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
-1. Najib Idrissi. « [Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese.fr.md" >}}) ». In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
+3. Najib Idrissi. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model/index.fr.md" >}}).* To appear in *Invent. Math*, 61 pages. Novembre 2018. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+1. Najib Idrissi. « [Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese/index.fr.md" >}}) ». In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
 
 ##### Prépublications
 
-1. Najib Idrissi. *[Formality of a higher-codimensional Swiss-Cheese operad]({{< ref "/research/codim-swiss-cheese.fr.md" >}}).* 40 pages. Version 1. Septembre 2018. [arXiv:1809.07667](http://arxiv.org/abs/1809.07667)
-1. Ricardo Campos, Julien Ducoulombier, Najib Idrissi, Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "/research/framed-conf.fr.md" >}}).* 27 pages. Version 1. Juillet 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
-1. Najib Idrissi. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "/research/curved-koszul.fr.md" >}}).* 32 pages. Version 2. Août 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
-2. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "/research/config-boundary.fr.md" >}}).* Février 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
+1. Najib Idrissi. *[Formality of a higher-codimensional Swiss-Cheese operad]({{< ref "/research/codim-swiss-cheese/index.fr.md" >}}).* 40 pages. Version 1. Septembre 2018. [arXiv:1809.07667](http://arxiv.org/abs/1809.07667)
+1. Ricardo Campos, Julien Ducoulombier, Najib Idrissi, Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "/research/framed-conf/index.fr.md" >}}).* 27 pages. Version 1. Juillet 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
+1. Najib Idrissi. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "/research/curved-koszul/index.fr.md" >}}).* 32 pages. Version 2. Août 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
+2. Ricardo Campos, Najib Idrissi, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "/research/config-boundary/index.fr.md" >}}).* Février 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
 
 ##### Autres documents
 
-1. Najib Idrissi. *[Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis.fr.md" >}})*. Thèse de doctorat. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
+1. Najib Idrissi. *[Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis/index.fr.md" >}})*. Thèse de doctorat. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
 1. Najib Idrissi. « Opérades et Structures Commutatives à Homotopie Près ». In: *Graduate J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
 1. Najib Idrissi. *Homologie et complexe de déformations d'opérades $E_n$*. Mémoire de master. Université Paris Diderot, 2014.
 
