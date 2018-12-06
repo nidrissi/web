@@ -45,7 +45,7 @@ I will be appointed in the *corps* (group of civil servants) of *maître de conf
 The other rank is *professeurs des universités* (PR).
 Since this is a national deal, I will be appointed by the Minister of Higher Education and Research, while professors are appointed by the President of the Republic.
 
-<img src="/img/univ-paris-diderot.png" alt="Logo Université Paris-VII" class="float-right img-fluid" width="200px">
+<img src="univ-paris-diderot.png" alt="Logo Université Paris-VII" class="float-right img-fluid" width="200px">
 
 I will then be assigned to a university.
 In my case, Université Paris-VII (also known as Université Paris Diderot), who will be my actual employer and give me paychecks.
@@ -57,7 +57,7 @@ Despite their name, these UFRs are almost exclusively devoted to the teaching si
 I will obviously be assigned to the Mathematics UFR of Université Paris-VII.
 A commission of the UFR is in charge of assigning teaching loads, and I already know mine for next year: lectures and exercise sessions of "Elementary algebra and calculus I", a first-year first-semester course (in addition to a smaller teaching load the second semester).
 
-<img src="/img/imj-prg.png" alt="Logo IMJ-PRG" class="float-right img-fluid" width="200px">
+<img src="imj-prg.png" alt="Logo IMJ-PRG" class="float-right img-fluid" width="200px">
 
 For the actual research, I will be assigned to the *Institut de Mathématiques de Jussieu--Paris Rive Gauche* (IMJ-PRG).
 The IMJ-PRG is a Mixed Research Unit (UMR), also colloquially known as a "lab".
