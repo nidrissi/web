@@ -7,9 +7,14 @@
       <span itemprop="startDate">{{ if .Params.TBA }}~{{ end }}{{ (time .Date).Format $.Site.Params.date_format }}</span>
       {{ with .Params.location }}&ndash; <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
     </h6>
+    {{ if (or .Params.Title .Params.Abstract) }}
     <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="talk-{{ .UniqueID }}">{{ i18n "title" }} + {{ i18n "abstract" }}</a>
+    {{ end }}
     {{ partial "talk_links" (dict "content" . "is_card" 1) }}
 
-    <p id="talk-{{ .UniqueID }}" class="collapse card-text"><strong>{{ .Params.Title }}</strong><br>{{ i18n "abstract" }}: {{ .Params.Abstract }}</p>
+    <p id="talk-{{ .UniqueID }}" class="collapse card-text">
+      {{- with .Params.Title -}}<strong>{{ . }}</strong><br>{{- end -}}
+      {{ with .Params.Abstract }}{{ i18n "abstract" }}: {{ . }}{{ end }}
+    </p>
   </div>
 </div>

@@ -1,5 +1,5 @@
 ---
-title: Formalité opéradique et homotopie des espaces de configuration
+title:
 date: 2017-11-17
 draft: false
 event: Soutenance de thèse

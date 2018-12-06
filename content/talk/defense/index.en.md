@@ -1,5 +1,5 @@
 ---
-title: Operadic Formality and Homotopy of Configuration Spaces
+title:
 date: 2017-11-17
 draft: false
 event: Doctoral thesis defense
