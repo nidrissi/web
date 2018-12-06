@@ -16,17 +16,17 @@
   translation: Code
 # Publications widget
 - id: more_publications
-  translation: Plus de recherches
+  translation: plus de recherches
 - id: authors
   translation: Auteur(s)
 # Posts widget
 - id: continue_reading
   translation: lire la suite
 - id: more_posts
-  translation: Plus de billets
+  translation: plus de billets
 # Talks widget
 - id: more_talks
-  translation: "Plus d'exposés"
+  translation: "plus d'exposés"
 - id: title
   translation: "Titre "
 # Publication/Talk details
