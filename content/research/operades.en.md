@@ -3,7 +3,7 @@ abstract: "Nous donnons une introduction au domaine des opérades, des objets qu
 authors:
   - N.I.
 date: 2016-09-01
-publication: "*Graduate J. Math.* 1.1, pp. 9--17"
+publication: "*Graduate J. Math* 1.1, pp. 9--17"
 title: Opérades et Structures Commutatives à Homotopie Près
 url_pdf: http://www.gradmath.org/wp-content/uploads/2016/09/idriss2016.pdf
 url_custom:
