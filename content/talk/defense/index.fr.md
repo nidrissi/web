@@ -5,8 +5,6 @@ draft: false
 event: Soutenance de thèse
 location: Université Lille 1, Villeneuve d'Ascq, France
 url_custom:
-  - name: Thèse
-    url: /pdf/papers/thesis.pdf
 url_slides: soutenance.pdf
 url_video: proclamation.mp4
 ---

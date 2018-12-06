@@ -8,6 +8,4 @@ selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
 url_slides: ytm2017.pdf
 url_custom:
-  - name: Article
-    url: /pdf/papers/ls-model.pdf
 ---

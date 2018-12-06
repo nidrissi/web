@@ -6,7 +6,5 @@ event_url: "http://math.univ-lille1.fr/d7/node/9057"
 location: Université Lille 1, Villeneuve d'Ascq, France
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
 url_custom:
-  - name: Article
-    url: /pdf/papers/model-conf-sp.pdf
 url_slides: /pdf/slides/model-conf-sp_slides_fr.pdf
 ---

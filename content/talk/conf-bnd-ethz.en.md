@@ -7,7 +7,5 @@ event_url: "https://www.math.ethz.ch/news-and-events/events/research-seminars/ta
 location: ETH Zürich, Zürich, Switzerland
 selected: false
 url_custom:
-  - name: Article
-    url: /pdf/papers/config-boundary.pdf
 url_slides: /pdf/slides/config_boundary.pdf
 ---

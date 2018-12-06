@@ -6,7 +6,5 @@ event_url:
 location: Université Catholique de Louvain, Louvain-la-Neuve, Belgique
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
 url_custom:
-  - name: Article
-    url: /pdf/papers/model-conf-sp.pdf
 url_slides: /pdf/slides/model-conf-sp_slides_fr.pdf
 ---

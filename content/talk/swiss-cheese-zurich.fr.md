@@ -7,7 +7,5 @@ location: ETH Zurich, Zurich, Suisse
 selected: false
 title: Swiss-Cheese Operad and Drinfeld Center
 url_custom:
-  - name: Article
-    url: /pdf/papers/center.pdf
 url_slides: /pdf/slides/center_slides_en.pdf
 ---

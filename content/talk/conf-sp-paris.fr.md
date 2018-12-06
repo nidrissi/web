@@ -7,8 +7,6 @@ location: Université Paris 13, Villetaneuse, France
 selected: false
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
 url_custom:
-  - name: Article
-    url: /pdf/papers/model-conf-sp.pdf
 url_slides: /pdf/slides/model-conf-sp_slides_fr.pdf
 url_video: 
 ---

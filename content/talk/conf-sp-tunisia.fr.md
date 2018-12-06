@@ -7,7 +7,5 @@ location: Institut des Hautes Études (IHET), Tunis, Tunisie
 selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
 url_custom:
-  - name: Article
-    url: /pdf/papers/model-conf-sp.pdf
 url_slides: /pdf/slides/model-conf-sp_slides_en.pdf
 ---

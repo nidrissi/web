@@ -6,7 +6,5 @@ event_url: "https://www.imj-prg.fr/spip.php?article67&archive=2016&archive=2015"
 location: Université Paris Diderot, Paris, France
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 url_custom:
-  - name: Article
-    url: /pdf/papers/center.pdf
 url_slides: /pdf/slides/center_slides.pdf
 ---

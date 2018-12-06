@@ -7,7 +7,5 @@ event: Séminaire Algèbre et topologie
 event_url: "http://irma.math.unistra.fr/article286.html"
 location: Université de Strasbourg, Strasbourg, France
 url_custom:
-  - name: Article
-    url: /pdf/papers/config-boundary.pdf
 url_slides: /pdf/slides/bord.pdf
 ---

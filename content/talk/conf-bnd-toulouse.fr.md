@@ -7,7 +7,5 @@ event: Homotopie en Géométrie Algébrique
 event_url: "https://www.math.univ-toulouse.fr/spip.php?rubrique94"
 location: Université Paul Sabatier, Toulouse, France
 url_custom:
-  - name: Article
-    url: /pdf/papers/config-boundary.pdf
 url_slides: /pdf/slides/bord.pdf
 ---
