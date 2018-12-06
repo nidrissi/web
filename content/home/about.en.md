@@ -13,7 +13,7 @@ I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-pr
 
 Between February and August 2018, I was postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 In November 2017, I defended [my doctoral thesis]({{< ref "/research/thesis/index.en.md" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at the [University of Lille](https://www.univ-lille.fr).
-You can find more info in [my CV]({{< ref "/cv.en.md" >}}).
+You can find more info in [my CV]({{< ref "/cv/index.en.md" >}}).
 
 I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG ([mailing list](https://listes.services.cnrs.fr/wws/subscribe/sem-top.paris)).
 

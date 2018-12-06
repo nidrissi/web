@@ -13,7 +13,7 @@ Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https
 
 De février à août 2018, j'étais postdoc à [l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 En novembre 2017, j'ai soutenu [ma thèse de doctorat]({{< ref "/research/thesis/index.fr.md" >}}) sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) à [l'Université de Lille](https://www.univ-lille.fr).
-J'ai noté plus d'informations dans [mon CV]({{< ref "/cv.fr.md" >}}).
+J'ai noté plus d'informations dans [mon CV]({{< ref "/cv/index.fr.md" >}}).
 
 Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG ([liste de diffusion](https://listes.services.cnrs.fr/wws/subscribe/sem-top.paris)).
 
