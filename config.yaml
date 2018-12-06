@@ -26,9 +26,6 @@ params:
   phone:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
-  skype: ~
-  telegram: ~
-  keybase: ~
 
   date_format: 2006-01-02
   math: true
@@ -65,7 +62,6 @@ menu:
 
 taxonomies:
   tag: tags
-  category: categories
 
 languages:
   en:
