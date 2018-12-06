@@ -7,8 +7,8 @@
   <link itemprop="url" href="{{ $.Site.BaseURL }}">
   <div class="col-12 col-md-4">
     <div class="card border-light text-center">
-      <img class="card-img-top w-75 mx-auto" src="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}" alt="Photo">
-      <meta itemprop="image" content="{{ $.Site.BaseURL }}img/{{ $.Site.Params.avatar }}">
+      <img class="card-img-top w-75 mx-auto" src="{{ printf "img/%s" $.Site.Params.avatar | relURL}}" alt="Photo">
+      <meta itemprop="image" content="{{ printf "img/%s" $.Site.Params.avatar | relURL}}">
       <div class="card-body">
         <h5 class="card-title" itemprop="name">{{ $.Site.Params.name }}</h5>
         <h6 class="card-subtitle mb-1" itemprop="jobTitle">{{ $.Site.Params.role }}</h6>
