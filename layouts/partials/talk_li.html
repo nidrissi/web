@@ -8,7 +8,7 @@
       {{ with .Params.location }}&ndash; <span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . }}</span></span>{{ end }}
     </h6>
     {{ if (or .Params.Title .Params.Abstract) }}
-    <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="talk-{{ .UniqueID }}">{{ i18n "title" }} + {{ i18n "abstract" }}</a>
+    <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="talk-{{ .UniqueID }}">{{ i18n "title" }} &amp; {{ i18n "abstract" }}</a>
     {{ end }}
     {{ partial "talk_links" (dict "content" . "is_card" 1) }}
 
