@@ -1,8 +1,8 @@
 PANDOC = pandoc --template $(TEMPLATE)
 LATEX = latexmk -pdf
 TEMPLATE = template.tex
-WTARGET = ..\web\static\pdf
-TARGET = ../web/static/pdf
+WTARGET = ..\web\content\cv
+TARGET = ../web/content/cv
 
 .PHONY: all copy clean wcopy wclean
 
@@ -16,8 +16,8 @@ all:
 	cp build/*.pdf .
 
 copy:
-	cp french.out.pdf $(TARGET)/cv_idrissi_fr.pdf
-	cp english.out.pdf $(TARGET)/cv_idrissi_en.pdf
+	cp french.out.pdf $(TARGET)/cv-fr.pdf
+	cp english.out.pdf $(TARGET)/cv-en.pdf
 	@echo "Update lastmod!"
 
 clean:
@@ -26,8 +26,8 @@ clean:
 
 # windows
 wcopy:
-	cmd /c copy /y french.out.pdf $(WTARGET)\cv_idrissi_fr.pdf
-	cmd /c copy /y english.out.pdf $(WTARGET)\cv_idrissi_en.pdf
+	cmd /c copy /y french.out.pdf $(WTARGET)\cv-fr.pdf
+	cmd /c copy /y english.out.pdf $(WTARGET)\cv-en.pdf
 	@echo Update lastmod!
 
 wclean:
