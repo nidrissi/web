@@ -6,7 +6,7 @@
 {{ end }}
 {{ $paginator := .Paginate .Data.Pages }}
 {{ range $paginator.Pages }}
-{{ partial "post_li" . }}
+{{ .Render "li" }}
 {{ end }}
 {{ partial "pagination" . }}
 

@@ -13,7 +13,7 @@
             <h3 class="col-md-2">{{ .Key }}</h3>
             <div class="col-md-10">
               {{ range .Pages.ByDate.Reverse }}
-              {{ partial "talk_li" . }}
+              {{ .Render "li" }}
               {{ end }}
             </div>
             {{ end }}
