@@ -12,7 +12,7 @@
             <h3 class="col-md-2">{{ .Key }}</h3>
             <div class="col-md-10">
               {{ range .Pages.ByDate.Reverse }}
-              {{ .Render "li" }}
+              {{ .Render "card" }}
               {{ end }}
             </div>
             {{ end }}

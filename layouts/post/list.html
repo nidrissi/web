@@ -8,7 +8,7 @@
 
 {{ $paginator := .Paginate .Data.Pages }}
 {{ range $paginator.Pages }}
-{{ .Render "li" }}
+{{ .Render "card" }}
 {{ end }}
 
 {{ partial "pagination" . }}

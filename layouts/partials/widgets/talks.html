@@ -12,7 +12,7 @@
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     {{ range first $page.Params.count (where $.Site.RegularPages "Type" "talk") }}
-    {{ .Render "li" }}
+    {{ .Render "card" }}
     {{ end }}
 
     {{ if gt $talks_len $page.Params.count }}

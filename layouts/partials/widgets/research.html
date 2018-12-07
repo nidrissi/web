@@ -12,7 +12,7 @@
     {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
     {{ range first $page.Params.count (where $.Site.RegularPages "Type" "research") }}
-    {{ .Render "li" }}
+    {{ .Render "card" }}
     {{ end }}
 
     {{ if gt $pubs_len $page.Params.count }}

@@ -14,7 +14,7 @@
     {{ $posts := where (where $.Site.RegularPages "Type" "post") ".Params.notonhomepage" nil }}
 
     {{ range $post := first $page.Params.count $posts }}
-    {{ .Render "li" }}
+    {{ .Render "card" }}
     {{end}}
 
     {{ if gt $posts_len $page.Params.count }}
