@@ -22,7 +22,6 @@ params:
   email: najib.idrissi-kaitouni@imj-prg.fr
   address: Université Paris Diderot, IMJ-PRG – Bâtiment Sophie Germain – 8 place Aurélie Nemours – 75205 Paris Cedex 13 – France
   office: "Office SG-7032"
-  office_hours: ~
   phone:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
