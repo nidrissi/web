@@ -7,7 +7,7 @@ event: Stockholm Topology Seminar
 event_url: https://www.math-stockholm.se/en/kalender/topactivities/najib-idrissi-configuration-spaces-and-operads-1.862830
 location: Stockholm University + Royal Institute of Technology (KTH), Stockholm, Sweden
 url_pdf: 
-url_slides: 
+#url_slides: stockholm.pdf
 url_video: 
 url_code: 
 ---
