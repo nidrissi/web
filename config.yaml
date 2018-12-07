@@ -32,18 +32,6 @@ params:
   css: ['bundle.css']
   js: ['jquery.slim.min.js', 'bootstrap.min.js']
 
-menu:
-  main:
-    - name: CV
-      url: /en/cv/
-      weight: 2
-    - name: Research
-      url: /en/research/
-      weight: 3
-    - name: Teaching
-      url: /en/enseignement/
-      weight: 4
-
 taxonomies:
   tag: tags
 
@@ -56,14 +44,3 @@ languages:
     weight: 2
     title: Page de Najib Idrissi
     office: "Bureau SG-7032"
-    menu:
-      main:
-        - name: CV
-          url: /fr/cv/
-          weight: 2
-        - name: Recherche
-          url: /fr/research/
-          weight: 3
-        - name: Enseignement
-          url: /fr/enseignement/
-          weight: 4
