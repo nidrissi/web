@@ -2,16 +2,10 @@
 <article itemscope itemtype="http://schema.org/Event">
   <dl class="row">
     <dt class="col-12 col-sm-2">{{ i18n "title" }}</dt>
-    <dd class="col-12 col-sm-10" itemprop="name">{{ .Title }}
-    </dd>
+    <dd class="col-12 col-sm-10" itemprop="name">{{ .Title }}</dd>
     <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
     <dd class="col-12 col-sm-10" itemprop="startDate">
       {{ (time .Date).Format $.Site.Params.date_format }}
-      <div class="talk-time">
-        {{ if $.Site.Params.talks.time }}
-        {{ (time .Date).Format ($.Site.Params.time_format | default "3:04 PM") }}
-        {{ end }}
-      </div>
     </dd>
 
     <dt class="col-12 col-sm-2">{{ i18n "event" }}</dt>
