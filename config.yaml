@@ -31,9 +31,6 @@ params:
   css: ['bundle.css']
   js: ['jquery.slim.min.js', 'bootstrap.min.js']
 
-taxonomies:
-  tag: tags
-
 languages:
   en:
     languageCode: en-us
