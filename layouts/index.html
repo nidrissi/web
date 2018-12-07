@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ if .IsHome }}
 {{ .Scratch.Set "section" "home" }}
@@ -15,4 +15,5 @@
     {{ partial $widget $params }}
 </section>
  {{ end }}
-{{ partialCached "footer.html" . }}
+
+{{ end }}

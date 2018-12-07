@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+  {{ partial "header.html" . }}
+  <body>
+    {{ partial "navbar.html" . }}
+    <div id="main-container" class="container py-3">
+      {{ block "main" . }}{{ end }}
+      <hr>
+      <footer class="text-muted text-center">
+        {{ .Site.Params.name }}
+        |
+        {{ .Site.Params.role}}
+        |
+        {{ range $i, $org := .Site.Params.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }}
+        |
+        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+      </footer>
+    </div>
+  </body>
+</html>

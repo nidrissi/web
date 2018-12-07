@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "main" }}
 <div class="row">
     <div class="col-md-12">
         <h1>{{ .Title | default (i18n "talks") }}</h1>
@@ -20,4 +19,4 @@
         </div>
     </div>
 </div>
-{{ partialCached "footer.html" . }}
+{{ end }}

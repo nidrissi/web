@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "main" }}
 {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 {{ with .Content }}
 <div>{{ . }}</div>
@@ -9,5 +8,4 @@
 {{ .Render "li" }}
 {{ end }}
 {{ partial "pagination" . }}
-
-{{ partialCached "footer.html" . }}
+{{ end }}

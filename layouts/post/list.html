@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 <h1>{{ .Title | default (i18n "posts") }}</h1>
 
@@ -13,4 +13,4 @@
 
 {{ partial "pagination" . }}
 
-{{ partialCached "footer.html" . }}
+{{ end }}

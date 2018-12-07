@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 
 {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
 {{ with .Content }}
@@ -10,4 +10,4 @@
 {{ end }}
 {{ partial "pagination" . }}
 
-{{ partialCached "footer.html" . }}
+{{ end }}

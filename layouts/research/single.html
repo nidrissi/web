@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 <article itemscope itemtype="http://schema.org/CreativeWork">
     <h1 itemprop="name">{{ .Title }}</h1>
 
@@ -35,5 +35,4 @@
 </article>
 
 {{ partial "section_pager.html" . }}
-
-{{ partialCached "footer.html" . }}
+{{ end }}

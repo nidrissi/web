@@ -1,4 +1,4 @@
-{{ partial "header.html" . }}
+{{ define "main" }}
 <article itemscope itemtype="http://schema.org/Event">
   <dl class="row">
     <dt class="col-12 col-sm-2">{{ i18n "title" }}</dt>
@@ -42,5 +42,4 @@
 
   {{ partial "section_pager.html" . }}
 </article>
-
-{{ partialCached "footer.html" . }}
+{{ end }}
