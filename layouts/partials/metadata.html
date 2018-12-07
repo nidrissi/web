@@ -5,4 +5,13 @@
   <time datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
     {{ .Lastmod.Format .Site.Params.date_format }}
   </time>
+  {{ if isset $.Params "tags" }}
+  ⋅
+  {{ $tagsLen := len $.Params.tags }}
+  {{ if gt $tagsLen 0 }}
+  {{ range $k, $v := $.Params.tags }}
+  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}">#{{ . }}</a>
+  {{ end }}
+  {{ end }}
+  {{ end }}
 </div>
