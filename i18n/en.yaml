@@ -14,8 +14,8 @@
   translation: Slides
 - id: btn_video
   translation: Video
-- id: btn_code
-  translation: Code
+- id: btn_source
+  translation: Source
 # Publications widget
 - id: more_publications
   translation: more research
