@@ -7,5 +7,5 @@ title: The Lambrechts–Stanley Model of Configuration Spaces
 url_pdf: ls-model.pdf
 arxiv: 1608.08054
 hal: "01438861"
-# doi: 10.1007/s00222-018-0842-9
+doi: 10.1007/s00222-018-0842-9
 ---
