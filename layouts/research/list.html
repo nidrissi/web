@@ -5,7 +5,7 @@
     <h1>{{ .Title | default (i18n "publications") }}</h1>
 
     {{ with .Content }}
-    <div itemprop="articleBody">{{ . }}</div>
+    <div>{{ . }}</div>
     {{ end }}
     {{ range .Data.Pages.GroupByDate "2006" }}
     <div class="row">

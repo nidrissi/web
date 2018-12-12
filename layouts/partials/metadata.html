@@ -2,7 +2,7 @@
   {{ if ne .Params.Lastmod .Params.Date }}
   {{ i18n "last_updated" }}
   {{ end }}
-  <time datetime="{{ dateFormat "2006-01-02" .Date }}" itemprop="datePublished">
+  <time datetime="{{ dateFormat "2006-01-02" .Date }}">
     {{ .Lastmod.Format .Site.Params.date_format }}
   </time>
   {{ if isset $.Params "tags" }}

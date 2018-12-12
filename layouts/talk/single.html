@@ -1,10 +1,10 @@
 {{ define "main" }}
-<article itemscope itemtype="http://schema.org/Event">
+<article>
   <dl class="row">
     <dt class="col-12 col-sm-2">{{ i18n "title" }}</dt>
-    <dd class="col-12 col-sm-10" itemprop="name">{{ .Title }}</dd>
+    <dd class="col-12 col-sm-10">{{ .Title }}</dd>
     <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
-    <dd class="col-12 col-sm-10" itemprop="startDate">
+    <dd class="col-12 col-sm-10">
       {{ (time .Date).Format $.Site.Params.date_format }}
     </dd>
 
@@ -17,12 +17,12 @@
 
     {{ with .Params.location }}
     <dt class="col-12 col-sm-2">{{ i18n "location" }}</dt>
-    <dd class="col-12 col-sm-10" itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="address">{{ . | markdownify }}</span></dd>
+    <dd class="col-12 col-sm-10">{{ . | markdownify }}</dd>
     {{ end }}
 
     {{ with .Params.abstract }}
     <dt class="col-12 col-sm-2">{{ i18n "abstract" }}</dt>
-    <dd class="col-12 col-sm-10" itemprop="description">{{ . | markdownify }}</dd>
+    <dd class="col-12 col-sm-10">{{ . | markdownify }}</dd>
     {{ end }}
     {{ if .Params.url_pdf | or .Params.url_slides | or .Params.url_video | or .Params.url_code | or .Params.url_custom }}
     <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>

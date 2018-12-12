@@ -4,7 +4,7 @@
         <h1>{{ .Title | default (i18n "talks") }}</h1>
 
         {{ with .Content }}
-        <div itemprop="articleBody">{{ . }}</div>
+        <div>{{ . }}</div>
         {{ end }}
 
         <div class="row">

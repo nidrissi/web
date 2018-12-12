@@ -1,14 +1,9 @@
 {{ define "main" }}
-<article itemscope itemtype="http://schema.org/CreativeWork">
-    <h1 itemprop="name">{{ .Title }}</h1>
-
-    {{ if .Params.image }}
-    <img src="{{ "/img/" | relURL }}{{ .Params.image }}" itemprop="image">
-    {{end}}
-
+<article>
+    <h1>{{ .Title }}</h1>
     <dl class="row">
         <dt class="col-12 col-sm-2">{{ i18n "authors" }}</dt>
-        <dd class="col-12 col-sm-10" itemprop="author">
+        <dd class="col-12 col-sm-10">
             {{ with .Params.authors }}
             {{ delimit . ", " | markdownify }}
             {{ end }}
@@ -18,7 +13,7 @@
         <dd class="col-12 col-sm-10">{{ .Params.publication | markdownify }}</dd>
 
         <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
-        <dd class="col-12 col-sm-10" itemprop="datePublished">{{ .Date.Format ($.Site.Params.publications.date_format | default "January, 2006") }}</dd>
+        <dd class="col-12 col-sm-10">{{ .Date.Format ($.Site.Params.publications.date_format | default "January, 2006") }}</dd>
 
         <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
         <dd class="col-12 col-sm-10">
@@ -26,8 +21,8 @@
         </dd>
     </dl>
 
-    {{ if .Params.abstract }}
-    <p itemprop="text">{{ .Params.abstract | markdownify }}</p>
+    {{ with .Params.abstract }}
+    <p>{{ . | markdownify }}</p>
     <hr>
     {{ end }}
 
