@@ -2,21 +2,18 @@
 {{ $page := .page }}
 {{ $pubs_len := len (where $.Site.RegularPages "Type" "research") }}
 
-<!-- Publications widget -->
-<div class="row">
-  <div class="col-12 col-md-2">
-    <h2><a href="{{ "/research/" | relLangURL }}">{{ with $page.Title }}{{ . | markdownify }}{{ end }}</a></h2>
-    {{ with $page.Params.subtitle }}<h3>{{ . | markdownify }}</h3>{{ end }}
-  </div>
-  <div class="col-12 col-md-10">
-    {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
+<div class="col-12 col-md-2">
+  <h2><a href="{{ "/research/" | relLangURL }}">{{ with $page.Title }}{{ . | markdownify }}{{ end }}</a></h2>
+  {{ with $page.Params.subtitle }}<h3>{{ . | markdownify }}</h3>{{ end }}
+</div>
+<div class="col-12 col-md-10">
+  {{ with $page.Content }}<p>{{ . | markdownify }}</p>{{ end }}
 
-    {{ range first $page.Params.count (where $.Site.RegularPages "Type" "research") }}
-    {{ .Render "card" }}
-    {{ end }}
+  {{ range first $page.Params.count (where $.Site.RegularPages "Type" "research") }}
+  {{ .Render "card" }}
+  {{ end }}
 
-    {{ if gt $pubs_len $page.Params.count }}
-    <h6 class="mt-2 mb-0"><a href="{{ "/research/" | relLangURL }}">…{{ i18n "more_publications" }} »</a></h6>
-    {{ end }}
-  </div>
+  {{ if gt $pubs_len $page.Params.count }}
+  <h6 class="mt-2 mb-0"><a href="{{ "/research/" | relLangURL }}">…{{ i18n "more_publications" }} »</a></h6>
+  {{ end }}
 </div>

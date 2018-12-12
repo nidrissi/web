@@ -11,7 +11,7 @@
 {{ $params := dict "root" $ "page" $page }}
 {{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
 {{ if $index }}<hr class="my-4">{{ end }}
-<section id="{{ $page.File.TranslationBaseName }}">
+<section class="row">
     {{ partial $widget $params }}
 </section>
  {{ end }}
