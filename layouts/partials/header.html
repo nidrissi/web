@@ -2,19 +2,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
-
   {{ range .Translations }}
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
   {{ end }}
   <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink }}">
 
   {{ $css := slice (resources.Get "css/bootstrap.min.css") (resources.Get "css/fa-svg-with-js.css") (resources.Get "css/style.css") | resources.Concat "css/bundle.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.Permalink }}">
-
   {{ $js := slice (resources.Get "js/jquery.slim.min.js") (resources.Get "js/bootstrap.min.js") | resources.Concat "js/bundle.js" | resources.Minify }}
   <script defer src="{{ $js.Permalink }}"></script>
-
   <script type="text/x-mathjax-config">
    MathJax.Hub.Config({
      tex2jax: {
@@ -29,14 +26,11 @@
   </script>
   <script async src="/mathjax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-
-  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
   <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
   <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192.png" | relURL }}">
 
-  <link rel="canonical" href="{{ .Permalink }}">
-
   <title>{{ if not .IsHome }}{{ .Title }}{{ with .Params.event }} @ {{ . }}{{ end }} | {{ end }}{{ .Site.Title }}</title>
+  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
   <meta name="description"
         content="{{- if .IsPage -}}
               {{- with .Params.abstract -}}{{- . -}}{{- else -}}{{- .Summary -}}{{- end -}}
