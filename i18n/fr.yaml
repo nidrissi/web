@@ -9,7 +9,7 @@
 - id: btn_pdf
   translation: PDF
 - id: btn_slides
-  translation: Diapositives
+  translation: Diapos
 - id: btn_video
   translation: Vidéo
 - id: btn_source
