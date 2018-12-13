@@ -1,56 +1,52 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
 
-    {{ range .Translations }}
-    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
-    {{ end }}
-    <link rel="alternate" hreflang="{{ .Site.LanguageCode | default "en-us" }}" href="{{ .Permalink }}">
+  {{ range .Site.Params.css }}
+  <link rel="stylesheet" href="/css/{{ . }}">
+  {{ end }}
 
-    {{ range .Site.Params.css }}
-    <link rel="stylesheet" href="/css/{{ . }}">
-    {{ end }}
+  {{ range .Site.Params.js }}
+  <script defer src="/js/{{ . }}"></script>
+  {{ end }}
 
-    {{ range .Site.Params.js }}
-    <script defer src="/js/{{ . }}"></script>
-    {{ end }}
-
-    <script type="text/x-mathjax-config">
-     MathJax.Hub.Config({
-       tex2jax: {
-         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-         displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-         processEscapes: true
-       },
-       CommonHTML: { linebreaks: { automatic: true } },
-       "HTML-CSS": { linebreaks: { automatic: true } },
-       SVG: { linebreaks: { automatic: true } }
-     });
-    </script>
-    <script async src="/mathjax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  <script type="text/x-mathjax-config">
+   MathJax.Hub.Config({
+     tex2jax: {
+       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+       processEscapes: true
+     },
+     CommonHTML: { linebreaks: { automatic: true } },
+     "HTML-CSS": { linebreaks: { automatic: true } },
+     SVG: { linebreaks: { automatic: true } }
+   });
+  </script>
+  <script async src="/mathjax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 
-    <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
-    <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
-    <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192.png" | relURL }}">
+  <link rel="manifest" href="{{ "site.webmanifest" | relURL }}">
+  <link rel="icon" type="image/png" href="{{ "/img/icon.png" | relURL }}">
+  <link rel="apple-touch-icon" type="image/png" href="{{ "/img/icon-192.png" | relURL }}">
 
-    <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="canonical" href="{{ .Permalink }}">
 
-    <title>{{ if not .IsHome }}{{ .Title }}{{ with .Params.event }} @ {{ . }}{{ end }} | {{ end }}{{ .Site.Title }}</title>
-    <meta name="description"
-          content="{{- if .IsPage -}}
-                {{- if or .Type "research" .Type "talk" -}}
-          {{- with .Params.abstract -}}{{- . -}}{{- end -}}
-          {{- else -}}
-          {{- .Summary -}}
-          {{- end -}}
-          {{- else -}}
-          {{- with .Site.Params.role -}}{{- . -}}{{- end -}}
-          {{- end -}}">
-
-  </head>
+  <title>{{ if not .IsHome }}{{ .Title }}{{ with .Params.event }} @ {{ . }}{{ end }} | {{ end }}{{ .Site.Title }}</title>
+  <meta name="description"
+        content="{{- if .IsPage -}}
+              {{- if or .Type "research" .Type "talk" -}}
+        {{- with .Params.abstract -}}{{- . -}}{{- end -}}
+        {{- else -}}
+        {{- .Summary -}}
+        {{- end -}}
+        {{- else -}}
+        {{- with .Site.Params.role -}}{{- . -}}{{- end -}}
+        {{- end -}}">
+</head>
