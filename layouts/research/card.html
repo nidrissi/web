@@ -6,6 +6,6 @@
             {{ .Params.publication | markdownify }}
             ({{ .Date.Format "2006" }}).
         </h6>
-        {{ partial "publication_links" (dict "content" . "is_card" 1) }}
+        {{ partial "links" (dict "content" . "is_card" 1) }}
     </div>
 </article>

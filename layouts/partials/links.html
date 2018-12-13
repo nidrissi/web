@@ -13,6 +13,20 @@
   {{ i18n "btn_pdf" }}
 </a>
 {{ end }}
+{{ with $.Params.url_slides }}
+{{ $link := . }}{{ with $.Resources.GetMatch $link }}{{ $link = .Permalink }}{{ end }}
+<a class="{{ $class }}" href="{{ $link | absURL }}">
+  <svg aria-hidden="true" data-prefix="fas" data-icon="tv" class="svg-inline--fa fa-tv fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M592 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h245.1v32h-160c-17.7 0-32 14.3-32 32s14.3 32 32 32h384c17.7 0 32-14.3 32-32s-14.3-32-32-32h-160v-32H592c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h512v288z"></path></svg>
+  {{ i18n "btn_slides" }}
+</a>
+{{ end }}
+{{ with $.Params.url_video }}
+{{ $link := . }}{{ with $.Resources.GetMatch $link }}{{ $link = .Permalink }}{{ end }}
+<a class="{{ $class }}" href="{{ $link | absURL }}">
+  <svg aria-hidden="true" data-prefix="fas" data-icon="video" class="svg-inline--fa fa-video fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z"></path></svg>
+  {{ i18n "btn_video" }}
+</a>
+{{ end }}
 {{ with $.Params.arxiv }}
 <a class="{{ $class }}" href="https://arxiv.org/abs/{{ . }}" target="_blank" rel="noopener">arXiv</a>
 {{ end }}
