@@ -1,7 +1,7 @@
 ---
 style: classic
 color: burgundy
-title: Curriculum Vitæ (fr) ! Curriculum Vitæ (en)
+title: Curriculum Vitæ
 firstname: Najib
 familyname: Idrissi
 address:
@@ -51,12 +51,14 @@ section:
           - Paris
           - France
           - |
-            2014--2015 : Stage de recherche en préparation à un doctorat -- Université Lille 1 ;\
-            2013--2014 : Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot ;\
+            Reçu 1\textsuperscript{er} au concours INFO.\
+            2014--2015 : Stage de recherche en préparation à un doctorat -- Université Lille 1.\
+            2013--2014 : Master Recherche en Mathématiques Fondamentales -- Université Paris Diderot.\
             Automne 2013 : Stage de recherche en topologie algébrique -- Massachusetts Institute of Technology.
             !
-            2014--2015: Research internship in preparation of a PhD -- Université Lille 1;\
-            2013--2014: Master's degree in Fundamental Mathematics -- Université Paris Diderot;\
+            Ranked 1\textsuperscript{st} on the "INFO" competitive entrance exam.\
+            2014--2015: Research internship in preparation of a PhD -- Université Lille 1.\
+            2013--2014: Master's degree in Fundamental Mathematics -- Université Paris Diderot.\
             Fall 2013 Research internship in algebraic topology -- Massachusetts Institute of Technology.
   - title: Recherche ! Research
     bib:
@@ -108,7 +110,7 @@ section:
           - ""
           - ""
           - ""
-          - "Comm. Math. Phys.; Lett. Math. Phys.; Proc. Edinb. Math. Soc.; Proc. Roy. Soc. Edinburgh Sect. A"
+          - "Algebr. Geom. Topol.; Comm. Math. Phys.; Lett. Math. Phys.; Proc. Edinb. Math. Soc.; Proc. Roy. Soc. Edinburgh Sect. A"
       - content:
           - en cours ! ongoing
           - "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
@@ -133,7 +135,7 @@ section:
       - content:
           - 2016--2017
           - "Un des organisateurs du Séminaire des doctorants ! One of the organizer of the PhD students' seminar"
-          - Laboratoire Paul Painlevé, Université Lille\ 1
+          - Laboratoire Paul Painlevé
           - Lille
           - France
           - ""
@@ -144,7 +146,7 @@ section:
           - 01/2019\*
           - Structures Supérieures ! Higher Structures
           - Centre international de rencontres mathématiques (CIRM)
-          - Marseille
+          - Luminy
           - France
           - TBA
       - content:
@@ -177,12 +179,12 @@ section:
           - The Lambrechts--Stanley Model of Configuration Spaces
       - subsection: Séminaires ! Seminars
       - content:
-          - 12/2018\*
+          - 12/2018
           - Stockholm Topology Seminar
           - Stockholm University + Royal Institute of Technology (KTH)
           - Stockholm
           - Suède ! Sweden
-          - TBA
+          - Configuration spaces and Operads
       - content:
           - 11/2018
           - Séminaire Géométrie \& Topologie ! Geometry \& Topology Seminar
@@ -352,7 +354,7 @@ section:
     entry:
       - item:
           - 01/2019\*
-          - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy/Marseille) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy/Marseille)
+          - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy)
       - item:
           - 01/2019\*
           - Higher Structures in Holomorphic and Topological Field Theory @ Institut des Hautes Études Scientifiques (Paris-Saclay)
