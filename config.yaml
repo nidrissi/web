@@ -10,6 +10,7 @@ blackfriday:
   hrefTargetBlank: false
 
 params:
+  date_format: 2006-01-02
   name: Najib Iᴅʀɪssɪ
   role: Maître de conférences
   organizations:
@@ -25,9 +26,6 @@ params:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
 
-  date_format: 2006-01-02
-  css: ['bundle.css']
-  js: ['jquery.slim.min.js', 'bootstrap.min.js']
 
 languages:
   en:
