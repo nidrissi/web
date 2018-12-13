@@ -15,7 +15,7 @@ section:
   - title: Parcours ! Career
     entry:
       - content:
-          - 09/2018--\makebox[0pt][l]{\dots}\hphantom{09/2018}
+          - 09/2018--\hphantom{09/2018}
           - Maître de conférences
           - Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
