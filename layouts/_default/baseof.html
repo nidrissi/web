@@ -8,11 +8,11 @@
       <hr>
       <footer class="text-muted text-center">
         {{ .Site.Params.name }}
-        |
+        &ndash;
         {{ .Site.Params.role}}
-        |
+        &ndash;
         {{ range $i, $org := .Site.Params.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }}
-        |
+        &ndash;
         <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
       </footer>
     </div>
