@@ -73,8 +73,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="358.43007"
-     inkscape:cy="260.17032"
+     inkscape:cx="337.49421"
+     inkscape:cy="255.10131"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -120,22 +120,22 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.55161953px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.17068574"
        x="174.62372"
-       y="132.25194"
+       y="122.72701"
        id="text1094"><tspan
          sodipodi:role="line"
          x="174.62372"
-         y="132.25194"
-         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="122.72701"
+         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
          id="tspan1096">Centre national de la</tspan><tspan
          sodipodi:role="line"
          x="174.62372"
-         y="139.3075"
-         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="128.90062"
+         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
          id="tspan1806">recherche scientifique</tspan><tspan
          sodipodi:role="line"
          x="174.62372"
-         y="146.36305"
-         style="font-size:5.64444447px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
+         y="135.07423"
+         style="font-size:4.93888903px;text-align:center;text-anchor:middle;stroke-width:0.17068574"
          id="tspan1098">(CNRS)</tspan></text>
     <text
        xml:space="preserve"
@@ -203,30 +203,6 @@
          y="150.83546"
          style="text-align:center;text-anchor:middle;stroke-width:0.21186784"
          id="tspan1226">department</tspan></text>
-    <rect
-       style="opacity:1;fill:none;stroke:#666666;stroke-width:0.23617975;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1100-6-9"
-       width="26.300335"
-       height="11.747058"
-       x="106.62054"
-       y="141.90559"
-       ry="5.873529" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.65636992px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.16602312"
-       x="119.76225"
-       y="146.82838"
-       id="text1104-2-3"><tspan
-         sodipodi:role="line"
-         x="119.76225"
-         y="146.82838"
-         style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.16602312"
-         id="tspan3383">Other</tspan><tspan
-         sodipodi:role="line"
-         x="119.76225"
-         y="150.14885"
-         style="text-align:center;text-anchor:middle;fill:#4d4d4d;stroke-width:0.16602312"
-         id="tspan3391">departments</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot1380"
@@ -286,30 +262,6 @@
          y="149.44153"
          style="font-weight:bold;font-size:3.17499995px;text-align:center;text-anchor:middle;stroke-width:0.21186784"
          id="tspan1226-9">department</tspan></text>
-    <rect
-       style="opacity:1;fill:none;stroke:#666666;stroke-width:0.23617977;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect1100-6-9-2"
-       width="26.300335"
-       height="11.747058"
-       x="37.54644"
-       y="140.51166"
-       ry="5.873529" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.65636992px;line-height:1.25;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.16602312"
-       x="50.688148"
-       y="145.43445"
-       id="text1104-2-3-0"><tspan
-         sodipodi:role="line"
-         x="50.688148"
-         y="145.43445"
-         style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.16602312"
-         id="tspan1106-0-6-2">Other</tspan><tspan
-         sodipodi:role="line"
-         x="50.688148"
-         y="148.75491"
-         style="text-align:center;text-anchor:middle;fill:#666666;stroke-width:0.16602312"
-         id="tspan1226-0-3">departments</tspan></text>
     <rect
        style="opacity:0.26100003;fill:#800080;stroke:#000000;stroke-width:0.13982359;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect1090-6-6-9"
@@ -624,8 +576,39 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.60000002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2015)"
-       d="m 176.25071,157.2813 c -26.22252,13.71322 -57.62268,1.17109 -84.146596,13.45799 -3.865257,2.72805 -6.35187,7.10193 -7.323639,11.67743"
+       d="m 165.55993,152.87135 c -0.59925,13.40137 -66.641155,14.44045 -76.636775,28.8772"
        id="path1889"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <rect
+       style="opacity:0.28500001;fill:#0000ff;stroke:#000000;stroke-width:0.28600001;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect1090-3"
+       width="33.600471"
+       height="12.911709"
+       x="144.96269"
+       y="139.62859"
+       rx="0"
+       ry="2.1381562" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.14776778px;line-height:1;font-family:'DejaVu Serif';-inkscape-font-specification:'DejaVu Serif';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.20135322"
+       x="161.76503"
+       y="144.73737"
+       id="text948"><tspan
+         sodipodi:role="line"
+         id="tspan946"
+         x="161.76503"
+         y="144.73737"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.20135322">Institut national</tspan><tspan
+         sodipodi:role="line"
+         x="161.76503"
+         y="146.88513"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.20135322"
+         id="tspan950">des sciences mathématiques</tspan><tspan
+         sodipodi:role="line"
+         x="161.76503"
+         y="149.0329"
+         style="line-height:1;text-align:center;text-anchor:middle;stroke-width:0.20135322"
+         id="tspan952"> et de leurs interactions</tspan></text>
   </g>
 </svg>
