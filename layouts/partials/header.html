@@ -39,12 +39,8 @@
   <title>{{ if not .IsHome }}{{ .Title }}{{ with .Params.event }} @ {{ . }}{{ end }} | {{ end }}{{ .Site.Title }}</title>
   <meta name="description"
         content="{{- if .IsPage -}}
-              {{- if or .Type "research" .Type "talk" -}}
-        {{- with .Params.abstract -}}{{- . -}}{{- end -}}
-        {{- else -}}
-        {{- .Summary -}}
-        {{- end -}}
-        {{- else -}}
-        {{- with .Site.Params.role -}}{{- . -}}{{- end -}}
-        {{- end -}}">
+              {{- with .Params.abstract -}}{{- . -}}{{- else -}}{{- .Summary -}}{{- end -}}
+              {{- else -}}
+              {{- with .Site.Params.role -}}{{- . -}}{{- end -}}
+              {{- end -}}">
 </head>
