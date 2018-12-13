@@ -1,7 +1,6 @@
 baseURL: https://idrissi.eu/
 title: "Najib Idrissi's homepage"
 enableEmoji: true
-#paginate: 10
 enableRobotsTXT: true
 
 defaultContentLanguage: en
@@ -27,7 +26,6 @@ params:
     ugly: "+33157279116"
 
   date_format: 2006-01-02
-  math: true
   css: ['bundle.css']
   js: ['jquery.slim.min.js', 'bootstrap.min.js']
 
