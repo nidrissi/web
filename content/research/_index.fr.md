@@ -1,7 +1,5 @@
 ---
 title: Recherche
-date: 2017-01-01
-list_format: 1
 menu:
   main:
     weight: 20
