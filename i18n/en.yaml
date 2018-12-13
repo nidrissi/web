@@ -6,8 +6,6 @@
 # Buttons
 - id: btn_preprint
   translation: Preprint
-- id: btn_pdf
-  translation: PDF
 - id: btn_cite
   translation: Cite
 - id: btn_slides

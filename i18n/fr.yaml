@@ -6,8 +6,6 @@
 # Buttons
 - id: btn_preprint
   translation: Prépublication
-- id: btn_pdf
-  translation: PDF
 - id: btn_slides
   translation: Diapos
 - id: btn_video
