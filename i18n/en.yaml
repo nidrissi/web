@@ -16,17 +16,23 @@
   translation: Video
 - id: btn_source
   translation: Source
-# Publications widget
+# Research widget
+- id: research
+  translation: Research
 - id: more_publications
   translation: more research
 - id: authors
   translation: Author(s)
 # Posts widget
+- id: blog
+  translation: Blog
 - id: continue_reading
   translation: continue reading
 - id: more_posts
   translation: more posts
 # Talks widget
+- id: talks
+  translation: Talks
 - id: more_talks
   translation: more talks
 - id: title

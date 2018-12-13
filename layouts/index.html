@@ -1,19 +1,9 @@
 {{ define "main" }}
-
-{{ if .IsHome }}
-{{ .Scratch.Set "section" "home" }}
-{{ else }}
-{{ .Scratch.Set "section" .Section }}
-{{ end }}
-{{ $section := .Scratch.Get "section" }}
-
-{{ range $index, $page := where (where .Data.Pages "Section" $section) ".Params.active" "!=" false }}
-{{ $params := dict "root" $ "page" $page }}
-{{ $widget := printf "widgets/%s.html" ( or $page.Params.widget "custom" ) }}
-{{ if $index }}<hr class="my-4">{{ end }}
-<section class="row">
-    {{ partial $widget $params }}
-</section>
- {{ end }}
-
+{{ partial "home/about.html" . }}
+<hr class="my-4">
+{{ partial "home/research.html" . }}
+<hr class="my-4">
+{{ partial "home/talks.html" . }}
+<hr class="my-4">
+{{partial "home/posts.html" . }}
 {{ end }}

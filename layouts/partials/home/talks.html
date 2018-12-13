@@ -1,0 +1,11 @@
+<section class="row">
+  <div class="col-12 col-md-2">
+    <h2><a href="{{ "/talk/" | relLangURL }}">{{ i18n "talks" }}</a></h2>
+  </div>
+  <div class="col-12 col-md-10">
+    {{ range first .Site.Params.home_counts.talk (where .Site.RegularPages "Type" "talk") }}
+    {{ .Render "card" }}
+    {{ end }}
+    <h6 class="mt-2 mb-0"><a href="{{ "/talk/" | relLangURL }}">…{{ i18n "more_talks" }} »</a></h6>
+  </div>
+</section>

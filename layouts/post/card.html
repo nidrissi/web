@@ -1,4 +1,4 @@
-<div class="card border-light">
+<article class="card border-light">
   <div class="card-body px-3 py-2">
     <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
     <h6 class="card-subtitle">{{ partial "metadata" . }}</h6>
@@ -13,4 +13,4 @@
     </div>
     {{ if or .Params.summary .Truncated }}<a href="{{ .Permalink }}" class="card-link">[…] {{ i18n "continue_reading" }}</a>{{ end }}
   </div>
-</div>  
+</article>  

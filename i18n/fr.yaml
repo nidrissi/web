@@ -14,17 +14,23 @@
   translation: Vidéo
 - id: btn_source
   translation: Source
-# Publications widget
+# Research widget
+- id: research
+  translation: Recherche
 - id: more_publications
   translation: plus de recherches
 - id: authors
   translation: Auteur(s)
 # Posts widget
+- id: blog
+  translation: Blog
 - id: continue_reading
   translation: lire la suite
 - id: more_posts
   translation: plus de billets
 # Talks widget
+- id: talks
+  translation: Exposés
 - id: more_talks
   translation: "plus d'exposés"
 - id: title

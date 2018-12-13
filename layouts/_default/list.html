@@ -1,0 +1,11 @@
+{{ define "main" }}
+<h1>{{ .Title | default (i18n "posts") }}</h1>
+{{ with .Content }}
+<div>{{ . }}</div>
+{{ end }}
+<ul>
+  {{ range .Data.Pages }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}

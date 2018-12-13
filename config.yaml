@@ -25,6 +25,10 @@ params:
   phone:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
+  home_counts:
+    research: 7
+    talk: 5
+    post: 5
 
 
 languages:

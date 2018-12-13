@@ -1,0 +1,12 @@
+<section class="row">
+  <div class="col-12 col-md-2">
+    <h2><a href="{{ "/research/" | relLangURL }}">{{ i18n "research" }}</a></h2>
+  </div>
+  <div class="col-12 col-md-10">
+    {{ range first .Site.Params.home_counts.research (where .Site.RegularPages "Type" "research") }}
+    {{ .Render "card" }}
+    {{ end }}
+
+    <h6 class="mt-2 mb-0"><a href="{{ "/research/" | relLangURL }}">…{{ i18n "more_publications" }} »</a></h6>
+  </div>
+</section>

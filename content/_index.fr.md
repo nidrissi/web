@@ -1,8 +1,3 @@
----
-widget: about
-weight: 10
----
-
 Bonjour ! Je suis Najib <abbr title="Mon nom complet est « Idrissi Kaïtouni ». Je préfère utiliser « Idrissi » dans les milieux académiques pour plus de simplicité et pour éviter certains problèmes – par exemple, des systèmes informatiques qui croient que « Idrissi » est mon deuxième prénom et qu'il faut m'appeler « NI Kaïtouni »...).">Idrissi</abbr>, et je suis mathématicien.
 Je m'intéresse aux opérades et leurs applications à la topologie algébrique, plus particulièrement à l'étude des espaces de configuration et leurs liens avec les complexes de graphes.
 
