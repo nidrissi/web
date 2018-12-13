@@ -9,23 +9,18 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   {{ end }}
-  <!-- Collect the nav links, forms, and other content for toggling -->
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav mr-auto">
       {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">
-          {{ .Pre }}
-          <span>{{ .Name }}</span>
-          {{ .Post }}
+          {{ .Pre }}{{ .Name }}{{ .Post }}
         </a>
         <div class="dropdown-menu">
           {{ range .Children }}
           <a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
-            {{ .Pre }}
-            <span>{{ .Name }}</span>
-            {{ .Post }}
+            {{ .Pre }}{{ .Name }}{{ .Post }}
           </a>
           {{ end }}
         </div>
@@ -33,9 +28,7 @@
       {{ else }}
       <li class="nav-item">
         <a class="nav-link" href="{{ .URL | relLangURL }}">
-          {{ .Pre }}
-          <span>{{ .Name }}</span>
-          {{ .Post }}
+          {{ .Pre }}{{ .Name }}{{ .Post }}
         </a>
       </li>
       {{ end }}
@@ -58,5 +51,5 @@
       </li>
       {{ end }}
     </ul>
-  </div><!-- /.navbar-collapse -->
+  </div>
 </nav>

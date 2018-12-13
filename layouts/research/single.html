@@ -21,10 +21,7 @@
         </dd>
     </dl>
 
-    {{ with .Params.abstract }}
-    <p>{{ . | markdownify }}</p>
-    <hr>
-    {{ end }}
+    {{ with .Params.abstract }}<p>{{ . | markdownify }}</p>{{ end }}
 
     <div>{{ .Content }}</div>
 </article>

@@ -3,10 +3,7 @@
   <h1>{{ .Title }}</h1>
   {{ partial "metadata" . }}
   <div>{{ .Content }}</div>
-
-  {{ if .Site.Params.section_pager }}
   {{ partial "section_pager.html" . }}
-  {{ end }}
 </article>
 {{ partial "section_pager.html" . }}
 {{ end }}
