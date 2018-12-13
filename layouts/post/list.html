@@ -1,16 +1,9 @@
 {{ define "main" }}
-
 <h1>{{ .Title | default (i18n "posts") }}</h1>
-
 {{ with .Content }}
 <div>{{ . }}</div>
 {{ end }}
-
-{{ $paginator := .Paginate .Data.Pages }}
-{{ range $paginator.Pages }}
+{{ range .Data.Pages }}
 {{ .Render "card" }}
 {{ end }}
-
-{{ partial "pagination" . }}
-
 {{ end }}

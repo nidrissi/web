@@ -1,7 +1,7 @@
 baseURL: https://idrissi.eu/
 title: "Najib Idrissi's homepage"
 enableEmoji: true
-paginate: 10
+#paginate: 10
 enableRobotsTXT: true
 
 defaultContentLanguage: en

@@ -3,9 +3,7 @@
 {{ with .Content }}
 <div>{{ . }}</div>
 {{ end }}
-{{ $paginator := .Paginate .Data.Pages }}
-{{ range $paginator.Pages }}
+{{ range .Data.Pages }}
 {{ .Render "card" }}
 {{ end }}
-{{ partial "pagination" . }}
 {{ end }}
