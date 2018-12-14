@@ -7,7 +7,7 @@ tags: [job, paper]
 
 I've been in Paris for almost a month now.
 It's been great!
-People at the math department and the math institute<sup>(1)</sup> have all been welcoming and have helped me a lot in getting settled.
+People at the math department and the math institute[^1] have all been welcoming and have helped me a lot in getting settled.
 There have been a lot of administrative procedures to complete -- and I am unfortunately not done -- and it's great to have had people being able to guide me.
 And I finally found an apartment in Paris!
 It was unexpectedly hard: faculty salaries are not very high compared to the cost of living, and the first year is technically on "probation", meaning I could theoretically get fired next August...
@@ -41,9 +41,4 @@ So I was led to look at {{< tex "A[\varepsilon]" >}}, i.e. I add a new square-ze
 I'm pretty much looking for a fancy interpretation of this new Poisson algebra in terms of the old one.
 If you think of something, let me know...
 
----
-
-<sup>(1)</sup> For those who don't know, in France, there is a separation between the teaching department (UFR in French) and the research lab.
-The teaching department is part of the university, while the research lab is part of the university and the CNRS.
-The math research lab I'm at is called the "Institute of Mathematics of Jussieu-Paris Left Side" so I tend to call it "the institute" or "the IMJ".
-(In this case it's even part of CNRS and *two* university: Paris Diderot and Sorbonne Université.)
+[^1]: For those who don't know, in France, there is a separation between the teaching department (UFR in French) and the research lab. The teaching department is part of the university, while the research lab is part of the university and the CNRS. The math research lab I'm at is called the "Institute of Mathematics of Jussieu-Paris Left Side" so I tend to call it "the institute" or "the IMJ". (In this case it's even part of CNRS and *two* university: Paris Diderot and Sorbonne Université.)
