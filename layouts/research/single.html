@@ -13,7 +13,9 @@
         <dd class="col-12 col-sm-10">{{ .Params.publication | markdownify }}</dd>
 
         <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
-        <dd class="col-12 col-sm-10">{{ .Date.Format ($.Site.Params.publications.date_format | default "January, 2006") }}</dd>
+        <dd class="col-12 col-sm-10">
+          <time datetime="{{ .Date.Format "2006-01-01" }}">{{ .Date.Format "January, 2006"}}</time>
+        </dd>
 
         <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
         <dd class="col-12 col-sm-10">

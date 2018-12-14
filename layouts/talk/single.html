@@ -5,7 +5,7 @@
     <dd class="col-12 col-sm-10">{{ .Title }}</dd>
     <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
     <dd class="col-12 col-sm-10">
-      {{ (time .Date).Format $.Site.Params.date_format }}
+      <time datetime="{{ .Date.Format "2006-01-01" }}">{{ .Date.Format $.Site.Params.date_format }}</time>
     </dd>
 
     <dt class="col-12 col-sm-2">{{ i18n "event" }}</dt>
