@@ -33,11 +33,13 @@ menu:
 
 ---
 
-<p class="small">
 Acronymes :
-<dl class="small">
-<dt>MASS</dt><dd>Mathématiques Appliquées aux Sciences Sociales.</dd>
-<dt>MIASHS</dt><dd>Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales</dd>
-<dt>SESI</dt><dd>Sciences Exactes et Sciences de l'Ingénieur.</dd>
-</dl>
-</p>
+
+MASS
+: Mathématiques Appliquées aux Sciences Sociales.
+
+MIASHS
+: Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales.
+
+SESI
+: Sciences Exactes et Sciences de l'Ingénieur.
