@@ -4,7 +4,7 @@ abstract: |
   In a second part, we study configuration spaces of closed smooth simply connected manifolds. We prove over $\\mathbb{R}$ a conjecture of Lambrechts--Stanley which describes a mode of such configuration spaces, and we obtain as corollary their real homotopy invariance. Moreover, using Kontsevich’s proof of the formality of the operads $\\mathsf{D}\_n$, we obtain that this model is compatible with the action of the Fulton--MacPherson operad when the manifold is framed. This allows us to explicitly compute the factorization homology of such a manifold.
   Finally, in a third part, we expand this result to a large class of manifolds with boundary. We first use a chain-level Poincaré--Lefschetz duality result to compute the homology of the configuration spaces of these manifolds, then we reuse the methods of the second chapter to obtain our model, which is compatible with the action of the Swiss-Cheese operad $\\mathsf{SC}\_n$.
 authors:
-  - N.I.
+  - me
 date: 2017-11-17
 publication: Doctoral Thesis, Université Lille 1
 title: Operadic Formality and Homotopy of Configuration Spaces

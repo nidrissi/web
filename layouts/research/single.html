@@ -4,9 +4,7 @@
     <dl class="row">
         <dt class="col-12 col-sm-2">{{ i18n "authors" }}</dt>
         <dd class="col-12 col-sm-10">
-            {{ with .Params.authors }}
-            {{ delimit . ", " | markdownify }}
-            {{ end }}
+          {{ partial "authors" (dict "content" . "authors" .Params.authors) }}
         </dd>
 
         <dt class="col-12 col-sm-2">{{ i18n "publication" }}</dt>
