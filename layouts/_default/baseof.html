@@ -7,7 +7,7 @@
       {{- block "main" . -}}{{- end -}}
       <hr>
       <footer class="text-muted text-center">
-        {{- .Site.Author.name }} &ndash; {{ .Site.Author.role}} &ndash; {{ range $i, $org := .Site.Author.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }} &ndash; <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
+        {{- .Site.Author.name }} &ndash; {{ .Site.Author.role}} &ndash; {{ delimit .Site.Author.organizations ", " | markdownify }} &ndash; <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
       </footer>
     </div>
   </body>
