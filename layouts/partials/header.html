@@ -34,7 +34,7 @@
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <title>{{ if not .IsHome }}{{ .Title }}{{ with .Params.event }} @ {{ . }}{{ end }} | {{ end }}{{ .Site.Title }}</title>
-  {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
+  {{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
   <meta name="description" content="{{- if .IsPage -}}
               {{- with .Params.abstract -}}{{- . -}}{{- else -}}{{- .Summary -}}{{- end -}}
               {{- else -}}

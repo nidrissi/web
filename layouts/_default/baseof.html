@@ -7,13 +7,13 @@
       {{ block "main" . }}{{ end }}
       <hr>
       <footer class="text-muted text-center">
-        {{ .Site.Params.name }}
+        {{ .Site.Author.name }}
         &ndash;
         {{ .Site.Params.role}}
         &ndash;
         {{ range $i, $org := .Site.Params.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }}
         &ndash;
-        <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
+        <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
       </footer>
     </div>
   </body>
