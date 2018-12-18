@@ -37,7 +37,7 @@ languages:
     languageCode: en-us
     weight: 1
   fr:
-    languageCode: fr-FR
+    languageCode: fr-fr
     weight: 2
     title: Page de Najib Idrissi
     office: "Bureau SG-7032"
