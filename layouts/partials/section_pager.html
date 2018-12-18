@@ -1,15 +1,15 @@
 <nav aria-label="Pagination">
   <ul class="pagination justify-content-center mt-3">
-    {{ with .PrevInSection }}
-    <li class="page-item"><a class="page-link" href="{{ .Permalink }}"><span aria-hidden="true">⯇ </span>{{ .Title }}</a></li>
-    {{ else }}
+    {{- with .PrevInSection -}}
+    <li class="page-item"><a class="page-link" href="{{ .Permalink }}"><span aria-hidden="true">⯇ </span>{{- .Title -}}</a></li>
+    {{- else -}}
     <li class="page-item disabled" aria-hidden="true"><a class="page-link" href="#">⯇ ∅</a></li>
-    {{ end }}
+    {{- end -}}
     <li class="page-item"><a class="page-link" href="{{ .Parent.Permalink }}"><span aria-hidden="true">⯅ </span>{{ .Parent.Title }}</a></li>
-    {{ with .NextInSection }}
+    {{- with .NextInSection -}}
     <li class="page-item"><a class="page-link" href="{{ .Permalink }}">{{ .Title }}<span aria-hidden="true"> ⯈</span></a></li>
-    {{ else }}
+    {{- else -}}
     <li class="page-item disabled" aria-hidden="true"><a class="page-link" href="#">∅ ⯈</a></li>
-    {{ end }}
+    {{- end -}}
   </ul>
 </nav>

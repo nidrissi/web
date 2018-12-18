@@ -3,11 +3,11 @@
     <h2><a href="{{ "/post/" | relLangURL }}">{{ i18n "blog" }}</a></h2>
   </div>
   <div class="col-12 col-md-10">
-    {{ $posts := (where .Site.RegularPages "Type" "post") }}
+    {{- $posts := (where .Site.RegularPages "Type" "post") -}}
 
-    {{ range $post := first .Site.Params.home_counts.post $posts }}
-    {{ .Render "card" }}
-    {{end}}
+    {{- range $post := first .Site.Params.home_counts.post $posts -}}
+    {{- .Render "card" -}}
+    {{- end -}}
     <h6 class="mt-2 mb-0"><a href="{{ "/post/" | relLangURL }}">…{{ i18n "more_posts" }} »</a></h6>
   </div>
 </section>

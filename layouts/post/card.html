@@ -3,14 +3,14 @@
     <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
     <h6 class="card-subtitle">{{ partial "metadata" . }}</h6>
     <div class="card-text">
-      {{ if .Params.summary }}
-      {{ .Params.summary | markdownify }}
-      {{ else if .Truncated }}
-      {{ .Summary }}
-      {{ else }}
-      {{ .Content }}
-      {{ end }}
+      {{- if .Params.summary -}}
+      {{- .Params.summary | markdownify -}}
+      {{- else if .Truncated -}}
+      {{- .Summary -}}
+      {{- else -}}
+      {{- .Content -}}
+      {{- end -}}
     </div>
-    {{ if or .Params.summary .Truncated }}<a href="{{ .Permalink }}" class="card-link">[…] {{ i18n "continue_reading" }}</a>{{ end }}
+    {{- if or .Params.summary .Truncated -}}<a href="{{ .Permalink }}" class="card-link">[…] {{ i18n "continue_reading" }}</a>{{- end -}}
   </div>
 </article>  

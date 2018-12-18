@@ -1,19 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode | default "en-us" }}">
-  {{ partial "header.html" . }}
+  {{- partial "header.html" . -}}
   <body>
-    {{ partial "navbar.html" . }}
+    {{- partial "navbar.html" . -}}
     <div id="main-container" class="container py-3">
-      {{ block "main" . }}{{ end }}
+      {{- block "main" . -}}{{- end -}}
       <hr>
       <footer class="text-muted text-center">
-        {{ .Site.Author.name }}
-        &ndash;
-        {{ .Site.Author.role}}
-        &ndash;
-        {{ range $i, $org := .Site.Author.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }}
-        &ndash;
-        <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
+        {{- .Site.Author.name }} &ndash; {{ .Site.Author.role}} &ndash; {{ range $i, $org := .Site.Author.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }} &ndash; <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
       </footer>
     </div>
   </body>
