@@ -1,30 +1,30 @@
-{{ define "main" }}
+{{- define "main" -}}
 <article>
-    <h1>{{ .Title }}</h1>
+    <h1>{{- .Title -}}</h1>
     <dl class="row">
-        <dt class="col-12 col-sm-2">{{ i18n "authors" }}</dt>
+        <dt class="col-12 col-sm-2">{{- i18n "authors" -}}</dt>
         <dd class="col-12 col-sm-10">
-          {{ partial "authors" (dict "content" . "authors" .Params.authors) }}
+          {{- partial "authors" (dict "content" . "authors" .Params.authors) -}}
         </dd>
 
-        <dt class="col-12 col-sm-2">{{ i18n "publication" }}</dt>
-        <dd class="col-12 col-sm-10">{{ .Params.publication | markdownify }}</dd>
+        <dt class="col-12 col-sm-2">{{- i18n "publication" -}}</dt>
+        <dd class="col-12 col-sm-10">{{- .Params.publication | markdownify -}}</dd>
 
-        <dt class="col-12 col-sm-2">{{ i18n "date" }}</dt>
+        <dt class="col-12 col-sm-2">{{- i18n "date" -}}</dt>
         <dd class="col-12 col-sm-10">
-          <time datetime="{{ .Date.Format "2006-01-01" }}">{{ .Date.Format "January, 2006"}}</time>
+          <time datetime="{{- .Date.Format "2006-01-01" -}}">{{- .Date.Format "January, 2006"}}</time>
         </dd>
 
-        <dt class="col-12 col-sm-2">{{ i18n "links" }}</dt>
+        <dt class="col-12 col-sm-2">{{- i18n "links" -}}</dt>
         <dd class="col-12 col-sm-10">
-            {{ partial "links" (dict "content" . "is_card" 0) }}
+            {{- partial "links" (dict "content" . "is_card" 0) -}}
         </dd>
     </dl>
 
-    {{ with .Params.abstract }}<p>{{ . | markdownify }}</p>{{ end }}
+    {{- with .Params.abstract -}}<p>{{- . | markdownify -}}</p>{{- end -}}
 
-    <div>{{ .Content }}</div>
+    <div>{{- .Content -}}</div>
 </article>
 
-{{ partial "section_pager.html" . }}
-{{ end }}
+{{- partial "section_pager.html" . -}}
+{{- end -}}

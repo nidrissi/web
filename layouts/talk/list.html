@@ -1,22 +1,22 @@
-{{ define "main" }}
+{{- define "main" -}}
 <div class="row">
     <div class="col-md-12">
-        <h1>{{ .Title | default (i18n "talks") }}</h1>
+        <h1>{{- .Title | default (i18n "talks") -}}</h1>
 
-        {{ with .Content }}
-        <div>{{ . }}</div>
-        {{ end }}
+        {{- with .Content -}}
+        <div>{{- . -}}</div>
+        {{- end -}}
 
         <div class="row">
-          {{ range (where .Data.Pages "Type" "talk").GroupByDate "2006" }}
-            <h3 class="col-md-2">{{ .Key }}</h3>
+          {{- range (where .Data.Pages "Type" "talk").GroupByDate "2006" -}}
+            <h3 class="col-md-2">{{- .Key -}}</h3>
             <div class="col-md-10">
-              {{ range .Pages.ByDate.Reverse }}
-              {{ .Render "card" }}
-              {{ end }}
+              {{- range .Pages.ByDate.Reverse -}}
+              {{- .Render "card" -}}
+              {{- end -}}
             </div>
-            {{ end }}
+            {{- end -}}
         </div>
     </div>
 </div>
-{{ end }}
+{{- end -}}
