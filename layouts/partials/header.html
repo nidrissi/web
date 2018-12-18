@@ -38,6 +38,6 @@
   <meta name="description" content="{{- if .IsPage -}}
               {{- with .Params.abstract -}}{{- . -}}{{- else -}}{{- .Summary -}}{{- end -}}
               {{- else -}}
-              {{- with .Site.Params.role -}}{{- . -}}{{- end -}}
+              {{- with .Site.Author.role -}}{{- . -}}{{- end -}}
               {{- end -}}">
 </head>

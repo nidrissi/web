@@ -8,15 +8,6 @@ copyright: © Najib Idrissi
 author:
   name: Najib Idrissi
   email: najib.idrissi-kaitouni@imj-prg.fr
-
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
-
-blackfriday:
-  hrefTargetBlank: false
-
-params:
-  date_format: 2006-01-02
   role: Maître de conférences
   organizations:
     - name: Université Paris Diderot
@@ -29,6 +20,15 @@ params:
   phone:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+blackfriday:
+  hrefTargetBlank: false
+
+params:
+  date_format: 2006-01-02
   home_counts:
     research: 7
     talk: 5

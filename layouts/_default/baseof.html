@@ -9,9 +9,9 @@
       <footer class="text-muted text-center">
         {{ .Site.Author.name }}
         &ndash;
-        {{ .Site.Params.role}}
+        {{ .Site.Author.role}}
         &ndash;
-        {{ range $i, $org := .Site.Params.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }}
+        {{ range $i, $org := .Site.Author.organizations -}}{{ if $i }}, {{ end }}<a href="{{ $org.url }}" target="_blank" rel="noopener">{{ $org.name }}</a>{{ end }}
         &ndash;
         <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
       </footer>
