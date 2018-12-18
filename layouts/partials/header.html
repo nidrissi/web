@@ -12,9 +12,9 @@
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
-  {{ $css := slice (resources.Get "css/bootstrap.min.css") (resources.Get "css/fa-svg-with-js.css") (resources.Get "css/style.css") | resources.Concat "css/bundle.css" | resources.Minify -}}
+  {{ $css := slice (resources.Get "css/bootstrap.min.css") (resources.Get "css/fa-svg-with-js.css") (resources.Get "css/style.css") | resources.Concat "bundle.css" | resources.Minify -}}
   <link rel="stylesheet" href="{{ $css.Permalink }}">
-  {{- $js := slice (resources.Get "js/jquery.slim.min.js") (resources.Get "js/bootstrap.min.js") | resources.Concat "js/bundle.js" | resources.Minify -}}
+  {{- $js := slice (resources.Get "js/jquery.slim.min.js") (resources.Get "js/bootstrap.min.js") | resources.Concat "bundle.js" | resources.Minify -}}
   <script defer src="{{ $js.Permalink }}"></script>
   <script type="text/x-mathjax-config">
    MathJax.Hub.Config({
