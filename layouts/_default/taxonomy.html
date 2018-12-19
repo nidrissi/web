@@ -1,11 +1,9 @@
 {{- define "main" -}}
-<article>
-  {{- with .Title -}}<h1>#{{- . -}}</h1>{{- end -}}
-  {{- with .Content -}}
-  <div>{{- . -}}</div>
-  {{- end -}}
-  {{- range .Data.Pages -}}
-  {{- .Render "card" -}}
-  {{- end -}}
-</article>
+{{- with .Title -}}<h1>#{{- . -}}</h1>{{- end -}}
+{{- with .Content -}}
+<div>{{- . -}}</div>
+{{- end -}}
+{{- range .Data.Pages -}}
+{{- .Render "card" -}}
+{{- end -}}
 {{- end -}}

@@ -1,21 +1,17 @@
 {{- define "main" -}}
-<div class="row">
-  <div class="col-md-12">
-    <h1>{{- .Title | default (i18n "publications") -}}</h1>
+<h1>{{- .Title | default (i18n "publications") -}}</h1>
 
-    {{- with .Content -}}
-    <div>{{- . -}}</div>
-    {{- end -}}
-    {{- range .Data.Pages.GroupByDate "2006" -}}
-    <div class="row">
-      <div class="col-md-2"><h3>{{- .Key -}}</h3></div>
-      <div class="col-md-10">
-        {{- range .Pages.ByDate.Reverse -}}
-        {{- .Render "card" -}}
-        {{- end -}}
-      </div>
-    </div>
+{{- with .Content -}}
+<div>{{- . -}}</div>
+{{- end -}}
+{{- range .Data.Pages.GroupByDate "2006" -}}
+<div class="row">
+  <div class="col-md-2"><h3>{{- .Key -}}</h3></div>
+  <div class="col-md-10">
+    {{- range .Pages.ByDate.Reverse -}}
+    {{- .Render "card" -}}
     {{- end -}}
   </div>
 </div>
+{{- end -}}
 {{- end -}}

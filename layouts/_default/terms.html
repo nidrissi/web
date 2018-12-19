@@ -1,11 +1,9 @@
 {{- define "main" -}}
-<article>
-  {{- with .Title -}}<h1>{{- . -}}</h1>{{- end -}}
-  {{- with .Content -}}
-  <div>{{- . -}}</div>
-  {{- end -}}
-  {{- range .Data.Pages -}}
-  <h3><a href="{{- .Permalink -}}">#{{- .Title -}}</a></h3>
-  {{- end -}}
-</article>
+{{- with .Title -}}<h1>{{- . -}}</h1>{{- end -}}
+{{- with .Content -}}
+<div>{{- . -}}</div>
+{{- end -}}
+{{- range .Data.Pages -}}
+<h3><a href="{{- .Permalink -}}">#{{- .Title -}}</a></h3>
+{{- end -}}
 {{- end -}}
