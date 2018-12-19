@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-lastmod: 2018-12-04
+lastmod: 2018-12-19
 date: 2018-01-01
 menu:
   main:
@@ -37,7 +37,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 #### Publications
 
-1. N.I. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model/index.en.md" >}}).* To appear in *Invent. Math*, 61 pages. Novembre 2018. [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+1. N.I. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model/index.en.md" >}}).* *Invent. Math*, 68 pages. Novembre 2018. [DOI:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9). [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
 2. N.I. "[Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese/index.en.md" >}})". In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
 
 #### Preprints
@@ -58,7 +58,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="row">
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Peer reviews.<br>
-Comm. Math. Phys.; Lett. Math. Phys.; Proc. Edinb. Math. Soc.; Proc. Roy. Soc. Edinburgh Sect. A</dd>
+Algebr. Geom. Top.; Comm. Math. Phys.; Lett. Math. Phys.; Proc. Edinb. Math. Soc.; Proc. Roy. Soc. Edinburgh Sect. A</dd>
 
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">list</a>).</dd>
