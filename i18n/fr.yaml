@@ -12,6 +12,9 @@
   translation: Vidéo
 - id: btn_source
   translation: Source
+# About
+- id: office
+  translation: Bureau
 # Research widget
 - id: research
   translation: Recherche

@@ -14,7 +14,7 @@ author:
     - "[Institut de Mathématiques de Jussieu-Paris Rive Gauche](https://www.imj-prg.fr/)"
   avatar: photo.jpg
   address: Université Paris Diderot, IMJ-PRG // Bâtiment Sophie Germain // 8 place Aurélie Nemours // 75205 Paris Cedex 13 // France
-  office: "Office SG-7032"
+  office: SG-7032
   phone:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
@@ -40,4 +40,3 @@ languages:
     languageCode: fr-fr
     weight: 2
     title: Page de Najib Idrissi
-    office: "Bureau SG-7032"
