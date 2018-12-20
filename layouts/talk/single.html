@@ -31,7 +31,7 @@
   {{- end -}}
 </dl>
 
-<div>{{- .Content -}}</div>
+{{- with .Content -}}<div>{{- . -}}</div>{{- end -}}
 
 {{- partial "section_pager.html" . -}}
 {{- end -}}
