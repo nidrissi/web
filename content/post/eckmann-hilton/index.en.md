@@ -146,14 +146,53 @@ The Drinfeld center is, in many respects, the "correct" notion of center for a m
 
 By the Eckmann--Hilton argument, all these monoidal structures are equal, but the amount of commutativity one gets changes depending on {{< tex "n" >}} and {{< tex "k" >}}. These types of categories eventually stabilize to a "fully symmetric" structure for {{< tex "k > n + 1" >}}, as in this table (Table 21 in [Baez and Dolan]):
 
- / | {{< tex "n=0" >}} | {{< tex "n=1" >}} | {{< tex "n=2" >}} 
----|---|---|---
-{{< tex "k=0" >}} | sets | categories | 2-categories
-{{< tex "k=1" >}} | monoids | monoidal categories | monoidal 2-categories
-{{< tex "k=2" >}} | commutative monoids | braided monoidal categories | braided monoidal 2-categories
-{{< tex "k=3" >}} | " | symmetric monoidal categories | weakly involutory monoidal 2-categories
-{{< tex "k=4" >}} | " | " | strongly involutory monoidal 2-categories
-{{< tex "k=5" >}} | " | " | "
+<table class="table">
+  <thead>
+    <tr>
+      <th></th>
+      <th scope="col">n=0</th>
+      <th scope="col">n=1</th>
+      <th scope="col">n=2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">k=0</th>
+      <td>sets</td>
+      <td>categories</td>
+      <td>2-categories</td>
+    </tr>
+    <tr>
+      <th scope="row">k=1</th>
+      <td>monoids</td>
+      <td>monoidal categories</td>
+      <td>monoidal 2-categories</td>
+    </tr>
+    <tr>
+      <th scope="row">k=2</th>
+      <td>commutative monoids</td>
+      <td>braided monoidal categories</td>
+      <td>braided monoidal 2-categories</td>
+    </tr>
+    <tr>
+      <th scope="row">k=3</th>
+      <td>"</td>
+      <td>symmetric monoidal categories</td>
+      <td>weakly involutory monoidal 2-categories</td>
+    <tr>
+      <th scope="row">k=4</th>
+      <td>"</td>
+      <td>"</td>
+      <td>strongly involutory monoidal 2-categories</td>
+    </tr>
+    <tr>
+      <th scope="row">k=4</th>
+      <td>"</td>
+      <td>"</td>
+      <td>"</td>
+    </tr>
+  </tbody>
+</table>
 
 This *Stabilization Hypothesis* is one of the features that is expected of any good notion of {{< tex "\infty" >}}-categories, inspired by the Freudenthal suspension theorem. The notion of {{< tex "k" >}}-fold monoidal categories also appears to be linked to the theory of {{< tex "E_k" >}}-operads (cf. [Balteanu et al.]), something on which I intend to speak later (cliff-hanger!).
 
