@@ -8,7 +8,7 @@ authors:
 date: 2017-11-17
 publication: Thèse de doctorat, Université Lille 1
 title: Operadic Formality and Homotopy of Configuration Spaces
-url_source: https://github.com/nidrissi/thesis
+url_source: https://gitlab.math.univ-paris-diderot.fr/nidrissi/thesis
 url_pdf: thesis.pdf
 url_custom:
   - name: Université
