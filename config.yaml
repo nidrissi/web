@@ -23,7 +23,7 @@ defaultContentLanguageInSubdir: true
 
 blackfriday:
   hrefTargetBlank: false
-
+  fractions: false
 params:
   date_format: 2006-01-02
   home_counts:
