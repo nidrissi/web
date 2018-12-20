@@ -9,7 +9,7 @@
 
   <dt class="col-12 col-sm-2">{{- i18n "event" -}}</dt>
   <dd class="col-12 col-sm-10">
-    {{- with .Params.event_url -}}<a href="{{- . -}}" target="_blank" rel="noopener">{{- end -}}
+    {{- with .Params.event_url -}}<a href="{{- . -}}">{{- end -}}
     {{- .Params.event | markdownify -}}
     {{- if .Params.event_url -}}</a>{{- end -}}
   </dd>
