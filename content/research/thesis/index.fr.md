@@ -7,14 +7,14 @@ authors:
   - me
 date: 2017-11-17
 publication: Thèse de doctorat, Université Lille 1
-title: Operadic Formality and Homotopy of Configuration Spaces
+title: Formalité opéradique et homotopie des espaces de configuration
 url_source: https://gitlab.math.univ-paris-diderot.fr/nidrissi/thesis
 url_pdf: thesis.pdf
 url_custom:
   - name: Université
     url: http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595
   - name: Soutenance
-    url: /en/talk/defense/
+    url: /fr/talk/defense/
 ---
 
 Thèse dirigée par [Benoit Fresse](https://math.univ-lille1.fr/~fresse) à [l'Université de Lille](https://www.univ-lille.fr) et financée par une Allocation Spécifique de [l'École Normale Supérieure](https://www.ens.fr).
