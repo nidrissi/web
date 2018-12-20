@@ -6,6 +6,6 @@ event_url: "https://www.math.ethz.ch/news-and-events/events/research-seminars/ta
 location: ETH Zürich, Zürich, Switzerland
 selected: false
 title: Swiss-Cheese Operad and Drinfeld Center
-url_custom:
-url_slides: /pdf/slides/center_slides_en.pdf
+urls:
+  slides: /pdf/slides/center_slides_en.pdf
 ---

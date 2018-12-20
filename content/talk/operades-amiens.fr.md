@@ -5,5 +5,6 @@ event: Séminaire des doctorants
 event_url: "https://www.lamfa.u-picardie.fr/seminaires-colloques/seminaire-doctorant/article/seminaire-doctorant"
 location: Université de Picardie Jules Vernes, Amiens, France
 title: Opérades
-url_slides: /pdf/slides/operades.pdf
+urls:
+  slides: /pdf/slides/operades.pdf
 ---

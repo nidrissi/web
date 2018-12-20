@@ -6,6 +6,6 @@ event: Talks in mathematical physics
 event_url: "https://www.math.ethz.ch/news-and-events/events/research-seminars/talks-in-mathematical-physics.html?s=hs17"
 location: ETH Zurich, Zurich, Suisse
 selected: false
-url_custom:
-url_slides: /pdf/slides/config_boundary.pdf
+urls:
+  slides: /pdf/slides/config_boundary.pdf
 ---

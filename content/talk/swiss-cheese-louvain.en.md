@@ -6,6 +6,6 @@ event_url:
 location: Université Catholique de Louvain, Louvain-la-Neuve, Belgium
 selected: false
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
-url_custom:
-url_slides: /pdf/slides/center_slides.pdf
+urls:
+  slides: /pdf/slides/center_slides.pdf
 ---

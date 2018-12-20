@@ -6,7 +6,7 @@ event_url: "http://www.mims.tn/events/details/74"
 location: Institut des Hautes Études (IHET), Tunis, Tunisia
 selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
-url_custom:
-url_slides: /pdf/slides/model-conf-sp_slides_en.pdf
-url_video: 
+urls:
+  slides: /pdf/slides/model-conf-sp_slides_en.pdf
+  video: 
 ---

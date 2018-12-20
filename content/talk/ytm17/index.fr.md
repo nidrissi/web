@@ -6,6 +6,6 @@ event_url: https://www.math-stockholm.se/en/konferenser-och-akti/young-topologis
 location: Université de Stockholm & Institut Royal de Technologie (KTH), Stockholm, Suède
 selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
-url_slides: ytm2017.pdf
-url_custom:
+urls:
+  slides: ytm2017.pdf
 ---

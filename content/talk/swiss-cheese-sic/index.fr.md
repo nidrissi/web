@@ -6,5 +6,6 @@ abstract: "L'opérade $SC$ \"Swiss-Cheese\" de Voronov gouverne l'action d'une a
 event: Séminaire Itinérant de Catégories
 event_url: http://www-lmpa.univ-littoral.fr/~sic/wordpress/?page_id=858
 location: Université du Littoral, Calais, France
-url_slides: sic.pdf
+urls:
+  slides: sic.pdf
 ---

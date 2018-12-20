@@ -5,10 +5,11 @@ authors:
 date: 2017-09-22
 publication: "*Israel J. Math* 221.2, pp. 941--972"
 title: Swiss-Cheese Operad and Drinfeld Center
-url_pdf: center.pdf
-arxiv: 1507.06844
-doi: 10.1007/s11856-017-1579-7
-mathrev: "3704940"
-zbmath: "06808424"
-hal: "01438863"
+urls:
+  pdf: center.pdf
+  arxiv: 1507.06844
+  doi: 10.1007/s11856-017-1579-7
+  mathrev: "3704940"
+  zbmath: "06808424"
+  hal: "01438863"
 ---

@@ -6,8 +6,8 @@ abstract: "Configuration spaces of points are classical objects in algebraic top
 event: Departmental colloquium
 event_url: https://www.uregina.ca/science/mathstat/seminars-colloquia/sem-colloq-2018.html
 location: University of Regina, Regina, Canada
-url_pdf: 
-url_slides: regina.pdf
-url_video: 
-url_code: 
+urls:
+  pdf: 
+  slides: regina.pdf
+  video: 
 ---

@@ -6,6 +6,6 @@ abstract: "L'objet de cet exposé est le type d'homotopie réel des espaces de c
 event: Séminaire Algèbre et topologie
 event_url: "http://irma.math.unistra.fr/article286.html"
 location: Université de Strasbourg, Strasbourg, France
-url_custom:
-url_slides: /pdf/slides/bord.pdf
+urls:
+  slides: /pdf/slides/bord.pdf
 ---

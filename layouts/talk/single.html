@@ -23,7 +23,7 @@
   <dt class="col-12 col-sm-2">{{- i18n "abstract" -}}</dt>
   <dd class="col-12 col-sm-10">{{- . | markdownify -}}</dd>
   {{- end -}}
-  {{- if .Params.url_pdf | or .Params.url_slides | or .Params.url_video | or .Params.url_code | or .Params.url_custom -}}
+  {{- if .Params.urls -}}
   <dt class="col-12 col-sm-2">{{- i18n "links" -}}</dt>
   <dd class="col-12 col-sm-10">
     {{- partial "links" (dict "content" . "is_card" 0) -}}

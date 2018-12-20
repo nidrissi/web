@@ -6,6 +6,6 @@ abstract: "L'objet de cet exposé est le type d'homotopie réel des espaces de c
 event: Séminaire de topologie, géométrie et algèbre
 event_url: "http://www.math.sciences.univ-nantes.fr/fr/exposes/3219"
 location: Université de Nantes, Nantes, France
-url_custom:
-url_slides: /pdf/slides/bord.pdf
+urls:
+  slides: /pdf/slides/bord.pdf
 ---

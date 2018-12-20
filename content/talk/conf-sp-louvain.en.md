@@ -5,6 +5,6 @@ event: Séminaire de topologie algébrique
 event_url:
 location: Université Catholique de Louvain, Louvain-la-Neuve, Belgium
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
-url_custom:
-url_slides: /pdf/slides/model-conf-sp_slides_fr.pdf
+urls:
+  slides: /pdf/slides/model-conf-sp_slides_fr.pdf
 ---

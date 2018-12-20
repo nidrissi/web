@@ -6,6 +6,6 @@ abstract: "L'objet de cet exposé est le type d'homotopie réel des espaces de c
 event: Séminaire de physique mathématique et de topologie algébrique
 event_url: "http://recherche.math.univ-angers.fr/spip.php?article29&site=56&session=15&presentation=180"
 location: Université d'Angers, Angers, France
-url_custom:
-url_slides: /pdf/slides/bord.pdf
+urls:
+  slides: /pdf/slides/bord.pdf
 ---

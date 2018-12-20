@@ -6,7 +6,7 @@ event_url: "https://www.math.univ-paris13.fr/laga/index.php/fr/ta/seminaires"
 location: Université Paris 13, Villetaneuse, France
 selected: false
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
-url_custom:
-url_slides: /pdf/slides/model-conf-sp_slides_fr.pdf
-url_video: 
+urls:
+  slides: /pdf/slides/model-conf-sp_slides_fr.pdf
+  video: 
 ---

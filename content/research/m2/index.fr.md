@@ -5,7 +5,8 @@ authors:
 date: 2014-06-30
 publication: Mémoire de master, Université Paris 7
 title: Homologie et complexes de déformations d’opérades $E_n$
-url_pdf: m2.pdf
+urls:
+  pdf: m2.pdf
 ---
 
 Directeur de mémoire : Benoit Fresse, Université Lille 1.

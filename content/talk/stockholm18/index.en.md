@@ -6,8 +6,8 @@ abstract: "Configuration spaces of manifolds are classical objects in algebraic 
 event: Stockholm Topology Seminar
 event_url: https://www.math-stockholm.se/en/kalender/topactivities/najib-idrissi-configuration-spaces-and-operads-1.862830
 location: Stockholm University + Royal Institute of Technology (KTH), Stockholm, Sweden
-url_pdf: 
-url_slides: stockholm.pdf
-url_video: 
-url_code: 
+urls:
+  pdf: 
+  slides: stockholm.pdf
+  video: 
 ---
