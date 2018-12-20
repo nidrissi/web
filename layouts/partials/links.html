@@ -44,7 +44,7 @@
 
 {{- with $.Params.mathrev -}}
 <a class="{{ $class }}" href="http://www.ams.org/mathscinet-getitem?mr={{ . }}" target="_blank" rel="noopener">MR</a>
-{{- end -}}
+{{ end -}}
 
 {{- with $.Params.zbmath -}}
 <a class="{{ $class }}" href="https://zbmath.org/?q=an:{{ . }}" target="_blank" rel="noopener">zbMATH</a>
