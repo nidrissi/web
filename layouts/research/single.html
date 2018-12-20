@@ -3,8 +3,8 @@
     <h1>{{- .Title -}}</h1>
     <p class="lead">
       {{- partial "article_ref" . -}}
-      <span class="float-sm-right">{{- partial "links" (dict "content" . "is_card" 0) -}}</span>
     </p>
+    <p>{{- partial "links" (dict "content" . "is_card" 0) -}}</p>
     
 
     <h3>{{ i18n "abstract" }}</h3>
