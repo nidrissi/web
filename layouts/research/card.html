@@ -2,7 +2,7 @@
   <div class="card-body px-3 py-2">
     <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
     <h6 class="card-subtitle">
-      {{- partial "authors" (dict "content" . "authors" .Params.authors) -}}; {{ .Params.publication | markdownify }} ({{ .Date.Format "2006" }}).
+      {{- partial "article_ref" . -}}
     </h6>
     {{- partial "links" (dict "content" . "is_card" 1) -}}
   </div>
