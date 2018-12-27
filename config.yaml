@@ -1,7 +1,6 @@
 baseURL: https://idrissi.eu/
 title: "Najib Idrissi's homepage"
 enableEmoji: true
-enableRobotsTXT: true
 
 # for RSS
 copyright: © Najib Idrissi
