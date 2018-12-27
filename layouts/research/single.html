@@ -3,11 +3,9 @@
     <h1>{{- .Title -}}</h1>
     <p class="lead">
       {{- partial "article_ref" . -}}
+      {{- partial "links" (dict "content" . "is_card" 0) -}}
     </p>
-    <p>{{- partial "links" (dict "content" . "is_card" 0) -}}</p>
     
-
-    <h3>{{ i18n "abstract" }}</h3>
     {{- with .Params.abstract -}}<p>{{- . | markdownify -}}</p>{{- end -}}
 
     {{- with .Content -}}
