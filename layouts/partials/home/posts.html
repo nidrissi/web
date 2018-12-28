@@ -1,11 +1,11 @@
 <section class="row">
   <div class="col-12 col-md-2">
-    <h2><a href="{{ "/post/" | relLangURL }}">{{ i18n "blog" }}</a></h2>
+    <h2><a href="{{ ref . "post/" }}">{{ i18n "blog" }}</a></h2>
   </div>
   <div class="col-12 col-md-10">
     {{- range first .Site.Params.home_counts.post (where .Site.RegularPages "Type" "post") -}}
     {{- .Render "card" -}}
     {{- end -}}
-    <h6 class="mt-2 mb-0"><a href="{{ "/post/" | relLangURL }}">…{{ i18n "more_posts" }} »</a></h6>
+    <h6 class="mt-2 mb-0"><a href="{{ ref . "post/" }}">…{{ i18n "more_posts" }} »</a></h6>
   </div>
 </section>
