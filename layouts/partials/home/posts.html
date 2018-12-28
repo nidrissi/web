@@ -1,7 +1,5 @@
 <section class="row">
-  <div class="col-12 col-md-2">
-    <h2><a href="{{ ref . "post/" }}">{{ i18n "blog" }}</a></h2>
-  </div>
+  <h2 class="col-12 col-md-2"><a href="{{ ref . "post/" }}">{{ i18n "blog" }}</a></h2>
   <div class="col-12 col-md-10">
     {{- range first .Site.Params.home_counts.post (where .Site.RegularPages "Type" "post") -}}
     {{- .Render "card" -}}
