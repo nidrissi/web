@@ -38,8 +38,8 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 
 ##### Publications
 
-3. *[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model/index.fr.md" >}}).* *Invent. Math*, 68 pages. Novembre 2018. [DOI:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9). [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
-1. « [Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese/index.fr.md" >}}) ». In: *Israel J. Math* 221.2 (2017), pp.941–972. DOI: [10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
+3. «&nbsp;[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model/index.fr.md" >}}).&nbsp;» In: *Invent. Math*, 68 pages. Novembre 2018. [DOI:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9). [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+1. « [Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese/index.fr.md" >}}) ». In: *Israel J. Math* 221.2 (2017), pp.941–972. [DOI:10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
 
 ##### Prépublications
 
