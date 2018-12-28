@@ -15,7 +15,7 @@ urls:
     - name: Université
       url: http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595
     - name: Soutenance
-      url: /fr/talk/defense/
+      url: /fr/expose/defense/
 ---
 
 Thèse dirigée par [Benoit Fresse](https://math.univ-lille1.fr/~fresse) à [l'Université de Lille](https://www.univ-lille.fr) et financée par une Allocation Spécifique de [l'École Normale Supérieure](https://www.ens.fr).
