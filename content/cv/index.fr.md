@@ -14,7 +14,7 @@ menu:
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu - Paris Rive Gauche</em>, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu–Paris Rive Gauche</em>, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zurich / D-MATH</em>, Zurich, Suisse<br>
@@ -28,9 +28,9 @@ Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Élève</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France<br>
-2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille 1 &nbsp;;<br>
-2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot &nbsp;;<br>
-Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.
+2014–2015 Stage de recherche en préparation à un doctorat, Université Lille 1<br>
+2013–2014 Master Recherche en Mathématiques Fondamentales, Université Paris Diderot<br>
+Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institute of Technology
 </dd>
 </div>
 

@@ -14,7 +14,7 @@ menu:
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–</dt>
-<dd class="col-lg-10 col-sm-9"><strong><abbr title="= permanent rank B faculty position.">Maître de conférences</abbr></strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu - Paris Rive Gauche</em>, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong><abbr title="= permanent rank B faculty position.">Maître de conférences</abbr></strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu–Paris Rive Gauche</em>, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Switzerland<br>
@@ -28,9 +28,9 @@ Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Élève</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France<br>
-2014–2015: Research internship in preparation of a doctorate, Université Lille 1;<br>
-2013–2014: Master's degree in Fundamental Mathematics, Université Paris Diderot;<br>
-Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
+2014–2015 Research internship in preparation of a doctorate, Université Lille 1<br>
+2013–2014 Master's degree in Fundamental Mathematics, Université Paris Diderot<br>
+Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology</dd>
 </div>
 
 ### Research <small>[(more info)](/en/research/)</small>
