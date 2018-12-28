@@ -38,3 +38,6 @@ languages:
     title: Page de Najib Idrissi
     params:
       date_format: 02/01/2006
+    permalinks:
+      research: /recherche/:filename/
+      talk: /expose/:filename/
