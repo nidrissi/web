@@ -6,7 +6,11 @@
       {{- partial "links" (dict "content" . "is_card" 0) -}}
     </p>
     
-    {{- with .Params.abstract -}}<p>{{- . | markdownify -}}</p>{{- end -}}
+    {{- with .Params.abstract -}}
+    <blockquote class="blockquote"><p>
+      {{- . | markdownify -}}
+    </p></blockquote>
+    {{- end -}}
 
     {{- with .Content -}}
     <hr>
