@@ -33,8 +33,10 @@ params:
 languages:
   en:
     languageCode: en-us
+    languageName: English
   fr:
     languageCode: fr-fr
+    languageName: Français
     title: Page de Najib Idrissi
     params:
       date_format: 02/01/2006
