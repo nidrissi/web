@@ -44,7 +44,7 @@
 - id: date
   translation: Date
 - id: last_updated
-  translation: Dernière mise à jour le
+  translation: Mis à jour le
 - id: links
   translation: Liens
 - id: event
