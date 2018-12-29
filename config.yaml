@@ -17,12 +17,10 @@ author:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
 
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: true
-
 blackfriday:
   hrefTargetBlank: false
   fractions: false
+
 params:
   date_format: Jan 2, 2006
   home_counts:
@@ -30,6 +28,8 @@ params:
     talk: 5
     post: 5
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
 languages:
   en:
     languageCode: en-us

@@ -2,6 +2,7 @@
   <a class="navbar-brand" href="{{ "/" | relLangURL }}">
     {{- .Site.Title -}}
   </a>
+
   {{- if or .Site.Menus.main .IsTranslated -}}
   <button type="button" class="navbar-toggler" data-toggle="collapse"
           data-target=".navbar-collapse" aria-expanded="false">
@@ -9,8 +10,10 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   {{- end -}}
+
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav mr-auto">
+      {{ $url := .URL }}
       {{- range .Site.Menus.main -}}
       {{- if .HasChildren -}}
       <li class="nav-item dropdown">
@@ -19,7 +22,7 @@
         </a>
         <div class="dropdown-menu">
           {{- range .Children -}}
-          <a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+          <a class="dropdown-item {{ if eq .URL $url}}active{{ end }}" href="{{ .URL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
             {{- .Pre }} {{ .Name }} {{ .Post -}}
           </a>
           {{- end -}}
@@ -27,7 +30,7 @@
       </li>
       {{- else -}}
       <li class="nav-item">
-        <a class="nav-link" href="{{ .URL | relLangURL }}">
+        <a class="nav-link {{ if eq .URL $url}}active{{ end }}" href="{{ .URL }}">
           {{- .Pre }} {{ .Name }} {{ .Post -}}
         </a>
       </li>
