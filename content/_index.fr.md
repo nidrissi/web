@@ -13,7 +13,7 @@ Je suis maître de conférences à [l'Université Paris Diderot](https://www.uni
 Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr), et je suis l'un des organisateurs de son [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67).
 
 De février à août 2018, j'étais postdoc à [l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
-En novembre 2017, j'ai soutenu [ma thèse de doctorat]({{< ref "/research/thesis/index.fr.md" >}}) sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) à [l'Université de Lille](https://www.univ-lille.fr).
-J'ai noté plus d'informations dans [mon CV]({{< ref "/cv/index.fr.md" >}}).
+En novembre 2017, j'ai soutenu [ma thèse de doctorat]({{< ref "/research/thesis" >}}) sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) à [l'Université de Lille](https://www.univ-lille.fr).
+J'ai noté plus d'informations dans [mon CV]({{< ref "/cv" >}}).
 
 Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) et [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).

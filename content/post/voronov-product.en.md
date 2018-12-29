@@ -57,7 +57,7 @@ This is indeed the case. The homology of the little disks operad {{< tex "\matht
 
 {{< tex display="(a \cdot b) \cdot (a' \cdot b') = aa' \cdot bb', \; \forall a,a' \in A, b,b' \in B." >}}
 
-(Here we see [the Eckmann--Hilton argument]({{< ref "/post/eckmann-hilton/index.en.md" >}}) appearing in the background...)
+(Here we see [the Eckmann--Hilton argument]({{< ref "/post/eckmann-hilton" >}}) appearing in the background...)
 
 If we now allow operations with an open output and only closed inputs, things get a bit more complicated. The description of the homology of this new operad can be found in the paper "Open-closed homotopy algebras and strong homotopy Leibniz pairs through Koszul operad theory" by Hoefel and Livernet. Just like before, an algebra over this operad is given by a pair consisting of a Gerstenhaber algebra {{< tex "A" >}} and an associative algebra {{< tex "B" >}}. Instead of an action of {{< tex "A" >}} on {{< tex "B" >}}, there is a morphism of commutative algebras from {{< tex "A" >}} to the *center* of the algebra {{< tex "B" >}}. If {{< tex "B" >}} is a unital algebra, this is exactly the same thing as before, with {{< tex "f(b) = b \cdot 1_A" >}} (and the Eckmann--Hilton argument shows that this lands in the center of {{< tex "A" >}}).
 

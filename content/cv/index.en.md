@@ -34,25 +34,25 @@ Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology</dd>
 </div>
 
-### Research <small>[(more info)]({{< ref "research/_index.en.md" >}})</small>
+### Research <small>[(more info)]({{< ref "/research" >}})</small>
 
 #### Publications
 
-1. "[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model/index.en.md" >}})." In: *Invent. Math* (2018), 68 pp. [DOI:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9). [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
-2. "[Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese/index.en.md" >}})". In: *Israel J. Math* 221.2 (2017), pp.941–972. [DOI:10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
+1. "[The Lambrechts–Stanley Model of Configuration Spaces]({{< ref "/research/ls-model" >}})." In: *Invent. Math* (2018), 68 pp. [DOI:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9). [arXiv:1608.08054](http://arxiv.org/abs/1608.08054).
+2. "[Swiss-Cheese Operad and Drinfeld center]({{< ref "/research/swiss-cheese" >}})". In: *Israel J. Math* 221.2 (2017), pp.941–972. [DOI:10.1007/s11856-017-1579-7](https://doi.org/10.1007/s11856-017-1579-7). [arXiv:1507.06844](http://arxiv.org/abs/1507.06844). [MR3704940](https://mathscinet.ams.org/mathscinet-getitem?mr=3704940), [Zbl06808424](https://zbmath.org/?q=an:06808424).
 
 #### Preprints
 
-1. *[Formality of a higher-codimensional Swiss-Cheese operad]({{< ref "/research/codim-swiss-cheese/index.en.md" >}}).* 40 pages. Version 1. September 2018. [arXiv:1809.07667](http://arxiv.org/abs/1809.07667)
-2. Ricardo Campos, Julien Ducoulombier, N.I., Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "/research/framed-conf/index.en.md" >}}).* 27 pages. Version 1. Juillet 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
-3. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "/research/curved-koszul/index.en.md" >}}).* 32 pages. Version 2. Août 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
-4. Ricardo Campos, N.I, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "/research/config-boundary/index.en.md" >}}).* February 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
+1. *[Formality of a higher-codimensional Swiss-Cheese operad]({{< ref "/research/codim-swiss-cheese" >}}).* 40 pages. Version 1. September 2018. [arXiv:1809.07667](http://arxiv.org/abs/1809.07667)
+2. Ricardo Campos, Julien Ducoulombier, N.I., Thomas Willwacher. *[A model for framed configuration spaces of points]({{< ref "/research/framed-conf" >}}).* 27 pages. Version 1. Juillet 2018. [arXiv:1807.08319](http://arxiv.org/abs/1807.08319)
+3. *[Curved Koszul Duality of Algebras over Unital Operads]({{< ref "/research/curved-koszul" >}}).* 32 pages. Version 2. Août 2018. [arXiv:1805.01853](http://arxiv.org/abs/1805.01853)
+4. Ricardo Campos, N.I, Pascal Lambrechts, Thomas Willwacher. *[Configuration Spaces of Manifolds with Boundary]({{< ref "/research/config-boundary" >}}).* February 2018. [arXiv:1802.00716](http://arxiv.org/abs/1802.00716).
 
 #### Other documents
 
-1. *[Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis/index.en.md" >}})*. Doctoral thesis. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
-1. "Opérades et Structures Commutatives à Homotopie Près". In: *Graduate J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
-1. *Homologie et complexe de déformations d'opérades $E_n$*. Master's thesis. Université Paris Diderot, 2014.
+1. *[Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis" >}})*. Doctoral thesis. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
+1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Graduate J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
+1. *[Homologie et complexe de déformations d'opérades $E_n$]({{< ref "/research/m2" >}})*. Master's thesis. Université Paris Diderot, 2014.
 
 ### Service
 
@@ -76,8 +76,8 @@ Algebr. Geom. Top.; Comm. Math. Phys.; Lett. Math. Phys.; Proc. Edinb. Math. Soc
 
 ### Teaching
 
-[→ see dedicated page.]({{< ref "enseignement.en.md" >}})
+[→ see dedicated page.]({{< ref "enseignement" >}})
 
 ### Talks
 
-[→ see dedicated page.]({{< ref "talk/_index.en.md" >}})
+[→ see dedicated page.]({{< ref "/talk" >}})
