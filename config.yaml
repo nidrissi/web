@@ -41,5 +41,6 @@ languages:
     params:
       date_format: 02/01/2006
     permalinks:
+      post: /billet/:filename/
       research: /recherche/:filename/
       talk: /expose/:filename/
