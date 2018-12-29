@@ -15,16 +15,12 @@
       {{- if .HasChildren -}}
       <li class="nav-item dropdown">
         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">
-          {{- .Pre -}}
-          {{- .Name -}}
-          {{- .Post -}}
+          {{- .Pre }} {{ .Name }} {{ .Post -}}
         </a>
         <div class="dropdown-menu">
           {{- range .Children -}}
           <a class="dropdown-item" href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
-            {{- .Pre -}}
-            {{- .Name -}}
-            {{- .Post -}}
+            {{- .Pre }} {{ .Name }} {{ .Post -}}
           </a>
           {{- end -}}
         </div>
@@ -32,9 +28,7 @@
       {{- else -}}
       <li class="nav-item">
         <a class="nav-link" href="{{ .URL | relLangURL }}">
-          {{- .Pre -}}
-          {{- .Name -}}
-          {{- .Post -}}
+          {{- .Pre }} {{ .Name }} {{ .Post -}}
         </a>
       </li>
       {{- end -}}
