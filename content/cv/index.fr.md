@@ -34,7 +34,7 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 </dd>
 </div>
 
-### Recherche <small>[(plus d'infos)](/fr/research/)</small>
+### Recherche <small>[(plus d'infos)]({{< ref "research/_index.fr.md" >}})</small>
 
 ##### Publications
 

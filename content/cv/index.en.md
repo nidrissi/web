@@ -33,7 +33,7 @@ Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology</dd>
 </div>
 
-### Research <small>[(more info)](/en/research/)</small>
+### Research <small>[(more info)]({{< ref "research/_index.en.md" >}})</small>
 
 #### Publications
 
