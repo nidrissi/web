@@ -1,7 +1,0 @@
-export WINDIR
-export USERPROFILE
-export TEMP
-
-: data.yaml |> perl cvsplit.pl |> french-out.yaml english-out.yaml
-: foreach *-out.yaml |> pandoc -V lang=%g --pdf-engine=lualatex --template template.tex %f -o %o |> %g-out.tex
-: foreach *-out.tex | research.bib |> latexmk -pdf %f |> %g-out.pdf | %g-out.run.xml %g-out.out %g-out.bcf %g-out.bbl %g-out.blg %g-out.fls %g-out.log %g-out.aux %g-out.fdb_latexmk
