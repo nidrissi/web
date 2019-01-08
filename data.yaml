@@ -177,6 +177,28 @@ section:
           - Tunis
           - Tunisie ! Tunisia
           - The Lambrechts--Stanley Model of Configuration Spaces
+      - subsection: Sur proposition ! Contributed
+      - content:
+          - 07/2017
+          - Young Topologists Meeting 2017
+          - Stockholm University + Royal Institute of Technology (KTH)
+          - Stockholm
+          - Suède ! Sweden
+          - The Lambrechts--Stanley Model of Configuration Spaces
+      - content:
+          - 02/2017
+          - Conference for Young researchers in homotopy theory and categorical structures
+          - MPIM Bonn
+          - Bonn
+          - Allemagne ! Germany
+          - The Lambrechts--Stanley Model of Configuration Spaces
+      - content:
+          - 10/2016
+          - Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
+          - Université de Picardie Jules Verne -- LAMFA
+          - Amiens
+          - France
+          - The Lambrechts--Stanley Model of Configuration Spaces
       - subsection: Séminaires ! Seminars
       - content:
           - 12/2018
@@ -325,28 +347,6 @@ section:
           - Lille
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      - subsection: Sur proposition ! Contributed
-      - content:
-          - 07/2017
-          - Young Topologists Meeting 2017
-          - Stockholm University + Royal Institute of Technology (KTH)
-          - Stockholm
-          - Suède ! Sweden
-          - The Lambrechts--Stanley Model of Configuration Spaces
-      - content:
-          - 02/2017
-          - Conference for Young researchers in homotopy theory and categorical structures
-          - MPIM Bonn
-          - Bonn
-          - Allemagne ! Germany
-          - The Lambrechts--Stanley Model of Configuration Spaces
-      - content:
-          - 10/2016
-          - Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
-          - Université de Picardie Jules Verne -- LAMFA
-          - Amiens
-          - France
-          - The Lambrechts--Stanley Model of Configuration Spaces
       - item:
           - '(\*:'
           - Futur) ! Future)
