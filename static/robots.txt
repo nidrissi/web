@@ -1,5 +1,1 @@
 User-agent: *
-Disallow: /en/tags/
-Disallow: /fr/tags/
-Disallow: /en/categories/
-Disallow: /fr/categories/
