@@ -472,15 +472,4 @@ section:
       - item:
           - '(\*:'
           - Futur) ! Future)
-  # - title: Langues ! Languages
-  #   entry:
-  #     - item:
-  #       - Français ! French
-  #       - Langue maternelle ! Native language
-  #     - item:
-  #       - Anglais ! English
-  #       - Couramment ! Fluent
-  #     - item:
-  #       - Espagnol ! Spanish
-  #       - Basique ! Basic
 ...
