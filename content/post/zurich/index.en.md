@@ -4,7 +4,7 @@ tags: ['math', 'trip']
 title: Talk at ETH Zürich
 ---
 
-Last week I was invited by [Thomas Willwacher](http://user.math.uzh.ch/willwacher/) to ETH Zürich for a few days, during which I also had the opportunity to give a [talk]({{< ref "/talk/swiss-cheese-zurich.en.md" >}}) at the "Talks in Mathematical Physics" seminar. It was a very interesting few days, and I'm very grateful for this invitation!
+Last week I was invited by [Thomas Willwacher](http://user.math.uzh.ch/willwacher/) to ETH Zürich for a few days, during which I also had the opportunity to give a [talk]({{< ref "/talk/swiss-cheese-zurich" >}}) at the "Talks in Mathematical Physics" seminar. It was a very interesting few days, and I'm very grateful for this invitation!
 <!--more-->
 
 <img alt="ETH" src="eth.jpg" class="img-fluid">
