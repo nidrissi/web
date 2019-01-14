@@ -58,10 +58,6 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
-<dd class="col-lg-10 col-sm-9">Peer reviews.<br>
-Algebr. Geom. Top.; Comm. Math. Phys.; Lett. Math. Phys.; Proc. Edinb. Math. Soc.; Proc. Roy. Soc. Edinburgh Sect. A</dd>
-
-<dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">list</a>).</dd>
 
 <dt class="col-lg-2 col-sm-3">ongoing</dt>

@@ -59,10 +59,6 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 
 <div class="row">
 <dt class="col-lg-2 col-sm-3">en cours</dt>
-<dd class="col-lg-10 col-sm-9">Évaluation d'articles.<br>
-Algebr. Geom. Top. ;Comm. Math. Phys. ; Lett. Math. Phys. ; Proc. Edinb. Math. Soc. ; Proc. Roy. Soc. Edinburgh Sect. A</dd>
-
-<dt class="col-lg-2 col-sm-3">en cours</dt>
 <dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">liste</a>).</dd>
 
 <dt class="col-lg-2 col-sm-3">en cours</dt>
