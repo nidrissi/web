@@ -6,7 +6,7 @@ lastmod: 2019-01-14
 
 Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-Williams sur la stabilité homologique, et plus particulièrement leur article *Cellular {{< tex "E_k" >}}-algebras*, dont voici le résumé :
 
-> *"We give a set of foundations for cellular {{< tex "E_k" >}}-algebras which are especially convenient for applications to homological stability. We provide conceptual and computational tools in this setting, such as filtrations, a homology theory for {{< tex "E_k" >}}-algebras with a Hurewicz theorem, CW approximations, and many spectral sequences, which shall be used for such applications in future papers."*
+<blockquote class="ml-3"><em>“We give a set of foundations for cellular {{< tex "E_k" >}}-algebras which are especially convenient for applications to homological stability. We provide conceptual and computational tools in this setting, such as filtrations, a homology theory for {{< tex "E_k" >}}-algebras with a Hurewicz theorem, CW approximations, and many spectral sequences, which shall be used for such applications in future papers.”</em></blockquote>
 
 ## Séances prévues
 
