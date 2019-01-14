@@ -1,8 +1,7 @@
 ---
 title: "Groupe de travail : stabilité homologique"
 date: 2019-01-01
-lastmod: 2019-01-09
-draft: true
+lastmod: 2019-01-14
 ---
 
 Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-Williams sur la stabilité homologique, et plus particulièrement leur article *Cellular {{< tex "E_k" >}}-algebras*, dont voici le résumé :
@@ -11,18 +10,18 @@ Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-
 
 ## Séances prévues
 
-Les séances ont lieu le **jeudi de 15h30 à 17h**.
+Les séances ont lieu le **jeudi de 15h45 à 17h**.
 Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces).
-Les numéros de salle SG-[...] se rapportent à ce bâtiment (les salles 1xxx sont au premier étage, etc).
+Les numéros de salle SG-xxxx se rapportent à ce bâtiment (les salles 1xxx sont au premier étage, etc).
 
-7 février, SG-1016
+7 février, SG-2015
 : Najib Idrissi, « Exposé introductif »  
 J'exposerai le plan général du groupe de travail et nous nous répartirons les exposés.
 
-21 février, SG-1016
+21 février, SG-2015
 : TBA
 
-7 mars, SG-1016
+7 mars, SG-2015
 : TBA
 
 ???
