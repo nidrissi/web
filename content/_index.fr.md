@@ -10,7 +10,10 @@ Bonjour ! Je suis Najib <abbr title="Mon nom complet est « Idrissi Kaïtouni »
 Je m'intéresse aux opérades et leurs applications à la topologie algébrique, et plus particulièrement à l'étude des espaces de configuration et leurs liens avec les complexes de graphes.
 
 Je suis maître de conférences à [l'Université Paris Diderot](https://www.univ-paris-diderot.fr).
-Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr), et je suis l'un des organisateurs de son [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67).
+Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
+
+Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG.
+Je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt-stabilite" >}}) en 2019.
 
 De février à août 2018, j'étais postdoc à [l'ETH Zürich](https://www.ethz.ch/) dans le groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 En novembre 2017, j'ai soutenu [ma thèse de doctorat]({{< ref "/research/thesis" >}}) sous la direction de [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) à [l'Université de Lille](https://www.univ-lille.fr).
