@@ -12,7 +12,7 @@ I hope I am not too out of place among the big names in the speakers' list.
 I've learned a lot of new math during the talks, as well as to speak with people who I hadn't had the chance to meet yet, or that I am not able to see very often.
 I'd like to thank Bruno Vallette and all the other organizers for giving me this opportunity.
 
-[(The slides of my talk, and later on the videos, are available.)]({{< ref "/talk/cirm18" >}})
+[(The slides of my talk, and later on the video, are available.)]({{< ref "/talk/cirm18" >}})
 
 <figure class="figure">
 <img src="belvedere.jpg" alt="Photo taken from the Belvédère de Sugiton" class="figure-img img-fluid">
