@@ -57,13 +57,13 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 ### Service
 
 <div class="row">
-<dt class="col-lg-2 col-sm-3">ongoing</dt>
-<dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">list</a>).</dd>
-
-<dt class="col-lg-2 col-sm-3">ongoing</dt>
+<dt class="col-lg-2 col-sm-3">2018–</dt>
 <dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
 
-<dt class="col-lg-2 col-sm-3">2017-10-17</dt>
+<dt class="col-lg-2 col-sm-3">2018–</dt>
+<dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">list</a>).</dd>
+
+<dt class="col-lg-2 col-sm-3">10/2017</dt>
 <dd class="col-lg-10 col-sm-9">Participation to the organization of the introductory day for young researchers, 2017 Colloquium of the Algebraic Topology GDR, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>

@@ -58,13 +58,13 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 ### Service à la profession
 
 <div class="row">
-<dt class="col-lg-2 col-sm-3">en cours</dt>
-<dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">liste</a>).</dd>
-
-<dt class="col-lg-2 col-sm-3">en cours</dt>
+<dt class="col-lg-2 col-sm-3">2018–</dt>
 <dd class="col-lg-10 col-sm-9">Un des organisateurs du <a href="https://www.imj-prg.fr/spip.php?article67">Séminaire de topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
 
-<dt class="col-lg-2 col-sm-3">2017-10-17</dt>
+<dt class="col-lg-2 col-sm-3">2018–</dt>
+<dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">liste</a>).</dd>
+
+<dt class="col-lg-2 col-sm-3">10/2017</dt>
 <dd class="col-lg-10 col-sm-9">Participation à l'organisation de la journée introductive pour jeunes chercheurs, colloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
