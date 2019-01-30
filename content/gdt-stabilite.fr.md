@@ -14,17 +14,51 @@ Les séances ont lieu le **jeudi de 15h45 à 17h**.
 Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces) (les salles SG-1xxx sont au premier étage, etc).
 
 7 février, SG-2015
-: « Exposé introductif » -- Najib Idrissi  
+: 0 -- *Exposé introductif* (Najib Idrissi)  
 J'exposerai le plan général du groupe de travail et nous nous répartirons les exposés.
 
 21 février, SG-2015
-: TBA
+: 1 -- *Filtrations et complexes CW*  
+§5 : Algèbres filtrées, notations.  
+§6 : Algèbres cellulaires, algèbres CW, filtration squelettique ; Théorème 6.14 sur {{< tex "\operatorname{gr} \operatorname{sk}" >}}.
 
 7 mars, SG-2015
-: TBA
+: 2 -- *Homologie, théorèmes de Hurewicz et approximations*  
+§10.1 Homologie des T-algèbres (voir §4.5 pour les indécomposables et §2.4 pour les catégories de diagrammes)  
+§11 Connectivité, théorèmes de Hurewicz, théorème de Whitehead, approximations CW
 
 ???
-: TBA
+: 3 -- *Indécomposables et construction bar itérée*  
+§12.1 Rappels sur les opérades {{< tex "E_n" >}}  
+§13 Lien entre les indécomposables dérivés et la construction bar itérée (Théorème 13.7)
+
+???
+: 4 -- *Algèbres {{< tex "W_{k-1}" >}}*  
+§16.1, §16.2 Opérations homologiques sur les algèbres {{< tex "E_k" >}}  
+§16.3 Homologie des algèbres {{< tex "E_k" >}} libres <!--zapper 16.4-->
+
+???
+: 5 -- *Transfert et comparaison*  
+§14.1, §14.2 Transfert ascendant de lignes d'annulation  
+§14.3 Transfert descendant (idée de la preuve)  
+§15 Homologie relative et comparaison d'algèbres {{< tex "E_k" >}}
+
+???
+: 6 -- *Groupoïdes monoïdaux et algèbres {{< tex "E_k" >}}*  
+§12.2 Modules sur les algèbres {{< tex "E_1" >}}  
+§17.1 Une construction d'algèbres {{< tex "E_k" >}}  
+§17.2 Complexes de scindage
+
+???
+: 7 -- *Applications*  
+§18.1 Le théorème principal  
+§18.2, §18.3 Application aux groupes généraux linéaires
+
+???
+: 8 -- *Coefficients locaux* ?
+
+???
+: 9 -- *Lien avec la dualité de Koszul* ?
 
 ## Références
 
