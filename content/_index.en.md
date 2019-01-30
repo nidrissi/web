@@ -13,7 +13,7 @@ I am a *maître de conférences* at [Paris Diderot University](https://www.univ-
 I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 
 I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG.
-I am also involved in the organization of a [reading seminar on homological stability]({{< ref "gdt-stabilite" >}}) in 2019.
+I am also involved in the organization of a [reading seminar on homological stability (in French)]({{< ref path="gdt-stabilite" lang="fr" >}}) in 2019.
 
 Between February and August 2018, I was postdoc at [ETH Zürich](https://www.ethz.ch/) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/).
 In November 2017, I defended [my doctoral thesis]({{< ref "/research/thesis" >}}) under the direction of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at the [University of Lille](https://www.univ-lille.fr).
