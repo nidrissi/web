@@ -13,16 +13,16 @@ Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-
 Les séances ont lieu le **jeudi de 15h45 à 17h**.
 Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces) (les salles SG-1xxx sont au premier étage, etc).
 
-7 février, SG-2015
+7 février 2019, SG-2015
 : 0 -- *Exposé introductif* (Najib Idrissi)  
 J'exposerai le plan général du groupe de travail et nous nous répartirons les exposés.
 
-21 février, SG-2015
+21 février 2019, SG-2015
 : 1 -- *Filtrations et complexes CW*  
 §5 : Algèbres filtrées, notations.  
 §6 : Algèbres cellulaires, algèbres CW, filtration squelettique ; Théorème 6.14 sur {{< tex "\operatorname{gr} \operatorname{sk}" >}}.
 
-7 mars, SG-2015
+7 mars 2019, SG-2015
 : 2 -- *Homologie, théorèmes de Hurewicz et approximations*  
 §10.1 Homologie des T-algèbres (voir §4.5 pour les indécomposables et §2.4 pour les catégories de diagrammes)  
 §11 Connectivité, théorèmes de Hurewicz, théorème de Whitehead, approximations CW
