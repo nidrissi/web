@@ -1,5 +1,5 @@
 ---
-title: "Reading seminar: homological stability"
+title: "Reading seminar: Homological stability"
 date: 2019-01-01
 lastmod: 2019-01-14
 ---
