@@ -62,6 +62,11 @@ J'exposerai le plan général du groupe de travail et nous nous répartirons les
 
 ## Références
 
-* Soren Galatius, Alexander Kupers, Oscar Randal-Williams. *Cellular {{< tex "E_k" >}}-algebras*. [arXiv:1805.07184](https://arxiv.org/abs/1805.07184)
-* Soren Galatius, Alexander Kupers, Oscar Randal-Williams. *{{< tex "E_2" >}}-cells and mapping class groups*. [arXiv:1805.07187](https://arxiv.org/abs/1805.07187).
-* Soren Galatius, Alexander Kupers, Oscar Randal-Williams. *{{< tex "E_\infty" >}}-cells and general linear groups of finite fields*. [arXiv:1810.11931](https://arxiv.org/abs/1810.11931)
+L'article principal :
+
+* Soren Galatius, Alexander Kupers, Oscar Randal-Williams. *Cellular {{< tex "E_k" >}}-algebras* (2018). [arXiv:1805.07184](https://arxiv.org/abs/1805.07184)
+
+Applications :
+
+* Soren Galatius, Alexander Kupers, Oscar Randal-Williams. *{{< tex "E_2" >}}-cells and mapping class groups* (2018). [arXiv:1805.07187](https://arxiv.org/abs/1805.07187).
+* Soren Galatius, Alexander Kupers, Oscar Randal-Williams. *{{< tex "E_\infty" >}}-cells and general linear groups of finite fields* (2018). [arXiv:1810.11931](https://arxiv.org/abs/1810.11931)
