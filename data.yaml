@@ -113,17 +113,24 @@ section:
     entry:
       - content:
           - 2018--
-          - "Un des organisateurs du Séminaire de topologie ! One of the organizers of the Topology Seminar"
+          - "Un des organisateurs du \href{www.imj-prg.fr/spip.php?article67}{Séminaire de topologie} ! One of the organizers of the \href{www.imj-prg.fr/spip.php?article67}{Topology Seminar}"
           - Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
-          - "Page web : \url{www.imj-prg.fr/spip.php?article67} ! Webpage: \url{www.imj-prg.fr/spip.php?article67}"
+          - ""
       - content:
           - 2018--
           - "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
           - ""
           - ""
           - ""
+          - ""
+      - content:
+          - 2019
+          - "Organisation d'un \href{https://idrissi.eu/fr/gdt-stabilite/}{groupe de travail sur la stabilité homologique} ! Organization of \href{https://idrissi.eu/fr/gdt-stabilite/}{reading seminar on homological stability}"
+          - Institut de Mathématiques de Jussieu-Paris Rive Gauche
+          - Paris
+          - France
           - ""
       - content:
           - 10/2017
