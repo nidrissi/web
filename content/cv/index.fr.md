@@ -71,6 +71,8 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 <dt class="col-lg-2 col-sm-3">2018–</dt>
 <dd class="col-lg-10 col-sm-9">Écriture de résumé pour Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">liste</a>).</dd>
 
+<dt class="col-lg-2 col-sm-3">2019</dt>
+<dd class="col-lg-10 col-sm-9">Organisation d'un <a href="https://idrissi.eu/fr/gdt-stabilite/">groupe de travail sur la stabilité homologique</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
 <dd class="col-lg-10 col-sm-9">Participation à l'organisation de la journée introductive pour jeunes chercheurs, colloque 2017 du GDR Topologie Algébrique, Paris, France</dd>
 
