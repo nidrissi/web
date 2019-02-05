@@ -104,7 +104,7 @@ section:
     entry:
       - content:
           - 2019
-          - "Projet Exploratoire de Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC) ! First Support Exploratory Project \"Young Researcher\" (PEPS JCJC)"
+          - "Projet Exploratoire de Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC) ! Exploratory Project, First Support: Young Researcher (PEPS JCJC)"
           - Institut National des Sciences Mathématiques et de leurs Interactions
           - CNRS
           - France. 3500 €
@@ -143,7 +143,7 @@ section:
     entry:
       - subsection: Sur invitation ! Invited
       - content:
-          - 01/2019\*
+          - 01/2019
           - Structures Supérieures ! Higher Structures
           - Centre international de rencontres mathématiques (CIRM)
           - Luminy
@@ -353,10 +353,10 @@ section:
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
       - item:
-          - 01/2019\*
+          - 01/2019
           - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy)
       - item:
-          - 01/2019\*
+          - 01/2019
           - Higher Structures in Holomorphic and Topological Field Theory @ Institut des Hautes Études Scientifiques (Paris-Saclay)
       - item:
           - 10/2018
