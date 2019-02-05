@@ -13,7 +13,7 @@ menu:
 
 ### Parcours
 
-<div class="row">
+<dl class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu–Paris Rive Gauche</em>, Paris, France</dd>
 
@@ -33,7 +33,7 @@ Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em
 2013–2014 Master Recherche en Mathématiques Fondamentales, Université Paris Diderot<br>
 Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institute of Technology
 </dd>
-</div>
+</dl>
 
 ### Recherche <small>[(plus d'infos)]({{< ref "/research" >}})</small>
 
@@ -55,9 +55,16 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Graduate J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
 1. *[Homologie et complexe de déformations d'opérades $E_n$]({{< ref "/research/m2" >}})*. Mémoire de master. Université Paris Diderot, 2014.
 
+### Projets
+
+<dl class="row">
+<dt class="col-lg-2 col-sm-3">2019</dt>
+<dd class="col-lg-10 col-sm-9">Projet Exploratoire de Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC), Institut National des Sciences Mathématiques et de leurs Interactions, CNRS, France. 3500 €.</dd>
+</dl>
+
 ### Service à la profession
 
-<div class="row">
+<dl class="row">
 <dt class="col-lg-2 col-sm-3">2018–</dt>
 <dd class="col-lg-10 col-sm-9">Un des organisateurs du <a href="https://www.imj-prg.fr/spip.php?article67">Séminaire de topologie</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
 
@@ -69,7 +76,7 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
 <dd class="col-lg-10 col-sm-9">Un des organisateurs du <a href="http://math.univ-lille1.fr/d7/sdocpo">Séminaire des doctorants</a>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
-</div>
+</dl>
 
 ### Enseignement
 

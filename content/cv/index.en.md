@@ -13,7 +13,7 @@ menu:
 
 ### Career
 
-<div class="row">
+<dl class="row">
 <dt class="col-lg-2 col-sm-3">09/2018–</dt>
 <dd class="col-lg-10 col-sm-9"><strong><abbr title="= permanent rank B faculty position.">Maître de conférences</abbr></strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu–Paris Rive Gauche</em>, Paris, France</dd>
 
@@ -32,7 +32,7 @@ Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 2014–2015 Research internship in preparation of a doctorate, Université Lille 1<br>
 2013–2014 Master's degree in Fundamental Mathematics, Université Paris Diderot<br>
 Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology</dd>
-</div>
+</dl>
 
 ### Research <small>[(more info)]({{< ref "/research" >}})</small>
 
@@ -54,9 +54,16 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Graduate J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
 1. *[Homologie et complexe de déformations d'opérades $E_n$]({{< ref "/research/m2" >}})*. Master's thesis. Université Paris Diderot, 2014.
 
+### Grants
+
+<dl class="row">
+<dt class="col-lg-2 col-sm-3">2019</dt>
+<dd class="col-lg-10 col-sm-9">First Support Exploratory Project "Young Researcher" (PEPS JCJC), Institut National des Sciences Mathématiques et de leurs Interactions, CNRS, France. 3500 €.</dd>
+</dl>
+
 ### Service
 
-<div class="row">
+<dl class="row">
 <dt class="col-lg-2 col-sm-3">2018–</dt>
 <dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
 
@@ -68,7 +75,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
 <dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="http://math.univ-lille1.fr/d7/sdocpo">Doctoral Students' Seminar</a>, Université Lille 1 – Laboratoire Paul Painlevé, Lille, France</dd>
-</div>
+</dl>
 
 ### Teaching
 
