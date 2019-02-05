@@ -55,11 +55,11 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Graduate J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
 1. *[Homologie et complexe de déformations d'opérades $E_n$]({{< ref "/research/m2" >}})*. Mémoire de master. Université Paris Diderot, 2014.
 
-### Projets
+### Financements
 
 <dl class="row">
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Projet Exploratoire de Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC), Institut National des Sciences Mathématiques et de leurs Interactions, CNRS, France. 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), Insmi, CNRS, 3500 €.</dd>
 </dl>
 
 ### Service à la profession
