@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-lastmod: 2018-12-19
+lastmod: 2019-02-06
 date: 2018-01-01
 menu:
   main:
@@ -58,7 +58,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 <dl class="row">
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Exploratory Project, First Support: Young Researcher (PEPS JCJC), Insmi, CNRS, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Exploratory Project, First Support “Young Researcher” (PEPS JCJC), Insmi, CNRS, 3500 €.</dd>
 </dl>
 
 ### Service
