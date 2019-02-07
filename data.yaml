@@ -354,9 +354,9 @@ section:
           - Lille
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      - item:
-          - '(\*:'
-          - Futur) ! Future)
+      # - item:
+      #     - '(\*:'
+      #     - Futur) ! Future)
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     entry:
       - item:
@@ -476,7 +476,7 @@ section:
       - item:
           - 05/2013
           - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
-      - item:
-          - '(\*:'
-          - Futur) ! Future)
+      # - item:
+      #     - '(\*:'
+      #     - Futur) ! Future)
 ...
