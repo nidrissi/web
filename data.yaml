@@ -61,11 +61,11 @@ section:
   - title: Recherche ! Research
     bib:
       - title: Publications
-        key: publication
+        key: my-publication
       - title: Prépublications ! Preprints
-        key: preprint
+        key: my-preprint
       - title: Autres documents ! Other documents
-        key: other
+        key: my-other
   - title: Enseignement ! Teaching
     entry:
       - item:

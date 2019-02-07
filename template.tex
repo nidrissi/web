@@ -53,8 +53,16 @@
   }
 }
 
+% https://tex.stackexchange.com/a/354610
+\renewbibmacro*{addendum+pubstate}{%
+  \printfield{addendum}%
+  \newunit\newblock
+  \printfield{pubstate}
+  \newunit\newblock
+  \ifentrytype{misc}{\printfield{pagetotal}}{}}
+
 % bibresource
-\addbibresource{research.bib}
+\addbibresource{mainbib.bib}
 
 \title{$title$}
 \firstname{$firstname$}
