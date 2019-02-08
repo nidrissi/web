@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-lastmod: 2019-02-06
+lastmod: 2019-02-08
 date: 2018-01-01
 menu:
   main:
@@ -51,7 +51,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 #### Other documents
 
 1. *[Formalité opéradique et homotopie des espaces de configuration]({{< ref "/research/thesis" >}})*. Doctoral thesis. Université de Lille, 2017. 173 pages. [URL](http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595).
-1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Graduate J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/).
+1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Grad. J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/). [MR3848667](https://mathscinet.ams.org/mathscinet-getitem?mr=3848667).
 1. *[Homologie et complexe de déformations d'opérades $E_n$]({{< ref "/research/m2" >}})*. Master's thesis. Université Paris Diderot, 2014.
 
 ### Grants
