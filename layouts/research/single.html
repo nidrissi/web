@@ -2,8 +2,8 @@
 <article>
     <h1 class="mb-0">{{- .Title -}}</h1>
     <p class="lead">
-      {{- partial "article_ref" . -}}
-      {{- partial "links" (dict "content" . "is_card" 0) -}}
+      {{- partial "article_ref" . }}
+      {{ partial "links" (dict "content" . "is_card" 0) -}}
     </p>
     
     {{- with .Params.abstract -}}
