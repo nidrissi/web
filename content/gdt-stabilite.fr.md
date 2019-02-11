@@ -32,18 +32,18 @@ J'exposerai le plan général du groupe de travail et nous nous répartirons les
 §12.1 Rappels sur les opérades {{< tex "E_n" >}}  
 §13 Lien entre les indécomposables dérivés et la construction bar itérée (Théorème 13.7)
 
-???
+4 avril 2019
 : 4 -- *Algèbres {{< tex "W_{k-1}" >}}* (Geoffroy Horel)  
 §16.1, §16.2 Opérations homologiques sur les algèbres {{< tex "E_k" >}}  
 §16.3 Homologie des algèbres {{< tex "E_k" >}} libres <!--zapper 16.4-->
 
-???
+18 avril 2019
 : 5 -- *Transfert et comparaison* (Grégory Ginot)  
 §14.1, §14.2 Transfert ascendant de lignes d'annulation  
 §14.3 Transfert descendant (idée de la preuve)  
 §15 Homologie relative et comparaison d'algèbres {{< tex "E_k" >}}
 
-???
+16 mai
 : 6 -- *Groupoïdes monoïdaux et algèbres {{< tex "E_k" >}}* (Jean-Michel Fischer)  
 §12.2 Modules sur les algèbres {{< tex "E_1" >}}  
 §17.1 Une construction d'algèbres {{< tex "E_k" >}}  
