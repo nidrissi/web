@@ -13,7 +13,7 @@ I've learned a lot of new math during the talks, as well as to speak with people
 I'd like to thank Bruno Vallette and all the organizers for giving me this opportunity.
 <!--more-->
 
-[(The slides of my talk are available; the video will also be.)]({{< ref "/talk/cirm18" >}})
+[(The slides of my talk are available there.)]({{< ref "/talk/cirm18" >}})
 
 <figure class="figure">
 <img src="belvedere.jpg" alt="Photo taken from the Belvédère de Sugiton" class="figure-img img-fluid">
