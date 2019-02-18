@@ -1,4 +1,5 @@
 ---
+lang: fr ! en
 style: classic
 color: burgundy
 title: Curriculum Vitæ
@@ -13,22 +14,22 @@ homepage: idrissi.eu/fr ! idrissi.eu/en
 phone: (+33) 01 57 27 91 16 
 section:
   - title: Parcours ! Career
-    entry:
-      - content:
+    content:
+      - entry:
           - 09/2018--\rlap{\dots}\hphantom{09/2018}
           - Maître de conférences
           - Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
           - ""
-      - content:
+      - entry:
           - 02/2018--08/2018
           - Chercheur postdoctorant ! Postdoctoral researcher
           - ETH Zürich / D-MATH
           - Zürich
           - Suisse ! Switzerland
           - "Superviseur : Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Supervisor: Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
-      - content:
+      - entry:
           - 09/2015--01/2018
           - Doctorat en Mathématiques ! Doctorate in Mathematics
           - Université Lille\ 1 / Laboratoire Paul Painlevé
@@ -40,7 +41,7 @@ section:
             !
             Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.\
             Title: *Operadic Formality and Homotopy of Configuration Spaces*.
-      - content:
+      - entry:
           - 09/2011--08/2015
           - Élève fonctionnaire stagiaire
           - École Normale Supérieure de Paris
@@ -65,7 +66,7 @@ section:
       - title: Autres documents ! Other documents
         key: my-other
   - title: Enseignement ! Teaching
-    entry:
+    content:
       - item:
           - 2018--2019
           - |
@@ -99,7 +100,7 @@ section:
             !
             Fundamental mathematics II, L1 SESI (exercises)
   - title: Financements ! Funding
-    entry:
+    content:
       - item:
         - 2019
         - "Projet Exploratoire Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 € ! Exploratory Project, First Support \"Young Researcher\" (PEPS JCJC), CNRS / Insmi, 3500 €"
@@ -110,36 +111,36 @@ section:
         - 05/2016
         - "*Oberwolfach Leibniz Graduate Students* (pour \"*Factorization Algebras and Functorial Field Theories*\") ! Oberwolfach Leibniz Graduate Students (for \"Factorization Algebras and Functorial Field Theories\")"
   - title : Service
-    entry:
-      - content:
+    content:
+      - entry:
           - 2018--...
           - "Un des organisateurs du \href{www.imj-prg.fr/spip.php?article67}{Séminaire de topologie} ! One of the organizers of the \href{www.imj-prg.fr/spip.php?article67}{Topology Seminar}"
           - Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
           - ""
-      - content:
+      - entry:
           - 2018--...
           - "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
           - ""
           - ""
           - ""
           - ""
-      - content:
+      - entry:
           - 2019
           - "Organisation d'un \href{https://idrissi.eu/fr/gdt-stabilite/}{groupe de travail sur la stabilité homologique} ! Organization of \href{https://idrissi.eu/fr/gdt-stabilite/}{reading seminar on homological stability}"
           - Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
           - ""
-      - content:
+      - entry:
           - 10/2017
           - "Participation à l'organisation de la journée de préparation pour jeunes chercheurs ! Participation to the organization of the introductory day for young researchers"
           - Colloque 2017 du GDR Topologie Algébrique
           - Paris
           - France
           - ""
-      - content:
+      - entry:
           - 2016--2017
           - "Un des organisateurs du Séminaire des doctorants ! One of the organizer of the PhD students' seminar"
           - Laboratoire Paul Painlevé
@@ -147,37 +148,37 @@ section:
           - France
           - ""
   - title: Exposés ! Talks
-    entry:
+    content:
       - subsection: Sur invitation ! Invited
-      - content:
+      - entry:
           - 01/2019
           - Structures Supérieures ! Higher Structures
           - Centre international de rencontres mathématiques (CIRM)
           - Luminy
           - France
           - Configuration spaces and operads
-      - content:
+      - entry:
           - 06/2018
           - "Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l'école d'été) ! Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker at the summer school)"
           - Fields Institute
           - Toronto
           - Canada
           - Curved Koszul Duality for Algebras over Unital Operads
-      - content:
+      - entry:
           - 05/2018
           - Graph Complexes, Configuration Spaces and Manifold Calculus
           - University of British Columbia
           - Vancouver
           - Canada
           - Configuration Spaces of Manifolds with Boundary
-      - content:
+      - entry:
           - 10/2017
           - Séminaire Itinérant de Catégories
           - Université du Littoral Côte d'Opale
           - Calais
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      - content:
+      - entry:
           - 10/2016
           - "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
           - Institut des Hautes Études (IHET)
@@ -185,21 +186,21 @@ section:
           - Tunisie ! Tunisia
           - The Lambrechts--Stanley Model of Configuration Spaces
       - subsection: Sur proposition ! Contributed
-      - content:
+      - entry:
           - 07/2017
           - Young Topologists Meeting 2017
           - Stockholm University + Royal Institute of Technology (KTH)
           - Stockholm
           - Suède ! Sweden
           - The Lambrechts--Stanley Model of Configuration Spaces
-      - content:
+      - entry:
           - 02/2017
           - Conference for Young researchers in homotopy theory and categorical structures
           - MPIM Bonn
           - Bonn
           - Allemagne ! Germany
           - The Lambrechts--Stanley Model of Configuration Spaces
-      - content:
+      - entry:
           - 10/2016
           - Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
           - Université de Picardie Jules Verne -- LAMFA
@@ -207,147 +208,147 @@ section:
           - France
           - The Lambrechts--Stanley Model of Configuration Spaces
       - subsection: Séminaires ! Seminars
-      - content:
+      - entry:
           - 12/2018
           - Stockholm Topology Seminar
           - Stockholm University + Royal Institute of Technology (KTH)
           - Stockholm
           - Suède ! Sweden
           - Configuration spaces and Operads
-      - content:
+      - entry:
           - 11/2018
           - Séminaire Géométrie \& Topologie ! Geometry \& Topology Seminar
           - IMJ-PRG
           - Paris
           - France
           - Espaces de configuration et Opérades
-      - content:
+      - entry:
          - 06/2018
          - Departmental Colloquium ! Colloque du département
          - University of Regina
          - Regina (SK)
          - Canada
          - Configuration Spaces and Graphs Complexes
-      - content:
+      - entry:
           - 12/2017
           - Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
           - Université de Nantes
           - Nantes
           - France
           - Espaces de configuration de variétés compactes
-      - content:
+      - entry:
           - 12/2017
           - Séminaire Algèbre et Topologie ! Algebra and Topology seminar
           - Université de Strasbourg
           - Strasbourg
           - France
           - Espaces de configuration de variétés compactes
-      - content:
+      - entry:
           - 11/2017
           - Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
           - "Université d'Angers"
           - Angers
           - France
           - Espaces de configuration de variétés compactes
-      - content:
+      - entry:
           - 11/2017
           - Séminaire Homotopie en Géométrie Algébrique ! Homotopy in Algebraic Geometry Seminar
           - Université Paul Sabatier
           - Toulouse
           - France
           - Espaces de configuration de variétés compactes
-      - content:
+      - entry:
           - 10/2017
           - Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - "Introduction à la théorie de l'homotopie rationnelle"
-      - content:
+      - entry:
           - 10/2017
           - Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      - content:
+      - entry:
           - 08/2017
           - Exposés de physique mathématiques ! Talks in mathematical physics
           - ETH Zürich
           - Zürich
           - Suisse ! Switzerland
           - Configuration Spaces of Compact Manifolds
-      - content:
+      - entry:
           - 05/2017
           - Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - Le modèle de Lambrechts--Stanley des espaces de configuration
-      - content:
+      - entry:
           - 05/2017
           - Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           - Université Lille 1
           - Lille
           - France
           - La compactification de Fulton-MacPherson des espaces de configuration
-      - content:
+      - entry:
           - 01/2017
           - Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
           - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
           - Louvain-la-Neuve
           - Belgique ! Belgium
           - Le modèle de Lambrechts--Stanley des espaces de configuration
-      - content:
+      - entry:
           - 11/2016
           - Séminaire de topologie algébrique ! Algebraic Topology Seminar
           - Université Paris 13
           - Paris
           - France
           - Le modèle de Lambrechts--Stanley des espaces de configuration
-      - content:
+      - entry:
           - 09/2016
           - Séminaire de Topologie ! Topology Seminar
           - Université Lille 1
           - Lille
           - France
           - Le modèle de Lambrechts--Stanley des espaces de configuration
-      - content:
+      - entry:
           - 06/2016
           - Exposés en Physique Mathématique ! Talks in Mathematical Physics
           - ETH Zürich
           - Zürich
           - Suisse ! Switzerland
           - Swiss-Cheese operad and Drinfeld center
-      - content:
+      - entry:
           - 04/2016
           - Séminaire de Topologie ! Topology Seminar
           - IMJ-PRG
           - Paris
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      - content:
+      - entry:
           - 12/2015
           - "Séminaire des doctorants ! PhD students' seminar"
           - Université Lille\ 1 -- Laboratoire Paul Painlevé
           - Lille
           - France
           - Opérades
-      - content:
+      - entry:
           - 12/2015
           - "Séminaire des doctorants ! PhD students' seminar"
           - Université de Picardie Jules Verne -- LAMFA
           - Amiens
           - France
           - Opérades
-      - content:
+      - entry:
           - 10/2015
           - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
           - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
           - Louvain-la-Neuve
           - Belgique ! Belgium
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      - content:
+      - entry:
           - 09/2015
           - Séminaire de Topologie ! Topology Seminar
           - Université Lille\ 1 -- Laboratoire Paul Painlevé
@@ -358,7 +359,7 @@ section:
       #     - '(\*:'
       #     - Futur) ! Future)
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
-    entry:
+    content:
       - item:
           - 01/2019
           - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy)

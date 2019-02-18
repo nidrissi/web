@@ -80,15 +80,15 @@
 $for(section)$
 \section{$section.title$}
 
-$for(section.entry)$
-  $if(section.entry.content)$
+$for(section.content)$
+  $if(section.content.entry)$
     \cventry
-    $for(section.entry.content)$ {$section.entry.content$} $endfor$
+    $for(section.content.entry)$ {$section.content.entry$} $endfor$
   $endif$
-  $if(section.entry.subsection)$\subsection{$section.entry.subsection$}$endif$
-  $if(section.entry.item)$
+  $if(section.content.subsection)$\subsection{$section.content.subsection$}$endif$
+  $if(section.content.item)$
     \cvitem
-    $for(section.entry.item)$ {$section.entry.item$} $endfor$
+    $for(section.content.item)$ {$section.content.item$} $endfor$
   $endif$
 $endfor$
 
