@@ -23,8 +23,8 @@ Supervised by Thomas Willwacher. Funded by ERC StG 678156—GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France<br>
-Funded by an <em>Allocation Spécifique</em> of the ENS. Defended on November 17th, 2017.<br>
-Advisor: Benoit Fresse.
+Thesis defended on November 17th, 2017.
+Advisor: Benoit Fresse.<br>
 Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
@@ -54,11 +54,13 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Grad. J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/). [MR3848667](https://mathscinet.ams.org/mathscinet-getitem?mr=3848667).
 1. *[Homologie et complexe de déformations d'opérades $E_n$]({{< ref "/research/m2" >}})*. Master's thesis. Université Paris Diderot, 2014.
 
-### Grants
+### Grants, fellowships
 
 <dl class="row">
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Exploratory Project, First Support “Young Researcher” (PEPS JCJC), Insmi, CNRS, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Exploratory Project, First Support “Young Researcher” (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dt class="col-lg-2 col-sm-3">2015–2018</dt>
+<dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
 </dl>
 
 ### Service

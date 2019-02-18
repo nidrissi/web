@@ -23,8 +23,8 @@ Supervisé par Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France<br>
-Financée par une Allocation Spécifique de l'ENS. Soutenue le 17 novembre 2017.<br>
-Directeur : Benoit Fresse.
+Thèse soutenue le 17 novembre 2017.
+Directeur : Benoit Fresse.<br>
 Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.</dd>
 
 <dt class="col-lg-2 col-sm-3">2011–2015</dt>
@@ -59,7 +59,9 @@ Automne 2013 Stage de recherche en topologie algébrique, Massachusetts Institut
 
 <dl class="row">
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), Insmi, CNRS, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dt class="col-lg-2 col-sm-3">2015–2018</dt>
+<dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
 </dl>
 
 ### Service
