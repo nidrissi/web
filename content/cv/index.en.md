@@ -54,13 +54,15 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 1. « [Opérades et Structures Commutatives à Homotopie Près]({{< ref "/research/operades" >}}) ». In: *Grad. J. Math* 1.1 (2016), pp.9–17. [URL](http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/). [MR3848667](https://mathscinet.ams.org/mathscinet-getitem?mr=3848667).
 1. *[Homologie et complexe de déformations d'opérades $E_n$]({{< ref "/research/m2" >}})*. Master's thesis. Université Paris Diderot, 2014.
 
-### Grants, fellowships
+### Funding
 
 <dl class="row">
 <dt class="col-lg-2 col-sm-3">2019</dt>
 <dd class="col-lg-10 col-sm-9">Exploratory Project, First Support “Young Researcher” (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
 <dt class="col-lg-2 col-sm-3">2015–2018</dt>
 <dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
+<dt class="col-lg-2 col-sm-3">05/2016</dt>
+<dd class="col-lg-10 col-sm-9">Oberwolfach Leibniz Graduate Students (for: “Factorization Algebras and Functorial Field Theories”).</dd>
 </dl>
 
 ### Service
