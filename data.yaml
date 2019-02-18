@@ -35,12 +35,10 @@ section:
           - Lille
           - France
           - |
-            Financé par une Allocation Spécifique de l'ENS. Thèse soutenue le 17 novembre 2017.\
-            Directeur : Benoit Fresse.
+            Thèse soutenue le 17 novembre 2017. Directeur : Benoit Fresse.\
             Titre : *Formalité opéradique et homotopie des espaces de configuration*.
             !
-            Funded by an *Allocation Spécifique* of the ENS. Thesis defended on November 17th, 2017.\
-            Advisor: Benoit Fresse.
+            Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.\
             Title: *Operadic Formality and Homotopy of Configuration Spaces*.
       - content:
           - 09/2011--08/2015
@@ -100,15 +98,17 @@ section:
             Mathématiques fondamentales II, L1 SESI (TD)
             !
             Fundamental mathematics II, L1 SESI (exercises)
-  - title: Financements ! Grants
+  - title: Financements ! Funding
     entry:
-      - content:
-          - 2019
-          - "Projet Exploratoire Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC) ! Exploratory Project, First Support \"Young Researcher\" (PEPS JCJC)"
-          - Insmi
-          - CNRS
-          - 3500 €
-          - ""
+      - item:
+        - 2019
+        - "Projet Exploratoire Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 € ! Exploratory Project, First Support \"Young Researcher\" (PEPS JCJC), CNRS / Insmi, 3500 €"
+      - item:
+        - 2015--2018
+        - "Contrat doctoral spécifique normalien, École Normale Supérieure de Paris ! Specific doctoral contract \"*normalien*\", École Normale Supérieure de Paris"
+      - item:
+        - 05/2016
+        - "*Oberwolfach Leibniz Graduate Students* (pour \"*Factorization Algebras and Functorial Field Theories*\") ! Oberwolfach Leibniz Graduate Students (for \"Factorization Algebras and Functorial Field Theories\")"
   - title : Service
     entry:
       - content:
