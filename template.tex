@@ -17,6 +17,7 @@
 \usepackage{csquotes}
 \usepackage[defernumbers=true,sorting=ymdnt, maxnames=10]{biblatex}
 % https://tex.stackexchange.com/questions/46868/biblatex-sorting-by-date
+% sort by year, month, day, name, title
 \DeclareSortingTemplate{ymdnt}{
   \sort{
     \field{presort}
@@ -54,12 +55,16 @@
 }
 
 % https://tex.stackexchange.com/a/354610
+% add pagetotal to misc (preprints) entries
 \renewbibmacro*{addendum+pubstate}{%
   \printfield{addendum}%
   \newunit\newblock
   \printfield{pubstate}
   \newunit\newblock
   \ifentrytype{misc}{\printfield{pagetotal}}{}}
+
+% change localization of "master thesis"
+\DefineBibliographyStrings{english}{mathesis = {Master's thesis}}
 
 % bibresource
 \addbibresource{mainbib.bib}
