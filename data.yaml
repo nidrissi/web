@@ -161,6 +161,13 @@ section:
     content:
       - subsection: Sur invitation ! Invited
       - entry:
+          - 05/2019\*
+          - Higher Homotopy Algebras in Topology
+          - Max Planck Institute for Mathematics (MPIM)
+          - Bonn
+          - Allemagne ! Germany
+          - TBA
+      - entry:
           - 01/2019
           - Structures Supérieures ! Higher Structures
           - Centre international de rencontres mathématiques (CIRM)
@@ -206,7 +213,7 @@ section:
       - entry:
           - 02/2017
           - Conference for Young researchers in homotopy theory and categorical structures
-          - MPIM Bonn
+          - Max Planck Institute for Mathematics (MPIM)
           - Bonn
           - Allemagne ! Germany
           - The Lambrechts--Stanley Model of Configuration Spaces
@@ -365,11 +372,14 @@ section:
           - Lille
           - France
           - "L'opérade Swiss-Cheese et le centre de Drinfeld"
-      # - item:
-      #     - '(\*:'
-      #     - Futur) ! Future)
+      - item:
+          - '(\*:'
+          - Futur) ! Future)
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
+      - item:
+          - 05/2019\*
+          - Higher Homotopy Algebras in Topology @ Max Planck Institute for Mathematics (MPIM, Bonn)
       - item:
           - 01/2019
           - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy)
@@ -423,7 +433,7 @@ section:
           - Workshop on Quantum Topology @ Université Lille 1
       - item:
           - 02/2017
-          - Conference for Young researchers in homotopy theory and categorical structures @ MPIM Bonn
+          - Conference for Young researchers in homotopy theory and categorical structures @ Max Planck Institute for Mathematics (MPIM Bonn)
       - item:
           - 10/2016
           - "Conférence en l'honneur de Saïd Zarati @ IHET (Tunis) ! Conference in the honour of Saïd Zarati @ IHET (Tunis)"
@@ -487,7 +497,7 @@ section:
       - item:
           - 05/2013
           - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
-      # - item:
-      #     - '(\*:'
-      #     - Futur) ! Future)
+      - item:
+          - '(\*:'
+          - Futur) ! Future)
 ...
