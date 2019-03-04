@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitæ
-lastmod: 2019-02-08
+lastmod: 2019-03-04
 date: 2018-01-01
 menu:
   main:
@@ -14,7 +14,7 @@ menu:
 ### Career
 
 <dl class="row">
-<dt class="col-lg-2 col-sm-3">09/2018–…</dt>
+<dt class="col-lg-2 col-sm-3">Since 09/2018–…</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu–Paris Rive Gauche</em>, Paris, France</dd>
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
@@ -68,10 +68,22 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 ### Service
 
 <dl class="row">
-<dt class="col-lg-2 col-sm-3">2018–…</dt>
+<dt class="col-lg-2 col-sm-3">Since 10/2018</dt>
 <dd class="col-lg-10 col-sm-9">One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a>, Institut de Mathématiques de Jussieu-Paris Rive Gauche, Paris, France.</dd>
 
-<dt class="col-lg-2 col-sm-3">2018–…</dt>
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
+<dd class="col-lg-10 col-sm-9">Peer reviews<br>
+Algebraic & Geometric Topology,
+Communications in Mathematical Physics,
+Letters in Mathematical Physics,
+Royal Society of Edinburgh: Proceedings A,
+Selecta Mathematica
+</dd>
+
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
+<dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">list</a>).</dd>
+
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
 <dd class="col-lg-10 col-sm-9">Writing of abstracts for Zentralblatt MATH (<a href="https://zbmath.org/?q=rv%3Anajib.idrissi">list</a>).</dd>
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
