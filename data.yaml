@@ -26,7 +26,7 @@ section:
   - title: Parcours ! Career
     content:
       - entry:
-          - 09/2018--\rlap{\dots}\hphantom{09/2018}
+          - Depuis 09/2018 ! Since 09/2018
           - Maître de conférences
           - Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
@@ -123,14 +123,26 @@ section:
   - title : Service
     content:
       - entry:
-          - 2018--...
+          - Depuis 10/2018 ! Since 10/2018
           - "Un des organisateurs du \href{www.imj-prg.fr/spip.php?article67}{Séminaire de topologie} ! One of the organizers of the \href{www.imj-prg.fr/spip.php?article67}{Topology Seminar}"
           - Institut de Mathématiques de Jussieu-Paris Rive Gauche
           - Paris
           - France
           - ""
       - entry:
-          - 2018--...
+          - en cours ! ongoing
+          - Évaluation d'articles ! Peer review
+          - ""
+          - ""
+          - ""
+          - |
+            Algebraic & Geometric Topology,
+            Communications in Mathematical Physics,
+            Letters in Mathematical Physics,
+            Royal Society of Edinburgh: Proceedings A,
+            Selecta Mathematica
+      - entry:
+          - en cours ! ongoing
           - "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
           - ""
           - ""
