@@ -16,13 +16,12 @@ all:
 	cp build/*.pdf .
 
 copy:
-	cp french.out.pdf $(TARGET)/cv-fr.pdf
-	cp english.out.pdf $(TARGET)/cv-en.pdf
+	cp french.out.pdf $(TARGET)/cv-french.pdf
+	cp english.out.pdf $(TARGET)/cv-english.pdf
 	@echo "Update lastmod!"
 
 clean:
-	rm *.pdf *.out.yaml *.out.tex
-	rm -r build
+	rm -rf build *.pdf *.out.yaml *.out.tex
 
 # windows
 wcopy:
