@@ -5,5 +5,5 @@
   {{- .Lastmod.Format .Site.Params.date_format -}}
 </time>
 {{ range $k, $v := $.Params.tags -}}
-<a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}">#{{ . }}</a>
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" class="badge badge-primary">#{{ . }}</a>
 {{ end -}}
