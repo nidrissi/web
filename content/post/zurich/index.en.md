@@ -1,6 +1,6 @@
 ---
 date: 2016-06-05T00:00:00Z
-tags: ['math', 'trip']
+tags: ['trip']
 title: Talk at ETH Zürich
 ---
 

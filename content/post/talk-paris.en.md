@@ -1,6 +1,6 @@
 ---
 date: 2016-04-05T00:00:00Z
-tags: ['math', 'trip']
+tags: ['trip']
 title: Talk in Paris!
 ---
 

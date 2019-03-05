@@ -1,6 +1,6 @@
 ---
 date: 2016-12-02T00:00:00Z
-tags: ['math', 'conf-spaces', 'paper']
+tags: ['conf-spaces', 'paper']
 title: Configuration Spaces Woes
 ---
 

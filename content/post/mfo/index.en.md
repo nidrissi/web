@@ -1,6 +1,6 @@
 ---
 date: 2016-05-15T00:00:00Z
-tags: ['math', 'trip']
+tags: ['trip']
 title: Oberwolfach
 ---
 

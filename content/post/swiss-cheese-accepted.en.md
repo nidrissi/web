@@ -1,6 +1,6 @@
 ---
 date: 2017-01-13T00:00:00Z
-tags: ['math', 'paper', 'swiss-cheese', 'operads']
+tags: ['paper', 'swiss-cheese', 'operads']
 title: First Article Accepted!
 ---
 

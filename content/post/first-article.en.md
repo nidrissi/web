@@ -1,6 +1,6 @@
 ---
 date: 2016-01-31T00:00:00Z
-tags: ['math', 'paper']
+tags: ['paper']
 title: Paper Accepted!
 ---
 

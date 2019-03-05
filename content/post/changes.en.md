@@ -2,7 +2,7 @@
 title: Defense, postdoc, new paper
 date: 2018-02-05
 draft: false
-tags: ['math', 'job', 'conf-spaces', 'paper']
+tags: ['job', 'conf-spaces', 'paper']
 ---
 
 Many changes have happened in my life recently!

@@ -1,6 +1,6 @@
 ---
 date: 2016-08-30T00:00:00Z
-tags: ['math', 'conf-spaces', 'paper']
+tags: ['conf-spaces', 'paper']
 title: "Paper: The Lambrechts–Stanley Model of Configuration Spaces"
 ---
 
