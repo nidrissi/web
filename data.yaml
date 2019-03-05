@@ -71,19 +71,19 @@ section:
       - item:
           - 2018--2019
           - |
-            Algèbre et analyse élémentaires I, L1 MIASHS (cours/TD, 90h) ;
-            Algèbre et analyse élémentaires II, L1 Chimie (TD, 36h)
+            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h) ;
+            Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h)
             !
-            Elementary Algebra and Analysis I, L1 MIASHS (lecture+exercises, 90h);
-            Elementary Algebra and Analysis II, L1 Chemistry (exercises, 36h)
+            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h);
+            Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)
       - item:
           - 2017--2018
           - |
             Analyse 1, L1 MASS (TD, 36h) ;
             Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h)
             !
-            Calculus I, L1 MASS (exercises, 36h);
-            Fundamental mathematics I, L1 SESI (oral exams & tutoring, 10h)
+            Calculus 1, L1 MASS (exercises, 36h);
+            Fundamental mathematics 1, L1 SESI (oral exams & tutoring, 10h)
       - item:
           - 2016--2017
           - |
@@ -92,14 +92,14 @@ section:
             Analyse 1, L1 MASS (TD, 15h)
             !
             Matrix calculus, L2 econ-management (exercises, 36h);
-            Calculus I, L1 econ-management (exercises, 15h);
-            Calculus I, L1 MASS (exercises, 15h)
+            Calculus 1, L1 econ-management (exercises, 15h);
+            Calculus 1, L1 MASS (exercises, 15h)
       - item:
           - 2015--2016
           - |
-            Mathématiques fondamentales II, L1 SESI (TD, 66h)
+            Mathématiques fondamentales 2, L1 SESI (TD, 66h)
             !
-            Fundamental mathematics II, L1 SESI (exercises, 66h)
+            Fundamental mathematics 2, L1 SESI (exercises, 66h)
   - title: Financements ! Funding
     content:
       - item:
