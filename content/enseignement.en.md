@@ -13,25 +13,25 @@ menu:
 
 ##### 2018--2019
 
-* Elementary Algebra and Analysis I, L1 MIASHS, lectures and exercise sessions (90h).
-* Elementary Algebra and Analysis II, L1 Chemistry, exercise sessions (36h).
+* Elementary Algebra and Analysis 1, L1 MIASHS (lectures+exercises, 90h).
+* Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).
 
 #### University of Lille
 
 ##### 2017--2018
 
-* Calculus I, L1 MASS, exercise sessions (36h).
-* Fundamental Mathematics I, L1 SESI, oral exams (16h) and tutoring (10h).
+* Calculus 1, L1 MASS (exercises, 36h).
+* Fundamental Mathematics 1, L1 SESI (oral exams, 16h and tutoring, 10h).
 
 ##### 2016--2017
 
-* Matrix calculus, L2 MASS, exercise sessions (36h).
-* Calculus I, L1 MASS, exercise sessions (15h).
-* Calculus I, L1 SESI, exercise sessions  (15h).
+* Matrix calculus, L2 MASS (exercises, 36h).
+* Calculus 1, L1 MASS (exercises 15h).
+* Calculus 1, L1 SESI (exercises, 15h).
 
 ##### 2015--2016
 
-* Fundamental mathematics II, L1 SESI, exercise sessions (66h).
+* Fundamental mathematics 2, L1 SESI, exercise sessions (66h).
 
 ---
 
