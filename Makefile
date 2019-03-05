@@ -1,19 +1,23 @@
-PANDOC = pandoc --template $(TEMPLATE)
 LATEX = latexmk -pdf
 TEMPLATE = template.tex
 WTARGET = ..\web\content\cv
 TARGET = ../web/content/cv
 
 .PHONY: all copy clean wcopy wclean
+.SECONDARY: french.out.tex english.out.tex french.out.yaml english.out.yaml
 
 # Beurk
-all:
+all: french.out.pdf english.out.pdf
+
+english.out.yaml french.out.yaml: data.yaml
 	perl cvsplit.pl
-	$(PANDOC) -V mylang=french french.out.yaml -o french.out.tex
-	$(PANDOC) -V mylang=english english.out.yaml -o english.out.tex
-	$(LATEX) french.out.tex
-	$(LATEX) english.out.tex
-	cp build/*.pdf .
+
+%.out.tex: %.out.yaml template.tex
+	pandoc --template template.tex -V mylang=$* $< -o $@
+
+%.out.pdf: %.out.tex
+	$(LATEX) $<
+	cp build/$@ .
 
 copy:
 	cp french.out.pdf $(TARGET)/cv-french.pdf
