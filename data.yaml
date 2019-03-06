@@ -2,6 +2,7 @@
 lastmod: 2019-03-06
 # localization
 lang: fr ! en
+mylang: french ! english
 i18n:
   complete: Version complète au format PDF ! Complete version in PDF format
   more: plus d'infos ! more info
