@@ -1,4 +1,8 @@
 {{- $keyword := .Get 0 -}}
-{{- range (where .Pages "mytype" $keyword).ByDate.Reverse -}}
+{{- $pages := where .Site.RegularPages "Type" "research" -}}
+{{- $pages := where $pages ".Params.mytype" $keyword -}}
+<ol>
+{{- range $pages -}}
 {{- .Render "li" -}}
 {{- end -}}
+</ol>
