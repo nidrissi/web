@@ -155,7 +155,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">05/2019*</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>Max Planck Institute for Mathematics (MPIM)</em>, Bonn, Allemagne.<br>TBA</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>MPIM</em>, Bonn, Allemagne.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">01/2019</dt>
@@ -190,7 +190,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">02/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>Max Planck Institute for Mathematics (MPIM)</em>, Bonn, Allemagne.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>MPIM</em>, Bonn, Allemagne.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
 
 
 <dt class="col-lg-2 col-sm-3">10/2016</dt>
@@ -334,7 +334,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">05/2019*</dt>
-<dd class="col-lg-10 col-sm-9">Higher Homotopy Algebras in Topology @ Max Planck Institute for Mathematics (MPIM, Bonn).</dd>
+<dd class="col-lg-10 col-sm-9">Higher Homotopy Algebras in Topology @ MPIM Bonn.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">01/2019</dt>
@@ -342,11 +342,11 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">01/2019</dt>
-<dd class="col-lg-10 col-sm-9">Higher Structures in Holomorphic and Topological Field Theory @ Institut des Hautes Études Scientifiques (Paris-Saclay).</dd>
+<dd class="col-lg-10 col-sm-9">Higher Structures in Holomorphic and Topological Field Theory @ Institut des Hautes Études Scientifiques.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">10/2018</dt>
-<dd class="col-lg-10 col-sm-9">New trends in K-theory and homotopy theory – A conference in honor of Max Karoubi’s 80th birthday @ Institut Henri Poincaré (Paris).</dd>
+<dd class="col-lg-10 col-sm-9">New trends in K-theory and homotopy theory – A conference in honor of Max Karoubi’s 80th birthday @ Institut Henri Poincaré.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">10/2018</dt>
@@ -354,11 +354,11 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">06/2018</dt>
-<dd class="col-lg-10 col-sm-9">Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields (Toronto).</dd>
+<dd class="col-lg-10 col-sm-9">Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">05/2018</dt>
-<dd class="col-lg-10 col-sm-9">Graph Complexes, Configuration Spaces and Manifold Calculus @ University of British Columbia (Vancouver).</dd>
+<dd class="col-lg-10 col-sm-9">Graph Complexes, Configuration Spaces and Manifold Calculus @ University of British Columbia.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">01/2018</dt>
@@ -370,11 +370,11 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9">Séminaire Itinérant de Catégories @ Université du Littoral Côte d’Opale (Calais).</dd>
+<dd class="col-lg-10 col-sm-9">Séminaire Itinérant de Catégories @ Université du Littoral Côte d’Opale.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">09/2017</dt>
-<dd class="col-lg-10 col-sm-9">Journée des doctorants du Nord-Pas-de-Calais @ Université du Littoral Côte d’Opale (Calais).</dd>
+<dd class="col-lg-10 col-sm-9">Journée des doctorants du Nord-Pas-de-Calais @ Université du Littoral Côte d’Opale.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">07/2017</dt>
@@ -406,7 +406,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">02/2017</dt>
-<dd class="col-lg-10 col-sm-9">Conference for Young researchers in homotopy theory and categorical structures @ Max Planck Institute for Mathematics (MPIM Bonn).</dd>
+<dd class="col-lg-10 col-sm-9">Conference for Young researchers in homotopy theory and categorical structures @ MPIM Bonn.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">10/2016</dt>
@@ -414,7 +414,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">10/2016</dt>
-<dd class="col-lg-10 col-sm-9">Colloque 2016 du GDR Topologie Algébrique et Applications @ Université de Picardie Jules Verne (Amiens).</dd>
+<dd class="col-lg-10 col-sm-9">Colloque 2016 du GDR Topologie Algébrique et Applications @ Université de Picardie Jules Verne.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">07/2016</dt>
@@ -462,7 +462,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">10/2014</dt>
-<dd class="col-lg-10 col-sm-9">Colloque 2014 du GDR Topologie Algébrique et Applications @ Université Blaise Pascal (Clermont-Ferrand).</dd>
+<dd class="col-lg-10 col-sm-9">Colloque 2014 du GDR Topologie Algébrique et Applications @ Université Blaise Pascal.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">09/2014</dt>
