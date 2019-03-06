@@ -24,8 +24,8 @@ english.out.yaml french.out.yaml: data.yaml
 copy:
 	cp french.out.pdf $(TARGET)/cv-french.pdf
 	cp english.out.pdf $(TARGET)/cv-english.pdf
-#	cp french.out.md $(TARGET)/index.fr.md
-#	cp english.out.md $(TARGET)/index.en.md
+	cp french.out.md $(TARGET)/index.fr.md
+	cp english.out.md $(TARGET)/index.en.md
 
 clean:
 	rm -rf *.pdf *.out.yaml *.out.tex *.out.md build

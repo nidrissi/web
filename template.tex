@@ -89,11 +89,11 @@ $for(section.content)$
   $if(section.content.subsection)$\subsection{$section.content.subsection$}$endif$
   $if(section.content.entry)$
     \cventry
-    $for(section.content.entry)$ {$section.content.entry$} $endfor$
+    {$section.content.entry.a$}{$section.content.entry.b$}{$section.content.entry.c$}{$section.content.entry.d$}{$section.content.entry.e$}{$section.content.entry.f$}
   $endif$
   $if(section.content.item)$
     \cvitem
-    $for(section.content.item)$ {$section.content.item$} $endfor$
+    {$section.content.item.a$} {$section.content.item.b$}
   $endif$
 $endfor$
 

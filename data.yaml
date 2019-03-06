@@ -27,38 +27,38 @@ section:
     web: true
     content:
       - entry:
-          - Depuis 09/2018 ! Since 09/2018
-          - Maître de conférences
-          - Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
-          - Paris
-          - France
-          - ""
+          a: Depuis 09/2018 ! Since 09/2018
+          b: Maître de conférences
+          c: Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
+          d: Paris
+          e: France
+          f: ""
       - entry:
-          - 02/2018--08/2018
-          - Chercheur postdoctorant ! Postdoctoral researcher
-          - ETH Zürich / D-MATH
-          - Zürich
-          - Suisse ! Switzerland
-          - "Superviseur : Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Supervisor: Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
+          a: 02/2018--08/2018
+          b: Chercheur postdoctorant ! Postdoctoral researcher
+          c: ETH Zürich / D-MATH
+          d: Zürich
+          e: Suisse ! Switzerland
+          f: "Superviseur : Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Supervisor: Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
       - entry:
-          - 09/2015--01/2018
-          - Doctorat en Mathématiques ! Doctorate in Mathematics
-          - Université Lille\ 1 / Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - |
+          a: 09/2015--01/2018
+          b: Doctorat en Mathématiques ! Doctorate in Mathematics
+          c: Université Lille\ 1 / Laboratoire Paul Painlevé
+          d: Lille
+          e: France
+          f: |
             Thèse soutenue le 17 novembre 2017. Directeur : Benoit Fresse.\
             Titre : *Formalité opéradique et homotopie des espaces de configuration*.
             !
             Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.\
             Title: *Operadic Formality and Homotopy of Configuration Spaces*.
       - entry:
-          - 09/2011--08/2015
-          - Élève fonctionnaire stagiaire
-          - École Normale Supérieure de Paris
-          - Paris
-          - France
-          - |
+          a: 09/2011--08/2015
+          b: Élève fonctionnaire stagiaire
+          c: École Normale Supérieure de Paris
+          d: Paris
+          e: France
+          f: |
             Reçu 1^er^ au concours INFO.\
             2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille 1.\
             2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.\
@@ -83,24 +83,24 @@ section:
       more: /enseignement
     content:
       - item:
-          - 2018--2019
-          - |
+          a: 2018--2019
+          b: |
             Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h) ;
             Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h)
             !
             Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h);
             Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)
       - item:
-          - 2017--2018
-          - |
+          a: 2017--2018
+          b: |
             Analyse 1, L1 MASS (TD, 36h) ;
             Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h)
             !
             Calculus 1, L1 MASS (exercises, 36h);
             Fundamental mathematics 1, L1 SESI (oral exams & tutoring, 10h)
       - item:
-          - 2016--2017
-          - |
+          a: 2016--2017
+          b: |
             Calcul matriciel, L2 éco-gestion-management (TD, 36h) ;
             Analyse 1, L1 éco-gestion-management (TD, 15h) ;
             Analyse 1, L1 MASS (TD, 15h)
@@ -109,8 +109,8 @@ section:
             Calculus 1, L1 econ-management (exercises, 15h);
             Calculus 1, L1 MASS (exercises, 15h)
       - item:
-          - 2015--2016
-          - |
+          a: 2015--2016
+          b: |
             Mathématiques fondamentales 2, L1 SESI (TD, 66h)
             !
             Fundamental mathematics 2, L1 SESI (exercises, 66h)
@@ -118,424 +118,424 @@ section:
     web: true
     content:
       - item:
-        - 2019
-        - "Projet Exploratoire Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 € ! Exploratory Project, First Support \"Young Researcher\" (PEPS JCJC), CNRS / Insmi, 3500 €"
+          a: 2019
+          b: "Projet Exploratoire Premier Soutien « Jeune chercheurse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 € ! Exploratory Project, First Support \"Young Researcher\" (PEPS JCJC), CNRS / Insmi, 3500 €"
       - item:
-        - 2015--2018
-        - "Contrat doctoral spécifique normalien, École Normale Supérieure de Paris ! Specific doctoral contract \"*normalien*\", École Normale Supérieure de Paris"
+          a: 2015--2018
+          b: "Contrat doctoral spécifique normalien, École Normale Supérieure de Paris ! Specific doctoral contract \"*normalien*\", École Normale Supérieure de Paris"
       - item:
-        - 05/2016
-        - "*Oberwolfach Leibniz Graduate Students* (pour \"*Factorization Algebras and Functorial Field Theories*\") ! Oberwolfach Leibniz Graduate Students (for \"Factorization Algebras and Functorial Field Theories\")"
+          a: 05/2016
+          b: "*Oberwolfach Leibniz Graduate Students* (pour \"*Factorization Algebras and Functorial Field Theories*\") ! Oberwolfach Leibniz Graduate Students (for \"Factorization Algebras and Functorial Field Theories\")"
   - title : Service
     web: true
     content:
       - entry:
-          - Depuis 10/2018 ! Since 10/2018
-          - "Un des organisateurs du [Séminaire de topology(www.imj-prg.fr/spip.php?article67) ! One of the organizers of the [Topology Seminar](www.imj-prg.fr/spip.php?article67)"
-          - Institut de Mathématiques de Jussieu-Paris Rive Gauche
-          - Paris
-          - France
-          - ""
+          a: Depuis 10/2018 ! Since 10/2018
+          b: "Un des organisateurs du [Séminaire de topology(www.imj-prg.fr/spip.php?article67) ! One of the organizers of the [Topology Seminar](www.imj-prg.fr/spip.php?article67)"
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+          d: Paris
+          e: France
+          f: ""
       - entry:
-          - en cours ! ongoing
-          - Évaluation d'articles ! Peer review
-          - ""
-          - ""
-          - ""
-          - |
+          a: en cours ! ongoing
+          b: Évaluation d'articles ! Peer review
+          c: ""
+          d: ""
+          e: ""
+          f: |
             Algebraic & Geometric Topology,
             Communications in Mathematical Physics,
             Letters in Mathematical Physics,
             Royal Society of Edinburgh: Proceedings A,
             Selecta Mathematica
       - entry:
-          - en cours ! ongoing
-          - "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
-          - ""
-          - ""
-          - ""
-          - ""
+          a: en cours ! ongoing
+          b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
+          c: ""
+          d: ""
+          e: ""
+          f: ""
       - entry:
-          - 2019
-          - "Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt-stabilite/) ! Organization of a [reading seminar on homological stability](https://idrissi.eu/fr/gdt-stabilite/)"
-          - Institut de Mathématiques de Jussieu-Paris Rive Gauche
-          - Paris
-          - France
-          - ""
+          a: 2019
+          b: "Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt-stabilite/) ! Organization of a [reading seminar on homological stability](https://idrissi.eu/fr/gdt-stabilite/)"
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+          d: Paris
+          e: France
+          f: ""
       - entry:
-          - 10/2017
-          - "Participation à l'organisation de la journée de préparation pour jeunes chercheurs ! Participation to the organization of the introductory day for young researchers"
-          - Colloque 2017 du GDR Topologie Algébrique
-          - Paris
-          - France
-          - ""
+          a: 10/2017
+          b: "Participation à l'organisation de la journée de préparation pour jeunes chercheurs ! Participation to the organization of the introductory day for young researchers"
+          c: Colloque 2017 du GDR Topologie Algébrique
+          d: Paris
+          e: France
+          f: ""
       - entry:
-          - 2016--2017
-          - "Un des organisateurs du Séminaire des doctorants ! One of the organizer of the PhD students' seminar"
-          - Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - ""
+          a: 2016--2017
+          b: "Un des organisateurs du Séminaire des doctorants ! One of the organizer of the PhD students' seminar"
+          c: Laboratoire Paul Painlevé
+          d: Lille
+          e: France
+          f: ""
   - title: Exposés ! Talks
     web:
       dedicated: /talk
     content:
       - subsection: Sur invitation ! Invited
       - entry:
-          - 05/2019\*
-          - Higher Homotopy Algebras in Topology
-          - Max Planck Institute for Mathematics (MPIM)
-          - Bonn
-          - Allemagne ! Germany
-          - TBA
+          a: 05/2019\*
+          b: Higher Homotopy Algebras in Topology
+          c: Max Planck Institute for Mathematics (MPIM)
+          d: Bonn
+          e: Allemagne ! Germany
+          f: TBA
       - entry:
-          - 01/2019
-          - Structures Supérieures ! Higher Structures
-          - Centre international de rencontres mathématiques (CIRM)
-          - Luminy
-          - France
-          - Configuration spaces and operads
+          a: 01/2019
+          b: Structures Supérieures ! Higher Structures
+          c: Centre international de rencontres mathématiques (CIRM)
+          d: Luminy
+          e: France
+          f: Configuration spaces and operads
       - entry:
-          - 06/2018
-          - "Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l'école d'été) ! Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker at the summer school)"
-          - Fields Institute
-          - Toronto
-          - Canada
-          - Curved Koszul Duality for Algebras over Unital Operads
+          a: 06/2018
+          b: "Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l'école d'été) ! Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker at the summer school)"
+          c: Fields Institute
+          d: Toronto
+          e: Canada
+          f: Curved Koszul Duality for Algebras over Unital Operads
       - entry:
-          - 05/2018
-          - Graph Complexes, Configuration Spaces and Manifold Calculus
-          - University of British Columbia
-          - Vancouver
-          - Canada
-          - Configuration Spaces of Manifolds with Boundary
+          a: 05/2018
+          b: Graph Complexes, Configuration Spaces and Manifold Calculus
+          c: University of British Columbia
+          d: Vancouver
+          e: Canada
+          f: Configuration Spaces of Manifolds with Boundary
       - entry:
-          - 10/2017
-          - Séminaire Itinérant de Catégories
-          - Université du Littoral Côte d'Opale
-          - Calais
-          - France
-          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          a: 10/2017
+          b: Séminaire Itinérant de Catégories
+          c: Université du Littoral Côte d'Opale
+          d: Calais
+          e: France
+          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
-          - 10/2016
-          - "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
-          - Institut des Hautes Études (IHET)
-          - Tunis
-          - Tunisie ! Tunisia
-          - The Lambrechts--Stanley Model of Configuration Spaces
+          a: 10/2016
+          b: "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
+          c: Institut des Hautes Études (IHET)
+          d: Tunis
+          e: Tunisie ! Tunisia
+          f: The Lambrechts--Stanley Model of Configuration Spaces
       - subsection: Sur proposition ! Contributed
       - entry:
-          - 07/2017
-          - Young Topologists Meeting 2017
-          - Stockholm University + Royal Institute of Technology (KTH)
-          - Stockholm
-          - Suède ! Sweden
-          - The Lambrechts--Stanley Model of Configuration Spaces
+          a: 07/2017
+          b: Young Topologists Meeting 2017
+          c: Stockholm University + Royal Institute of Technology (KTH)
+          d: Stockholm
+          e: Suède ! Sweden
+          f: The Lambrechts--Stanley Model of Configuration Spaces
       - entry:
-          - 02/2017
-          - Conference for Young researchers in homotopy theory and categorical structures
-          - Max Planck Institute for Mathematics (MPIM)
-          - Bonn
-          - Allemagne ! Germany
-          - The Lambrechts--Stanley Model of Configuration Spaces
+          a: 02/2017
+          b: Conference for Young researchers in homotopy theory and categorical structures
+          c: Max Planck Institute for Mathematics (MPIM)
+          d: Bonn
+          e: Allemagne ! Germany
+          f: The Lambrechts--Stanley Model of Configuration Spaces
       - entry:
-          - 10/2016
-          - Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
-          - Université de Picardie Jules Verne -- LAMFA
-          - Amiens
-          - France
-          - The Lambrechts--Stanley Model of Configuration Spaces
+          a: 10/2016
+          b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
+          c: Université de Picardie Jules Verne -- LAMFA
+          d: Amiens
+          e: France
+          f: The Lambrechts--Stanley Model of Configuration Spaces
       - subsection: Séminaires ! Seminars
       - entry:
-          - 12/2018
-          - Stockholm Topology Seminar
-          - Stockholm University + Royal Institute of Technology (KTH)
-          - Stockholm
-          - Suède ! Sweden
-          - Configuration spaces and Operads
+          a: 12/2018
+          b: Stockholm Topology Seminar
+          c: Stockholm University + Royal Institute of Technology (KTH)
+          d: Stockholm
+          e: Suède ! Sweden
+          f: Configuration spaces and Operads
       - entry:
-          - 11/2018
-          - Séminaire Géométrie & Topologie ! Geometry & Topology Seminar
-          - IMJ-PRG
-          - Paris
-          - France
-          - Espaces de configuration et Opérades
+          a: 11/2018
+          b: Séminaire Géométrie & Topologie ! Geometry & Topology Seminar
+          c: IMJ-PRG
+          d: Paris
+          e: France
+          f: Espaces de configuration et Opérades
       - entry:
-         - 06/2018
-         - Departmental Colloquium ! Colloque du département
-         - University of Regina
-         - Regina (SK)
-         - Canada
-         - Configuration Spaces and Graphs Complexes
+          a: 06/2018
+          b: Departmental Colloquium ! Colloque du département
+          c: University of Regina
+          d: Regina (SK)
+          e: Canada
+          f: Configuration Spaces and Graphs Complexes
       - entry:
-          - 12/2017
-          - Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
-          - Université de Nantes
-          - Nantes
-          - France
-          - Espaces de configuration de variétés compactes
+          a: 12/2017
+          b: Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
+          c: Université de Nantes
+          d: Nantes
+          e: France
+          f: Espaces de configuration de variétés compactes
       - entry:
-          - 12/2017
-          - Séminaire Algèbre et Topologie ! Algebra and Topology seminar
-          - Université de Strasbourg
-          - Strasbourg
-          - France
-          - Espaces de configuration de variétés compactes
+          a: 12/2017
+          b: Séminaire Algèbre et Topologie ! Algebra and Topology seminar
+          c: Université de Strasbourg
+          d: Strasbourg
+          e: France
+          f: Espaces de configuration de variétés compactes
       - entry:
-          - 11/2017
-          - Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
-          - "Université d'Angers"
-          - Angers
-          - France
-          - Espaces de configuration de variétés compactes
+          a: 11/2017
+          b: Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
+          c: "Université d'Angers"
+          d: Angers
+          e: France
+          f: Espaces de configuration de variétés compactes
       - entry:
-          - 11/2017
-          - Séminaire Homotopie en Géométrie Algébrique ! Homotopy in Algebraic Geometry Seminar
-          - Université Paul Sabatier
-          - Toulouse
-          - France
-          - Espaces de configuration de variétés compactes
+          a: 11/2017
+          b: Séminaire Homotopie en Géométrie Algébrique ! Homotopy in Algebraic Geometry Seminar
+          c: Université Paul Sabatier
+          d: Toulouse
+          e: France
+          f: Espaces de configuration de variétés compactes
       - entry:
-          - 10/2017
-          - Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
-          - Université Lille 1
-          - Lille
-          - France
-          - "Introduction à la théorie de l'homotopie rationnelle"
+          a: 10/2017
+          b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
+          c: Université Lille 1
+          d: Lille
+          e: France
+          f: "Introduction à la théorie de l'homotopie rationnelle"
       - entry:
-          - 10/2017
-          - Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
-          - Université Lille 1
-          - Lille
-          - France
-          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          a: 10/2017
+          b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
+          c: Université Lille 1
+          d: Lille
+          e: France
+          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
-          - 08/2017
-          - Exposés de physique mathématiques ! Talks in mathematical physics
-          - ETH Zürich
-          - Zürich
-          - Suisse ! Switzerland
-          - Configuration Spaces of Compact Manifolds
+          a: 08/2017
+          b: Exposés de physique mathématiques ! Talks in mathematical physics
+          c: ETH Zürich
+          d: Zürich
+          e: Suisse ! Switzerland
+          f: Configuration Spaces of Compact Manifolds
       - entry:
-          - 05/2017
-          - Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
-          - Université Lille 1
-          - Lille
-          - France
-          - Le modèle de Lambrechts--Stanley des espaces de configuration
+          a: 05/2017
+          b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
+          c: Université Lille 1
+          d: Lille
+          e: France
+          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
-          - 05/2017
-          - Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
-          - Université Lille 1
-          - Lille
-          - France
-          - La compactification de Fulton-MacPherson des espaces de configuration
+          a: 05/2017
+          b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
+          c: Université Lille 1
+          d: Lille
+          e: France
+          f: La compactification de Fulton-MacPherson des espaces de configuration
       - entry:
-          - 01/2017
-          - Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
-          - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
-          - Louvain-la-Neuve
-          - Belgique ! Belgium
-          - Le modèle de Lambrechts--Stanley des espaces de configuration
+          a: 01/2017
+          b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
+          c: Université Catholique de Louvain -- Institut de recherche en mathématique et physique
+          d: Louvain-la-Neuve
+          e: Belgique ! Belgium
+          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
-          - 11/2016
-          - Séminaire de topologie algébrique ! Algebraic Topology Seminar
-          - Université Paris 13
-          - Paris
-          - France
-          - Le modèle de Lambrechts--Stanley des espaces de configuration
+          a: 11/2016
+          b: Séminaire de topologie algébrique ! Algebraic Topology Seminar
+          c: Université Paris 13
+          d: Paris
+          e: France
+          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
-          - 09/2016
-          - Séminaire de Topologie ! Topology Seminar
-          - Université Lille 1
-          - Lille
-          - France
-          - Le modèle de Lambrechts--Stanley des espaces de configuration
+          a: 09/2016
+          b: Séminaire de Topologie ! Topology Seminar
+          c: Université Lille 1
+          d: Lille
+          e: France
+          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
-          - 06/2016
-          - Exposés en Physique Mathématique ! Talks in Mathematical Physics
-          - ETH Zürich
-          - Zürich
-          - Suisse ! Switzerland
-          - Swiss-Cheese operad and Drinfeld center
+          a: 06/2016
+          b: Exposés en Physique Mathématique ! Talks in Mathematical Physics
+          c: ETH Zürich
+          d: Zürich
+          e: Suisse ! Switzerland
+          f: Swiss-Cheese operad and Drinfeld center
       - entry:
-          - 04/2016
-          - Séminaire de Topologie ! Topology Seminar
-          - IMJ-PRG
-          - Paris
-          - France
-          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          a: 04/2016
+          b: Séminaire de Topologie ! Topology Seminar
+          c: IMJ-PRG
+          d: Paris
+          e: France
+          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
-          - 12/2015
-          - "Séminaire des doctorants ! PhD students' seminar"
-          - Université Lille\ 1 -- Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - Opérades
+          a: 12/2015
+          b: "Séminaire des doctorants ! PhD students' seminar"
+          c: Université Lille\ 1 -- Laboratoire Paul Painlevé
+          d: Lille
+          e: France
+          f: Opérades
       - entry:
-          - 12/2015
-          - "Séminaire des doctorants ! PhD students' seminar"
-          - Université de Picardie Jules Verne -- LAMFA
-          - Amiens
-          - France
-          - Opérades
+          a: 12/2015
+          b: "Séminaire des doctorants ! PhD students' seminar"
+          c: Université de Picardie Jules Verne -- LAMFA
+          d: Amiens
+          e: France
+          f: Opérades
       - entry:
-          - 10/2015
-          - Séminaire de Topologie Algébrique ! Algebraic Topology seminar
-          - Université Catholique de Louvain -- Institut de recherche en mathématique et physique
-          - Louvain-la-Neuve
-          - Belgique ! Belgium
-          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          a: 10/2015
+          b: Séminaire de Topologie Algébrique ! Algebraic Topology seminar
+          c: Université Catholique de Louvain -- Institut de recherche en mathématique et physique
+          d: Louvain-la-Neuve
+          e: Belgique ! Belgium
+          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
-          - 09/2015
-          - Séminaire de Topologie ! Topology Seminar
-          - Université Lille\ 1 -- Laboratoire Paul Painlevé
-          - Lille
-          - France
-          - "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          a: 09/2015
+          b: Séminaire de Topologie ! Topology Seminar
+          c: Université Lille\ 1 -- Laboratoire Paul Painlevé
+          d: Lille
+          e: France
+          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
   - title: Visites de recherche ! Research visits
     content:
       - item:
-          - 06/2019\*, 5 jours ! 06/2019\*, 5 days
-          - ETH Zurich -- Thomas Willwacher
+          a: 06/2019\*, 5 jours ! 06/2019\*, 5 days
+          b: ETH Zurich -- Thomas Willwacher
       - item:
-          - 06/2018, 10 jours ! 06/2018, 10 days
-          - University of Regina -- Don Stanley
+          a: 06/2018, 10 jours ! 06/2018, 10 days
+          b: University of Regina -- Don Stanley
       - item:
-          - 08/2017, 5 jours ! 08/2017, 5 days
-          - ETH Zurich -- Thomas Willwacher
+          a: 08/2017, 5 jours ! 08/2017, 5 days
+          b: ETH Zurich -- Thomas Willwacher
       - item:
-          - 01/2017, 5 jours ! 01/2017, 5 days
-          - Université catholique de Louvain -- Pascal Lambrechts
+          a: 01/2017, 5 jours ! 01/2017, 5 days
+          b: Université catholique de Louvain -- Pascal Lambrechts
       - item:
-          - 06/2016, 4 jours ! 06/2016, 4 days
-          - ETH Zurich -- Thomas Willwacher
+          a: 06/2016, 4 jours ! 06/2016, 4 days
+          b: ETH Zurich -- Thomas Willwacher
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
       - item:
-          - 06/2019\*
-          - SYM 10 Years Old @ Københavns Universitet
+          a: 06/2019\*
+          b: SYM 10 Years Old @ Københavns Universitet
       - item:
-          - 05/2019\*
-          - Higher Homotopy Algebras in Topology @ Max Planck Institute for Mathematics (MPIM, Bonn)
+          a: 05/2019\*
+          b: Higher Homotopy Algebras in Topology @ Max Planck Institute for Mathematics (MPIM, Bonn)
       - item:
-          - 01/2019
-          - Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy)
+          a: 01/2019
+          b: Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy)
       - item:
-          - 01/2019
-          - Higher Structures in Holomorphic and Topological Field Theory @ Institut des Hautes Études Scientifiques (Paris-Saclay)
+          a: 01/2019
+          b: Higher Structures in Holomorphic and Topological Field Theory @ Institut des Hautes Études Scientifiques (Paris-Saclay)
       - item:
-          - 10/2018
-          - New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday @ Institut Henri Poincaré (Paris)
+          a: 10/2018
+          b: New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday @ Institut Henri Poincaré (Paris)
       - item:
-          - 10/2018
-          - Colloque 2018 du GDR Topologie Algébrique @ Université de Montpellier
+          a: 10/2018
+          b: Colloque 2018 du GDR Topologie Algébrique @ Université de Montpellier
       - item:
-          - 06/2018
-          - Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields (Toronto) ! Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Fields Institute (Toronto)
+          a: 06/2018
+          b: Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields (Toronto) ! Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Fields Institute (Toronto)
       - item:
-          - 05/2018
-          - Graph Complexes, Configuration Spaces and Manifold Calculus @ University of British Columbia (Vancouver)
+          a: 05/2018
+          b: Graph Complexes, Configuration Spaces and Manifold Calculus @ University of British Columbia (Vancouver)
       - item:
-          - 01/2018
-          - Rational Homotopy and its Applications @ Université de Lille
+          a: 01/2018
+          b: Rational Homotopy and its Applications @ Université de Lille
       - item:
-          - 10/2017
-          - Colloque 2017 du GDR Topologie Algébrique @ Université Paris 7
+          a: 10/2017
+          b: Colloque 2017 du GDR Topologie Algébrique @ Université Paris 7
       - item:
-          - 10/2017
-          - "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale (Calais)"
+          a: 10/2017
+          b: "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale (Calais)"
       - item:
-          - 09/2017
-          - "Journée des doctorants du Nord-Pas-de-Calais @ Université du Littoral Côte d'Opale (Calais)"
+          a: 09/2017
+          b: "Journée des doctorants du Nord-Pas-de-Calais @ Université du Littoral Côte d'Opale (Calais)"
       - item:
-          - 07/2017
-          - Workshop on Persistent Homology @ Université de Montpellier
+          a: 07/2017
+          b: Workshop on Persistent Homology @ Université de Montpellier
       - item:
-          - 07/2017
-          - Young Topologists Meeting 2017 @ Stockholm University + Royal Institute of Technology (KTH)
+          a: 07/2017
+          b: Young Topologists Meeting 2017 @ Stockholm University + Royal Institute of Technology (KTH)
       - item:
-          - 06/2017
-          - Algebraic Topology and Representation Theory @ Université de Lille
+          a: 06/2017
+          b: Algebraic Topology and Representation Theory @ Université de Lille
       - item:
-          - 06/2017
-          - Derived Algebraic Geometry and Interactions @ Université de Toulouse
+          a: 06/2017
+          b: Derived Algebraic Geometry and Interactions @ Université de Toulouse
       - item:
-          - 06/2017
-          - Fourth Young Mathematicians Colloquium @ Vrije Universiteit Brussel
+          a: 06/2017
+          b: Fourth Young Mathematicians Colloquium @ Vrije Universiteit Brussel
       - item:
-          - 05/2017
-          - "Lens Topology and geometry 2017 @ Université d'Artois (Lens)"
+          a: 05/2017
+          b: "Lens Topology and geometry 2017 @ Université d'Artois (Lens)"
       - item:
-          - 03/2017
-          - Workshop on Quantum Topology @ Université Lille 1
+          a: 03/2017
+          b: Workshop on Quantum Topology @ Université Lille 1
       - item:
-          - 02/2017
-          - Conference for Young researchers in homotopy theory and categorical structures @ Max Planck Institute for Mathematics (MPIM Bonn)
+          a: 02/2017
+          b: Conference for Young researchers in homotopy theory and categorical structures @ Max Planck Institute for Mathematics (MPIM Bonn)
       - item:
-          - 10/2016
-          - "Conférence en l'honneur de Saïd Zarati @ IHET (Tunis) ! Conference in the honour of Saïd Zarati @ IHET (Tunis)"
+          a: 10/2016
+          b: "Conférence en l'honneur de Saïd Zarati @ IHET (Tunis) ! Conference in the honour of Saïd Zarati @ IHET (Tunis)"
       - item:
-          - 10/2016
-          - Colloque 2016 du GDR Topologie Algébrique et Applications @ Université de Picardie Jules Verne (Amiens)
+          a: 10/2016
+          b: Colloque 2016 du GDR Topologie Algébrique et Applications @ Université de Picardie Jules Verne (Amiens)
       - item:
-          - 07/2016
-          - Young Topologists Meeting 2016 @ Københavns Universitet
+          a: 07/2016
+          b: Young Topologists Meeting 2016 @ Københavns Universitet
       - item:
-          - 05/2016
-          - "Workshop: Factorization Algebras and Functorial Field Theories @ Mathematisches Forschungsinstitut Oberwolfach"
+          a: 05/2016
+          b: "Workshop: Factorization Algebras and Functorial Field Theories @ Mathematisches Forschungsinstitut Oberwolfach"
       - item:
-          - 03/2016
-          - Séminaire Itinérant de Catégories @ Université Lille\ 1
+          a: 03/2016
+          b: Séminaire Itinérant de Catégories @ Université Lille\ 1
       - item:
-          - 10/2015
-          - Colloque 2015 du GDR Topologie Algébrique et Applications @ Université de Toulouse-3
+          a: 10/2015
+          b: Colloque 2015 du GDR Topologie Algébrique et Applications @ Université de Toulouse-3
       - item:
-          - 06/2015
-          - "Lens Topology and geometry 2015 @ Université d'Artois (Lens)"
+          a: 06/2015
+          b: "Lens Topology and geometry 2015 @ Université d'Artois (Lens)"
       - item:
-          - 05/2015
-          - Introductory School -- Homotopy theory, manifolds, and field theories @ Hausdorff Research Institute for Mathematics
+          a: 05/2015
+          b: Introductory School -- Homotopy theory, manifolds, and field theories @ Hausdorff Research Institute for Mathematics
       - item:
-          - 03/2015
-          - Séminaire du projet ANR HOGT @ Université de Strasbourg
+          a: 03/2015
+          b: Séminaire du projet ANR HOGT @ Université de Strasbourg
       - item:
-          - 03/2015
-          - Second Young Mathematicians Colloquium @ KU Leuven Kulak
+          a: 03/2015
+          b: Second Young Mathematicians Colloquium @ KU Leuven Kulak
       - item:
-          - 03/2015
-          - "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale (Calais)"
+          a: 03/2015
+          b: "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale (Calais)"
       - item:
-          - 02/2015
-          - "Masterclass : K-théorie topologique et applications @ Université de Strasbourg"
+          a: 02/2015
+          b: "Masterclass : K-théorie topologique et applications @ Université de Strasbourg"
       - item:
-          - 01/2015
-          - Séminaire du projet ANR HOGT @ Université Lille\ 1
+          a: 01/2015
+          b: Séminaire du projet ANR HOGT @ Université Lille\ 1
       - item:
-          - 10/2014
-          - Colloque 2014 du GDR Topologie Algébrique et Applications @ Université Blaise Pascal (Clermont-Ferrand)
+          a: 10/2014
+          b: Colloque 2014 du GDR Topologie Algébrique et Applications @ Université Blaise Pascal (Clermont-Ferrand)
       - item:
-          - 09/2014
-          - Colloque de clôture du projet ANR HOGT @ Université de Nice
+          a: 09/2014
+          b: Colloque de clôture du projet ANR HOGT @ Université de Nice
       - item:
-          - 09/2014
-          - Espaces des lacets en géométrie et topologie @ Université de Nantes
+          a: 09/2014
+          b: Espaces des lacets en géométrie et topologie @ Université de Nantes
       - item:
-          - 06/2014
-          - Young Topologists Meeting 2014 @ Københavns Universitet
+          a: 06/2014
+          b: Young Topologists Meeting 2014 @ Københavns Universitet
       - item:
-          - 05/2014
-          - Young Mathematicians Colloquium @ Université Lille\ 1
+          a: 05/2014
+          b: Young Mathematicians Colloquium @ Université Lille\ 1
       - item:
-          - 01/2014
-          - Séminaire du projet ANR HOGT @ Université Lille\ 1
+          a: 01/2014
+          b: Séminaire du projet ANR HOGT @ Université Lille\ 1
       - item:
-          - 09/2013
-          - "Gelfand Centennial Conference: A View of 21st Century Mathematics @ Massachusetts Institute of Technology"
+          a: 09/2013
+          b: "Gelfand Centennial Conference: A View of 21st Century Mathematics @ Massachusetts Institute of Technology"
       - item:
-          - 05/2013
-          - "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
+          a: 05/2013
+          b: "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
       - item:
-          - '(\*:'
-          - Futur) ! Future)
+          a: '(\*:'
+          b: Futur) ! Future)
 ...

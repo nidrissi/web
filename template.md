@@ -1,4 +1,5 @@
 ---
+# automatically generated file, edit template.md instead!
 title: Curriculum Vitæ
 lastmod: $lastmod$
 date: 2018-01-01
@@ -14,36 +15,41 @@ menu:
 $for(section)$
 $if(section.web)$
 
-### $section.title$$if(section.web.more)$ ([$i18n.more$]({{< ref "$section.web.more$" >}}))$endif$
+### $section.title$$if(section.web.more)$ <small>([$i18n.more$]({{< ref "$section.web.more$" >}}))</small>$endif$
 
 $if(section.web.dedicated)$
-[→ $i18n.dedicated$]({{< ref "$section.web.dedicated$"}})
+[→ $i18n.dedicated$]({{< ref "$section.web.dedicated$" >}})
 
 $else$
-<dl class="row">
+
+$if(section.content)$<dl class="row">$endif$
 
 $for(section.content)$
 $if(section.content.subsection)$
 </dl>
+
 #### $section.content.subsection$
+
 <dl class="row">
 $endif$
 
 $if(section.content.entry)$
-{{< cventry $for(section.content.entry)$ "$section.content.entry$" $endfor$ >}}
+<dt class="col-lg-2 col-sm-3">$section.content.entry.a$</dt>
+<dd class="col-lg-10 col-sm-9"><strong>$section.content.entry.b$</strong>$if(section.content.entry.c)$, <em>$section.content.entry.c$</em>$endif$$if(section.content.entry.d)$, $section.content.entry.d$$endif$$if(section.content.entry.e)$, $section.content.entry.e$$endif$$if(section.content.entry.f)$<br>$section.content.entry.f$$endif$</dd>
 $endif$
 
 $if(section.content.item)$
-{{< cvitem $for(section.content.item)$ "$section.content.item$" $endfor$ >}}
+<dt class="col-lg-2 col-sm-3">$section.content.item.a$</dt>
+<dd class="col-lg-10 col-sm-9">$section.content.item.b$</dd>
 $endif$
 $endfor$
 
+$if(section.content)$</dl>$endif$
+
 $for(section.bib)$
-#### $section.bib.title$
+<h4>$section.bib.title$</h4>
 {{< cvbib "$section.bib.key$" >}}
 $endfor$
-
-</dl>
 $endif$
 
 $endif$
