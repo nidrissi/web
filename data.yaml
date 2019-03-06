@@ -4,7 +4,7 @@ lastmod: 2019-03-06
 lang: fr ! en
 i18n:
   complete: Version complète au format PDF ! Complete version in PDF format
-  more: Plus d'infos ! More info
+  more: plus d'infos ! more info
   dedicated: voir la page dédiée ! see dedicated page
 # moderncv options
 style: classic
@@ -70,7 +70,7 @@ section:
             Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology.
   - title: Recherche ! Research
     web:
-      link: /research
+      more: /research
     bib:
       - title: Publications
         key: publication
@@ -80,7 +80,7 @@ section:
         key: other
   - title: Enseignement ! Teaching
     web:
-      link: /enseignement
+      more: /enseignement
     content:
       - item:
           - 2018--2019
@@ -178,8 +178,7 @@ section:
           - ""
   - title: Exposés ! Talks
     web:
-      link: /talk
-      empty: true
+      dedicated: /talk
     content:
       - subsection: Sur invitation ! Invited
       - entry:
