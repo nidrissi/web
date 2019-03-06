@@ -1,5 +1,6 @@
 LATEX = latexmk -pdf
-TEMPLATE = template.tex
+TPL_TEX = template.tex
+TPL_MD = template.md
 WTARGET = ..\web\content\cv
 TARGET = ../web/content/cv
 
@@ -11,19 +12,19 @@ all: french.out.pdf english.out.pdf french.out.md english.out.md
 english.out.yaml french.out.yaml: data.yaml
 	perl cvsplit.pl
 
-%.out.tex: %.out.yaml template.tex
-	pandoc --template template.tex -V mylang=$* $< -o $@
+%.out.tex: %.out.yaml $(TPL_TEX)
+	pandoc --template $(TPL_TEX) -V mylang=$* $< -o $@
 
 %.out.pdf: %.out.tex
 	$(LATEX) $<
 	cp build/$@ .
 
-%.out.md: %.out.yaml template.md
-	pandoc --template template.md $< --to html -o $@
+%.out.md: %.out.yaml $(TPL_MD)
+	pandoc --template $(TPL_MD) $< --to html -o $@
 
 copy: all
-	cp french.out.pdf $(TARGET)/cv-french.pdf
-	cp english.out.pdf $(TARGET)/cv-english.pdf
+	cp french.out.pdf $(TARGET)/cv.fr.pdf
+	cp english.out.pdf $(TARGET)/cv.en.pdf
 	cp french.out.md $(TARGET)/index.fr.md
 	cp english.out.md $(TARGET)/index.en.md
 
