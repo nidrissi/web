@@ -14,6 +14,6 @@ I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-pr
 You can find more info in [my CV]({{< ref "/cv" >}}).
 
 I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG.
-I am also involved in the organization of a [reading seminar on homological stability (in French)]({{< ref path="gdt-stabilite" lang="fr" >}}) in 2019.
+I am also involved in the organization of a [working seminar on homological stability (in French)]({{< ref path="gdt-stabilite" lang="fr" >}}) in 2019.
 
 I am active on [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) and [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).
