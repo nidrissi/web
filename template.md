@@ -15,10 +15,10 @@ menu:
 $for(section)$
 $if(section.web)$
 
-### $section.title$$if(section.web.more)$ <small>([$i18n.more$]({{< ref "$section.web.more$" >}}))</small>$endif$
+### $section.title$$if(section.more)$ <small>([$i18n.more$]({{< ref "$section.more$" >}}))</small>$endif$
 
-$if(section.web.dedicated)$
-[→ $i18n.dedicated$]({{< ref "$section.web.dedicated$" >}})
+$if(section.dedicated)$
+[→ $i18n.dedicated$]({{< ref "$section.dedicated$" >}})
 
 $else$
 

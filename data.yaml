@@ -69,8 +69,8 @@ section:
             2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
             Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology.
   - title: Recherche ! Research
-    web:
-      more: /research
+    web: true
+    more: /research
     bib:
       - title: Publications
         key: publication
@@ -79,8 +79,8 @@ section:
       - title: Autres documents ! Other documents
         key: other
   - title: Enseignement ! Teaching
-    web:
-      more: /enseignement
+    web: true
+    more: /enseignement
     content:
       - item:
           a: 2018--2019
@@ -177,8 +177,8 @@ section:
           e: ""
           f: ""
   - title: Exposés ! Talks
-    web:
-      dedicated: /talk
+    web: true
+    more: /talk
     content:
       - subsection: Sur invitation ! Invited
       - entry:
@@ -394,6 +394,7 @@ section:
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
   - title: Visites de recherche ! Research visits
+    web: true
     content:
       - item:
           a: 06/2019\*, 5 jours ! 06/2019\*, 5 days
@@ -411,6 +412,7 @@ section:
           a: 06/2016, 4 jours ! 06/2016, 4 days
           b: ETH Zurich -- Thomas Willwacher
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
+    web: true
     content:
       - item:
           a: 06/2019\*
