@@ -192,7 +192,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">07/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm University + Royal Institute of Technology (KTH)</em>, Stockholm, Suède.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Suède.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
 
 
 <dt class="col-lg-2 col-sm-3">02/2017</dt>
@@ -211,7 +211,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">12/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Stockholm Topology Seminar</strong>, <em>Stockholm University + Royal Institute of Technology (KTH)</em>, Stockholm, Suède.<br>Configuration spaces and Operads</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Stockholm Topology Seminar</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Suède.<br>Configuration spaces and Operads</dd>
 
 
 <dt class="col-lg-2 col-sm-3">11/2018</dt>
@@ -388,7 +388,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">07/2017</dt>
-<dd class="col-lg-10 col-sm-9">Young Topologists Meeting 2017 @ Stockholm University + Royal Institute of Technology (KTH).</dd>
+<dd class="col-lg-10 col-sm-9">Young Topologists Meeting 2017 @ Stockholm Universitet &amp; KTH.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">06/2017</dt>
