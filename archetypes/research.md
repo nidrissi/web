@@ -3,6 +3,8 @@ title: {{ replace .TranslationBaseName "-" " " | title }}
 date: {{ .Date }}
 draft: false
 authors: [""]
+# for cv: preprint, publication, or other
+mytype:
 publication:
 abstract:
 tags: []

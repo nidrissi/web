@@ -3,6 +3,7 @@ abstract: We build a model in groupoids for the Swiss-Cheese operad, based on pa
 authors:
   - me
 date: 2017-09-22
+mytype: publication
 publication: "In: *Israel J. Math* 221.2, pp. 941--972"
 title: Swiss-Cheese Operad and Drinfeld Center
 urls:

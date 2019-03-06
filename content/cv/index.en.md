@@ -98,7 +98,7 @@ Selecta Mathematica
 
 ### Teaching
 
-[→ see dedicated page.]({{< ref "enseignement" >}})
+[→ see dedicated page.]({{< ref "/enseignement" >}})
 
 ### Talks
 
