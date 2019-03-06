@@ -21,7 +21,7 @@ english.out.yaml french.out.yaml: data.yaml
 %.out.md: %.out.yaml template.md
 	pandoc --template template.md $< --to html -o $@
 
-copy:
+copy: all
 	cp french.out.pdf $(TARGET)/cv-french.pdf
 	cp english.out.pdf $(TARGET)/cv-english.pdf
 	cp french.out.md $(TARGET)/index.fr.md
@@ -31,11 +31,11 @@ clean:
 	rm -rf *.pdf *.out.yaml *.out.tex *.out.md build
 
 # windows
-wcopy:
+wcopy: all
 	cmd /c copy /y french.out.pdf $(WTARGET)\cv-fr.pdf
 	cmd /c copy /y english.out.pdf $(WTARGET)\cv-en.pdf
-#	cmd /c copy /y french.out.md $(WTARGET)\index.fr.md
-#	cmd /c copy /y english.out.md $(WTARGET)\index.en.md
+	cmd /c copy /y french.out.md $(WTARGET)\index.fr.md
+	cmd /c copy /y english.out.md $(WTARGET)\index.en.md
 
 wclean:
 	cmd /c del /q *.pdf *.out.yaml *.out.tex *.out.md build
