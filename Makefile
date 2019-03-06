@@ -1,13 +1,23 @@
-BUILD = build
+ifeq ($(OS),Windows_NT)
+	sep = \\
+	DIR = ..\web\content\cv
+	BUILD = build
+	CP = copy /y
+	RM = del /q
+else
+	sep = /
+	DIR = ../web/content/cv
+	BUILD = build
+	CP = cp
+	RM = rm -rf
+endif
+
 LATEX = latexmk -pdf -lualatex -quiet -outdir=$(BUILD)
 
 TPL_TEX = template.tex
 TPL_MD = template.md
 
 TARGET = french.out.pdf english.out.pdf french.out.md english.out.md
-
-WDIR = ..\web\content\cv
-DIR = ../web/content/cv
 
 .PHONY: all copy clean wcopy wclean
 .SECONDARY: french.out.tex english.out.tex french.out.yaml english.out.yaml
@@ -22,27 +32,16 @@ english.out.yaml french.out.yaml: data.yaml
 
 %.out.pdf: %.out.tex
 	$(LATEX) $<
-	@echo
-	cp $(BUILD)/$@ .
+	$(CP) $(BUILD)$(sep)$@ .
 
 %.out.md: %.out.yaml $(TPL_MD)
 	pandoc --template $(TPL_MD) --to html $< --output=$@
 
 copy: all
-	cp french.out.pdf $(DIR)/cv.fr.pdf
-	cp english.out.pdf $(DIR)/cv.en.pdf
-	cp french.out.md $(DIR)/index.fr.md
-	cp english.out.md $(DIR)/index.en.md
+	$(CP) french.out.pdf $(DIR)$(sep)cv.fr.pdf
+	$(CP) english.out.pdf $(DIR)$(sep)cv.en.pdf
+	$(CP) french.out.md $(DIR)$(sep)index.fr.md
+	$(CP) english.out.md $(DIR)$(sep)index.en.md
 
 clean:
-	rm -rf *.out.* $(BUILD)
-
-# windows
-wcopy: all
-	cmd /c copy /y french.out.pdf $(WDIR)\cv-fr.pdf
-	cmd /c copy /y english.out.pdf $(WDIR)\cv-en.pdf
-	cmd /c copy /y french.out.md $(WDIR)\index.fr.md
-	cmd /c copy /y english.out.md $(WDIR)\index.en.md
-
-wclean:
-	cmd /c del /q *.out.* $(BUILD)
+	$(RM) *.out.* $(BUILD)
