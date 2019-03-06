@@ -22,7 +22,7 @@ $if(section.dedicated)$
 
 $else$
 
-$if(section.content)$<dl class="row">$endif$
+$if(section.content)$<dl class="row pl-3 mb-0">$endif$
 
 $for(section.content)$
 $if(section.content.subsection)$
@@ -30,7 +30,7 @@ $if(section.content.subsection)$
 
 #### $section.content.subsection$
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 $endif$
 
 $if(section.content.entry)$
@@ -47,8 +47,10 @@ $endfor$
 $if(section.content)$</dl>$endif$
 
 $for(section.bib)$
-<h4>$section.bib.title$</h4>
+#### $section.bib.title$
+
 {{< cvbib "$section.bib.key$" >}}
+
 $endfor$
 $endif$
 
