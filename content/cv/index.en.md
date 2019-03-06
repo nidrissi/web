@@ -20,23 +20,23 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3">Since 09/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Switzerland<br>Supervisor: Thomas Willwacher. Funded by ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Switzerland<br>Supervisor: Thomas Willwacher. Funded by ERC StG 678156–GRAPHCPX..</dd>
 
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France<br>Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.<br />
-Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
+Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>..</dd>
 
 
 <dt class="col-lg-2 col-sm-3">09/2011–08/2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France<br>Ranked 1<sup>st</sup> on the “INFO” competitive entrance exam.<br />
 2014–2015: Research internship in preparation of a PhD, Université Lille 1.<br />
 2013–2014: Master’s degree in Fundamental Mathematics, Université Paris Diderot.<br />
-Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
+Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology..</dd>
 
 
 </dl>
@@ -67,19 +67,19 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 
 <dt class="col-lg-2 col-sm-3">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h); Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)</dd>
+<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h); Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h); Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 10h)</dd>
+<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h); Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 10h).</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Matrix calculus, L2 econ-management (exercises, 36h); Calculus 1, L1 econ-management (exercises, 15h); Calculus 1, L1 MASS (exercises, 15h)</dd>
+<dd class="col-lg-10 col-sm-9">Matrix calculus, L2 econ-management (exercises, 36h); Calculus 1, L1 econ-management (exercises, 15h); Calculus 1, L1 MASS (exercises, 15h).</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Fundamental mathematics 2, L1 SESI (exercises, 66h)</dd>
+<dd class="col-lg-10 col-sm-9">Fundamental mathematics 2, L1 SESI (exercises, 66h).</dd>
 
 </dl>
 
@@ -93,15 +93,15 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Exploratory Project, First Support “Young Researcher” (PEPS JCJC), CNRS / Insmi, 3500 €</dd>
+<dd class="col-lg-10 col-sm-9">Exploratory Project, First Support “Young Researcher” (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2015–2018</dt>
-<dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris</dd>
+<dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9">Oberwolfach Leibniz Graduate Students (for “Factorization Algebras and Functorial Field Theories”)</dd>
+<dd class="col-lg-10 col-sm-9">Oberwolfach Leibniz Graduate Students (for “Factorization Algebras and Functorial Field Theories”).</dd>
 
 </dl>
 
@@ -114,27 +114,27 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 
 <dt class="col-lg-2 col-sm-3">Since 10/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="www.imj-prg.fr/spip.php?article67">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="www.imj-prg.fr/spip.php?article67">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Organization of a <a href="https://idrissi.eu/fr/gdt-stabilite/">reading seminar on homological stability</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Organization of a <a href="https://idrissi.eu/fr/gdt-stabilite/">reading seminar on homological stability</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Participation to the organization of the introductory day for young researchers</strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Participation to the organization of the introductory day for young researchers</strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris, France.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>One of the organizer of the PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France</dd>
+<dd class="col-lg-10 col-sm-9"><strong>One of the organizer of the PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer review</strong><br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Peer review</strong><br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Writing of abstracts for Zentralblatt MATH</strong></dd>
+<dd class="col-lg-10 col-sm-9"><strong>Writing of abstracts for Zentralblatt MATH</strong>.</dd>
 
 
 </dl>
