@@ -16,7 +16,7 @@ menu:
 ### Career
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 <dt class="col-lg-2 col-sm-3">Since 09/2018</dt>
@@ -51,18 +51,24 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 
 
-<h4>Publications</h4>
+#### Publications
+
 {{< cvbib "publication" >}}
-<h4>Preprints</h4>
+
+#### Preprints
+
 {{< cvbib "preprint" >}}
-<h4>Other documents</h4>
+
+#### Other documents
+
 {{< cvbib "other" >}}
+
 
 
 ### Teaching <small>([more info]({{< ref "/enseignement" >}}))</small>
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -88,7 +94,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 ### Funding
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -110,7 +116,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 ### Service
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 <dt class="col-lg-2 col-sm-3">Since 10/2018</dt>
@@ -144,13 +150,13 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 ### Talks <small>([more info]({{< ref "/talk" >}}))</small>
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 </dl>
 
 #### Invited
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -181,7 +187,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 #### Contributed
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -200,7 +206,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 #### Seminars
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -295,7 +301,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 ### Research visits
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -325,7 +331,7 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 ### Conferences, workshops and thematic schools attended
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 

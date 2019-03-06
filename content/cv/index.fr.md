@@ -16,7 +16,7 @@ menu:
 ### Parcours
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 <dt class="col-lg-2 col-sm-3">Depuis 09/2018</dt>
@@ -51,18 +51,24 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 
-<h4>Publications</h4>
+#### Publications
+
 {{< cvbib "publication" >}}
-<h4>Prépublications</h4>
+
+#### Prépublications
+
 {{< cvbib "preprint" >}}
-<h4>Autres documents</h4>
+
+#### Autres documents
+
 {{< cvbib "other" >}}
+
 
 
 ### Enseignement <small>([plus d’infos]({{< ref "/enseignement" >}}))</small>
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -88,7 +94,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 ### Financements
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -110,7 +116,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 ### Service
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 <dt class="col-lg-2 col-sm-3">Depuis 10/2018</dt>
@@ -144,13 +150,13 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 ### Exposés <small>([plus d’infos]({{< ref "/talk" >}}))</small>
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 </dl>
 
 #### Sur invitation
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -181,7 +187,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 #### Sur proposition
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -200,7 +206,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 #### Séminaires
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -295,7 +301,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 ### Visites de recherche
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
@@ -325,7 +331,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 ### Conférences, workshops et écoles thématiques
 
 
-<dl class="row">
+<dl class="row pl-3 mb-0">
 
 
 
