@@ -137,25 +137,6 @@ section:
           e: France
           f: ""
       - entry:
-          a: en cours ! ongoing
-          b: Évaluation d'articles ! Peer review
-          c: ""
-          d: ""
-          e: ""
-          f: |
-            Algebraic & Geometric Topology,
-            Communications in Mathematical Physics,
-            Letters in Mathematical Physics,
-            Royal Society of Edinburgh: Proceedings A,
-            Selecta Mathematica
-      - entry:
-          a: en cours ! ongoing
-          b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
-          c: ""
-          d: ""
-          e: ""
-          f: ""
-      - entry:
           a: 2019
           b: "Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt-stabilite/) ! Organization of a [reading seminar on homological stability](https://idrissi.eu/fr/gdt-stabilite/)"
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
@@ -175,6 +156,25 @@ section:
           c: Laboratoire Paul Painlevé
           d: Lille
           e: France
+          f: ""
+      - entry:
+          a: en cours ! ongoing
+          b: Évaluation d'articles ! Peer review
+          c: ""
+          d: ""
+          e: ""
+          f: |
+            Algebraic & Geometric Topology,
+            Communications in Mathematical Physics,
+            Letters in Mathematical Physics,
+            Royal Society of Edinburgh: Proceedings A,
+            Selecta Mathematica
+      - entry:
+          a: en cours ! ongoing
+          b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
+          c: ""
+          d: ""
+          e: ""
           f: ""
   - title: Exposés ! Talks
     web:
