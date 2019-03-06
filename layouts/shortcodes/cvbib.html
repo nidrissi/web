@@ -1,0 +1,4 @@
+{{- $keyword := .Get 0 -}}
+{{- range (where .Pages "mytype" $keyword).ByDate.Reverse -}}
+{{- .Render "li" -}}
+{{- end -}}
