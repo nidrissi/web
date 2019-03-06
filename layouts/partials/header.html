@@ -14,21 +14,9 @@
 
   {{ $css := slice (resources.Get "css/bootstrap.min.css") (resources.Get "css/fa-svg-with-js.css") (resources.Get "css/style.css") | resources.Concat "bundle.css" | resources.Minify -}}
   <link rel="stylesheet" href="{{ $css.Permalink }}">
-  {{- $js := slice (resources.Get "js/jquery.slim.min.js") (resources.Get "js/bootstrap.min.js") | resources.Concat "bundle.js" | resources.Minify -}}
+  {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get "js/jquery.slim.min.js") (resources.Get "js/bootstrap.min.js") | resources.Concat "bundle.js" | resources.Minify -}}
   <script defer src="{{ $js.Permalink }}"></script>
 
-  <script type="text/x-mathjax-config">
-   MathJax.Hub.Config({
-     tex2jax: {
-       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-       displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-       processEscapes: true
-     },
-     CommonHTML: { linebreaks: { automatic: true } },
-     "HTML-CSS": { linebreaks: { automatic: true } },
-     SVG: { linebreaks: { automatic: true } }
-   });
-  </script>
   <script async src="/mathjax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
   <link rel="icon" type="image/png" href="/img/icon.png">
