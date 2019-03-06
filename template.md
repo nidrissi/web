@@ -20,9 +20,13 @@ $if(section.web.dedicated)$
 [→ $i18n.dedicated$]({{< ref "$section.web.dedicated$"}})
 
 $else$
+<dl class="row">
+
 $for(section.content)$
 $if(section.content.subsection)$
+</dl>
 #### $section.content.subsection$
+<dl class="row">
 $endif$
 
 $if(section.content.entry)$
@@ -39,6 +43,7 @@ $for(section.bib)$
 {{< cvbib "$section.bib.key$" >}}
 $endfor$
 
+</dl>
 $endif$
 
 $endif$

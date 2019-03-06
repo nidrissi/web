@@ -19,7 +19,7 @@ english.out.yaml french.out.yaml: data.yaml
 	cp build/$@ .
 
 %.out.md: %.out.yaml template.md
-	pandoc --template template.md $< -o $@
+	pandoc --template template.md $< --to html -o $@
 
 copy:
 	cp french.out.pdf $(TARGET)/cv-french.pdf
