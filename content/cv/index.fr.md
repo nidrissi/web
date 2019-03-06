@@ -114,7 +114,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">Depuis 10/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du [Séminaire de topology(www.imj-prg.fr/spip.php?article67)</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du <a href="www.imj-prg.fr/spip.php?article67">Séminaire de topologie</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
