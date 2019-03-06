@@ -9,6 +9,8 @@
 \moderncvstyle{$style$}
 \moderncvcolor{$color$}
 
+\usepackage[useregional,$mylang$]{datetime2}
+
 % i18n
 \usepackage{polyglossia}
 \setmainlanguage{$mylang$}
@@ -74,7 +76,7 @@
 \familyname{$familyname$}
 \address$for(address)${$address$}$endfor$
 \email{$email$}
-\extrainfo{$lastmod$}
+\extrainfo{\DTMdate{$lastmod$}}
 \homepage{$homepage$}
 \phone[fixed]{$phone$}
 
