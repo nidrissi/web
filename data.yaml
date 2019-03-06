@@ -32,7 +32,6 @@ section:
           c: Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
-          f: ""
       - entry:
           a: 02/2018--08/2018
           b: Chercheur postdoctorant ! Postdoctoral researcher
@@ -135,34 +134,27 @@ section:
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
-          f: ""
       - entry:
           a: 2019
           b: "Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt-stabilite/) ! Organization of a [working seminar on homological stability](https://idrissi.eu/fr/gdt-stabilite/)"
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
-          f: ""
       - entry:
           a: 10/2017
           b: "Participation à l'organisation de la journée de préparation pour jeunes chercheurs ! Participation to the organization of the introductory day for young researchers"
           c: Colloque 2017 du GDR Topologie Algébrique
           d: Paris
           e: France
-          f: ""
       - entry:
           a: 2016--2017
           b: "Un des organisateurs du Séminaire des doctorants ! One of the organizer of the PhD students' seminar"
           c: Laboratoire Paul Painlevé
           d: Lille
           e: France
-          f: ""
       - entry:
           a: en cours ! ongoing
           b: Évaluation d'articles ! Peer review
-          c: ""
-          d: ""
-          e: ""
           f: |
             Algebraic & Geometric Topology,
             Communications in Mathematical Physics,
@@ -172,10 +164,6 @@ section:
       - entry:
           a: en cours ! ongoing
           b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
-          c: ""
-          d: ""
-          e: ""
-          f: ""
   - title: Exposés ! Talks
     web: true
     more: /talk
@@ -187,7 +175,6 @@ section:
           c: MPIM
           d: Bonn
           e: Allemagne ! Germany
-          f: ""
       - entry:
           a: 01/2019
           b: Structures Supérieures ! Higher Structures
