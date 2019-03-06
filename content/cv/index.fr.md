@@ -24,7 +24,7 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Suisse.<br>Superviseur : Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Suisse.<br>Groupe de Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
@@ -136,7 +136,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Évaluation d’articles</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
 
 
 <dt class="col-lg-2 col-sm-3">en cours</dt>

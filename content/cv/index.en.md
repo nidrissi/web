@@ -24,7 +24,7 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Switzerland.<br>Supervisor: Thomas Willwacher. Funded by ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Switzerland.<br>Group of Thomas Willwacher. Funded by ERC StG 678156–GRAPHCPX.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
@@ -132,11 +132,11 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>One of the organizer of the PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer review</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Peer reviews</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
 
 
 <dt class="col-lg-2 col-sm-3">ongoing</dt>
