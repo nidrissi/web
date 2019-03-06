@@ -35,12 +35,12 @@ $endif$
 
 $if(section.content.entry)$
 <dt class="col-lg-2 col-sm-3">$section.content.entry.a$</dt>
-<dd class="col-lg-10 col-sm-9"><strong>$section.content.entry.b$</strong>$if(section.content.entry.c)$, <em>$section.content.entry.c$</em>$endif$$if(section.content.entry.d)$, $section.content.entry.d$$endif$$if(section.content.entry.e)$, $section.content.entry.e$$endif$$if(section.content.entry.f)$<br>$section.content.entry.f$$endif$</dd>
+<dd class="col-lg-10 col-sm-9"><strong>$section.content.entry.b$</strong>$if(section.content.entry.c)$, <em>$section.content.entry.c$</em>$endif$$if(section.content.entry.d)$, $section.content.entry.d$$endif$$if(section.content.entry.e)$, $section.content.entry.e$$endif$$if(section.content.entry.f)$<br>$section.content.entry.f$$endif$.</dd>
 $endif$
 
 $if(section.content.item)$
 <dt class="col-lg-2 col-sm-3">$section.content.item.a$</dt>
-<dd class="col-lg-10 col-sm-9">$section.content.item.b$</dd>
+<dd class="col-lg-10 col-sm-9">$section.content.item.b$.</dd>
 $endif$
 $endfor$
 
