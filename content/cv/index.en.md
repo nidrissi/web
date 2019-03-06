@@ -36,7 +36,7 @@ Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 <dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>Ranked 1<sup>st</sup> on the “INFO” competitive entrance exam.<br />
 2014–2015: Research internship in preparation of a PhD, Université Lille 1.<br />
 2013–2014: Master’s degree in Fundamental Mathematics, Université Paris Diderot.<br />
-Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
+Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
 
 
 </dl>
