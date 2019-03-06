@@ -117,14 +117,6 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 <dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du [Séminaire de topology(www.imj-prg.fr/spip.php?article67)</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France</dd>
 
 
-<dt class="col-lg-2 col-sm-3">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Évaluation d’articles</strong><br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
-
-
-<dt class="col-lg-2 col-sm-3">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Écriture de résumés pour Zentralblatt MATH</strong></dd>
-
-
 <dt class="col-lg-2 col-sm-3">2019</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Organisation d’un <a href="https://idrissi.eu/fr/gdt-stabilite/">groupe de travail sur la stabilité homologique</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France</dd>
 
@@ -135,6 +127,14 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du Séminaire des doctorants</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France</dd>
+
+
+<dt class="col-lg-2 col-sm-3">en cours</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Évaluation d’articles</strong><br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+
+
+<dt class="col-lg-2 col-sm-3">en cours</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Écriture de résumés pour Zentralblatt MATH</strong></dd>
 
 
 </dl>

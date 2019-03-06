@@ -117,14 +117,6 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 <dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="www.imj-prg.fr/spip.php?article67">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France</dd>
 
 
-<dt class="col-lg-2 col-sm-3">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer review</strong><br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
-
-
-<dt class="col-lg-2 col-sm-3">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Writing of abstracts for Zentralblatt MATH</strong></dd>
-
-
 <dt class="col-lg-2 col-sm-3">2019</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Organization of a <a href="https://idrissi.eu/fr/gdt-stabilite/">reading seminar on homological stability</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France</dd>
 
@@ -135,6 +127,14 @@ Fall 2013 Research internship in algebraic topology, Massachusetts Institute of 
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
 <dd class="col-lg-10 col-sm-9"><strong>One of the organizer of the PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France</dd>
+
+
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Peer review</strong><br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+
+
+<dt class="col-lg-2 col-sm-3">ongoing</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Writing of abstracts for Zentralblatt MATH</strong></dd>
 
 
 </dl>
