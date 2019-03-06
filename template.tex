@@ -74,7 +74,7 @@
 \familyname{$familyname$}
 \address$for(address)${$address$}$endfor$
 \email{$email$}
-\extrainfo{\today}
+\extrainfo{$lastmod$}
 \homepage{$homepage$}
 \phone[fixed]{$phone$}
 
@@ -98,7 +98,7 @@ $for(section.content)$
 $endfor$
 
 $for(section.bib)$
-\printbibliography[title={$section.bib.title$}, keyword=$section.bib.key$, heading=subbibliography]
+\printbibliography[title={$section.bib.title$}, keyword=my-$section.bib.key$, heading=subbibliography]
 $endfor$
 
 $endfor$

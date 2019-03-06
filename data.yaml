@@ -1,5 +1,12 @@
 ---
+lastmod: 2019-03-06
+# localization
 lang: fr ! en
+i18n:
+  complete: Version complète au format PDF ! Complete version in PDF format
+  more: Plus d'infos ! More info
+  dedicated: voir la page dédiée ! see dedicated page
+# moderncv options
 style: classic
 color: burgundy
 title: Curriculum Vitæ
@@ -12,9 +19,12 @@ address:
 email: najib.idrissi-kaitouni@imj-prg.fr
 homepage: idrissi.eu/fr ! idrissi.eu/en
 phone: (+33) 01 57 27 91 16
+# citations
 nocite: CamposDucoulombierIdrissiWillwacher2018, CamposIdrissiLambrechtsWillwacher2018, Idrissi2017, Idrissi2017a, Idrissi2018, Idrissi2018a, Idrissi2018b, Idrissi2014, Idrissi2016a
+# content
 section:
   - title: Parcours ! Career
+    web: true
     content:
       - entry:
           - Depuis 09/2018 ! Since 09/2018
@@ -59,14 +69,18 @@ section:
             2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
             Fall 2013 Research internship in algebraic topology, Massachusetts Institute of Technology.
   - title: Recherche ! Research
+    web:
+      link: /research
     bib:
       - title: Publications
-        key: my-publication
+        key: publication
       - title: Prépublications ! Preprints
-        key: my-preprint
+        key: preprint
       - title: Autres documents ! Other documents
-        key: my-other
+        key: other
   - title: Enseignement ! Teaching
+    web:
+      link: /enseignement
     content:
       - item:
           - 2018--2019
@@ -101,6 +115,7 @@ section:
             !
             Fundamental mathematics 2, L1 SESI (exercises, 66h)
   - title: Financements ! Funding
+    web: true
     content:
       - item:
         - 2019
@@ -112,6 +127,7 @@ section:
         - 05/2016
         - "*Oberwolfach Leibniz Graduate Students* (pour \"*Factorization Algebras and Functorial Field Theories*\") ! Oberwolfach Leibniz Graduate Students (for \"Factorization Algebras and Functorial Field Theories\")"
   - title : Service
+    web: true
     content:
       - entry:
           - Depuis 10/2018 ! Since 10/2018
@@ -161,6 +177,9 @@ section:
           - France
           - ""
   - title: Exposés ! Talks
+    web:
+      link: /talk
+      empty: true
     content:
       - subsection: Sur invitation ! Invited
       - entry:

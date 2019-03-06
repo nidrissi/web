@@ -23,7 +23,8 @@ auto/
 # CV
 *.out.yaml
 *.out.tex
-#build
+*.out.md
+build
 
 # tup
 .tup/
