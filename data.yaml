@@ -71,13 +71,13 @@ section:
   - title: Recherche ! Research
     web: true
     more: /research
-    bib:
-      - title: Publications
-        key: publication
-      - title: Prépublications ! Preprints
-        key: preprint
-      - title: Autres documents ! Other documents
-        key: other
+    content:
+      - subtitle: Publications
+      - bib: publication
+      - subtitle: Prépublications ! Preprints 
+      - bib: preprint
+      - subtitle: Autres documents ! Other documents
+      - bib: other
   - title: Enseignement ! Teaching
     web: true
     more: /enseignement
@@ -169,7 +169,7 @@ section:
     web: true
     more: /talk
     content:
-      - subsection: Sur invitation ! Invited
+      - subtitle: Sur invitation ! Invited
       - entry:
           a: 05/2019\*
           b: Higher Homotopy Algebras in Topology
@@ -211,7 +211,7 @@ section:
           d: Tunis
           e: Tunisie ! Tunisia
           f: The Lambrechts--Stanley Model of Configuration Spaces
-      - subsection: Sur proposition ! Contributed
+      - subtitle: Sur proposition ! Contributed
       - entry:
           a: 07/2017
           b: Young Topologists Meeting 2017
@@ -233,7 +233,7 @@ section:
           d: Amiens
           e: France
           f: The Lambrechts--Stanley Model of Configuration Spaces
-      - subsection: Séminaires ! Seminars
+      - subtitle: Séminaires ! Seminars
       - entry:
           a: 12/2018
           b: Stockholm Topology Seminar

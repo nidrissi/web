@@ -88,7 +88,7 @@ $for(section)$
 \section{$section.title$}
 
 $for(section.content)$
-  $if(section.content.subsection)$\subsection{$section.content.subsection$}$endif$
+  $if(section.content.subtitle)$\subsection{$section.content.subtitle$}$endif$
   $if(section.content.entry)$
     \cventry
     {$section.content.entry.a$}{$section.content.entry.b$}{$section.content.entry.c$}{$section.content.entry.d$}{$section.content.entry.e$}{$section.content.entry.f$}
@@ -97,10 +97,9 @@ $for(section.content)$
     \cvitem
     {$section.content.item.a$} {$section.content.item.b$}
   $endif$
-$endfor$
-
-$for(section.bib)$
-\printbibliography[title={$section.bib.title$}, keyword=my-$section.bib.key$, heading=subbibliography]
+  $if(section.content.bib)$
+  \printbibliography[keyword=my-$section.content.bib$, heading=none]
+  $endif$
 $endfor$
 
 $endfor$

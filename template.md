@@ -15,21 +15,15 @@ menu:
 $for(section)$
 $if(section.web)$
 
-### $section.title$$if(section.more)$ <small>([$i18n.more$]({{< ref "$section.more$" >}}))</small>$endif$
+<h3>$section.title$$if(section.more)$ <small>(<a href="{{< ref "$section.more$" >}}">$i18n.more$</a>)</small>$endif$</h3>
 
-$if(section.dedicated)$
-[→ $i18n.dedicated$]({{< ref "$section.dedicated$" >}})
-
-$else$
-
-$if(section.content)$<dl class="row pl-3 mb-0">$endif$
+<dl class="row pl-3 mb-0">
 
 $for(section.content)$
-$if(section.content.subsection)$
+
+$if(section.content.subtitle)$
 </dl>
-
-#### $section.content.subsection$
-
+<h4>$section.content.subtitle$</h4>
 <dl class="row pl-3 mb-0">
 $endif$
 
@@ -42,17 +36,15 @@ $if(section.content.item)$
 <dt class="col-lg-2 col-sm-3">$section.content.item.a$</dt>
 <dd class="col-lg-10 col-sm-9">$section.content.item.b$.</dd>
 $endif$
-$endfor$
 
-$if(section.content)$</dl>$endif$
-
-$for(section.bib)$
-#### $section.bib.title$
-
-{{< cvbib "$section.bib.key$" >}}
-
-$endfor$
+$if(section.content.bib)$
+</dl>
+{{< cvbib "$section.content.bib$" >}}
+<dl class="row pl-3 mb-0">
 $endif$
+
+$endfor$
+</dl>
 
 $endif$
 $endfor$
