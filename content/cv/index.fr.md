@@ -22,21 +22,21 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Suisse.<br>Groupe de Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Suisse.<br><small>Groupe de Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thèse soutenue le 17 novembre 2017. Directeur : Benoit Fresse.<br />
-Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France.<br><small>Thèse soutenue le 17 novembre 2017. Directeur : Benoit Fresse.<br />
+Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2011–08/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>Reçu 1<sup>er</sup> au concours INFO.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br><small>Reçu 1<sup>er</sup> au concours INFO.<br />
 2014–2015 : Stage de recherche en préparation à un doctorat, Université Lille 1.<br />
 2013–2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.<br />
-Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.</dd>
+Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.</small></dd>
 
 
 
@@ -152,7 +152,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles</strong>.<br><small>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</small></dd>
 
 
 
@@ -178,27 +178,27 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">01/2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Structures Supérieures</strong>, <em>Centre international de rencontres mathématiques (CIRM)</em>, Luminy, France.<br>Configuration spaces and operads</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Structures Supérieures</strong>, <em>Centre international de rencontres mathématiques (CIRM)</em>, Luminy, France.<br><small>Configuration spaces and operads</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">06/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l’école d’été)</strong>, <em>Fields Institute</em>, Toronto, Canada.<br>Curved Koszul Duality for Algebras over Unital Operads</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l’école d’été)</strong>, <em>Fields Institute</em>, Toronto, Canada.<br><small>Curved Koszul Duality for Algebras over Unital Operads</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">05/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Graph Complexes, Configuration Spaces and Manifold Calculus</strong>, <em>University of British Columbia</em>, Vancouver, Canada.<br>Configuration Spaces of Manifolds with Boundary</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Graph Complexes, Configuration Spaces and Manifold Calculus</strong>, <em>University of British Columbia</em>, Vancouver, Canada.<br><small>Configuration Spaces of Manifolds with Boundary</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire Itinérant de Catégories</strong>, <em>Université du Littoral Côte d’Opale</em>, Calais, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Itinérant de Catégories</strong>, <em>Université du Littoral Côte d’Opale</em>, Calais, France.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conférence en l’honneur de Saïd Zarati</strong>, <em>Institut des Hautes Études (IHET)</em>, Tunis, Tunisie.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Conférence en l’honneur de Saïd Zarati</strong>, <em>Institut des Hautes Études (IHET)</em>, Tunis, Tunisie.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
 
 
 </dl>
@@ -209,17 +209,17 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">07/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Suède.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Suède.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">02/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>MPIM</em>, Bonn, Allemagne.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>MPIM</em>, Bonn, Allemagne.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Colloque 2016 du GDR Topologie Algébrique et Applications</strong>, <em>Université de Picardie Jules Verne – LAMFA</em>, Amiens, France.<br>The Lambrechts–Stanley Model of Configuration Spaces</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Colloque 2016 du GDR Topologie Algébrique et Applications</strong>, <em>Université de Picardie Jules Verne – LAMFA</em>, Amiens, France.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
 
 
 </dl>
@@ -230,107 +230,107 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">12/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Stockholm Topology Seminar</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Suède.<br>Configuration spaces and Operads</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Stockholm Topology Seminar</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Suède.<br><small>Configuration spaces and Operads</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">11/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire Géométrie &amp; Topologie</strong>, <em>IMJ-PRG</em>, Paris, France.<br>Espaces de configuration et Opérades</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Géométrie &amp; Topologie</strong>, <em>IMJ-PRG</em>, Paris, France.<br><small>Espaces de configuration et Opérades</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">06/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Departmental Colloquium</strong>, <em>University of Regina</em>, Regina (SK), Canada.<br>Configuration Spaces and Graphs Complexes</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Departmental Colloquium</strong>, <em>University of Regina</em>, Regina (SK), Canada.<br><small>Configuration Spaces and Graphs Complexes</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">12/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie, Géométrie et Algèbre</strong>, <em>Université de Nantes</em>, Nantes, France.<br>Espaces de configuration de variétés compactes</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie, Géométrie et Algèbre</strong>, <em>Université de Nantes</em>, Nantes, France.<br><small>Espaces de configuration de variétés compactes</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">12/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire Algèbre et Topologie</strong>, <em>Université de Strasbourg</em>, Strasbourg, France.<br>Espaces de configuration de variétés compactes</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Algèbre et Topologie</strong>, <em>Université de Strasbourg</em>, Strasbourg, France.<br><small>Espaces de configuration de variétés compactes</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">11/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Physique Mathématique et de Topologie Algébrique</strong>, <em>Université d’Angers</em>, Angers, France.<br>Espaces de configuration de variétés compactes</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Physique Mathématique et de Topologie Algébrique</strong>, <em>Université d’Angers</em>, Angers, France.<br><small>Espaces de configuration de variétés compactes</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">11/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire Homotopie en Géométrie Algébrique</strong>, <em>Université Paul Sabatier</em>, Toulouse, France.<br>Espaces de configuration de variétés compactes</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Homotopie en Géométrie Algébrique</strong>, <em>Université Paul Sabatier</em>, Toulouse, France.<br><small>Espaces de configuration de variétés compactes</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br>Introduction à la théorie de l’homotopie rationnelle</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br><small>Introduction à la théorie de l’homotopie rationnelle</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">08/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Exposés de physique mathématiques</strong>, <em>ETH Zürich</em>, Zürich, Suisse.<br>Configuration Spaces of Compact Manifolds</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Exposés de physique mathématiques</strong>, <em>ETH Zürich</em>, Zürich, Suisse.<br><small>Configuration Spaces of Compact Manifolds</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">05/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br><small>Le modèle de Lambrechts–Stanley des espaces de configuration</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">05/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br>La compactification de Fulton-MacPherson des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université Lille 1</em>, Lille, France.<br><small>La compactification de Fulton-MacPherson des espaces de configuration</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">01/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université Catholique de Louvain – Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgique.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université Catholique de Louvain – Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgique.<br><small>Le modèle de Lambrechts–Stanley des espaces de configuration</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">11/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de topologie algébrique</strong>, <em>Université Paris 13</em>, Paris, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de topologie algébrique</strong>, <em>Université Paris 13</em>, Paris, France.<br><small>Le modèle de Lambrechts–Stanley des espaces de configuration</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université Lille 1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université Lille 1</em>, Lille, France.<br><small>Le modèle de Lambrechts–Stanley des espaces de configuration</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">06/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Exposés en Physique Mathématique</strong>, <em>ETH Zürich</em>, Zürich, Suisse.<br>Swiss-Cheese operad and Drinfeld center</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Exposés en Physique Mathématique</strong>, <em>ETH Zürich</em>, Zürich, Suisse.<br><small>Swiss-Cheese operad and Drinfeld center</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">04/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>IMJ-PRG</em>, Paris, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>IMJ-PRG</em>, Paris, France.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">12/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire des doctorants</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France.<br>Opérades</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire des doctorants</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France.<br><small>Opérades</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">12/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire des doctorants</strong>, <em>Université de Picardie Jules Verne – LAMFA</em>, Amiens, France.<br>Opérades</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire des doctorants</strong>, <em>Université de Picardie Jules Verne – LAMFA</em>, Amiens, France.<br><small>Opérades</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université Catholique de Louvain – Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgique.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université Catholique de Louvain – Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgique.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
 
 
 
