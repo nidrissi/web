@@ -158,27 +158,27 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2019<sup>*</sup>, 5 days</dt>
+<dt class="col-lg-2 col-sm-3">06/2019<sup>*</sup> (5 d.)</dt>
 <dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2018, 10 days</dt>
+<dt class="col-lg-2 col-sm-3">06/2018 (10 d.)</dt>
 <dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">08/2017, 5 days</dt>
+<dt class="col-lg-2 col-sm-3">08/2017 (5 d.)</dt>
 <dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">01/2017, 5 days</dt>
+<dt class="col-lg-2 col-sm-3">01/2017 (5 d.)</dt>
 <dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2016, 4 days</dt>
+<dt class="col-lg-2 col-sm-3">06/2016 (4 d.)</dt>
 <dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
@@ -223,7 +223,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">10/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conference in the honour of Saïd Zarati</strong>, <em>Institut des Hautes Études (IHET)</em>, Tunis, Tunisia.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
+<dd class="col-lg-10 col-sm-9"><strong>Conference in the honour of Saïd Zarati</strong>, <em>Institut des Hautes Études à Tunis (IHET)</em>, Tunis, Tunisia.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
 
 
 </dl>
