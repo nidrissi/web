@@ -137,7 +137,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9">Oberwolfach Leibniz Graduate Students (for “Factorization Algebras and Functorial Field Theories”).</dd>
+<dd class="col-lg-10 col-sm-9">Oberwolfach Leibniz Graduate Students (for the workshop “Factorization Algebras and Functorial Field Theories”).</dd>
 
 
 </dl>

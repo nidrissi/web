@@ -137,7 +137,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9"><em>Oberwolfach Leibniz Graduate Students</em> (pour “<em>Factorization Algebras and Functorial Field Theories</em>”).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Oberwolfach Leibniz Graduate Students</em> (pour le workshop “<em>Factorization Algebras and Functorial Field Theories</em>”).</dd>
 
 
 </dl>
