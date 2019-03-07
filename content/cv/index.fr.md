@@ -93,55 +93,6 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 </dl>
 
-### Enseignement <small>([plus d’infos]({{< ref "/enseignement" >}}))</small></h3>
-
-<dl class="row pl-3 mb-0">
-
-
-
-<dt class="col-lg-2 col-sm-3">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h) ; Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h).</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD, 36h) ; Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h).</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Calcul matriciel, L2 éco-gestion-management (TD, 36h) ; Analyse 1, L1 éco-gestion-management (TD, 15h) ; Analyse 1, L1 MASS (TD, 15h).</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2, L1 SESI (TD, 66h).</dd>
-
-
-</dl>
-
-### Financements</h3>
-
-<dl class="row pl-3 mb-0">
-
-
-
-<dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">2015–2018</dt>
-<dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9"><em>Oberwolfach Leibniz Graduate Students</em> (pour le workshop “<em>Factorization Algebras and Functorial Field Theories</em>”).</dd>
-
-
-</dl>
-
 ### Service</h3>
 
 <dl class="row pl-3 mb-0">
@@ -175,6 +126,60 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 <dt class="col-lg-2 col-sm-3">en cours</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Écriture de résumés pour Zentralblatt MATH</strong>.</dd>
 
+
+
+</dl>
+
+### Financements</h3>
+
+<dl class="row pl-3 mb-0">
+
+
+
+<dt class="col-lg-2 col-sm-3">2019</dt>
+<dd class="col-lg-10 col-sm-9">Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">2015–2018</dt>
+<dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">05/2016</dt>
+<dd class="col-lg-10 col-sm-9"><em>Oberwolfach Leibniz Graduate Students</em> (pour le workshop “<em>Factorization Algebras and Functorial Field Theories</em>”).</dd>
+
+
+</dl>
+
+### Visites</h3>
+
+<dl class="row pl-3 mb-0">
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2019*, 5 jours</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2018, 10 jours</dt>
+<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">08/2017, 5 jours</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">01/2017, 5 jours</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2016, 4 jours</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
 </dl>
@@ -360,34 +365,29 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 </dl>
 
-### Visites de recherche</h3>
+### Enseignement <small>([plus d’infos]({{< ref "/enseignement" >}}))</small></h3>
 
 <dl class="row pl-3 mb-0">
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2019*, 5 jours</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3">2018–2019</dt>
+<dd class="col-lg-10 col-sm-9">Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h) ; Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2018, 10 jours</dt>
-<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
+<dt class="col-lg-2 col-sm-3">2017–2018</dt>
+<dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD, 36h) ; Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">08/2017, 5 jours</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3">2016–2017</dt>
+<dd class="col-lg-10 col-sm-9">Calcul matriciel, L2 éco-gestion-management (TD, 36h) ; Analyse 1, L1 éco-gestion-management (TD, 15h) ; Analyse 1, L1 MASS (TD, 15h).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">01/2017, 5 jours</dt>
-<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">06/2016, 4 jours</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3">2015–2016</dt>
+<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2, L1 SESI (TD, 66h).</dd>
 
 
 </dl>
