@@ -1,6 +1,5 @@
 ---
-# automatically generated file
-# edit template.md instead!
+# ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
 lastmod: 2019-03-06
 date: 2018-01-01
