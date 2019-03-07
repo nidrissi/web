@@ -80,61 +80,6 @@ section:
       - bib: preprint
       - subtitle: Autres documents ! Other documents
       - bib: other
-  - title: Enseignement ! Teaching
-    more: /enseignement
-    content:
-      - item:
-          a: 2018--2019
-          b: |
-            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h) ;
-            Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h)
-            !
-            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h);
-            Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)
-      - item:
-          a: 2017--2018
-          b: |
-            Analyse 1, L1 MASS (TD, 36h) ;
-            Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h)
-            !
-            Calculus 1, L1 MASS (exercises, 36h);
-            Fundamental mathematics 1, L1 SESI (oral exams & tutoring, 10h)
-      - item:
-          a: 2016--2017
-          b: |
-            Calcul matriciel, L2 éco-gestion-management (TD, 36h) ;
-            Analyse 1, L1 éco-gestion-management (TD, 15h) ;
-            Analyse 1, L1 MASS (TD, 15h)
-            !
-            Matrix calculus, L2 econ-management (exercises, 36h);
-            Calculus 1, L1 econ-management (exercises, 15h);
-            Calculus 1, L1 MASS (exercises, 15h)
-      - item:
-          a: 2015--2016
-          b: |
-            Mathématiques fondamentales 2, L1 SESI (TD, 66h)
-            !
-            Fundamental mathematics 2, L1 SESI (exercises, 66h)
-  - title: Financements ! Funding
-    content:
-      - item:
-          a: 2019
-          b: |
-            Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €
-            !
-            Exploratory Project, First Support "Young Researcher" (PEPS JCJC), CNRS / Insmi, 3500 €
-      - item:
-          a: 2015--2018
-          b: |
-            Contrat doctoral spécifique normalien, École Normale Supérieure de Paris
-            !
-            Specific doctoral contract "*normalien*", École Normale Supérieure de Paris
-      - item:
-          a: 05/2016
-          b: |
-            *Oberwolfach Leibniz Graduate Students* (pour le workshop "*Factorization Algebras and Functorial Field Theories*")
-            !
-            Oberwolfach Leibniz Graduate Students (for the workshop "Factorization Algebras and Functorial Field Theories")
   - title : Service
     content:
       - entry:
@@ -182,6 +127,43 @@ section:
       - entry:
           a: en cours ! ongoing
           b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
+  - title: Financements ! Funding
+    content:
+      - item:
+          a: 2019
+          b: |
+            Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €
+            !
+            Exploratory Project, First Support "Young Researcher" (PEPS JCJC), CNRS / Insmi, 3500 €
+      - item:
+          a: 2015--2018
+          b: |
+            Contrat doctoral spécifique normalien, École Normale Supérieure de Paris
+            !
+            Specific doctoral contract "*normalien*", École Normale Supérieure de Paris
+      - item:
+          a: 05/2016
+          b: |
+            *Oberwolfach Leibniz Graduate Students* (pour le workshop "*Factorization Algebras and Functorial Field Theories*")
+            !
+            Oberwolfach Leibniz Graduate Students (for the workshop "Factorization Algebras and Functorial Field Theories")
+  - title: Visites ! Research visits
+    content:
+      - item:
+          a: 06/2019\*, 5 jours ! 06/2019\*, 5 days
+          b: ETH Zurich -- Thomas Willwacher
+      - item:
+          a: 06/2018, 10 jours ! 06/2018, 10 days
+          b: University of Regina -- Don Stanley
+      - item:
+          a: 08/2017, 5 jours ! 08/2017, 5 days
+          b: ETH Zurich -- Thomas Willwacher
+      - item:
+          a: 01/2017, 5 jours ! 01/2017, 5 days
+          b: Université catholique de Louvain -- Pascal Lambrechts
+      - item:
+          a: 06/2016, 4 jours ! 06/2016, 4 days
+          b: ETH Zurich -- Thomas Willwacher
   - title: Exposés ! Talks
     more: /talk
     content:
@@ -400,23 +382,41 @@ section:
           d: Lille
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
-  - title: Visites de recherche ! Research visits
+  - title: Enseignement ! Teaching
+    more: /enseignement
     content:
       - item:
-          a: 06/2019\*, 5 jours ! 06/2019\*, 5 days
-          b: ETH Zurich -- Thomas Willwacher
+          a: 2018--2019
+          b: |
+            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h) ;
+            Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h)
+            !
+            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h);
+            Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)
       - item:
-          a: 06/2018, 10 jours ! 06/2018, 10 days
-          b: University of Regina -- Don Stanley
+          a: 2017--2018
+          b: |
+            Analyse 1, L1 MASS (TD, 36h) ;
+            Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h)
+            !
+            Calculus 1, L1 MASS (exercises, 36h);
+            Fundamental mathematics 1, L1 SESI (oral exams & tutoring, 10h)
       - item:
-          a: 08/2017, 5 jours ! 08/2017, 5 days
-          b: ETH Zurich -- Thomas Willwacher
+          a: 2016--2017
+          b: |
+            Calcul matriciel, L2 éco-gestion-management (TD, 36h) ;
+            Analyse 1, L1 éco-gestion-management (TD, 15h) ;
+            Analyse 1, L1 MASS (TD, 15h)
+            !
+            Matrix calculus, L2 econ-management (exercises, 36h);
+            Calculus 1, L1 econ-management (exercises, 15h);
+            Calculus 1, L1 MASS (exercises, 15h)
       - item:
-          a: 01/2017, 5 jours ! 01/2017, 5 days
-          b: Université catholique de Louvain -- Pascal Lambrechts
-      - item:
-          a: 06/2016, 4 jours ! 06/2016, 4 days
-          b: ETH Zurich -- Thomas Willwacher
+          a: 2015--2016
+          b: |
+            Mathématiques fondamentales 2, L1 SESI (TD, 66h)
+            !
+            Fundamental mathematics 2, L1 SESI (exercises, 66h)
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
       - item:
