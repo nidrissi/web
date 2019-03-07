@@ -25,7 +25,6 @@ nocite: CamposDucoulombierIdrissiWillwacher2018, CamposIdrissiLambrechtsWillwach
 # content
 section:
   - title: Parcours ! Career
-    web: true
     content:
       - entry:
           a: Depuis 09/2018 ! Since 09/2018
@@ -69,7 +68,6 @@ section:
             2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
             Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.
   - title: Recherche ! Research
-    web: true
     more: /research
     content:
       - subtitle: Publications
@@ -79,7 +77,6 @@ section:
       - subtitle: Autres documents ! Other documents
       - bib: other
   - title: Enseignement ! Teaching
-    web: true
     more: /enseignement
     content:
       - item:
@@ -115,7 +112,6 @@ section:
             !
             Fundamental mathematics 2, L1 SESI (exercises, 66h)
   - title: Financements ! Funding
-    web: true
     content:
       - item:
           a: 2019
@@ -127,7 +123,6 @@ section:
           a: 05/2016
           b: "*Oberwolfach Leibniz Graduate Students* (pour \"*Factorization Algebras and Functorial Field Theories*\") ! Oberwolfach Leibniz Graduate Students (for \"Factorization Algebras and Functorial Field Theories\")"
   - title : Service
-    web: true
     content:
       - entry:
           a: Depuis 10/2018 ! Since 10/2018
@@ -166,7 +161,6 @@ section:
           a: en cours ! ongoing
           b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
   - title: Exposés ! Talks
-    web: true
     more: /talk
     content:
       - subtitle: Sur invitation ! Invited
@@ -382,7 +376,6 @@ section:
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
   - title: Visites de recherche ! Research visits
-    web: true
     content:
       - item:
           a: 06/2019\*, 5 jours ! 06/2019\*, 5 days
@@ -400,7 +393,6 @@ section:
           a: 06/2016, 4 jours ! 06/2016, 4 days
           b: ETH Zurich -- Thomas Willwacher
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
-    web: true
     content:
       - item:
           a: 06/2019\*
