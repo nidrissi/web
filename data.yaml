@@ -7,6 +7,7 @@ i18n:
   complete: Version complète au format PDF ! Complete version in PDF format
   more: plus d'infos ! more info
   dedicated: voir la page dédiée ! see dedicated page
+autogen: ⚠ Fichier généré automatiquement ⚠ ! ⚠ Automatically generated file ⚠
 # moderncv options
 style: classic
 color: burgundy
