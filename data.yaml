@@ -39,7 +39,10 @@ section:
           c: ETH Zürich / D-MATH
           d: Zürich
           e: Suisse ! Switzerland
-          f: "Groupe de Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX. ! Group of Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX."
+          f: |
+            Groupe de Thomas Willwacher. Financé par ERC StG 678156--GRAPHCPX.
+            !
+            Group of Thomas Willwacher. Funded by ERC StG 678156--GRAPHCPX.
       - entry:
           a: 09/2015--01/2018
           b: Doctorat en Mathématiques ! Doctorate in Mathematics
@@ -116,30 +119,48 @@ section:
     content:
       - item:
           a: 2019
-          b: "Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 € ! Exploratory Project, First Support \"Young Researcher\" (PEPS JCJC), CNRS / Insmi, 3500 €"
+          b: |
+            Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €
+            !
+            Exploratory Project, First Support "Young Researcher" (PEPS JCJC), CNRS / Insmi, 3500 €
       - item:
           a: 2015--2018
-          b: "Contrat doctoral spécifique normalien, École Normale Supérieure de Paris ! Specific doctoral contract \"*normalien*\", École Normale Supérieure de Paris"
+          b: |
+            Contrat doctoral spécifique normalien, École Normale Supérieure de Paris
+            !
+            Specific doctoral contract "*normalien*", École Normale Supérieure de Paris
       - item:
           a: 05/2016
-          b: "*Oberwolfach Leibniz Graduate Students* (pour le workshop \"*Factorization Algebras and Functorial Field Theories*\") ! Oberwolfach Leibniz Graduate Students (for the workshop \"Factorization Algebras and Functorial Field Theories\")"
+          b: |
+            *Oberwolfach Leibniz Graduate Students* (pour le workshop "*Factorization Algebras and Functorial Field Theories*")
+            !
+            Oberwolfach Leibniz Graduate Students (for the workshop "Factorization Algebras and Functorial Field Theories")
   - title : Service
     content:
       - entry:
           a: Depuis 10/2018 ! Since 10/2018
-          b: "Un des organisateurs du [Séminaire de topologie](www.imj-prg.fr/spip.php?article67) ! One of the organizers of the [Topology Seminar](www.imj-prg.fr/spip.php?article67)"
+          b: |
+            Un des organisateurs du [Séminaire de topologie](www.imj-prg.fr/spip.php?article67)
+            !
+            One of the organizers of the [Topology Seminar](www.imj-prg.fr/spip.php?article67)
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
       - entry:
           a: 2019
-          b: "Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt-stabilite/) ! Organization of a [working seminar on homological stability](https://idrissi.eu/fr/gdt-stabilite/)"
+          b: |
+            Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt-stabilite/)
+            !
+            Organization of a [working seminar on homological stability](https://idrissi.eu/fr/gdt-stabilite/)
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
       - entry:
           a: 10/2017
-          b: "Participation à l'organisation de la journée de préparation pour jeunes chercheurs ! Participation to the organization of the introductory day for young researchers"
+          b: |
+            Participation à l'organisation de la journée de préparation pour jeunes chercheurs
+            !
+            Participation to the organization of the introductory day for young researchers
           c: Colloque 2017 du GDR Topologie Algébrique
           d: Paris
           e: France
@@ -180,7 +201,10 @@ section:
           f: Configuration spaces and operads
       - entry:
           a: 06/2018
-          b: "Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l'école d'été) ! Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker at the summer school)"
+          b: |
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l'école d'été)
+            !
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker at the summer school)
           c: Fields Institute
           d: Toronto
           e: Canada
