@@ -158,7 +158,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2019*, 5 days</dt>
+<dt class="col-lg-2 col-sm-3">06/2019<sup>*</sup>, 5 days</dt>
 <dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
@@ -197,7 +197,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">05/2019*</dt>
+<dt class="col-lg-2 col-sm-3">05/2019<sup>*</sup></dt>
 <dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>MPIM</em>, Bonn, Germany.</dd>
 
 
@@ -398,12 +398,12 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2019*</dt>
+<dt class="col-lg-2 col-sm-3">06/2019<sup>*</sup></dt>
 <dd class="col-lg-10 col-sm-9">SYM 10 Years Old @ Københavns Universitet.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">05/2019*</dt>
+<dt class="col-lg-2 col-sm-3">05/2019<sup>*</sup></dt>
 <dd class="col-lg-10 col-sm-9">Higher Homotopy Algebras in Topology @ MPIM Bonn.</dd>
 
 
