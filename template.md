@@ -1,5 +1,6 @@
 ---
-# automatically generated file, edit template.md instead!
+# automatically generated file
+# edit template.md instead!
 title: Curriculum Vitæ
 lastmod: $lastmod$
 date: 2018-01-01
