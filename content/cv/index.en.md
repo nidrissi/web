@@ -603,8 +603,8 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">(*:</dt>
-<dd class="col-lg-10 col-sm-9">Future).</dd>
+<dt class="col-lg-2 col-sm-3"></dt>
+<dd class="col-lg-10 col-sm-9">(*: Future).</dd>
 
 
 </dl>

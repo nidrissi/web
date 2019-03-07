@@ -603,8 +603,8 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 
-<dt class="col-lg-2 col-sm-3">(*:</dt>
-<dd class="col-lg-10 col-sm-9">Futur).</dd>
+<dt class="col-lg-2 col-sm-3"></dt>
+<dd class="col-lg-10 col-sm-9">(* : Futur).</dd>
 
 
 </dl>
