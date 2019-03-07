@@ -150,7 +150,7 @@ section:
   - title: Visites ! Research visits
     content:
       - item:
-          a: 06/2019\*, 5 jours ! 06/2019\*, 5 days
+          a: 06/2019^\*^, 5 jours ! 06/2019^\*^, 5 days
           b: ETH Zurich -- Thomas Willwacher
       - item:
           a: 06/2018, 10 jours ! 06/2018, 10 days
@@ -169,7 +169,7 @@ section:
     content:
       - subtitle: Sur invitation ! Invited
       - entry:
-          a: 05/2019\*
+          a: 05/2019^\*^
           b: Higher Homotopy Algebras in Topology
           c: MPIM
           d: Bonn
@@ -420,10 +420,10 @@ section:
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
       - item:
-          a: 06/2019\*
+          a: 06/2019^\*^
           b: SYM 10 Years Old @ Københavns Universitet
       - item:
-          a: 05/2019\*
+          a: 05/2019^\*^
           b: Higher Homotopy Algebras in Topology @ MPIM Bonn
       - item:
           a: 01/2019
