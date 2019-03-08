@@ -21,7 +21,7 @@ TPL_MD = template.md
 
 TARGET = french.out.pdf english.out.pdf french.out.md english.out.md
 
-.PHONY: all copy clean wcopy wclean
+.PHONY: all copy clean
 .SECONDARY: french.out.tex english.out.tex french.out.yaml english.out.yaml
 
 all: $(TARGET)
