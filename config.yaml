@@ -1,5 +1,4 @@
 baseURL: https://idrissi.eu/
-title: "Najib Idrissi's page"
 enableEmoji: true
 
 # for RSS
@@ -27,7 +26,6 @@ blackfriday:
   fractions: false
 
 params:
-  date_format: Jan 2, 2006
   home_counts:
     research: 7
     talk: 5
@@ -37,10 +35,13 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
   en:
-    languageCode: en-us
+    languageCode: en
     languageName: English
+    title: "Najib Idrissi's page"
+    params:
+      date_format: Jan 2, 2006
   fr:
-    languageCode: fr-fr
+    languageCode: fr
     languageName: Français
     title: Page de Najib Idrissi
     params:
