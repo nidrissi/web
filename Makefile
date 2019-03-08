@@ -1,17 +1,19 @@
 ifeq ($(OS),Windows_NT)
 	sep = \\
 	DIR = ..\web\content\cv
-	BUILD = build
+	BIB = ${TEXMFHOME}\bibtex\bib\mainbib.bib
 	CP = copy /y
 	RM = del /q
 else
 	sep = /
 	DIR = ../web/content/cv
 	BUILD = build
+	BIB = ${TEXMFHOME}/bibtex/bib/mainbib.bib
 	CP = cp
 	RM = rm -rf
 endif
 
+BUILD = build
 LATEX = latexmk -pdf -lualatex -quiet -outdir=$(BUILD)
 
 TPL_TEX = template.tex
@@ -30,7 +32,7 @@ english.out.yaml french.out.yaml: data.yaml
 %.out.tex: %.out.yaml $(TPL_TEX)
 	pandoc --template $(TPL_TEX) $< --output=$@
 
-%.out.pdf: %.out.tex
+%.out.pdf: %.out.tex $(BIB)
 	$(LATEX) $<
 	$(CP) $(BUILD)$(sep)$@ .
 
