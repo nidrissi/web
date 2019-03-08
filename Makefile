@@ -1,19 +1,18 @@
 ifeq ($(OS),Windows_NT)
 	sep = \\
 	DIR = ..\web\content\cv
-	BIB = ${TEXMFHOME}\bibtex\bib\mainbib.bib
 	CP = copy /y
 	RM = del /q
 else
 	sep = /
 	DIR = ../web/content/cv
 	BUILD = build
-	BIB = ${TEXMFHOME}/bibtex/bib/mainbib.bib
 	CP = cp
 	RM = rm -rf
 endif
 
 BUILD = build
+BIB = $(shell kpsewhich mainbib.bib)
 LATEX = latexmk -pdf -lualatex -quiet -outdir=$(BUILD)
 
 TPL_TEX = template.tex
