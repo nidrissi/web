@@ -27,7 +27,6 @@ blackfriday:
 
 params:
   home_counts:
-    research: 7
     talk: 5
     post: 5
 

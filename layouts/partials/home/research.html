@@ -1,7 +1,9 @@
 <section class="row">
   <h2 class="col-12 col-md-2"><a href="{{ ref . "research/" }}">{{ i18n "research" }}</a></h2>
   <div class="col-12 col-md-10">
-    {{- range first .Site.Params.home_counts.research (where .Site.RegularPages "Type" "research") -}}
+    {{- $pages := where .Site.RegularPages "Type" "research" -}}
+    {{- $pages := where $pages ".Params.mytype" "in" (slice "publication" "preprint") -}}
+    {{- range $pages -}}
     {{- .Render "card" -}}
     {{- end -}}
 
