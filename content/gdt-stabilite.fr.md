@@ -1,31 +1,19 @@
 ---
 title: "Groupe de travail : Stabilité homologique"
 date: 2019-01-01
-lastmod: 2019-01-30
+lastmod: 2019-03-08
 ---
 
 Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-Williams sur la stabilité homologique, et plus particulièrement leur article [*Cellular {{< tex "E_k" >}}-algebras*](https://arxiv.org/abs/1805.07184), dont voici le résumé :
 
 *"We give a set of foundations for cellular {{< tex "E_k" >}}-algebras which are especially convenient for applications to homological stability. We provide conceptual and computational tools in this setting, such as filtrations, a homology theory for {{< tex "E_k" >}}-algebras with a Hurewicz theorem, CW approximations, and many spectral sequences, which shall be used for such applications in future papers."*
 
-## Séances prévues
+## Séances
 
 Les séances ont lieu le **jeudi de 15h45 à 17h**.
 Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces) (les salles SG-1xxx sont au premier étage, etc).
 
-7 février 2019, SG-2015
-: 0 -- *Exposé introductif* (Najib Idrissi)  
-J'exposerai le plan général du groupe de travail et nous nous répartirons les exposés.
-
-21 février 2019, SG-2015
-: 1 -- *Filtrations et complexes CW* (Sacha Ikonicoff)  
-§5 : Algèbres filtrées, notations.  
-§6 : Algèbres cellulaires, algèbres CW, filtration squelettique ; Théorème 6.14 sur {{< tex "\operatorname{gr} \operatorname{sk}" >}}.
-
-7 mars 2019, SG-2015
-: 2 -- *Homologie, théorèmes de Hurewicz et approximations* (Mario Gonçalves Lamas)  
-§10.1 Homologie des T-algèbres (voir §4.5 pour les indécomposables et §2.4 pour les catégories de diagrammes)  
-§11 Connectivité, théorèmes de Hurewicz, théorème de Whitehead, approximations CW
+### Séances à venir
 
 21 mars 2019, SG-2015
 : 3 -- *Indécomposables et construction bar itérée* (Hugo Pourcelot)  
@@ -59,6 +47,22 @@ J'exposerai le plan général du groupe de travail et nous nous répartirons les
 
 ???
 : 9 -- *Lien avec la dualité de Koszul* (Muriel Livernet)
+
+### Séances passées
+
+7 février 2019, SG-2015
+: 0 -- *Exposé introductif* (Najib Idrissi)  
+J'exposerai le plan général du groupe de travail et nous nous répartirons les exposés.
+
+21 février 2019, SG-2015
+: 1 -- *Filtrations et complexes CW* (Sacha Ikonicoff)  
+§5 : Algèbres filtrées, notations.  
+§6 : Algèbres cellulaires, algèbres CW, filtration squelettique ; Théorème 6.14 sur {{< tex "\operatorname{gr} \operatorname{sk}" >}}.
+
+7 mars 2019, SG-2015
+: 2 -- *Homologie, théorèmes de Hurewicz et approximations* (Mario Gonçalves Lamas)  
+§10.1 Homologie des T-algèbres (voir §4.5 pour les indécomposables et §2.4 pour les catégories de diagrammes)  
+§11 Connectivité, théorèmes de Hurewicz, théorème de Whitehead, approximations CW
 
 ## Références
 
