@@ -10,7 +10,7 @@
     {{- if .Params.TBA -}}~{{- end -}}
     <time datetime="{{- .Date.Format "2006-01-01" -}}">{{- .Date.Format $.Site.Params.date_format -}}</time>
     {{- with .Params.location }}
-    &ndash; {{ markdownify . -}}
+    &bull; {{ markdownify . -}}
     {{- end -}}
     {{- if .Params.urls }}
     {{ partial "links" (dict "content" . "is_card" 0) -}}
