@@ -6,7 +6,7 @@ abstract: |
 authors:
   - me
 date: 2017-11-17
-mytype: other
+status: other
 publication: Thèse de doctorat, Université Lille 1
 title: Formalité opéradique et homotopie des espaces de configuration
 urls:

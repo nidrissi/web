@@ -3,7 +3,7 @@ abstract: Le but général de ce mémoire de master est de définir un complexe 
 authors:
   - me
 date: 2014-06-30
-mytype: other
+status: other
 publication: Mémoire de master, Université Paris Diderot
 title: Homologie et complexes de déformations d’opérades $E_n$
 urls:

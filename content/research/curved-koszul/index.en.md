@@ -1,7 +1,7 @@
 ---
 title: Curved Koszul Duality for Algebras over Unital Operads
 date: 2018-08-10
-mytype: preprint
+status: preprint
 authors:
   - me
 publication: Preprint v2, 32 p.

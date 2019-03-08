@@ -3,7 +3,7 @@ abstract: "Nous donnons une introduction au domaine des opérades, des objets qu
 authors:
   - me
 date: 2016-09-01
-mytype: other
+status: other
 publication: "In: *Grad. J. Math* 1.1, pp. 9--17"
 title: Opérades et Structures Commutatives à Homotopie Près
 urls:
