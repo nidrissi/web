@@ -29,6 +29,11 @@ params:
   home_counts:
     talk: 5
     post: 5
+  # cards colors
+  colors:
+    publication: success
+    preprint: secondary
+
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true

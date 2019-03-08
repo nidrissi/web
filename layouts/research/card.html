@@ -1,4 +1,5 @@
-<article class="card border-light">
+{{- $color := index .Site.Params.colors .Params.status | default "light" -}}
+<article class="card border-{{ $color }}">
   <div class="card-body px-3 py-2">
     <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
     <h6 class="card-subtitle">
