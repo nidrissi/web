@@ -9,7 +9,7 @@ My first real post in a while! It turns out that writing an actual paper (cf. pr
 The Voronov product of operads is an operation introduced by Voronov in his paper *The Swiss-cheese operad* (he just called it "the product"). It combines an operad and a multiplicative operad to yield a new colored operad; the main example I know is the homology of the Swiss-cheese operad. This is a construction that I use in my preprint [Swiss-Cheese operad and Drinfeld center](http://arxiv.org/abs/1507.06844), where as far as I know I coined the name "Voronov product" -- I haven't seen this operation at all outside of Voronov's paper. I wanted to advertise it a bit because I find it quite interesting and I'm eager to see what people can do with it.
 <!--more-->
 
-### Voronov products
+## Voronov products
 
 The setting is as follows. Consider two symmetric one-colored operads, {{< tex "\mathtt{P}" >}} and {{< tex "\mathtt{Q}" >}}, in some monoidal category. Suppose that you're also given a morphism of operads {{< tex "\mathtt{Com} \to \mathtt{P}" >}}, where {{< tex "\mathtt{Com}" >}} is the operad of commutative algebras. Then Voronov builds a new, bicolored operad {{< tex "\mathtt{P} \otimes \mathtt{Q}" >}}.
 
@@ -39,7 +39,7 @@ On the {{< tex "\mathtt{Q}" >}} factors, this is simply given by the composition
 
 {{< tex display="\begin{align} \mathtt{P}(m) \otimes \mathtt{P}(m') & \to \mathtt{P}(m+m') \\ p \otimes p' & \mapsto \mu(p, p'). \end{align}" >}}
 
-### Algebras over Voronov products
+## Algebras over Voronov products
 
 Algebras over {{< tex "\mathtt{P} \otimes \mathtt{Q}" >}} have a particularly nice description. Such an algebra is a pair {{< tex "(A,B)" >}} where {{< tex "A" >}} is an algebra over {{< tex "\mathtt{P}" >}} and {{< tex "B" >}} is an algebra over {{< tex "\mathtt{Q}" >}}. Since we are given a fixed morphism {{< tex "\mathtt{Com} \to \mathtt{P}" >}}, it follows that {{< tex "A" >}} is endowed with a commutative algebra. There is finally an action of {{< tex "A" >}} on {{< tex "B" >}}:
 
@@ -49,7 +49,7 @@ corresponding to {{< tex "\operatorname{id} \otimes \operatorname{id} \in \matht
 
 {{< tex display="q(a_1 \cdot b_1, \dots, a_n \cdot b_n) = (a_1 \dots a_n) \cdot q(b_1, \dots, b_n)." >}}
 
-### Example: the homology of the Swiss-cheese operad
+## Example: the homology of the Swiss-cheese operad
 
 The main example of a Voronov product I know is the homology of the Swiss-cheese operad {{< tex "\mathtt{SC}" >}}. Morally speaking, the Swiss-cheese operad is a combination of the little disks operad and the little intervals operad. It makes sense that its homology is given by a combination of their respective homologies.
 
