@@ -12,7 +12,7 @@ menu:
 
 ##### 2018--2019
 
-* Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h).
+* Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 72h).
 * Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h).
 
 #### Université de Lille

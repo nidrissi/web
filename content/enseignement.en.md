@@ -13,7 +13,7 @@ menu:
 
 ##### 2018--2019
 
-* Elementary Algebra and Analysis 1, L1 MIASHS (lectures+exercises, 90h).
+* Elementary Algebra and Analysis 1, L1 MIASHS (lectures+exercises, 72h).
 * Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).
 
 #### University of Lille

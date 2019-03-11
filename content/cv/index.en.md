@@ -388,7 +388,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h); Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).</dd>
+<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h); Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).</dd>
 
 
 
