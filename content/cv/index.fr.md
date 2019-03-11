@@ -134,10 +134,18 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 <dl class="row pl-3 mb-0">
 
+</dl>
+
+### Obtenus
+
+<dl class="row pl-3 mb-0">
+
+
+
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Porteur d’un <em>Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur »</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
 
 
 
@@ -147,7 +155,20 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9"><em>Oberwolfach Leibniz Graduate Students</em> (pour le workshop “<em>Factorization Algebras and Functorial Field Theories</em>”).</dd>
+<dd class="col-lg-10 col-sm-9">Bourse de voyage « <em>Oberwolfach Leibniz Graduate Students</em> » (pour le workshop « <em>Factorization Algebras and Functorial Field Theories</em> »).</dd>
+
+</dl>
+
+### Participation
+
+<dl class="row pl-3 mb-0">
+
+
+
+
+
+<dt class="col-lg-2 col-sm-3">2014–2015</dt>
+<dd class="col-lg-10 col-sm-9">Membre du projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck-Teichmüller » (coordinateur : Benoit Fresse).</dd>
 
 
 </dl>

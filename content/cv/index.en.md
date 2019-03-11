@@ -134,10 +134,18 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <dl class="row pl-3 mb-0">
 
+</dl>
+
+### Obtained
+
+<dl class="row pl-3 mb-0">
+
+
+
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Exploratory Project for First Support “Young Researcher” (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Lead of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
 
 
 
@@ -147,7 +155,20 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9">Oberwolfach Leibniz Graduate Students (for the workshop “Factorization Algebras and Functorial Field Theories”).</dd>
+<dd class="col-lg-10 col-sm-9">Travel grant &quot;Oberwolfach Leibniz Graduate Students&quot; (for the workshop “Factorization Algebras and Functorial Field Theories”).</dd>
+
+</dl>
+
+### Participation
+
+<dl class="row pl-3 mb-0">
+
+
+
+
+
+<dt class="col-lg-2 col-sm-3">2014–2015</dt>
+<dd class="col-lg-10 col-sm-9">Member of the ANR project “<em>Homotopie algébrique, Opérades et groupes de Grothendieck-Teichmüller</em>” (coordinator: Benoit Fresse).</dd>
 
 
 </dl>
