@@ -142,12 +142,12 @@ section:
             Contrat doctoral spécifique normalien, École Normale Supérieure de Paris
             !
             Specific doctoral contract "*normalien*", École Normale Supérieure de Paris
-      - item:
-          a: 05/2016
-          b: |
-            Bourse de voyage « *Oberwolfach Leibniz Graduate Students* » (pour le workshop «\ *Factorization Algebras and Functorial Field Theories*\ »)
-            !
-            Travel grant \"Oberwolfach Leibniz Graduate Students\" (for the workshop "Factorization Algebras and Functorial Field Theories")
+      # - item:
+      #     a: 05/2016
+      #     b: |
+      #       Bourse de voyage « *Oberwolfach Leibniz Graduate Students* » (pour le workshop «\ *Factorization Algebras and Functorial Field Theories*\ »)
+      #       !
+      #       Travel grant \"Oberwolfach Leibniz Graduate Students\" (for the workshop "Factorization Algebras and Functorial Field Theories")
       - subtitle: Participation
       - item:
           a: 2014--2015
