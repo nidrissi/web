@@ -129,12 +129,13 @@ section:
           b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
   - title: Financements ! Funding
     content:
+      - subtitle: Obtenus ! Obtained
       - item:
           a: 2019
           b: |
-            Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €
+            Porteur d'un *Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur »* (PEPS JCJC), CNRS / Insmi, 3500 €
             !
-            Exploratory Project for First Support "Young Researcher" (PEPS JCJC), CNRS / Insmi, 3500 €
+            Lead of an *Exploratory Project for First Support "Young Researcher"* (PEPS JCJC), CNRS / Insmi, 3500 €
       - item:
           a: 2015--2018
           b: |
@@ -144,9 +145,16 @@ section:
       - item:
           a: 05/2016
           b: |
-            *Oberwolfach Leibniz Graduate Students* (pour le workshop "*Factorization Algebras and Functorial Field Theories*")
+            Bourse de voyage « *Oberwolfach Leibniz Graduate Students* » (pour le workshop «\ *Factorization Algebras and Functorial Field Theories*\ »)
             !
-            Oberwolfach Leibniz Graduate Students (for the workshop "Factorization Algebras and Functorial Field Theories")
+            Travel grant \"Oberwolfach Leibniz Graduate Students\" (for the workshop "Factorization Algebras and Functorial Field Theories")
+      - subtitle: Participation
+      - item:
+          a: 2014--2015
+          b: |
+            Membre du projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck-Teichmüller » (coordinateur : Benoit Fresse)
+            !
+            Member of the ANR project "*Homotopie algébrique, Opérades et groupes de Grothendieck-Teichmüller*" (coordinator: Benoit Fresse)
   - title: Visites ! Research visits
     content:
       - item:
