@@ -14,7 +14,7 @@
     {{- if (or .Params.Title .Params.Abstract) -}}
     <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .UniqueID }}" role="button" aria-expanded="false" aria-controls="talk-{{ .UniqueID }}">{{ i18n "title" }} &amp; {{ i18n "abstract" }}</a>
     {{- end -}}
-    {{- if .Params.urls -}}{{- partial "links" (dict "content" . "is_card" 1) -}}{{- end -}}
+    {{- partial "links" (dict "content" . "is_card" 1) -}}
 
     <p id="talk-{{ .UniqueID }}" class="collapse card-text">
       {{- with .Params.Title -}}<strong>{{ . }}</strong><br>{{- end -}}

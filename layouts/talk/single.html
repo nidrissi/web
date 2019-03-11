@@ -12,9 +12,7 @@
     {{- with .Params.location }}
     &bull; {{ markdownify . -}}
     {{- end -}}
-    {{- if .Params.urls }}
     {{ partial "links" (dict "content" . "is_card" 0) -}}
-    {{- end -}}
   </p>
 
   {{- with .Title -}}<p><strong>{{- . -}}</strong></p>{{- end -}}

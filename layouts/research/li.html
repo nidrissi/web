@@ -1,1 +1,1 @@
-<li>“<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>”. {{ partial "article_ref.html" . }} {{ if .Params.urls -}}{{- partial "links" (dict "content" . "is_card" 0) -}}{{- end -}}</li>
+<li>“<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>”. {{ partial "article_ref.html" . }} {{ partial "links" (dict "content" . "is_card" 0) }}</li>
