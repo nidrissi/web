@@ -30,16 +30,16 @@
 </a>
 {{ end -}}
 
+{{- with $.Params.urls.doi -}}
+<a class="{{ $class }}" href="https://dx.doi.org/{{ . }}">DOI</a>
+{{ end -}}
+
 {{- with $.Params.urls.arxiv -}}
 <a class="{{ $class }}" href="https://arxiv.org/abs/{{ . }}">arXiv</a>
 {{ end -}}
 
 {{- with $.Params.urls.hal -}}
 <a class="{{ $class }}" href="https://hal.archives-ouvertes.fr/hal-{{ . }}">HAL</a>
-{{ end -}}
-
-{{- with $.Params.urls.doi -}}
-<a class="{{ $class }}" href="https://dx.doi.org/{{ . }}">DOI</a>
 {{ end -}}
 
 {{- with $.Params.urls.mathrev -}}
