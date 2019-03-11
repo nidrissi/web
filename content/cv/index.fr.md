@@ -152,11 +152,6 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 <dt class="col-lg-2 col-sm-3">2015–2018</dt>
 <dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
 
-
-
-<dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9">Bourse de voyage « <em>Oberwolfach Leibniz Graduate Students</em> » (pour le workshop « <em>Factorization Algebras and Functorial Field Theories</em> »).</dd>
-
 </dl>
 
 ### Participation

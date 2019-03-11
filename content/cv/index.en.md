@@ -152,11 +152,6 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <dt class="col-lg-2 col-sm-3">2015–2018</dt>
 <dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
 
-
-
-<dt class="col-lg-2 col-sm-3">05/2016</dt>
-<dd class="col-lg-10 col-sm-9">Travel grant &quot;Oberwolfach Leibniz Graduate Students&quot; (for the workshop “Factorization Algebras and Functorial Field Theories”).</dd>
-
 </dl>
 
 ### Participation
