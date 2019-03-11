@@ -1,14 +1,17 @@
 {{- if ge (len .Params.authors) 2 -}}
   {{- range $i, $auth := .Params.authors -}}
   {{- if $i -}}, {{ end }}
+
   {{- if isset $.Site.Data.authors $auth -}}
   {{- $a := index $.Site.Data.authors $auth -}}
   {{- with $a.url -}}<a href="{{ $a.url }}">{{- end -}}
     {{- $a.name -}}
     {{ if $a.url }}</a>{{- end -}}
+
   {{- else -}}
   {{- $auth | markdownify -}}
   {{- end -}}
+
   {{- end -}}
   .
 {{- end }}
