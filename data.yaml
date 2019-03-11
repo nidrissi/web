@@ -396,10 +396,10 @@ section:
       - item:
           a: 2018--2019
           b: |
-            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 90h) ;
+            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 72h) ;
             Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h)
             !
-            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 90h);
+            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h);
             Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)
       - item:
           a: 2017--2018
