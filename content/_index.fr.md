@@ -16,4 +16,4 @@ Pour plus d'informations, voir [mon CV]({{< ref "/cv" >}}).
 Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG.
 Je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt-stabilite" >}}) en 2019.
 
-Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) et [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).
+<small>Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) et [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).</small>
