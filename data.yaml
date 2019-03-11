@@ -230,7 +230,7 @@ section:
       - entry:
           a: 10/2016
           b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
-          c: Université de Picardie Jules Verne -- LAMFA
+          c: Université de Picardie Jules Verne / LAMFA
           d: Amiens
           e: France
           f: The Lambrechts--Stanley Model of Configuration Spaces
@@ -322,7 +322,7 @@ section:
       - entry:
           a: 01/2017
           b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
-          c: Université Catholique de Louvain -- Institut de recherche en mathématique et physique
+          c: Université Catholique de Louvain / Institut de recherche en mathématique et physique
           d: Louvain-la-Neuve
           e: Belgique ! Belgium
           f: Le modèle de Lambrechts--Stanley des espaces de configuration
@@ -357,28 +357,28 @@ section:
       - entry:
           a: 12/2015
           b: "Séminaire des doctorants ! PhD students' seminar"
-          c: Université Lille\ 1 -- Laboratoire Paul Painlevé
+          c: Université Lille\ 1 / Laboratoire Paul Painlevé
           d: Lille
           e: France
           f: Opérades
       - entry:
           a: 12/2015
           b: "Séminaire des doctorants ! PhD students' seminar"
-          c: Université de Picardie Jules Verne -- LAMFA
+          c: Université de Picardie Jules Verne / LAMFA
           d: Amiens
           e: France
           f: Opérades
       - entry:
           a: 10/2015
           b: Séminaire de Topologie Algébrique ! Algebraic Topology seminar
-          c: Université Catholique de Louvain -- Institut de recherche en mathématique et physique
+          c: Université Catholique de Louvain / Institut de recherche en mathématique et physique
           d: Louvain-la-Neuve
           e: Belgique ! Belgium
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 09/2015
           b: Séminaire de Topologie ! Topology Seminar
-          c: Université Lille\ 1 -- Laboratoire Paul Painlevé
+          c: Université Lille\ 1 / Laboratoire Paul Painlevé
           d: Lille
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
