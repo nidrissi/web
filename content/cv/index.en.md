@@ -246,7 +246,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">10/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>2016 Meeting of the GDR Algebraic Topology and Applications</strong>, <em>Université de Picardie Jules Verne – LAMFA</em>, Amiens, France.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
+<dd class="col-lg-10 col-sm-9"><strong>2016 Meeting of the GDR Algebraic Topology and Applications</strong>, <em>Université de Picardie Jules Verne / LAMFA</em>, Amiens, France.<br><small>The Lambrechts–Stanley Model of Configuration Spaces</small></dd>
 
 
 </dl>
@@ -319,7 +319,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">01/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université Catholique de Louvain – Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgium.<br><small>Le modèle de Lambrechts–Stanley des espaces de configuration</small></dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université Catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgium.<br><small>Le modèle de Lambrechts–Stanley des espaces de configuration</small></dd>
 
 
 
@@ -344,22 +344,22 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">12/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France.<br><small>Opérades</small></dd>
+<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France.<br><small>Opérades</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">12/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Université de Picardie Jules Verne – LAMFA</em>, Amiens, France.<br><small>Opérades</small></dd>
+<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Université de Picardie Jules Verne / LAMFA</em>, Amiens, France.<br><small>Opérades</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology seminar</strong>, <em>Université Catholique de Louvain – Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgium.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology seminar</strong>, <em>Université Catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgium.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université Lille 1 – Laboratoire Paul Painlevé</em>, Lille, France.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France.<br><small>L’opérade Swiss-Cheese et le centre de Drinfeld</small></dd>
 
 
 
