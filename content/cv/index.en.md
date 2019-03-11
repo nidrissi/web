@@ -137,7 +137,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Exploratory Project, First Support “Young Researcher” (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Exploratory Project for First Support “Young Researcher” (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
 
 
 

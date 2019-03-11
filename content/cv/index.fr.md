@@ -137,7 +137,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Projet Exploratoire Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur » (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
 
 
 
