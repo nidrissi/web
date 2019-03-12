@@ -31,7 +31,7 @@ Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-par
 §14.3 Transfert descendant (idée de la preuve)  
 §15 Homologie relative et comparaison d'algèbres {{< tex "E_k" >}}
 
-16 mai, SG-2015
+16 mai 2019, SG-2015
 : 6 -- *Groupoïdes monoïdaux et algèbres {{< tex "E_k" >}}* (Jean-Michel Fischer)  
 §12.2 Modules sur les algèbres {{< tex "E_1" >}}  
 §17.1 Une construction d'algèbres {{< tex "E_k" >}}  
