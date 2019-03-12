@@ -15,5 +15,5 @@
   {{- end -}}
   .
 {{- end }}
-{{ .Params.publication | markdownify }}
-(<time datetime="{{- .Date.Format "2006-01-01" -}}">{{- .Date.Format "2006"}}</time>).
+{{ .Params.publication | markdownify -}}
+, <time datetime="{{- .Date.Format "2006-01-01" -}}">{{- .Date.Format "2006"}}</time>.
