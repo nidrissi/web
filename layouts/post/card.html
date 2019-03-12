@@ -1,7 +1,7 @@
 <article class="card border-light">
   <div class="card-body px-3 py-2">
     <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
-    <h6 class="card-subtitle mb-2">{{ partial "metadata" . }}</h6>
+    <h6 class="card-subtitle mb-2">{{ partial "meta/data" . }}</h6>
     <div class="card-text">
       {{- if .Params.summary -}}
       {{- .Params.summary | markdownify -}}

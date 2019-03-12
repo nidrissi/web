@@ -3,7 +3,7 @@
   <div class="card-body px-3 py-2">
     <h5 class="card-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h5>
     <h6 class="card-subtitle">
-      {{- partial "article_ref" . -}}
+      {{- partial "meta/research" . -}}
     </h6>
     {{- partial "links" (dict "content" . "is_card" 1) -}}
   </div>
