@@ -11,9 +11,9 @@ Je m'intéresse aux opérades et leurs applications à la topologie algébrique,
 
 Je suis maître de conférences à [l'Université Paris Diderot](https://www.univ-paris-diderot.fr).
 Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
+Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG.
 Pour plus d'informations, voir [mon CV]({{< ref "/cv" >}}).
 
-Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG.
-Je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt-stabilite" >}}) en 2019.
+Cette année, je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt-stabilite" >}}).
 
 <small>Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) et [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).</small>
