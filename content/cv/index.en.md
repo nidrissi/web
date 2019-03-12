@@ -163,7 +163,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Member of the ANR project “<em>Homotopie algébrique, Opérades et groupes de Grothendieck-Teichmüller</em>” (coordinator: Benoit Fresse).</dd>
+<dd class="col-lg-10 col-sm-9">Member of the ANR project “<em><strong>H</strong>omotopie algébrique, <strong>O</strong>pérades et groupes de <strong>G</strong>rothendieck–<strong>T</strong>eichmüller</em>” (coordinator: Benoit Fresse).</dd>
 
 
 </dl>
