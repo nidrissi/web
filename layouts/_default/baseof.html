@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  {{- partial "header.html" . -}}
+  {{- partial "header" . -}}
   <body>
-    {{- partial "navbar.html" . -}}
+    {{- partial "navbar" . -}}
     <div id="main-container" class="container py-3">
       <section>{{- block "main" . -}}{{- end -}}</section>
       <hr>
