@@ -1,5 +1,6 @@
 {{- $keyword := .Get 0 -}}
-{{- $pages := where .Site.RegularPages ".Params.status" $keyword -}}
+{{- $pages := where .Site.RegularPages "Type" "research" -}}
+{{- $pages := where $pages ".Params.status" $keyword -}}
 <ol>
 {{- range $pages -}}
 {{- .Render "li" -}}
