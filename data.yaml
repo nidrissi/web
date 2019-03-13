@@ -396,28 +396,28 @@ section:
       - item:
           a: 2018--2019
           b: |
-            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 72h) ;
+            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 72h) •
             Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h)
             !
-            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h);
+            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h) •
             Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)
       - item:
           a: 2017--2018
           b: |
-            Analyse 1, L1 MASS (TD, 36h) ;
+            Analyse 1, L1 MASS (TD, 36h) •
             Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h)
             !
-            Calculus 1, L1 MASS (exercises, 36h);
+            Calculus 1, L1 MASS (exercises, 36h) •
             Fundamental mathematics 1, L1 SESI (oral exams & tutoring, 10h)
       - item:
           a: 2016--2017
           b: |
-            Calcul matriciel, L2 éco-gestion-management (TD, 36h) ;
-            Analyse 1, L1 éco-gestion-management (TD, 15h) ;
+            Calcul matriciel, L2 éco-gestion-management (TD, 36h) •
+            Analyse 1, L1 éco-gestion-management (TD, 15h) •
             Analyse 1, L1 MASS (TD, 15h)
             !
-            Matrix calculus, L2 econ-management (exercises, 36h);
-            Calculus 1, L1 econ-management (exercises, 15h);
+            Matrix calculus, L2 econ-management (exercises, 36h) •
+            Calculus 1, L1 econ-management (exercises, 15h) •
             Calculus 1, L1 MASS (exercises, 15h)
       - item:
           a: 2015--2016
