@@ -163,7 +163,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Membre du projet ANR « <strong>H</strong>omotopie algébrique, <strong>O</strong>pérades et groupes de <strong>G</strong>rothendieck–<strong>T</strong>eichmüller » (coordinateur : Benoit Fresse).</dd>
+<dd class="col-lg-10 col-sm-9">Membre du projet ANR <a href="http://math.univ-lille1.fr/~operads/">« <strong>H</strong>omotopie algébrique, <strong>O</strong>pérades et groupes de <strong>G</strong>rothendieck–<strong>T</strong>eichmüller »</a> (coordinateur : Benoit Fresse).</dd>
 
 
 </dl>
