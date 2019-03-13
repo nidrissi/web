@@ -388,17 +388,17 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h); Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).</dd>
+<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h); Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 10h).</dd>
+<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h) • Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 10h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Matrix calculus, L2 econ-management (exercises, 36h); Calculus 1, L1 econ-management (exercises, 15h); Calculus 1, L1 MASS (exercises, 15h).</dd>
+<dd class="col-lg-10 col-sm-9">Matrix calculus, L2 econ-management (exercises, 36h) • Calculus 1, L1 econ-management (exercises, 15h) • Calculus 1, L1 MASS (exercises, 15h).</dd>
 
 
 
