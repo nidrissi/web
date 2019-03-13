@@ -36,10 +36,10 @@ Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em
 
 
 <dt class="col-lg-2 col-sm-3">09/2011–08/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris<sup>⋆</sup></em>, Paris, France.<br>Reçu 1<sup>er</sup> au concours INFO.<br />
-2014–2015 : Stage de recherche en préparation à un doctorat, Université Lille-1.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris<sup>⋆</sup></em>, Paris, France.<br>2014–2015 : Stage de recherche en préparation à un doctorat, Université Lille-1.<br />
 2013–2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.<br />
 Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.<br />
+Reçu 1<sup>er</sup> au concours INFO.<br />
 ⋆. Membre de Paris Sciences et Lettres (PSL).</dd>
 
 
