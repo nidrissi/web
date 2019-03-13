@@ -621,8 +621,8 @@ Reçu 1<sup>er</sup> au concours INFO.<br />
 
 
 
-<dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">(⋆. Futur).</dd>
+<dt class="col-lg-2 col-sm-3">(⋆. Futur)</dt>
+<dd class="col-lg-10 col-sm-9">.</dd>
 
 
 </dl>
