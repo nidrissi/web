@@ -30,13 +30,17 @@ section:
       - entry:
           a: Depuis 09/2018 ! Since 09/2018
           b: Maître de conférences
-          c: Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche
+          c: Université Paris Diderot^⋆^ / Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)
           d: Paris
           e: France
+          f: |
+            ⋆. Membre de l'Université de Paris.
+            !
+            ⋆. Member of the University of Paris.
       - entry:
           a: 02/2018--08/2018
           b: Chercheur postdoctorant ! Postdoctoral researcher
-          c: ETH Zürich / D-MATH
+          c: ETH Zürich
           d: Zürich
           e: Suisse ! Switzerland
           f: |
@@ -46,31 +50,35 @@ section:
       - entry:
           a: 09/2015--01/2018
           b: Doctorat en Mathématiques ! Doctorate in Mathematics
-          c: Université Lille\ 1 / Laboratoire Paul Painlevé
+          c: Université de Lille^⋆^ / Laboratoire Paul Painlevé
           d: Lille
           e: France
           f: |
             Thèse soutenue le 17 novembre 2017. Directeur : Benoit Fresse.\
-            Titre : *Formalité opéradique et homotopie des espaces de configuration*.
+            Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
+            ⋆. Précédemment Université Lille-1.
             !
             Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.\
-            Title: *Operadic Formality and Homotopy of Configuration Spaces*.
+            Title: *Operadic Formality and Homotopy of Configuration Spaces*.\
+            ⋆. Formerly Université Lille-1.
       - entry:
           a: 09/2011--08/2015
           b: Élève fonctionnaire stagiaire
-          c: École Normale Supérieure de Paris
+          c: École Normale Supérieure de Paris^⋆^
           d: Paris
           e: France
           f: |
             Reçu 1^er^ au concours INFO.\
-            2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille 1.\
+            2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille-1.\
             2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.\
-            Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.
+            Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.\
+            ⋆. Membre de Paris Sciences et Lettres (PSL).
             !
             Ranked 1^st^ on the "INFO" competitive entrance exam.\
-            2014--2015: Research internship in preparation of a PhD, Université Lille 1.\
+            2014--2015: Research internship in preparation of a PhD, Université Lille-1.\
             2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
-            Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.
+            Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.\
+            ⋆. Member of Paris Sciences et Lettres (PSL).
   - title: Recherche ! Research
     more: /research
     content:
@@ -158,7 +166,7 @@ section:
   - title: Visites ! Research visits
     content:
       - item:
-          a: 06/2019^\*^ (5 j.) ! 06/2019^\*^ (5 d.)
+          a: 06/2019^⋆^ (5 j.) ! 06/2019^⋆^ (5 d.)
           b: ETH Zurich -- Thomas Willwacher
       - item:
           a: 06/2018 (10 j.) ! 06/2018 (10 d.)
@@ -177,7 +185,7 @@ section:
     content:
       - subtitle: Sur invitation ! Invited
       - entry:
-          a: 05/2019^\*^
+          a: 05/2019^⋆^
           b: Higher Homotopy Algebras in Topology
           c: MPIM
           d: Bonn
@@ -295,14 +303,14 @@ section:
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille 1
+          c: Université Lille-1
           d: Lille
           e: France
           f: "Introduction à la théorie de l'homotopie rationnelle"
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille 1
+          c: Université Lille-1
           d: Lille
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
@@ -316,14 +324,14 @@ section:
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille 1
+          c: Université Lille-1
           d: Lille
           e: France
           f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille 1
+          c: Université Lille-1
           d: Lille
           e: France
           f: La compactification de Fulton-MacPherson des espaces de configuration
@@ -344,7 +352,7 @@ section:
       - entry:
           a: 09/2016
           b: Séminaire de Topologie ! Topology Seminar
-          c: Université Lille 1
+          c: Université Lille-1
           d: Lille
           e: France
           f: Le modèle de Lambrechts--Stanley des espaces de configuration
@@ -428,10 +436,10 @@ section:
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
       - item:
-          a: 06/2019^\*^
+          a: 06/2019^⋆^
           b: SYM 10 Years Old @ Københavns Universitet
       - item:
-          a: 05/2019^\*^
+          a: 05/2019^⋆^
           b: Higher Homotopy Algebras in Topology @ MPIM Bonn
       - item:
           a: 01/2019
@@ -456,7 +464,7 @@ section:
           b: Rational Homotopy and its Applications @ Université de Lille
       - item:
           a: 10/2017
-          b: Colloque 2017 du GDR Topologie Algébrique @ Université Paris 7
+          b: Colloque 2017 du GDR Topologie Algébrique @ Université Paris Diderot
       - item:
           a: 10/2017
           b: "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale"
@@ -483,7 +491,7 @@ section:
           b: "Lens Topology and geometry 2017 @ Université d'Artois (Lens)"
       - item:
           a: 03/2017
-          b: Workshop on Quantum Topology @ Université Lille 1
+          b: Workshop on Quantum Topology @ Université Lille-1
       - item:
           a: 02/2017
           b: Conference for Young researchers in homotopy theory and categorical structures @ MPIM Bonn
@@ -551,5 +559,5 @@ section:
           a: 05/2013
           b: "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
       - item:
-          b: "(\* : Futur) ! (\*: Future)"
+          b: "(⋆. Futur) ! (⋆. Future)"
 ...
