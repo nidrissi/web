@@ -19,26 +19,28 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3">Since 09/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot / Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université Paris Diderot<sup>⋆</sup> / Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)</em>, Paris, France.<br>⋆. Member of the University of Paris.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich / D-MATH</em>, Zürich, Switzerland.<br>Group of Thomas Willwacher. Funded by ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich</em>, Zürich, Switzerland.<br>Group of Thomas Willwacher. Funded by ERC StG 678156–GRAPHCPX.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.<br />
-Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université de Lille<sup>⋆</sup> / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.<br />
+Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.<br />
+⋆. Formerly Université Lille-1.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2011–08/2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>Ranked 1<sup>st</sup> on the “INFO” competitive entrance exam.<br />
-2014–2015: Research internship in preparation of a PhD, Université Lille 1.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris<sup>⋆</sup></em>, Paris, France.<br>Ranked 1<sup>st</sup> on the “INFO” competitive entrance exam.<br />
+2014–2015: Research internship in preparation of a PhD, Université Lille-1.<br />
 2013–2014: Master’s degree in Fundamental Mathematics, Université Paris Diderot.<br />
-Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
+Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.<br />
+⋆. Member of Paris Sciences et Lettres (PSL).</dd>
 
 
 
@@ -174,7 +176,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2019<sup>*</sup> (5 d.)</dt>
+<dt class="col-lg-2 col-sm-3">06/2019<sup>⋆</sup> (5 d.)</dt>
 <dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
@@ -213,7 +215,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">05/2019<sup>*</sup></dt>
+<dt class="col-lg-2 col-sm-3">05/2019<sup>⋆</sup></dt>
 <dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>MPIM</em>, Bonn, Germany.</dd>
 
 
@@ -310,12 +312,12 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille 1</em>, Lille, France.<br>Introduction à la théorie de l’homotopie rationnelle</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille-1</em>, Lille, France.<br>Introduction à la théorie de l’homotopie rationnelle</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille 1</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille-1</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
 
 
 
@@ -325,12 +327,12 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">05/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille 1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille-1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">05/2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille 1</em>, Lille, France.<br>La compactification de Fulton-MacPherson des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université Lille-1</em>, Lille, France.<br>La compactification de Fulton-MacPherson des espaces de configuration</dd>
 
 
 
@@ -345,7 +347,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">09/2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université Lille 1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université Lille-1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
 
 
 
@@ -414,12 +416,12 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3">06/2019<sup>*</sup></dt>
+<dt class="col-lg-2 col-sm-3">06/2019<sup>⋆</sup></dt>
 <dd class="col-lg-10 col-sm-9">SYM 10 Years Old @ Københavns Universitet.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">05/2019<sup>*</sup></dt>
+<dt class="col-lg-2 col-sm-3">05/2019<sup>⋆</sup></dt>
 <dd class="col-lg-10 col-sm-9">Higher Homotopy Algebras in Topology @ MPIM Bonn.</dd>
 
 
@@ -460,7 +462,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">10/2017</dt>
-<dd class="col-lg-10 col-sm-9">Colloque 2017 du GDR Topologie Algébrique @ Université Paris 7.</dd>
+<dd class="col-lg-10 col-sm-9">Colloque 2017 du GDR Topologie Algébrique @ Université Paris Diderot.</dd>
 
 
 
@@ -505,7 +507,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3">03/2017</dt>
-<dd class="col-lg-10 col-sm-9">Workshop on Quantum Topology @ Université Lille 1.</dd>
+<dd class="col-lg-10 col-sm-9">Workshop on Quantum Topology @ Université Lille-1.</dd>
 
 
 
@@ -620,7 +622,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3"></dt>
-<dd class="col-lg-10 col-sm-9">(*: Future).</dd>
+<dd class="col-lg-10 col-sm-9">(⋆. Future).</dd>
 
 
 </dl>
