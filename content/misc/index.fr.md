@@ -36,3 +36,6 @@ On obtient ces images :
 <figcaption class="figure-caption">Tétrahèdre bizarre.</figcaption>
 </figure>
 </div>
+
+Je ne garantis absolument pas que le programme est correct.
+Les surfaces trouvées ressemblent bien aux surfaces théoriques, mais je n'ai pas de preuve mathématique que ce sont les bonnes.

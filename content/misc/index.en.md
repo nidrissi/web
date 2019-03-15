@@ -36,3 +36,6 @@ You then get images like this:
 <figcaption class="figure-caption">Weird tetrahedron.</figcaption>
 </figure>
 </div>
+
+I absolutely do not guarantee that the program is correct.
+The surfaces found do resemble the theoretical ones, but I do not have a mathematical proof that they are the right ones.
