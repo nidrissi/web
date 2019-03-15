@@ -20,17 +20,19 @@ Ensuite lancez `ocamlbuild main.native`.
 Les contrôles sont rudimentaires : <kbd>SPC</kbd> pour démarrer/arrêter, clic gauche et défilement pour bouger, clic droit pour choisir une des quatres courbes de bords prédéfinies, <kbd>s</kbd> pour changer entre plein et vide.
 On obtient ces images :
 
-<figure class="figure">
+<div class="row">
+<figure class="figure col-md-4">
 <img src="catenoide.png" alt="Caténoïde" class="figure-img img-fluid">
 <figcaption class="figure-caption"><a href="https://fr.wikipedia.org/wiki/Cat%C3%A9no%C3%AFde">Caténoïde</a>.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure class="figure col-md-4">
 <img src="enneper.png" alt="Surface d'Enneper" class="figure-img img-fluid">
 <figcaption class="figure-caption"><a href="https://fr.wikipedia.org/wiki/Surface_d%27Enneper">Surface d'Enneper</a>.</figcaption>
 </figure>
 
-<figure class="figure">
+<figure class="figure col-md-4">
 <img src="tetrahedron.png" alt="Tétrahèdre bizarre" class="figure-img img-fluid">
 <figcaption class="figure-caption">Tétrahèdre bizarre.</figcaption>
 </figure>
+</div>
