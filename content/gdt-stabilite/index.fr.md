@@ -35,7 +35,7 @@ Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-par
 ???
 : 7 -- *Applications* (Najib Idrissi ?)  
 §18.1 Le théorème principal  
-§18.2, §18.3 Application aux groupes généraux linéaires
+§18.2, §18.3 Application aux groupes linéaires généraux
 
 ???
 : 8 -- *Coefficients locaux* (Mario Gonçalves Lamas ?)
