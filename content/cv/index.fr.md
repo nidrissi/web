@@ -24,12 +24,12 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zürich</em>, Zürich, Suisse.<br>Groupe de Thomas Willwacher. Financé par ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Chercheur postdoctorant</strong>, <em>ETH Zürich</em>, Zürich, Suisse.<br>Groupe de <a href="https://people.math.ethz.ch/~wilthoma/">Thomas Willwacher</a>. Financé par ERC StG 678156–GRAPHCPX.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université de Lille<sup>⋆</sup> / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thèse soutenue le 17 novembre 2017. Directeur : Benoit Fresse.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université de Lille<sup>⋆</sup> / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thèse soutenue le 17 novembre 2017. Directeur : <a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a>.<br />
 Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.<br />
 ⋆. Précédemment Université Lille-1.</dd>
 

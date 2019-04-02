@@ -24,12 +24,12 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich</em>, Zürich, Switzerland.<br>Group of Thomas Willwacher. Funded by ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich</em>, Zürich, Switzerland.<br>Group of <a href="https://people.math.ethz.ch/~wilthoma/">Thomas Willwacher</a>. Funded by ERC StG 678156–GRAPHCPX.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3">09/2015–01/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université de Lille<sup>⋆</sup> / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thesis defended on November 17th, 2017. Advisor: Benoit Fresse.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université de Lille<sup>⋆</sup> / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thesis defended on November 17th, 2017. Advisor: <a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a>.<br />
 Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.<br />
 ⋆. Formerly Université Lille-1.</dd>
 
