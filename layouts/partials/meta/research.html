@@ -2,7 +2,7 @@
   {{- range $i, $auth := .Params.authors -}}
   {{- if $i -}}, {{ end }}
 
-  {{- with index $.Site.Data.authors $auth -}}
+  {{- with index $.Site.Data.people $auth -}}
   {{- with .url -}}<a href="{{ . }}">{{- end -}}
     {{- .name -}}
     {{ if .url }}</a>{{- end -}}
