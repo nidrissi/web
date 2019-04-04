@@ -383,7 +383,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.<br />
 
 </dl>
 
-## Teaching <small>([more info]({{< ref "/enseignement" >}}))</small>
+## Teaching <small>([more info]({{< ref "/cours" >}}))</small>
 
 <dl class="row pl-3 mb-0">
 

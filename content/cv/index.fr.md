@@ -383,7 +383,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.<br />
 
 </dl>
 
-## Enseignement <small>([plus d’infos]({{< ref "/enseignement" >}}))</small>
+## Enseignement <small>([plus d’infos]({{< ref "/cours" >}}))</small>
 
 <dl class="row pl-3 mb-0">
 
