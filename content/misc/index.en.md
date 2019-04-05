@@ -9,6 +9,11 @@ menu:
     pre: <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram" class="svg-inline--fa fa-project-diagram fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path></svg>
 ---
 
+I am a member of the [GDR Algebraic Topology and Applications](http://gdrtop.math.cnrs.fr).
+In 2014--2015 I was a member of the [ANR project "Algebraic Homotopy, Operads and Grothendieck-Teichmüller groups"](http://math.univ-lille1.fr/~operads/) coordinated by Benoit Fresse.
+
+---
+
 From January to June 2019, I organize a [reading seminar on homological stability]({{< ref path="gdt-stabilite" lang="fr" >}}) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
 
 ---
