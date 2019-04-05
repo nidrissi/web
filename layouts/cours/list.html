@@ -6,7 +6,7 @@
   {{- $current := .Params.Current -}}
   {{- range (.Pages.GroupByParam "year").Reverse -}}
   <div class="card">
-    <div class="card-header">
+    <div class="card-header p-0">
       <h2 class="mb-0" id="heading-{{ .Key }}">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-{{ .Key }}" aria-expanded="true" aria-controls="collapse-{{ .Key }}">
           {{ .Key | markdownify }}
@@ -14,7 +14,7 @@
       </h2>
     </div>
     <div id="collapse-{{ .Key }}" class="collapse {{ if eq .Key $current }}show{{ end }}" aria-labelledby="heading-{{ .Key }}" data-parent="#accordionCours">
-      <div class="card-body">
+      <div class="card-body p-3">
         <ul class="list-unstyled mb-0">
           {{- range .Pages.ByDate -}}
           {{- .Render "li" -}}
