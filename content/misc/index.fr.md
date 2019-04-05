@@ -12,11 +12,11 @@ menu:
 Je suis/fus membre :
 
 * du [GDR Topologie Algébrique et Applications](http://gdrtop.math.cnrs.fr) ;
-* du [projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller »](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse, entre 2014 et 2015.
+* du [projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller » (HOGT)](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse, entre 2014 et 2015.
 
 ---
 
-De janvier à juin 2019, j'organise un [groupe de travail sur la stabilité homologique]({{< ref "gdt-stabilite" >}}) avec Mario Gonçalves Lamas, sur une idée de Muriel Livernet.
+Depuis janvier 2019, j'organise un [groupe de travail sur la stabilité homologique]({{< ref "gdt-stabilite" >}}) avec Mario Gonçalves Lamas, sur une idée de Muriel Livernet.
 
 ---
 
