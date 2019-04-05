@@ -9,7 +9,7 @@
     <div class="card-header p-0">
       <h2 class="mb-0" id="heading-{{ .Key }}">
         <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-{{ .Key }}" aria-expanded="true" aria-controls="collapse-{{ .Key }}">
-          {{ .Key | markdownify }}
+          {{- .Key | markdownify -}}
         </button>
       </h2>
     </div>
