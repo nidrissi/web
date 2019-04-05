@@ -5,4 +5,5 @@ what: TD
 time: 36h
 year: 2017--2018
 semester: 1
+date: 2017-09-01
 ---
