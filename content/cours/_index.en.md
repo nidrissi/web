@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-slug: class
+url: /en/class/
 lastmod: "2018-08-17"
 date: "2018-01-01"
 menu:

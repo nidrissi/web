@@ -1,0 +1,18 @@
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+
+{{- range (.Pages.GroupByParam "year").Reverse -}}
+<h2>{{ .Key | markdownify }}</h2>
+<ul>
+  {{- range .Pages -}}
+  {{- .Render "li" -}}
+  {{- end -}}
+</ul>
+{{- end -}}
+
+{{- with .Content -}}
+<hr>
+{{- . -}}
+{{- end -}}
+
+{{- end -}}

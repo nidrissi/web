@@ -44,6 +44,8 @@ languages:
     title: "Najib Idrissi's page"
     params:
       date_format: Jan 2, 2006
+    permalinks:
+      cours: /class/:filename/
   fr:
     languageCode: fr
     languageName: Français

@@ -4,4 +4,5 @@ cursus: L1 MASS
 what: TD
 time: 15h
 year: 2016--2017
+semester: 2
 ---
