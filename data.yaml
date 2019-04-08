@@ -141,7 +141,7 @@ section:
           b: |
             Porteur d'un *Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur »* (PEPS JCJC), CNRS / Insmi, 3500 €
             !
-            Lead of an *Exploratory Project for First Support "Young Researcher"* (PEPS JCJC), CNRS / Insmi, 3500 €
+            Holder of an *Exploratory Project for First Support "Young Researcher"* (PEPS JCJC), CNRS / Insmi, 3500 €
       - item:
           a: 2015--2018
           b: |
@@ -156,11 +156,17 @@ section:
       #       Travel grant \"Oberwolfach Leibniz Graduate Students\" (for the workshop "Factorization Algebras and Functorial Field Theories")
       - subtitle: Participation
       - item:
+          a: 02/2018--08/2018
+          b: |
+            Financé par le projet ERC StG 678156--GRAPHCPX, porteur : Thomas Willwacher
+            !
+            Funded by the ERC project StG 678156--GRAPHCPX, PI: Thomas Willwacher
+      - item:
           a: 2014--2015
           b: |
-            Membre du projet ANR [« **H**omotopie algébrique, **O**pérades et groupes de **G**rothendieck--**T**eichmüller »](http://math.univ-lille1.fr/~operads/) (coordinateur : Benoit Fresse)
+            Membre du projet ANR [« **H**omotopie algébrique, **O**pérades et groupes de **G**rothendieck--**T**eichmüller »](http://math.univ-lille1.fr/~operads/) (HOGT), coordinateur : Benoit Fresse
             !
-            Member of the ANR project ["***H**omotopie algébrique, **O**pérades et groupes de **G**rothendieck--**T**eichmüller*"](http://math.univ-lille1.fr/~operads/) (coordinator: Benoit Fresse)
+            Member of the ANR project ["***H**omotopie algébrique, **O**pérades et groupes de **G**rothendieck--**T**eichmüller*"](http://math.univ-lille1.fr/~operads/) (HOGT), coordinator: Benoit Fresse
   - title: Visites ! Research visits
     content:
       - item:
