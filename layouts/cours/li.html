@@ -2,4 +2,4 @@
   {{- if .Params.link -}}<a href="{{ .Permalink -}}">{{- end -}}
   {{- .Title -}}
   {{- if .Params.link -}}</a>{{- end -}}
-</strong> &middot; {{ .Params.cursus }} (S{{ .Params.semester}}) &middot; {{ .Params.what}} &middot; {{ .Params.time }}</li>
+</strong> &bull; {{ partial "meta/cours" . }}</li>
