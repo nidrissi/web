@@ -146,7 +146,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9">Lead of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Holder of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
 
 
 
@@ -163,8 +163,13 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 
+<dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
+<dd class="col-lg-10 col-sm-9">Funded by the ERC project StG 678156–GRAPHCPX, PI: Thomas Willwacher.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Member of the ANR project <a href="http://math.univ-lille1.fr/~operads/">“<em><strong>H</strong>omotopie algébrique, <strong>O</strong>pérades et groupes de <strong>G</strong>rothendieck–<strong>T</strong>eichmüller</em>”</a> (coordinator: Benoit Fresse).</dd>
+<dd class="col-lg-10 col-sm-9">Member of the ANR project <a href="http://math.univ-lille1.fr/~operads/">“<em><strong>H</strong>omotopie algébrique, <strong>O</strong>pérades et groupes de <strong>G</strong>rothendieck–<strong>T</strong>eichmüller</em>”</a> (HOGT), coordinator: Benoit Fresse.</dd>
 
 
 </dl>

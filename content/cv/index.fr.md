@@ -163,8 +163,13 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 
+<dt class="col-lg-2 col-sm-3">02/2018–08/2018</dt>
+<dd class="col-lg-10 col-sm-9">Financé par le projet ERC StG 678156–GRAPHCPX, porteur : Thomas Willwacher.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Membre du projet ANR <a href="http://math.univ-lille1.fr/~operads/">« <strong>H</strong>omotopie algébrique, <strong>O</strong>pérades et groupes de <strong>G</strong>rothendieck–<strong>T</strong>eichmüller »</a> (coordinateur : Benoit Fresse).</dd>
+<dd class="col-lg-10 col-sm-9">Membre du projet ANR <a href="http://math.univ-lille1.fr/~operads/">« <strong>H</strong>omotopie algébrique, <strong>O</strong>pérades et groupes de <strong>G</strong>rothendieck–<strong>T</strong>eichmüller »</a> (HOGT), coordinateur : Benoit Fresse.</dd>
 
 
 </dl>
