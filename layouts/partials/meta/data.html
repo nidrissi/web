@@ -6,4 +6,5 @@
 </time>
 {{ range $k, $v := $.Params.tags -}}
 <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" class="badge badge-primary">#{{ . }}</a>
-{{ end -}}
+{{ end }}
+{{ partial "links" (dict "content" . "is_card" 0) }}
