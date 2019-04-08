@@ -100,7 +100,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">Since 10/2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="www.imj-prg.fr/spip.php?article67">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 
