@@ -1,7 +1,7 @@
-{{- if ne .Params.Lastmod .Params.Date -}}
+{{- if ne .Lastmod .Date -}}
 {{- i18n "last_updated" -}}
 {{- end }}
-<time datetime="{{ dateFormat "2006-01-02" .Date }}">
+<time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">
   {{- .Lastmod.Format .Site.Params.date_format -}}
 </time>
 {{ range $k, $v := $.Params.tags -}}

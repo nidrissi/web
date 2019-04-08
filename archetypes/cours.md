@@ -5,5 +5,4 @@ cursus:
 what: 
 time: 
 year: 
-semester: 
 ---

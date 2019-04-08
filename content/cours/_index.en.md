@@ -12,14 +12,17 @@ menu:
 
 Acronyms:
 
-License (L1/L2/L3)
-: First university degree in the French version of the European system (≈ bachelor). Divided in three years = six semesters: L1 (S1/S2), L2 (S3/S4), and L3 (S5/S6).
+License (L1 / L2 / L3)
+: First university degree in the French version of the European system (≈ bachelor). Divided in three years: L1, L2, and L3.
+
+S1 / S2
+: Semesters: S1 = September to December, S2 = January to April.
 
 MASS
 : Mathematics Applied to Social Sciences.
 
 MIASHS
-: Mathematics and Computer Science ("*Informatique*") Applied to Social and Human Sciences.
+: Mathematics and Computer Science Applied to Social and Human Sciences.
 
 SESI
 : Exact Sciences and Engineering Sciences.
