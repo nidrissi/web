@@ -13,7 +13,7 @@
 
   <div class="collapse navbar-collapse">
     <ul class="navbar-nav mr-auto">
-      {{ $url := .URL }}
+      {{ $currentURL := .Permalink | absURL }}
       {{- range .Site.Menus.main -}}
       {{- if .HasChildren -}}
       <li class="nav-item dropdown">
@@ -22,15 +22,17 @@
         </a>
         <div class="dropdown-menu">
           {{- range .Children -}}
-          <a class="dropdown-item {{ if eq .URL $url }}active{{ end }}" href="{{ .URL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}>
+          {{- $url := .URL | absURL -}}
+          <a class="dropdown-item {{- if eq $url $currentURL }} active {{- end }}" href="{{ $url }}"{{ if $.IsHome }} data-target="{{ $url }}"{{ end }}>
             {{- .Pre }} {{ .Name }} {{ .Post -}}
           </a>
           {{- end -}}
         </div>
       </li>
       {{- else -}}
+      {{- $url := .URL | absURL -}}
       <li class="nav-item">
-        <a class="nav-link {{ if eq .URL $url}}active{{ end }}" href="{{ .URL }}">
+        <a class="nav-link {{- if eq $url $currentURL }} active {{- end }}" href="{{ $url }}">
           {{- .Pre }} {{ .Name }} {{ .Post -}}
         </a>
       </li>
@@ -46,7 +48,7 @@
         </a>
         <div class="dropdown-menu dropdown-menu-right">
           {{- range .Translations -}}
-          <a href="{{ .URL }}" class="dropdown-item">
+          <a href="{{ .Permalink }}" class="dropdown-item">
             {{- .Language.LanguageName -}}
           </a>
           {{- end -}}
