@@ -14,7 +14,7 @@ menu:
 
 $for(section)$
 
-## $section.title$$if(section.more)$ <small>([$i18n.more$]({{< ref "$section.more$" >}}))</small>$endif$
+## $section.title$$if(section.more)$ <small>([$seemore$]({{< ref "$section.more$" >}}))</small>$endif$
 
 <dl class="row pl-3 mb-0">
 
