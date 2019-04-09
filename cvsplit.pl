@@ -4,7 +4,6 @@ use warnings;
 use feature qw/switch say/;
 use experimental qw/switch/;
 use YAML::Tiny;
-use XXX;
 
 my $infile = 'data.yaml';
 my @outfile = qw(french.out.yaml english.out.yaml);
@@ -48,7 +47,7 @@ sub traverse {
             return sep_hash map { $_ => [ traverse($in->{$_}) ] } keys %$in;
         }
         default {
-            XXX $in;
+            die $in;
         }
     }
 }
