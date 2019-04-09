@@ -13,33 +13,6 @@ Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-
 Les séances ont lieu le **jeudi de 15h45 à 17h**.
 Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces) (les salles SG-1xxx sont au premier étage, etc).
 
-### Séances à venir
-
-18 avril 2019, SG-2015
-: 5 -- *Transfert et comparaison* (Grégory Ginot)  
-§14.1, §14.2 Transfert ascendant de lignes d'annulation  
-§14.3 Transfert descendant (idée de la preuve)  
-§15 Homologie relative et comparaison d'algèbres {{< tex "E_k" >}}
-
-16 mai 2019, SG-2015
-: 6 -- *Groupoïdes monoïdaux et algèbres {{< tex "E_k" >}}* (Jean-Michel Fischer)  
-§12.2 Modules sur les algèbres {{< tex "E_1" >}}  
-§17.1 Une construction d'algèbres {{< tex "E_k" >}}  
-§17.2 Complexes de scindage
-
-???
-: 7 -- *Applications* (Najib Idrissi ?)  
-§18.1 Le théorème principal  
-§18.2, §18.3 Application aux groupes linéaires généraux
-
-???
-: 8 -- *Coefficients locaux* (Mario Gonçalves Lamas ?)
-
-???
-: 9 -- *Lien avec la dualité de Koszul* (Muriel Livernet)
-
-### Séances passées
-
 Les notes manuscrites que j'ai prises durant les exposés sont disponibles ci-dessous.
 Les erreurs possibles qu'elles contiennent sont de mon fait.
 
@@ -66,6 +39,29 @@ J'exposerai le plan général du groupe de travail et nous nous répartirons les
 : 4 -- *Algèbres {{< tex "W_{k-1}" >}}* (Geoffroy Horel)  
 §16.1, §16.2 Opérations homologiques sur les algèbres {{< tex "E_k" >}}  
 §16.3 Homologie des algèbres {{< tex "E_k" >}} libres <!--zapper 16.4-->
+
+18 avril 2019, SG-2015
+: 5 -- *Transfert et comparaison* (Grégory Ginot)  
+§14.1, §14.2 Transfert ascendant de lignes d'annulation  
+§14.3 Transfert descendant (idée de la preuve)  
+§15 Homologie relative et comparaison d'algèbres {{< tex "E_k" >}}
+
+16 mai 2019, SG-2015
+: 6 -- *Groupoïdes monoïdaux et algèbres {{< tex "E_k" >}}* (Jean-Michel Fischer)  
+§12.2 Modules sur les algèbres {{< tex "E_1" >}}  
+§17.1 Une construction d'algèbres {{< tex "E_k" >}}  
+§17.2 Complexes de scindage
+
+???
+: 7 -- *Applications* (Najib Idrissi ?)  
+§18.1 Le théorème principal  
+§18.2, §18.3 Application aux groupes linéaires généraux
+
+???
+: 8 -- *Coefficients locaux* (Mario Gonçalves Lamas ?)
+
+???
+: 9 -- *Lien avec la dualité de Koszul* (Muriel Livernet)
 
 ## Références
 
