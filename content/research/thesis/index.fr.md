@@ -10,7 +10,7 @@ status: other
 publication: Thèse de doctorat, Université Lille 1
 title: Formalité opéradique et homotopie des espaces de configuration
 urls:
-  source: https://gitlab.math.univ-paris-diderot.fr/nidrissi/thesis
+  source: thesis.zip
   pdf: thesis.pdf
   custom:
     - name: Université

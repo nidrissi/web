@@ -10,7 +10,7 @@ status: other
 publication: Doctoral Thesis, Université Lille 1
 title: Operadic Formality and Homotopy of Configuration Spaces
 urls:
-  source: https://gitlab.math.univ-paris-diderot.fr/nidrissi/thesis
+  source: thesis.zip
   pdf: thesis.pdf
   custom:
     - name: University
