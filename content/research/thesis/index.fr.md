@@ -21,15 +21,8 @@ urls:
 
 Thèse dirigée par [Benoit Fresse](https://math.univ-lille1.fr/~fresse) à [l'Université de Lille](https://www.univ-lille.fr) et financée par une Allocation Spécifique de [l'École Normale Supérieure](https://www.ens.fr).
 
-<table class="table">
-<thead>
-<tr>
-<th>Jury</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-
+<table class="table table-borderless">
+<caption>Jury</caption>
 <tbody>
 <tr>
 <td>Directeur de thèse :</td>
@@ -57,7 +50,7 @@ Thèse dirigée par [Benoit Fresse](https://math.univ-lille1.fr/~fresse) à [l'U
 
 <tr>
 <td></td>
-<td><a href="http://math.univ-lille1.fr/~popescu/">Patrick Popescu-Pampu</a></td>
+<td><a href="http://math.univ-lille1.fr/~popescu/">Patrick Popescu-Pampu</a> (président)</td>
 <td>Université Lille 1</td>
 </tr>
 

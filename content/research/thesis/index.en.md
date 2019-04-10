@@ -21,15 +21,8 @@ urls:
 
 Thesis realized under the supervision of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at [Université de Lille](https://www.univ-lille.fr) and funded by an *Allocation Spécifique* from the [École Normale Supérieure](https://www.ens.fr).
 
-<table class="table">
-<thead>
-<tr>
-<th>Jury</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-
+<table class="table table-borderless">
+<caption>Jury</caption>
 <tbody>
 <tr>
 <td>Advisor:</td>
@@ -57,7 +50,7 @@ Thesis realized under the supervision of [Benoit Fresse](https://math.univ-lille
 
 <tr>
 <td></td>
-<td><a href="http://math.univ-lille1.fr/~popescu/">Patrick Popescu-Pampu</a></td>
+<td><a href="http://math.univ-lille1.fr/~popescu/">Patrick Popescu-Pampu</a> (president)</td>
 <td>Université Lille 1</td>
 </tr>
 
