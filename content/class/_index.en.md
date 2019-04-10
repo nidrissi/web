@@ -1,6 +1,5 @@
 ---
 title: Teaching
-url: /en/class/
 current: 2018--2019
 menu:
   main:

@@ -1,6 +1,6 @@
 ---
 title: Enseignement
-lastmod: 2018-08-17
+url: /fr/cours/
 current: 2018--2019
 menu:
   main:
