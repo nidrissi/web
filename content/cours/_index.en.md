@@ -1,8 +1,6 @@
 ---
 title: Teaching
 url: /en/class/
-lastmod: 2018-08-17
-date: 2018-01-01
 current: 2018--2019
 menu:
   main:
