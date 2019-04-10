@@ -12,7 +12,7 @@ menu:
 Je suis/fus membre :
 
 * du [GDR Topologie Algébrique et Applications](http://gdrtop.math.cnrs.fr) ;
-* du [projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller » (HOGT)](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse, entre 2014 et 2015.
+* (2014--2015) du [projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller » (HOGT)](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse.
 
 ---
 
