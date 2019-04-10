@@ -400,7 +400,7 @@ section:
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
   - title: Enseignement ! Teaching
-    more: /cours
+    more: /class
     content:
       - item:
           a: 2018--2019
