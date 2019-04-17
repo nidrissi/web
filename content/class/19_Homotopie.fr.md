@@ -18,9 +18,9 @@ On suivra essentiellement deux exemples : l'exemple fondateur des espaces topolo
 On présentera l'axiomatique moderne de l'homotopie, les catégories de modèles de Quillen, et on expliquera l'équivalence entre les espaces topologiques et les ensembles simpliciaux. 
 On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour montrer comment les structures multiplicatives des cochaines (singulières ou de De Rham) encodent les espaces à homotopie près.
 
-## Plan
+### Plan
 
-## Prérequis
+### Prérequis
 
 ## Organisation
 
@@ -46,6 +46,6 @@ On pourra notamment y trouver les anciennes feuilles de TD, ainsi que :
 * **Edwin Spanier. *Algebraic topology*.** Berlin: Springer-Verlag, 1995, pp. xiv+528. ISBN: 978-1-4684-9322-1. [DOI:10.1007/978-1-4684-9322-1](https://dx.doi.org/10.1007/978-1-4684-9322-1). <span class="text-muted">[Manuel de topologie algébrique.]</span>
 * **Charles A. Weibel. *An Introduction to homological algebra*.** Cambridge Studies in Advanced Mathematics 38. Cambridge: Cambridge University Press, 1994, pp. xiv+450. ISBN: 0-521-43500-5. [MR1269324](http://www.ams.org/mathscinet-getitem?mr=1269324). <span class="text-muted">[Manuel d'algèbre homologique.]</span>
 
-On pourra également se référer au cours de topologie algébrique suivant (dont le titre reprend celui de l'article d'Henri Poincaré qui est à l'origine de la topologie algébrique) :
+On pourra également se référer au cours de topologie algébrique et différentielle suivant (dont le titre reprend celui de l'article d'Henri Poincaré qui est à l'origine de la topologie algébrique) :
 
 * **Henri Paul de Saint-Gervais. *Analysis Situs*.** http://analysis-situs.math.cnrs.fr
