@@ -22,7 +22,7 @@ On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour 
 
 ### Prérequis
 
-Il est fortement recommandé d'avoir suivi un cours d'introduction à la topologie algébrique (groupe fondamental, homologie singulière, simpliciale, de de Rham).
+Il est fortement recommandé d'avoir suivi un cours d'introduction à la topologie algébrique (groupe fondamental, homologie singulière, simpliciale, de Rham).
 Avoir suivi un cours d'algèbre homologique auparavant s'avérera également utile.
 
 ## Organisation
