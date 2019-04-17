@@ -3,13 +3,18 @@
   {{- partial "header" . -}}
   <body>
     {{- partial "navbar" . -}}
-    <div id="main-container" class="container py-3">
-      {{- if .Params.toc -}}{{- partial "toc" . -}}{{- end -}}
-      <section>{{- block "main" . -}}{{- end -}}</section>
-      <hr>
-      <footer class="text-muted text-center">
-        {{- .Site.Author.name }} &bull; {{ delimit .Site.Author.organizations ", " | markdownify }} &bull; <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
-      </footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 col-md-3"></div>
+        <div class="col-lg-8 col-md-6 py-md-3" id="main-container">
+          <section>{{- block "main" . -}}{{- end -}}</section>
+          <hr>
+          <footer class="text-muted text-center">
+            {{- .Site.Author.name }} &bull; {{ delimit .Site.Author.organizations ", " | markdownify }} &bull; <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
+          </footer>
+        </div>
+        <div class="col-lg-2 col-md-3">{{- if .Params.toc -}}{{- partial "toc" . -}}{{- end -}}</div>
+      </div>
     </div>
   </body>
 </html>
