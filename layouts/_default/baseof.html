@@ -4,6 +4,7 @@
   <body>
     {{- partial "navbar" . -}}
     <div id="main-container" class="container py-3">
+      {{- if .Params.toc -}}{{- partial "toc" . -}}{{- end -}}
       <section>{{- block "main" . -}}{{- end -}}</section>
       <hr>
       <footer class="text-muted text-center">

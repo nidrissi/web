@@ -1,5 +1,6 @@
 ---
 title: "Théorie de l'homotopie"
+toc: true
 draft: true
 link: true
 cursus: M2 Mathématiques fondamentales
@@ -8,4 +9,3 @@ time: 27h
 year: 2019--2020
 date: 2020-01-01
 ---
-

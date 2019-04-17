@@ -1,8 +1,8 @@
 # Navigation
 - id: toggle_navigation
   translation: Toggle navigation
-- id: table_of_contents
-  translation: Table of Contents
+- id: contents
+  translation: Contents
 # Buttons
 - id: btn_preprint
   translation: Preprint
