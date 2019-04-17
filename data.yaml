@@ -402,6 +402,11 @@ section:
   - title: Enseignement ! Teaching
     more: /class
     content:
+      # - item:
+      #     a: 2019--2020
+      #     b: |
+      #       Théorie de l'homotopie, M2 Maths fondas (cours, 27h)
+      #       ! Homotopy Theory, M2 Fundam.\ Math (lectures, 27h)
       - item:
           a: 2018--2019
           b: |
