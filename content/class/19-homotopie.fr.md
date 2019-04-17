@@ -20,6 +20,14 @@ On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour 
 
 ### Plan
 
+1. Groupes d'homotopie supérieurs des espaces topologiques, fibrations de Serre, complexes CW.
+1. Complexes de chaînes, homotopie des complexes.
+2. Catégories de modèles.
+3. Foncteurs de Quillen et foncteurs dérivés.
+4. Comparaison des ensembles simpliciaux et espaces topologiques.
+5. Homotopie rationnelle.
+6. Notion de théorie des {{< tex "\infty" >}}-catégories.
+
 ### Prérequis
 
 Il est fortement recommandé d'avoir suivi un cours d'introduction à la topologie algébrique (groupe fondamental, homologie singulière, simpliciale, de Rham).
@@ -27,16 +35,18 @@ Avoir suivi un cours d'algèbre homologique auparavant s'avérera également uti
 
 ## Organisation
 
+<div class="alert alert-info" role="alert">À venir.</div>
+
 ## Bibliographie
 
-Grégory Ginot a donné un [cours en 2018--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
+Grégory Ginot a donné un [cours en 2017--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
 On pourra notamment y trouver les anciennes feuilles de TD, ainsi que :
 
-* **[Les notes du cours](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)** ;
-* [L'examen 2017--2018](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Exam_2018.pdf) ;
-* [Le rattrapage 2017--2018](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_R_Exam_2018.pdf) ;
-* [Le devoir maison 2018--2019](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Devoir_2019.pdf) ;
-* [L'examen 2018--2019](https://www.math.univ-paris13.fr/~ginot/Homotopie/Homotopie_Exam_2019.pdf).
+* **[les notes du cours](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)** ;
+* [l'examen 2017--2018](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Exam_2018.pdf) ;
+* [le rattrapage 2017--2018](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_R_Exam_2018.pdf) ;
+* [le devoir maison 2018--2019](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Devoir_2019.pdf) ;
+* [l'examen 2018--2019](https://www.math.univ-paris13.fr/~ginot/Homotopie/Homotopie_Exam_2019.pdf).
 
 ### Ouvrages
 
