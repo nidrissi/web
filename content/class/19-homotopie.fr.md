@@ -10,7 +10,7 @@ year: 2019--2020
 date: 2020-01-01
 lastmod: 2019-04-17
 sidebar:
-  - "[M2 maths Université de Paris](http://master.math.univ-paris-diderot.fr/)"
+  - "[M2 maths Université de Paris](http://master.math.univ-paris-diderot.fr/annee/m2-math/)"
   - "[M2 maths Sorbonne Université](http://mathfond.math.upmc.fr/2018-19/cours.html)"
   - "[M2 maths Université Paris 13](https://www.math.univ-paris13.fr/departement/index.php/fr/master-maths/deuxiere-annee)"
 ---
@@ -18,7 +18,7 @@ sidebar:
 Le but de ce cours est de donner une introduction à la théorie de l'homotopie moderne et à ses outils et applications, puis d'introduire la notion d'{{< tex "\infty" >}}-catégorie.
 On suivra essentiellement deux exemples : l'exemple fondateur des espaces topologiques et l'exemple des complexes de chaînes.
 On présentera l'axiomatique moderne de l'homotopie, les catégories de modèles de Quillen, et on expliquera l'équivalence entre les espaces topologiques et les ensembles simpliciaux. 
-On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour montrer comment les structures multiplicatives des cochaines (singulières ou de De Rham) encodent les espaces à homotopie près.
+On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour montrer comment les structures multiplicatives des cochaines (singulières ou de Rham) encodent les espaces à homotopie près.
 
 **Prérequis.** Il est fortement recommandé d'avoir suivi un cours d'introduction à la topologie algébrique (groupe fondamental, homologie singulière, simpliciale, de Rham).
 Avoir suivi un cours d'algèbre homologique auparavant s'avérera également utile.
