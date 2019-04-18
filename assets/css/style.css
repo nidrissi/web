@@ -1,5 +1,13 @@
 body {
     background-color: rgb(245,245,245) !important;
+    padding-top: 3.5rem;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 3.5rem; /* fixed header height*/
+  margin: -3.5rem 0 0; /* negative fixed header height */
 }
 
 #main-container {
