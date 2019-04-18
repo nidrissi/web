@@ -13,7 +13,7 @@
             {{- .Site.Author.name }} &bull; {{ delimit .Site.Author.organizations ", " | markdownify }} &bull; <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
           </footer>
         </div>
-        <div class="col d-none d-md-block">{{- if .Params.toc -}}{{- partial "toc" . -}}{{- end -}}</div>
+        <div class="col">{{- partial "sidebar" . -}}</div>
       </div>
     </div>
   </body>

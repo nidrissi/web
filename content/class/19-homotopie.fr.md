@@ -9,6 +9,10 @@ time: 27h
 year: 2019--2020
 date: 2020-01-01
 lastmod: 2019-04-17
+sidebar:
+  - "[M2 maths Université de Paris](http://master.math.univ-paris-diderot.fr/)"
+  - "[M2 maths Sorbonne Université](http://mathfond.math.upmc.fr/2018-19/cours.html)"
+  - "[M2 maths Université Paris 13](https://www.math.univ-paris13.fr/departement/index.php/fr/master-maths/deuxiere-annee)"
 ---
 
 Le but de ce cours est de donner une introduction à la théorie de l'homotopie moderne et à ses outils et applications, puis d'introduire la notion d'{{< tex "\infty" >}}-catégorie.
