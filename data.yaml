@@ -12,7 +12,7 @@ title: Curriculum Vitæ
 firstname: Najib
 familyname: Idrissi
 address:
-  - Université Paris Diderot -- IMJ-PRG
+  - Université de Paris -- IMJ-PRG
   - 8 place Aurélie Nemous
   - F-75013 Paris, France
 email: najib.idrissi-kaitouni@imj-prg.fr
@@ -27,13 +27,13 @@ section:
       - entry:
           a: Depuis 09/2018 ! Since 09/2018
           b: Maître de conférences
-          c: Université Paris Diderot^⋆^ / Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)
+          c: Université de Paris^⋆^ / Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)
           d: Paris
           e: France
           f: |
-            ⋆. Membre de l'Université de Paris.
+            ⋆. Précédemment Université Paris Diderot.
             !
-            ⋆. Member of the University of Paris.
+            ⋆. Formerly Université Paris Diderot.
       - entry:
           a: 02/2018--08/2018
           b: Chercheur postdoctorant ! Postdoctoral researcher
