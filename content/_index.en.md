@@ -10,7 +10,7 @@ Hello!
 I am Najib Idrissi.
 I am a mathematician, and mainly interested in operads and their applications to algebraic topology, more specifically the study of configuration spaces and their links to graph complexes.
 
-I am a *maître de conférences* at [Université Paris Diderot](https://www.univ-paris-diderot.fr).
+I am a *maître de conférences* at [Université Paris Diderot](https://www.univ-paris-diderot.fr) (soon to be merged into [Université de Paris](https://u-paris.fr)).
 I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG.
 You can find more info in [my CV]({{< ref "/cv" >}}).
