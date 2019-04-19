@@ -5,6 +5,7 @@ lastmod: 2019-03-06
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf
+toc: true
 menu:
   main:
     weight: 10
