@@ -1,7 +1,7 @@
 ---
 title: "Groupe de travail : Stabilité homologique"
 date: 2019-01-01
-lastmod: 2019-04-03
+lastmod: 2019-04-19
 aliases: [/fr/gdt-stabilite/]
 ---
 
