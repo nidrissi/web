@@ -5,6 +5,7 @@ lastmod: $lastmod$
 date: 2018-01-01
 urls:
   pdf: cv.$lang$.pdf
+toc: true
 menu:
   main:
     weight: 10
