@@ -15,4 +15,4 @@ Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https
 Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG.
 Pour plus d'informations, voir [mon CV]({{< ref "/cv" >}}).
 
-Cette année, je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt-stabilite" >}}).
+Cette année, je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt/stabilite" >}}).

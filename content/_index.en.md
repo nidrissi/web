@@ -15,4 +15,4 @@ I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-pr
 I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG.
 You can find more info in [my CV]({{< ref "/cv" >}}).
 
-This year, I am involved in the organization of a [working seminar on homological stability (in French)]({{< ref path="gdt-stabilite" lang="fr" >}}).
+This year, I am involved in the organization of a [working seminar on homological stability (in French)]({{< ref path="gdt/stabilite" lang="fr" >}}).

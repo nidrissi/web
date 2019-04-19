@@ -105,7 +105,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3">2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Organisation d’un <a href="https://idrissi.eu/fr/gdt-stabilite/">groupe de travail sur la stabilité homologique</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Organisation d’un <a href="https://idrissi.eu/fr/gdt/stabilite/">groupe de travail sur la stabilité homologique</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 
