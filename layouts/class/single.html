@@ -9,6 +9,6 @@
     {{ .Lastmod.Format .Site.Params.date_format -}}
   </time>
   {{- end -}}
-  {{- with .Content -}}<div>{{- . -}}</div>{{- end -}}
 </p>
+{{- with .Content -}}<div>{{- . -}}</div>{{- end -}}
 {{- end -}}
