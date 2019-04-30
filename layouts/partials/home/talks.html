@@ -1,10 +1,9 @@
-<section class="row">
-  <h2 class="col-12 col-md-2"><a href="{{ ref . "talk/" }}">{{ i18n "talks" }}</a></h2>
-  <div class="col-12 col-md-10">
-    {{- range first .Site.Params.home_counts.talk (where .Site.RegularPages "Type" "talk") -}}
-    {{- .Render "card" -}}
-    {{- end -}}
+<section>
+  <h2 class="mb-3">{{ i18n "talks" }}</h2>
 
-    <h6 class="mt-2 mb-0"><a href="{{ ref . "talk/" }}">…{{ i18n "more_talks" }} »</a></h6>
-  </div>
+  {{- range first .Site.Params.home_counts.talk (where .Site.RegularPages "Type" "talk") -}}
+  {{- .Render "card" -}}
+  {{- end -}}
+
+  <p class="mt-3"><a class="mt-2 mb-0" href="{{ ref . "talk/" }}">…{{ i18n "more_talks" }} »</a></p>
 </section>

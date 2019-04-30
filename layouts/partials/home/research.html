@@ -1,12 +1,10 @@
-<section class="row">
-  <h2 class="col-12 col-md-2"><a href="{{ ref . "research/" }}">{{ i18n "research" }}</a></h2>
-  <div class="col-12 col-md-10">
-    {{- $pages := where .Site.RegularPages "Type" "research" -}}
-    {{- $pages := where $pages ".Params.status" "in" (slice "publication" "preprint") -}}
-    {{- range $pages -}}
-    {{- .Render "card" -}}
-    {{- end -}}
+<section>
+  <h2 class="mb-3">{{ i18n "research" }}</h2>
+  {{- $pages := where .Site.RegularPages "Type" "research" -}}
+  {{- $pages := where $pages ".Params.status" "in" (slice "publication" "preprint") -}}
+  {{- range $pages -}}
+  {{- .Render "card" -}}
+  {{- end -}}
 
-    <h6 class="mt-2 mb-0"><a href="{{ ref . "research/" }}">…{{ i18n "more_publications" }} »</a></h6>
-  </div>
+  <p class="mt-3"><a href="{{ ref . "research/" }}">…{{ i18n "more_publications" }} »</a></p>
 </section>

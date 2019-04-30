@@ -5,18 +5,21 @@
     {{- partial "navbar" . -}}
     <div class="container-fluid">
       <div class="row">
-        <div class="col"></div>
-        <div class="col-lg-8 col-md-7 py-3" id="main-container">
+        <div class="col-lg-8 offset-lg-2 py-3" id="main-container">
           {{- if .Params.draft -}}
           <div class="alert alert-danger"><h4 class="alert-heading mb-0">Draft!</h4></div>
           {{- end -}}
+
           <section>{{- block "main" . -}}{{- end -}}</section>
           <hr>
           <footer class="text-muted text-center">
             {{- .Site.Author.name }} &bull; {{ delimit .Site.Author.organizations ", " | markdownify }} &bull; <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
           </footer>
         </div>
-        <div class="col">{{- partial "sidebar" . -}}</div>
+
+        {{- if or .Params.toc .Params.sidebar -}}
+        <aside class="col">{{- partial "sidebar" . -}}</aside>
+        {{- end -}}
       </div>
     </div>
   </body>
