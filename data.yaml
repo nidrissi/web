@@ -570,5 +570,6 @@ section:
           a: 05/2013
           b: "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
       - item:
-          a: "(⋆. Futur) ! (⋆. Future)"
+          a: ⋆
+          b: "= futur ! = future"
 ...
