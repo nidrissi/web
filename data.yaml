@@ -1,5 +1,5 @@
 ---
-lastmod: 2019-03-06
+lastmod: 2019-05-02
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -47,17 +47,15 @@ section:
       - entry:
           a: 09/2015--01/2018
           b: Doctorat en Mathématiques ! Doctorate in Mathematics
-          c: Université de Lille^⋆^ / Laboratoire Paul Painlevé
+          c: Université de Lille / Laboratoire Paul Painlevé
           d: Lille
           e: France
           f: |
             Thèse soutenue le 17 novembre 2017. Directeur : [Benoit Fresse](https://math.univ-lille1.fr/~fresse/).\
-            Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
-            ⋆. Précédemment Université Lille-1.
+            Titre : *Formalité opéradique et homotopie des espaces de configuration*.
             !
             Thesis defended on November 17th, 2017. Advisor: [Benoit Fresse](https://math.univ-lille1.fr/~fresse/).\
-            Title: *Operadic Formality and Homotopy of Configuration Spaces*.\
-            ⋆. Formerly Université Lille-1.
+            Title: *Operadic Formality and Homotopy of Configuration Spaces*.
       - entry:
           a: 09/2011--08/2015
           b: Élève fonctionnaire stagiaire
@@ -235,6 +233,13 @@ section:
           e: France
           f: The Lambrechts--Stanley Model of Configuration Spaces
       - subtitle: Séminaires ! Seminars
+      - entry:
+          a: 05/2019^⋆^
+          b: Séminaire de Topology ! Topology Seminar
+          c: IMJ-PRG
+          d: Paris
+          e: France
+          f: TBA
       - entry:
           a: 12/2018
           b: Stockholm Topology Seminar
