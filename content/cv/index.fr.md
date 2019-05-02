@@ -175,38 +175,6 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 
-## Visites
-
-<dl class="row pl-3 mb-0">
-
-
-
-<dt class="col-lg-2 col-sm-3">06/2019<sup>⋆</sup> (5 j.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">06/2018 (10 j.)</dt>
-<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">08/2017 (5 j.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">01/2017 (5 j.)</dt>
-<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">06/2016 (4 j.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
-
-
-</dl>
-
 ## Exposés <small>([plus d’infos]({{< ref "/talk" >}}))</small>
 
 <dl class="row pl-3 mb-0">
@@ -411,6 +379,38 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 <dt class="col-lg-2 col-sm-3">2015–2016</dt>
 <dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2, L1 SESI (TD, 66h).</dd>
+
+
+</dl>
+
+## Visites
+
+<dl class="row pl-3 mb-0">
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2019<sup>⋆</sup> (5 j.)</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2018 (10 j.)</dt>
+<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">08/2017 (5 j.)</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">01/2017 (5 j.)</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2016 (4 j.)</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
 </dl>

@@ -175,38 +175,6 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 
-## Research visits
-
-<dl class="row pl-3 mb-0">
-
-
-
-<dt class="col-lg-2 col-sm-3">06/2019<sup>⋆</sup> (5 d.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">06/2018 (10 d.)</dt>
-<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">08/2017 (5 d.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">01/2017 (5 d.)</dt>
-<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3">06/2016 (4 d.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
-
-
-</dl>
-
 ## Talks <small>([more info]({{< ref "/talk" >}}))</small>
 
 <dl class="row pl-3 mb-0">
@@ -411,6 +379,38 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 <dt class="col-lg-2 col-sm-3">2015–2016</dt>
 <dd class="col-lg-10 col-sm-9">Fundamental mathematics 2, L1 SESI (exercises, 66h).</dd>
+
+
+</dl>
+
+## Research visits
+
+<dl class="row pl-3 mb-0">
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2019<sup>⋆</sup> (5 d.)</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2018 (10 d.)</dt>
+<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">08/2017 (5 d.)</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">01/2017 (5 d.)</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3">06/2016 (4 d.)</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
 </dl>
