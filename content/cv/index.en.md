@@ -630,8 +630,8 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3">(⋆. Future)</dt>
-<dd class="col-lg-10 col-sm-9">.</dd>
+<dt class="col-lg-2 col-sm-3">⋆</dt>
+<dd class="col-lg-10 col-sm-9">= future.</dd>
 
 
 </dl>
