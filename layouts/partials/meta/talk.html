@@ -1,4 +1,3 @@
 {{- if .Params.TBA -}}~{{- end -}}
-{{- (time .Date).Format $.Site.Params.date_format }}
-&bull;
-{{ with .Params.location }}{{- . -}}{{- end -}}
+{{- (time .Date).Format $.Site.Params.date_format }},
+{{ with .Params.location -}}{{ . -}}{{- end -}}

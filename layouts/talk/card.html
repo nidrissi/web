@@ -2,9 +2,9 @@
   <div class="card-body px-3 py-2">
     <h5 class="card-title mb-1">
       {{- with .Params.event_url -}}<a class="card-link" href="{{ . }}">{{- end -}}
-      {{- .Params.event | markdownify -}}.
+      {{- .Params.event | markdownify -}}
       {{- if .Params.event_url }}</a>{{- end }}
-      <small>{{ partial "meta/talk" .}}</small>
+      <small>&ndash; {{ partial "meta/talk" . }}</small>
     </h5>
 
     {{- if (or .Params.Title .Params.Abstract) -}}
