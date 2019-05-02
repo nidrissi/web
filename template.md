@@ -17,7 +17,7 @@ $for(section)$
 
 ## $section.title$$if(section.more)$ <small>([$seemore$]({{< ref "$section.more$" >}}))</small>$endif$
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 $for(section.content)$
 $if(section.content.subtitle)$
@@ -25,7 +25,7 @@ $if(section.content.subtitle)$
 
 ### $section.content.subtitle$
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 $endif$
 
 $if(section.content.entry)$
@@ -41,7 +41,7 @@ $endif$
 $if(section.content.bib)$
 </dl>
 {{< cvbib "$section.content.bib$" >}}
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 $endif$
 $endfor$
 
