@@ -7,12 +7,12 @@ use experimental qw/switch/;
 use YAML::Tiny;
 
 my $infile = 'data.yaml';
-my @outfile = qw(french.out.yaml english.out.yaml);
+my @outfile = qw/french.out.yaml english.out.yaml/;
 
 # translations of months
 my @months = (
-    [qw(janv. févr. mars avr. mai juin juil. août sept. oct. nov. déc.)],
-    [qw(Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.)]
+    [qw/janv. févr. mars avr. mai juin juil. août sept. oct. nov. déc./],
+    [qw/Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec./]
 );
 
 # Split an array of pairs into a pair of arrays
@@ -52,8 +52,8 @@ sub traverse {
             }
             # convert month names
             # add a non-breaking space
-            $fr =~ s{(\d\d)/}{$months[0][$1 - 1] . '\ '}eg;
-            $en =~ s{(\d\d)/}{$months[1][$1 - 1] . '\ '}eg;
+            $fr =~ s{(\d\d)/(?=\d\d\d\d)}{$months[0][$1 - 1] . '\ '}eg;
+            $en =~ s{(\d\d)/(?=\d\d\d\d)}{$months[1][$1 - 1] . '\ '}eg;
             return ($fr, $en);
         }
         when ('ARRAY') {
