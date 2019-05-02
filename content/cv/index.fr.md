@@ -45,7 +45,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 
-## Recherche <small>([plus d’infos]({{< ref "/research" >}}))</small>
+## Recherche
 
 <dl class="row mb-0">
 
@@ -174,7 +174,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 
-## Exposés <small>([plus d’infos]({{< ref "/talk" >}}))</small>
+## Exposés
 
 <dl class="row mb-0">
 
@@ -360,7 +360,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 
-## Enseignement <small>([plus d’infos]({{< ref "/class" >}}))</small>
+## Enseignement
 
 <dl class="row mb-0">
 

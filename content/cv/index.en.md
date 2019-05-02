@@ -45,7 +45,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 
-## Research <small>([more info]({{< ref "/research" >}}))</small>
+## Research
 
 <dl class="row mb-0">
 
@@ -174,7 +174,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 
-## Talks <small>([more info]({{< ref "/talk" >}}))</small>
+## Talks
 
 <dl class="row mb-0">
 
@@ -360,7 +360,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 
-## Teaching <small>([more info]({{< ref "/class" >}}))</small>
+## Teaching
 
 <dl class="row mb-0">
 
