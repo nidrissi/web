@@ -164,23 +164,6 @@ section:
             Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller\ »](http://math.univ-lille1.fr/~operads/) (HOGT). Coordinateur : Benoit Fresse
             !
             Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller*"](http://math.univ-lille1.fr/~operads/) (HOGT). Coordinator: Benoit Fresse
-  - title: Visites ! Research visits
-    content:
-      - item:
-          a: 06/2019^⋆^ (5 j.) ! 06/2019^⋆^ (5 d.)
-          b: ETH Zurich -- Thomas Willwacher
-      - item:
-          a: 06/2018 (10 j.) ! 06/2018 (10 d.)
-          b: University of Regina -- Don Stanley
-      - item:
-          a: 08/2017 (5 j.) ! 08/2017 (5 d.)
-          b: ETH Zurich -- Thomas Willwacher
-      - item:
-          a: 01/2017 (5 j.) ! 01/2017 (5 d.)
-          b: Université catholique de Louvain -- Pascal Lambrechts
-      - item:
-          a: 06/2016 (4 j.) ! 06/2016 (4 d.)
-          b: ETH Zurich -- Thomas Willwacher
   - title: Exposés ! Talks
     more: /talk
     content:
@@ -439,6 +422,23 @@ section:
             Mathématiques fondamentales 2, L1 SESI (TD, 66h)
             !
             Fundamental mathematics 2, L1 SESI (exercises, 66h)
+  - title: Visites ! Research visits
+    content:
+      - item:
+          a: 06/2019^⋆^ (5 j.) ! 06/2019^⋆^ (5 d.)
+          b: ETH Zurich -- Thomas Willwacher
+      - item:
+          a: 06/2018 (10 j.) ! 06/2018 (10 d.)
+          b: University of Regina -- Don Stanley
+      - item:
+          a: 08/2017 (5 j.) ! 08/2017 (5 d.)
+          b: ETH Zurich -- Thomas Willwacher
+      - item:
+          a: 01/2017 (5 j.) ! 01/2017 (5 d.)
+          b: Université catholique de Louvain -- Pascal Lambrechts
+      - item:
+          a: 06/2016 (4 j.) ! 06/2016 (4 d.)
+          b: ETH Zurich -- Thomas Willwacher
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
       - item:
