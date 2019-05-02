@@ -25,7 +25,7 @@ TARGET = french.out.pdf english.out.pdf french.out.md english.out.md
 
 all: $(TARGET)
 
-english.out.yaml french.out.yaml: data.yaml
+english.out.yaml french.out.yaml: data.yaml cvsplit.pl
 	perl cvsplit.pl
 
 %.out.tex: %.out.yaml $(TPL_TEX)
