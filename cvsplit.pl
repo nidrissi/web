@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use utf8;
 
 use feature qw/switch say/;
 use experimental qw/switch/;
@@ -7,6 +8,12 @@ use YAML::Tiny;
 
 my $infile = 'data.yaml';
 my @outfile = qw(french.out.yaml english.out.yaml);
+
+# translations of months
+my @months = (
+    [qw(janv. févr. mars avr. mai juin juil. août sept. oct. nov. déc.)],
+    [qw(Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.)]
+);
 
 # Split an array of pairs into a pair of arrays
 sub sep_array {
@@ -29,16 +36,25 @@ sub sep_hash {
     return \%out0, \%out1;
 }
 
+# Traverses the data structure
+# Splits fields containing '!' in two
+# Converts dates in local format
 sub traverse {
     my ($in) = @_;
     for (ref $in) {
         when ('') {
+            my ($fr, $en);
             # Some of them are empty
             if ($in && $in =~ /!/) {
-                return split /\s*!\s*/, $in;
+                ($fr, $en) = split /\s*!\s*/, $in;
             } else {
-                return ($in, $in);
+                ($fr, $en) = ($in, $in);
             }
+            # convert month names
+            # add a non-breaking space
+            $fr =~ s{(\d\d)/}{$months[0][$1 - 1] . '\ '}eg;
+            $en =~ s{(\d\d)/}{$months[1][$1 - 1] . '\ '}eg;
+            return ($fr, $en);
         }
         when ('ARRAY') {
             return sep_array map { [ traverse($_)] } @$in;
