@@ -16,7 +16,7 @@ menu:
 
 ## Academic Career
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Since Sept. 2018</dt>
@@ -47,13 +47,13 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ## Research <small>([more info]({{< ref "/research" >}}))</small>
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ### Publications
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -62,12 +62,12 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 {{< cvbib "publication" >}}
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 </dl>
 
 ### Preprints
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -76,12 +76,12 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 {{< cvbib "preprint" >}}
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 </dl>
 
 ### Other documents
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -90,13 +90,13 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 {{< cvbib "other" >}}
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ## Service
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Since Oct. 2018</dt>
@@ -133,13 +133,13 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ## Funding
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ### Obtained
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -157,7 +157,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ### Participation
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -176,13 +176,13 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ## Talks <small>([more info]({{< ref "/talk" >}}))</small>
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ### Invited
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -220,7 +220,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ### Contributed
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -243,7 +243,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ### Seminars
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -362,7 +362,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ## Teaching <small>([more info]({{< ref "/class" >}}))</small>
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -389,7 +389,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ## Research visits
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -421,7 +421,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 ## Conferences, workshops and thematic schools attended
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 

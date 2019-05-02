@@ -16,7 +16,7 @@ menu:
 
 ## Parcours
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Depuis sept. 2018</dt>
@@ -47,13 +47,13 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ## Recherche <small>([plus d’infos]({{< ref "/research" >}}))</small>
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ### Publications
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -62,12 +62,12 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 {{< cvbib "publication" >}}
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 </dl>
 
 ### Prépublications
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -76,12 +76,12 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 {{< cvbib "preprint" >}}
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 </dl>
 
 ### Autres documents
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -90,13 +90,13 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 {{< cvbib "other" >}}
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ## Service
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Depuis oct. 2018</dt>
@@ -133,13 +133,13 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ## Financements
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ### Obtenus
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -157,7 +157,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ### Participation
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -176,13 +176,13 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ## Exposés <small>([plus d’infos]({{< ref "/talk" >}}))</small>
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 </dl>
 
 ### Sur invitation
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -220,7 +220,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ### Sur proposition
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -243,7 +243,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ### Séminaires
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -362,7 +362,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ## Enseignement <small>([plus d’infos]({{< ref "/class" >}}))</small>
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -389,7 +389,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ## Visites
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
@@ -421,7 +421,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 ## Conférences, workshops et écoles thématiques
 
-<dl class="row pl-3 mb-0">
+<dl class="row mb-0">
 
 
 
