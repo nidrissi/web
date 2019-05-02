@@ -7,8 +7,8 @@
 
 {{- range .Data.Pages.GroupByDate "2006" -}}
 <div class="row">
-  <div class="col-md-2"><h3>{{- .Key -}}</h3></div>
-  <div class="col-md-10">
+  <div class="col-md-1 col-lg-2 col-xl-1"><h3>{{- .Key -}}</h3></div>
+  <div class="col">
     {{- range .Pages.ByDate.Reverse -}}
     {{- .Render "card" -}}
     {{- end -}}
