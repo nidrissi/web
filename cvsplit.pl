@@ -1,6 +1,7 @@
 use strict;
 use warnings;
-use utf8;
+use autodie;
+use utf8::all;
 
 use feature qw/switch say/;
 use experimental qw/switch/;
