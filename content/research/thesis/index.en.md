@@ -7,7 +7,7 @@ authors:
   - me
 date: 2017-11-17
 status: other
-publication: Doctoral Thesis, Université Lille 1
+publication: Doctoral thesis, Université Lille 1
 title: Operadic Formality and Homotopy of Configuration Spaces
 urls:
   source: thesis.zip
