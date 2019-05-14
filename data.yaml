@@ -169,27 +169,30 @@ section:
       - entry:
           a: 05/2019
           b: Higher Homotopy Algebras in Topology
-          c: MPIM
+          c: Max-Planck-Institut für Mathematik
           d: Bonn
           e: Allemagne ! Germany
           f: Curved Koszul duality for algebras over unital operads
       - entry:
           a: 01/2019
           b: Structures Supérieures ! Higher Structures
-          c: Centre international de rencontres mathématiques (CIRM)
+          c: Centre International de Rencontres Mathématiques
           d: Luminy
           e: France
           f: Configuration spaces and operads
       - entry:
           a: 06/2018
           b: |
-            Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior à l'école d'été)
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics
             !
-            Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker at the summer school)
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics
           c: Fields Institute
           d: Toronto
           e: Canada
-          f: Curved Koszul Duality for Algebras over Unital Operads
+          f: |
+            Curved Koszul Duality for Algebras over Unital Operads (orateur junior à l'école d'été)
+            !
+            Curved Koszul Duality for Algebras over Unital Operads (junior speaker at the summer school)
       - entry:
           a: 05/2018
           b: Graph Complexes, Configuration Spaces and Manifold Calculus
@@ -207,7 +210,7 @@ section:
       - entry:
           a: 10/2016
           b: "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
-          c: Institut des Hautes Études à Tunis (IHET)
+          c: Institut des Hautes Études à Tunis
           d: Tunis
           e: Tunisie ! Tunisia
           f: The Lambrechts--Stanley Model of Configuration Spaces
@@ -222,14 +225,14 @@ section:
       - entry:
           a: 02/2017
           b: Conference for Young researchers in homotopy theory and categorical structures
-          c: MPIM
+          c: Max-Planck-Institut für Mathematik
           d: Bonn
           e: Allemagne ! Germany
           f: The Lambrechts--Stanley Model of Configuration Spaces
       - entry:
           a: 10/2016
           b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
-          c: LAMFA
+          c: Laboratoire Amiénois de Mathématique Fondamentale et Appliquée
           d: Amiens
           e: France
           f: The Lambrechts--Stanley Model of Configuration Spaces
@@ -237,7 +240,7 @@ section:
       - entry:
           a: 05/2019
           b: Séminaire de Topology ! Topology Seminar
-          c: IMJ-PRG
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
           f: Homologie de factorisation et espaces de configuration
@@ -251,7 +254,7 @@ section:
       - entry:
           a: 11/2018
           b: Séminaire Géométrie & Topologie ! Geometry & Topology Seminar
-          c: IMJ-PRG
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
           f: Espaces de configuration et Opérades
@@ -356,7 +359,7 @@ section:
       - entry:
           a: 04/2016
           b: Séminaire de Topologie ! Topology Seminar
-          c: IMJ-PRG
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
@@ -370,7 +373,7 @@ section:
       - entry:
           a: 12/2015
           b: "Séminaire des doctorants ! PhD students' seminar"
-          c: LAMFA
+          c: Laboratoire Amiénois de Mathématique Fondamentale et Appliquée
           d: Amiens
           e: France
           f: Opérades
@@ -452,13 +455,13 @@ section:
           b: |
             *Topologie de basse dimension : Colloque en l'honneur de Christian Blanchet* (Université Paris Diderot).
             *SYM 10 Years Old* (Københavns Universitet).
-            *Higher Homotopy Algebras in Topology* (MPIM Bonn).
-            *Structures Supérieures* (CIRM, Luminy).
-            *Higher Structures in Holomorphic and Topological Field Theory* (IHES)
+            *Higher Homotopy Algebras in Topology* (Max-Planck-Institut für Mathematik, Bonn).
+            *Structures Supérieures* (Centre International de Rencontres Mathématiques, Luminy).
+            *Higher Structures in Holomorphic and Topological Field Theory* (Institut des Hautes Études Scientifiques)
       - item:
           a: 2018
           b: |
-            *New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday* (IHP).
+            *New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday* (Institut Henri Poincaré, Paris).
             *Colloque 2018 du GDR Topologie Algébrique* (Université de Montpellier).
             *Derived Geometry and Higher Categorical Structures in Geometry and Physics* (Fields Institute).
             *Graph Complexes, Configuration Spaces and Manifold Calculus* (University of British Columbia).
@@ -476,11 +479,11 @@ section:
             *Fourth Young Mathematicians Colloquium* (Vrije Universiteit Brussel).
             *Lens Topology and geometry 2017* (Université d'Artois, Lens)
             *Workshop on Quantum Topology* (Université Lille-1).
-            *Conference for Young researchers in homotopy theory and categorical structures* (MPIM Bonn)
+            *Conference for Young researchers in homotopy theory and categorical structures* (Max-Planck-Institut für Mathematik, Bonn)
       - item:
           a: 2016
           b: |
-            *Conference in the honour of Saïd Zarati* (IHET, Tunis).
+            *Conference in the honour of Saïd Zarati* (Institut des Hautes Études à Tunis).
             *Colloque 2016 du GDR Topologie Algébrique et Applications* (Université de Picardie Jules Verne).
             *Young Topologists Meeting 2016* (Københavns Universitet).
             *Workshop: Factorization Algebras and Functorial Field Theories* (Mathematisches Forschungsinstitut Oberwolfach).
