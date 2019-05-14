@@ -448,128 +448,68 @@ section:
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
       - item:
-          a: 06/2019^⋆^
-          b: SYM 10 Years Old @ Københavns Universitet
+          a: 2019
+          b: |
+            *Topologie de basse dimension : Colloque en l'honneur de Christian Blanchet* (Université Paris Diderot).
+            *SYM 10 Years Old* (Københavns Universitet).
+            *Higher Homotopy Algebras in Topology* (MPIM Bonn).
+            *Structures Supérieures* (CIRM, Luminy).
+            *Higher Structures in Holomorphic and Topological Field Theory* (IHES)
       - item:
-          a: 05/2019^⋆^
-          b: Higher Homotopy Algebras in Topology @ MPIM Bonn
+          a: 2018
+          b: |
+            *New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday* (IHP).
+            *Colloque 2018 du GDR Topologie Algébrique* (Université de Montpellier).
+            *Derived Geometry and Higher Categorical Structures in Geometry and Physics* (Fields Institute).
+            *Graph Complexes, Configuration Spaces and Manifold Calculus* (University of British Columbia).
+            *Rational Homotopy and its Applications* (Université de Lille)
       - item:
-          a: 01/2019
-          b: Structures Supérieures @ Centre international de rencontres mathématiques (CIRM, Luminy) ! Higher Structures @ Centre international de rencontres mathématiques (CIRM, Luminy)
+          a: 2017
+          b: |
+            *Colloque 2017 du GDR Topologie Algébrique* (Université Paris Diderot).
+            *Séminaire Itinérant de Catégories* (Université du Littoral Côte d'Opale)
+            *Journée des doctorants du Nord-Pas-de-Calais* (Université du Littoral Côte d'Opale)
+            *Workshop on Persistent Homology* (Université de Montpellier).
+            *Young Topologists Meeting 2017* (Stockholm Universitet & KTH).
+            *Algebraic Topology and Representation Theory* (Université de Lille).
+            *Derived Algebraic Geometry and Interactions* (Université de Toulouse).
+            *Fourth Young Mathematicians Colloquium* (Vrije Universiteit Brussel).
+            *Lens Topology and geometry 2017* (Université d'Artois, Lens)
+            *Workshop on Quantum Topology* (Université Lille-1).
+            *Conference for Young researchers in homotopy theory and categorical structures* (MPIM Bonn)
       - item:
-          a: 01/2019
-          b: Higher Structures in Holomorphic and Topological Field Theory @ Institut des Hautes Études Scientifiques
+          a: 2016
+          b: |
+            *Conference in the honour of Saïd Zarati* (IHET, Tunis).
+            *Colloque 2016 du GDR Topologie Algébrique et Applications* (Université de Picardie Jules Verne).
+            *Young Topologists Meeting 2016* (Københavns Universitet).
+            *Workshop: Factorization Algebras and Functorial Field Theories* (Mathematisches Forschungsinstitut Oberwolfach).
+            *Séminaire Itinérant de Catégories* (Université Lille-1).
       - item:
-          a: 10/2018
-          b: New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday @ Institut Henri Poincaré
+          a: 2015
+          b: |
+            *Colloque 2015 du GDR Topologie Algébrique et Applications* (Université de Toulouse-3).
+            *Lens Topology and geometry 2015* (Université d'Artois, Lens).
+            *Introductory School -- Homotopy theory, manifolds, and field theories* (Hausdorff Research Institute for Mathematics).
+            *Séminaire du projet ANR HOGT* (Université de Strasbourg).
+            *Second Young Mathematicians Colloquium* (KU Leuven Kulak).
+            *Séminaire Itinérant de Catégories* (Université du Littoral Côte d'Opale, Calais)
+            *Masterclass : K-théorie topologique et applications* (Université de Strasbourg).
+            *Séminaire du projet ANR HOGT* (Université Lille-1)
       - item:
-          a: 10/2018
-          b: Colloque 2018 du GDR Topologie Algébrique @ Université de Montpellier
+          a: 2014
+          b: |
+            *Colloque 2014 du GDR Topologie Algébrique et Applications* (Université Blaise Pascal).
+            *Colloque de clôture du projet ANR HOGT* (Université de Nice).
+            *Espaces des lacets en géométrie et topologie* (Université de Nantes).
+            *Young Topologists Meeting 2014* (Københavns Universitet).
+            *Young Mathematicians Colloquium* (Université Lille-1).
+            *Séminaire du projet ANR HOGT* (Université Lille-1)
       - item:
-          a: 06/2018
-          b: Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Institut Fields ! Derived Geometry and Higher Categorical Structures in Geometry and Physics @ Fields Institute
-      - item:
-          a: 05/2018
-          b: Graph Complexes, Configuration Spaces and Manifold Calculus @ University of British Columbia
-      - item:
-          a: 01/2018
-          b: Rational Homotopy and its Applications @ Université de Lille
-      - item:
-          a: 10/2017
-          b: Colloque 2017 du GDR Topologie Algébrique @ Université Paris Diderot
-      - item:
-          a: 10/2017
-          b: "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale"
-      - item:
-          a: 09/2017
-          b: "Journée des doctorants du Nord-Pas-de-Calais @ Université du Littoral Côte d'Opale"
-      - item:
-          a: 07/2017
-          b: Workshop on Persistent Homology @ Université de Montpellier
-      - item:
-          a: 07/2017
-          b: Young Topologists Meeting 2017 @ Stockholm Universitet & KTH
-      - item:
-          a: 06/2017
-          b: Algebraic Topology and Representation Theory @ Université de Lille
-      - item:
-          a: 06/2017
-          b: Derived Algebraic Geometry and Interactions @ Université de Toulouse
-      - item:
-          a: 06/2017
-          b: Fourth Young Mathematicians Colloquium @ Vrije Universiteit Brussel
-      - item:
-          a: 05/2017
-          b: "Lens Topology and geometry 2017 @ Université d'Artois (Lens)"
-      - item:
-          a: 03/2017
-          b: Workshop on Quantum Topology @ Université Lille-1
-      - item:
-          a: 02/2017
-          b: Conference for Young researchers in homotopy theory and categorical structures @ MPIM Bonn
-      - item:
-          a: 10/2016
-          b: "Conférence en l'honneur de Saïd Zarati @ IHET (Tunis) ! Conference in the honour of Saïd Zarati @ IHET (Tunis)"
-      - item:
-          a: 10/2016
-          b: Colloque 2016 du GDR Topologie Algébrique et Applications @ Université de Picardie Jules Verne
-      - item:
-          a: 07/2016
-          b: Young Topologists Meeting 2016 @ Københavns Universitet
-      - item:
-          a: 05/2016
-          b: "Workshop: Factorization Algebras and Functorial Field Theories @ Mathematisches Forschungsinstitut Oberwolfach"
-      - item:
-          a: 03/2016
-          b: Séminaire Itinérant de Catégories @ Université Lille\ 1
-      - item:
-          a: 10/2015
-          b: Colloque 2015 du GDR Topologie Algébrique et Applications @ Université de Toulouse-3
-      - item:
-          a: 06/2015
-          b: "Lens Topology and geometry 2015 @ Université d'Artois (Lens)"
-      - item:
-          a: 05/2015
-          b: Introductory School -- Homotopy theory, manifolds, and field theories @ Hausdorff Research Institute for Mathematics
-      - item:
-          a: 03/2015
-          b: Séminaire du projet ANR HOGT @ Université de Strasbourg
-      - item:
-          a: 03/2015
-          b: Second Young Mathematicians Colloquium @ KU Leuven Kulak
-      - item:
-          a: 03/2015
-          b: "Séminaire Itinérant de Catégories @ Université du Littoral Côte d'Opale (Calais)"
-      - item:
-          a: 02/2015
-          b: "Masterclass : K-théorie topologique et applications @ Université de Strasbourg"
-      - item:
-          a: 01/2015
-          b: Séminaire du projet ANR HOGT @ Université Lille\ 1
-      - item:
-          a: 10/2014
-          b: Colloque 2014 du GDR Topologie Algébrique et Applications @ Université Blaise Pascal
-      - item:
-          a: 09/2014
-          b: Colloque de clôture du projet ANR HOGT @ Université de Nice
-      - item:
-          a: 09/2014
-          b: Espaces des lacets en géométrie et topologie @ Université de Nantes
-      - item:
-          a: 06/2014
-          b: Young Topologists Meeting 2014 @ Københavns Universitet
-      - item:
-          a: 05/2014
-          b: Young Mathematicians Colloquium @ Université Lille\ 1
-      - item:
-          a: 01/2014
-          b: Séminaire du projet ANR HOGT @ Université Lille\ 1
-      - item:
-          a: 09/2013
-          b: "Gelfand Centennial Conference: A View of 21st Century Mathematics @ Massachusetts Institute of Technology"
-      - item:
-          a: 05/2013
-          b: "Conference in Algebra and Topology celebrating Lionel Schwartz's sixtieth birthday @ Université de Nantes"
+          a: 2013
+          b: |
+            *Gelfand Centennial Conference: A View of 21st Century Mathematics* (Massachusetts Institute of Technology).
+            *Conference in Algebra and Topology celebrating Lionel Schwartz's 60th birthday* (Université de Nantes)
       - item:
           a: ⋆
           b: "= futur ! = future"
