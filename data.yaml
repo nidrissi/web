@@ -1,5 +1,5 @@
 ---
-lastmod: 2019-05-02
+lastmod: 2019-05-14
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -167,11 +167,12 @@ section:
     content:
       - subtitle: Sur invitation ! Invited
       - entry:
-          a: 05/2019^⋆^
+          a: 05/2019
           b: Higher Homotopy Algebras in Topology
           c: MPIM
           d: Bonn
           e: Allemagne ! Germany
+          f: Curved Koszul duality for algebras over unital operads
       - entry:
           a: 01/2019
           b: Structures Supérieures ! Higher Structures
@@ -234,12 +235,12 @@ section:
           f: The Lambrechts--Stanley Model of Configuration Spaces
       - subtitle: Séminaires ! Seminars
       - entry:
-          a: 05/2019^⋆^
+          a: 05/2019
           b: Séminaire de Topology ! Topology Seminar
           c: IMJ-PRG
           d: Paris
           e: France
-          f: TBA
+          f: Homologie de factorisation et espaces de configuration
       - entry:
           a: 12/2018
           b: Stockholm Topology Seminar
