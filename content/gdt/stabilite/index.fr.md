@@ -53,7 +53,7 @@ J'exposerai le plan général du groupe de travail et nous nous répartirons les
 §17.1 Une construction d'algèbres {{< tex "E_k" >}}  
 §17.2 Complexes de scindage
 
-13 juin, ???
+13 juin, SG-2015
 : 7 -- *Applications*, Najib Idrissi  
 §18.1 Le théorème principal  
 §18.2, §18.3 Application aux groupes linéaires généraux
