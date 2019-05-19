@@ -1,5 +1,6 @@
 ---
 title: Divers
+url: /fr/divers/
 lastmod: 2019-03-15
 date: 2018-01-01
 menu:
@@ -50,3 +51,7 @@ Les surfaces trouvées ressemblent bien aux surfaces théoriques, mais je n'ai p
 ---
 
 Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) et [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).
+
+---
+
+Ce site est construit à l'aide du générateur de sites webs statiques [Hugo](https://gohugo.io/) et une version fortement modifiée du thème [Academic](https://sourcethemes.com/academic/).

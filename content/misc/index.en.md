@@ -50,3 +50,7 @@ The surfaces found do resemble the theoretical ones, but I do not have a mathema
 ---
 
 I am active on [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) and [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).
+
+---
+
+This website is built using the static website generator [Hugo](https://gohugo.io/) and a heavily modified version of the [Academic](https://sourcethemes.com/academic/) theme.
