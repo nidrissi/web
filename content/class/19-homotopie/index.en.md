@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Homotopy Theory"
 toc: true
-link: true
 cursus: M2 Fundamental Mathematics
 what: Lectures
 time: 24h

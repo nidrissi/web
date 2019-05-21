@@ -1,7 +1,7 @@
 <li>
-  {{- if .Params.link -}}<a href="{{ .Permalink -}}">{{- end -}}
+  {{- if .Content -}}<a href="{{ .Permalink -}}">{{- end -}}
   {{- .Title -}}
-  {{- if .Params.link -}}</a>{{- end }}
+  {{- if .Content -}}</a>{{- end }}
 &bull;
 {{ partial "meta/cours" . -}}
 </li>

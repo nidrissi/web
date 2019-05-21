@@ -1,7 +1,6 @@
 ---
 title: "Introduction à la Théorie de l'homotopie"
 toc: true
-link: true
 cursus: M2 Mathématiques fondamentales
 what: Cours
 time: 24h
