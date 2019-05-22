@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Homotopy Theory"
+title: "Homotopy Theory"
 toc: true
 cursus: M2 Fundamental Mathematics
 what: Lectures
