@@ -29,14 +29,14 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 <div class="alert alert-info" role="alert">Plus d'informations sont à venir.</div>
 
-Les cours hebdomadaires sont donnés par Najib Idrissi.
+Les cours sont donnés par Najib Idrissi.
 Ils commencent en janvier 2020 et se terminent en février 2020.
 
 ## Bibliographie
 
 <div class="alert alert-primary" role="alert">
 Grégory Ginot a donné un <a href="https://www.math.univ-paris13.fr/~ginot/Homotopie/">cours en 2017–2019 sur le même sujet</a>.
-On pourra y trouver <strong><a href="https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf">les notes du cours</a></strong>, ainsi que les feuilles d'exercices et les anciens examens.
+On pourra trouver sur sa page <strong><a class="alert-link" href="https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf">les notes du cours</a></strong>, ainsi que les anciennes feuilles d'exercices et les anciens examens.
 </div>
 
 Ouvrages sur la théorie de l'homotopie :
