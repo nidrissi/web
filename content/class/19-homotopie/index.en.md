@@ -8,9 +8,9 @@ year: 2019--2020
 date: 2020-01-01
 lastmod: 2019-05-21
 sidebar:
-  - "[M2 maths Université de Paris](http://master.math.univ-paris-diderot.fr/annee/m2-math/)"
-  - "[M2 maths Sorbonne Université](http://mathfond.math.upmc.fr/2019-20/cours.html)"
-  - "[M2 maths Université Paris 13](https://www.math.univ-paris13.fr/departement/index.php/fr/master-maths/deuxiere-annee)"
+  - "[M2 Maths Université de Paris](http://master.math.univ-paris-diderot.fr/annee/m2-math/)"
+  - "[M2 Maths Sorbonne Université](http://mathfond.math.upmc.fr/2019-20/cours.html)"
+  - "[M2 Maths Université Paris 13](https://www.math.univ-paris13.fr/masters/Masters_M2_recherche.html)"
 ---
 
 The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of {{< tex "\infty" >}}-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory – Quillen's model categories – and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains – singular or de Rham – encode topological spaces up to rational homotopy.
@@ -27,18 +27,17 @@ The goal of this course is to give an introduction to modern homotopy theory, it
 
 ## Organization
 
-<div class="alert alert-info" role="alert">TBA...</div>
+<div class="alert alert-info" role="alert">More information to come.</div>
+
+Weekly lectures are given by Najib Idrissi.
+They will being in January 2020 and end in February 2020.
 
 ## Bibliography
 
-Grégory Ginot gave [a course in 2017--2019 on the same topic](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
-You can find there exercise sheets, as well as:
-
-* [**Lecture notes**](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf) ;
-* [the 2017--2018 exam](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Exam_2018.pdf) ;
-* [the 2017--2018 retake exam](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_R_Exam_2018.pdf) ;
-* [the 2018--2019 homework](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Devoir_2019.pdf) ;
-* [the 2018--2019 exam](https://www.math.univ-paris13.fr/~ginot/Homotopie/Homotopie_Exam_2019.pdf).
+<div class="alert alert-primary" role="alert">
+Grégory Ginot gave <a href="https://www.math.univ-paris13.fr/~ginot/Homotopie/">a course in 2017–2019 on the same topic</a>.
+You can find there <strong><a href="https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf">lecture notes</a></strong>, as well as exercise sheets and past exams.
+</div>
 
 Works on homotopy theory:
 
@@ -50,9 +49,9 @@ Works on homotopy theory:
 
 Reminders on algebraic topology and homological algebra:
 
-* **Glen E. Bredon. *[Topology and geometry](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)*.** Graduate Texts in Mathematics 139. New York: Springer-Verlag, 1993, pp. xiv+557. ISBN: 0-387-97926-3. [DOI:10.1007/978-1-4757-6848-0](https://dx.doi.org/10.1007/978-1-4757-6848-0). [MR1224675](http://www.ams.org/mathscinet-getitem?mr=1224675). [Zbl:0791.55001](https://zbmath.org/?q=an%3A0791.55001). <span class="text-muted">[Handbook of (algebraic) topology and (differential etc) geometry.]</span>
-* **Allen Hatcher. *[Algebraic topology](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf)*.** Cambridge: Cambridge University Press, 2002, pp. xii+544. ISBN: 0-521-79160-X. [MR1867354](http://www.ams.org/mathscinet-getitem?mr=1867354). [Zbl:1044.55001](https://zbmath.org/?q=an%3A1044.55001) <span class="text-muted">[Algebraic topology handbook.]</span>
+* **Glen E. Bredon. *[Topology and geometry](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)*.** Graduate Texts in Mathematics 139. New York: Springer-Verlag, 1993, pp. xiv+557. ISBN: 0-387-97926-3. [DOI:10.1007/978-1-4757-6848-0](https://dx.doi.org/10.1007/978-1-4757-6848-0). [MR1224675](http://www.ams.org/mathscinet-getitem?mr=1224675). [Zbl:0791.55001](https://zbmath.org/?q=an%3A0791.55001). <span class="text-muted">[(Algebraic) topology and (differential) geometry textbook.]</span>
+* **Allen Hatcher. *[Algebraic topology](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf)*.** Cambridge: Cambridge University Press, 2002, pp. xii+544. ISBN: 0-521-79160-X. [MR1867354](http://www.ams.org/mathscinet-getitem?mr=1867354). [Zbl:1044.55001](https://zbmath.org/?q=an%3A1044.55001) <span class="text-muted">[Algebraic topology textbook.]</span>
 * **Henri Paul de Saint-Gervais. *[Analysis Situs](http://analysis-situs.math.cnrs.fr)*.** <span class="text-muted">[Lecture notes on algebraic topology, in French.]
 * **Pierre Schapira. *[Categories and homological algebra](https://webusers.imj-prg.fr/%7Epierre.schapira/lectnotes/HomAl.pdf)*.** <span class="text-muted">[Lecture notes on derived categories.]</span>
-* **Edwin Spanier. *Algebraic topology*.** Berlin: Springer-Verlag, 1995, pp. xiv+528. ISBN: 978-1-4684-9322-1. [DOI:10.1007/978-1-4684-9322-1](https://dx.doi.org/10.1007/978-1-4684-9322-1). [MR210112](https://mathscinet.ams.org/mathscinet-getitem?mr=210112). [Zbl:0145.43303](https://zbmath.org/?q=an%3A0145.43303). <span class="text-muted">[Handbook of algebraic topology.]</span>
-* **Charles A. Weibel. *[An Introduction to homological algebra](https://math.mit.edu/~hrm/18.906/weibel-homological-algebra.pdf)*.** Cambridge Studies in Advanced Mathematics 38. Cambridge: Cambridge University Press, 1994, pp. xiv+450. ISBN: 0-521-43500-5. [MR1269324](http://www.ams.org/mathscinet-getitem?mr=1269324). [Zbl:0797.18001](https://zbmath.org/?q=an%3A0797.18001). <span class="text-muted">[Handbook of homological algebra.]</span>
+* **Edwin Spanier. *Algebraic topology*.** Berlin: Springer-Verlag, 1995, pp. xiv+528. ISBN: 978-1-4684-9322-1. [DOI:10.1007/978-1-4684-9322-1](https://dx.doi.org/10.1007/978-1-4684-9322-1). [MR210112](https://mathscinet.ams.org/mathscinet-getitem?mr=210112). [Zbl:0145.43303](https://zbmath.org/?q=an%3A0145.43303). <span class="text-muted">[Algebraic topology textbook.]</span>
+* **Charles A. Weibel. *[An Introduction to homological algebra](https://math.mit.edu/~hrm/18.906/weibel-homological-algebra.pdf)*.** Cambridge Studies in Advanced Mathematics 38. Cambridge: Cambridge University Press, 1994, pp. xiv+450. ISBN: 0-521-43500-5. [MR1269324](http://www.ams.org/mathscinet-getitem?mr=1269324). [Zbl:0797.18001](https://zbmath.org/?q=an%3A0797.18001). <span class="text-muted">[Homological algebra textbook.]</span>

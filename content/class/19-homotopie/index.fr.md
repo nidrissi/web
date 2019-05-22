@@ -8,9 +8,9 @@ year: 2019--2020
 date: 2020-01-01
 lastmod: 2019-05-21
 sidebar:
-  - "[M2 maths Université de Paris](http://master.math.univ-paris-diderot.fr/annee/m2-math/)"
-  - "[M2 maths Sorbonne Université](http://mathfond.math.upmc.fr/2019-20/cours.html)"
-  - "[M2 maths Université Paris 13](https://www.math.univ-paris13.fr/masters/Masters_M2_recherche.html)
+  - "[M2 Maths Université de Paris](http://master.math.univ-paris-diderot.fr/annee/m2-math/)"
+  - "[M2 Maths Sorbonne Université](http://mathfond.math.upmc.fr/2019-20/cours.html)"
+  - "[M2 Maths Université Paris 13](https://www.math.univ-paris13.fr/masters/Masters_M2_recherche.html)"
 ---
 
 Le but de ce cours est de donner une introduction à la théorie de l'homotopie moderne, à ses outils et à ses applications, puis d'introdure la notion d'{{< tex "\infty" >}}-catégorie. On suivra essentiellement deux exemples : l'exemple fondateur des espaces topologiques et l'exemple des complexes de chaînes (au sens des cours d'algèbre homologique et topologie algébrique). On présentera l'axiomatique moderne de l'homotopie, les catégories de modèles de Quillen, et on expliquera l'équivalence entre les espaces topologiques et les ensembles simpliciaux. On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour montrer comment les structures multiplicatives des cochaines (singulières ou de Rham) encodent les espaces à homotopie rationnelle près. 
@@ -27,18 +27,17 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 ## Organisation
 
-<div class="alert alert-info" role="alert">À venir...</div>
+<div class="alert alert-info" role="alert">Plus d'informations sont à venir.</div>
+
+Les cours hebdomadaires sont donnés par Najib Idrissi.
+Ils commencent en janvier 2020 et se terminent en février 2020.
 
 ## Bibliographie
 
-Grégory Ginot a donné un [cours en 2017--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
-On pourra notamment y trouver les anciennes feuilles de TD, ainsi que :
-
-* **[les notes du cours](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)** ;
-* [l'examen 2017--2018](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Exam_2018.pdf) ;
-* [le rattrapage 2017--2018](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_R_Exam_2018.pdf) ;
-* [le devoir maison 2018--2019](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Homotopie_M2_Devoir_2019.pdf) ;
-* [l'examen 2018--2019](https://www.math.univ-paris13.fr/~ginot/Homotopie/Homotopie_Exam_2019.pdf).
+<div class="alert alert-primary" role="alert">
+Grégory Ginot a donné un <a href="https://www.math.univ-paris13.fr/~ginot/Homotopie/">cours en 2017–2019 sur le même sujet</a>.
+On pourra y trouver <strong><a href="https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf">les notes du cours</a></strong>, ainsi que les feuilles d'exercices et les anciens examens.
+</div>
 
 Ouvrages sur la théorie de l'homotopie :
 
