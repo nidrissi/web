@@ -7,5 +7,5 @@ event: Higher Homotopy Algebras in Topology
 event_url: https://www.mpim-bonn.mpg.de/node/9245
 location: Max Planck Institute for Mathematics (MPIM), Bonn, Allemagne
 urls:
-  pdf: bonn.pdf
+  slides: bonn.pdf
 ---
