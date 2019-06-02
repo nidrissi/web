@@ -4,7 +4,7 @@ toc: true
 cursus: M2 Mathématiques fondamentales
 what: Cours
 time: 24h
-year: 2019--2020
+year: 2019–2020
 date: 2020-01-01
 lastmod: 2019-05-21
 sidebar:

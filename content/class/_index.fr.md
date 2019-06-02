@@ -1,7 +1,7 @@
 ---
 title: Enseignement
 url: /fr/cours/
-current: 2018--2019
+current: 2018–2019
 menu:
   main:
     weight: 30
