@@ -12,7 +12,7 @@ Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-
 ## Séances
 
 Les séances ont lieu le **jeudi de 15h45 à 17h**.
-Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces) (les salles SG-1xxx sont au premier étage, etc).
+Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces) en salle 2015 (2<sup>ème</sup> étage).
 
 Les notes manuscrites que j'ai prises durant les exposés sont disponibles ci-dessous.
 Les erreurs possibles qu'elles contiennent sont de mon fait.
