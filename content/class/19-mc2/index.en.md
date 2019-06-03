@@ -5,4 +5,5 @@ what: Exercise sessions
 time: 36h
 year: 2019–2020
 date: 2020-01-01
+publishdate: 2019-05-15
 ---
