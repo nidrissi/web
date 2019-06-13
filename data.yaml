@@ -397,8 +397,13 @@ section:
       # - item:
       #     a: 2019--2020
       #     b: |
-      #       Théorie de l'homotopie, M2 Maths fondas (cours, 27h)
-      #       ! Homotopy Theory, M2 Fundam.\ Math (lectures, 27h)
+      #       Algèbre et analyse élémentaires + Raisonnement mathématique 1, L1 MIASHS (cours/TD, 56,5h) •
+      #       Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) •
+      #       Théorie de l'homotopie, M2 Maths fondas (cours, 24h)
+      #       !
+      #       Elementary Algebra and Analysis + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) •
+      #       Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) •
+      #       Homotopy Theory, M2 Fundam.\ Math (lectures, 24h)
       - item:
           a: 2018--2019
           b: |
