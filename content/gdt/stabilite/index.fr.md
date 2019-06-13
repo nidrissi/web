@@ -15,7 +15,7 @@ Les séances ont lieu le **jeudi de 15h45 à 17h**.
 Elles se déroulent dans le [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces) en salle 2015 (2<sup>ème</sup> étage).
 
 Les notes manuscrites que j'ai prises durant les exposés sont disponibles ci-dessous.
-Les erreurs possibles qu'elles contiennent sont de mon fait.
+Les possibles erreurs qu'elles contiennent sont de mon fait.
 
 <span class="text-muted">7 février 2019, SG-2015</span>
 : 0 -- *Exposé introductif*, Najib Idrissi  
@@ -53,7 +53,7 @@ J'exposerai le plan général du groupe de travail et nous nous répartirons les
 §17.1 Une construction d'algèbres {{< tex "E_k" >}}  
 §17.2 Complexes de scindage
 
-13 juin, SG-2015
+13 juin 2019, SG-2015
 : 7 -- *Applications*, Najib Idrissi  
 §18.1 Le théorème principal  
 §18.2, §18.3 Application aux groupes linéaires généraux
