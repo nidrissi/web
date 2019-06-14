@@ -16,7 +16,7 @@ I am/was a member of:
 
 ---
 
-Since January 2019, I organize a [reading seminar on homological stability and the works of Galatius--Kupers--Randal-Williams]({{< ref path="gdt/stabilite" lang="fr" >}}) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
+From January to June 2019, I organized a [reading seminar on homological stability and the works of Galatius--Kupers--Randal-Williams]({{< ref path="gdt/stabilite" lang="fr" >}}) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
 
 ---
 

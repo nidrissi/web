@@ -23,7 +23,7 @@
         <div class="dropdown-menu">
           {{- range .Children -}}
           {{- $url := .URL | absURL -}}
-          <a class="dropdown-item {{- if eq $url $currentURL }} active {{- end }}" href="{{ $url }}"{{ if $.IsHome }} data-target="{{ $url }}"{{ end }}>
+          <a class="dropdown-item {{ if eq $url $currentURL }}active{{ end }}" href="{{ $url }}"{{ if $.IsHome }} data-target="{{ $url }}"{{ end }}>
             {{- .Pre }} {{ .Name }} {{ .Post -}}
           </a>
           {{- end -}}
@@ -32,7 +32,7 @@
       {{- else -}}
       {{- $url := .URL | absURL -}}
       <li class="nav-item">
-        <a class="nav-link {{- if eq $url $currentURL }} active {{- end }}" href="{{ $url }}">
+        <a class="nav-link {{ if eq $url $currentURL }}active{{ end }}" href="{{ $url }}">
           {{- .Pre }} {{ .Name }} {{ .Post -}}
         </a>
       </li>

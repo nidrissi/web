@@ -17,7 +17,7 @@ Je suis/fus membre :
 
 ---
 
-Depuis janvier 2019, j'organise un [groupe de travail sur la stabilité homologique et les travaux de Galatius--Kupers--Randal-Williams]({{< ref "gdt/stabilite" >}}) avec Mario Gonçalves Lamas, sur une idée de Muriel Livernet.
+De janvier à juin 2019, j'ai organisé un [groupe de travail sur la stabilité homologique et les travaux de Galatius--Kupers--Randal-Williams]({{< ref "gdt/stabilite" >}}) avec Mario Gonçalves Lamas, sur une idée de Muriel Livernet.
 
 ---
 
