@@ -93,7 +93,7 @@ section:
           d: Paris
           e: France
       - entry:
-          a: 2019
+          a: 01/2019--06/2019
           b: |
             Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt/stabilite/)
             !
