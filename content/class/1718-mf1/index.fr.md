@@ -1,6 +1,6 @@
 ---
 title: Mathématiques fondamentales 1
-cursus: L1 SESI
+cursus: L1 SESI (S1)
 what: Colles + Tutorat
 time: 16h + 10h
 year: 2017–2018

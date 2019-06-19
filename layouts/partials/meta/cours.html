@@ -1,6 +1,1 @@
-{{- $day := .Date.YearDay -}}
-{{- $semester := 2 -}}
-{{- if gt $day 180 -}}
-  {{- $semester = 1 -}}
-{{- end -}}
-{{ .Params.cursus }} (S{{ $semester }}) &bull; {{ .Params.what }} &bull; {{ .Params.time }}
+{{ .Params.cursus }} &bull; {{ .Params.what }} &bull; {{ .Params.time }}

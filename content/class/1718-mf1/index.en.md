@@ -1,6 +1,6 @@
 ---
 title: Fundamental mathematics 1
-cursus: L1 SESI
+cursus: L1 SESI (S1)
 what: Oral exams + Tutoring
 time: 16h + 10h
 year: 2017–2018

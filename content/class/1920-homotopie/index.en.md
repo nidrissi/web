@@ -1,7 +1,7 @@
 ---
 title: "Homotopy Theory"
 toc: true
-cursus: M2 Fundamental Mathematics
+cursus: M2 Fundamental Mathematics (S2)
 what: Lectures
 time: 24h
 year: 2019–2020

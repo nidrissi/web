@@ -1,6 +1,6 @@
 ---
 title: Matrix calculus
-cursus: L2 MASS
+cursus: L2 MASS (S2)
 what: Exercise sessions
 time: 36h
 year: 2016–2017

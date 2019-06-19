@@ -1,7 +1,7 @@
 ---
 title: "Théorie de l'homotopie"
 toc: true
-cursus: M2 Mathématiques fondamentales
+cursus: M2 Mathématiques fondamentales (S2)
 what: Cours
 time: 24h
 year: 2019–2020

@@ -1,6 +1,6 @@
 ---
 title: Calcul matriciel
-cursus: L2 MASS
+cursus: L2 MASS (S2)
 what: TD
 time: 36h
 year: 2016–2017
