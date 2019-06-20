@@ -1,0 +1,57 @@
+Section,Nom,Groupe,PR98,PR03,PR08,PR13,PR18,MCF98,MCF03,MCF08,MCF13,MCF18
+2,Droit public,1,435,492,491,516,482,644,752,810,796,813
+3,Histoire du droit et des institutions,1,121,121,122,118,109,137,159,169,158,148
+4,Science politique,1,109,125,127,130,128,164,193,224,230,262
+5,Sciences économiques,2,507,583,542,539,547,1138,1246,1279,1271,1185
+6,Sciences de gestion,2,275,331,404,427,484,850,1198,1412,1568,1627
+7,Sciences du langage : linguistique et phonétique générales,3,187,225,240,237,240,401,460,514,529,531
+8,Langues et littératures anciennes,3,132,134,129,122,102,215,224,227,217,189
+9,Langue et littérature françaises,3,376,400,398,381,320,618,693,669,655,603
+10,Littératures comparées,3,74,76,81,86,85,132,146,144,130,123
+11,Langues et littératures anglaises et anglo-saxonnes,3,421,414,414,404,388,1166,1339,1350,1341,1293
+12,Langues et littératures germaniques et scandinaves,3,156,155,140,118,93,423,410,382,346,294
+13,Langues et littératures slaves,3,48,42,39,40,34,107,114,112,93,91
+14,Langues et littératures romanes,3,248,246,253,253,238,598,699,759,759,728
+15,"Langues et littératures arabes,  chinoises, japonaises, hébraïques, d’autres domaines linguistiques",3,91,100,108,121,108,209,258,293,300,281
+16,"Psychologie, psychologie clinique, psychologie sociale",4,238,287,333,357,397,746,877,956,942,963
+17,Philosophie,4,144,155,169,164,160,187,203,219,234,224
+18,"Architecture (ses théories et ses pratiques), arts appliqués, arts plastiques, arts du spectacle, épistémologie des enseignements artistiques, esthétique, musicologie, musique, sciences de l'art",4,92,119,157,186,204,267,342,436,479,514
+19,"Sociologie, démographie",4,174,216,223,242,246,453,540,613,635,627
+20,"Anthopologie biologique, ethnologie, préhistoire",4,54,62,70,72,71,69,99,119,130,133
+21,"Histoire, civilisations, archéologie et art des mondes anciens et médiévaux",4,242,263,273,273,256,372,447,488,519,489
+22,"Histoire et civilisations : histoire des mondes modernes, histoire du monde contemporain ; de l'art ; de la musique",4,344,393,402,423,392,566,639,662,656,663
+23,"Géographie physique, humaine, économique et régionale",4,251,250,248,267,265,434,537,586,612,587
+24,"Aménagement de l'espace, urbanisme",4,67,881,89,101,99,98,127,132,157,164
+25,Mathématiques,5,580,568,560,540,498,977,962,962,877,823
+26,Mathématiques appliquées et applications des mathématiques,5,484,560,577,626,629,1110,1176,1162,1161,1147
+27,Informatique,5,539,714,842,954,968,1666,2077,2367,2443,2403
+28,Milieux denses et matériaux,6,549,542,528,506,490,944,935,911,888,858
+29,Constituants élémentaires,6,213,191,180,180,175,276,252,237,231,221
+30,Milieux dilués et optique,6,243,243,223,234,250,497,472,429,390,374
+31,"Chimie théorique, physique, analytique",7,324,322,327,338,326,583,634,648,686,668
+32,"Chimie organique, minérale, industrielle",7,500,467,428,406,388,1058,1042,959,896,845
+33,Chimie des matériaux,7,291,301,298,315,329,460,526,577,578,574
+34,"Astronomie, astrophysique",8,54,64,65,71,69,84,95,105,120,116
+35,Structure et évolution de la terre et des autres planètes,8,154,173,169,185,179,272,303,345,352,330
+36,"Terre solide : géodynamique des enveloppes supérieures, paléobiosphère",8,136,130,119,122,125,329,303,292,275,268
+37,"Météorologie, océanographie physique de l'environnement",8,47,53,56,64,59,87,111,121,121,132
+60,"Mécanique, génie mécanique, génie civil",9,528,600,676,750,784,1160,1390,1512,1585,1607
+61,"Génie informatique, automatique et traitement du signal",9,326,414,488,531,548,896,1090,1180,1210,1206
+62,"Energétique, génie des procédés",9,311,331,348,384,393,580,680,708,712,703
+63,"Génie électrique, électronique, photonique et systèmes",9,527,572,564,557,571,1068,1145,1163,1166,1117
+64,Biochimie et biologie moléculaire,10,273,298,288,298,296,650,713,769,789,773
+65,Biologie cellulaire,10,213,239,254,263,274,572,624,692,732,752
+66,Physiologie,10,211,205,210,218,197,579,563,580,551,544
+67,Biologie des populations et écologie,10,146,153,150,185,195,414,446,462,514,499
+68,Biologie des organismes,10,130,136,138,145,153,390,380,370,357,344
+69,Neurosciences,10,86,106,106,115,118,216,237,276,286,287
+85,Sciences physico-chimiques et ingéniérie appliquée à la santé,11,170,162,158,118,110,393,384,365,360,323
+86,Sciences du médicament et des autres produits de santé,11,281,276,262,195,180,406,430,448,407,389
+87,"Sciences biologiques, fondamentales et clinique",11,185,195,188,100,95,371,396,408,334,300
+70,Sciences de l'éducation,12,109,153,148,170,173,340,386,431,480,504
+71,Sciences de l'information et de la communication,12,99,127,151,180,170,346,498,572,610,613
+72,"Epistémologie, histoire des sciences et des techniques",12,21,22,24,23,22,33,46,54,59,66
+73,Cultures et langues régionales,12,20,25,25,26,22,28,33,32,32,34
+74,Sciences et techniques des activités physiques et sportives,12,55,107,129,166,166,220,490,570,618,642
+76,Théologie catholique,T,23,23,19,18,13,17,16,16,13,17
+77,Théologie protestante,T,15,15,15,16,14,7,8,5,7,4
