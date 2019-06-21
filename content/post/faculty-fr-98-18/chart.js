@@ -44,7 +44,9 @@ var xAxis, yAxis, xAxisDOM, yAxisDOM
 var line = d3.line().x(function(d) { return xScale(d.year); });
 
 function joinData() {
-  var paths = gPath.selectAll(".path-group").data(state.filteredData);
+  var paths = gPath.selectAll(".path-group")
+      .data(state.filteredData, d => d ? d.section : this.id);
+  
   paths.exit().remove();
   var paths_enter = paths.enter().append("g").attr("class", "path-group");
   for (let cat of ["pr", "mcf"]) {
