@@ -9,7 +9,7 @@ I was proctoring an exam yesterday and couldn't do anything too mentally taxing 
 You can select which groups you want to see, and whether you only want to see lecturers (MCF), professors (PR) or both.
 You can also normalize the data so that each section starts at 100 in 1998, to compare the evolutions.
 I might add the total of the two later, but I fear I've already wasted enough time on this...
-Here it is.
+Here it is:
 <!--more-->
 
 <div>
@@ -32,8 +32,9 @@ Here it is.
 <h5 class="text-center" id="nom-section"></h5>
 </div>
 
-Let me know if something doesn't display correctly.
-The data is only between 1998 and 2018, every five years (so 1998, 2003, 2008, 2013, and 2018).
+Let me know if something doesn't display correctly or if you find errors.
+[The raw data is available here.](demos.json)
+The data is only for 1998, 2003, 2008, 2013, and 2018.
 In principle, the older files on the ministry's website should allow to have more data, but I wasn't courageous enough to do it all by hand, or to extract it automatically from the "open data" website.
 
 <script src="d3.min.js"></script>
