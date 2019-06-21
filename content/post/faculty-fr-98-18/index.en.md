@@ -10,7 +10,7 @@ Here is the chart:
 
 <div>
 <h4 class="text-center" id="nom-section">Toutes les sections :</h4>
-<svg id="chart" alt="Chart"></svg>
+<svg id="chart" width="100%" max-width="100%" alt="Chart"></svg>
 </div>
 
 <script src="d3.min.js"></script>

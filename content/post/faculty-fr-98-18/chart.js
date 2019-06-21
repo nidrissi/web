@@ -5,33 +5,53 @@ var state = {
   normalize: true
 };
 
-var width = 1200, height = 600;
-
-var chart = d3.select("#chart").attr("height", height).attr("width", width);
-
-var xscale = d3.scaleLinear()
-    .domain([1998,2018])
-    .range([0,width]);
-
-var yscale = d3.scaleLinear()
-    .domain([0,2500])
-    .range([height,0]);
-
-var line = d3.line()
-    .x(function(d) { return xscale(d.year); })
-    .y(function(d) { return yscale(d.num); });
+var chart = d3.select("#chart");
 
 var color = d3.scaleOrdinal(d3.schemeSet3)
 
 function updateChart() {
+  // dynamic width and height
+  var outerWidth = chart.node().getBoundingClientRect().width;
+  var outerHeight = outerWidth / 2;
+  chart.attr("height", outerHeight);
+
+  // margin trick
+  var margin = {top: 20, right: 20, bottom: 20, left: 30},
+      width = outerWidth - margin.left - margin.right,
+      height = outerHeight - margin.top - margin.bottom;
+  chart = chart.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  // scaling (note the margin)
+  var xscale = d3.scaleLinear()
+      .domain([1998,2018])
+      .range([0, width]);
+  var yscale = d3.scaleLinear()
+      .range([height, 0]);
+
+  // our lines
+  var line = d3.line()
+      .x(function(d) { return xscale(d.year); });
   if (state.normalize) {
+    // normalized data
     yscale.domain([0,300]);
     line.y(function(d) { return yscale(d.normalized) });
   } else {
+    // raw data
     yscale.domain([0,2500]);
     line.y(function(d) { return yscale(d.num) });
   }
 
+  // axis
+  var xAxis = d3.axisBottom(xscale).tickValues([1998,2003,2008,2013,2018]);
+  chart.append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(xAxis);
+  var yAxis = d3.axisLeft(yscale);
+  chart.append("g")
+    .call(yAxis);
+
+  // lines
   var paths = chart.selectAll("path").data(state.data);
   var paths_enter = paths.enter();
   var cat;
