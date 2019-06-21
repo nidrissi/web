@@ -49,8 +49,14 @@ function joinData() {
   
   paths.exit().remove();
   var paths_enter = paths.enter().append("g").attr("class", "path-group");
-  for (let cat of ["pr", "mcf"]) {
-    paths_enter.append("path")
+  paths = paths.merge(paths_enter);
+
+  let cats = [];
+  if (d3.select("#mcf").node().checked) { cats.push("mcf") };
+  if (d3.select("#pr").node().checked) { cats.push("pr") };
+  paths.selectAll("*").remove();
+  for (let cat of cats) {
+    paths.append("path")
       .attr("class", cat)
       .style("stroke", d => color(d.groupe))
       .style("stroke-width", 2)
@@ -63,13 +69,7 @@ function joinData() {
       .on("mouseout", function(d) {
         gMargin.select("#tooltip").text("");
         d3.select(this).style("opacity", ".5").style("stroke-width", 2);
-      });
-  }
-  paths = paths.merge(paths_enter);
-  for (let cat of ["mcf", "pr"]) {
-    paths.select("." + cat)
-      .transition()
-      .duration(300)
+      })
       .attr("d", function(d) { return line(d[cat]) });
   }
 }
@@ -92,19 +92,22 @@ function toggleSelection(group) {
   redraw();
 }
 
-// redraw the axes and the lines
-function redraw() {
+function filterData() {
   state.filteredData = state.data.filter(d => state.groupList[d.groupe].enabled);
 
-  fullData = Array.from(state.filteredData, d => [d.mcf, d.pr]).flat(2)
+  let mcf = d3.select("#mcf").node().checked;
+  let pr = d3.select("#pr").node().checked;
+
+  fullData = Array.from(state.filteredData, d => [mcf ? d.mcf : 0, pr ? d.pr : 0]).flat(2)
   state.rawMax = d3.max(fullData, d => d.num)
   state.normMax = d3.max(fullData, d => d.normalized)
+}
 
+// redraw the axes and the lines
+function redraw() {
+  filterData();
   setScales();
-
-  yAxisDOM.transition()
-    .duration(300)
-    .call(yAxis);
+  yAxisDOM.call(yAxis);
   joinData();
 }
 
@@ -124,7 +127,7 @@ function draw() {
   gMargin.append("text")
     .attr("id", "tooltip")
     .attr("text-anchor", "middle")
-    .attr("transform", "translate(" + (width/2) + "," + (15) + ")");
+    .attr("transform", "translate(" + (width/3) + "," + (15) + ")");
 
   // scaling
   xScale = d3.scaleTime()
