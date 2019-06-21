@@ -9,8 +9,9 @@ Blabla.
 Here is the chart:
 
 <div>
+<div id="groups"></div>
 <div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="normalize" onclick="clickNormalize()">
+  <input class="form-check-input" type="checkbox" value="" id="normalize" onclick="redraw()">
   <label class="form-check-label" for="normalize">Normalize</label>
 </div>
 <div id="chart"></div>
