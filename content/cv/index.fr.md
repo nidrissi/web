@@ -164,7 +164,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2018–août 2018</dt>
-<dd class="col-lg-10 col-sm-9">Financé par le StG ERC 678156–GRAPHCPX. Porteur : Thomas Willwacher.</dd>
+<dd class="col-lg-10 col-sm-9">Contrat postdoctoral financé par le StG ERC 678156–GRAPHCPX. Porteur : Thomas Willwacher.</dd>
 
 
 

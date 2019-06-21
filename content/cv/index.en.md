@@ -164,7 +164,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Feb. 2018–Aug. 2018</dt>
-<dd class="col-lg-10 col-sm-9">Funded by the ERC StG 678156–GRAPHCPX. PI: Thomas Willwacher.</dd>
+<dd class="col-lg-10 col-sm-9">Postdoc contract funded by the ERC StG 678156–GRAPHCPX. PI: Thomas Willwacher.</dd>
 
 
 
