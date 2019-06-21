@@ -2,6 +2,8 @@
 
 var state = {
   data: [],
+  rawMax: 1000,
+  normMax: 200,
   normalize: false
 };
 
@@ -101,11 +103,11 @@ function draw() {
 function setScales() {
   if (d3.select("#normalize").node().checked) {
     // normalized data
-    yScale.domain([0,300]);
+    yScale.domain([0,state.normMax]);
     line.y(function(d) { return yScale(d.normalized) });
   } else {
     // raw data
-    yScale.domain([0,2500]);
+    yScale.domain([0,state.rawMax]);
     line.y(function(d) { return yScale(d.num) });
   }
 }
@@ -132,11 +134,16 @@ d3.json('demos.json').then((data) => {
     for (cat of ["mcf", "pr"]) {
       var initial = d[cat].find(function (x) { return x.year == 1998 }).num;
       d[cat].forEach(function(x,i,arr) {
+        arr[i].num = +arr[i].num;
         arr[i].year = new Date(x.year, 1, 1);
         arr[i].normalized = x.num * 100.0 / initial;
       });
     }
   }
+
+  fullData = Array.from(data, d => [d.mcf, d.pr]).flat(2)
+  state.rawMax = d3.max(fullData, d => d.num)
+  state.normMax = d3.max(fullData, d => d.normalized)
 
   draw();
 });
