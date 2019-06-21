@@ -168,6 +168,9 @@ for (let k in state.groupList) {
     .text(k + " - " + state.groupList[k].nom);
 }
 
+d3.selectAll("#mcf,#pr,#normalize")
+  .on("change", redraw);
+
 d3.json('demos.json').then((data) => {
   state.data = data;
 

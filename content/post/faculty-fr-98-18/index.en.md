@@ -16,15 +16,15 @@ Here it is.
 <div id="groups"></div>
 <div>
   <div class="form-check-inline">
-    <input class="form-check-input" type="checkbox" value="" id="mcf" onchange="redraw()" checked>
+    <input class="form-check-input" type="checkbox" value="" id="mcf" checked>
     <label class="form-check-label" for="mcf">MCF</label>
   </div>
   <div class="form-check-inline">
-    <input class="form-check-input" type="checkbox" value="" id="pr" onchange="redraw()" checked>
+    <input class="form-check-input" type="checkbox" value="" id="pr" checked>
     <label class="form-check-label" for="pr">PR</label>
   </div>
   <div class="form-check-inline">
-    <input class="form-check-input" type="checkbox" value="" id="normalize" onchange="redraw()">
+    <input class="form-check-input" type="checkbox" value="" id="normalize">
     <label class="form-check-label" for="normalize">Normalize</label>
   </div>
 </div>
@@ -34,7 +34,7 @@ Here it is.
 
 Let me know if something doesn't display correctly.
 The data is only between 1998 and 2018, every five years (so 1998, 2003, 2008, 2013, and 2018).
-In principle, the older files on the ministry's website should allow to have more data, but I wasn't able to do it by hand or to extract it from the "open data" website.
+In principle, the older files on the ministry's website should allow to have more data, but I wasn't courageous enough to do it all by hand, or to extract it automatically from the "open data" website.
 
 <script src="d3.min.js"></script>
 <script src="chart.js"></script>
