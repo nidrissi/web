@@ -63,7 +63,8 @@ function joinData() {
       .style("fill", "none")
       .style("opacity", ".5")
       .on("mouseover", function(d) {
-        gMargin.select("#tooltip").text(d.section + " " + d.nom + " (" + cat.toUpperCase() + ")");
+        gMargin.select("#tooltip")
+          .text(d.section + " " + d.nom + " (" + cat.toUpperCase() + ")");
         d3.select(this).style("opacity", "1").style("stroke-width", 4);
       })
       .on("mouseout", function(d) {
@@ -78,11 +79,11 @@ function joinData() {
 function setScales() {
   if (d3.select("#normalize").node().checked) {
     // normalized data
-    yScale.domain([0,state.normMax]);
+    yScale.domain([0,state.normMax+10]);
     line.y(function(d) { return yScale(d.normalized) });
   } else {
     // raw data
-    yScale.domain([0,state.rawMax]);
+    yScale.domain([0,state.rawMax+100]);
     line.y(function(d) { return yScale(d.num) });
   }
 }
@@ -127,7 +128,18 @@ function draw() {
   gMargin.append("text")
     .attr("id", "tooltip")
     .attr("text-anchor", "middle")
-    .attr("transform", "translate(" + (width/3) + "," + (15) + ")");
+    .attr("filter", "url(#solid)")
+    .attr("transform", "translate(" + (width/2) + "," + (15) + ")");
+  let filter = svg.insert("defs")
+      .append("filter")
+      .attr("id", "solid")
+      .attr("x", -0.0625).attr("y", 0)
+      .attr("width", 1.125).attr("height", 1.1);
+  filter.append("feFlood")
+    .attr("flood-color", "blue");
+  filter.append("feComposite")
+    .attr("in", "SourceGraphic")
+    .attr("operator", "xor");
 
   // scaling
   xScale = d3.scaleTime()
