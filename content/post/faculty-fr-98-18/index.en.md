@@ -36,6 +36,7 @@ Let me know if something doesn't display correctly or if you find errors.
 [The raw data is available here.](demos.json)
 The data is only for 1998, 2003, 2008, 2013, and 2018.
 In principle, the older files on the ministry's website should allow to have more data, but I wasn't courageous enough to do it all by hand, or to extract it automatically from the "open data" website.
+Note that the data is not available for section 1 -- there is an error on the government's website, the PDF links to section 3.
 
 <script src="d3.min.js"></script>
 <script src="chart.js"></script>
