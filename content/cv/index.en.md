@@ -20,26 +20,26 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Since Sept. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université de Paris<sup>⋆</sup> / Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)</em>, Paris, France.<br>⋆. Formerly Université Paris Diderot.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université de Paris<sup>⋆</sup> / Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)</em>, Paris, France.<br><p>⋆. Formerly Université Paris Diderot.</p></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Feb. 2018–Aug. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich</em>, Zürich, Switzerland.<br>Group of <a href="https://people.math.ethz.ch/~wilthoma/">Thomas Willwacher</a>. Funded by ERC StG 678156–GRAPHCPX.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Postdoctoral researcher</strong>, <em>ETH Zürich</em>, Zürich, Switzerland.<br><p>Group of <a href="https://people.math.ethz.ch/~wilthoma/">Thomas Willwacher</a>. Funded by ERC StG 678156–GRAPHCPX.</p></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2015–Jan. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université de Lille / Laboratoire Paul Painlevé</em>, Lille, France.<br>Thesis defended on November 17th, 2017. Advisor: <a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a>.<br />
-Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université de Lille / Laboratoire Paul Painlevé</em>, Lille, France.<br><p>Thesis defended on November 17th, 2017. Advisor: <a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a>.<br />
+Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</p></dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2011–Aug. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015: Research internship in preparation of a PhD, Université Lille-1.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br><p>2014–2015: Research internship in preparation of a PhD, Université Lille-1.<br />
 2013–2014: Master’s degree in Fundamental Mathematics, Université Paris Diderot.<br />
 Fall 2013: Research internship in algebraic topology, MIT.<br />
-Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
+Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</p></dd>
 
 
 
@@ -100,17 +100,17 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Since Oct. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong><p>One of the organizers of the <a href="https://www.imj-prg.fr/spip.php?article67">Topology Seminar</a></p></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2019–June 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Organization of a <a href="https://idrissi.eu/fr/gdt/stabilite/">working seminar on homological stability</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong><p>Organization of a <a href="https://idrissi.eu/fr/gdt/stabilite/">working seminar on homological stability</a></p></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Participation to the organization of the introductory day for young researchers</strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong><p>Participation to the organization of the introductory day for young researchers</p></strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris, France.</dd>
 
 
 
@@ -120,7 +120,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer reviews</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Peer reviews</strong>.<br><p>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</p></dd>
 
 
 
@@ -146,12 +146,12 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9">Holder of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9"><p>Holder of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015–2018</dt>
-<dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
+<dd class="col-lg-10 col-sm-9"><p>Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris</p>.</dd>
 
 </dl>
 
@@ -164,12 +164,12 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Feb. 2018–Aug. 2018</dt>
-<dd class="col-lg-10 col-sm-9">Postdoc contract funded by the ERC StG 678156–GRAPHCPX. PI: Thomas Willwacher.</dd>
+<dd class="col-lg-10 col-sm-9"><p>Postdoc contract funded by the ERC StG 678156–GRAPHCPX. PI: Thomas Willwacher</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Member of the ANR project <a href="http://math.univ-lille1.fr/~operads/">“<em>Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller</em>”</a> (HOGT). Coordinator: Benoit Fresse.</dd>
+<dd class="col-lg-10 col-sm-9"><p>Member of the ANR project <a href="http://math.univ-lille1.fr/~operads/">“<em>Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller</em>”</a> (HOGT). Coordinator: Benoit Fresse</p>.</dd>
 
 
 </dl>
@@ -198,7 +198,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">June 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics</strong>, <em>Fields Institute</em>, Toronto, Canada.<br>Curved Koszul Duality for Algebras over Unital Operads (junior speaker at the summer school)</dd>
+<dd class="col-lg-10 col-sm-9"><strong><p>Derived Geometry and Higher Categorical Structures in Geometry and Physics</p></strong>, <em>Fields Institute</em>, Toronto, Canada.<br><p>Curved Koszul Duality for Algebras over Unital Operads (junior speaker at the summer school)</p></dd>
 
 
 
@@ -366,23 +366,28 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
+<dd class="col-lg-10 col-sm-9"><p>Homotopy Theory, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programmation, L2 (exercises+labs, 42h)</p>.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).</dd>
+<dd class="col-lg-10 col-sm-9"><p>Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h) • Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 10h).</dd>
+<dd class="col-lg-10 col-sm-9"><p>Calculus 1, L1 MASS (exercises, 36h) • Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 10h)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Matrix calculus, L2 econ-management (exercises, 36h) • Calculus 1, L1 econ-management (exercises, 15h) • Calculus 1, L1 MASS (exercises, 15h).</dd>
+<dd class="col-lg-10 col-sm-9"><p>Matrix calculus, L2 econ-management (exercises, 36h) • Calculus 1, L1 econ-management (exercises, 15h) • Calculus 1, L1 MASS (exercises, 15h)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Fundamental mathematics 2, L1 SESI (exercises, 66h).</dd>
+<dd class="col-lg-10 col-sm-9"><p>Fundamental mathematics 2, L1 SESI (exercises, 66h)</p>.</dd>
 
 
 </dl>
@@ -426,37 +431,37 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot). <em>SYM 10 Years Old</em> (Københavns Universitet). <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn). <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy). <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><p><em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot). <em>SYM 10 Years Old</em> (Københavns Universitet). <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn). <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy). <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2018</dt>
-<dd class="col-lg-10 col-sm-9"><em>New trends in K-theory and homotopy theory – A conference in honor of Max Karoubi’s 80th birthday</em> (Institut Henri Poincaré, Paris). <em>Colloque 2018 du GDR Topologie Algébrique</em> (Université de Montpellier). <em>Derived Geometry and Higher Categorical Structures in Geometry and Physics</em> (Fields Institute). <em>Graph Complexes, Configuration Spaces and Manifold Calculus</em> (University of British Columbia). <em>Rational Homotopy and its Applications</em> (Université de Lille).</dd>
+<dd class="col-lg-10 col-sm-9"><p><em>New trends in K-theory and homotopy theory – A conference in honor of Max Karoubi’s 80th birthday</em> (Institut Henri Poincaré, Paris). <em>Colloque 2018 du GDR Topologie Algébrique</em> (Université de Montpellier). <em>Derived Geometry and Higher Categorical Structures in Geometry and Physics</em> (Fields Institute). <em>Graph Complexes, Configuration Spaces and Manifold Calculus</em> (University of British Columbia). <em>Rational Homotopy and its Applications</em> (Université de Lille)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2017 du GDR Topologie Algébrique</em> (Université Paris Diderot). <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale) <em>Journée des doctorants du Nord-Pas-de-Calais</em> (Université du Littoral Côte d’Opale) <em>Workshop on Persistent Homology</em> (Université de Montpellier). <em>Young Topologists Meeting 2017</em> (Stockholm Universitet &amp; KTH). <em>Algebraic Topology and Representation Theory</em> (Université de Lille). <em>Derived Algebraic Geometry and Interactions</em> (Université de Toulouse). <em>Fourth Young Mathematicians Colloquium</em> (Vrije Universiteit Brussel). <em>Lens Topology and geometry 2017</em> (Université d’Artois, Lens) <em>Workshop on Quantum Topology</em> (Université Lille-1). <em>Conference for Young researchers in homotopy theory and categorical structures</em> (Max-Planck-Institut für Mathematik, Bonn).</dd>
+<dd class="col-lg-10 col-sm-9"><p><em>Colloque 2017 du GDR Topologie Algébrique</em> (Université Paris Diderot). <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale) <em>Journée des doctorants du Nord-Pas-de-Calais</em> (Université du Littoral Côte d’Opale) <em>Workshop on Persistent Homology</em> (Université de Montpellier). <em>Young Topologists Meeting 2017</em> (Stockholm Universitet &amp; KTH). <em>Algebraic Topology and Representation Theory</em> (Université de Lille). <em>Derived Algebraic Geometry and Interactions</em> (Université de Toulouse). <em>Fourth Young Mathematicians Colloquium</em> (Vrije Universiteit Brussel). <em>Lens Topology and geometry 2017</em> (Université d’Artois, Lens) <em>Workshop on Quantum Topology</em> (Université Lille-1). <em>Conference for Young researchers in homotopy theory and categorical structures</em> (Max-Planck-Institut für Mathematik, Bonn)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016</dt>
-<dd class="col-lg-10 col-sm-9"><em>Conference in the honour of Saïd Zarati</em> (Institut des Hautes Études à Tunis). <em>Colloque 2016 du GDR Topologie Algébrique et Applications</em> (Université de Picardie Jules Verne). <em>Young Topologists Meeting 2016</em> (Københavns Universitet). <em>Workshop: Factorization Algebras and Functorial Field Theories</em> (Mathematisches Forschungsinstitut Oberwolfach). <em>Séminaire Itinérant de Catégories</em> (Université Lille-1)..</dd>
+<dd class="col-lg-10 col-sm-9"><p><em>Conference in the honour of Saïd Zarati</em> (Institut des Hautes Études à Tunis). <em>Colloque 2016 du GDR Topologie Algébrique et Applications</em> (Université de Picardie Jules Verne). <em>Young Topologists Meeting 2016</em> (Københavns Universitet). <em>Workshop: Factorization Algebras and Functorial Field Theories</em> (Mathematisches Forschungsinstitut Oberwolfach). <em>Séminaire Itinérant de Catégories</em> (Université Lille-1).</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2015 du GDR Topologie Algébrique et Applications</em> (Université de Toulouse-3). <em>Lens Topology and geometry 2015</em> (Université d’Artois, Lens). <em>Introductory School – Homotopy theory, manifolds, and field theories</em> (Hausdorff Research Institute for Mathematics). <em>Séminaire du projet ANR HOGT</em> (Université de Strasbourg). <em>Second Young Mathematicians Colloquium</em> (KU Leuven Kulak). <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale, Calais) <em>Masterclass : K-théorie topologique et applications</em> (Université de Strasbourg). <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
+<dd class="col-lg-10 col-sm-9"><p><em>Colloque 2015 du GDR Topologie Algébrique et Applications</em> (Université de Toulouse-3). <em>Lens Topology and geometry 2015</em> (Université d’Artois, Lens). <em>Introductory School – Homotopy theory, manifolds, and field theories</em> (Hausdorff Research Institute for Mathematics). <em>Séminaire du projet ANR HOGT</em> (Université de Strasbourg). <em>Second Young Mathematicians Colloquium</em> (KU Leuven Kulak). <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale, Calais) <em>Masterclass : K-théorie topologique et applications</em> (Université de Strasbourg). <em>Séminaire du projet ANR HOGT</em> (Université Lille-1)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2014</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2014 du GDR Topologie Algébrique et Applications</em> (Université Blaise Pascal). <em>Colloque de clôture du projet ANR HOGT</em> (Université de Nice). <em>Espaces des lacets en géométrie et topologie</em> (Université de Nantes). <em>Young Topologists Meeting 2014</em> (Københavns Universitet). <em>Young Mathematicians Colloquium</em> (Université Lille-1). <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
+<dd class="col-lg-10 col-sm-9"><p><em>Colloque 2014 du GDR Topologie Algébrique et Applications</em> (Université Blaise Pascal). <em>Colloque de clôture du projet ANR HOGT</em> (Université de Nice). <em>Espaces des lacets en géométrie et topologie</em> (Université de Nantes). <em>Young Topologists Meeting 2014</em> (Københavns Universitet). <em>Young Mathematicians Colloquium</em> (Université Lille-1). <em>Séminaire du projet ANR HOGT</em> (Université Lille-1)</p>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2013</dt>
-<dd class="col-lg-10 col-sm-9"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology). <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes).</dd>
+<dd class="col-lg-10 col-sm-9"><p><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology). <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes)</p>.</dd>
 
 
 
