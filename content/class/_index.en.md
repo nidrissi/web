@@ -1,6 +1,6 @@
 ---
 title: Teaching
-current: 2018–2019
+current: 2019–2020
 menu:
   main:
     weight: 30
