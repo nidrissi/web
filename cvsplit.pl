@@ -55,6 +55,9 @@ sub traverse {
             # add a non-breaking space
             $fr =~ s{(\d\d)/(?=\d\d\d\d)}{$months[0][$1 - 1] . '\ '}eg;
             $en =~ s{(\d\d)/(?=\d\d\d\d)}{$months[1][$1 - 1] . '\ '}eg;
+            # chomp!
+            chomp $fr;
+            chomp $en;
             return ($fr, $en);
         }
         when ('ARRAY') {
