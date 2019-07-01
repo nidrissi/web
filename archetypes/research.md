@@ -8,15 +8,17 @@ status:
 publication:
 abstract:
 tags: []
-url_pdf:
-url_code:
-url_slides:
-url_video:
-url_source:
-arxiv:
-doi:
-mathrev:
-zbmath:
-hal:
-# url_custom: [{name = "Custom Link", url = "http://example.org"}]
+urls:
+  pdf:
+  code:
+  slides:
+  video:
+  source:
+  arxiv:
+  doi:
+  mathrev:
+  zbmath:
+  hal:
+# custom:
+#   - {name: "Custom Link", url: "http://example.org"}
 ---
