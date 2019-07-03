@@ -11,6 +11,6 @@ I am a *maître de conférences* at [Université Paris Diderot](https://www.univ
 I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 I am mainly interested in operads and their applications to algebraic topology, more specifically the study of configuration spaces and their links to graph complexes.
 
-I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/spip.php?article67) of the IMJ-PRG.
+I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/gestion/evenement/affEvenement/43) of the IMJ-PRG.
 This year, I am involved in the organization of a [working seminar on homological stability (in French)]({{< ref path="gdt/stabilite" lang="fr" >}}).
 You can find more info in [my CV]({{< ref "/cv" >}}).

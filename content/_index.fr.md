@@ -10,6 +10,6 @@ Je suis maître de conférences à [l'Université Paris Diderot](https://www.uni
 Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 Je m'intéresse principalement aux opérades et leurs applications à la topologie algébrique, et plus particulièrement à l'étude des espaces de configuration et leurs liens avec les complexes de graphes.
 
-Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/spip.php?article67) de l'IMJ-PRG.
+Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/gestion/evenement/affEvenement/43) de l'IMJ-PRG.
 Cette année, je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt/stabilite" >}}).
 Pour plus d'informations, voir [mon CV]({{< ref "/cv" >}}).
