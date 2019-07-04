@@ -130,7 +130,7 @@ section:
           b: "Écriture de résumés pour Zentralblatt MATH ! Writing of abstracts for Zentralblatt MATH"
   - title: Financements ! Funding
     content:
-      - subtitle: Obtenus ! Obtained
+      # - subtitle: Obtenus ! Obtained
       - item:
           a: 2019
           b: |
@@ -149,19 +149,19 @@ section:
       #       Bourse de voyage « *Oberwolfach Leibniz Graduate Students* » (pour le workshop «\ *Factorization Algebras and Functorial Field Theories*\ »)
       #       !
       #       Travel grant \"Oberwolfach Leibniz Graduate Students\" (for the workshop "Factorization Algebras and Functorial Field Theories")
-      - subtitle: Participation
-      - item:
-          a: 02/2018--08/2018
-          b: |
-            Contrat postdoctoral financé par le StG ERC 678156--GRAPHCPX. Porteur : Thomas Willwacher
-            !
-            Postdoc contract funded by the ERC StG 678156--GRAPHCPX. PI: Thomas Willwacher
-      - item:
-          a: 2014--2015
-          b: |
-            Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller\ »](http://math.univ-lille1.fr/~operads/) (HOGT). Coordinateur : Benoit Fresse
-            !
-            Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller*"](http://math.univ-lille1.fr/~operads/) (HOGT). Coordinator: Benoit Fresse
+      # - subtitle: Participation
+      # - item:
+      #     a: 02/2018--08/2018
+      #     b: |
+      #       Contrat postdoctoral financé par le StG ERC 678156--GRAPHCPX. Porteur : Thomas Willwacher
+      #       !
+      #       Postdoc contract funded by the ERC StG 678156--GRAPHCPX. PI: Thomas Willwacher
+      # - item:
+      #     a: 2014--2015
+      #     b: |
+      #       Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller\ »](https://math.univ-lille1.fr/~operads/) (HOGT). Coordinateur : Benoit Fresse
+      #       !
+      #       Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller*"](https://math.univ-lille1.fr/~operads/) (HOGT). Coordinator: Benoit Fresse
   - title: Exposés ! Talks
     more: /talk
     content:
