@@ -377,7 +377,12 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">June 2019<sup>⋆</sup> (5 d.)</dt>
+<dt class="col-lg-2 col-sm-3 text-sm-right">July 2019 (5 d.)</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">June 2019 (5 d.)</dt>
 <dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 

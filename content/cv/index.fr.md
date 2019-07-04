@@ -377,7 +377,12 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2019<sup>⋆</sup> (5 j.)</dt>
+<dt class="col-lg-2 col-sm-3 text-sm-right">juil. 2019 (5 j.)</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2019 (5 j.)</dt>
 <dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
 
 
