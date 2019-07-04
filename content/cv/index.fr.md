@@ -410,37 +410,37 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Groupe de travail « Valeurs zêta multiples en quantification par déformation »</em><sup>⋆</sup> (Université de Montpellier). <em>SYM 10 Years Old</em> (Københavns Universitet). <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot). <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn). <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy). <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Groupe de travail « Valeurs zêta multiples en quantification par déformation »</em><sup>⋆</sup> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2018</dt>
-<dd class="col-lg-10 col-sm-9"><em>New trends in K-theory and homotopy theory – A conference in honor of Max Karoubi’s 80th birthday</em> (Institut Henri Poincaré, Paris). <em>Colloque 2018 du GDR Topologie Algébrique</em> (Université de Montpellier). <em>Derived Geometry and Higher Categorical Structures in Geometry and Physics</em> (Fields Institute). <em>Graph Complexes, Configuration Spaces and Manifold Calculus</em> (University of British Columbia). <em>Rational Homotopy and its Applications</em> (Université de Lille).</dd>
+<dd class="col-lg-10 col-sm-9"><em>New trends in K-theory and homotopy theory – A conference in honor of Max Karoubi’s 80th birthday</em> (Institut Henri Poincaré, Paris) • <em>Colloque 2018 du GDR Topologie Algébrique</em> (Université de Montpellier) • <em>Derived Geometry and Higher Categorical Structures in Geometry and Physics</em> (Fields Institute) • <em>Graph Complexes, Configuration Spaces and Manifold Calculus</em> (University of British Columbia) • <em>Rational Homotopy and its Applications</em> (Université de Lille).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2017 du GDR Topologie Algébrique</em> (Université Paris Diderot). <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale) <em>Journée des doctorants du Nord-Pas-de-Calais</em> (Université du Littoral Côte d’Opale) <em>Workshop on Persistent Homology</em> (Université de Montpellier). <em>Young Topologists Meeting 2017</em> (Stockholm Universitet &amp; KTH). <em>Algebraic Topology and Representation Theory</em> (Université de Lille). <em>Derived Algebraic Geometry and Interactions</em> (Université de Toulouse). <em>Fourth Young Mathematicians Colloquium</em> (Vrije Universiteit Brussel). <em>Lens Topology and geometry 2017</em> (Université d’Artois, Lens) <em>Workshop on Quantum Topology</em> (Université Lille-1). <em>Conference for Young researchers in homotopy theory and categorical structures</em> (Max-Planck-Institut für Mathematik, Bonn).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Colloque 2017 du GDR Topologie Algébrique</em> (Université Paris Diderot) • <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale) • <em>Journée des doctorants du Nord-Pas-de-Calais</em> (Université du Littoral Côte d’Opale) • <em>Workshop on Persistent Homology</em> (Université de Montpellier) • <em>Young Topologists Meeting 2017</em> (Stockholm Universitet &amp; KTH) • <em>Algebraic Topology and Representation Theory</em> (Université de Lille) • <em>Derived Algebraic Geometry and Interactions</em> (Université de Toulouse) • <em>Fourth Young Mathematicians Colloquium</em> (Vrije Universiteit Brussel) • <em>Lens Topology and geometry 2017</em> (Université d’Artois, Lens) • <em>Workshop on Quantum Topology</em> (Université Lille-1) • <em>Conference for Young researchers in homotopy theory and categorical structures</em> (Max-Planck-Institut für Mathematik, Bonn).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016</dt>
-<dd class="col-lg-10 col-sm-9"><em>Conference in the honour of Saïd Zarati</em> (Institut des Hautes Études à Tunis). <em>Colloque 2016 du GDR Topologie Algébrique et Applications</em> (Université de Picardie Jules Verne). <em>Young Topologists Meeting 2016</em> (Københavns Universitet). <em>Workshop: Factorization Algebras and Functorial Field Theories</em> (Mathematisches Forschungsinstitut Oberwolfach). <em>Séminaire Itinérant de Catégories</em> (Université Lille-1)..</dd>
+<dd class="col-lg-10 col-sm-9"><em>Conference in the honour of Saïd Zarati</em> (Institut des Hautes Études à Tunis) • <em>Colloque 2016 du GDR Topologie Algébrique et Applications</em> (Université de Picardie Jules Verne) • <em>Young Topologists Meeting 2016</em> (Københavns Universitet) • <em>Workshop: Factorization Algebras and Functorial Field Theories</em> (Mathematisches Forschungsinstitut Oberwolfach) • <em>Séminaire Itinérant de Catégories</em> (Université Lille-1).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2015 du GDR Topologie Algébrique et Applications</em> (Université de Toulouse-3). <em>Lens Topology and geometry 2015</em> (Université d’Artois, Lens). <em>Introductory School – Homotopy theory, manifolds, and field theories</em> (Hausdorff Research Institute for Mathematics). <em>Séminaire du projet ANR HOGT</em> (Université de Strasbourg). <em>Second Young Mathematicians Colloquium</em> (KU Leuven Kulak). <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale, Calais) <em>Masterclass : K-théorie topologique et applications</em> (Université de Strasbourg). <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Colloque 2015 du GDR Topologie Algébrique et Applications</em> (Université de Toulouse-3) • <em>Lens Topology and geometry 2015</em> (Université d’Artois, Lens) • <em>Introductory School – Homotopy theory, manifolds, and field theories</em> (Hausdorff Research Institute for Mathematics) • <em>Séminaire du projet ANR HOGT</em> (Université de Strasbourg) • <em>Second Young Mathematicians Colloquium</em> (KU Leuven Kulak) • <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale, Calais) • <em>Masterclass : K-théorie topologique et applications</em> (Université de Strasbourg) • <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2014</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2014 du GDR Topologie Algébrique et Applications</em> (Université Blaise Pascal). <em>Colloque de clôture du projet ANR HOGT</em> (Université de Nice). <em>Espaces des lacets en géométrie et topologie</em> (Université de Nantes). <em>Young Topologists Meeting 2014</em> (Københavns Universitet). <em>Young Mathematicians Colloquium</em> (Université Lille-1). <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Colloque 2014 du GDR Topologie Algébrique et Applications</em> (Université Blaise Pascal) • <em>Colloque de clôture du projet ANR HOGT</em> (Université de Nice) • <em>Espaces des lacets en géométrie et topologie</em> (Université de Nantes) • <em>Young Topologists Meeting 2014</em> (Københavns Universitet) • <em>Young Mathematicians Colloquium</em> (Université Lille-1) • <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2013</dt>
-<dd class="col-lg-10 col-sm-9"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology). <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology) • <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes).</dd>
 
 
 
