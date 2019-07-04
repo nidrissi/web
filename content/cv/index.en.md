@@ -135,14 +135,6 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 <dl class="row mb-0">
 
-</dl>
-
-### Obtained
-
-<dl class="row mb-0">
-
-
-
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
@@ -152,24 +144,6 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015–2018</dt>
 <dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
-
-</dl>
-
-### Participation
-
-<dl class="row mb-0">
-
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">Feb. 2018–Aug. 2018</dt>
-<dd class="col-lg-10 col-sm-9">Postdoc contract funded by the ERC StG 678156–GRAPHCPX. PI: Thomas Willwacher.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Member of the ANR project <a href="http://math.univ-lille1.fr/~operads/">“<em>Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller</em>”</a> (HOGT). Coordinator: Benoit Fresse.</dd>
 
 
 </dl>

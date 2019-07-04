@@ -135,14 +135,6 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 <dl class="row mb-0">
 
-</dl>
-
-### Obtenus
-
-<dl class="row mb-0">
-
-
-
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
@@ -152,24 +144,6 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015–2018</dt>
 <dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
-
-</dl>
-
-### Participation
-
-<dl class="row mb-0">
-
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2018–août 2018</dt>
-<dd class="col-lg-10 col-sm-9">Contrat postdoctoral financé par le StG ERC 678156–GRAPHCPX. Porteur : Thomas Willwacher.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Membre du projet ANR <a href="http://math.univ-lille1.fr/~operads/">« Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller »</a> (HOGT). Coordinateur : Benoit Fresse.</dd>
 
 
 </dl>
