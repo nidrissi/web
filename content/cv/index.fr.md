@@ -410,7 +410,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot). <em>SYM 10 Years Old</em> (Københavns Universitet). <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn). <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy). <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Groupe de travail « Valeurs zêta multiples en quantification par déformation »</em><sup>⋆</sup> (Université de Montpellier). <em>SYM 10 Years Old</em> (Københavns Universitet). <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot). <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn). <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy). <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
 
 
