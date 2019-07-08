@@ -93,6 +93,12 @@ section:
           d: Paris
           e: France
       - entry:
+          a: 2018--2019
+          b: Jury d'examen L1 MIASHS ! Exam jury for L1 MIASHS
+          c: Université Paris Diderot
+          d: Paris
+          e: France
+      - entry:
           a: 01/2019--06/2019
           b: |
             Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt/stabilite/)
