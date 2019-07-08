@@ -228,7 +228,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">juil. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgique.<br>Homologie de factorisation et espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgique.<br>Homologie de factorisation et espaces de configuration</dd>
 
 
 
@@ -298,7 +298,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgique.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgique.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
 
 
 
@@ -333,7 +333,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgique.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie Algébrique</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgique.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
 
 
 

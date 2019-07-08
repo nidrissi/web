@@ -228,7 +228,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">July 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgium.<br>Homologie de factorisation et espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgium.<br>Homologie de factorisation et espaces de configuration</dd>
 
 
 
@@ -298,7 +298,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgium.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgium.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
 
 
 
@@ -333,7 +333,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology seminar</strong>, <em>Université catholique de Louvain / Institut de recherche en mathématique et physique</em>, Louvain-la-Neuve, Belgium.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology seminar</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgium.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
 
 
 
