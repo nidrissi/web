@@ -1,5 +1,5 @@
 ---
-title: Faculty in France in the past 20 years
+title: Faculty in France over the past 20 years
 date: 2019-06-21
 tags: []
 ---
