@@ -63,12 +63,12 @@ section:
           d: Paris
           e: France
           f: |
-            2014--2015 : Stage de recherche en préparation à un doctorat, Université Lille-1.\
+            2014--2015 : Stage de recherche en préparation à un doctorat, Université de Lille.\
             2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.\
             Automne 2013 : Stage de recherche en topologie algébrique, MIT.\
             Reçu 1^er^ au concours INFO 2011.
             !
-            2014--2015: Research internship in preparation of a PhD, Université Lille-1.\
+            2014--2015: Research internship in preparation of a PhD, Université de Lille.\
             2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
             Fall 2013: Research internship in algebraic topology, MIT.\
             Ranked 1^st^ on the INFO 2011 competitive entrance exam.
@@ -317,14 +317,14 @@ section:
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille-1
+          c: Université de Lille
           d: Lille
           e: France
           f: "Introduction à la théorie de l'homotopie rationnelle"
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille-1
+          c: Université de Lille
           d: Lille
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
@@ -338,14 +338,14 @@ section:
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille-1
+          c: Université de Lille
           d: Lille
           e: France
           f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
-          c: Université Lille-1
+          c: Université de Lille
           d: Lille
           e: France
           f: La compactification de Fulton-MacPherson des espaces de configuration
@@ -366,7 +366,7 @@ section:
       - entry:
           a: 09/2016
           b: Séminaire de Topologie ! Topology Seminar
-          c: Université Lille-1
+          c: Université de Lille
           d: Lille
           e: France
           f: Le modèle de Lambrechts--Stanley des espaces de configuration
@@ -408,7 +408,7 @@ section:
       - entry:
           a: 09/2015
           b: Séminaire de Topologie ! Topology Seminar
-          c: Université Lille\ 1 / Laboratoire Paul Painlevé
+          c: Université de Lille / Laboratoire Paul Painlevé
           d: Lille
           e: France
           f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
@@ -510,7 +510,7 @@ section:
             *Derived Algebraic Geometry and Interactions* (Université de Toulouse) •
             *Fourth Young Mathematicians Colloquium* (Vrije Universiteit Brussel) •
             *Lens Topology and geometry 2017* (Université d'Artois, Lens) •
-            *Workshop on Quantum Topology* (Université Lille-1) •
+            *Workshop on Quantum Topology* (Université de Lille) •
             *Conference for Young researchers in homotopy theory and categorical structures* (Max-Planck-Institut für Mathematik, Bonn)
       - item:
           a: 2016
@@ -519,7 +519,7 @@ section:
             *Colloque 2016 du GDR Topologie Algébrique et Applications* (Université de Picardie Jules Verne) •
             *Young Topologists Meeting 2016* (Københavns Universitet) •
             *Workshop: Factorization Algebras and Functorial Field Theories* (Mathematisches Forschungsinstitut Oberwolfach) •
-            *Séminaire Itinérant de Catégories* (Université Lille-1)
+            *Séminaire Itinérant de Catégories* (Université de Lille)
       - item:
           a: 2015
           b: |
@@ -530,7 +530,7 @@ section:
             *Second Young Mathematicians Colloquium* (KU Leuven Kulak) •
             *Séminaire Itinérant de Catégories* (Université du Littoral Côte d'Opale, Calais) •
             *Masterclass : K-théorie topologique et applications* (Université de Strasbourg) •
-            *Séminaire du projet ANR HOGT* (Université Lille-1)
+            *Séminaire du projet ANR HOGT* (Université de Lille)
       - item:
           a: 2014
           b: |
@@ -538,8 +538,8 @@ section:
             *Colloque de clôture du projet ANR HOGT* (Université de Nice) •
             *Espaces des lacets en géométrie et topologie* (Université de Nantes) •
             *Young Topologists Meeting 2014* (Københavns Universitet) •
-            *Young Mathematicians Colloquium* (Université Lille-1) •
-            *Séminaire du projet ANR HOGT* (Université Lille-1)
+            *Young Mathematicians Colloquium* (Université de Lille) •
+            *Séminaire du projet ANR HOGT* (Université de Lille)
       - item:
           a: 2013
           b: |
