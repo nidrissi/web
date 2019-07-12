@@ -36,7 +36,7 @@ Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2011–août 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015 : Stage de recherche en préparation à un doctorat, Université Lille-1.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015 : Stage de recherche en préparation à un doctorat, Université de Lille.<br />
 2013–2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.<br />
 Automne 2013 : Stage de recherche en topologie algébrique, MIT.<br />
 Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
@@ -273,12 +273,12 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université Lille-1</em>, Lille, France.<br>Introduction à la théorie de l’homotopie rationnelle</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université de Lille</em>, Lille, France.<br>Introduction à la théorie de l’homotopie rationnelle</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université Lille-1</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université de Lille</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
 
 
 
@@ -288,12 +288,12 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">mai 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université Lille-1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université de Lille</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">mai 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université Lille-1</em>, Lille, France.<br>La compactification de Fulton-MacPherson des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université de Lille</em>, Lille, France.<br>La compactification de Fulton-MacPherson des espaces de configuration</dd>
 
 
 
@@ -308,7 +308,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université Lille-1</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université de Lille</em>, Lille, France.<br>Le modèle de Lambrechts–Stanley des espaces de configuration</dd>
 
 
 
@@ -338,7 +338,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université Lille 1 / Laboratoire Paul Painlevé</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topologie</strong>, <em>Université de Lille / Laboratoire Paul Painlevé</em>, Lille, France.<br>L’opérade Swiss-Cheese et le centre de Drinfeld</dd>
 
 
 
@@ -430,22 +430,22 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2017 du GDR Topologie Algébrique</em> (Université Paris Diderot) • <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale) • <em>Journée des doctorants du Nord-Pas-de-Calais</em> (Université du Littoral Côte d’Opale) • <em>Workshop on Persistent Homology</em> (Université de Montpellier) • <em>Young Topologists Meeting 2017</em> (Stockholm Universitet &amp; KTH) • <em>Algebraic Topology and Representation Theory</em> (Université de Lille) • <em>Derived Algebraic Geometry and Interactions</em> (Université de Toulouse) • <em>Fourth Young Mathematicians Colloquium</em> (Vrije Universiteit Brussel) • <em>Lens Topology and geometry 2017</em> (Université d’Artois, Lens) • <em>Workshop on Quantum Topology</em> (Université Lille-1) • <em>Conference for Young researchers in homotopy theory and categorical structures</em> (Max-Planck-Institut für Mathematik, Bonn).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Colloque 2017 du GDR Topologie Algébrique</em> (Université Paris Diderot) • <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale) • <em>Journée des doctorants du Nord-Pas-de-Calais</em> (Université du Littoral Côte d’Opale) • <em>Workshop on Persistent Homology</em> (Université de Montpellier) • <em>Young Topologists Meeting 2017</em> (Stockholm Universitet &amp; KTH) • <em>Algebraic Topology and Representation Theory</em> (Université de Lille) • <em>Derived Algebraic Geometry and Interactions</em> (Université de Toulouse) • <em>Fourth Young Mathematicians Colloquium</em> (Vrije Universiteit Brussel) • <em>Lens Topology and geometry 2017</em> (Université d’Artois, Lens) • <em>Workshop on Quantum Topology</em> (Université de Lille) • <em>Conference for Young researchers in homotopy theory and categorical structures</em> (Max-Planck-Institut für Mathematik, Bonn).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016</dt>
-<dd class="col-lg-10 col-sm-9"><em>Conference in the honour of Saïd Zarati</em> (Institut des Hautes Études à Tunis) • <em>Colloque 2016 du GDR Topologie Algébrique et Applications</em> (Université de Picardie Jules Verne) • <em>Young Topologists Meeting 2016</em> (Københavns Universitet) • <em>Workshop: Factorization Algebras and Functorial Field Theories</em> (Mathematisches Forschungsinstitut Oberwolfach) • <em>Séminaire Itinérant de Catégories</em> (Université Lille-1).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Conference in the honour of Saïd Zarati</em> (Institut des Hautes Études à Tunis) • <em>Colloque 2016 du GDR Topologie Algébrique et Applications</em> (Université de Picardie Jules Verne) • <em>Young Topologists Meeting 2016</em> (Københavns Universitet) • <em>Workshop: Factorization Algebras and Functorial Field Theories</em> (Mathematisches Forschungsinstitut Oberwolfach) • <em>Séminaire Itinérant de Catégories</em> (Université de Lille).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2015 du GDR Topologie Algébrique et Applications</em> (Université de Toulouse-3) • <em>Lens Topology and geometry 2015</em> (Université d’Artois, Lens) • <em>Introductory School – Homotopy theory, manifolds, and field theories</em> (Hausdorff Research Institute for Mathematics) • <em>Séminaire du projet ANR HOGT</em> (Université de Strasbourg) • <em>Second Young Mathematicians Colloquium</em> (KU Leuven Kulak) • <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale, Calais) • <em>Masterclass : K-théorie topologique et applications</em> (Université de Strasbourg) • <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Colloque 2015 du GDR Topologie Algébrique et Applications</em> (Université de Toulouse-3) • <em>Lens Topology and geometry 2015</em> (Université d’Artois, Lens) • <em>Introductory School – Homotopy theory, manifolds, and field theories</em> (Hausdorff Research Institute for Mathematics) • <em>Séminaire du projet ANR HOGT</em> (Université de Strasbourg) • <em>Second Young Mathematicians Colloquium</em> (KU Leuven Kulak) • <em>Séminaire Itinérant de Catégories</em> (Université du Littoral Côte d’Opale, Calais) • <em>Masterclass : K-théorie topologique et applications</em> (Université de Strasbourg) • <em>Séminaire du projet ANR HOGT</em> (Université de Lille).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2014</dt>
-<dd class="col-lg-10 col-sm-9"><em>Colloque 2014 du GDR Topologie Algébrique et Applications</em> (Université Blaise Pascal) • <em>Colloque de clôture du projet ANR HOGT</em> (Université de Nice) • <em>Espaces des lacets en géométrie et topologie</em> (Université de Nantes) • <em>Young Topologists Meeting 2014</em> (Københavns Universitet) • <em>Young Mathematicians Colloquium</em> (Université Lille-1) • <em>Séminaire du projet ANR HOGT</em> (Université Lille-1).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Colloque 2014 du GDR Topologie Algébrique et Applications</em> (Université Blaise Pascal) • <em>Colloque de clôture du projet ANR HOGT</em> (Université de Nice) • <em>Espaces des lacets en géométrie et topologie</em> (Université de Nantes) • <em>Young Topologists Meeting 2014</em> (Københavns Universitet) • <em>Young Mathematicians Colloquium</em> (Université de Lille) • <em>Séminaire du projet ANR HOGT</em> (Université de Lille).</dd>
 
 
 
