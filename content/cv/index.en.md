@@ -147,7 +147,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">2015–2018</dt>
+<dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2015–Jan. 2018</dt>
 <dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
 
 

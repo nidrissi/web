@@ -147,7 +147,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">2015–2018</dt>
+<dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2015–janv. 2018</dt>
 <dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
 
 
