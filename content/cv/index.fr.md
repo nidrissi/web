@@ -94,6 +94,23 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 </dl>
 
+## Financements
+
+<dl class="row mb-0">
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
+<dd class="col-lg-10 col-sm-9">Porteur d’un <em>Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur »</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2015–janv. 2018</dt>
+<dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
+
+
+</dl>
+
 ## Service
 
 <dl class="row mb-0">
@@ -132,23 +149,6 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 <dt class="col-lg-2 col-sm-3 text-sm-right">en cours</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Écriture de résumés pour Zentralblatt MATH</strong>.</dd>
 
-
-
-</dl>
-
-## Financements
-
-<dl class="row mb-0">
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9">Porteur d’un <em>Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur »</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2015–janv. 2018</dt>
-<dd class="col-lg-10 col-sm-9">Contrat doctoral spécifique normalien, École Normale Supérieure de Paris.</dd>
 
 
 </dl>
@@ -382,33 +382,33 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">juil. 2019 (5 j.)</dt>
-<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">juil. 2019</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts (5 j.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2019 (5 j.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2019</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher (5 j.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2018 (10 j.)</dt>
-<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2018</dt>
+<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley (10 j.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">août 2017 (5 j.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">août 2017</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher (5 j.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2017 (5 j.)</dt>
-<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2017</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts (5 j.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2016 (4 j.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2016</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher (4 j.).</dd>
 
 
 </dl>
@@ -420,7 +420,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Groupe de travail « Valeurs zêta multiples en quantification par déformation »</em><sup>⋆</sup> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em><sup>⋆</sup> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
 
 

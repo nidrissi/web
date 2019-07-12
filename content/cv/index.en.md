@@ -39,7 +39,7 @@ Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
 <dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015: Research internship in preparation of a PhD, Université Lille-1.<br />
 2013–2014: Master’s degree in Fundamental Mathematics, Université Paris Diderot.<br />
 Fall 2013: Research internship in algebraic topology, MIT.<br />
-Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
+Ranked 1<sup>st</sup> on the INFO 2011 competitive entrance exam.</dd>
 
 
 
@@ -94,6 +94,23 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 
+## Funding
+
+<dl class="row mb-0">
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
+<dd class="col-lg-10 col-sm-9">Holder of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2015–Jan. 2018</dt>
+<dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
+
+
+</dl>
+
 ## Service
 
 <dl class="row mb-0">
@@ -132,23 +149,6 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 <dt class="col-lg-2 col-sm-3 text-sm-right">ongoing</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Writing of abstracts for Zentralblatt MATH</strong>.</dd>
 
-
-
-</dl>
-
-## Funding
-
-<dl class="row mb-0">
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9">Holder of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2015–Jan. 2018</dt>
-<dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
 
 
 </dl>
@@ -376,39 +376,39 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 </dl>
 
-## Research visits
+## Visits
 
 <dl class="row mb-0">
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">July 2019 (5 d.)</dt>
-<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">July 2019</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts (5 d.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">June 2019 (5 d.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">June 2019</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher (5 d.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">June 2018 (10 d.)</dt>
-<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">June 2018</dt>
+<dd class="col-lg-10 col-sm-9">University of Regina – Don Stanley (10 d.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">Aug. 2017 (5 d.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">Aug. 2017</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher (5 d.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2017 (5 d.)</dt>
-<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2017</dt>
+<dd class="col-lg-10 col-sm-9">Université catholique de Louvain – Pascal Lambrechts (5 d.).</dd>
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">June 2016 (4 d.)</dt>
-<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">June 2016</dt>
+<dd class="col-lg-10 col-sm-9">ETH Zurich – Thomas Willwacher (4 d.).</dd>
 
 
 </dl>
@@ -420,7 +420,7 @@ Ranked 1<sup>st</sup> on the “INFO” 2011 competitive entrance exam.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Groupe de travail « Valeurs zêta multiples en quantification par déformation »</em><sup>⋆</sup> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em><sup>⋆</sup> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
 
 
