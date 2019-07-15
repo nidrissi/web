@@ -1,5 +1,5 @@
 ---
-title: "Théorie de l'homotopie"
+title: "Introduction à la théorie de l'homotopie"
 toc: true
 cursus: M2 Mathématiques fondamentales (S2)
 what: Cours
