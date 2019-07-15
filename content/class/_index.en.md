@@ -13,7 +13,7 @@ License (L1 / L2 / L3)
 : First university degree in the French version of the European system (≈ bachelor). Divided in three years: L1, L2, and L3.
 
 Master (M1 / M2)
-: Second university degree in the French version of the European system (≈ bachelor). Divided in two years: L1 and M2.
+: Second university degree in the French version of the European system. Divided in two years: M1 and M2.
 
 Semesters (S1 / S2)
 : S1 = September to December, S2 = January to April.
