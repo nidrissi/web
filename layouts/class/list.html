@@ -15,7 +15,7 @@
     <div id="collapse-{{ .Key }}" class="collapse {{ if eq .Key $current }}show{{ end }}" aria-labelledby="heading-{{ .Key }}" data-parent="#accordionCours">
       <div class="card-body p-3">
         <ul class="list-unstyled mb-0">
-          {{- range .Pages.ByDate -}}
+          {{- range .Pages.ByDate.Reverse -}}
           {{- .Render "li" -}}
           {{- end -}}
         </ul>
