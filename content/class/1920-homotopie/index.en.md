@@ -37,7 +37,7 @@ Lectures will being in January 2020 and end in February 2020.
 
 <div class="alert alert-primary" role="alert">
 Grégory Ginot gave <a href="https://www.math.univ-paris13.fr/~ginot/Homotopie/">a course in 2017–2019 on the same topic</a>.
-On his webpage, you can find <strong><a class="alert-link" ref="https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf">lecture notes</a></strong>, as well as past exercise sheets and past exams.
+On his webpage, you can find <strong><a class="alert-link" href="https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf">lecture notes</a></strong>, as well as past exercise sheets and past exams.
 </div>
 
 Works on homotopy theory:
