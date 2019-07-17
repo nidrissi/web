@@ -1,6 +1,6 @@
 ---
 date: 2015-11-29
-lastmod: 2019-05-03
+lastmod: 2019-07-17
 menu:
   main:
     weight: 1
@@ -14,5 +14,4 @@ I am part of the team-project [Algebraic Topology & Geometry](https://www.imj-pr
 I am mainly interested in operads and their applications to algebraic topology, more specifically the study of configuration spaces and their links to graph complexes.
 
 I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/gestion/evenement/affEvenement/43) of the IMJ-PRG.
-This year, I am involved in the organization of a [working seminar on homological stability (in French)]({{< ref path="gdt/stabilite" lang="fr" >}}).
 You can find more info in [my CV]({{< ref "/cv" >}}).

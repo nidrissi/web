@@ -1,6 +1,6 @@
 ---
 date: 2015-11-29
-lastmod: 2019-05-03
+lastmod: 2019-07-17
 menu:
   main:
     weight: 1
@@ -13,5 +13,4 @@ Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https
 Je m'intéresse principalement aux opérades et leurs applications à la topologie algébrique, et plus particulièrement à l'étude des espaces de configuration et leurs liens avec les complexes de graphes.
 
 Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/gestion/evenement/affEvenement/43) de l'IMJ-PRG.
-Cette année, je participe à l'organisation d'un [groupe de travail sur la stabilité homologique]({{< ref "gdt/stabilite" >}}).
 Pour plus d'informations, voir [mon CV]({{< ref "/cv" >}}).
