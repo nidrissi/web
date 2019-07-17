@@ -9,7 +9,7 @@
       {{- else -}}
       {{- .Content -}}
       {{- end -}}
+      {{- if or .Params.summary .Truncated -}}<a href="{{ .Permalink }}" class="card-link">[… {{ i18n "continue_reading" }}]</a>{{- end -}}
     </div>
-    {{- if or .Params.summary .Truncated -}}<a href="{{ .Permalink }}" class="card-link">[…] {{ i18n "continue_reading" }}</a>{{- end -}}
   </div>
 </article>  
