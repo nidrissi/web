@@ -11,6 +11,9 @@
   </div>
   <div class="col">
     {{- .Content -}}
+
+    <p class="small">({{ i18n "last_updated" }} {{ .Lastmod.Format .Site.Params.date_format }})</p>
+
     <h4>Contact</h4>
     <ul class="fa-ul mb-0">
       {{- with .Site.Author.email -}}
