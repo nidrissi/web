@@ -85,10 +85,14 @@ section:
   #   content:
   #     entry:
   #       a: 2020
-  #       b: Cours Peccot
+  #       b: Cours Peccot ! Peccot Lecture
   #       c: Collège de France
   #       d: Paris
   #       e: France
+  #       f: |
+  #         «\ récompense chaque année de jeunes mathématiciens de moins de 30 ans s'étant signalés dans l'ordre des mathématiques théoriques ou appliquées\ »
+  #         !
+  #         "rewards each year young mathematicians under 30 who have distinguished themselves in theoretical or applied mathematics"
   - title: Financements ! Funding
     content:
       # - subtitle: Obtenus ! Obtained
