@@ -351,7 +351,7 @@ Reçu 1<sup>er</sup> au concours INFO 2011.</dd>
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9">Théorie de l’homotopie, M2 Maths fondas (cours, 24h) • Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 (cours/TD, 56,5h) • Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) • Algorithmes et Programmation, L2 (TD+TP, 42h).</dd>
+<dd class="col-lg-10 col-sm-9">Théorie de l’homotopie, M2 Maths fondas (cours, 24h) • Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 MIASHS (cours/TD, 56,5h) • Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) • Algorithmes et Programmation, L2 (TD+TP, 42h).</dd>
 
 
 
