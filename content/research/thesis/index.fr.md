@@ -21,9 +21,9 @@ urls:
 ---
 
 Thèse dirigée par [Benoit Fresse](https://math.univ-lille1.fr/~fresse) à [l'Université de Lille](https://www.univ-lille.fr) et financée par une Allocation Spécifique de [l'École Normale Supérieure](https://www.ens.fr).
+Le jury de la soutenance était composé de :
 
 <table class="table table-borderless">
-<caption>Jury</caption>
 <tbody>
 <tr>
 <td>Directeur de thèse :</td>

@@ -21,9 +21,9 @@ urls:
 ---
 
 Thesis realized under the supervision of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at [Université de Lille](https://www.univ-lille.fr) and funded by an *Allocation Spécifique* from the [École Normale Supérieure](https://www.ens.fr).
+The defense jury was composed of:
 
 <table class="table table-borderless">
-<caption>Jury</caption>
 <tbody>
 <tr>
 <td>Advisor:</td>
