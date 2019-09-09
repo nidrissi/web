@@ -36,9 +36,11 @@ Les cours commencent en janvier 2020 et se terminent en février 2020.
 ## Bibliographie
 
 <div class="alert alert-primary" role="alert">
-Grégory Ginot a donné un <a href="https://www.math.univ-paris13.fr/~ginot/Homotopie/">cours en 2017–2019 sur le même sujet</a>.
-On pourra trouver sur sa page <strong><a class="alert-link" href="https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf">les notes du cours</a></strong>, ainsi que les anciennes feuilles d'exercices et les anciens examens.
+<a class="alert-link" href="notes.pdf">Lecture notes are available here.</a>
 </div>
+
+Grégory Ginot a donné un [cours en 2017–2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
+On pourra trouver sur sa page **[les notes de son cours](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)**, ainsi que les anciennes feuilles d'exercices et les anciens examens.
 
 Ouvrages sur la théorie de l'homotopie :
 
