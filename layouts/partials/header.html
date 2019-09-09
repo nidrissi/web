@@ -17,7 +17,7 @@
   {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get "js/jquery.slim.min.js") (resources.Get "js/toc.js") (resources.Get "js/bootstrap.min.js") | resources.Concat "bundle.js" | resources.Minify -}}
   <script defer src="{{ $js.Permalink }}"></script>
 
-  <script async src="/mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
+  <script async src="/mathjax/tex-chtml.js"></script>
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
