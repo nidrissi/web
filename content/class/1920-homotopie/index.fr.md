@@ -26,9 +26,7 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 ## Organisation
 
-<div class="alert alert-info" role="alert">Plus d'informations sont à venir.</div>
-
-Les cours commencent en janvier 2020 et se terminent en février 2020.
+Les cours commencent en janvier 2020 et se terminent en février 2020. Plus d'informations sont à venir.
 
 ## Bibliographie
 

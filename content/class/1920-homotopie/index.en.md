@@ -26,9 +26,7 @@ The goal of this course is to give an introduction to modern homotopy theory, it
 
 ## Organization
 
-<div class="alert alert-info" role="alert">More information to come.</div>
-
-Lectures will being in January 2020 and end in February 2020.
+Lectures will being in January 2020 and end in February 2020. More information to come.
 
 ## Bibliography
 
