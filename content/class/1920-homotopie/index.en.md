@@ -33,7 +33,7 @@ Lectures will being in January 2020 and end in February 2020.
 ## Bibliography
 
 <div class="alert alert-primary" role="alert">
-<a class="alert-link" href="notes.pdf">Lecture notes are available here.</a>
+<a class="alert-link" href="{{< res "notes.pdf" >}}">Lecture notes are available here.</a>
 </div>
 
 Grégory Ginot gave [a course in 2017–2019 on the same topic](https://www.math.univ-paris13.fr/~ginot/Homotopie).

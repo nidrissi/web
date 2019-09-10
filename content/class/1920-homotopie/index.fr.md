@@ -33,7 +33,7 @@ Les cours commencent en janvier 2020 et se terminent en février 2020.
 ## Bibliographie
 
 <div class="alert alert-primary" role="alert">
-<a class="alert-link" href="notes.pdf">Lecture notes are available here.</a>
+<a class="alert-link" href="{{< res "notes.pdf" >}}">Lecture notes are available here.</a>
 </div>
 
 Grégory Ginot a donné un [cours en 2017–2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
