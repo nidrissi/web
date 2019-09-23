@@ -19,7 +19,7 @@ email: najib.idrissi-kaitouni@imj-prg.fr
 homepage: idrissi.eu/fr ! idrissi.eu/en
 phone: (+33) 01 57 27 91 16
 # citations
-nocite: CamposDucoulombierIdrissiWillwacher2018, CamposIdrissiLambrechtsWillwacher2018, Idrissi2017, Idrissi2017a, Idrissi2018, Idrissi2018a, Idrissi2018b, Idrissi2014, Idrissi2016a
+nocite: CamposDucoulombierIdrissiWillwacher2018, CamposIdrissiLambrechtsWillwacher2018, Idrissi2017, Idrissi2017a, Idrissi2018, Idrissi2018a, Idrissi2018b, Idrissi2016a
 # content
 section:
   - title: Parcours ! Academic Career
@@ -65,13 +65,11 @@ section:
           f: |
             2014--2015 : Stage de recherche en préparation à un doctorat, Université de Lille.\
             2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.\
-            Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.\
-            Reçu 1^er^ au concours INFO 2011.
+            Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.
             !
             2014--2015: Research internship in preparation of a doctorate, Université de Lille.\
             2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
-            Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.\
-            Ranked 1^st^ on the INFO 2011 competitive entrance exam.
+            Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.
   - title: Recherche ! Research
     more: /research
     content:
@@ -81,18 +79,18 @@ section:
       - bib: preprint
       - subtitle: Autres documents ! Other documents
       - bib: other
-  # - title: Distinctions
-  #   content:
-  #     entry:
-  #       a: 2020
-  #       b: Cours Peccot ! Peccot Lecture
-  #       c: Collège de France
-  #       d: Paris
-  #       e: France
-  #       f: |
-  #         «\ récompense chaque année de jeunes mathématiciens de moins de 30 ans s'étant signalés dans l'ordre des mathématiques théoriques ou appliquées\ »
-  #         !
-  #         "rewards each year young mathematicians under 30 who have distinguished themselves in theoretical or applied mathematics"
+  - title: Distinctions
+    content:
+      entry:
+        a: 2019--2020
+        b: Cours Peccot ! Peccot Lecture
+        c: Collège de France
+        d: Paris
+        e: France
+        f: |
+          «\ [...] récompense chaque année de jeunes mathématiciens de moins de 30 ans s'étant signalés dans l'ordre des mathématiques théoriques ou appliquées.\ »
+          !
+          "[...] rewards each year young mathematicians under 30 who have been noticed in theoretical or applied mathematics"
   - title: Financements ! Funding
     content:
       # - subtitle: Obtenus ! Obtained
@@ -149,7 +147,7 @@ section:
           b: |
             Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt/stabilite/)
             !
-            Organization of a [working seminar on homological stability](https://idrissi.eu/fr/gdt/stabilite/)
+            Organization of a [reading seminar on homological stability](https://idrissi.eu/fr/gdt/stabilite/)
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
@@ -488,7 +486,7 @@ section:
       - item:
           a: 2019
           b: |
-            *Groupe de travail : Valeurs zêta multiples en quantification par déformation*^⋆^ (Université de Montpellier) •
+            *Groupe de travail : Valeurs zêta multiples en quantification par déformation* (Université de Montpellier) •
             *SYM 10 Years Old* (Københavns Universitet) •
             *Topologie de basse dimension : Colloque en l'honneur de Christian Blanchet* (Université Paris Diderot) •
             *Higher Homotopy Algebras in Topology* (Max-Planck-Institut für Mathematik, Bonn) •
