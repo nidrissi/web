@@ -38,7 +38,7 @@ Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2011–août 2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015 : Stage de recherche en préparation à un doctorat, Université de Lille.<br />
 2013–2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.<br />
-Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.</dd>
+Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.</dd>
 
 
 
@@ -90,6 +90,18 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 </dl>
 {{< cvbib "other" >}}
 <dl class="row mb-0">
+
+</dl>
+
+## Distinctions
+
+<dl class="row mb-0">
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Cours Peccot</strong>, <em>Collège de France</em>, Paris, France.<br>« récompense chaque année de jeunes mathématiciens de moins de 30 ans s’étant signalés dans l’ordre des mathématiques théoriques ou appliquées »</dd>
+
+
 
 </dl>
 
@@ -419,7 +431,7 @@ Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Instit
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em><sup>⋆</sup> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
 
 
