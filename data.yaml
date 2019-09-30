@@ -188,55 +188,55 @@ section:
           c: Université de Picardie Jules Verne
           d: Amiens
           e: France
-          f: Homotopie des espaces de configuration
+#          f: Homotopie des espaces de configuration
       - entry:
           a: 05/2019
           b: Higher Homotopy Algebras in Topology
           c: Max-Planck-Institut für Mathematik
           d: Bonn
           e: Allemagne ! Germany
-          f: Curved Koszul duality for algebras over unital operads
+#          f: Curved Koszul duality for algebras over unital operads
       - entry:
           a: 01/2019
           b: Structures Supérieures ! Higher Structures
           c: Centre International de Rencontres Mathématiques
           d: Luminy
           e: France
-          f: Configuration spaces and operads
+#          f: Configuration spaces and operads
       - entry:
           a: 06/2018
           b: |
-            Derived Geometry and Higher Categorical Structures in Geometry and Physics
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior)
             !
-            Derived Geometry and Higher Categorical Structures in Geometry and Physics
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)
           c: Fields Institute
           d: Toronto
           e: Canada
-          f: |
-            Curved Koszul Duality for Algebras over Unital Operads (orateur junior à l'école d'été)
-            !
-            Curved Koszul Duality for Algebras over Unital Operads (junior speaker at the summer school)
+#          f: |
+#            Curved Koszul Duality for Algebras over Unital Operads (orateur junior à l'école d'été)
+#            !
+#            Curved Koszul Duality for Algebras over Unital Operads (junior speaker at the summer school)
       - entry:
           a: 05/2018
           b: Graph Complexes, Configuration Spaces and Manifold Calculus
           c: University of British Columbia
           d: Vancouver
           e: Canada
-          f: Configuration Spaces of Manifolds with Boundary
+#          f: Configuration Spaces of Manifolds with Boundary
       - entry:
           a: 10/2017
           b: Séminaire Itinérant de Catégories
           c: Université du Littoral Côte d'Opale
           d: Calais
           e: France
-          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
+#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 10/2016
           b: "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
           c: Institut des Hautes Études à Tunis
           d: Tunis
           e: Tunisie ! Tunisia
-          f: The Lambrechts--Stanley Model of Configuration Spaces
+#          f: The Lambrechts--Stanley Model of Configuration Spaces
       - subtitle: Sur proposition ! Contributed
       - entry:
           a: 07/2017
@@ -244,21 +244,21 @@ section:
           c: Stockholm Universitet & KTH
           d: Stockholm
           e: Suède ! Sweden
-          f: The Lambrechts--Stanley Model of Configuration Spaces
+#          f: The Lambrechts--Stanley Model of Configuration Spaces
       - entry:
           a: 02/2017
           b: Conference for Young researchers in homotopy theory and categorical structures
           c: Max-Planck-Institut für Mathematik
           d: Bonn
           e: Allemagne ! Germany
-          f: The Lambrechts--Stanley Model of Configuration Spaces
+#          f: The Lambrechts--Stanley Model of Configuration Spaces
       - entry:
           a: 10/2016
           b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
           c: Laboratoire Amiénois de Mathématique Fondamentale et Appliquée
           d: Amiens
           e: France
-          f: The Lambrechts--Stanley Model of Configuration Spaces
+#          f: The Lambrechts--Stanley Model of Configuration Spaces
       - subtitle: Séminaires ! Seminars
       - entry:
           a: 07/2019
@@ -266,161 +266,161 @@ section:
           c: Université catholique de Louvain / IRMP
           d: Louvain-la-Neuve
           e: Belgique ! Belgium
-          f: Homologie de factorisation et espaces de configuration
+#          f: Homologie de factorisation et espaces de configuration
       - entry:
           a: 05/2019
           b: Séminaire de Topology ! Topology Seminar
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
-          f: Homologie de factorisation et espaces de configuration
+#          f: Homologie de factorisation et espaces de configuration
       - entry:
           a: 12/2018
           b: Stockholm Topology Seminar
           c: Stockholm Universitet & KTH
           d: Stockholm
           e: Suède ! Sweden
-          f: Configuration spaces and Operads
+#          f: Configuration spaces and Operads
       - entry:
           a: 11/2018
           b: Séminaire Géométrie & Topologie ! Geometry & Topology Seminar
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
-          f: Espaces de configuration et Opérades
+#          f: Espaces de configuration et Opérades
       - entry:
           a: 06/2018
           b: Departmental Colloquium ! Colloque du département
           c: University of Regina
           d: Regina (SK)
           e: Canada
-          f: Configuration Spaces and Graphs Complexes
+#          f: Configuration Spaces and Graphs Complexes
       - entry:
           a: 12/2017
           b: Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
           c: Université de Nantes
           d: Nantes
           e: France
-          f: Espaces de configuration de variétés compactes
+#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 12/2017
           b: Séminaire Algèbre et Topologie ! Algebra and Topology seminar
           c: Université de Strasbourg
           d: Strasbourg
           e: France
-          f: Espaces de configuration de variétés compactes
+#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 11/2017
           b: Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
           c: "Université d'Angers"
           d: Angers
           e: France
-          f: Espaces de configuration de variétés compactes
+#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 11/2017
           b: Séminaire Homotopie en Géométrie Algébrique ! Homotopy in Algebraic Geometry Seminar
           c: Université Paul Sabatier
           d: Toulouse
           e: France
-          f: Espaces de configuration de variétés compactes
+#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
           d: Lille
           e: France
-          f: "Introduction à la théorie de l'homotopie rationnelle"
+#          f: "Introduction à la théorie de l'homotopie rationnelle"
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
           d: Lille
           e: France
-          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
+#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 08/2017
           b: Exposés de physique mathématiques ! Talks in mathematical physics
           c: ETH Zürich
           d: Zürich
           e: Suisse ! Switzerland
-          f: Configuration Spaces of Compact Manifolds
+#          f: Configuration Spaces of Compact Manifolds
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
           d: Lille
           e: France
-          f: Le modèle de Lambrechts--Stanley des espaces de configuration
+#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
           d: Lille
           e: France
-          f: La compactification de Fulton-MacPherson des espaces de configuration
+#          f: La compactification de Fulton-MacPherson des espaces de configuration
       - entry:
           a: 01/2017
           b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
           c: Université catholique de Louvain / IRMP
           d: Louvain-la-Neuve
           e: Belgique ! Belgium
-          f: Le modèle de Lambrechts--Stanley des espaces de configuration
+#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 11/2016
           b: Séminaire de topologie algébrique ! Algebraic Topology Seminar
           c: Université Paris 13
           d: Paris
           e: France
-          f: Le modèle de Lambrechts--Stanley des espaces de configuration
+#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 09/2016
           b: Séminaire de Topologie ! Topology Seminar
           c: Université de Lille
           d: Lille
           e: France
-          f: Le modèle de Lambrechts--Stanley des espaces de configuration
+#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 06/2016
           b: Exposés en Physique Mathématique ! Talks in Mathematical Physics
           c: ETH Zürich
           d: Zürich
           e: Suisse ! Switzerland
-          f: Swiss-Cheese operad and Drinfeld center
+#          f: Swiss-Cheese operad and Drinfeld center
       - entry:
           a: 04/2016
           b: Séminaire de Topologie ! Topology Seminar
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
           d: Paris
           e: France
-          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
+#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 12/2015
           b: "Séminaire des doctorants ! PhD students' seminar"
           c: Laboratoire Paul Painlevé
           d: Lille
           e: France
-          f: Opérades
+#          f: Opérades
       - entry:
           a: 12/2015
           b: "Séminaire des doctorants ! PhD students' seminar"
           c: Laboratoire Amiénois de Mathématique Fondamentale et Appliquée
           d: Amiens
           e: France
-          f: Opérades
+#          f: Opérades
       - entry:
           a: 10/2015
           b: Séminaire de Topologie Algébrique ! Algebraic Topology seminar
           c: Université catholique de Louvain / IRMP
           d: Louvain-la-Neuve
           e: Belgique ! Belgium
-          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
+#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 09/2015
           b: Séminaire de Topologie ! Topology Seminar
           c: Université de Lille / Laboratoire Paul Painlevé
           d: Lille
           e: France
-          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
+#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
   - title: Enseignement ! Teaching
     more: /class
     content:
