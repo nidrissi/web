@@ -27,7 +27,7 @@ section:
       - entry:
           a: Depuis 09/2018 ! Since 09/2018
           b: Maître de conférences
-          c: Université de Paris^⋆^ / Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)
+          c: Université de Paris^⋆^ & Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)
           d: Paris
           e: France
           f: |
@@ -47,7 +47,7 @@ section:
       - entry:
           a: 09/2015--01/2018
           b: Doctorat en Mathématiques ! Doctorate in Mathematics
-          c: Université de Lille / Laboratoire Paul Painlevé
+          c: Université de Lille & Laboratoire Paul Painlevé
           d: Lille
           e: France
           f: |
@@ -75,7 +75,7 @@ section:
       entry:
         a: 2019--2020
         b: Cours Peccot ! Peccot Lecture
-        c: Collège de France
+        c: Collège de France -- Fondation Claude-Antoine Peccot
         d: Paris
         e: France
         f: |
