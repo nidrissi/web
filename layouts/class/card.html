@@ -1,0 +1,10 @@
+<article class="card border-light">
+  <div class="card-body px-3 py-2">
+    <h5 class="card-title mb-1">
+      {{- if .Content -}}<a href="{{ .Permalink -}}">{{- end -}}
+      {{- .Title -}}
+      {{- if .Content -}}</a>{{- end }}
+    </h5>
+    <p class="card-text">{{ partial "meta/cours" . -}}</p>
+  </div>
+</article>

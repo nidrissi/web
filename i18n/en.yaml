@@ -38,6 +38,11 @@
   translation: more talks
 - id: title
   translation: Title
+# Class widget
+- id: teaching
+  translation: Teaching
+- id: more_class
+  translation: more teaching
 # Publication/Talk details
 - id: abstract
   translation: Abstract
