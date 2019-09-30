@@ -88,7 +88,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 </dl>
-{{< cvbib "other" >}}
+{{< cvbib "thesis,other" >}}
 <dl class="row mb-0">
 
 </dl>
