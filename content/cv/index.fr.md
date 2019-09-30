@@ -177,6 +177,11 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">nov. 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Journée de topologie</strong>, <em>Université de Picardie Jules Verne</em>, Amiens, France.<br>Homotopie des espaces de configuration</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">mai 2019</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>Max-Planck-Institut für Mathematik</em>, Bonn, Allemagne.<br>Curved Koszul duality for algebras over unital operads</dd>
 
@@ -431,7 +436,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Journée de topologie</em> (Université de Picardie Jules Verne) • <em>Colloque 2019 du GDR Topologie Algébrique et Applications</em> (Université d’Artois) • <em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
 
 
