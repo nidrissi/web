@@ -19,7 +19,7 @@ email: najib.idrissi-kaitouni@imj-prg.fr
 homepage: idrissi.eu/fr ! idrissi.eu/en
 phone: (+33) 01 57 27 91 16
 # citations
-nocite: CamposDucoulombierIdrissiWillwacher2018, CamposIdrissiLambrechtsWillwacher2018, Idrissi2017, Idrissi2017a, Idrissi2018, Idrissi2018a, Idrissi2018b, Idrissi2016a
+nocite: CamposDucoulombierIdrissiWillwacher2018, CamposIdrissiLambrechtsWillwacher2018, Idrissi2017, Idrissi2017a, Idrissi2018, Idrissi2018a, Idrissi2018b, Idrissi2016a, Idrissi2014
 # content
 section:
   - title: Parcours ! Academic Career
@@ -70,16 +70,7 @@ section:
             2014--2015: Research internship in preparation of a doctorate, Université de Lille.\
             2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
             Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.
-  - title: Recherche ! Research
-    more: /research
-    content:
-      - subtitle: Publications
-      - bib: publication
-      - subtitle: Prépublications ! Preprints 
-      - bib: preprint
-      - subtitle: Autres documents ! Other documents
-      - bib: thesis,other
-  - title: Distinctions
+  - title: Récompenses ! Awards
     content:
       entry:
         a: 2019--2020
@@ -91,6 +82,15 @@ section:
           «\ [...] récompense chaque année de jeunes mathématiciens de moins de 30 ans s'étant signalés dans l'ordre des mathématiques théoriques ou appliquées.\ »
           !
           "[...] rewards each year young mathematicians under 30 who have been noticed in theoretical or applied mathematics"
+  - title: Recherche ! Research
+    more: /research
+    content:
+      - subtitle: Publications
+      - bib: publication
+      - subtitle: Prépublications ! Preprints 
+      - bib: preprint
+      - subtitle: Autres documents ! Other documents
+      - bib: thesis,other
   - title: Financements ! Funding
     content:
       # - subtitle: Obtenus ! Obtained
