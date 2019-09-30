@@ -44,6 +44,18 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
+## Récompenses
+
+<dl class="row mb-0">
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Cours Peccot</strong>, <em>Collège de France</em>, Paris, France.<br>« […] récompense chaque année de jeunes mathématiciens de moins de 30 ans s’étant signalés dans l’ordre des mathématiques théoriques ou appliquées. »</dd>
+
+
+
+</dl>
+
 ## Recherche
 
 <dl class="row mb-0">
@@ -90,18 +102,6 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 </dl>
 {{< cvbib "thesis,other" >}}
 <dl class="row mb-0">
-
-</dl>
-
-## Distinctions
-
-<dl class="row mb-0">
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Cours Peccot</strong>, <em>Collège de France</em>, Paris, France.<br>« […] récompense chaque année de jeunes mathématiciens de moins de 30 ans s’étant signalés dans l’ordre des mathématiques théoriques ou appliquées. »</dd>
-
-
 
 </dl>
 

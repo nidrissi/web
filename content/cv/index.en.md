@@ -44,6 +44,18 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
+## Awards
+
+<dl class="row mb-0">
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Peccot Lecture</strong>, <em>Collège de France</em>, Paris, France.<br>“[…] rewards each year young mathematicians under 30 who have been noticed in theoretical or applied mathematics”</dd>
+
+
+
+</dl>
+
 ## Research
 
 <dl class="row mb-0">
@@ -90,18 +102,6 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 </dl>
 {{< cvbib "thesis,other" >}}
 <dl class="row mb-0">
-
-</dl>
-
-## Distinctions
-
-<dl class="row mb-0">
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peccot Lecture</strong>, <em>Collège de France</em>, Paris, France.<br>“[…] rewards each year young mathematicians under 30 who have been noticed in theoretical or applied mathematics”</dd>
-
-
 
 </dl>
 
