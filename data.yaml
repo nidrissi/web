@@ -183,6 +183,13 @@ section:
     content:
       - subtitle: Sur invitation ! Invited
       - entry:
+          a: 11/2019
+          b: Journée de topologie
+          c: Université de Picardie Jules Verne
+          d: Amiens
+          e: France
+          f: Homotopie des espaces de configuration
+      - entry:
           a: 05/2019
           b: Higher Homotopy Algebras in Topology
           c: Max-Planck-Institut für Mathematik
@@ -486,6 +493,8 @@ section:
       - item:
           a: 2019
           b: |
+            *Journée de topologie* (Université de Picardie Jules Verne) •
+            *Colloque 2019 du GDR Topologie Algébrique et Applications* (Université d'Artois) •
             *Groupe de travail : Valeurs zêta multiples en quantification par déformation* (Université de Montpellier) •
             *SYM 10 Years Old* (Københavns Universitet) •
             *Topologie de basse dimension : Colloque en l'honneur de Christian Blanchet* (Université Paris Diderot) •
