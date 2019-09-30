@@ -26,6 +26,7 @@ blackfriday:
   fractions: false
 
 params:
+  current_year: 2019–2020
   home_counts:
     talk: 5
     post: 5
