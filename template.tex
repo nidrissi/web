@@ -101,7 +101,14 @@ $for(section.content)$
     {$section.content.item.a$} {$section.content.item.b$.}
   $endif$
   $if(section.content.bib)$
-  \printbibliography[keyword=my-$section.content.bib$, heading=none]
+  % I have now mastered the dark arts. Or not.
+  \makeatletter
+  \@for\w:=$section.content.bib$\do{
+    \begingroup\edef\x{\endgroup\noexpand
+      \printbibliography[keyword={my-\w}, heading=none]
+    }\x
+  }
+  \makeatother
   $endif$
 $endfor$
 

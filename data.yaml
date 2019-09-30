@@ -78,7 +78,7 @@ section:
       - subtitle: Prépublications ! Preprints 
       - bib: preprint
       - subtitle: Autres documents ! Other documents
-      - bib: other
+      - bib: thesis,other
   - title: Distinctions
     content:
       entry:
