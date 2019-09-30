@@ -42,6 +42,11 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">2009–2011</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Classes prépas (MPSI/MP⋆)</strong>, <em>Lycée Henri Wallon</em>, Valenciennes, France.</dd>
+
+
+
 </dl>
 
 ## Awards
