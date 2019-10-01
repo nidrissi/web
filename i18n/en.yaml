@@ -3,6 +3,8 @@
   translation: Toggle navigation
 - id: contents
   translation: Contents
+- id: see_more
+  translation: see more
 # Buttons
 - id: btn_preprint
   translation: Preprint
@@ -20,8 +22,6 @@
 # Research widget
 - id: research
   translation: Research
-- id: more_publications
-  translation: more research
 - id: authors
   translation: Author(s)
 # Posts widget
@@ -29,20 +29,14 @@
   translation: Blog
 - id: continue_reading
   translation: continue reading
-- id: more_posts
-  translation: more posts
 # Talks widget
 - id: talks
   translation: Talks
-- id: more_talks
-  translation: more talks
 - id: title
   translation: Title
 # Class widget
 - id: teaching
   translation: Teaching
-- id: more_class
-  translation: more teaching
 # Publication/Talk details
 - id: abstract
   translation: Abstract

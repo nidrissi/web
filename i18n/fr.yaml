@@ -3,6 +3,8 @@
   translation: Ouvrir la barre de navigation
 - id: contents
   translation: Contenu
+- id: see_more
+  translation: voir plus
 # Buttons
 - id: btn_preprint
   translation: Prépublication
@@ -18,8 +20,6 @@
 # Research widget
 - id: research
   translation: Recherche
-- id: more_publications
-  translation: plus de recherches
 - id: authors
   translation: Auteur(s)
 # Posts widget
@@ -27,20 +27,14 @@
   translation: Blog
 - id: continue_reading
   translation: lire la suite
-- id: more_posts
-  translation: plus de billets
 # Talks widget
 - id: talks
   translation: Exposés
-- id: more_talks
-  translation: "plus d'exposés"
 - id: title
   translation: "Titre "
 # Class widget
 - id: teaching
   translation: Enseignement
-- id: more_class
-  translation: "plus d'enseignements"
 # Publication/Talk details
 - id: abstract
   translation: Résumé
