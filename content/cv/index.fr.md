@@ -163,7 +163,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Écriture de résumés pour Zentralblatt MATH</strong>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Écriture de résumés pour <a href="https://zbmath.org/?q=rv%3Anajib.idrissi">Zentralblatt MATH</a></strong>.</dd>
 
 
 

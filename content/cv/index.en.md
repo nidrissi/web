@@ -163,7 +163,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Writing of abstracts for Zentralblatt MATH</strong>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Writing of abstracts for <a href="https://zbmath.org/?q=rv%3Anajib.idrissi">Zentralblatt MATH</a></strong>.</dd>
 
 
 
