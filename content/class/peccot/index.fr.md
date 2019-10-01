@@ -6,7 +6,7 @@ cursus: Collège de France
 what: Cours Peccot
 time: 8h
 year: 2019–2020
-date: 2020-03-01
+date: 2020-03-04
 publishdate: 2100-12-01
 sidebar:
   - "[Site du Cours Peccot](https://www.college-de-france.fr/site/cours-peccot/)"
