@@ -7,8 +7,11 @@
 
 <div class="row">
   {{- partial "research-list-bytype" (dict "content" . "key" "publication") -}}
+  <div class="col-12"><hr class="my-2"></div>
   {{- partial "research-list-bytype" (dict "content" . "key" "preprint") -}}
+  <div class="col-12"><hr class="my-2"></div>
   {{- partial "research-list-bytype" (dict "content" . "key" "other") -}}
+  <div class="col-12"><hr class="my-2"></div>
   {{- partial "research-list-bytype" (dict "content" . "key" "thesis") -}}
 </div>
 
