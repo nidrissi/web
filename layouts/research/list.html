@@ -5,15 +5,11 @@
 <div>{{- . -}}</div>
 {{- end -}}
 
-{{- range .Data.Pages.GroupByDate "2006" -}}
 <div class="row">
-  <div class="col-md-1 col-lg-2 col-xl-1"><h3>{{- .Key -}}</h3></div>
-  <div class="col">
-    {{- range .Pages.ByDate.Reverse -}}
-    {{- .Render "card" -}}
-    {{- end -}}
-  </div>
+  {{- partial "research-list-bytype" (dict "content" . "key" "publication") -}}
+  {{- partial "research-list-bytype" (dict "content" . "key" "preprint") -}}
+  {{- partial "research-list-bytype" (dict "content" . "key" "other") -}}
+  {{- partial "research-list-bytype" (dict "content" . "key" "thesis") -}}
 </div>
-{{- end -}}
 
 {{- end -}}

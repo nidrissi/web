@@ -56,6 +56,14 @@
   translation: Événement
 - id: location
   translation: Lieu
+- id: status_publication
+  translation: Publications
+- id: status_preprint
+  translation: Prépublications
+- id: status_other
+  translation: Autre
+- id: status_thesis
+  translation: Thèses
 # Errors
 - id: page_not_found
   translation: Page introuvable

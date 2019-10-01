@@ -58,6 +58,14 @@
   translation: Event
 - id: location
   translation: Location
+- id: status_publication
+  translation: Publications
+- id: status_preprint
+  translation: Preprints
+- id: status_other
+  translation: Other
+- id: status_thesis
+  translation: Theses
 # Error 404
 - id: page_not_found
   translation: Page not found
