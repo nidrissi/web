@@ -58,6 +58,8 @@
   translation: Autre
 - id: status_thesis
   translation: Thèses
+- id: status_lecture
+  translation: Cours
 # Errors
 - id: page_not_found
   translation: Page introuvable

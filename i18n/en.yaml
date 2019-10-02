@@ -60,6 +60,8 @@
   translation: Other
 - id: status_thesis
   translation: Theses
+- id: status_lecture
+  translation: Lectures
 # Error 404
 - id: page_not_found
   translation: Page not found
