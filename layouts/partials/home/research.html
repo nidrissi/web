@@ -1,8 +1,11 @@
 <section>
-  <h2 class="mb-3">{{ i18n "research" }} <small><a href="{{ ref . "research/" }}">({{ i18n "see_more" }} »)</a></small></h2>
+  <h2 class="mb-3">{{ i18n "research" }}</h2>
+
   {{- $pages := where .Site.RegularPages "Type" "research" -}}
   {{- $pages := where $pages ".Params.status" "in" (slice "publication" "preprint") -}}
   {{- range $pages -}}
   {{- .Render "card" -}}
   {{- end -}}
+
+  {{- partial "seemore" (ref . "research/") -}}
 </section>

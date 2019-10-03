@@ -1,7 +1,9 @@
 <section>
-  <h2 class="mb-3">{{ i18n "teaching" }} <small><a href="{{ ref . "class/" }}">({{ i18n "see_more" }} »)</a></small></h2>
+  <h2 class="mb-3">{{ i18n "teaching" }}</h2>
 
   {{- range (where (where .Site.RegularPages "Type" "class") ".Params.year" .Site.Params.current_year).Reverse -}}
   {{- .Render "card" -}}
   {{- end -}}
+
+  {{- partial "seemore" (ref . "class/") -}}
 </section>

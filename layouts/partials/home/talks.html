@@ -1,7 +1,9 @@
 <section>
-  <h2 class="mb-3">{{ i18n "talks" }} <small><a href="{{ ref . "talk/" }}">({{ i18n "see_more" }} »)</a></small></h2>
+  <h2 class="mb-3">{{ i18n "talks" }}</h2>
 
   {{- range first .Site.Params.home_counts.talk (where .Site.RegularPages "Type" "talk") -}}
   {{- .Render "card" -}}
   {{- end -}}
+
+  {{- partial "seemore" (ref . "talk/") -}}
 </section>

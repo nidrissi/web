@@ -1,6 +1,9 @@
 <section>
-  <h2 class="mb-3">{{ i18n "blog" }} <small><a href="{{ ref . "post/" }}">({{ i18n "see_more" }} »)</a></small></h2>
+  <h2 class="mb-3">{{ i18n "blog" }}</h2>
+
   {{- range first .Site.Params.home_counts.post (where .Site.RegularPages "Type" "post") -}}
   {{- .Render "card" -}}
   {{- end -}}
+
+  {{- partial "seemore" (ref . "post/") -}}
 </section>
