@@ -1,8 +1,8 @@
 {{- $ := .content -}}
 {{- $key := .key -}}
-<div class="col-md-2 col-lg-3 col-xl-2"><h3 class="text-wrap">{{- i18n (printf "status_%s" $key) -}}</h3></div>
-<div class="col-md-10 col-lg-9 col-xl-10">
-  {{- range (where $.Pages "Params.status" $key).ByDate.Reverse -}}
-  {{- .Render "card" -}}
-  {{- end -}}
-</div>
+<h3 class="mt-2">{{- i18n (printf "status_%s" $key) -}}</h3>
+
+{{- range (where $.Pages "Params.status" $key).ByDate.Reverse -}}
+{{- .Render "card" -}}
+{{- end -}}
+
