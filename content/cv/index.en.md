@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastmod: 2019-05-14
+lastmod: 2019-10-23
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf
@@ -114,15 +114,36 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <dl class="row mb-0">
 
+</dl>
+
+### Obtained
+
+<dl class="row mb-0">
+
+
+
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9">Holder of an <em>Exploratory Project for First Support “Young Researcher”</em> (PEPS JCJC), CNRS / Insmi, 3500 €.</dd>
+<dd class="col-lg-10 col-sm-9">Holder of an <em>Exploratory Project for First Support “Young Researcher (PEPS JCJC)”</em>, CNRS / Insmi, 3500 €.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2015–Jan. 2018</dt>
 <dd class="col-lg-10 col-sm-9">Specific doctoral contract “<em>normalien</em>”, École Normale Supérieure de Paris.</dd>
+
+</dl>
+
+### Member
+
+<dl class="row mb-0">
+
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2014–2015</dt>
+<dd class="col-lg-10 col-sm-9">Member of the ANR project <a href="https://math.univ-lille1.fr/~operads/">“<em>Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller (HOGT)</em>”</a> (HOGT). Coordinator: Benoit Fresse.</dd>
 
 
 </dl>
@@ -182,38 +203,43 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">Dec. 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Opening workshop of the OCHoTop project</strong>, <em>École Polytechnique Fédérale de Lausanne (EPFL)</em>.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">Nov. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Journée de topologie</strong>, <em>Université de Picardie Jules Verne</em>, Amiens, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Journée de topologie</strong>, <em>Université de Picardie Jules Verne</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">May 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>Max-Planck-Institut für Mathematik</em>, Bonn, Germany.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Higher Structures</strong>, <em>Centre International de Rencontres Mathématiques</em>, Luminy, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Higher Structures</strong>, <em>Centre International de Rencontres Mathématiques (CIRM)</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">June 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)</strong>, <em>Fields Institute</em>, Toronto, Canada.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)</strong>, <em>Fields Institute</em>, Toronto.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">May 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Graph Complexes, Configuration Spaces and Manifold Calculus</strong>, <em>University of British Columbia</em>, Vancouver, Canada.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Graph Complexes, Configuration Spaces and Manifold Calculus</strong>, <em>University of British Columbia</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire Itinérant de Catégories</strong>, <em>Université du Littoral Côte d’Opale</em>, Calais, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Itinérant de Catégories</strong>, <em>Université du Littoral Côte d’Opale</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conference in the honour of Saïd Zarati</strong>, <em>Institut des Hautes Études à Tunis</em>, Tunis, Tunisia.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Conference in the honour of Saïd Zarati</strong>, <em>Institut des Hautes Études à Tunis</em>.</dd>
 
 
 </dl>
@@ -226,17 +252,17 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">July 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Sweden.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm Universitet &amp; KTH</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Feb. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>Max-Planck-Institut für Mathematik</em>, Bonn, Germany.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>, Bonn.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>2016 Meeting of the GDR Algebraic Topology and Applications</strong>, <em>Laboratoire Amiénois de Mathématique Fondamentale et Appliquée</em>, Amiens, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>2016 Meeting of the GDR Algebraic Topology and Applications</strong>, <em>Université de Picardie Jules Verne</em>.</dd>
 
 
 </dl>
@@ -249,117 +275,117 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">July 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgium.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">May 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Dec. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Stockholm Topology Seminar</strong>, <em>Stockholm Universitet &amp; KTH</em>, Stockholm, Sweden.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Stockholm Topology Seminar</strong>, <em>Stockholm Universitet &amp; KTH</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Nov. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Geometry &amp; Topology Seminar</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Geometry &amp; Topology Seminar</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">June 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Colloque du département</strong>, <em>University of Regina</em>, Regina (SK), Canada.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Colloque du département</strong>, <em>University of Regina</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Dec. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology, Geometry, and Algebra seminar</strong>, <em>Université de Nantes</em>, Nantes, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology, Geometry, and Algebra seminar</strong>, <em>Université de Nantes</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Dec. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebra and Topology seminar</strong>, <em>Université de Strasbourg</em>, Strasbourg, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebra and Topology seminar</strong>, <em>Université de Strasbourg</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Nov. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Mathematical Physics and Algebraic Topology Seminar</strong>, <em>Université d’Angers</em>, Angers, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Mathematical Physics and Algebraic Topology Seminar</strong>, <em>Université d’Angers</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Nov. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Homotopy in Algebraic Geometry Seminar</strong>, <em>Université Paul Sabatier</em>, Toulouse, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Homotopy in Algebraic Geometry Seminar</strong>, <em>Université Paul Sabatier</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Aug. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Talks in mathematical physics</strong>, <em>ETH Zürich</em>, Zürich, Switzerland.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Talks in mathematical physics</strong>, <em>ETH Zürich</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">May 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">May 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgium.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Nov. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université Paris 13</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université Paris 13</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université de Lille</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université de Lille</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">June 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Talks in Mathematical Physics</strong>, <em>ETH Zürich</em>, Zürich, Switzerland.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Talks in Mathematical Physics</strong>, <em>ETH Zürich</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Apr. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Dec. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Université de Lille</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Dec. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Laboratoire Amiénois de Mathématique Fondamentale et Appliquée</em>, Amiens, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>PhD students’ seminar</strong>, <em>Université de Picardie Jules Verne</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology seminar</strong>, <em>Université catholique de Louvain / IRMP</em>, Louvain-la-Neuve, Belgium.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology seminar</strong>, <em>Université catholique de Louvain</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université de Lille / Laboratoire Paul Painlevé</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Université de Lille</em>.</dd>
 
 
 
@@ -441,7 +467,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
-<dd class="col-lg-10 col-sm-9"><em>Journée de topologie</em> (Université de Picardie Jules Verne) • <em>Colloque 2019 du GDR Topologie Algébrique et Applications</em> (Université d’Artois) • <em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Opening workshop of the OCHoTop project</em> (EPFL) • <em>Journée de topologie</em> (Université de Picardie Jules Verne) • <em>Colloque 2019 du GDR Topologie Algébrique et Applications</em> (Université d’Artois) • <em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
 
 
@@ -472,11 +498,6 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2013</dt>
 <dd class="col-lg-10 col-sm-9"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology) • <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes).</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">⋆</dt>
-<dd class="col-lg-10 col-sm-9">= future.</dd>
 
 
 </dl>
