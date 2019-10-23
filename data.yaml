@@ -1,5 +1,5 @@
 ---
-lastmod: 2019-05-14
+lastmod: 2019-10-23
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -99,38 +99,26 @@ section:
       - bib: thesis,other
   - title: Financements ! Funding
     content:
-      # - subtitle: Obtenus ! Obtained
+      - subtitle: Obtenus ! Obtained
       - item:
           a: 2019
           b: |
-            Porteur d'un *Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur »* (PEPS JCJC), CNRS / Insmi, 3500 €
+            Porteur d'un *Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur (PEPS JCJC) »*, CNRS / Insmi, 3500 €
             !
-            Holder of an *Exploratory Project for First Support "Young Researcher"* (PEPS JCJC), CNRS / Insmi, 3500 €
+            Holder of an *Exploratory Project for First Support "Young Researcher (PEPS JCJC)"*, CNRS / Insmi, 3500 €
       - item:
           a: 09/2015--01/2018
           b: |
             Contrat doctoral spécifique normalien, École Normale Supérieure de Paris
             !
             Specific doctoral contract "*normalien*", École Normale Supérieure de Paris
-      # - item:
-      #     a: 05/2016
-      #     b: |
-      #       Bourse de voyage « *Oberwolfach Leibniz Graduate Students* » (pour le workshop «\ *Factorization Algebras and Functorial Field Theories*\ »)
-      #       !
-      #       Travel grant \"Oberwolfach Leibniz Graduate Students\" (for the workshop "Factorization Algebras and Functorial Field Theories")
-      # - subtitle: Participation
-      # - item:
-      #     a: 02/2018--08/2018
-      #     b: |
-      #       Contrat postdoctoral financé par le StG ERC 678156--GRAPHCPX. Porteur : Thomas Willwacher
-      #       !
-      #       Postdoc contract funded by the ERC StG 678156--GRAPHCPX. PI: Thomas Willwacher
-      # - item:
-      #     a: 2014--2015
-      #     b: |
-      #       Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller\ »](https://math.univ-lille1.fr/~operads/) (HOGT). Coordinateur : Benoit Fresse
-      #       !
-      #       Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller*"](https://math.univ-lille1.fr/~operads/) (HOGT). Coordinator: Benoit Fresse
+      - subtitle: Membre ! Member
+      - item:
+          a: 2014--2015
+          b: |
+            Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)\ »](https://math.univ-lille1.fr/~operads/). Coordinateur : Benoit Fresse
+            !
+            Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)*"](https://math.univ-lille1.fr/~operads/) (HOGT). Coordinator: Benoit Fresse
   - title : Service
     content:
       - entry:
@@ -190,31 +178,20 @@ section:
       - subtitle: Sur invitation ! Invited
       - entry:
           a: 12/2019
-          b: Opening workshop of the OCHoTop project
+          b: Workshop d'ouverture du projet OCHoTop ! Opening workshop of the OCHoTop project
           c: École Polytechnique Fédérale de Lausanne (EPFL)
-          d: Lausanne
-          f: Suisse ! Switzerland
       - entry:
           a: 11/2019
           b: Journée de topologie
           c: Université de Picardie Jules Verne
-          d: Amiens
-          e: France
-#          f: Homotopie des espaces de configuration
       - entry:
           a: 05/2019
           b: Higher Homotopy Algebras in Topology
-          c: Max-Planck-Institut für Mathematik
-          d: Bonn
-          e: Allemagne ! Germany
-#          f: Curved Koszul duality for algebras over unital operads
+          c: Max-Planck-Institut für Mathematik (MPIM)
       - entry:
           a: 01/2019
           b: Structures Supérieures ! Higher Structures
-          c: Centre International de Rencontres Mathématiques
-          d: Luminy
-          e: France
-#          f: Configuration spaces and operads
+          c: Centre International de Rencontres Mathématiques (CIRM)
       - entry:
           a: 06/2018
           b: |
@@ -223,216 +200,125 @@ section:
             Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)
           c: Fields Institute
           d: Toronto
-          e: Canada
-#          f: |
-#            Curved Koszul Duality for Algebras over Unital Operads (orateur junior à l'école d'été)
-#            !
-#            Curved Koszul Duality for Algebras over Unital Operads (junior speaker at the summer school)
       - entry:
           a: 05/2018
           b: Graph Complexes, Configuration Spaces and Manifold Calculus
           c: University of British Columbia
-          d: Vancouver
-          e: Canada
-#          f: Configuration Spaces of Manifolds with Boundary
       - entry:
           a: 10/2017
           b: Séminaire Itinérant de Catégories
           c: Université du Littoral Côte d'Opale
-          d: Calais
-          e: France
-#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 10/2016
           b: "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
           c: Institut des Hautes Études à Tunis
-          d: Tunis
-          e: Tunisie ! Tunisia
-#          f: The Lambrechts--Stanley Model of Configuration Spaces
       - subtitle: Sur proposition ! Contributed
       - entry:
           a: 07/2017
           b: Young Topologists Meeting 2017
           c: Stockholm Universitet & KTH
-          d: Stockholm
-          e: Suède ! Sweden
-#          f: The Lambrechts--Stanley Model of Configuration Spaces
       - entry:
           a: 02/2017
           b: Conference for Young researchers in homotopy theory and categorical structures
-          c: Max-Planck-Institut für Mathematik
+          c: Max-Planck-Institut für Mathematik (MPIM)
           d: Bonn
-          e: Allemagne ! Germany
-#          f: The Lambrechts--Stanley Model of Configuration Spaces
       - entry:
           a: 10/2016
           b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
-          c: Laboratoire Amiénois de Mathématique Fondamentale et Appliquée
-          d: Amiens
-          e: France
-#          f: The Lambrechts--Stanley Model of Configuration Spaces
+          c: Université de Picardie Jules Verne
       - subtitle: Séminaires ! Seminars
       - entry:
           a: 07/2019
           b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
-          c: Université catholique de Louvain / IRMP
-          d: Louvain-la-Neuve
-          e: Belgique ! Belgium
-#          f: Homologie de factorisation et espaces de configuration
+          c: Université catholique de Louvain
       - entry:
           a: 05/2019
           b: Séminaire de Topology ! Topology Seminar
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
-          d: Paris
-          e: France
-#          f: Homologie de factorisation et espaces de configuration
       - entry:
           a: 12/2018
           b: Stockholm Topology Seminar
           c: Stockholm Universitet & KTH
-          d: Stockholm
-          e: Suède ! Sweden
-#          f: Configuration spaces and Operads
       - entry:
           a: 11/2018
           b: Séminaire Géométrie & Topologie ! Geometry & Topology Seminar
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
-          d: Paris
-          e: France
-#          f: Espaces de configuration et Opérades
       - entry:
           a: 06/2018
           b: Departmental Colloquium ! Colloque du département
           c: University of Regina
-          d: Regina (SK)
-          e: Canada
-#          f: Configuration Spaces and Graphs Complexes
       - entry:
           a: 12/2017
           b: Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
           c: Université de Nantes
-          d: Nantes
-          e: France
-#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 12/2017
           b: Séminaire Algèbre et Topologie ! Algebra and Topology seminar
           c: Université de Strasbourg
-          d: Strasbourg
-          e: France
-#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 11/2017
           b: Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
           c: "Université d'Angers"
-          d: Angers
-          e: France
-#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 11/2017
           b: Séminaire Homotopie en Géométrie Algébrique ! Homotopy in Algebraic Geometry Seminar
           c: Université Paul Sabatier
-          d: Toulouse
-          e: France
-#          f: Espaces de configuration de variétés compactes
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
-          d: Lille
-          e: France
-#          f: "Introduction à la théorie de l'homotopie rationnelle"
       - entry:
           a: 10/2017
           b: Séminaire de Géométrie des Espaces Singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
-          d: Lille
-          e: France
-#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 08/2017
           b: Exposés de physique mathématiques ! Talks in mathematical physics
           c: ETH Zürich
-          d: Zürich
-          e: Suisse ! Switzerland
-#          f: Configuration Spaces of Compact Manifolds
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
-          d: Lille
-          e: France
-#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers ! Singular Spaces Geometry Seminar
           c: Université de Lille
-          d: Lille
-          e: France
-#          f: La compactification de Fulton-MacPherson des espaces de configuration
       - entry:
           a: 01/2017
           b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
-          c: Université catholique de Louvain / IRMP
-          d: Louvain-la-Neuve
-          e: Belgique ! Belgium
-#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
+          c: Université catholique de Louvain
       - entry:
           a: 11/2016
           b: Séminaire de topologie algébrique ! Algebraic Topology Seminar
           c: Université Paris 13
-          d: Paris
-          e: France
-#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 09/2016
           b: Séminaire de Topologie ! Topology Seminar
           c: Université de Lille
-          d: Lille
-          e: France
-#          f: Le modèle de Lambrechts--Stanley des espaces de configuration
       - entry:
           a: 06/2016
           b: Exposés en Physique Mathématique ! Talks in Mathematical Physics
           c: ETH Zürich
-          d: Zürich
-          e: Suisse ! Switzerland
-#          f: Swiss-Cheese operad and Drinfeld center
       - entry:
           a: 04/2016
           b: Séminaire de Topologie ! Topology Seminar
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
-          d: Paris
-          e: France
-#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
       - entry:
           a: 12/2015
           b: "Séminaire des doctorants ! PhD students' seminar"
-          c: Laboratoire Paul Painlevé
-          d: Lille
-          e: France
-#          f: Opérades
+          c: Université de Lille
       - entry:
           a: 12/2015
           b: "Séminaire des doctorants ! PhD students' seminar"
-          c: Laboratoire Amiénois de Mathématique Fondamentale et Appliquée
-          d: Amiens
-          e: France
-#          f: Opérades
+          c: Université de Picardie Jules Verne
       - entry:
           a: 10/2015
           b: Séminaire de Topologie Algébrique ! Algebraic Topology seminar
-          c: Université catholique de Louvain / IRMP
-          d: Louvain-la-Neuve
-          e: Belgique ! Belgium
-#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          c: Université catholique de Louvain
       - entry:
           a: 09/2015
           b: Séminaire de Topologie ! Topology Seminar
-          c: Université de Lille / Laboratoire Paul Painlevé
-          d: Lille
-          e: France
-#          f: "L'opérade Swiss-Cheese et le centre de Drinfeld"
+          c: Université de Lille
   - title: Enseignement ! Teaching
     more: /class
     content:
@@ -505,6 +391,7 @@ section:
       - item:
           a: 2019
           b: |
+            *Opening workshop of the OCHoTop project* (EPFL) •
             *Journée de topologie* (Université de Picardie Jules Verne) •
             *Colloque 2019 du GDR Topologie Algébrique et Applications* (Université d'Artois) •
             *Groupe de travail : Valeurs zêta multiples en quantification par déformation* (Université de Montpellier) •
@@ -568,7 +455,4 @@ section:
           b: |
             *Gelfand Centennial Conference: A View of 21st Century Mathematics* (Massachusetts Institute of Technology) •
             *Conference in Algebra and Topology celebrating Lionel Schwartz's 60th birthday* (Université de Nantes)
-      - item:
-          a: ⋆
-          b: "= futur ! = future"
 ...
