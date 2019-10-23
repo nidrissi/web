@@ -189,6 +189,12 @@ section:
     content:
       - subtitle: Sur invitation ! Invited
       - entry:
+          a: 12/2019
+          b: Opening workshop of the OCHoTop project
+          c: École Polytechnique Fédérale de Lausanne (EPFL)
+          d: Lausanne
+          f: Suisse ! Switzerland
+      - entry:
           a: 11/2019
           b: Journée de topologie
           c: Université de Picardie Jules Verne
