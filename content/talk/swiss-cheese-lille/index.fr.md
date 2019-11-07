@@ -3,7 +3,7 @@ abstract: "L'opérade $SC$ \"Swiss-Cheese\" de Voronov gouverne l'action d'une a
 date: 2015-09-25
 event: Séminaire de Topologie
 event_url: "http://math.univ-lille1.fr/d7/node/8621"
-location: Université Lille 1, Villeneuve d'Ascq, France
+location: Université de Lille
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 urls:
   slides: /pdf/slides/center_slides.pdf

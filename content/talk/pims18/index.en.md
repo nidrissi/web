@@ -11,7 +11,7 @@ abstract: |
   Joint work with Ricardo Campos, Pascal Lambrechts, and Thomas Willwacher)
 event: Graph Complexes, Configuration Spaces and Manifold Calculus
 event_url: https://www.pims.math.ca/scientific-event/180522-gccsmc
-location: University of British Columbia, Vancouver, Canada
+location: University of British Columbia (Vancouver)
 urls:
   slides: pims.pdf
 ---

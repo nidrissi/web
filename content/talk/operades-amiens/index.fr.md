@@ -3,7 +3,7 @@ abstract: "Les opérades sont des objets qui modélisent les \"types d'algèbres
 date: 2015-12-03
 event: Séminaire des doctorants
 event_url: "https://www.lamfa.u-picardie.fr/seminaires-colloques/seminaire-doctorant/article/seminaire-doctorant"
-location: Université de Picardie Jules Vernes, Amiens, France
+location: Université de Picardie Jules Vernes (Amiens)
 title: Opérades
 urls:
   slides: /pdf/slides/operades.pdf

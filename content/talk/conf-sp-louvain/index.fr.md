@@ -3,7 +3,7 @@ abstract: "Nous prouvons la validité sur ℝ d'un modèle en CDGA pour les espa
 date: 2017-01-04
 event: Séminaire de topologie algébrique
 event_url: 
-location: Université Catholique de Louvain, Louvain-la-Neuve, Belgique
+location: Université catholique de Louvain
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
 urls:
   slides: /pdf/slides/model-conf-sp_slides_fr.pdf

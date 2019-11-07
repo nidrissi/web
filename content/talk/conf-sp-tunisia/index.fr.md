@@ -3,7 +3,7 @@ abstract: "We prove the validity over ℝ of a CDGA model of configuration space
 date: 2016-10-26
 event: Conference in the honour of Saïd Zarati
 event_url: "http://www.mims.tn/events/details/74"
-location: Institut des Hautes Études (IHET), Tunis, Tunisie
+location: Institut des Hautes Études à Tunis (IHET)
 selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:

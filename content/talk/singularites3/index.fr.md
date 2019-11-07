@@ -6,6 +6,6 @@ abstract: |
 date: 2017-10-03
 event: Séminaire de Géométrie des Espaces Singuliers
 event_url: "http://math.univ-lille1.fr/d7/node/9492"
-location: Université Lille 1, Villeneuve d'Ascq, France
+location: Université de Lille
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 ---

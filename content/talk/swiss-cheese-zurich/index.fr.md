@@ -3,7 +3,7 @@ abstract: "Voronov's \"Swiss-Cheese\" operad governs the action of a little disk
 date: 2016-06-03
 event: Talks in mathematical physics
 event_url: "https://math.ethz.ch/news-and-events/events/research-seminars/talks-in-mathematical-physics.html?s=fs16"
-location: ETH Zurich, Zurich, Suisse
+location: ETH Zurich
 selected: false
 title: Swiss-Cheese Operad and Drinfeld Center
 urls:

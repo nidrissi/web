@@ -3,7 +3,7 @@ abstract: "We prove the validity over ℝ of a CDGA model of configuration space
 date: 2017-02-15
 event: Conference for Young researchers in homotopy theory and categorical structures
 event_url: "https://www.mpim-bonn.mpg.de/node/6791"
-location: Max Planck Institute for Mathematics (MPIM), Bonn, Allemagne
+location: Max Planck Institute for Mathematics (MPIM Bonn)
 selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:

@@ -3,7 +3,7 @@ abstract: "Les opérades sont des objets qui modélisent les \"types d'algèbres
 date: 2015-12-16
 event: Séminaire des doctorants
 event_url: "http://math.univ-lille1.fr/d7/node/8816"
-location: Université Lille 1, Villeneuve d'Ascq, France
+location: Université de Lille
 selected: false
 title: Opérades
 urls:

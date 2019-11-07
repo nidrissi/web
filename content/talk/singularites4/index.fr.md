@@ -3,6 +3,6 @@ abstract: "Après avoir rappelé les enjeux et motivé l'étude de l'homotopie r
 date: 2017-10-24
 event: Séminaire de Géométrie des Espaces Singuliers
 event_url: "http://math.univ-lille1.fr/d7/node/9493"
-location: Université Lille 1, Villeneuve d'Ascq, France
+location: Université de Lille
 title: Introduction à la théorie de l'homotopie rationnelle
 ---

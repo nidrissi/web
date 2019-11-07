@@ -3,7 +3,7 @@ abstract: We prove a conjecture of Lambrechts and Stanley about the homotopy inv
 date: 2017-07-06
 event: Young Topologists Meeting 2017
 event_url: https://www.math-stockholm.se/en/konferenser-och-akti/young-topologists-meeting-2017-1.670396
-location: Université de Stockholm & Institut Royal de Technologie (KTH), Stockholm, Suède
+location: Université de Stockholm & Institut Royal de Technologie (KTH)
 selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:

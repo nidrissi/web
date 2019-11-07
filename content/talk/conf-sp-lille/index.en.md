@@ -3,7 +3,7 @@ abstract: "Nous prouvons la validité sur ℝ d'un modèle en CDGA pour les espa
 date: 2016-09-16
 event: Séminaire de topologie
 event_url: "http://math.univ-lille1.fr/d7/node/9057"
-location: Université Lille 1, Villeneuve d'Ascq, France
+location: Université de Lille
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
 urls:
   slides: /pdf/slides/model-conf-sp_slides_fr.pdf
