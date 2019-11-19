@@ -9,7 +9,7 @@ date: 2020-03-04
 publishdate: 2019-11-08
 lastmod: 2019-11-08
 sidebar:
-  - "[Website of the Peccot Lectures](https://www.college-de-france.fr/site/cours-peccot/)"
+  - "[Website of the Peccot Lectures](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
 ---
 
 <div class="float-md-right"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Poster of the course" class="img-thumbnail"></a></div>
