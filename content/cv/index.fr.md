@@ -152,29 +152,58 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 <dl class="row mb-0">
 
+</dl>
+
+### Organisation
+
+<dl class="row mb-0">
+
+
+
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Depuis oct. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">Séminaire de topologie</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Jury d’examen L1 MIASHS</strong>, <em>Université Paris Diderot</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">Séminaire de topologie</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2019–juin 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Organisation d’un <a href="https://idrissi.eu/fr/gdt/stabilite/">groupe de travail sur la stabilité homologique</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Organisation d’un <a href="https://idrissi.eu/fr/gdt/stabilite/">groupe de travail sur la stabilité homologique</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Participation à l’organisation de la journée de préparation pour jeunes chercheurs</strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Participation à l’organisation de la journée de préparation pour jeunes chercheurs</strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du Séminaire des doctorants</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Un des organisateurs du Séminaire des doctorants</strong>, <em>Laboratoire Paul Painlevé</em>, Lille.</dd>
+
+
+</dl>
+
+### Jurys
+
+<dl class="row mb-0">
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Jury de soutenance de thèse d’Erica Minuz (dir. de thèse: Marcel Bökstedt)</strong>, <em>Université d’Aarhus</em>.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Jury d’examen L1 MIASHS</strong>, <em>Université Paris Diderot</em>.</dd>
+
+
+</dl>
+
+### Autre
+
+<dl class="row mb-0">
+
 
 
 

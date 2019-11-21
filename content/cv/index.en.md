@@ -152,29 +152,58 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <dl class="row mb-0">
 
+</dl>
+
+### Organization
+
+<dl class="row mb-0">
+
+
+
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Since Oct. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Exam jury for L1 MIASHS</strong>, <em>Université Paris Diderot</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">Topology Seminar</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2019–June 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Organization of a <a href="https://idrissi.eu/fr/gdt/stabilite/">reading seminar on homological stability</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Organization of a <a href="https://idrissi.eu/fr/gdt/stabilite/">reading seminar on homological stability</a></strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Participation to the organization of the introductory day for young researchers</strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Participation to the organization of the introductory day for young researchers</strong>, <em>Colloque 2017 du GDR Topologie Algébrique</em>, Paris.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille, France.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>One of the organizers of the PhD students’ seminar</strong>, <em>Laboratoire Paul Painlevé</em>, Lille.</dd>
+
+
+</dl>
+
+### Jurys
+
+<dl class="row mb-0">
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>PhD defense jury of Erica Minuz (advisor: Marcel Bökstedt)</strong>, <em>Aarhus University</em>.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Exam jury for L1 MIASHS</strong>, <em>Université Paris Diderot</em>.</dd>
+
+
+</dl>
+
+### Other
+
+<dl class="row mb-0">
+
 
 
 
