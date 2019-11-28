@@ -55,7 +55,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Cours Peccot</strong>, <em>Collège de France – Fondation Claude-Antoine Peccot</em>, Paris, France.<br>« […] récompense chaque année de jeunes mathématiciens de moins de 30 ans s’étant signalés dans l’ordre des mathématiques théoriques ou appliquées. »</dd>
+<dd class="col-lg-10 col-sm-9"><strong><a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm">Cours Peccot</a></strong>, <em>Collège de France – Fondation Claude-Antoine Peccot</em>, Paris, France.<br>« […] récompense chaque année de jeunes mathématiciens de moins de 30 ans s’étant signalés dans l’ordre des mathématiques théoriques ou appliquées. »</dd>
 
 
 

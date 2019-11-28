@@ -55,7 +55,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peccot Lecture</strong>, <em>Collège de France – Fondation Claude-Antoine Peccot</em>, Paris, France.<br>“[…] rewards each year young mathematicians under 30 who have been noticed in theoretical or applied mathematics”</dd>
+<dd class="col-lg-10 col-sm-9"><strong><a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm">Peccot Lecture</a></strong>, <em>Collège de France – Fondation Claude-Antoine Peccot</em>, Paris, France.<br>“[…] rewards each year young mathematicians under 30 who have been noticed in theoretical or applied mathematics”</dd>
 
 
 
