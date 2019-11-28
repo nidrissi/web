@@ -80,7 +80,10 @@ section:
     content:
       entry:
         a: 2019--2020
-        b: Cours Peccot ! Peccot Lecture
+        b: |
+          [Cours Peccot](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)
+          !
+          [Peccot Lecture](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)
         c: Collège de France -- Fondation Claude-Antoine Peccot
         d: Paris
         e: France
