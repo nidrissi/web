@@ -21,6 +21,10 @@ author:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 blackfriday:
   hrefTargetBlank: false
   fractions: false
