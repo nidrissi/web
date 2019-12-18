@@ -33,7 +33,7 @@ The goal of this course is to give an introduction to modern homotopy theory, it
 
 Lectures will start on January 6th, 2020 and end on February 11th, 2020.
 They happen on:
-- Mondays: 10:45--17:45, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 1012.
+- Mondays: 15:45--17:45, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 1012.
 - Tuesdays: 14:00--16:00, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 2016 (*except on February 11th: room 2017*).
 
 

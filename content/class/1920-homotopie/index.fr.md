@@ -34,7 +34,7 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 Lectures will start on January 6th, 2020 and end on February 11th, 2020.
 Les cours commencent le 6 janvier 2020 et se terminent le 11 février 2020.
 Ils ont lieu les :
-- lundis : 10h45--17h45, [bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 1012.
+- lundis : 15h45--17h45, [bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 1012.
 - mardis : 14h00--16h00, [bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
 
 ### Chronologie
