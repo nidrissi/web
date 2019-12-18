@@ -1,7 +1,7 @@
 ---
 # ⚠ Fichier généré automatiquement ⚠
 title: Curriculum Vitæ
-lastmod: 2019-10-23
+lastmod: 2019-12-18
 date: 2018-01-01
 urls:
   pdf: cv.fr.pdf
@@ -229,6 +229,11 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 <dl class="row mb-0">
 
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Málaga &amp; Topology Meeting</strong>, <em>Universidad de Málaga</em>.</dd>
 
 
 
