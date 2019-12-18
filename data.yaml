@@ -1,5 +1,5 @@
 ---
-lastmod: 2019-10-23
+lastmod: 2019-12-18
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -181,6 +181,10 @@ section:
     more: /talk
     content:
       - subtitle: Sur invitation ! Invited
+      - entry:
+          a: 02/2020
+          b: Málaga & Topology Meeting
+          c: Universidad de Málaga
       - entry:
           a: 12/2019
           b: Workshop d'ouverture du projet OCHoTop ! Opening workshop of the OCHoTop project
