@@ -258,7 +258,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">June 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)</strong>, <em>Fields Institute</em>, Toronto.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)</strong>, <em>Fields Institute</em>.</dd>
 
 
 
@@ -291,7 +291,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Feb. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>, Bonn.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>.</dd>
 
 
 
