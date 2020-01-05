@@ -7,12 +7,21 @@ time: 8h
 year: 2019–2020
 date: 2020-03-04
 publishdate: 2019-11-08
-lastmod: 2019-11-08
+lastmod: 2020-01-05
 sidebar:
   - "[Website of the Peccot Lectures](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
 ---
 
-<div class="float-md-right"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Poster of the course" class="img-thumbnail"></a></div>
+
+In this lecture, we will study the real homotopy type of configuration spaces of manifolds.
+Configuration spaces consist in collections of pairwise distinct points in a given manifold.
+The study of these spaces is a classical problem in algebraic topology.
+An important question about configuration space is homotopy invariance: if a manifold can be continuously deformed into another one, then can the configuration spaces of the first manifold be continuously deformed in the configuration spaces of the second?
+This question remains open if we consider simply connected closed manifolds.
+In this lecture, we will see how to prove this conjecture in characteristic zero (i.e. if we restrict ourselves to algebro-topological invariants with real coefficients).
+The proof involves ideas from the theory of operads, which will be introduced at the end of the lecture.
+
+<div class="float-md-right p-2"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Poster of the course" class="img-thumbnail"></a></div>
 
 ## Practical informations
 
@@ -20,18 +29,16 @@ The lessons will take place at the Collège de France (11 place Marcelin-Berthel
 They will be on Wednesdays 4th, 11th, 18th, and 25th, March 2020, from 11AM to 1PM.
 They are open to everyone.
 
-<!--
 <dl class="row mb-0">
-<dt class="col-lg-3 col-sm-4 text-sm-right">mercredi 4 mars (11h–13h)</dt>
-<dd class="col-lg-9 col-sm-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-3 col-sm-4 text-sm-right">mercredi 11 mars (11h–13h)</dt>
-<dd class="col-lg-9 col-sm-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-3 col-sm-4 text-sm-right">mercredi 18 mars (11h–13h)</dt>
-<dd class="col-lg-9 col-sm-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-3 col-sm-4 text-sm-right">mercredi 25 mars (11h–13h)</dt>
-<dd class="col-lg-9 col-sm-8">[plus d'informations à venir]</dd>
+<dt class="col-lg-4 text-sm-right">mercredi 4 mars (11h–13h)</dt>
+<dd class="col-lg-8">[plus d'informations à venir]</dd>
+<dt class="col-lg-4 text-sm-right">mercredi 11 mars (11h–13h)</dt>
+<dd class="col-lg-8">[plus d'informations à venir]</dd>
+<dt class="col-lg-4 text-sm-right">mercredi 18 mars (11h–13h)</dt>
+<dd class="col-lg-8">[plus d'informations à venir]</dd>
+<dt class="col-lg-4 text-sm-right">mercredi 25 mars (11h–13h)</dt>
+<dd class="col-lg-8">[plus d'informations à venir]</dd>
 </dl>
--->
 
 ## Plan
 
