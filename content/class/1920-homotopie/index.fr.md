@@ -39,7 +39,7 @@ Ils ont lieu les :
 
 ### Chronologie
 
-1. Lundi 6 janvier : TBD
+1. Lundi 6 janvier : Section 1.1 des notes. Motivation, parallèle entre les espaces topologiques et les complexes de chaînes : équivalences d'homotopies, équivalences faibles, théorème(s) de Whitehead, modèles.
 2. Mardi 7 janvier : TBD
 3. Lundi 13 janvier : TBD
 4. Mardi 14 janvier : TBD

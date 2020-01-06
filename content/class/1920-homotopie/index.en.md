@@ -39,7 +39,7 @@ They happen on:
 
 ### Chronology
 
-1. Monday 6th January: TBD
+1. Monday 6th January: Section 1.1 of the lecture notes. Motivation, parallels between topological spaces and chain complexes : homotopy equivalences, weak equivalences, Whitehead theorem(s), models.
 2. Tuesday 7th January: TBD
 3. Monday 13th January: TBD
 4. Tuesday 14th January: TBD
