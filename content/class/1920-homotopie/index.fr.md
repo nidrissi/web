@@ -7,7 +7,7 @@ time: 24h
 year: 2019–2020
 date: 2020-01-01
 publishdate: 2019-05-01
-lastmod: 2020-01-06
+lastmod: 2020-01-07
 sidebar:
   - "[M2 Mathématiques fondamentales](http://master-math-fonda.imj-prg.fr/)"
   - "[**Notes de cours**](homotopie.pdf)"
@@ -40,7 +40,7 @@ Ils ont lieu les :
 ### Chronologie
 
 1. Lundi 6 janvier : Section 1.1 des notes. Motivation, parallèle entre les espaces topologiques et les complexes de chaînes : équivalences d'homotopies, équivalences faibles, théorème(s) de Whitehead, modèles.
-2. Mardi 7 janvier : TBD
+2. Mardi 7 janvier : Section 1.2. Fibrations, cofibrations, propriétés de relèvement, suites exactes longues.
 3. Lundi 13 janvier : TBD
 4. Mardi 14 janvier : TBD
 5. Lundi 20 janvier : TBD

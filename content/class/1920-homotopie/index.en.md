@@ -7,7 +7,7 @@ time: 24h
 year: 2019–2020
 date: 2020-01-01
 publishdate: 2019-05-01
-lastmod: 2020-01-06
+lastmod: 2020-01-07
 sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
   - "[**Lecture notes**](homotopie.pdf)"
@@ -40,7 +40,7 @@ They happen on:
 ### Chronology
 
 1. Monday 6th January: Section 1.1 of the lecture notes. Motivation, parallels between topological spaces and chain complexes : homotopy equivalences, weak equivalences, Whitehead theorem(s), models.
-2. Tuesday 7th January: TBD
+2. Tuesday 7th January: Section 1.2 of the lecture notes. Fibrations, cofibrations, lifting properties, long exact sequences.
 3. Monday 13th January: TBD
 4. Tuesday 14th January: TBD
 5. Monday 20th January: TBD
