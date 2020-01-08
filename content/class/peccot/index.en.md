@@ -30,14 +30,14 @@ They will be on Wednesdays 4th, 11th, 18th, and 25th, March 2020, from 11AM to 1
 They are open to everyone.
 
 <dl class="row mb-0">
-<dt class="col-lg-4 text-sm-right">mercredi 4 mars (11h–13h)</dt>
-<dd class="col-lg-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-4 text-sm-right">mercredi 11 mars (11h–13h)</dt>
-<dd class="col-lg-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-4 text-sm-right">mercredi 18 mars (11h–13h)</dt>
-<dd class="col-lg-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-4 text-sm-right">mercredi 25 mars (11h–13h)</dt>
-<dd class="col-lg-8">[plus d'informations à venir]</dd>
+<dt class="col-lg-4 text-sm-right">March 4th (11:00–13:00)</dt>
+<dd class="col-lg-8">[more info to come]</dd>
+<dt class="col-lg-4 text-sm-right">March 11th (11:00–13:00)</dt>
+<dd class="col-lg-8">[more info to come]</dd>
+<dt class="col-lg-4 text-sm-right">March 18th (11:00–13:00)</dt>
+<dd class="col-lg-8">[more info to come]</dd>
+<dt class="col-lg-4 text-sm-right">March 25th (11:00–13:00)</dt>
+<dd class="col-lg-8">[more info to come]</dd>
 </dl>
 
 ## Plan

@@ -28,13 +28,13 @@ Les leçons se déroulent au Collège de France (11 place Marcelin-Berthelot, da
 Elles auront lieu les mercredi 4, 11, 18 et 25 mars 2020 de 11h à 13h et sont ouvertes à toutes et tous.
 
 <dl class="row mb-0">
-<dt class="col-lg-4 text-sm-right">mercredi 4 mars (11h–13h)</dt>
+<dt class="col-lg-4 text-sm-right">4 mars (11h–13h)</dt>
 <dd class="col-lg-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-4 text-sm-right">mercredi 11 mars (11h–13h)</dt>
+<dt class="col-lg-4 text-sm-right">11 mars (11h–13h)</dt>
 <dd class="col-lg-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-4 text-sm-right">mercredi 18 mars (11h–13h)</dt>
+<dt class="col-lg-4 text-sm-right">18 mars (11h–13h)</dt>
 <dd class="col-lg-8">[plus d'informations à venir]</dd>
-<dt class="col-lg-4 text-sm-right">mercredi 25 mars (11h–13h)</dt>
+<dt class="col-lg-4 text-sm-right">25 mars (11h–13h)</dt>
 <dd class="col-lg-8">[plus d'informations à venir]</dd>
 </dl>
 
