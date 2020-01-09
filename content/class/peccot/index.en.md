@@ -45,14 +45,13 @@ They are open to everyone.
 The following plan (in French) is subject to changes and does not necessarily correspond exactly to the split in four lessons.
 
 1. Introduction
-    - Espaces de configuration : définition, applications
-    - Question de l'invariance homotopique et premiers contre-exemples
-    - Rappels sur la théorie de Sullivan
+    - Espaces de configuration
+    - Invariance homotopique
+    - Rappels sur la théorie de l'homotopie rationnelle
     - Formalité de {{< tex "\mathrm{Conf}(\mathbb{R}^n)" >}}
-    - Conjecture de Lambrechts--Stanley + historique
-    - Énoncé du théorème
 2. Modèle de Lambrechts--Stanley
-    - Idée de la preuve et intuition pour les complexes de graphes
+    - Définition du modèle
+    - Énoncé du théorème et idée de la preuve
     - Compactification de Fulton--MacPherson
     - Ensembles semi-algébriques et formes PA
     - Propagateur et définition du morphisme

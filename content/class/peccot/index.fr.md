@@ -43,14 +43,13 @@ Elles auront lieu les mercredi 4, 11, 18 et 25 mars 2020 de 11h à 13h et sont o
 Le plan qui suit est sujet à changements (le découpage ne correspond pas exactement aux quatre leçons).
 
 1. Introduction
-    - Espaces de configuration : définition, applications
-    - Question de l'invariance homotopique et premiers contre-exemples
-    - Rappels sur la théorie de Sullivan
+    - Espaces de configuration
+    - Invariance homotopique
+    - Rappels sur la théorie de l'homotopie rationnelle
     - Formalité de {{< tex "\mathrm{Conf}(\mathbb{R}^n)" >}}
-    - Conjecture de Lambrechts--Stanley + historique
-    - Énoncé du théorème
 2. Modèle de Lambrechts--Stanley
-    - Idée de la preuve et intuition pour les complexes de graphes
+    - Définition du modèle
+    - Énoncé du théorème et idée de la preuve
     - Compactification de Fulton--MacPherson
     - Ensembles semi-algébriques et formes PA
     - Propagateur et définition du morphisme
