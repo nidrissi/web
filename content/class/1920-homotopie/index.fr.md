@@ -31,11 +31,15 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 ## Organisation
 
-Lectures will start on January 6th, 2020 and end on February 11th, 2020.
-Les cours commencent le 6 janvier 2020 et se terminent le 11 février 2020.
-Ils ont lieu les :
-- lundis : 15h45--17h45, [bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 1012.
-- mardis : 14h00--16h00, [bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
+Les cours commencent le 6 janvier 2020 et se terminent le 13 février 2020.
+
+Les deux premières semaines, ils ont lieu les :
+- lundis 15h45--17h45, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 1012.
+- mardis 14h00--16h00, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
+
+Les quatre dernières semaines, ils auront lieu les :
+- mardis 14h00--16h00, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
+- jeudis 9h--11h, [Halle aux Farines](HAF.pdf), salle 280F (*sauf le 6 février : je serai absent et le cours sera reporté*)
 
 ### Chronologie
 
@@ -43,14 +47,14 @@ Ils ont lieu les :
 2. Mardi 7 janvier : Section 1.2. Fibrations, cofibrations, propriétés de relèvement, suites exactes longues.
 3. Lundi 13 janvier : TBD
 4. Mardi 14 janvier : TBD
-5. Lundi 20 janvier : TBD
-6. Mardi 21 janvier : TBD
-7. Lundi 27 janvier : TBD
-8. Mardi 28 janvier : TBD
-9. Lundi 3 février : TBD
-10. Mardi 4 février : TBD
-11. Lundi 10 février : TBD
-12. Mardi 11 février : TBD
+5. Mardi 21janvier : TBD
+6. Jeudi 23 janvier : TBD
+7. Mardi 28 janvier : TBD
+8. Jeudi 30 janvier : TBD
+9. Mardi 4 février : TBD
+10. ~~Jeudi 6 février~~ : cours reporté
+11. Mardi 11 février : TBD
+12. Jeudi 13 février : TBD
 
 ## Bibliographie
 
