@@ -46,7 +46,7 @@ The last four weeks, they will happen on:
 
 1. Monday 6th January: Section 1.1 of the lecture notes. Motivation, parallels between topological spaces and chain complexes : homotopy equivalences, weak equivalences, Whitehead theorem(s), models.
 2. Tuesday 7th January: Section 1.2 of the lecture notes. Fibrations, cofibrations, lifting properties, long exact sequences.
-3. Monday 13th January: TBD
+3. Monday 13th January: Section 1.3. Categorical reminders. Beginning of Section 1.4. Definition of model categories.
 4. Tuesday 14th January: TBD
 5. Tuesday 21th January: TBD
 6. Thursday 23rd January: TBD
