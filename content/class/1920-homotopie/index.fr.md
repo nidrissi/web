@@ -43,11 +43,11 @@ Les quatre dernières semaines, ils auront lieu les :
 
 ### Chronologie
 
-1. Lundi 6 janvier : Section 1.1 des notes. Motivation, parallèle entre les espaces topologiques et les complexes de chaînes : équivalences d'homotopies, équivalences faibles, théorème(s) de Whitehead, modèles.
-2. Mardi 7 janvier : Section 1.2. Fibrations, cofibrations, propriétés de relèvement, suites exactes longues.
-3. Lundi 13 janvier : Section 1.3. Rappels catégoriques. Début de la Section 1.4. Définition des catégories de modèles.
-4. Mardi 14 janvier : TBD
-5. Mardi 21janvier : TBD
+1. Lundi 6 janvier : Section 1.1 : Motivation, parallèle entre les espaces topologiques et les complexes de chaînes (équivalences d'homotopies, équivalences faibles, théorème(s) de Whitehead, modèles).
+2. Mardi 7 janvier : Section 1.2 : Fibrations, cofibrations, propriétés de relèvement, suites exactes longues.
+3. Lundi 13 janvier : Section 1.3 : Rappels catégoriques. Début de la Section 1.4. Définition des catégories de modèles.
+4. Mardi 14 janvier : Section 1.4 : Quelques propriétés des catégories de modèles et exemples. Section 1.5 : localisation en général, définition de la relation d'homotopie à gauche.
+5. Mardi 21 janvier : TBD
 6. Jeudi 23 janvier : TBD
 7. Mardi 28 janvier : TBD
 8. Jeudi 30 janvier : TBD
