@@ -308,6 +308,11 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Seminar</strong>, <em>Aarhus Universitet</em>.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">July 2019</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Algebraic Topology Seminar</strong>, <em>Université catholique de Louvain</em>.</dd>
 
