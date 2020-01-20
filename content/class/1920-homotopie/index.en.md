@@ -41,21 +41,41 @@ The last four weeks, they will happen on:
 - Tuesdays 14:00--16:00, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 2016 (*except on February 11th: room 2017*).
 - Thursdays 9:00--11:00, [Halles aux Farines](HAF.pdf), room 280F (*except February 6th: postponed to another date*).
 
+Monday 6th January
+: Section 1.1: Motivation, parallels between topological spaces and chain complexes (homotopy equivalences, weak equivalences, Whitehead theorem(s), models).
 
-### Chronology
+Tuesday 7th January
+: Section 1.2: Fibrations, cofibrations, lifting properties, long exact sequences.
 
-1. Monday 6th January: Section 1.1: Motivation, parallels between topological spaces and chain complexes (homotopy equivalences, weak equivalences, Whitehead theorem(s), models).
-2. Tuesday 7th January: Section 1.2: Fibrations, cofibrations, lifting properties, long exact sequences.
-3. Monday 13th January: Section 1.3: Categorical reminders. Beginning of Section 1.4: Definition of model categories.
-4. Tuesday 14th January: Section 1.4: some examples of model categories, a few properties. Section 1.5: Localization in the general case, definition of left homotopies.
-5. Tuesday 21th January: TBD
-6. Thursday 23rd January: TBD
-7. Tuesday 28th January: TBD
-8. Thursday 30th January: TBD
-9. Tuesday 4th February: TBD
-10. ~~Thursday 6th February~~: postponed
-11. Tuesday 11th February: TBD
-12. Thursday 13th February: TBD
+Monday 13th January
+: Section 1.3: Categorical reminders. Beginning of Section 1.4: Definition of model categories.
+
+Tuesday 14th January
+: Section 1.4: some examples of model categories, a few properties. Section 1.5: Localization in the general case, definition of left homotopies.
+
+Tuesday 21th January
+: TBD
+
+Thursday 23rd January
+: TBD
+
+Tuesday 28th January
+: TBD
+
+Thursday 30th January
+: TBD
+
+Tuesday 4th February
+: TBD
+
+~~Thursday 6th February~~
+: postponed
+
+Tuesday 11th February
+: TBD
+
+Thursday 13th February
+: TBD
 
 ## Bibliography
 
