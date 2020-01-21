@@ -58,7 +58,7 @@ Mardi 14 janvier
 : Section 1.4 : Quelques propriétés des catégories de modèles et exemples. Section 1.5 : localisation en général, définition de la relation d'homotopie à gauche.
 
 Mardi 21 janvier
-: Section 1.4 : Fin de la description de la catégorie homotopique comme un quotient de la catégorie des objets fibrants-cofibrants.
+: Section 1.5 : Fin de la description de la catégorie homotopique comme un quotient de la catégorie des objets fibrants-cofibrants.
 
 Jeudi 23 janvier
 : TBD

@@ -45,40 +45,40 @@ The last four weeks, they will happen on:
 - Tuesdays 14:00--16:00, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 2016 (*except on February 11th: room 2017*).
 - Thursdays 9:00--11:00, [Halles aux Farines](HAF.pdf), room 280F (*except February 6th: postponed to another date*).
 
-Monday 6th January
+Monday January 6th
 : Section 1.1: Motivation, parallels between topological spaces and chain complexes (homotopy equivalences, weak equivalences, Whitehead theorem(s), models).
 
-Tuesday 7th January
+Tuesday January 7th
 : Section 1.2: Fibrations, cofibrations, lifting properties, long exact sequences.
 
-Monday 13th January
+Monday January 13th
 : Section 1.3: Categorical reminders. Beginning of Section 1.4: Definition of model categories.
 
-Tuesday 14th January
+Tuesday January 14th
 : Section 1.4: some examples of model categories, a few properties. Section 1.5: Localization in the general case, definition of left homotopies.
 
-Tuesday 21th January
-: Section 1.4: end of the description of the homotopy category as a quotient of the category of fibrant-cofibrant objects.
+Tuesday January 21th
+: Section 1.5: end of the description of the homotopy category as a quotient of the category of fibrant-cofibrant objects.
 
-Thursday 23rd January
+Thursday January 23rd
 : TBD
 
-Tuesday 28th January
+Tuesday January 28th
 : TBD
 
-Thursday 30th January
+Thursday January 30th
 : TBD
 
-Tuesday 4th February
+Tuesday February 4th
 : TBD
 
-~~Thursday 6th February~~
+~~Thursday February 6th~~
 : postponed
 
-Tuesday 11th February
+Tuesday February 11th
 : TBD
 
-Thursday 13th February
+Thursday February 13th
 : TBD
 
 ## Bibliography
