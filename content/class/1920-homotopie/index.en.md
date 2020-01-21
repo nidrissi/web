@@ -58,7 +58,7 @@ Tuesday 14th January
 : Section 1.4: some examples of model categories, a few properties. Section 1.5: Localization in the general case, definition of left homotopies.
 
 Tuesday 21th January
-: TBD
+: Section 1.4: end of the description of the homotopy category as a quotient of the category of fibrant-cofibrant objects.
 
 Thursday 23rd January
 : TBD
