@@ -400,6 +400,11 @@ section:
   - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
     content:
       - item:
+          a: 2020
+          b: |
+            *Toric Topology and Polyhedral Products* (Fields Institute) •
+            *Málaga & Topology Meeting* (Universidad de Málaga)
+      - item:
           a: 2019
           b: |
             *Opening workshop of the OCHoTop project* (EPFL) •
