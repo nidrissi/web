@@ -61,7 +61,7 @@ Mardi 21 janvier
 : Section 1.5 : Fin de la description de la catégorie homotopique comme un quotient de la catégorie des objets fibrants-cofibrants.
 
 Jeudi 23 janvier
-: TBD
+: Section 1.6 : Catégories de modèles cofibrement engendrées, argument du petit objet.
 
 Mardi 28 janvier
 : TBD

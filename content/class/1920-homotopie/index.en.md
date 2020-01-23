@@ -61,7 +61,7 @@ Tuesday January 21th
 : Section 1.5: end of the description of the homotopy category as a quotient of the category of fibrant-cofibrant objects.
 
 Thursday January 23rd
-: TBD
+: Section 1.6: Cofibrantly generated model categories, small object argument.
 
 Tuesday January 28th
 : TBD
