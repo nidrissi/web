@@ -505,6 +505,11 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">2020</dt>
+<dd class="col-lg-10 col-sm-9"><em>Toric Topology and Polyhedral Products</em> (Fields Institute) • <em>Málaga &amp; Topology Meeting</em> (Universidad de Málaga).</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019</dt>
 <dd class="col-lg-10 col-sm-9"><em>Opening workshop of the OCHoTop project</em> (EPFL) • <em>Journée de topologie</em> (Université de Picardie Jules Verne) • <em>Colloque 2019 du GDR Topologie Algébrique et Applications</em> (Université d’Artois) • <em>Groupe de travail : Valeurs zêta multiples en quantification par déformation</em> (Université de Montpellier) • <em>SYM 10 Years Old</em> (Københavns Universitet) • <em>Topologie de basse dimension : Colloque en l’honneur de Christian Blanchet</em> (Université Paris Diderot) • <em>Higher Homotopy Algebras in Topology</em> (Max-Planck-Institut für Mathematik, Bonn) • <em>Structures Supérieures</em> (Centre International de Rencontres Mathématiques, Luminy) • <em>Higher Structures in Holomorphic and Topological Field Theory</em> (Institut des Hautes Études Scientifiques).</dd>
 
