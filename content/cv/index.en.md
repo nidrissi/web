@@ -437,7 +437,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9">Homotopy Theory, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programmation, L2 (exercises+labs, 42h).</dd>
+<dd class="col-lg-10 col-sm-9">Real Homotopy of Configuration Spaces, Peccot Lecture, Collège de France (8h) • Homotopy Theory, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programmation, L2 (exercises+labs, 42h).</dd>
 
 
 
