@@ -39,11 +39,11 @@ Les cours commencent le 6 janvier 2020 et se terminent le 13 février 2020.
 
 Les deux premières semaines, ils ont lieu les :
 - lundis 15h45--17h45, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 1012.
-- mardis 14h00--16h00, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
+- mardis 14h00--16h00, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016.
 
 Les quatre dernières semaines, ils auront lieu les :
 - mardis 14h00--16h00, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
-- jeudis 9h--11h, [Halle aux Farines](HAF.pdf), salle 280F (*sauf le 6 février : je serai absent et le cours sera reporté***
+- jeudis 9h--11h, [Halle aux Farines](HAF.pdf), salle 280F (*sauf le 6 février : je serai absent et le cours est avancé au 3 février*).
 
 <mark>La séance du jeudi 6 février est avancée au lundi 3 février de 16h15 à 18h15, dans la salle 137 du bâtiment Olympe de Gouges.</mark>
 
@@ -71,17 +71,16 @@ Mardi 28 janvier
 Jeudi 30 janvier
 : TBD
 
-Lundi 3 février (!)
+Lundi 3 février (⚠ créneau inhabituel)
 : TBD
 
 Mardi 4 février
 : TBD
 
 ~~Jeudi 6 février~~
-: cours avancé au 3 février
+: (cours avancé au 3 février)
 
-Mardi 11 février
-
+Mardi 11 février (⚠ salle 2017)
 : TBD
 
 Jeudi 13 février

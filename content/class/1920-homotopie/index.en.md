@@ -39,13 +39,13 @@ Lectures will start on January 6th, 2020 and end on February 13th, 2020.
 
 The first two weeks, they will happen on:
 - Mondays 15:45--17:45, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 1012.
-- Tuesdays 14:00--16:00, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 2016 (*except on February 11th: room 2017*).
+- Tuesdays 14:00--16:00, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 2016.
 
 The last four weeks, they will happen on:
 - Tuesdays 14:00--16:00, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 2016 (*except on February 11th: room 2017*).
-- Thursdays 9:00--11:00, [Halles aux Farines](HAF.pdf), room 280F (*except February 6th: postponed to another date*).
+- Thursdays 9:00--11:00, [Halles aux Farines](HAF.pdf), room 280F (*except February 6th: moved to the 3rd*).
 
-<mark>The session of February 6th is advanced to Monday, February 3rd, between 16:15 and 18:15, in the room 137 of the Olympe de Gouges building.</mark>
+<mark>The session of February 6th is moved to Monday, February 3rd, between 16:15 and 18:15, in the room 137 of the Olympe de Gouges building.</mark>
 
 Monday January 6th
 : Section 1.1: Motivation, parallels between topological spaces and chain complexes (homotopy equivalences, weak equivalences, Whitehead theorem(s), models).
@@ -71,16 +71,16 @@ Tuesday January 28th
 Thursday January 30th
 : TBD
 
-Monday February 3rd (!)
+Monday February 3rd (⚠ unusual time slot)
 : TBD
 
 Tuesday February 4th
 : TBD
 
 ~~Thursday February 6th~~
-: advanced to February 3rd
+: (moved to February 3rd)
 
-Tuesday February 11th
+Tuesday February 11th (⚠ room 2017)
 : TBD
 
 Thursday February 13th
