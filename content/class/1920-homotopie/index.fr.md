@@ -43,7 +43,9 @@ Les deux premières semaines, ils ont lieu les :
 
 Les quatre dernières semaines, ils auront lieu les :
 - mardis 14h00--16h00, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
-- jeudis 9h--11h, [Halle aux Farines](HAF.pdf), salle 280F (*sauf le 6 février : je serai absent et le cours sera reporté*)
+- jeudis 9h--11h, [Halle aux Farines](HAF.pdf), salle 280F (*sauf le 6 février : je serai absent et le cours sera reporté***
+
+<mark>La séance du jeudi 6 février est avancée au lundi 3 février de 16h15 à 18h15, dans la salle 137 du bâtiment Olympe de Gouges.</mark>
 
 Lundi 6 janvier
 : Section 1.1 : Motivation, parallèle entre les espaces topologiques et les complexes de chaînes (équivalences d'homotopies, équivalences faibles, théorème(s) de Whitehead, modèles).
@@ -69,11 +71,14 @@ Mardi 28 janvier
 Jeudi 30 janvier
 : TBD
 
+Lundi 3 février (!)
+: TBD
+
 Mardi 4 février
 : TBD
 
 ~~Jeudi 6 février~~
-: cours reporté
+: cours avancé au 3 février
 
 Mardi 11 février
 
