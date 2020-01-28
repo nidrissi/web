@@ -66,7 +66,7 @@ Jeudi 23 janvier
 : Section 1.6 : Catégories de modèles cofibrement engendrées, argument du petit objet.
 
 Mardi 28 janvier
-: TBD
+: Section 1.7 : Adjonctions et équivalences de Quillen. Section 1.8 : (Co)limites homotopiques.
 
 Jeudi 30 janvier
 : TBD

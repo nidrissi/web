@@ -66,7 +66,7 @@ Thursday January 23rd
 : Section 1.6: Cofibrantly generated model categories, small object argument.
 
 Tuesday January 28th
-: TBD
+: Section 1.7: Quillen adjunctions and equivalences. Section 1.8: Homotopy (co)limits.
 
 Thursday January 30th
 : TBD
