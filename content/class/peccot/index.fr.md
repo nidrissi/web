@@ -23,6 +23,7 @@ L'étude de ces espaces est un problème classique en topologie algébrique.
 Une question importante à leur sujet est celle de l'invariance homotopique : si l'on peut déformer continûment une variété en une autre, est-ce que l'on peut déformer continûment les espaces de configuration de la première en les espaces de configuration de la seconde ?
 Cette question reste ouverte si l'on se restreint aux variétés compactes sans bord simplement connexes.
 Dans ce cours, nous verrons comment démontrer cette conjecture en caractéristique nulle (c'est-à-dire si l'on considère uniquement les invariants algébro-topologiques à coefficients réels).
+Nous considérerons ensuite une généralisation aux variétés à bord.
 La preuve fait intervenir des idées de la théorie des opérades, qui sera introduite à la fin du cours.
 
 <div class="float-md-right p-2"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Affiche du cours" class="img-thumbnail"></a></div>

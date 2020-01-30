@@ -24,6 +24,7 @@ The study of these spaces is a classical problem in algebraic topology.
 An important question about configuration space is homotopy invariance: if a manifold can be continuously deformed into another one, then can the configuration spaces of the first manifold be continuously deformed in the configuration spaces of the second?
 This question remains open if we consider simply connected closed manifolds.
 In this lecture, we will see how to prove this conjecture in characteristic zero (i.e. if we restrict ourselves to algebro-topological invariants with real coefficients).
+We will then consider a generalization to manifolds with boundary.
 The proof involves ideas from the theory of operads, which will be introduced at the end of the lecture.
 
 <div class="float-md-right p-2"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Poster of the course" class="img-thumbnail"></a></div>
