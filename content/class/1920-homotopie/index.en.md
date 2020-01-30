@@ -69,7 +69,7 @@ Tuesday January 28th
 : Section 1.7: Quillen adjunctions and equivalences. Section 1.8: Homotopy (co)limits.
 
 Thursday January 30th
-: TBD
+: Sections 2.1--2.3: Introduction to simplicial sets.
 
 Monday February 3rd (⚠ unusual time slot)
 : TBD

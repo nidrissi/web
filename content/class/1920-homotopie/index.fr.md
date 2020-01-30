@@ -69,7 +69,7 @@ Mardi 28 janvier
 : Section 1.7 : Adjonctions et équivalences de Quillen. Section 1.8 : (Co)limites homotopiques.
 
 Jeudi 30 janvier
-: TBD
+: Sections 2.1--2.3 : Introduction aux ensembles simpliciaux.
 
 Lundi 3 février (⚠ créneau inhabituel)
 : TBD
