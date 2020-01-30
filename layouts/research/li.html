@@ -1,1 +1,6 @@
-<li>“<a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>”. {{ partial "meta/research" . }} {{ partial "links" (dict "content" . "is_card" 0) }}</li>
+<li>
+  {{- if eq .Language.Lang "fr" }}«&nbsp;{{ else }}“{{ end -}}
+  <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
+  {{- if eq .Language.Lang "fr" }}&nbsp;»{{ else }}”{{ end -}}.
+  {{ partial "meta/research" . }} {{ partial "links" (dict "content" . "is_card" 0) }}
+</li>
