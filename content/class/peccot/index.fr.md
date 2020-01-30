@@ -26,6 +26,8 @@ Dans ce cours, nous verrons comment démontrer cette conjecture en caractéristi
 Nous considérerons ensuite une généralisation aux variétés à bord.
 La preuve fait intervenir des idées de la théorie des opérades, qui sera introduite à la fin du cours.
 
+Ce cours sera en partie basé sur des travaux en collaboration avec Ricardo Campos, Julien Ducoulombier, Pascal Lambrects et Thomas Willwacher.
+
 <div class="float-md-right p-2"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Affiche du cours" class="img-thumbnail"></a></div>
 
 ## Informations pratiques

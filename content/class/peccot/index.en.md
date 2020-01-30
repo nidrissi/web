@@ -27,6 +27,8 @@ In this lecture, we will see how to prove this conjecture in characteristic zero
 We will then consider a generalization to manifolds with boundary.
 The proof involves ideas from the theory of operads, which will be introduced at the end of the lecture.
 
+This lecture is based in part on joint works with Ricardo Campos, Julien Ducoulombier, Pascal Lambrechts, and Thomas Willwacher.
+
 <div class="float-md-right p-2"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Poster of the course" class="img-thumbnail"></a></div>
 
 ## Practical informations
