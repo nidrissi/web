@@ -1,6 +1,6 @@
 ---
 title: Algorithmes et Programmation
-cursus: L2 (S1)
+cursus: L2 Maths (S1)
 what: TD+TP
 time: 42h
 year: 2019–2020

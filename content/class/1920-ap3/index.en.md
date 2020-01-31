@@ -1,6 +1,6 @@
 ---
 title: Algorithms and Programmation
-cursus: L2 (S1)
+cursus: L2 Maths (S1)
 what: exercises+labs
 time: 42h
 year: 2019–2020

@@ -1,7 +1,7 @@
 <section>
   <h2 class="mb-3">{{ i18n "teaching" }} ({{ .Site.Params.currentYear}})</h2>
 
-  {{- range (where (where .Site.RegularPages "Type" "class") ".Params.year" .Site.Params.currentYear).Reverse -}}
+  {{- range (where (where .Site.RegularPages "Type" "class") ".Params.year" .Site.Params.currentYear) -}}
   {{- .Render "card" -}}
   {{- end -}}
 
