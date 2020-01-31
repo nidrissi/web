@@ -11,6 +11,8 @@ lastmod: 2020-01-31
 sidebar:
   - "[Notes de cours](./peccot.pdf)"
   - "[Site du Cours Peccot](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
+  - "[Article d'information @ Université de Lille](https://www.univ-lille.fr/fileadmin/user_upload/illustrations/contenus/recherche/2017/ActULille_Recherche/News_52_Cours_Peccot_de_Najib_Idrissi_-_article.pdf)"
+  - "[Version longue @ Laboratoire Paul Painlevé](https://math.univ-lille1.fr/d7/node/10461)"
 ---
 
 <div class="alert alert-primary" role="alert">
