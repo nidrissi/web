@@ -1,7 +1,7 @@
 <section>
   <h2 class="mb-3">{{ i18n "talks" }}</h2>
 
-  {{- range first .Site.Params.home_counts.talk (where .Site.RegularPages "Type" "talk") -}}
+  {{- range first .Site.Params.homeCounts.talk (where .Site.RegularPages "Type" "talk") -}}
   {{- .Render "card" -}}
   {{- end -}}
 

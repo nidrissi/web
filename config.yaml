@@ -30,8 +30,8 @@ blackfriday:
   fractions: false
 
 params:
-  current_year: 2019–2020
-  home_counts:
+  currentYear: 2019–2020
+  homeCounts:
     talk: 5
     post: 5
 

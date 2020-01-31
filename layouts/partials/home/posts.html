@@ -1,7 +1,7 @@
 <section>
   <h2 class="mb-3">{{ i18n "blog" }}</h2>
 
-  {{- range first .Site.Params.home_counts.post (where .Site.RegularPages "Type" "post") -}}
+  {{- range first .Site.Params.homeCounts.post (where .Site.RegularPages "Type" "post") -}}
   {{- .Render "card" -}}
   {{- end -}}
 
