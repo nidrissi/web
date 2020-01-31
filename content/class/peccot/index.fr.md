@@ -7,7 +7,7 @@ time: 8h
 year: 2019–2020
 date: 2020-03-04
 publishdate: 2019-11-08
-lastmod: 2020-01-30
+lastmod: 2020-01-31
 sidebar:
   - "[Notes de cours](./peccot.pdf)"
   - "[Site du Cours Peccot](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"

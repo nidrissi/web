@@ -4,7 +4,7 @@ date: {{ .Date }}
 draft: false
 abstract:
 event:
-event_url:
+eventURL:
 location:
 urls:
   pdf:
