@@ -190,7 +190,12 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Jury de soutenance de thèse d’Erica Minuz (dir. de thèse: Marcel Bökstedt)</strong>, <em>Université d’Aarhus</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Jury de soutenance de thèse d’Erica Minuz (dir. de thèse : Marcel Bökstedt)</strong>, <em>Université d’Aarhus</em>.</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Jury de soutenance de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)</strong>, <em>Sorbonne Université</em>.</dd>
 
 
 

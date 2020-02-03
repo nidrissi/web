@@ -194,6 +194,11 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Master’s memoir defense jury of Basile Coron (advisor: Thomas Willwacher)</strong>, <em>Sorbonne Université</em>.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Exam jury for L1 MIASHS</strong>, <em>Université Paris Diderot</em>.</dd>
 
