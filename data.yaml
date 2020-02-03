@@ -156,10 +156,17 @@ section:
       - entry:
           a: 01/2020
           b: |
-            Jury de soutenance de thèse d'Erica Minuz (dir. de thèse: Marcel Bökstedt)
+            Jury de soutenance de thèse d'Erica Minuz (dir. de thèse : Marcel Bökstedt)
             !
             PhD defense jury of Erica Minuz (advisor: Marcel Bökstedt)
           c: Université d'Aarhus ! Aarhus University
+      - entry:
+          a: 09/2019
+          b: |
+            Jury de soutenance de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)
+            !
+            Master's memoir defense jury of Basile Coron (advisor: Thomas Willwacher)
+          c: Sorbonne Université
       - entry:
           a: 2018--2019
           b: Jury d'examen L1 MIASHS ! Exam jury for L1 MIASHS
