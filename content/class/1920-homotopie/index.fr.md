@@ -71,10 +71,10 @@ Jeudi 30 janvier
 : Sections 2.1--2.3 : Introduction aux ensembles simpliciaux.
 
 Lundi 3 février (⚠ créneau inhabituel)
-: TBD
+: Sections 2.4--2.5 : Structure de catégorie de modèles sur les ensembles simpliciaux et début de l'équivalence avec les espaces topologiques.
 
 Mardi 4 février
-: TBD
+: Sections 2.5--2.6 : Fin de l'équivalence avec les espaces topologiques. Correspondence de Dold--Kan. Section 3.1 : Localisation par rapport aux équivalences rationnelles.
 
 ~~Jeudi 6 février~~
 : (cours avancé au 3 février)

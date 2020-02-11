@@ -71,10 +71,10 @@ Thursday January 30th
 : Sections 2.1--2.3: Introduction to simplicial sets.
 
 Monday February 3rd (⚠ unusual time slot)
-: TBD
+: Sections 2.4--2.5: Model structure on simplicial sets, beginning of the equivalence with topological spaces.
 
 Tuesday February 4th
-: TBD
+: Sections 2.5--2.6: End of the equivalence with topological spaces. Dold--Kan correspondence. Section 3.1: Localization with respect to rational equivalences.
 
 ~~Thursday February 6th~~
 : (moved to February 3rd)
