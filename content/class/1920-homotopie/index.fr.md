@@ -31,6 +31,8 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 ## Organisation
 
+<mark>**L'examen aura lieu le mardi 18 février de 14h à 17h, dans la salle 1009 du bâtiment Sophie Germain.** Le programme comprend les chapitres 1 et 2.</mark>
+
 Les cours commencent le 6 janvier 2020 et se terminent le 13 février 2020.
 
 Le devoir maison facultatif (à rendre le 4 février si vous souhaitez avoir un retour sur les exercices que vous avez fait) [est disponible ici](devoir.pdf).
@@ -44,7 +46,7 @@ Les quatre dernières semaines, ils auront lieu les :
 - mardis 14h00--16h00, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 2016 (*sauf le 11 février : salle 2017*).
 - jeudis 9h--11h, [Halle aux Farines](HAF.pdf), salle 280F (*sauf le 6 février : je serai absent et le cours est avancé au 3 février*).
 
-<mark>La séance du jeudi 6 février est avancée au lundi 3 février de 16h15 à 18h15, dans la salle 137 du bâtiment Olympe de Gouges.</mark>
+La séance du jeudi 6 février est avancée au lundi 3 février de 16h15 à 18h15, dans la salle 137 du bâtiment Olympe de Gouges.
 
 Lundi 6 janvier
 : Section 1.1 : Motivation, parallèle entre les espaces topologiques et les complexes de chaînes (équivalences d'homotopies, équivalences faibles, théorème(s) de Whitehead, modèles).
@@ -70,7 +72,7 @@ Mardi 28 janvier
 Jeudi 30 janvier
 : Sections 2.1--2.3 : Introduction aux ensembles simpliciaux.
 
-Lundi 3 février (⚠ créneau inhabituel)
+Lundi 3 février (⚠ créneau inhabituel 16h15--18h15)
 : Sections 2.4--2.5 : Structure de catégorie de modèles sur les ensembles simpliciaux et début de l'équivalence avec les espaces topologiques.
 
 Mardi 4 février
@@ -80,7 +82,7 @@ Mardi 4 février
 : (cours avancé au 3 février)
 
 Mardi 11 février (⚠ salle 2017)
-: TBD
+: Section 3.2--3.3 : Structure de catégorie de modèles sur les ADGC, théorie de Sullivan, comparaison avec les ensembles simpliciaux à équivalence rationnelle près.
 
 Jeudi 13 février
 : TBD
