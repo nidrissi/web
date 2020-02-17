@@ -85,7 +85,7 @@ Mardi 11 février (⚠ salle 2017)
 : Section 3.2--3.3 : Structure de catégorie de modèles sur les ADGC, théorie de Sullivan, comparaison avec les ensembles simpliciaux à équivalence rationnelle près.
 
 Jeudi 13 février
-: TBD
+: Chapitre 3 : Quelques applications de la théorie de l'homotopie rationnelle. Chapitre 4 : Introduction très courte aux {{< tex "\infty" >}}-catégories.
 
 ## Bibliographie
 

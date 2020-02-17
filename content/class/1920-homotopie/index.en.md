@@ -85,7 +85,7 @@ Tuesday February 11th (⚠ room 2017)
 : Sections 3.2--3.3: Model structure on CDGAs, Sullivan theory, comparison with simplicial sets up to rational equivalence.
 
 Thursday February 13th
-: TBD
+: Chapter 3: Some applications of rational homotopy theory. Chapter 4: Very bried introduction to {{< tex "\infty" >}}-categories.
 
 ## Bibliography
 
