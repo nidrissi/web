@@ -11,6 +11,10 @@ lastmod: 2020-01-07
 sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
   - "[**Lecture notes**](homotopie.pdf)"
+  - "[Homework](devoir.pdf)"
+  - "[Solution of the homework](devoir-corrigé.pdf)"
+  - "[Exam](examen.pdf)"
+  - "[Solution of the exam](examen-corrigé.pdf)"
 ---
 
 The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of {{< tex "\infty" >}}-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory – Quillen's model categories – and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains – singular or de Rham – encode topological spaces up to rational homotopy.
@@ -31,12 +35,7 @@ The goal of this course is to give an introduction to modern homotopy theory, it
 
 ## Organization
 
-<mark>**The exam will be on Tuesday, February 18th, between 14:00 and 17:00, in the room 1009 of the Sophie Germain building.** It will cover chapters 1 and 2.</mark>
-
 Lectures will start on January 6th, 2020 and end on February 13th, 2020.
-
-The optional homework (to hand in if you would like some feedback), due on February 4th, [is available here](devoir.pdf).
-You can [find the solution there](devoir-corrigé.pdf).
 
 The first two weeks, they will happen on:
 - Mondays 15:45--17:45, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 1012.
@@ -47,6 +46,13 @@ The last four weeks, they will happen on:
 - Thursdays 9:00--11:00, [Halles aux Farines](HAF.pdf), room 280F (*except February 6th: moved to the 3rd*).
 
 The session of February 6th is moved to Monday, February 3rd, between 16:15 and 18:15, in the room 137 of the Olympe de Gouges building.
+
+The optional homework (to hand in if you would like some feedback), due on February 4th, [is available here](devoir.pdf).
+You can [find the solution there](devoir-corrigé.pdf).
+
+The [exam](examen.pdf) was on Tuesday, February 18th, between 14:00 and 17:00, in the room 1009 of the Sophie Germain building.
+It covered chapters 1 and 2.
+[The solution can be found here.](examen-corrigé.pdf)
 
 Monday January 6th
 : Section 1.1: Motivation, parallels between topological spaces and chain complexes (homotopy equivalences, weak equivalences, Whitehead theorem(s), models).

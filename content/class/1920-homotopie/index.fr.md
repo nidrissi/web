@@ -11,6 +11,10 @@ lastmod: 2020-01-07
 sidebar:
   - "[M2 Mathématiques fondamentales](http://master-math-fonda.imj-prg.fr/)"
   - "[**Notes de cours**](homotopie.pdf)"
+  - "[DM](devoir.pdf)"
+  - "[DM corrigé](devoir-corrigé.pdf)"
+  - "[Examen](examen.pdf)"
+  - "[Examen corrigé](examen-corrigé.pdf)"
 ---
 
 Le but de ce cours est de donner une introduction à la théorie de l'homotopie moderne, à ses outils et à ses applications, puis d'introduire la notion d'{{< tex "\infty" >}}-catégorie. On suivra essentiellement deux exemples : l'exemple fondateur des espaces topologiques et l'exemple des complexes de chaînes (au sens des cours d'algèbre homologique et topologie algébrique). On présentera l'axiomatique moderne de l'homotopie, les catégories de modèles de Quillen, et on expliquera l'équivalence entre les espaces topologiques et les ensembles simpliciaux. On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour montrer comment les structures multiplicatives des cochaines (singulières ou de Rham) encodent les espaces à homotopie rationnelle près. 
@@ -31,12 +35,8 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 ## Organisation
 
-<mark>**L'examen aura lieu le mardi 18 février de 14h à 17h, dans la salle 1009 du bâtiment Sophie Germain.** Le programme comprend les chapitres 1 et 2.</mark>
 
 Les cours commencent le 6 janvier 2020 et se terminent le 13 février 2020.
-
-Le devoir maison facultatif (à rendre le 4 février si vous souhaitez avoir un retour sur les exercices que vous avez fait) [est disponible ici](devoir.pdf).
-La [solution est là](devoir-corrigé.pdf).
 
 Les deux premières semaines, ils ont lieu les :
 - lundis 15h45--17h45, [Bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces), salle 1012.
@@ -47,6 +47,13 @@ Les quatre dernières semaines, ils auront lieu les :
 - jeudis 9h--11h, [Halle aux Farines](HAF.pdf), salle 280F (*sauf le 6 février : je serai absent et le cours est avancé au 3 février*).
 
 La séance du jeudi 6 février est avancée au lundi 3 février de 16h15 à 18h15, dans la salle 137 du bâtiment Olympe de Gouges.
+
+Le devoir maison facultatif (à rendre le 4 février si vous souhaitez avoir un retour sur les exercices que vous avez fait) [est disponible ici](devoir.pdf).
+La [solution est là](devoir-corrigé.pdf).
+
+L'[examen](examen.pdf) a eu lieu le mardi 18 février de 14h à 17h, dans la salle 1009 du bâtiment Sophie Germain.
+Le programme comprenait les chapitres 1 et 2.
+[La correction se trouve ici.](examen-corrigé.pdf)
 
 Lundi 6 janvier
 : Section 1.1 : Motivation, parallèle entre les espaces topologiques et les complexes de chaînes (équivalences d'homotopies, équivalences faibles, théorème(s) de Whitehead, modèles).
