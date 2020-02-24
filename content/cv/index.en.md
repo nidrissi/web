@@ -452,7 +452,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h) • Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 10h).</dd>
+<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h) • Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 16h + 10h).</dd>
 
 
 

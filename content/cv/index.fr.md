@@ -452,7 +452,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD, 36h) • Mathématiques fondamentales I, L1 SESI (colles et tutorat, 10h).</dd>
+<dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD, 36h) • Mathématiques fondamentales I, L1 SESI (colles et tutorat, 16h + 10h).</dd>
 
 
 
