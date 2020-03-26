@@ -13,6 +13,7 @@ sidebar:
   - "[Website of the Peccot Lectures](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
   - "[News article @ University of Lille](https://www.univ-lille.fr/fileadmin/user_upload/illustrations/contenus/recherche/2017/ActULille_Recherche/News_52_Cours_Peccot_de_Najib_Idrissi_-_article.pdf)"
   - "[Longer version @ Paul Painlevé laboratory](https://math.univ-lille1.fr/d7/node/10461)"
+  - "[News article @ IMJ-PRG](https://www.imj-prg.fr/spip.php?article538)"
 ---
 
 <div class="alert alert-danger">Due to the current COVID-19 pandemic, the last two classes are postponed to a yet unknown date.</div>
