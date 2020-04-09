@@ -1,11 +1,11 @@
 ifeq ($(OS),Windows_NT)
 	sep = \\
-	DIR = ..\web\content\cv
+	DIR = ..\content\cv
 	CP = copy /y
 	RM = del /q
 else
 	sep = /
-	DIR = ../web/content/cv
+	DIR = ../content/cv
 	BUILD = build
 	CP = cp
 	RM = rm -rf
