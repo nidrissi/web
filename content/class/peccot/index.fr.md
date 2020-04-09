@@ -31,7 +31,7 @@ Ce cours sera en partie basé sur des travaux en collaboration avec Ricardo Camp
 
 <div class="float-md-right p-2"><a href="affiche_peccot.pdf"><img src="affiche_peccot.png" alt="Affiche du cours" class="img-thumbnail"></a></div>
 
-**[{{< fa "file-pdf" >}} Des notes de cours (presque complètes) sont disponibles ici.](peccot.pdf)**
+**[{{< fa "file-pdf" >}} Des notes de cours sont disponibles ici.](peccot.pdf)**
 
 ## Informations pratiques
 
