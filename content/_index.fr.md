@@ -9,8 +9,7 @@ menu:
 ---
 
 Bonjour !
-Je suis maître de conférences à [l'Université de Paris](https://u-paris.fr).
-Je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
+Je suis maître de conférences à l'UFR de mathématiques de [l'Université de Paris](https://u-paris.fr) et je fais partie de l'équipe-projet [Topologie et Géométrie Algébriques](https://www.imj-prg.fr/tga/) de [l'Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 Je m'intéresse principalement aux opérades et leurs applications à la topologie algébrique, et plus particulièrement à l'étude des espaces de configuration et leurs liens avec les complexes de graphes.
 
 Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/gestion/evenement/affEvenement/43) de l'IMJ-PRG.
