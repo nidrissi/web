@@ -364,12 +364,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar (× 2)</strong>, <em>Université de Lille</em>.</dd>
 
 
 
@@ -379,12 +374,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">May 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">May 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar</strong>, <em>Université de Lille</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Singular Spaces Geometry Seminar (× 2)</strong>, <em>Université de Lille</em>.</dd>
 
 
 

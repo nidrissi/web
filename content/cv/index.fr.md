@@ -38,7 +38,7 @@ Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2011–août 2015</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015 : Stage de recherche en préparation à un doctorat, Université de Lille.<br />
 2013–2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.<br />
-Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.</dd>
+Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.</dd>
 
 
 
@@ -364,12 +364,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université de Lille</em>.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers</strong>, <em>Université de Lille</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des Espaces Singuliers (× 2)</strong>, <em>Université de Lille</em>.</dd>
 
 
 
@@ -379,12 +374,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">mai 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université de Lille</em>.</dd>
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">mai 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers</strong>, <em>Université de Lille</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers (× 2)</strong>, <em>Université de Lille</em>.</dd>
 
 
 
