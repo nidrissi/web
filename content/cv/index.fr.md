@@ -20,7 +20,7 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Depuis sept. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université de Paris<sup>⋆</sup> &amp; Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)</em>, Paris, France.<br>⋆. Précédemment Université Paris Diderot – Paris 7.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Maître de conférences</strong>, <em>Université de Paris &amp; Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)</em>, Paris, France.</dd>
 
 
 
