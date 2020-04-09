@@ -1,0 +1,471 @@
+---
+lastmod: 2019-12-18
+# localization
+lang: fr ! en
+mylang: french ! english
+seemore: plus d'infos ! more info
+autogen: ⚠ Fichier généré automatiquement ⚠ ! ⚠ Automatically generated file ⚠
+# moderncv options
+style: classic
+color: burgundy
+title: Curriculum Vitæ
+firstname: Najib
+familyname: Idrissi
+address:
+  - Université de Paris -- IMJ-PRG
+  - 8 place Aurélie Nemous
+  - F-75013 Paris, France
+email: najib.idrissi-kaitouni@imj-prg.fr
+homepage: idrissi.eu/fr ! idrissi.eu/en
+phone: (+33) 01 57 27 91 16
+# citations
+nocite: CamposDucoulombierIdrissiWillwacher2018, CamposDucoulombierIdrissi2019, CamposIdrissiWillwacher2019, CamposIdrissiLambrechtsWillwacher2018, Idrissi2017, Idrissi2017a, Idrissi2018, Idrissi2018a, Idrissi2018b, Idrissi2016a, Idrissi2014
+# content
+section:
+  - title: Parcours ! Academic Career
+    content:
+      - entry:
+          a: Depuis 09/2018 ! Since 09/2018
+          b: Maître de conférences
+          c: Université de Paris & Institut de Mathématiques de Jussieu-Paris Rive Gauche (IMJ-PRG)
+          d: Paris
+          e: France
+      - entry:
+          a: 02/2018--08/2018
+          b: Chercheur postdoctorant ! Postdoctoral researcher
+          c: ETH Zürich
+          d: Zürich
+          e: Suisse ! Switzerland
+          f: |
+            Groupe de [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/). Financé par ERC StG 678156--GRAPHCPX.
+            !
+            Group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/). Funded by ERC StG 678156--GRAPHCPX.
+      - entry:
+          a: 09/2015--01/2018
+          b: Doctorat en Mathématiques ! Doctorate in Mathematics
+          c: Université de Lille & Laboratoire Paul Painlevé
+          d: Lille
+          e: France
+          f: |
+            Thèse soutenue le 17 novembre 2017. Directeur : [Benoit Fresse](https://math.univ-lille1.fr/~fresse/).\
+            Titre : *Formalité opéradique et homotopie des espaces de configuration*.
+            !
+            Thesis defended on November 17th, 2017. Advisor: [Benoit Fresse](https://math.univ-lille1.fr/~fresse/).\
+            Title: *Operadic Formality and Homotopy of Configuration Spaces*.
+      - entry:
+          a: 09/2011--08/2015
+          b: Élève fonctionnaire stagiaire
+          c: École Normale Supérieure de Paris
+          d: Paris
+          e: France
+          f: |
+            2014--2015 : Stage de recherche en préparation à un doctorat, Université de Lille.\
+            2013--2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.\
+            Automne 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.
+            !
+            2014--2015: Research internship in preparation of a doctorate, Université de Lille.\
+            2013--2014: Master's degree in Fundamental Mathematics, Université Paris Diderot.\
+            Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.
+      - entry:
+          a: 2009--2011
+          b: Classes prépas (MPSI/MP⋆)
+          c: Lycée Henri Wallon
+          d: Valenciennes
+          e: France
+  - title: Récompenses ! Awards
+    content:
+      entry:
+        a: 2019--2020
+        b: |
+          [Cours Peccot](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)
+          !
+          [Peccot Lecture](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)
+        c: Collège de France -- Fondation Claude-Antoine Peccot
+        d: Paris
+        e: France
+        f: |
+          «\ [...] récompense chaque année de jeunes mathématiciens de moins de 30 ans s'étant signalés dans l'ordre des mathématiques théoriques ou appliquées.\ »
+          !
+          "[...] rewards each year young mathematicians under 30 who have been noticed in theoretical or applied mathematics"
+  - title: Recherche ! Research
+    more: /research
+    content:
+      - subtitle: Publications
+      - bib: publication
+      - subtitle: Prépublications ! Preprints 
+      - bib: preprint
+      - subtitle: Autres documents ! Other documents
+      - bib: thesis,other
+  - title: Financements ! Funding
+    content:
+      - subtitle: Obtenus ! Obtained
+      - item:
+          a: 2019
+          b: |
+            Porteur d'un *Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur (PEPS JCJC) »*, CNRS / Insmi, 3500 €
+            !
+            Holder of an *Exploratory Project for First Support "Young Researcher (PEPS JCJC)"*, CNRS / Insmi, 3500 €
+      - item:
+          a: 09/2015--01/2018
+          b: |
+            Contrat doctoral spécifique normalien, École Normale Supérieure de Paris
+            !
+            Specific doctoral contract "*normalien*", École Normale Supérieure de Paris
+      - subtitle: Membre ! Member
+      - item:
+          a: 2014--2015
+          b: |
+            Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)\ »](https://math.univ-lille1.fr/~operads/). Coordinateur : Benoit Fresse
+            !
+            Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)*"](https://math.univ-lille1.fr/~operads/) (HOGT). Coordinator: Benoit Fresse
+  - title : Service
+    content:
+      - subtitle: Organisation ! Organization
+      - entry:
+          a: Depuis 10/2018 ! Since 10/2018
+          b: |
+            Un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/gestion/evenement/affEvenement/43)
+            !
+            One of the organizers of the [Topology Seminar](https://www.imj-prg.fr/gestion/evenement/affEvenement/43)
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+      - entry:
+          a: 01/2019--06/2019
+          b: |
+            Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt/stabilite/)
+            !
+            Organization of a [reading seminar on homological stability](https://idrissi.eu/fr/gdt/stabilite/)
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+      - entry:
+          a: 10/2017
+          b: |
+            Participation à l'organisation de la journée de préparation pour jeunes chercheurs
+            !
+            Participation to the organization of the introductory day for young researchers
+          c: Colloque 2017 du GDR Topologie Algébrique
+          d: Paris
+      - entry:
+          a: 2016--2017
+          b: "Un des organisateurs du Séminaire des doctorants ! One of the organizers of the PhD students' seminar"
+          c: Laboratoire Paul Painlevé
+          d: Lille
+      - subtitle: Jurys
+      - entry:
+          a: 01/2020
+          b: |
+            Jury de soutenance de thèse d'Erica Minuz (dir. de thèse : Marcel Bökstedt)
+            !
+            PhD defense jury of Erica Minuz (advisor: Marcel Bökstedt)
+          c: Université d'Aarhus ! Aarhus University
+      - entry:
+          a: 09/2019
+          b: |
+            Jury de soutenance de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)
+            !
+            Master's memoir defense jury of Basile Coron (advisor: Thomas Willwacher)
+          c: Sorbonne Université
+      - entry:
+          a: 2018--2019
+          b: Jury d'examen L1 MIASHS ! Exam jury for L1 MIASHS
+          c: Université Paris Diderot
+      - subtitle: Autre ! Other
+      - entry:
+          a: en cours ! ongoing
+          b: Évaluations d'articles ! Peer reviews
+          f: |
+            Algebraic & Geometric Topology,
+            Communications in Mathematical Physics,
+            Letters in Mathematical Physics,
+            Royal Society of Edinburgh: Proceedings A,
+            Selecta Mathematica
+      - entry:
+          a: en cours ! ongoing
+          b: "Écriture de résumés pour [Zentralblatt MATH](https://zbmath.org/?q=rv%3Anajib.idrissi) ! Writing of abstracts for [Zentralblatt MATH](https://zbmath.org/?q=rv%3Anajib.idrissi)"
+  - title: Exposés ! Talks
+    more: /talk
+    content:
+      - subtitle: Sur invitation ! Invited
+      - entry:
+          a: 02/2020
+          b: Málaga & Topology Meeting
+          c: Universidad de Málaga
+      - entry:
+          a: 12/2019
+          b: Workshop d'ouverture du projet OCHoTop ! Opening workshop of the OCHoTop project
+          c: École Polytechnique Fédérale de Lausanne (EPFL)
+      - entry:
+          a: 11/2019
+          b: Journée de topologie
+          c: Université de Picardie Jules Verne
+      - entry:
+          a: 05/2019
+          b: Higher Homotopy Algebras in Topology
+          c: Max-Planck-Institut für Mathematik (MPIM)
+      - entry:
+          a: 01/2019
+          b: Structures Supérieures ! Higher Structures
+          c: Centre International de Rencontres Mathématiques (CIRM)
+      - entry:
+          a: 06/2018
+          b: |
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior)
+            !
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)
+          c: Fields Institute
+      - entry:
+          a: 05/2018
+          b: Graph Complexes, Configuration Spaces and Manifold Calculus
+          c: University of British Columbia
+      - entry:
+          a: 10/2017
+          b: Séminaire Itinérant de Catégories
+          c: Université du Littoral Côte d'Opale
+      - entry:
+          a: 10/2016
+          b: "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
+          c: Institut des Hautes Études à Tunis
+      - subtitle: Sur proposition ! Contributed
+      - entry:
+          a: 07/2017
+          b: Young Topologists Meeting 2017
+          c: Stockholm Universitet & KTH
+      - entry:
+          a: 02/2017
+          b: Conference for Young researchers in homotopy theory and categorical structures
+          c: Max-Planck-Institut für Mathematik (MPIM)
+      - entry:
+          a: 10/2016
+          b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
+          c: Université de Picardie Jules Verne
+      - subtitle: Séminaires ! Seminars
+      - entry:
+          a: 01/2020
+          b: Seminar
+          c: Aarhus Universitet
+      - entry:
+          a: 07/2019
+          b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
+          c: Université catholique de Louvain
+      - entry:
+          a: 05/2019
+          b: Séminaire de Topology ! Topology Seminar
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+      - entry:
+          a: 12/2018
+          b: Stockholm Topology Seminar
+          c: Stockholm Universitet & KTH
+      - entry:
+          a: 11/2018
+          b: Séminaire Géométrie & Topologie ! Geometry & Topology Seminar
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+      - entry:
+          a: 06/2018
+          b: Departmental Colloquium ! Colloque du département
+          c: University of Regina
+      - entry:
+          a: 12/2017
+          b: Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
+          c: Université de Nantes
+      - entry:
+          a: 12/2017
+          b: Séminaire Algèbre et Topologie ! Algebra and Topology seminar
+          c: Université de Strasbourg
+      - entry:
+          a: 11/2017
+          b: Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
+          c: "Université d'Angers"
+      - entry:
+          a: 11/2017
+          b: Séminaire Homotopie en Géométrie Algébrique ! Homotopy in Algebraic Geometry Seminar
+          c: Université Paul Sabatier
+      - entry:
+          a: 10/2017
+          b: Séminaire de Géométrie des Espaces Singuliers (× 2) ! Singular Spaces Geometry Seminar (× 2)
+          c: Université de Lille
+      - entry:
+          a: 08/2017
+          b: Exposés de physique mathématiques ! Talks in mathematical physics
+          c: ETH Zürich
+      - entry:
+          a: 05/2017
+          b: Séminaire de Géométrie des espaces singuliers (× 2) ! Singular Spaces Geometry Seminar (× 2)
+          c: Université de Lille
+      - entry:
+          a: 01/2017
+          b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
+          c: Université catholique de Louvain
+      - entry:
+          a: 11/2016
+          b: Séminaire de topologie algébrique ! Algebraic Topology Seminar
+          c: Université Paris 13
+      - entry:
+          a: 09/2016
+          b: Séminaire de Topologie ! Topology Seminar
+          c: Université de Lille
+      - entry:
+          a: 06/2016
+          b: Exposés en Physique Mathématique ! Talks in Mathematical Physics
+          c: ETH Zürich
+      - entry:
+          a: 04/2016
+          b: Séminaire de Topologie ! Topology Seminar
+          c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+      - entry:
+          a: 12/2015
+          b: "Séminaire des doctorants ! PhD students' seminar"
+          c: Université de Lille
+      - entry:
+          a: 12/2015
+          b: "Séminaire des doctorants ! PhD students' seminar"
+          c: Université de Picardie Jules Verne
+      - entry:
+          a: 10/2015
+          b: Séminaire de Topologie Algébrique ! Algebraic Topology seminar
+          c: Université catholique de Louvain
+      - entry:
+          a: 09/2015
+          b: Séminaire de Topologie ! Topology Seminar
+          c: Université de Lille
+  - title: Enseignement ! Teaching
+    more: /class
+    content:
+      - item:
+          a: 2019--2020
+          b: |
+            Homotopie réelle des espaces de configuration, Cours Peccot, Collège de France (8h) •
+            Théorie de l'homotopie, M2 Maths fondas (cours, 24h) •
+            Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 MIASHS (cours/TD, 56,5h) •
+            Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) •
+            Algorithmes et Programmation, L2 (TD+TP, 42h)
+            !
+            Real Homotopy of Configuration Spaces, Peccot Lecture, Collège de France (8h) •
+            Homotopy Theory, M2 Fundam.\ Math (lectures, 24h) •
+            Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) •
+            Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) •
+            Algorithms and Programmation, L2 (exercises+labs, 42h)
+      - item:
+          a: 2018--2019
+          b: |
+            Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 72h) •
+            Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h)
+            !
+            Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h) •
+            Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h)
+      - item:
+          a: 2017--2018
+          b: |
+            Analyse 1, L1 MASS (TD, 36h) •
+            Mathématiques fondamentales I, L1 SESI (colles et tutorat, 16h + 10h)
+            !
+            Calculus 1, L1 MASS (exercises, 36h) •
+            Fundamental mathematics 1, L1 SESI (oral exams & tutoring, 16h + 10h)
+      - item:
+          a: 2016--2017
+          b: |
+            Calcul matriciel, L2 éco-gestion-management (TD, 36h) •
+            Analyse 1, L1 éco-gestion-management (TD, 15h) •
+            Analyse 1, L1 MASS (TD, 15h)
+            !
+            Matrix calculus, L2 econ-management (exercises, 36h) •
+            Calculus 1, L1 econ-management (exercises, 15h) •
+            Calculus 1, L1 MASS (exercises, 15h)
+      - item:
+          a: 2015--2016
+          b: |
+            Mathématiques fondamentales 2, L1 SESI (TD, 66h)
+            !
+            Fundamental mathematics 2, L1 SESI (exercises, 66h)
+  - title: Visites ! Visits
+    content:
+      - item:
+          a: 07/2019
+          b: Université catholique de Louvain -- Pascal Lambrechts (5 j.) ! Université catholique de Louvain -- Pascal Lambrechts (5 d.)
+      - item:
+          a: 06/2019
+          b: ETH Zurich -- Thomas Willwacher (5 j.) ! ETH Zurich -- Thomas Willwacher (5 d.)
+      - item:
+          a: 06/2018
+          b: University of Regina -- Don Stanley (10 j.) ! University of Regina -- Don Stanley (10 d.)
+      - item:
+          a: 08/2017
+          b: ETH Zurich -- Thomas Willwacher (5 j.) ! ETH Zurich -- Thomas Willwacher (5 d.)
+      - item:
+          a: 01/2017
+          b: Université catholique de Louvain -- Pascal Lambrechts (5 j.) ! Université catholique de Louvain -- Pascal Lambrechts (5 d.)
+      - item:
+          a: 06/2016
+          b: ETH Zurich -- Thomas Willwacher (4 j.) ! ETH Zurich -- Thomas Willwacher (4 d.)
+  - title: Conférences, workshops et écoles thématiques ! Conferences, workshops and thematic schools attended
+    content:
+      - item:
+          a: 2020
+          b: |
+            ~~*Toric Topology and Polyhedral Products* (Fields Institute)~~ [cancelled due to Covid19] •
+            *Málaga & Topology Meeting* (Universidad de Málaga)
+      - item:
+          a: 2019
+          b: |
+            *Opening workshop of the OCHoTop project* (EPFL) •
+            *Journée de topologie* (Université de Picardie Jules Verne) •
+            *Colloque 2019 du GDR Topologie Algébrique et Applications* (Université d'Artois) •
+            *Groupe de travail : Valeurs zêta multiples en quantification par déformation* (Université de Montpellier) •
+            *SYM 10 Years Old* (Københavns Universitet) •
+            *Topologie de basse dimension : Colloque en l'honneur de Christian Blanchet* (Université Paris Diderot) •
+            *Higher Homotopy Algebras in Topology* (Max-Planck-Institut für Mathematik, Bonn) •
+            *Structures Supérieures* (Centre International de Rencontres Mathématiques, Luminy) •
+            *Higher Structures in Holomorphic and Topological Field Theory* (Institut des Hautes Études Scientifiques)
+      - item:
+          a: 2018
+          b: |
+            *New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday* (Institut Henri Poincaré, Paris) •
+            *Colloque 2018 du GDR Topologie Algébrique* (Université de Montpellier) •
+            *Derived Geometry and Higher Categorical Structures in Geometry and Physics* (Fields Institute) •
+            *Graph Complexes, Configuration Spaces and Manifold Calculus* (University of British Columbia) •
+            *Rational Homotopy and its Applications* (Université de Lille)
+      - item:
+          a: 2017
+          b: |
+            *Colloque 2017 du GDR Topologie Algébrique* (Université Paris Diderot) •
+            *Séminaire Itinérant de Catégories* (Université du Littoral Côte d'Opale) •
+            *Journée des doctorants du Nord-Pas-de-Calais* (Université du Littoral Côte d'Opale) •
+            *Workshop on Persistent Homology* (Université de Montpellier) •
+            *Young Topologists Meeting 2017* (Stockholm Universitet & KTH) •
+            *Algebraic Topology and Representation Theory* (Université de Lille) •
+            *Derived Algebraic Geometry and Interactions* (Université de Toulouse) •
+            *Fourth Young Mathematicians Colloquium* (Vrije Universiteit Brussel) •
+            *Lens Topology and geometry 2017* (Université d'Artois, Lens) •
+            *Workshop on Quantum Topology* (Université de Lille) •
+            *Conference for Young researchers in homotopy theory and categorical structures* (Max-Planck-Institut für Mathematik, Bonn)
+      - item:
+          a: 2016
+          b: |
+            *Conference in the honour of Saïd Zarati* (Institut des Hautes Études à Tunis) •
+            *Colloque 2016 du GDR Topologie Algébrique et Applications* (Université de Picardie Jules Verne) •
+            *Young Topologists Meeting 2016* (Københavns Universitet) •
+            *Workshop: Factorization Algebras and Functorial Field Theories* (Mathematisches Forschungsinstitut Oberwolfach) •
+            *Séminaire Itinérant de Catégories* (Université de Lille)
+      - item:
+          a: 2015
+          b: |
+            *Colloque 2015 du GDR Topologie Algébrique et Applications* (Université de Toulouse-3) •
+            *Lens Topology and geometry 2015* (Université d'Artois, Lens) •
+            *Introductory School -- Homotopy theory, manifolds, and field theories* (Hausdorff Research Institute for Mathematics) •
+            *Séminaire du projet ANR HOGT* (Université de Strasbourg) •
+            *Second Young Mathematicians Colloquium* (KU Leuven Kulak) •
+            *Séminaire Itinérant de Catégories* (Université du Littoral Côte d'Opale, Calais) •
+            *Masterclass : K-théorie topologique et applications* (Université de Strasbourg) •
+            *Séminaire du projet ANR HOGT* (Université de Lille)
+      - item:
+          a: 2014
+          b: |
+            *Colloque 2014 du GDR Topologie Algébrique et Applications* (Université Blaise Pascal) •
+            *Colloque de clôture du projet ANR HOGT* (Université de Nice) •
+            *Espaces des lacets en géométrie et topologie* (Université de Nantes) •
+            *Young Topologists Meeting 2014* (Københavns Universitet) •
+            *Young Mathematicians Colloquium* (Université de Lille) •
+            *Séminaire du projet ANR HOGT* (Université de Lille)
+      - item:
+          a: 2013
+          b: |
+            *Gelfand Centennial Conference: A View of 21st Century Mathematics* (Massachusetts Institute of Technology) •
+            *Conference in Algebra and Topology celebrating Lionel Schwartz's 60th birthday* (Université de Nantes)
+...

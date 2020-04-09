@@ -1,0 +1,123 @@
+% $autogen$
+\documentclass[a4paper]{moderncv}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Tex Gyre Heros}
+\usepackage{microtype}
+\usepackage[super]{nth}
+
+\usepackage[normalem]{ulem}               % \sout
+
+\usepackage[scale=0.9]{geometry}
+\moderncvstyle{$style$}
+\moderncvcolor{$color$}
+% width of the column
+\setlength{\hintscolumnwidth}{3.8cm}
+
+\usepackage[useregional,$mylang$]{datetime2}
+
+% i18n
+\usepackage{polyglossia}
+\setmainlanguage{$mylang$}
+
+% bib
+\usepackage{csquotes}
+\usepackage[defernumbers=true,sorting=ymdnt, maxnames=10]{biblatex}
+% https://tex.stackexchange.com/questions/46868/biblatex-sorting-by-date
+% sort by year, month, day, name, title
+\DeclareSortingTemplate{ymdnt}{
+  \sort{
+    \field{presort}
+  }
+  \sort[final]{
+    \field{sortkey}
+  }
+  \sort[direction=descending]{
+    \field{sortyear}
+    \field{year}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{month}
+    \literal{00}
+  }
+  \sort[direction=descending]{
+    \field[padside=left,padwidth=2,padchar=0]{day}
+    \literal{00}
+  }
+  \sort{
+    \field{sortname}
+    \field{author}
+    \field{editor}
+    \field{translator}
+    \field{sorttitle}
+    \field{title}
+  }
+  \sort{
+    \field{sorttitle}
+  }
+  \sort{
+    \field[padside=left,padwidth=4,padchar=0]{volume}
+    \literal{0000}
+  }
+}
+
+% https://tex.stackexchange.com/a/354610
+% add pagetotal to misc (preprints) entries
+\renewbibmacro*{addendum+pubstate}{%
+  \printfield{addendum}%
+  \newunit\newblock
+  \printfield{pubstate}
+  \newunit\newblock
+  \ifentrytype{misc}{\printfield{pagetotal}}{}}
+
+% change localization of "master thesis"
+\DefineBibliographyStrings{english}{mathesis = {Master's thesis}}
+
+% bibresource
+\addbibresource{mainbib.bib}
+
+\title{$title$}
+\firstname{$firstname$}
+\familyname{$familyname$}
+\address$for(address)${$address$}$endfor$
+\email{$email$}
+\extrainfo{\DTMdate{$lastmod$}}
+\homepage{$homepage$}
+\phone[fixed]{$phone$}
+
+\begin{document}
+\maketitle
+\nocite{$nocite$}
+
+$for(section)$
+\section{$section.title$}
+
+$for(section.content)$
+  $if(section.content.subtitle)$\subsection{$section.content.subtitle$}$endif$
+  $if(section.content.entry)$
+    \cventry
+    {$section.content.entry.a$}{$section.content.entry.b$}{$section.content.entry.c$}{$section.content.entry.d$}{$section.content.entry.e$}{$section.content.entry.f$}
+  $endif$
+  $if(section.content.item)$
+    \cvitem
+    {$section.content.item.a$} {$section.content.item.b$.}
+  $endif$
+  $if(section.content.bib)$
+  % I have now mastered the dark arts. Or not.
+  \makeatletter
+  \@for\w:=$section.content.bib$\do{
+    \begingroup\edef\x{\endgroup\noexpand
+      \printbibliography[keyword={my-\w}, heading=none]
+    }\x
+  }
+  \makeatother
+  $endif$
+$endfor$
+
+$endfor$
+
+\end{document}
+
+% Local Variables:
+% TeX-engine: luatex
+% End:

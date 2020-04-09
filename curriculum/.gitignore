@@ -1,0 +1,30 @@
+# .gitignore
+
+auto/
+*.pdf_tex
+*.bak
+*-blx.bib
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.run.xml
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+*.nav
+*.out
+*.snm
+*.bcf
+*.tdo
+*.pdf
+
+# CV
+*.out.yaml
+*.out.tex
+*.out.md
+build
+
+# tup
+.tup/
