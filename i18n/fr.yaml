@@ -12,6 +12,8 @@
   translation: Diapos
 - id: btn_video
   translation: Vidéo
+- id: btn_notes
+  translation: Notes
 - id: btn_source
   translation: Source
 # About

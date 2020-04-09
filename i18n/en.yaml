@@ -14,6 +14,8 @@
   translation: Slides
 - id: btn_video
   translation: Video
+- id: btn_notes
+  translation: Notes
 - id: btn_source
   translation: Source
 # About

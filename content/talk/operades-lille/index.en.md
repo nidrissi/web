@@ -6,5 +6,5 @@ eventURL: "http://math.univ-lille1.fr/d7/node/8816"
 location: Université de Lille
 title: Opérades
 urls:
-  slides: /pdf/slides/operades.pdf
+  notes: /pdf/slides/operades.pdf
 ---

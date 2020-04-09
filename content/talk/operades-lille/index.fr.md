@@ -7,5 +7,5 @@ location: Université de Lille
 selected: false
 title: Opérades
 urls:
-  slides: /pdf/slides/operades.pdf
+  notes: /pdf/slides/operades.pdf
 ---
