@@ -313,6 +313,11 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">avr. 2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Toric Topology Research Seminar</strong>, <em>Fields institute (<em>online</em> due to COVID19)</em>.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2020</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Seminar</strong>, <em>Aarhus Universitet</em>.</dd>
 
