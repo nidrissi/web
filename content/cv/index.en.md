@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastmod: 2019-12-18
+lastmod: 2020-04-15
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf
@@ -213,7 +213,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer reviews</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Peer reviews</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Journal de l’École Polytechnique, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
 
 
 

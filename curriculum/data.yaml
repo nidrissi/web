@@ -1,5 +1,5 @@
 ---
-lastmod: 2019-12-18
+lastmod: 2020-04-15
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -174,6 +174,7 @@ section:
           f: |
             Algebraic & Geometric Topology,
             Communications in Mathematical Physics,
+            Journal de l'École Polytechnique,
             Letters in Mathematical Physics,
             Royal Society of Edinburgh: Proceedings A,
             Selecta Mathematica

@@ -1,7 +1,7 @@
 ---
 # ⚠ Fichier généré automatiquement ⚠
 title: Curriculum Vitæ
-lastmod: 2019-12-18
+lastmod: 2020-04-15
 date: 2018-01-01
 urls:
   pdf: cv.fr.pdf
@@ -213,7 +213,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Journal de l’École Polytechnique, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
 
 
 
