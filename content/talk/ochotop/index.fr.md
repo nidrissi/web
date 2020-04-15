@@ -7,7 +7,5 @@ event: Workshop d'ouverture du project OCHoTop
 eventURL: http://math.univ-lille1.fr/~fresse/ochotop/activities.html#OpeningWorkshop
 location: EPFL (Lausanne)
 urls:
-  pdf:
-  slides:
-  video:
+  notes: ochotop.pdf
 ---

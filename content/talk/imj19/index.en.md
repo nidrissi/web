@@ -5,4 +5,6 @@ abstract: "L'homologie de factorisation est une théorie homologique pour les va
 event: Séminaire de Topologie
 eventURL: https://www.imj-prg.fr/spip.php?evenement2741
 location: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+urls:
+  notes: imj19.pdf
 ---

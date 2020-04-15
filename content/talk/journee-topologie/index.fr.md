@@ -7,7 +7,5 @@ event: Journée Amiénoise de Topologie
 eventURL: https://www.lamfa.u-picardie.fr/Colloques/JAT/
 location: Université de Picardie Jules Verne (Amiens)
 urls:
-  pdf:
-  slides:
-  video:
+  notes: amiens19.pdf
 ---
