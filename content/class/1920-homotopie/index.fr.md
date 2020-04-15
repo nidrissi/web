@@ -79,7 +79,7 @@ Mardi 28 janvier
 Jeudi 30 janvier
 : Sections 2.1--2.3 : Introduction aux ensembles simpliciaux.
 
-Lundi 3 février (⚠ créneau inhabituel 16h15--18h15)
+Lundi 3 février ({{< fa "exclamation-triangle" >}} créneau inhabituel 16h15--18h15)
 : Sections 2.4--2.5 : Structure de catégorie de modèles sur les ensembles simpliciaux et début de l'équivalence avec les espaces topologiques.
 
 Mardi 4 février
@@ -88,7 +88,7 @@ Mardi 4 février
 ~~Jeudi 6 février~~
 : (cours avancé au 3 février)
 
-Mardi 11 février (⚠ salle 2017)
+Mardi 11 février ({{< fa "exclamation-triangle" >}} salle 2017)
 : Section 3.2--3.3 : Structure de catégorie de modèles sur les ADGC, théorie de Sullivan, comparaison avec les ensembles simpliciaux à équivalence rationnelle près.
 
 Jeudi 13 février

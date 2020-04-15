@@ -78,7 +78,7 @@ Tuesday January 28th
 Thursday January 30th
 : Sections 2.1--2.3: Introduction to simplicial sets.
 
-Monday February 3rd (⚠ unusual time slot: 16:15--18:15)
+Monday February 3rd ({{< fa "exclamation-triangle" >}}  unusual time slot: 16:15--18:15)
 : Sections 2.4--2.5: Model structure on simplicial sets, beginning of the equivalence with topological spaces.
 
 Tuesday February 4th
@@ -87,7 +87,7 @@ Tuesday February 4th
 ~~Thursday February 6th~~
 : (moved to February 3rd)
 
-Tuesday February 11th (⚠ room 2017)
+Tuesday February 11th ({{< fa "exclamation-triangle" >}} room 2017)
 : Sections 3.2--3.3: Model structure on CDGAs, Sullivan theory, comparison with simplicial sets up to rational equivalence.
 
 Thursday February 13th
