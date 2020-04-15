@@ -52,6 +52,8 @@
   translation: Événement
 - id: location
   translation: Lieu
+- id: no_pdf
+  translation: "Ce navigateur n'est pas compatible avec l'inclusion de PDF, téléchargez-le ici."
 - id: status_publication
   translation: Publications
 - id: status_preprint

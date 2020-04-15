@@ -54,6 +54,8 @@
   translation: Event
 - id: location
   translation: Location
+- id: no_pdf
+  translation: "This browser does not support PDF embeds, download it here."
 - id: status_publication
   translation: Publications
 - id: status_preprint
