@@ -7,7 +7,7 @@ time: 24h
 year: 2019–2020
 date: 2020-01-01
 publishdate: 2019-05-01
-lastmod: 2020-01-07
+lastmod: 2020-04-30
 sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
   - "[**Lecture notes**](homotopie.pdf)"
