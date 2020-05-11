@@ -7,7 +7,6 @@ event: Toric Topology Research Seminar (en ligne)
 eventURL: http://www.fields.utoronto.ca/activities/19-20/research-seminar
 location: Fields Institute (en ligne)
 urls:
-  pdf: fields.pdf
-  slides:
+  slides: fields.pdf
   video:
 ---
