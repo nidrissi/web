@@ -27,11 +27,11 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 ## Plan
 
-2. Catégories de modèles.
-3. Foncteurs de Quillen et foncteurs dérivés.
-4. Comparaison des ensembles simpliciaux et espaces topologiques.
-5. Homotopie rationnelle.
-6. Notions de théorie des {{< tex "\infty" >}}-catégories.
+1. Catégories de modèles.
+2. Foncteurs de Quillen et foncteurs dérivés.
+3. Comparaison des ensembles simpliciaux et espaces topologiques.
+4. Homotopie rationnelle.
+5. Notions de théorie des {{< tex "\infty" >}}-catégories.
 
 ## Organisation
 
