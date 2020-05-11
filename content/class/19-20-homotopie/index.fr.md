@@ -1,6 +1,5 @@
 ---
 title: "Introduction à la théorie de l'homotopie"
-toc: true
 cursus: M2 Mathématiques fondamentales (S2)
 what: Cours
 time: 24h

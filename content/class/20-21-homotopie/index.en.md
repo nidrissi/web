@@ -1,6 +1,5 @@
 ---
 title: "Homotopy II"
-toc: true
 cursus: M2 Fundamental Mathematics (S2)
 what: Lectures
 time: 24h
