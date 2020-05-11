@@ -10,7 +10,7 @@ publishdate: 2019-05-01
 lastmod: 2020-04-30
 sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
-  - "[**Lecture notes**](homotopie.pdf)"
+  - "[**Lecture notes**](../20-21-homotopie/homotopie.pdf)"
   - "[Homework](devoir.pdf)"
   - "[Solution of the homework](devoir-corrigé.pdf)"
   - "[Exam](examen.pdf)"
@@ -21,9 +21,7 @@ The goal of this course is to give an introduction to modern homotopy theory, it
 
 **Prerequisites.** It is advised to have already taken a class on algebraic topology as well as an introduction to homological algebra.
 
-<div class="alert alert-primary" role="alert">
-{{< fa "file-pdf" >}} <a class="alert-link" href="homotopie.pdf">Lecture notes are available here.</a>
-</div>
+<p class="lead"><a href="../20-21-homotopie/homotopie.pdf"><b>{{< fa "file-pdf" >}} Lecture notes are available here.</b></a></p>
 
 ## Plan
 

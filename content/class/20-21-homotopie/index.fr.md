@@ -9,9 +9,12 @@ date: 2021-01-01
 publishdate: 2020-05-06
 sidebar:
   - "[M2 Mathématiques fondamentales](http://master-math-fonda.imj-prg.fr/)"
+  - "[**Notes de cours**](homotopie.pdf)"
 ---
 
 L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications. Nous nous intéresserons particulièrement à deux exemples : les complexes de chaînes (cf. les cours d'algèbre homologique et de topologique algébrique) et les espaces topologiques. Nous présenterons les catégories de modèles de Quillen, et nous expliquerons l'équivalence entre les espaces topologiques et les ensembles simpliciaux. Nous illustrerons ces méthodes avec la théorie de l'homotopie rationnelle en montrant que la structure multiplicative des cochaînes encode le type d'homotopie rationnel des espaces topologiques.
+
+<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
 
 **Prérequis.**  Il est recommandé d'avoir suivi les cours Homologie et Homotopie I. Il sera notamment utile d'avoir une certaine familiarité avec le langage catégorique et les notions de base en topologie algébrique et en algèbre homologique. 
 

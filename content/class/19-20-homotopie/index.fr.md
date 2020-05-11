@@ -21,9 +21,7 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 **Prérequis.**  Il est conseillé d'avoir suivi un cours de topologie algébrique ainsi qu'une introduction à l'algèbre homologique. 
 
-<div class="alert alert-primary" role="alert">
-{{< fa "file-pdf" >}} <a class="alert-link" href="homotopie.pdf">Les notes de cours sont disponibles ici.</a>
-</div>
+<p class="lead"><a href="../20-21-homotopie/homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
 
 ## Plan
 
@@ -31,7 +29,7 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 2. Foncteurs de Quillen et foncteurs dérivés.
 3. Comparaison des ensembles simpliciaux et espaces topologiques.
 4. Homotopie rationnelle.
-5. Notions de théorie des {{< tex "\infty" >}}-catégories.
+6. Notions de théorie des {{< tex "\infty" >}}-catégories.
 
 ## Organisation
 
