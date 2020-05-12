@@ -16,7 +16,7 @@ sidebar:
   - "[News article @ IMJ-PRG](https://www.imj-prg.fr/spip.php?article538)"
 ---
 
-<div class="alert alert-danger">Due to the current COVID-19 pandemic, the last two classes are postponed to a yet unknown date.</div>
+<div class="alert alert-danger">Due to the current COVID-19 pandemic, the last two classes were postponed and they will be recorded without an audience; they will be made available online.</div>
 
 In this lecture, we will study the real homotopy type of configuration spaces of manifolds.
 Configuration spaces consist in collections of pairwise distinct points in a given manifold.
@@ -36,8 +36,8 @@ This lecture is based in part on joint works with Ricardo Campos, Julien Ducoulo
 ## Practical informations
 
 The lessons will take place at the Collège de France (11 place Marcelin-Berthelot, in the 5th district of Paris), in room 5.
-They will be on Wednesdays 4th, 11th, 18th, and 25th, March 2020, from 11AM to 1PM.
-They are open to everyone.
+They were initially planned on Wednesdays 4th, 11th, 18th, and 25th, March 2020, from 11AM to 1PM.
+Due to the COVID-19 pandemic, the last two lessons were postponed respectively to May 25th and 28th (10AM--12PM) and will be recorded without an audience.
 
 [March 4th 11:00–13:00 {{< fa "video" >}}](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm)
 : Chapter 1: Configuration spaces of manifolds
@@ -53,10 +53,10 @@ They are open to everyone.
   3. Semi-algebraic sets and forms
   4. Definition of the unreduced graph complex -- Propagator
 
-<del>March 18th 11:00–13:00</del> (postponed)
+<del>(March 18th 11:00--13:00)</del> May 25th 10:00--12:00
 : [summary to come]
 
-<del>March 25th 11:00–13:00</del> (postponed)
+<del>(March 25th 11:00--13:00)</del> May 28th 10:00--12:00
 : [summary to come]
 
 ## Plan

@@ -16,7 +16,7 @@ sidebar:
   - "[News article @ IMJ-PRG](https://www.imj-prg.fr/spip.php?article538)"
 ---
 
-<div class="alert alert-danger">Du fait de la pandémie de COVID-19 qui sévit actuellement, les deux dernières leçons sont reportées à une date encore inconnue.</div>
+<div class="alert alert-danger">Du fait de la pandémie de COVID-19 qui sévit actuellement, les deux dernières leçons ont été reportées et ne seront pas ouvertes au public ; l'enregistrement sera disponible en ligne.</div>
 
 Dans ce cours, nous étudierons le type d'homotopie réel des espaces de configuration de variétés.
 Les espaces de configuration consistent en des collections de points deux à deux distincts dans une variété donnée.
@@ -36,7 +36,8 @@ Ce cours sera en partie basé sur des travaux en collaboration avec Ricardo Camp
 ## Informations pratiques
 
 Les leçons se déroulent au Collège de France (11 place Marcelin-Berthelot, dans le 5<sup>ème</sup> arrondissement de Paris), en salle 5.
-Elles auront lieu les mercredi 4, 11, 18 et 25 mars 2020 de 11h à 13h et sont ouvertes à toutes et tous.
+Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 11h à 13h.
+À cause de la pandémie de COVID-19, les deux dernières ont été reportées respectivement les 25 et 28 mai de 10h à 12h et seront enregistrées sans public.
 
 [4 mars 11h–13h {{< fa "video" >}}](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm)
 : Chapitre 1 : Espaces de configuration de variétés
@@ -52,10 +53,10 @@ Elles auront lieu les mercredi 4, 11, 18 et 25 mars 2020 de 11h à 13h et sont o
   3. Ensembles et formes semi-algébriques
   4. Définition du complexe de graphes non-réduit -- Propagateur
 
-<del>18 mars 11h–13h</del> (reporté)
+<del>(18 mars 11h--13h)</del> 25 mai 10h–12h (en ligne)
 : [résumé à venir]
 
-<del>25 mars 11h–13h</del> (reporté)
+<del>(25 mars 11h--13h)</del> 28 mai 10h–12h (en ligne)
 : [résumé à venir]
 
 ## Plan
