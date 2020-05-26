@@ -2,7 +2,7 @@
 title: Video
 date: 2020-02-28
 draft: false
-tags: [math]
+tags: [math, peccot]
 ---
 
 I am finishing to prepare my [Peccot Lectures]({{< ref "class/peccot" >}}) that start next week.

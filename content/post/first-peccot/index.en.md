@@ -2,7 +2,7 @@
 title: First Peccot lecture
 date: 2020-03-05
 draft: false
-tags: [math]
+tags: [math, peccot]
 ---
 
 Yesterday was my first [Peccot lecture]({{< ref "class/peccot" >}})!

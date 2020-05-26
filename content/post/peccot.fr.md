@@ -2,7 +2,7 @@
 title: Cours Peccot
 date: 2019-09-24
 draft: false
-tags: [math]
+tags: [math, peccot]
 ---
 
 J'ai reçu hier une lettre du Collège de France.

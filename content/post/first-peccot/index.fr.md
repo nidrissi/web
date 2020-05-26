@@ -2,7 +2,7 @@
 title: Premier cours Peccot
 date: 2020-03-05
 draft: false
-tags: [math]
+tags: [math, peccot]
 ---
 
 Mon premier [cours Peccot]({{< ref "class/peccot" >}}) a eu lieu hier !
