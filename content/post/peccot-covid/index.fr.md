@@ -13,7 +13,7 @@ Fort heureusement, le nombre de cas est actuellement en baisse, et le confinemen
 J'ai donc pu me rendre au Collège de France hier pour enregistrer ma troisième leçon, qui devrait apparaître en ligne prochainement.
 L'expérience était un peu surréaliste : j'ai donné un cours de deux heures devant un grand auditoire vide à l'exception de moi-même et du caméraman.
 J'avais dû faire cours en ligne durant le confinement, mais même cela avait un certain côté interactif, alors qu'hier je parlais presque littéralement à un mur, ce qui était assez déstabilisant.
-Mais quand même, je voudrais remercier le Collège de France pour la possibilité d'enregistrer ces cours !
+Mais je suis quand même heureux d'avoir pu enregistrer le cours, et je voudrais remercier le Collège de France pour cette possibilité !
 La situation actuelle est très difficile pour tout le monde, et je ne suis pas le plus à plaindre, évidemment : c'est un tout petit sacrifice par rapport à la crise sanitaire.
 
 J'espère que le cours sera quand même intéressant et que la vidéo ne sera pas trop étrange.

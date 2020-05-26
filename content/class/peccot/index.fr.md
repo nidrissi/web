@@ -7,7 +7,7 @@ time: 8h
 year: 2019–2020
 date: 2020-03-04
 publishdate: 2019-11-08
-lastmod: 2020-05-12
+lastmod: 2020-05-26
 sidebar:
   - "[Notes de cours](./peccot.pdf)"
   - "[Site du Cours Peccot](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
@@ -15,8 +15,6 @@ sidebar:
   - "[Version longue @ Laboratoire Paul Painlevé](https://math.univ-lille1.fr/d7/node/10461)"
   - "[News article @ IMJ-PRG](https://www.imj-prg.fr/spip.php?article538)"
 ---
-
-<div class="alert alert-danger">Du fait de la pandémie de COVID-19 qui sévit actuellement, les deux dernières leçons ont été reportées et ne seront pas ouvertes au public ; l'enregistrement sera disponible en ligne.</div>
 
 Dans ce cours, nous étudierons le type d'homotopie réel des espaces de configuration de variétés.
 Les espaces de configuration consistent en des collections de points deux à deux distincts dans une variété donnée.
@@ -39,52 +37,33 @@ Les leçons se déroulent au Collège de France (11 place Marcelin-Berthelot, da
 Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 11h à 13h.
 À cause de la pandémie de COVID-19, les deux dernières ont été reportées respectivement les 25 et 28 mai de 10h à 12h et seront enregistrées sans public.
 
+### Leçons
+
 [4 mars 11h–13h {{< fa "video" >}}](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm)
 : Chapitre 1 : Espaces de configuration de variétés
-  1. Généralités sur les espaces de configuration
-  2. Conjecture de l'invariance homotopique
-  3. Théorie de l'homotopie rationnelle
-  4. Formalité de {{< tex "\mathrm{Conf}_{\mathbb{R}^n}" >}}
+  - Généralités sur les espaces de configuration
+  - Conjecture de l'invariance homotopique
+  - Théorie de l'homotopie rationnelle
+  - Formalité de {{< tex "\mathrm{Conf}_{\mathbb{R}^n}" >}}
 
 [11 mars 11h–13h {{< fa "video" >}}](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm)
 : Chapitre 2 : Le modèle de Lambrechts--Stanley
-  1. Définition du modèle et théorème
-  2. Compactifications des espaces de configuration
-  3. Ensembles et formes semi-algébriques
-  4. Définition du complexe de graphes non-réduit -- Propagateur
+  - Définition du modèle et théorème
+  - Compactifications des espaces de configuration
+  - Ensembles et formes semi-algébriques
+  - Définition du complexe de graphes non-réduit -- Propagateur
 
-<del>(18 mars 11h--13h)</del> 25 mai 10h–12h (en ligne)
+<del>18 mars 11h--13h</del> 
+25 mai 10h--12h (en ligne)
+: Chapitre 2 : Le modèle de Lambrechts--Stanley (suite)
+  - Fonction de partition et complexe réduit
+  - Simplification de la fonction de partition
+  - Quasi-isomorphisme : preuve combinatoire
+  
+  Chapitre 3 : Variétés à bord
+  - Motivation : recollements
+  - Poincaré--Lefschetz duality models
+
+<del>25 mars 11h--13h</del> 
+28 mai 10h--12h (en ligne)
 : [résumé à venir]
-
-<del>(25 mars 11h--13h)</del> 28 mai 10h–12h (en ligne)
-: [résumé à venir]
-
-## Plan
-
-Le plan qui suit est sujet à changements (le découpage ne correspond pas exactement aux quatre leçons).
-
-1. Introduction
-    - Espaces de configuration
-    - Invariance homotopique
-    - Rappels sur la théorie de l'homotopie rationnelle
-    - Formalité de {{< tex "\mathrm{Conf}(\mathbb{R}^n)" >}}
-2. Modèle de Lambrechts--Stanley
-    - Définition du modèle
-    - Énoncé du théorème et idée de la preuve
-    - Compactification de Fulton--MacPherson
-    - Ensembles semi-algébriques et formes PA
-    - Propagateur et définition du morphisme
-    - Quasi-trivialité de la fonction de partition à homotopie près
-    - Fin de la preuve
-3. Variétés à bord
-    - Motivation : calculer des espaces de configuration « inductivement »
-    - Modèle 1 : recollements de variétés le long de leurs bords
-    - Modèle 2 : modèle de Lambrechts--Stanley perturbé et paires à dualité de Poincaré--Lefschetz
-    - Travail en cours : espaces de configuration de surfaces
-4. Opérades
-    - Motivation : homologie de factorisation
-    - Introduction aux opérades
-    - Structures opéradiques sur les compactifications
-    - Formalité de Kontsevich (+ autres théorèmes de formalité)
-    - Compatibilité du modèle de LS avec la structure opéradique
-    - Exemple de calcul : {{< tex "\int_M \mathscr{O}_{\mathrm{poly}}(T\mathbb{R}^d[1-n])" >}}
