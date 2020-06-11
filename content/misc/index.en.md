@@ -54,6 +54,7 @@ I am active on [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi
 ---
 
 This website is built using the static website generator [Hugo](https://gohugo.io/) and a heavily modified version of the [Academic](https://sourcethemes.com/academic/) theme.
+The sources are [available on GitHub](https://github.com/nidrissi/web).
 
 ---
 
