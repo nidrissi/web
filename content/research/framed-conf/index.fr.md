@@ -8,4 +8,5 @@ abstract: We study configuration spaces of framed points on compact manifolds. S
 urls:
   pdf: framed-conf.pdf
   arxiv: 1807.08319
+  source: https://arxiv.org/e-print/1807.08319
 ---

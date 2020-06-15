@@ -10,5 +10,6 @@ abstract: We develop a curved Koszul duality theory for algebras presented by qu
 urls:
   pdf: curved-koszul.pdf
   arxiv: 1805.01853
+  source: https://arxiv.org/e-print/1805.01853
   hal: "01786218"
 ---

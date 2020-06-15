@@ -8,4 +8,5 @@ abstract: We study ordered configuration spaces of compact manifolds with bounda
 urls:
   pdf: config-boundary.pdf
   arxiv: 1802.00716
+  source: https://arxiv.org/e-print/1802.00716
 ---

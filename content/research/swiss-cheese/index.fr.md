@@ -9,6 +9,7 @@ title: Swiss-Cheese Operad and Drinfeld Center
 urls:
   pdf: center.pdf
   arxiv: 1507.06844
+  source: https://arxiv.org/e-print/1507.06844
   doi: 10.1007/s11856-017-1579-7
   mathrev: "3704940"
   zbmath: "06808424"

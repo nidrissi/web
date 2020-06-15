@@ -11,7 +11,7 @@ urls:
   code:
   slides:
   video:
-  source:
+  source: https://arxiv.org/e-print/1911.09474
   arxiv: "1911.09474"
   doi:
   mathrev:

@@ -11,6 +11,7 @@ urls:
   pdf: sfm-mn.pdf
   arxiv: 1809.07667
   hal: "01878406"
+  source: https://arxiv.org/e-print/1809.07667
   doi:
   mathrev:
   zbmath:
