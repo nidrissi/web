@@ -54,7 +54,6 @@ Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idri
 ---
 
 Ce site est construit à l'aide du générateur de sites webs statiques [Hugo](https://gohugo.io/) et une version fortement modifiée du thème [Academic](https://sourcethemes.com/academic/).
-La source est [disponible sur GitHub](https://github.com/nidrissi/web).
 
 ---
 
