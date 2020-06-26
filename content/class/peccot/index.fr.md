@@ -54,7 +54,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
   - Définition du complexe de graphes non-réduit -- Propagateur
 
 <del>18 mars 11h--13h</del> 
-25 mai 10h--12h (en ligne)
+[25 mai 10h--12h (en ligne) {{< fa "video" >}}](https://www.youtube.com/watch?v=7DO4hQrKCbg)
 : Chapitre 2 : Le modèle de Lambrechts--Stanley (suite)
   - Fonction de partition et complexe réduit
   - Simplification de la fonction de partition
@@ -62,8 +62,17 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
   
   Chapitre 3 : Variétés à bord
   - Motivation : recollements
-  - Poincaré--Lefschetz duality models
+  - Modèles à dualité de Poincaré--Lefschetz
 
 <del>25 mars 11h--13h</del> 
-28 mai 10h--12h (en ligne)
-: [résumé à venir]
+[28 mai 10h--12h (en ligne)](https://www.youtube.com/watch?v=7jnHi6ICdwE)
+: Chapitre 3 : Variétés à bord (suite)
+  - Compactifications de Fulton--MacPherson
+  - Propagateurs
+  - Complexes de graphes
+  - Simplification des fonctions de partition
+  - Fin de la preuve
+  - Modèle de Lambrechts--Stanley perturbé
+  
+  Chapitre 4 : Opérades  
+  Introduction rapide à la théorie, définition de l'homologie de factorisation et lien avec les espaces de configuration.

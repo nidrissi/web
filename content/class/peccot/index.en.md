@@ -54,7 +54,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
   - Definition of the unreduced graph complex -- Propagator
 
 <del>March 18th 11:00--13:00</del>
-May 25th 10:00--12:00 (online)
+[May 25th 10:00--12:00 (online) {{< fa "video" >}}](https://www.youtube.com/watch?v=7DO4hQrKCbg)
 : Chapter 2: The Lambrechts--Stanley model (continued)
   - Partition function and reduced graph complex
   - Simplification of the partition function
@@ -65,5 +65,15 @@ May 25th 10:00--12:00 (online)
   - Poincaré--Lefschetz duality models
 
 <del>March 25th 11:00--13:00</del>
-May 28th 10:00--12:00 (online)
-: [summary to come]
+[May 28th 10:00--12:00 (online) {{< fa "video" >}}](https://www.youtube.com/watch?v=7jnHi6ICdwE)
+: Chapter 3: Manifolds with boundary (continued)
+  - Fulton--MacPherson compactifications
+  - Propagators
+  - Graph complexes
+  - Simplification of the partition functions
+  - End of the proof
+  - Perturbed Lambrechts--Stanley model
+  
+  Chapitre 4 : Operads  
+  Quick introduction to the theory, definition of factorization homology and relationship with configuration spaces.
+
