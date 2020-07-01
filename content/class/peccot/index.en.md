@@ -35,7 +35,7 @@ This lecture is based in part on joint works with Ricardo Campos, Julien Ducoulo
 
 The lessons will take place at the Collège de France (11 place Marcelin-Berthelot, in the 5th district of Paris), in room 5.
 They were initially planned on Wednesdays 4th, 11th, 18th, and 25th, March 2020, from 11AM to 1PM.
-Due to the COVID-19 pandemic, the last two lessons were postponed respectively to May 25th and 28th (10AM--12PM) and will be recorded without an audience.
+Due to the COVID-19 pandemic, the last two lessons were postponed respectively to May 25th and 28th (10AM--12PM) and were recorded without an audience.
 
 ### Lessons
 

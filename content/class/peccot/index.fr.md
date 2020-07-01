@@ -35,7 +35,7 @@ Ce cours sera en partie basé sur des travaux en collaboration avec Ricardo Camp
 
 Les leçons se déroulent au Collège de France (11 place Marcelin-Berthelot, dans le 5<sup>ème</sup> arrondissement de Paris), en salle 5.
 Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 11h à 13h.
-À cause de la pandémie de COVID-19, les deux dernières ont été reportées respectivement les 25 et 28 mai de 10h à 12h et seront enregistrées sans public.
+À cause de la pandémie de COVID-19, les deux dernières ont été reportées respectivement les 25 et 28 mai de 10h à 12h et ont été enregistrées sans public.
 
 ### Leçons
 
