@@ -1,7 +1,7 @@
 ---
 # ⚠ Fichier généré automatiquement ⚠
 title: Curriculum Vitæ
-lastmod: 2020-04-15
+lastmod: 2020-07-01
 date: 2018-01-01
 urls:
   pdf: cv.fr.pdf
@@ -190,12 +190,12 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Jury de soutenance de thèse d’Erica Minuz (dir. de thèse : Marcel Bökstedt)</strong>, <em>Université d’Aarhus</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Jury de thèse d’Erica Minuz (dir. de thèse : Marcel Bökstedt)</strong>, <em>Université d’Aarhus</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Jury de soutenance de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)</strong>, <em>Sorbonne Université</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Jury de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)</strong>, <em>Sorbonne Université / ETH Zürich</em>.</dd>
 
 
 
@@ -213,7 +213,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Journal de l’École Polytechnique, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles (rapports et/ou opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. &amp; Topol. • J. Éc. Polytech. Math. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math. (N.S.)</dd>
 
 
 
@@ -234,6 +234,11 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 <dl class="row mb-0">
 
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2020?</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Colloque 2020 du GDR Topologie Algébrique</strong>, <em>Université de Strasbourg</em>.</dd>
 
 
 

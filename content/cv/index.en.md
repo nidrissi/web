@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastmod: 2020-04-15
+lastmod: 2020-07-01
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf
@@ -190,12 +190,12 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Jan. 2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>PhD defense jury of Erica Minuz (advisor: Marcel Bökstedt)</strong>, <em>Aarhus University</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>PhD jury of Erica Minuz (advisor: Marcel Bökstedt)</strong>, <em>Aarhus University</em>.</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Master’s memoir defense jury of Basile Coron (advisor: Thomas Willwacher)</strong>, <em>Sorbonne Université</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Master’s memoir jury of Basile Coron (advisor: Thomas Willwacher)</strong>, <em>Sorbonne Université / ETH Zürich</em>.</dd>
 
 
 
@@ -213,7 +213,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer reviews</strong>.<br>Algebraic &amp; Geometric Topology, Communications in Mathematical Physics, Journal de l’École Polytechnique, Letters in Mathematical Physics, Royal Society of Edinburgh: Proceedings A, Selecta Mathematica</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Peer reviews (reports and/or opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. &amp; Topol. • J. Éc. Polytech. Math. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math. (N.S.)</dd>
 
 
 
@@ -234,6 +234,11 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <dl class="row mb-0">
 
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2020?</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Colloque 2020 du GDR Topologie Algébrique</strong>, <em>Université de Strasbourg</em>.</dd>
 
 
 

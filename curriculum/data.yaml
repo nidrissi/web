@@ -1,5 +1,5 @@
 ---
-lastmod: 2020-04-15
+lastmod: 2020-07-01
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -152,17 +152,17 @@ section:
       - entry:
           a: 01/2020
           b: |
-            Jury de soutenance de thèse d'Erica Minuz (dir. de thèse : Marcel Bökstedt)
+            Jury de thèse d'Erica Minuz (dir. de thèse : Marcel Bökstedt)
             !
-            PhD defense jury of Erica Minuz (advisor: Marcel Bökstedt)
+            PhD jury of Erica Minuz (advisor: Marcel Bökstedt)
           c: Université d'Aarhus ! Aarhus University
       - entry:
           a: 09/2019
           b: |
-            Jury de soutenance de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)
+            Jury de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)
             !
-            Master's memoir defense jury of Basile Coron (advisor: Thomas Willwacher)
-          c: Sorbonne Université
+            Master's memoir jury of Basile Coron (advisor: Thomas Willwacher)
+          c: Sorbonne Université / ETH Zürich
       - entry:
           a: 2018--2019
           b: Jury d'examen L1 MIASHS ! Exam jury for L1 MIASHS
@@ -170,14 +170,17 @@ section:
       - subtitle: Autre ! Other
       - entry:
           a: en cours ! ongoing
-          b: Évaluations d'articles ! Peer reviews
+          b: Évaluations d'articles (rapports et/ou opinions) ! Peer reviews (reports and/or opinions)
           f: |
-            Algebraic & Geometric Topology,
-            Communications in Mathematical Physics,
-            Journal de l'École Polytechnique,
-            Letters in Mathematical Physics,
-            Royal Society of Edinburgh: Proceedings A,
-            Selecta Mathematica
+            Adv. Math. •
+            Alg. Geom. Topol. •
+            Comm. Math. Phys. •
+            Compos. Math. •
+            Geom. & Topol. •
+            J. Éc. Polytech. Math. •
+            Lett. Math. Phys. •
+            Proc. Roy. Soc. Edinburgh Sect. A •
+            Selecta Math. (N.S.)
       - entry:
           a: en cours ! ongoing
           b: "Écriture de résumés pour [Zentralblatt MATH](https://zbmath.org/?q=rv%3Anajib.idrissi) ! Writing of abstracts for [Zentralblatt MATH](https://zbmath.org/?q=rv%3Anajib.idrissi)"
@@ -185,6 +188,10 @@ section:
     more: /talk
     content:
       - subtitle: Sur invitation ! Invited
+      - entry:
+          a: 10/2020?
+          b: Colloque 2020 du GDR Topologie Algébrique
+          c: Université de Strasbourg
       - entry:
           a: 02/2020
           b: Málaga & Topology Meeting
