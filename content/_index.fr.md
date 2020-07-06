@@ -1,6 +1,6 @@
 ---
 date: 2015-11-29
-lastmod: 2019-07-17
+lastmod: 2020-06-26
 menu:
   main:
     weight: 1
@@ -14,3 +14,5 @@ Je m'intéresse principalement aux opérades et leurs applications à la topolog
 
 Je suis l'un des organisateurs du [Séminaire de topologie](https://www.imj-prg.fr/gestion/evenement/affEvenement/43) de l'IMJ-PRG.
 Pour plus d'informations, voir [mon CV]({{< ref "/cv" >}}).
+
+[J'ai donné un cours Peccot au Collège de France au printemps 2020, vous pouvez le retrouver ici.]({{< ref "/class/peccot" >}})
