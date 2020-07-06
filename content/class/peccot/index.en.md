@@ -7,7 +7,7 @@ time: 8h
 year: 2019–2020
 date: 2020-03-04
 publishdate: 2019-11-08
-lastmod: 2020-05-27
+lastmod: 2020-06-26
 sidebar:
   - "[Lecture notes](./peccot.pdf)"
   - "[Website of the Peccot Lectures](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
@@ -40,40 +40,40 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
 ### Lessons
 
 [March 4th 11:00–13:00 {{< fa "video" >}}](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm)
-: Chapter 1: Configuration spaces of manifolds
-  - Generalities on configuration spaces sur les espaces de configuration
-  - Homotopy invariance conjecture
-  - Rational homotopy theory
-  - Formality of {{< tex "\mathrm{Conf}_{\mathbb{R}^n}" >}}
+: * Chapter 1: Configuration spaces of manifolds
+     - Generalities on configuration spaces sur les espaces de configuration
+     - Homotopy invariance conjecture
+     - Rational homotopy theory
+     - Formality of {{< tex "\mathrm{Conf}_{\mathbb{R}^n}" >}}
 
 [March 11th 11:00–13:00 {{< fa "video" >}}](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm)
-: Chapter 2: The Lambrechts--Stanley model
-  - Definition of the model and theorem
-  - Compactifications of configuration spaces
-  - Semi-algebraic sets and forms
-  - Definition of the unreduced graph complex -- Propagator
+: * Chapter 2: The Lambrechts--Stanley model
+     - Definition of the model and theorem
+     - Compactifications of configuration spaces
+     - Semi-algebraic sets and forms
+     - Definition of the unreduced graph complex -- Propagator
 
 <del>March 18th 11:00--13:00</del>
 [May 25th 10:00--12:00 (online) {{< fa "video" >}}](https://www.youtube.com/watch?v=7DO4hQrKCbg)
-: Chapter 2: The Lambrechts--Stanley model (continued)
-  - Partition function and reduced graph complex
-  - Simplification of the partition function
-  - Quasi-isomorphism: combinatorial proof
-
-  Chapter 3: Manifolds with boundary
-  - Motivation: gluing
-  - Poincaré--Lefschetz duality models
+: * Chapter 2: The Lambrechts--Stanley model (continued)
+     - Partition function and reduced graph complex
+     - Simplification of the partition function
+     - Quasi-isomorphism: combinatorial proof
+  * Chapter 3: Manifolds with boundary
+     - Motivation: gluing
+     - Poincaré--Lefschetz duality models
 
 <del>March 25th 11:00--13:00</del>
 [May 28th 10:00--12:00 (online) {{< fa "video" >}}](https://www.youtube.com/watch?v=7jnHi6ICdwE)
-: Chapter 3: Manifolds with boundary (continued)
-  - Fulton--MacPherson compactifications
-  - Propagators
-  - Graph complexes
-  - Simplification of the partition functions
-  - End of the proof
-  - Perturbed Lambrechts--Stanley model
-  
-  Chapitre 4 : Operads  
-  Quick introduction to the theory, definition of factorization homology and relationship with configuration spaces.
+: * Chapter 3: Manifolds with boundary (continued)
+     - Fulton--MacPherson compactifications
+     - Propagators
+     - Graph complexes
+     - Simplification of the partition functions
+     - End of the proof
+     - Perturbed Lambrechts--Stanley model
+  * Chapitre 4 : Operads
+     - Quick introduction to the theory
+     - Definition of factorization homology
+     - Relationship with configuration spaces
 
