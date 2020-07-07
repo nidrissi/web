@@ -11,21 +11,33 @@ sidebar:
   - "[**Notes de cours**](homotopie.pdf)"
 ---
 
-L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications. Nous nous intéresserons particulièrement à deux exemples : les complexes de chaînes (cf. les cours d'algèbre homologique et de topologique algébrique) et les espaces topologiques. Nous présenterons les catégories de modèles de Quillen, et nous expliquerons l'équivalence entre les espaces topologiques et les ensembles simpliciaux. Nous illustrerons ces méthodes avec la théorie de l'homotopie rationnelle en montrant que la structure multiplicative des cochaînes encode le type d'homotopie rationnel des espaces topologiques.
+L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications. 
+Nous nous intéresserons particulièrement à deux exemples : les complexes de chaînes (cf. les cours d'algèbre homologique et de topologique algébrique) et les espaces topologiques. 
+Nous présenterons les catégories de modèles de Quillen, et nous expliquerons l'équivalence entre les espaces topologiques et les ensembles simpliciaux. 
+Nous illustrerons ces méthodes avec la théorie de l'homotopie rationnelle en montrant que la structure multiplicative des cochaînes encode le type d'homotopie rationnel des espaces topologiques.
 
-<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
+**Prérequis.** 
+Il est recommandé d'avoir suivi les cours *Homologie* (Emmanuel Wagner) et *Homotopie I* (Bruno Vallette). Il sera notamment utile d'avoir une certaine familiarité avec le langage catégorique et les notions de base en topologie algébrique et en algèbre homologique. 
 
-**Prérequis.**  Il est recommandé d'avoir suivi les cours Homologie et Homotopie I. Il sera notamment utile d'avoir une certaine familiarité avec le langage catégorique et les notions de base en topologie algébrique et en algèbre homologique. 
-
-**Plan.**
+**Plan du cours.**
 
 1. Catégories de modèles
 2. Complexes de chaînes
 3. Ensembles simpliciaux et espaces topologiques
 4. Homotopie rationnelle
 
+**Après le cours.**
+
+* Le cours *Catégories supérieures* (Muriel Livernet) est une continuation naturelle de ce cours.
+* J'ai donné en 2020 un [cours Peccot intitulé *Homotopie réelle des espaces de configuration*]({{< ref "class/peccot" >}}) au Collège de France qui contenait des applications concrètes des méthodes présentées ici.
+
+****
+
 ## Bibliographie
 
+<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
+
+J'ai donné un [cours similaire l'année dernière]({{< ref "class/19-20-homotopie" >}}), vous pourrez notamment y trouver les sujets d'examen.
 Grégory Ginot a donné un [cours en 2017--2018--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
 On pourra trouver sur sa page **[les notes de son cours](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)**, ainsi que les anciennes feuilles d'exercices et les anciens examens.
 
