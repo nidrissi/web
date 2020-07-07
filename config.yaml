@@ -25,9 +25,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-blackfriday:
-  hrefTargetBlank: false
-  fractions: false
 
 params:
   currentYear: 2020–2021
