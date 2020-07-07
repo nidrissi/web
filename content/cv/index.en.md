@@ -143,7 +143,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2014–2015</dt>
-<dd class="col-lg-10 col-sm-9">Member of the ANR project <a href="https://math.univ-lille1.fr/~operads/">“<em>Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller (HOGT)</em>”</a> (HOGT). Coordinator: Benoit Fresse.</dd>
+<dd class="col-lg-10 col-sm-9">Member of the ANR project <a href="https://math.univ-lille1.fr/~operads/">“<em>Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller (HOGT)</em>”</a>. Coordinator: Benoit Fresse.</dd>
 
 
 </dl>
@@ -442,12 +442,12 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2020–2021</dt>
-<dd class="col-lg-10 col-sm-9">Homotopy II, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programmation, L2 (exercises+labs, 42h).</dd>
+<dd class="col-lg-10 col-sm-9">Homotopy II, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programmation, L2 (exercises+labs, 42h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9">Real Homotopy of Configuration Spaces, Peccot Lecture, Collège de France (8h) • Homotopy Theory, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programmation, L2 (exercises+labs, 42h).</dd>
+<dd class="col-lg-10 col-sm-9">Real Homotopy of Configuration Spaces, Peccot Lecture, Collège de France (8h) • Homotopy Theory, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programmation, L2 Maths (exercises+labs, 42h).</dd>
 
 
 

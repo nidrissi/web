@@ -117,7 +117,7 @@ section:
           b: |
             Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)\ »](https://math.univ-lille1.fr/~operads/). Coordinateur : Benoit Fresse
             !
-            Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)*"](https://math.univ-lille1.fr/~operads/) (HOGT). Coordinator: Benoit Fresse
+            Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)*"](https://math.univ-lille1.fr/~operads/). Coordinator: Benoit Fresse
   - title : Service
     content:
       - subtitle: Organisation ! Organization
@@ -344,12 +344,12 @@ section:
           a: 2020--2021
           b: |
             Homotopie II, M2 Maths fondas (cours, 24h) •
-            Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 MIASHS (cours/TD, 56,5h) •
+            Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 (cours/TD, 56,5h) •
             Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) •
             Algorithmes et Programmation, L2 (TD+TP, 42h)
             !
             Homotopy II, M2 Fundam.\ Math (lectures, 24h) •
-            Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) •
+            Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 (lecture+exercises, 56.5h) •
             Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) •
             Algorithms and Programmation, L2 (exercises+labs, 42h)
       - item:
@@ -359,13 +359,13 @@ section:
             Théorie de l'homotopie, M2 Maths fondas (cours, 24h) •
             Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 MIASHS (cours/TD, 56,5h) •
             Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) •
-            Algorithmes et Programmation, L2 (TD+TP, 42h)
+            Algorithmes et Programmation, L2 Maths (TD+TP, 42h)
             !
             Real Homotopy of Configuration Spaces, Peccot Lecture, Collège de France (8h) •
             Homotopy Theory, M2 Fundam.\ Math (lectures, 24h) •
             Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) •
             Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) •
-            Algorithms and Programmation, L2 (exercises+labs, 42h)
+            Algorithms and Programmation, L2 Maths (exercises+labs, 42h)
       - item:
           a: 2018--2019
           b: |
