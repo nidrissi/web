@@ -237,8 +237,8 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2020?</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Colloque 2020 du GDR Topologie Algébrique</strong>, <em>Université de Strasbourg</em>.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2021?</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Colloque 2021 du GDR Topologie Algébrique</strong>, <em>Université de Strasbourg</em>.</dd>
 
 
 

@@ -237,8 +237,8 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2020?</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Colloque 2020 du GDR Topologie Algébrique</strong>, <em>Université de Strasbourg</em>.</dd>
+<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2021?</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Colloque 2021 du GDR Topologie Algébrique</strong>, <em>Université de Strasbourg</em>.</dd>
 
 
 
