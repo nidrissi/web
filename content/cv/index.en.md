@@ -213,7 +213,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer reviews (reports and/or opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. &amp; Topol. • J. Éc. Polytech. Math. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math. (N.S.)</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Peer reviews (reports and/or opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. &amp; Topol. • J. Éc. Polytech. Math. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math.</dd>
 
 
 
