@@ -23,7 +23,7 @@ $for(section.content)$
 $if(section.content.subtitle)$
 </dl>
 
-### $section.content.subtitle$
+#### $section.content.subtitle$
 
 <dl class="row mb-0">
 $endif$

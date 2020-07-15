@@ -67,7 +67,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Publications
+#### Publications
 
 <dl class="row mb-0">
 
@@ -81,7 +81,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 <dl class="row mb-0">
 </dl>
 
-### Prépublications
+#### Prépublications
 
 <dl class="row mb-0">
 
@@ -95,7 +95,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 <dl class="row mb-0">
 </dl>
 
-### Autres documents
+#### Autres documents
 
 <dl class="row mb-0">
 
@@ -116,7 +116,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Obtenus
+#### Obtenus
 
 <dl class="row mb-0">
 
@@ -134,7 +134,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Membre
+#### Membre
 
 <dl class="row mb-0">
 
@@ -154,7 +154,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Organisation
+#### Organisation
 
 <dl class="row mb-0">
 
@@ -182,7 +182,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Jurys
+#### Jurys
 
 <dl class="row mb-0">
 
@@ -205,7 +205,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Autre
+#### Autre
 
 <dl class="row mb-0">
 
@@ -230,7 +230,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Sur invitation
+#### Sur invitation
 
 <dl class="row mb-0">
 
@@ -288,7 +288,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Sur proposition
+#### Sur proposition
 
 <dl class="row mb-0">
 
@@ -311,7 +311,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-### Séminaires
+#### Séminaires
 
 <dl class="row mb-0">
 

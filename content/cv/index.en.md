@@ -67,7 +67,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Publications
+#### Publications
 
 <dl class="row mb-0">
 
@@ -81,7 +81,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <dl class="row mb-0">
 </dl>
 
-### Preprints
+#### Preprints
 
 <dl class="row mb-0">
 
@@ -95,7 +95,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <dl class="row mb-0">
 </dl>
 
-### Other documents
+#### Other documents
 
 <dl class="row mb-0">
 
@@ -116,7 +116,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Obtained
+#### Obtained
 
 <dl class="row mb-0">
 
@@ -134,7 +134,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Member
+#### Member
 
 <dl class="row mb-0">
 
@@ -154,7 +154,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Organization
+#### Organization
 
 <dl class="row mb-0">
 
@@ -182,7 +182,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Jurys
+#### Jurys
 
 <dl class="row mb-0">
 
@@ -205,7 +205,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Other
+#### Other
 
 <dl class="row mb-0">
 
@@ -230,7 +230,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Invited
+#### Invited
 
 <dl class="row mb-0">
 
@@ -288,7 +288,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Contributed
+#### Contributed
 
 <dl class="row mb-0">
 
@@ -311,7 +311,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-### Seminars
+#### Seminars
 
 <dl class="row mb-0">
 
