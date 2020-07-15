@@ -189,9 +189,13 @@ section:
     content:
       - subtitle: Sur invitation ! Invited
       - entry:
-          a: 10/2021?
+          a: 10/2021
           b: Colloque 2021 du GDR Topologie Algébrique
           c: Université de Strasbourg
+      - entry:
+          a: 06/2021
+          b: Barcelona Conference on Higher Structures
+          c: Centre de Recerca Matemàtica (CRM)
       - entry:
           a: 02/2020
           b: Málaga & Topology Meeting
