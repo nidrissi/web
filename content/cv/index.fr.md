@@ -514,7 +514,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-## Conférences, workshops et écoles thématiques
+## Participation à des conférences
 
 <dl class="row mb-0">
 

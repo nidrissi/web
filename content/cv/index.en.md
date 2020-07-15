@@ -514,7 +514,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 </dl>
 
-## Conferences, workshops and thematic schools attended
+## Conferences attended
 
 <dl class="row mb-0">
 
