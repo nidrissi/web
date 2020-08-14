@@ -12,13 +12,22 @@
   {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML -}}
   {{- end -}}
 
-  {{ $css := slice (resources.Get "css/bootstrap.min.css") (resources.Get "css/fa-svg-with-js.css") (resources.Get "css/style.css") | resources.Concat "bundle.css" | resources.Minify -}}
+  {{ $css := slice (resources.Get "css/fa-svg-with-js.css") (resources.Get "css/style.css") | resources.Concat "bundle.css" | resources.Minify -}}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ $css.Permalink }}">
-  {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get "js/ga.js") (resources.Get "js/jquery.slim.min.js") (resources.Get "js/toc.js") (resources.Get "js/bootstrap.min.js") | resources.Concat "bundle.js" | resources.Minify -}}
-  <script defer src="{{ $js.Permalink }}"></script>
+
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170792065-2"></script>
 
-  <script async src="/mathjax/tex-chtml.js"></script>
+  {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get "js/ga.js") (resources.Get "js/toc.js") | resources.Concat "bundle.js" | resources.Minify -}}
+  <script defer src="{{ $js.Permalink }}"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
