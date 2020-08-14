@@ -14,7 +14,7 @@
 
   {{ $css := slice (resources.Get "css/style.css") | resources.Concat "bundle.css" | resources.Minify -}}
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
-  <link href="https://use.fontawesome.com/releases/v5.14.0/css/svg-with-js.css" rel="stylesheet"/>
+  <link href="https://use.fontawesome.com/releases/v5.14.0/css/svg-with-js.css" rel="stylesheet" integrity="sha384-PB7dcmSOBXciTYYzTvxdvcCEy4k3woMwwVAtsIA3LUQyKW21C7UL9EcGtd6IRNLc" crossorigin="anonymous" />
   <link rel="stylesheet" href="{{ $css.Permalink }}"/>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170792065-2"></script>
@@ -26,8 +26,7 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-chtml.js" integrity="sha384-Oh4n60vusI43YloR4gQuVeskX3h6pctT3SequOy/7Nwv4PqBB+3UseKhoVa+Nmgj" crossorigin="anonymous"></script>
 
 
   <link rel="icon" type="image/png" href="/img/icon.png">
