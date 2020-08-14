@@ -12,9 +12,10 @@
   {{- printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML -}}
   {{- end -}}
 
-  {{ $css := slice (resources.Get "css/fa-svg-with-js.css") (resources.Get "css/style.css") | resources.Concat "bundle.css" | resources.Minify -}}
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ $css.Permalink }}">
+  {{ $css := slice (resources.Get "css/style.css") | resources.Concat "bundle.css" | resources.Minify -}}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  <link href="https://use.fontawesome.com/releases/v5.14.0/css/svg-with-js.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="{{ $css.Permalink }}"/>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170792065-2"></script>
 
