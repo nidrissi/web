@@ -16,6 +16,11 @@ I am/was a member of:
 
 ---
 
+I have written a tool which I called [arxiv2bib](https://a2b.idrissi.eu) to produce BibLaTeX entries from arXiv preprints.
+It is of course open source: the code is hosted on [GitHub](https://github.com/nidrissi/arxiv2bib).
+
+---
+
 From January to June 2019, I organized a [reading seminar on homological stability and the works of Galatius--Kupers--Randal-Williams]({{< ref path="gdt/stabilite" lang="fr" >}}) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
 
 ---
