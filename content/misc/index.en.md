@@ -1,6 +1,6 @@
 ---
 title: Miscellaneous
-lastmod: 2019-03-15
+lastmod: 2020-08-14
 date: 2018-01-01
 menu:
   main:
@@ -62,4 +62,4 @@ This website is built using the static website generator [Hugo](https://gohugo.i
 
 ---
 
-[My dotfiles are on GitHub.](https://github.com/nidrissi/dotfiles)
+[My “dotfiles” are on GitHub.](https://github.com/nidrissi/dotfiles)

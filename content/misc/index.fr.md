@@ -1,7 +1,7 @@
 ---
 title: Divers
 url: /fr/divers/
-lastmod: 2019-03-15
+lastmod: 2020-08-14
 date: 2018-01-01
 menu:
   main:
@@ -62,4 +62,4 @@ Ce site est construit à l'aide du générateur de sites webs statiques [Hugo](h
 
 ---
 
-[Mes dotfiles sont sur GitHub.](https://github.com/nidrissi/dotfiles)
+[Mes « dotfiles » sont sur GitHub.](https://github.com/nidrissi/dotfiles)
