@@ -52,3 +52,10 @@ languages:
       research: /recherche/:filename/
       talk: /expose/:filename/
       class: /cours/:filename/
+
+deployment:
+  targets:
+    - name: s3
+      URL: s3://idrissi-eu?region=eu-west-3
+      cloudFrontDistributionID: E1A3OA020Q98SG
+
