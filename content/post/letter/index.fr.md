@@ -1,21 +1,21 @@
 ---
-title: Template for letters in LaTeX
+title: Modèle de lettres en LaTeX
 date: 2020-08-18
 draft: false
 tags: [latex]
 ---
 
-Several people have asked me for my LaTeX template to write letters, so I guess I might as well put it up on my webpage.
-It uses the [`scrlttr2`](https://www.ctan.org/pkg/scrlttr2) package.
-I think the markup is relatively self-explanatory.
-You can download the [`letter.tex` file here](letter.tex), and the [preview `letter.pdf` here](letter.pdf).
+Plusieurs personnes m'ont demandé mon modèle LaTeX pour les lettres que j'écris, donc au cas où je le mets aussi sur mon site web.
+J'utilise le paquet [`scrlttr2`](https://www.ctan.org/pkg/scrlttr2).
+Je pense que le code est plutôt clair, les paramètres ont des noms explicatifs.
+Vous pouvez télécharger [le fichier `letter.tex` ici](letter.tex), et regarder à quoi [le résultat final `letter.pdf` ressemble](letter.pdf).
 <!--more-->
 
-It expects a copy of your signature and the logo of your university in the same folder, in images named `signature.(png|jpg|...)` and `logo.(png|jpg|...)`; this can of course be customized.
+Pour utiliser ce modèle, il faut une copie de votre signature et le logo de votre université dans le même dossier, dans des images nommées `signature.(png|jpg|...)` et `logo.(png|jpg|...)` ; bien sûr, cela peut être paramétré.
 
-If you would like to your letter to be formatted with French norms (recipient on the right, sender on the left, compatible with standard windowed letters), add the `NF` option to the `\documentclass` command.
-Remember to also change the parameter of the `\setmainlanguage` command.
-Other options are available, see "Letter Class Option Files" in the `scrlttr2` manual.
+Si vous voulez que votre lettre soit aux normes françaises (destinataire à droite, expéditeur à gauche, compatible avec les enveloppes à fenêtre standards), ajoutez l'option `NF` à la commande `\documentclass`.
+N'oubliez pas de changer aussi le paramètre de la command `\setmainlanguage`.
+D'autres options sont disponibles : vous les trouverez dans la section "Letter Class Option Files" du manuel du paquet `scrlttr2`.
 
 ```tex
 \documentclass[foldmarks=false, backaddress=false, fromemail, fromlogo, fromrule]{scrlttr2}
@@ -62,8 +62,8 @@ Other options are available, see "Letter Class Option Files" in the `scrlttr2` m
 \end{document}
 ```
 
-Since I use [`polyglossia`](https://www.ctan.org/pkg/polyglossia) (for language-specific settings) and [`unicode-math`](https://www.ctan.org/pkg/unicode-math) (for the fonts), the file needs to be compiled with either XeLaTeX or LuaLaTeX.
-If you do not want this, then remove these two packages, the `\setmainfont` and `\setmathfont` commands, and add the following lines at the beginning of the preamble:
+Comme j'utilise [`polyglossia`](https://www.ctan.org/pkg/polyglossia) (pour les paramètres liés à la langue) et [`unicode-math`](https://www.ctan.org/pkg/unicode-math) (pour les polices), le fichier doit être compilé avec XeLaTeX ou LuaLaTeX.
+Si vous souhaitez utiliser PDFLaTeX à la place, enlevez ces deux paquets et les commandes `\setmainfont` et `\setmathfont`, puis rajoutez ces deux lignes au début du préambule :
 
 ```tex
 \usepackage[T1]{fontenc}
