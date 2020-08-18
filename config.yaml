@@ -25,6 +25,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+    style: emacs
 
 params:
   currentYear: 2020–2021
