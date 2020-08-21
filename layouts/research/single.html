@@ -3,12 +3,14 @@
     <h1 class="mb-0">{{- .Title -}}</h1>
     <p class="lead">
       {{- partial "meta/research" . }}
-      {{ partial "links" (dict "content" . "is_card" 0) -}}
+      &emsp;
+      {{- partial "links" (dict "content" . "is_card" 0) -}}
     </p>
     
     {{- with .Params.abstract -}}
     <blockquote class="blockquote"><p>
-      {{- . | markdownify -}}
+        <strong>{{ i18n "abstract" }}.</strong>
+        {{ . | markdownify -}}
     </p></blockquote>
     {{- end -}}
 

@@ -1,9 +1,13 @@
+{{- $is_li := .is_li -}}
 {{- $is_card := .is_card -}}
 {{- $ := .content -}}
 
-{{- $class := "badge badge-primary" -}}
+{{- $class := "btn btn-primary btn-sm" -}}
 {{- if $is_card -}}
 {{- $class = "card-link" -}}
+{{- end -}}
+{{- if $is_li -}}
+{{- $class = "badge badge-primary" -}}
 {{- end -}}
 
 {{- with $.Params.urls.pdf -}}
