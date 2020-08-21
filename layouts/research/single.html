@@ -16,14 +16,6 @@
     <hr>
     <div>{{- . -}}</div>
     {{- end -}}
-
-    {{- with .Params.urls.pdf -}}
-    <object class="embed-responsive-item" data="{{ . }}" type="application/pdf" width="100%" height="1024px">
-      <embed class="embed-responsive-item" src="{{ . }}" type="application/pdf">
-      <p><a href="{{ . }}">{{ i18n "no_pdf" }}</a></p>
-      </embed>
-    </object>
-    {{- end -}}
 </article>
 
 {{- partial "pager" . -}}
