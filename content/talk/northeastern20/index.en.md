@@ -2,7 +2,7 @@
 title: TBA
 date: 2020-10-13
 publishDate: 2020-08-20
-draft: true
+draft: false
 abstract:
 event: Topology seminar
 eventURL: https://express.northeastern.edu/topology/

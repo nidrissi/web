@@ -323,6 +323,11 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">Oct. 2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Topology seminar</strong>, <em>Northeastern University (online)</em>.</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">Apr. 2020</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Toric Topology Research Seminar</strong>, <em>Fields Institute (online due to COVID19)</em>.</dd>
 
