@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastmod: 2020-07-01
+lastmod: 2020-09-08
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf
@@ -213,7 +213,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">ongoing</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Peer reviews (reports and/or opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. Topol. • J. Éc. Polytech. Math. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Peer reviews (reports and/or opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. Topol. • Homol. Homot. Appl. • J. Éc. Polytech. Math. • J. Lond. Math. Soc. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math.</dd>
 
 
 
