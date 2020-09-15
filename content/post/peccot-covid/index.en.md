@@ -6,7 +6,7 @@ draft: false
 tags: [math, peccot]
 ---
 
-**Update**: The videos are now available on Youtube! Please [go there for the third lecture](https://www.youtube.com/watch?v=7DO4hQrKCbg) and [there for the fourth lecture](https://www.youtube.com/watch?v=7jnHi6ICdwE).
+**Update**: The videos are now available on the Collège de France's website! Please [go there for the third lecture](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm) and [there for the fourth lecture](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm).
 
 As some of you may know I was one of the people chosen this year to give a [Peccot lecture](https://idrissi.eu/en/class/peccot/) at the Collège de France (see [my first post about it]({{< ref "post/peccot" >}})).
 And as you all know for sure, normal life came to a halt a couple of months ago when the number of COVID-19 cases exploded in France (and the world) and the French government ordered a lockdown.
