@@ -1,5 +1,5 @@
 ---
-title: Algorithms and Programmation
+title: Algorithms and Programming
 cursus: L2 Maths (S1)
 what: exercises+labs
 time: 42h
