@@ -17,7 +17,7 @@ Nous présenterons les catégories de modèles de Quillen, et nous expliquerons 
 Nous illustrerons ces méthodes avec la théorie de l'homotopie rationnelle en montrant que la structure multiplicative des cochaînes encode le type d'homotopie rationnel des espaces topologiques.
 
 **Prérequis.** 
-Il est recommandé d'avoir suivi les cours [*Homologie* (Emmanuel Wagner)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Wagner-intro.html) et [*Homotopie I* (Bruno Vallette)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Vallette-fonda1.html). Il sera notamment utile d'avoir une certaine familiarité avec le langage catégorique et les notions de base en topologie algébrique et en algèbre homologique. 
+Il est recommandé d'avoir suivi les cours [*Homologie* (Emmanuel Wagner)](https://moodle.u-paris.fr/course/view.php?id=11052) et [*Homotopie I* (Bruno Vallette)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Vallette-fonda1.html). Il sera notamment utile d'avoir une certaine familiarité avec le langage catégorique et les notions de base en topologie algébrique et en algèbre homologique. 
 
 **Plan du cours.**
 

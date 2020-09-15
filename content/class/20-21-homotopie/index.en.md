@@ -17,7 +17,7 @@ We will present Quillen's model categories, and we will explain the equivalence 
 We will illustrate these methods with rational homotopy theory by showing that multiplicative structures of cochains encodes rational homotopy types of topological spaces.
 
 **Prerequisites.** 
-It is recommended to have taken the courses [*Homology* (Emmanuel Wagner)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Wagner-intro.html) and [*Homotopy I* (Bruno Vallette)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Vallette-fonda1.html).
+It is recommended to have taken the courses [*Homology* (Emmanuel Wagner)](https://moodle.u-paris.fr/course/view.php?id=11052) and [*Homotopy I* (Bruno Vallette)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Vallette-fonda1.html).
 It will be useful to have a certain familiarity with categorical language and with basic notions of algebraic topology and homological algebra.
 
 **Plan of the course.**
