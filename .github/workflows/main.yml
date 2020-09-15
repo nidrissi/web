@@ -11,7 +11,7 @@ jobs:
     steps:
     - run: curl -Ls "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_Linux-64bit.tar.gz" -o /tmp/hugo.tar.gz
       env:
-        hugo_version: '0.74.3'
+        hugo_version: '0.75.0'
     - run: tar xf /tmp/hugo.tar.gz -C /tmp
     - run: chmod +x /tmp/hugo
     - uses: actions/checkout@master
