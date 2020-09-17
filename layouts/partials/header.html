@@ -19,14 +19,14 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170792065-2"></script>
 
-  {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get "js/ga.js") (resources.Get "js/toc.js") | resources.Concat "bundle.js" | resources.Minify -}}
-  <script defer src="{{ $js.Permalink }}"></script>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-  <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.5/es5/tex-chtml.js" integrity="sha384-Oh4n60vusI43YloR4gQuVeskX3h6pctT3SequOy/7Nwv4PqBB+3UseKhoVa+Nmgj" crossorigin="anonymous"></script>
+  {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get "js/ga.js") (resources.Get "js/toc.js") | resources.Concat "bundle.js" | resources.Minify -}}
+  <script src="{{ $js.Permalink }}"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-chtml.js" integrity="sha384-UozJ99uTsC3hGw/ZyfGWyZhGT2HagM/UTaJSjYDDwJkJAV7YGoW0bHz7DI5XCN6X" crossorigin="anonymous"></script>
 
 
   <link rel="icon" type="image/png" href="/img/icon.png">
