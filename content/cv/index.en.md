@@ -452,32 +452,87 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2020–2021</dt>
-<dd class="col-lg-10 col-sm-9">Homotopy II, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programming, L2 (exercises+labs, 42h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Homotopy II</em>, M2 Fundam. Math (lectures, 24h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Elementary Algebra and Analysis 1 + Mathematical Reasoning 1</em>, L1 Maths (lecture+exercises, 56.5h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algorithms and Programming</em>, L2 (exercises+labs, 42h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9">Real Homotopy of Configuration Spaces, Peccot Lecture, Collège de France (8h) • Homotopy Theory, M2 Fundam. Math (lectures, 24h) • Elementary Algebra and Analysis 1 + Mathematical Reasoning 1, L1 MIASHS (lecture+exercises, 56.5h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h) • Algorithms and Programming, L2 Maths (exercises+labs, 42h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Real Homotopy of Configuration Spaces</em>, Peccot Lecture, Collège de France (8h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Introduction to Homotopy Theory</em>, M2 Fundam. Math (lectures, 24h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Elementary Algebra and Analysis 1 + Mathematical Reasoning 1</em>, L1 MIASHS (lecture+exercises, 56.5h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algorithms and Programming</em>, L2 Maths (exercises+labs, 42h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Elementary Algebra and Analysis 1, L1 MIASHS (lecture+exercises, 72h) • Elementary Algebra and Analysis 2, L1 Chemistry (exercises, 36h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Elementary Algebra and Analysis 1</em>, L1 MIASHS (lecture+exercises, 72h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Calculus 1, L1 MASS (exercises, 36h) • Fundamental mathematics 1, L1 SESI (oral exams &amp; tutoring, 16h + 10h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Calculus 1</em>, L1 MASS (exercises, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Fundamental mathematics 1</em>, L1 SESI (oral exams &amp; tutoring, 16h + 10h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Matrix calculus, L2 econ-management (exercises, 36h) • Calculus 1, L1 econ-management (exercises, 15h) • Calculus 1, L1 MASS (exercises, 15h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Matrix calculus</em>, L2 econ-management (exercises, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Calculus 1</em>, L1 econ-management (exercises, 15h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Calculus 1</em>, L1 MASS (exercises, 15h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Fundamental mathematics 2, L1 SESI (exercises, 66h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Fundamental mathematics 2</em>, L1 SESI (exercises, 66h).</dd>
 
 
 </dl>

@@ -452,32 +452,87 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2020–2021</dt>
-<dd class="col-lg-10 col-sm-9">Homotopie II, M2 Maths fondas (cours, 24h) • Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 (cours/TD, 56,5h) • Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) • Algorithmes et Programmation, L2 (TD+TP, 42h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Homotopie II</em>, M2 Maths fondas (cours, 24h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1</em>, L1 (cours/TD, 56,5h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algèbre et analyse élémentaires 2</em>, L1 Chimie (TD, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algorithmes et Programmation</em>, L2 (TD+TP, 42h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2019–2020</dt>
-<dd class="col-lg-10 col-sm-9">Homotopie réelle des espaces de configuration, Cours Peccot, Collège de France (8h) • Théorie de l’homotopie, M2 Maths fondas (cours, 24h) • Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1, L1 MIASHS (cours/TD, 56,5h) • Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h) • Algorithmes et Programmation, L2 Maths (TD+TP, 42h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Homotopie réelle des espaces de configuration</em>, Cours Peccot, Collège de France (8h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Introduction à la théorie de l’homotopie</em>, M2 Maths fondas (cours, 24h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1</em>, L1 MIASHS (cours/TD, 56,5h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algèbre et analyse élémentaires 2</em>, L1 Chimie (TD, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algorithmes et Programmation</em>, L2 Maths (TD+TP, 42h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2018–2019</dt>
-<dd class="col-lg-10 col-sm-9">Algèbre et analyse élémentaires 1, L1 MIASHS (cours/TD, 72h) • Algèbre et analyse élémentaires 2, L1 Chimie (TD, 36h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Algèbre et analyse élémentaires 1</em>, L1 MIASHS (cours/TD, 72h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Algèbre et analyse élémentaires 2</em>, L1 Chimie (TD, 36h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2017–2018</dt>
-<dd class="col-lg-10 col-sm-9">Analyse 1, L1 MASS (TD, 36h) • Mathématiques fondamentales I, L1 SESI (colles et tutorat, 16h + 10h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Analyse 1</em>, L1 MASS (TD, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Mathématiques fondamentales I</em>, L1 SESI (colles et tutorat, 16h + 10h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2016–2017</dt>
-<dd class="col-lg-10 col-sm-9">Calcul matriciel, L2 éco-gestion-management (TD, 36h) • Analyse 1, L1 éco-gestion-management (TD, 15h) • Analyse 1, L1 MASS (TD, 15h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Calcul matriciel</em>, L2 éco-gestion-management (TD, 36h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Analyse 1</em>, L1 éco-gestion-management (TD, 15h).</dd>
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><em>Analyse 1</em>, L1 MASS (TD, 15h).</dd>
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2015–2016</dt>
-<dd class="col-lg-10 col-sm-9">Mathématiques fondamentales 2, L1 SESI (TD, 66h).</dd>
+<dd class="col-lg-10 col-sm-9"><em>Mathématiques fondamentales 2</em>, L1 SESI (TD, 66h).</dd>
 
 
 </dl>
