@@ -9,6 +9,6 @@ eventURL: https://express.northeastern.edu/topology/
 location: Northeastern University (online)
 urls:
   pdf:
-  slides:
+  slides: northeastern.png
   video:
 ---
