@@ -16,8 +16,8 @@ Je suis/fus membre :
 
 ---
 
-J'ai écrit un outil que j'ai appelé [arxiv2bib](https://a2b.idrissi.eu) pour produire des entrées BibLaTeX à partir de prépublications arXiv.
-Il est bien sûr open source : le code est sur [GitHub](https://github.com/nidrissi/arxiv2bib).
+J'ai écrit un outil que j'ai appelé [arXiv2BibLaTeX](https://a2b.idrissi.eu) pour produire des entrées BibLaTeX à partir de prépublications arXiv.
+Il est bien sûr open source : le code est sur [GitHub](https://github.com/nidrissi/a2b).
 
 ---
 

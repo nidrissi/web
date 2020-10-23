@@ -1,5 +1,5 @@
 ---
-title: arxiv2bib
+title: arXiv2BibLaTeX
 date: 2020-06-29
 draft: false
 tags: [math, arxiv]
@@ -19,6 +19,6 @@ So I decided to write a little JavaScript program.
 
 It's available at **[a2b.idrissi.eu](https://a2b.idrissi.eu/)**.
 I wrote it using a few libraries, notably React, Redux, and a few helper libraries (`react-redux`, `react-bootstrap`...).
-The program is open source (under the AGPLv3), of course, and [the code is available on Github](https://github.com/nidrissi/arxiv2bib).
+The program is open source (under the AGPLv3), of course, and [the code is available on Github](https://github.com/nidrissi/a2b).
 There are certainly plenty of bugs, but the basics work.
-If you encounter an issue, don't hesitate to [submit one on Github](https://github.com/nidrissi/arxiv2bib/issues/new/choose).
+If you encounter an issue, don't hesitate to [submit one on Github](https://github.com/nidrissi/a2b/issues/new/choose).
