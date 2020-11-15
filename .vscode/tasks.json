@@ -4,16 +4,49 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "hugo: build",
-      "type": "shell",
+      "label": "hugo: serve",
+      "type": "process",
       "command": "hugo",
+      "args": ["serve"],
+      "isBackground": true,
       "problemMatcher": []
     },
     {
-      "label": "hugo: serve",
-      "type": "shell",
-      "command": "hugo serve",
+      "label": "hugo: build",
+      "type": "process",
+      "command": "hugo",
+      "group": "build",
       "problemMatcher": []
+    },
+    {
+      "label": "cv: build",
+      "type": "process",
+      "command": "make",
+      "group": "build",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/curriculum"
+      }
+    },
+    {
+      "label": "cv: copy",
+      "type": "process",
+      "command": "make",
+      "args": ["copy"],
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/curriculum"
+      }
+    },
+    {
+      "label": "cv: clean",
+      "type": "process",
+      "command": "make",
+      "args": ["clean"],
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${workspaceFolder}/curriculum"
+      }
     }
   ]
 }
