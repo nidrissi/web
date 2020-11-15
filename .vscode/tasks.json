@@ -9,7 +9,22 @@
       "command": "hugo",
       "args": ["serve"],
       "isBackground": true,
-      "problemMatcher": []
+      "problemMatcher": {
+        "severity": "error",
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "^ERROR .+ \"(.+):(\\d+):(\\d+)\": (.+)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "message": 4
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Change detected, rebuilding site.",
+          "endsPattern": "^Total in"
+        }
+      }
     },
     {
       "label": "hugo: build",
