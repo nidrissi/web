@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(250,250,250) !important;
-    padding-top: 3.5rem;
+  background-color: rgb(250, 250, 250) !important;
 }
 
 :target::before {
@@ -11,17 +10,17 @@ body {
 }
 
 #main-container {
-    background-color: white;
+  background-color: white;
 }
 
 #TableOfContents ul {
-    margin-bottom: 0;
-    padding-left: 0;
-    list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 #TableOfContents ul li {
-    margin-bottom: 0;
-    padding-left: .5rem;
-    list-style-type: none;
+  margin-bottom: 0;
+  padding-left: 0.5rem;
+  list-style-type: none;
 }
