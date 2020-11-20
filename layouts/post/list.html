@@ -8,4 +8,6 @@
 {{- range .Data.Pages -}}
 {{- .Render "card" -}}
 {{- end -}}
+
+{{- partial "breadcrumbs" . -}}
 {{- end -}}

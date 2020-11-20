@@ -5,6 +5,8 @@
   translation: Contents
 - id: see_more
   translation: see more
+- id: home
+  translation: Home
 # Buttons
 - id: btn_preprint
   translation: Preprint
