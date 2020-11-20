@@ -1,0 +1,51 @@
+\documentclass[12pt, a4paper $if(réponses)$, answers $endif$]{exam}
+
+\usepackage{polyglossia}
+\setmainlanguage{french}
+
+\usepackage[babel]{microtype}
+\usepackage{amsmath, amssymb, mathtools, mathrsfs}
+\usepackage{enumitem}
+
+\usepackage{unicode-math}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{TeX Gyre Pagella}
+\setsansfont{Linux Biolinum O}[Scale=MatchLowercase]
+\setmonofont{Cascadia Mono}[Scale=MatchLowercase]
+\setmathfont{TeX Gyre Pagella Math}[Scale=MatchLowercase]
+
+\usepackage[svgnames]{xcolor}
+
+$if(tikz)$
+    \usepackage{tikz}
+    \usepackage{pgfplots}
+    \pgfplotsset{compat=1.17}
+$endif$
+
+% for some reason pandoc uses this
+\newcommand{\tightlist}{}
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+
+\shadedsolutions
+
+\header{$cours.court$}{}{Université de Paris}
+%\footer{}{Page \thepage{} sur \numpages{}}{\iflastpage{\emph{Fin}}{\emph{Tournez SVP}}}
+\runningheadrule{}
+
+\renewcommand{\thequestion}{\bfseries \sffamily Exercice \arabic{question}}
+\renewcommand{\thepartno}{\arabic{question}\alph{partno}}
+
+\title{\sffamily $titre$}
+\author{$cours.long$}
+\date{$date$}
+
+\begin{document}
+\maketitle
+\thispagestyle{headandfoot}
+
+\begin{questions}
+    $body$
+\end{questions}
+\end{document}
