@@ -140,3 +140,33 @@ pandoc --pdf-engine lualatex --template exam-template.tex --lua-filter exam-filt
 ```
 
 Then you should get something like [`example.pdf`](example.pdf).
+I recently started using [Visual Studio Code](https://code.visualstudio.com/) (after years of using Emacs), and here is a [`tasks.json`](./tasks.json) that should work (assuming `exam-template.tex` and `exam-filter.lua` are at the root of your project):
+
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Pandoc",
+      "type": "process",
+      "group": {
+        "kind": "build"
+      },
+      "command": "pandoc",
+      "args": [
+        "--verbose",
+        "--pdf-engine",
+        "lualatex",
+        "--template",
+        "exam-template.tex",
+        "--lua-filter",
+        "exam-filter.lua",
+        "${file}",
+        "--output",
+        "${relativeFileDirname}/${fileBasenameNoExtension}.pdf"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
+```

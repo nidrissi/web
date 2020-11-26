@@ -137,3 +137,33 @@ Pour compiler l'exemple, [installez Pandoc](https://pandoc.org/installing.html) 
 pandoc --pdf-engine lualatex --template exam-template.tex --lua-filter exam-filter.lua example.md --output example.pdf
 
 Vous devriez obtenir un PDF qui ressemble à [`example.pdf`](example.pdf).
+J'ai récemment commencé à utiliser [Visual Studio Code](https://code.visualstudio.com/) (après des années passées sur Emacs), et voici un [`tasks.json`](./tasks.json) qui devrait marcher (en supposant que `exam-template.tex` et `exam-filter.lua` soient à la racine de votre projet) :
+
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Pandoc",
+      "type": "process",
+      "group": {
+        "kind": "build"
+      },
+      "command": "pandoc",
+      "args": [
+        "--verbose",
+        "--pdf-engine",
+        "lualatex",
+        "--template",
+        "exam-template.tex",
+        "--lua-filter",
+        "exam-filter.lua",
+        "${file}",
+        "--output",
+        "${relativeFileDirname}/${fileBasenameNoExtension}.pdf"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
+```
