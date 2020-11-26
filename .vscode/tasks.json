@@ -7,7 +7,7 @@
       "label": "hugo: serve",
       "type": "process",
       "command": "hugo",
-      "args": ["serve"],
+      "args": ["serve", "--buildDrafts", "--buildFuture"],
       "isBackground": true,
       "problemMatcher": {
         "severity": "error",
