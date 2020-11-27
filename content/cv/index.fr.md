@@ -580,6 +580,11 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">2021</dt>
+<dd class="col-lg-10 col-sm-9"><em>Barcelona Conference on Higher Structures</em><sup>?</sup> (Centre de Recerca Matemàtica) • <em>Colloque 2021 du GDR Topologie Algébrique et Applications</em><sup>?</sup> (Université de Strasbourg).</dd>
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">2020</dt>
 <dd class="col-lg-10 col-sm-9"><del><em>Toric Topology and Polyhedral Products</em> (Fields Institute)</del> [cancelled due to Covid19] • <em>Málaga &amp; Topology Meeting</em> (Universidad de Málaga).</dd>
 

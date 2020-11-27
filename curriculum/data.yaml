@@ -424,6 +424,11 @@ section:
   - title: Participation à des conférences ! Conferences attended
     content:
       - item:
+          a: 2021
+          b: |
+            *Barcelona Conference on Higher Structures*^?^ (Centre de Recerca Matemàtica) •
+            *Colloque 2021 du GDR Topologie Algébrique et Applications*^?^ (Université de Strasbourg)
+      - item:
           a: 2020
           b: |
             ~~*Toric Topology and Polyhedral Products* (Fields Institute)~~ [cancelled due to Covid19] •
