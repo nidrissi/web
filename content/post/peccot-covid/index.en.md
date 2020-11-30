@@ -1,7 +1,7 @@
 ---
 title: Peccot lecture & COVID-19
 date: 2020-05-25
-lastmod: 2020-06-26
+lastMod: 2020-06-26
 draft: false
 tags: [math, peccot]
 ---
@@ -21,4 +21,5 @@ The current situation is extremely difficult for everyone, and I'm not the worst
 
 I hope people will still find it interesting and that the video will not feel too strange.
 I could not take questions during the lecture, obviously, but I will be happy to answer any you might have via email.
+
 <!--more-->

@@ -1,7 +1,7 @@
 ---
 title: Cours Peccot & COVID-19
 date: 2020-05-25
-lastmod: 2020-06-26
+lastMod: 2020-06-26
 draft: false
 tags: [math, peccot]
 ---
@@ -21,4 +21,5 @@ La situation actuelle est très difficile pour tout le monde, et je ne suis pas 
 
 J'espère que le cours sera quand même intéressant et que la vidéo ne sera pas trop étrange.
 Je ne pouvais pas répondre aux questions durant le cours, évidemment, mais je serai ravi d'y répondre par email si vous en avez.
+
 <!--more-->

@@ -1,7 +1,7 @@
 ---
 title: Facts
 date: 2017-01-01
-lastmod: 2017-10-31
+lastMod: 2017-10-31
 ---
 
 Let {{< tex "\mathtt{P}" >}} be a (topological, for example) operad, and let {{< tex "\vec{\mathtt{P}}" >}} be the associated bicolored operad whose algebras are triplets {{< tex "(A,B,f)" >}} where {{< tex "A" >}} and {{< tex "B" >}} are {{< tex "\mathtt{P}" >}}-algebras and {{< tex "f" >}} is a morphism of such algebras. It has two colors {{< tex "a" >}} and {{< tex "b" >}} and is given by:
@@ -28,7 +28,7 @@ If {{< tex "F : \mathsf{C} \times \mathsf{D} \to \mathsf{E}" >}} is a bifunctor 
 
 {{< tex display="F(M_1, M'_1) \rightarrow F(M_0, M'_0) \to F(M, M')." >}}
 
-This is a classical result, and the proof hinges on the following trick (that I saw in Goerss and Hopkins' *André--Quillen (co)-homology for simplicial algebras over simplicial operads*, but it can probably be found elsewhere): if {{< tex "f" >}} equalizes {{< tex "F(d_0, d'_0)" >}} and {{< tex "F(d_1, d'_1)" >}}, then it must also equalize {{< tex "F(1, d'_0)" >}} and {{< tex "F(1, d'_1)" >}}, and it must also equalize {{< tex "F(d_0, 1)" >}} and {{< tex "F(d_1, 1)" >}}. Indeed:
+This is a classical result, and the proof hinges on the following trick (that I saw in Goerss and Hopkins' _André--Quillen (co)-homology for simplicial algebras over simplicial operads_, but it can probably be found elsewhere): if {{< tex "f" >}} equalizes {{< tex "F(d_0, d'_0)" >}} and {{< tex "F(d_1, d'_1)" >}}, then it must also equalize {{< tex "F(1, d'_0)" >}} and {{< tex "F(1, d'_1)" >}}, and it must also equalize {{< tex "F(d_0, 1)" >}} and {{< tex "F(d_1, 1)" >}}. Indeed:
 
 {{< tex display="f F(d_0, 1) = f F(d_0, d'_0) F(1, s'_0) = f F(d_1, d'_1) F(1, s'_0) = f F(d_1, 1)." >}}
 

@@ -1,6 +1,6 @@
 ---
 date: 2015-11-29
-lastmod: 2020-06-26
+lastMod: 2020-06-26
 menu:
   main:
     weight: 1
@@ -15,6 +15,5 @@ Pour plus d'informations, voir [mon CV]({{< ref "/cv" >}}).
 
 Je m'intéresse principalement aux opérades et leurs applications à la topologie algébrique.
 Je suis plus particulièrement intéressé à l'étude des espaces de configuration des variétés, leurs liens avec les complexes de graphes et les invariants des variétés qu'ils définissent.
-
 
 [J'ai donné un cours Peccot au Collège de France au printemps 2020, vous pouvez le retrouver ici.]({{< ref "/class/peccot" >}})

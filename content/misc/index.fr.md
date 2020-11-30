@@ -1,7 +1,7 @@
 ---
 title: Divers
 url: /fr/divers/
-lastmod: 2020-08-14
+lastMod: 2020-08-14
 date: 2018-01-01
 menu:
   main:
@@ -11,8 +11,8 @@ menu:
 
 Je suis/fus membre :
 
-* du [GDR Topologie Algébrique et Applications](http://gdrtop.math.cnrs.fr) ;
-* (2014--2015) du [projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller » (HOGT)](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse.
+- du [GDR Topologie Algébrique et Applications](http://gdrtop.math.cnrs.fr) ;
+- (2014--2015) du [projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller » (HOGT)](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse.
 
 ---
 

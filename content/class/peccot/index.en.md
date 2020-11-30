@@ -6,8 +6,8 @@ what: Peccot Lecture
 time: 8h
 year: 2019–2020
 date: 2020-03-04
-publishdate: 2019-11-08
-lastmod: 2020-06-26
+publishDate: 2019-11-08
+lastMod: 2020-06-26
 urls:
   video: https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm
 sidebar:

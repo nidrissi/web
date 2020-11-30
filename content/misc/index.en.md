@@ -1,6 +1,6 @@
 ---
 title: Miscellaneous
-lastmod: 2020-08-14
+lastMod: 2020-08-14
 date: 2018-01-01
 menu:
   main:
@@ -11,8 +11,8 @@ menu:
 
 I am/was a member of:
 
-* the [GDR Algebraic Topology and Applications](http://gdrtop.math.cnrs.fr);
-* (2014--2015) the [ANR project "Algebraic Homotopy, Operads and Grothendieck-Teichmüller groups" (HOGT)](http://math.univ-lille1.fr/~operads/) coordinated by Benoit Fresse.
+- the [GDR Algebraic Topology and Applications](http://gdrtop.math.cnrs.fr);
+- (2014--2015) the [ANR project "Algebraic Homotopy, Operads and Grothendieck-Teichmüller groups" (HOGT)](http://math.univ-lille1.fr/~operads/) coordinated by Benoit Fresse.
 
 ---
 
