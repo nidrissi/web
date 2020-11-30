@@ -5,6 +5,6 @@
       {{- .Title -}}
       {{- if .Content -}}</a>{{- end }}
     </h5>
-    <p class="card-text">{{ partial "meta/cours" . -}}</p>
+    <p class="card-text">{{ partial "meta/cours" . -}} {{ partial "links" (dict "content" . "is_card" 0 "is_li" 1) }}</p>
   </div>
 </article>
