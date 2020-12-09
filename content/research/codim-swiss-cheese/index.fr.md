@@ -14,5 +14,7 @@ urls:
   doi:
   mathrev:
   zbmath:
-# url_custom = [{name = "Custom Link", url = "http://example.org"}]
+  custom:
+    - url: https://msp.org/soon/coming.php?jpath=agt
+      name: Journal
 ---
