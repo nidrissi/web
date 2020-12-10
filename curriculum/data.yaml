@@ -92,7 +92,7 @@ section:
     content:
       - subtitle: Publications
       - bib: publication
-      - subtitle: Prépublications ! Preprints 
+      - subtitle: Prépublications ! Preprints
       - bib: preprint
       - subtitle: Autres documents ! Other documents
       - bib: thesis,other
@@ -118,7 +118,7 @@ section:
             Membre du projet ANR [«\ Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)\ »](https://math.univ-lille1.fr/~operads/). Coordinateur : Benoit Fresse
             !
             Member of the ANR project ["*Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller (HOGT)*"](https://math.univ-lille1.fr/~operads/). Coordinator: Benoit Fresse
-  - title : Service
+  - title: Service
     content:
       - subtitle: Organisation ! Organization
       - entry:
@@ -189,7 +189,6 @@ section:
   - title: Exposés ! Talks
     more: /talk
     content:
-      - subtitle: Sur invitation ! Invited
       - entry:
           a: 10/2021
           b: Colloque 2021 du GDR Topologie Algébrique
@@ -198,59 +197,6 @@ section:
           a: 06/2021
           b: Barcelona Conference on Higher Structures
           c: Centre de Recerca Matemàtica (CRM)
-      - entry:
-          a: 02/2020
-          b: Málaga & Topology Meeting
-          c: Universidad de Málaga
-      - entry:
-          a: 12/2019
-          b: Workshop d'ouverture du projet OCHoTop ! Opening workshop of the OCHoTop project
-          c: École Polytechnique Fédérale de Lausanne (EPFL)
-      - entry:
-          a: 11/2019
-          b: Journée de topologie
-          c: Université de Picardie Jules Verne
-      - entry:
-          a: 05/2019
-          b: Higher Homotopy Algebras in Topology
-          c: Max-Planck-Institut für Mathematik (MPIM)
-      - entry:
-          a: 01/2019
-          b: Structures Supérieures ! Higher Structures
-          c: Centre International de Rencontres Mathématiques (CIRM)
-      - entry:
-          a: 06/2018
-          b: |
-            Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior)
-            !
-            Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)
-          c: Fields Institute
-      - entry:
-          a: 05/2018
-          b: Graph Complexes, Configuration Spaces and Manifold Calculus
-          c: University of British Columbia
-      - entry:
-          a: 10/2017
-          b: Séminaire Itinérant de Catégories
-          c: Université du Littoral Côte d'Opale
-      - entry:
-          a: 10/2016
-          b: "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
-          c: Institut des Hautes Études à Tunis
-      - subtitle: Sur proposition ! Contributed
-      - entry:
-          a: 07/2017
-          b: Young Topologists Meeting 2017
-          c: Stockholm Universitet & KTH
-      - entry:
-          a: 02/2017
-          b: Conference for Young researchers in homotopy theory and categorical structures
-          c: Max-Planck-Institut für Mathematik (MPIM)
-      - entry:
-          a: 10/2016
-          b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
-          c: Université de Picardie Jules Verne
-      - subtitle: Séminaires ! Seminars
       - entry:
           a: 02/2021
           b: Research Seminar on Algebraic Topology
@@ -268,17 +214,37 @@ section:
           b: Toric Topology Research Seminar
           c: Institut Fields (en ligne à cause du COVID-19) ! Fields Institute (online due to COVID19)
       - entry:
+          a: 02/2020
+          b: Málaga & Topology Meeting
+          c: Universidad de Málaga
+      - entry:
           a: 01/2020
           b: Seminar
           c: Aarhus Universitet
+      - entry:
+          a: 12/2019
+          b: Workshop d'ouverture du projet OCHoTop ! Opening workshop of the OCHoTop project
+          c: École Polytechnique Fédérale de Lausanne (EPFL)
+      - entry:
+          a: 11/2019
+          b: Journée de topologie
+          c: Université de Picardie Jules Verne
       - entry:
           a: 07/2019
           b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
           c: Université catholique de Louvain
       - entry:
           a: 05/2019
+          b: Higher Homotopy Algebras in Topology
+          c: Max-Planck-Institut für Mathematik (MPIM)
+      - entry:
+          a: 05/2019
           b: Séminaire de Topology ! Topology Seminar
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
+      - entry:
+          a: 01/2019
+          b: Structures Supérieures ! Higher Structures
+          c: Centre International de Rencontres Mathématiques (CIRM)
       - entry:
           a: 12/2018
           b: Stockholm Topology Seminar
@@ -289,8 +255,19 @@ section:
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
       - entry:
           a: 06/2018
+          b: |
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior)
+            !
+            Derived Geometry and Higher Categorical Structures in Geometry and Physics (junior speaker)
+          c: Fields Institute
+      - entry:
+          a: 06/2018
           b: Departmental Colloquium ! Colloque du département
           c: University of Regina
+      - entry:
+          a: 05/2018
+          b: Graph Complexes, Configuration Spaces and Manifold Calculus
+          c: University of British Columbia
       - entry:
           a: 12/2017
           b: Séminaire de Topologie, Géométrie et Algèbre ! Topology, Geometry, and Algebra seminar
@@ -301,7 +278,7 @@ section:
           c: Université de Strasbourg
       - entry:
           a: 11/2017
-          b: Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar 
+          b: Séminaire de Physique Mathématique et de Topologie Algébrique ! Mathematical Physics and Algebraic Topology Seminar
           c: "Université d'Angers"
       - entry:
           a: 11/2017
@@ -312,13 +289,25 @@ section:
           b: Séminaire de Géométrie des Espaces Singuliers (× 2) ! Singular Spaces Geometry Seminar (× 2)
           c: Université de Lille
       - entry:
+          a: 10/2017
+          b: Séminaire Itinérant de Catégories
+          c: Université du Littoral Côte d'Opale
+      - entry:
           a: 08/2017
           b: Exposés de physique mathématiques ! Talks in mathematical physics
           c: ETH Zürich
       - entry:
+          a: 07/2017
+          b: Young Topologists Meeting 2017
+          c: Stockholm Universitet & KTH
+      - entry:
           a: 05/2017
           b: Séminaire de Géométrie des espaces singuliers (× 2) ! Singular Spaces Geometry Seminar (× 2)
           c: Université de Lille
+      - entry:
+          a: 02/2017
+          b: Conference for Young researchers in homotopy theory and categorical structures
+          c: Max-Planck-Institut für Mathematik (MPIM)
       - entry:
           a: 01/2017
           b: Séminaire de Topologie Algébrique ! Algebraic Topology Seminar
@@ -327,6 +316,14 @@ section:
           a: 11/2016
           b: Séminaire de topologie algébrique ! Algebraic Topology Seminar
           c: Université Paris 13
+      - entry:
+          a: 10/2016
+          b: "Conférence en l'honneur de Saïd Zarati ! Conference in the honour of Saïd Zarati"
+          c: Institut des Hautes Études à Tunis
+      - entry:
+          a: 10/2016
+          b: Colloque 2016 du GDR Topologie Algébrique et Applications ! 2016 Meeting of the GDR Algebraic Topology and Applications
+          c: Université de Picardie Jules Verne
       - entry:
           a: 09/2016
           b: Séminaire de Topologie ! Topology Seminar
@@ -359,56 +356,65 @@ section:
     more: /class
     content:
       - item:
-          a: 2020--2021
-          b: *Homotopie II*, M2 Maths fondas (cours, 24h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24h)
+          a: "2020--2021"
+          b: '*Homotopie II*, M2 Maths fondas (cours, 24h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24h)'
       - item:
-          a: ''
-          b: *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 (cours/TD, 56,5h) ! *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 Maths (lecture+exercises, 56.5h)
+          a: ""
+          b: |
+            *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 (cours/TD, 56,5h)
+            !
+            *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 Maths (lecture+exercises, 56.5h)
       - item:
-          a: ''
-          b: *Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)
+          a: ""
+          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
       - item:
-          a: ''
-          b: *Algorithmes et Programmation*, L2 (TD+TP, 42h) ! *Algorithms and Programming*, L2 (exercises+labs, 42h)
+          a: ""
+          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42h) ! *Algorithms and Programming*, L2 (exercises+labs, 42h)"
       - item:
-          a: 2019--2020
-          b: *Homotopie réelle des espaces de configuration*, Cours Peccot, Collège de France (8h) ! *Real Homotopy of Configuration Spaces*, Peccot Lecture, Collège de France (8h)
+          a: "2019--2020"
+          b: "*Homotopie réelle des espaces de configuration*, Cours Peccot, Collège de France (8h) ! *Real Homotopy of Configuration Spaces*, Peccot Lecture, Collège de France (8h)"
       - item:
-          a: ''
-          b: *Introduction à la théorie de l'homotopie*, M2 Maths fondas (cours, 24h) ! *Introduction to Homotopy Theory*, M2 Fundam.\ Math (lectures, 24h)
+          a: ""
+          b: |
+            *Introduction à la théorie de l'homotopie*, M2 Maths fondas (cours, 24h) 
+            !
+            *Introduction to Homotopy Theory*, M2 Fundam.\ Math (lectures, 24h)
       - item:
-          a: ''
-          b: *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 MIASHS (cours/TD, 56,5h) ! *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 MIASHS (lecture+exercises, 56.5h)
+          a: ""
+          b: |
+            *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 MIASHS (cours/TD, 56,5h)
+            !
+            *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 MIASHS (lecture+exercises, 56.5h)
       - item:
-          a: ''
-          b: *Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)
+          a: ""
+          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
       - item:
-          a: ''
-          b: *Algorithmes et Programmation*, L2 Maths (TD+TP, 42h) ! *Algorithms and Programming*, L2 Maths (exercises+labs, 42h)
+          a: ""
+          b: "*Algorithmes et Programmation*, L2 Maths (TD+TP, 42h) ! *Algorithms and Programming*, L2 Maths (exercises+labs, 42h)"
       - item:
           a: 2018--2019
-          b: *Algèbre et analyse élémentaires 1*, L1 MIASHS (cours/TD, 72h) ! *Elementary Algebra and Analysis 1*, L1 MIASHS (lecture+exercises, 72h)
+          b: "*Algèbre et analyse élémentaires 1*, L1 MIASHS (cours/TD, 72h) ! *Elementary Algebra and Analysis 1*, L1 MIASHS (lecture+exercises, 72h)"
       - item:
-          a: ''
-          b: *Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)
+          a: ""
+          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
       - item:
           a: 2017--2018
-          b: *Analyse 1*, L1 MASS (TD, 36h) ! *Calculus 1*, L1 MASS (exercises, 36h)
+          b: "*Analyse 1*, L1 MASS (TD, 36h) ! *Calculus 1*, L1 MASS (exercises, 36h)"
       - item:
-          a: ''
-          b: *Mathématiques fondamentales I*, L1 SESI (colles et tutorat, 16h + 10h) ! *Fundamental mathematics 1*, L1 SESI (oral exams & tutoring, 16h + 10h)
+          a: ""
+          b: "*Mathématiques fondamentales I*, L1 SESI (colles et tutorat, 16h + 10h) ! *Fundamental mathematics 1*, L1 SESI (oral exams & tutoring, 16h + 10h)"
       - item:
           a: 2016--2017
-          b: *Calcul matriciel*, L2 éco-gestion-management (TD, 36h) ! *Matrix calculus*, L2 econ-management (exercises, 36h)
+          b: "*Calcul matriciel*, L2 éco-gestion-management (TD, 36h) ! *Matrix calculus*, L2 econ-management (exercises, 36h)"
       - item:
-          a: ''
-          b: *Analyse 1*, L1 éco-gestion-management (TD, 15h) ! *Calculus 1*, L1 econ-management (exercises, 15h)
+          a: ""
+          b: "*Analyse 1*, L1 éco-gestion-management (TD, 15h) ! *Calculus 1*, L1 econ-management (exercises, 15h)"
       - item:
-          a: ''
-          b: *Analyse 1*, L1 MASS (TD, 15h) ! *Calculus 1*, L1 MASS (exercises, 15h)
+          a: ""
+          b: "*Analyse 1*, L1 MASS (TD, 15h) ! *Calculus 1*, L1 MASS (exercises, 15h)"
       - item:
           a: 2015--2016
-          b: *Mathématiques fondamentales 2*, L1 SESI (TD, 66h) ! *Fundamental mathematics 2*, L1 SESI (exercises, 66h)
+          b: "*Mathématiques fondamentales 2*, L1 SESI (TD, 66h) ! *Fundamental mathematics 2*, L1 SESI (exercises, 66h)"
   - title: Visites ! Visits
     content:
       - item:
@@ -508,4 +514,3 @@ section:
           b: |
             *Gelfand Centennial Conference: A View of 21st Century Mathematics* (Massachusetts Institute of Technology) •
             *Conference in Algebra and Topology celebrating Lionel Schwartz's 60th birthday* (Université de Nantes)
-...

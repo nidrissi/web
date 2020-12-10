@@ -258,15 +258,6 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 <dl class="row mb-0">
 
 
-</dl>
-
-#### Sur invitation
-
-<dl class="row mb-0">
-
-
-
-
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2021</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Colloque 2021 du GDR Topologie Algébrique</strong>, <em>Université de Strasbourg</em>.</dd>
@@ -276,96 +267,6 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">juin 2021</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Barcelona Conference on Higher Structures</strong>, <em>Centre de Recerca Matemàtica (CRM)</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Málaga &amp; Topology Meeting</strong>, <em>Universidad de Málaga</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">déc. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Workshop d’ouverture du projet OCHoTop</strong>, <em>École Polytechnique Fédérale de Lausanne (EPFL)</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">nov. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Journée de topologie</strong>, <em>Université de Picardie Jules Verne</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">mai 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2019</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Structures Supérieures</strong>, <em>Centre International de Rencontres Mathématiques (CIRM)</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior)</strong>, <em>Fields Institute</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">mai 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Graph Complexes, Configuration Spaces and Manifold Calculus</strong>, <em>University of British Columbia</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire Itinérant de Catégories</strong>, <em>Université du Littoral Côte d’Opale</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conférence en l’honneur de Saïd Zarati</strong>, <em>Institut des Hautes Études à Tunis</em>.</dd>
-
-
-
-</dl>
-
-#### Sur proposition
-
-<dl class="row mb-0">
-
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">juil. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm Universitet &amp; KTH</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2017</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>.</dd>
-
-
-
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2016</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Colloque 2016 du GDR Topologie Algébrique et Applications</strong>, <em>Université de Picardie Jules Verne</em>.</dd>
-
-
-
-</dl>
-
-#### Séminaires
-
-<dl class="row mb-0">
-
 
 
 
@@ -394,8 +295,26 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2020</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Málaga &amp; Topology Meeting</strong>, <em>Universidad de Málaga</em>.</dd>
+
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2020</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Seminar</strong>, <em>Aarhus Universitet</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">déc. 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Workshop d’ouverture du projet OCHoTop</strong>, <em>École Polytechnique Fédérale de Lausanne (EPFL)</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">nov. 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Journée de topologie</strong>, <em>Université de Picardie Jules Verne</em>.</dd>
 
 
 
@@ -407,7 +326,19 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">mai 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Higher Homotopy Algebras in Topology</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">mai 2019</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Séminaire de Topology</strong>, <em>Institut de Mathématiques de Jussieu-Paris Rive Gauche</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2019</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Structures Supérieures</strong>, <em>Centre International de Rencontres Mathématiques (CIRM)</em>.</dd>
 
 
 
@@ -425,7 +356,19 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">juin 2018</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Derived Geometry and Higher Categorical Structures in Geometry and Physics (orateur junior)</strong>, <em>Fields Institute</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">juin 2018</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Departmental Colloquium</strong>, <em>University of Regina</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">mai 2018</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Graph Complexes, Configuration Spaces and Manifold Calculus</strong>, <em>University of British Columbia</em>.</dd>
 
 
 
@@ -460,14 +403,32 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2017</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Itinérant de Catégories</strong>, <em>Université du Littoral Côte d’Opale</em>.</dd>
+
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">août 2017</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Exposés de physique mathématiques</strong>, <em>ETH Zürich</em>.</dd>
 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">juil. 2017</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Young Topologists Meeting 2017</strong>, <em>Stockholm Universitet &amp; KTH</em>.</dd>
+
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">mai 2017</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Séminaire de Géométrie des espaces singuliers (× 2)</strong>, <em>Université de Lille</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2017</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Conference for Young researchers in homotopy theory and categorical structures</strong>, <em>Max-Planck-Institut für Mathematik (MPIM)</em>.</dd>
 
 
 
@@ -480,6 +441,18 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">nov. 2016</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Séminaire de topologie algébrique</strong>, <em>Université Paris 13</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2016</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Conférence en l’honneur de Saïd Zarati</strong>, <em>Institut des Hautes Études à Tunis</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2016</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Colloque 2016 du GDR Topologie Algébrique et Applications</strong>, <em>Université de Picardie Jules Verne</em>.</dd>
 
 
 
