@@ -370,6 +370,18 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2021</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Research Seminar on Algebraic Topology</strong>, <em>Universität Hamburg (en ligne)</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2021</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Algèbre et topologie</strong>, <em>Université de Strasbourg (en ligne)</em>.</dd>
+
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2020</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Topology seminar</strong>, <em>Northeastern University (en ligne)</em>.</dd>
 
