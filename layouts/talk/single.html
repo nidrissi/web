@@ -8,7 +8,7 @@
 
   <p class="lead">{{- partial "meta/talk" . }} {{ partial "links" (dict "content" . "is_card" 0) -}}</p>
 
-  {{- with .Title -}}<p><strong>{{- . -}}</strong></p>{{- end -}}
+  {{- with .Title -}}<p><strong>{{- markdownify . -}}</strong></p>{{- end -}}
   
   {{- with .Params.abstract }}<p>{{ markdownify . }}</p>{{- end -}}
 

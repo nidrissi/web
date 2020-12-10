@@ -2,8 +2,8 @@
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="{{ "/" | relLangURL }}">{{ i18n "home" }}</a></li>
         {{- if .Parent.Title -}}
-        <li class="breadcrumb-item"><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
+        <li class="breadcrumb-item"><a href="{{ .Parent.Permalink }}">{{ markdownify .Parent.Title }}</a></li>
         {{- end -}}
-        <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
+        <li class="breadcrumb-item active" aria-current="page">{{ markdownify .Title }}</li>
     </ol>
 </nav>

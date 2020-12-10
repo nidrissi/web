@@ -1,5 +1,5 @@
 {{- define "main" -}}
-<h1>{{ .Title }}</h1>
+<h1>{{ markdownify .Title }}</h1>
 
 <div class="accordion" id="accordionCours">
   {{- $current := .Site.Params.currentYear -}}

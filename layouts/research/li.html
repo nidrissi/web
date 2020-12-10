@@ -1,6 +1,6 @@
 <li>
   {{- if eq .Language.Lang "fr" }}«&nbsp;{{ else }}“{{ end -}}
-  <a href="{{ .Permalink }}"><strong>{{ .Title }}</strong></a>
+  <a href="{{ .Permalink }}"><strong>{{ .Title | markdownify }}</strong></a>
   {{- if eq .Language.Lang "fr" }}&nbsp;»{{ else }}”{{ end -}}.
   {{ partial "meta/research" . }} {{ partial "links" (dict "content" . "is_card" 0 "is_li" 1) }}
 </li>

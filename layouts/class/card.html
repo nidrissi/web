@@ -2,7 +2,7 @@
   <div class="card-body px-3 py-2">
     <h5 class="card-title mb-1">
       {{- if .Content -}}<a href="{{ .Permalink -}}">{{- end -}}
-      {{- .Title -}}
+      {{- markdownify .Title -}}
       {{- if .Content -}}</a>{{- end }}
     </h5>
     <p class="card-text">{{ partial "meta/cours" . -}} {{ partial "links" (dict "content" . "is_card" 0 "is_li" 1) }}</p>
