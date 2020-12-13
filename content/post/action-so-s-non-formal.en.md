@@ -1,5 +1,5 @@
 ---
-title: The action of \\(SO(n)\\) on \\(S^{n-1}\\) is not formal
+title: "The action of \\\\(SO(n)\\\\) on \\\\(S^{n-1}\\\\) is not formal"
 date: 2020-09-17
 draft: false
 tags: [math]
@@ -9,6 +9,8 @@ In this post, I record a simple and probably well-known fact; but since I have t
 
 The fact is that for an odd {{< tex "n \ge 3" >}}, the usual action of the special orthogonal group {{< tex "SO(n)" >}} on the sphere {{< tex "S^{n-1}" >}} is not formal over {{< tex "\mathbb{Q}" >}} in the sense of rational homotopy theory, even though both spaces are formal.
 This was first told to me by Thomas Willwacher, and it is mentioned as Remark 9.5 in his paper ["Real models for the framed little \(n\)-disks operads" (arXiv:1705.08108)](https://arxiv.org/abs/1705.08108) with Anton Khoroshkin.
+
+<!--more-->
 
 Here is a quick proof for {{< tex "n=3" >}} that generalizes easily.
 Suppose that the action map {{< tex "\rho : SO(n) \times S^{n-1} \to S^{n-1}" >}} is formal.

@@ -1,5 +1,5 @@
 ---
-title: '"Formality of a higher codimensional Swiss-Cheese operad" accepted in *Algebraic & Geometric Topology*'
+title: '"Formality of a higher codimensional Swiss-Cheese operad" accepté dans *Algebraic & Geometric Topology*'
 date: 2020-12-08
 draft: false
 tags: [math, paper]
