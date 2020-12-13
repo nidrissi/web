@@ -10,7 +10,7 @@ tags: [math, peccot]
 
 Vous savez peut-être que j'ai été cette année l'une des personnes choisies pour donner un [Cours Peccot](https://idrissi.eu/en/class/peccot/) au Collège de France (cf. [mon premier billet à ce sujet]({{< ref "post/peccot" >}})).
 Mais comme vous le savez très certainement, la vie normale s'est arrêtée il y a quelques mois quand le nombre de cas de COVID-19 a explosé en France (et dans le monde) et quand le gouvernement français a ordonné le confinement.
-J'avais pu donné mes deux premières leçons en personne avant le début du confinement, mais les deux dernières ont dû être reportées.
+J'avais pu donner mes deux premières leçons en personne avant le début du confinement, mais les deux dernières ont dû être reportées.
 
 Fort heureusement, le nombre de cas est actuellement en baisse, et le confinement est allégé progressivement.
 J'ai donc pu me rendre au Collège de France hier pour enregistrer ma troisième leçon, qui devrait apparaître en ligne prochainement.
