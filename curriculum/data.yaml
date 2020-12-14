@@ -47,14 +47,16 @@ section:
           d: Lille
           e: France
           f: |
-            Thèse soutenue le 17 novembre 2017. Directeur : [Benoit Fresse](https://math.univ-lille1.fr/~fresse/).\
-            Titre : *Formalité opéradique et homotopie des espaces de configuration*.
+            Directeur : [Benoit Fresse](https://pro.univ-lille.fr/benoit-fresse/).
+            Titre : *Formalité opéradique et homotopie des espaces de configuration*.\
+            Thèse soutenue le 17 novembre 2017.
             !
-            Thesis defended on November 17th, 2017. Advisor: [Benoit Fresse](https://math.univ-lille1.fr/~fresse/).\
-            Title: *Operadic Formality and Homotopy of Configuration Spaces*.
+            Advisor: [Benoit Fresse](https://pro.univ-lille.fr/benoit-fresse/).
+            Title: *Operadic Formality and Homotopy of Configuration Spaces*.\
+            Thesis defended on November 17th, 2017.
       - entry:
           a: 09/2011--08/2015
-          b: Élève fonctionnaire stagiaire
+          b: Élève fonctionnaire
           c: École Normale Supérieure de Paris
           d: Paris
           e: France

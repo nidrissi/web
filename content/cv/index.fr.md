@@ -33,14 +33,14 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2015–janv. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université de Lille &amp; Laboratoire Paul Painlevé</em>, Lille, France.<br>Thèse soutenue le 17 novembre 2017. Directeur : <a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a>.<br />
-Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Doctorat en Mathématiques</strong>, <em>Université de Lille &amp; Laboratoire Paul Painlevé</em>, Lille, France.<br>Directeur : <a href="https://pro.univ-lille.fr/benoit-fresse/">Benoit Fresse</a>. Titre : <em>Formalité opéradique et homotopie des espaces de configuration</em>.<br />
+Thèse soutenue le 17 novembre 2017.</dd>
 
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">sept. 2011–août 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015 : Stage de recherche en préparation à un doctorat, Université de Lille.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015 : Stage de recherche en préparation à un doctorat, Université de Lille.<br />
 2013–2014 : Master Recherche en Mathématiques Fondamentales, Université Paris Diderot.<br />
 Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute of Technology.</dd>
 

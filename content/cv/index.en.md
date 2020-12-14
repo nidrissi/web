@@ -33,14 +33,14 @@ menu:
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2015–Jan. 2018</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université de Lille &amp; Laboratoire Paul Painlevé</em>, Lille, France.<br>Thesis defended on November 17th, 2017. Advisor: <a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a>.<br />
-Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Doctorate in Mathematics</strong>, <em>Université de Lille &amp; Laboratoire Paul Painlevé</em>, Lille, France.<br>Advisor: <a href="https://pro.univ-lille.fr/benoit-fresse/">Benoit Fresse</a>. Title: <em>Operadic Formality and Homotopy of Configuration Spaces</em>.<br />
+Thesis defended on November 17th, 2017.</dd>
 
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">Sept. 2011–Aug. 2015</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire stagiaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015: Research internship in preparation of a doctorate, Université de Lille.<br />
+<dd class="col-lg-10 col-sm-9"><strong>Élève fonctionnaire</strong>, <em>École Normale Supérieure de Paris</em>, Paris, France.<br>2014–2015: Research internship in preparation of a doctorate, Université de Lille.<br />
 2013–2014: Master’s degree in Fundamental Mathematics, Université Paris Diderot.<br />
 Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.</dd>
 
