@@ -1,5 +1,5 @@
 ---
-lastMod: 2020-12-08
+lastMod: 2021-01-04
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -114,6 +114,12 @@ section:
             !
             Specific doctoral contract "*normalien*", École Normale Supérieure de Paris
       - subtitle: Membre ! Member
+      - item:
+          a: 2021--2024
+          b: |
+            Membre du projet ANR «\ Algèbre, Géométrie et Topologie Supérieures (HighAGT)\ ». Coordinateur : Bruno Vallette.
+            !
+            Member of the ANR project "Higher Algebra, Geometry, and Topology (HighAGT)". Coordinator: Bruno Vallette.
       - item:
           a: 2014--2015
           b: |
