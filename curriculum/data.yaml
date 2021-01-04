@@ -206,21 +206,30 @@ section:
           b: Barcelona Conference on Higher Structures
           c: Centre de Recerca Matemàtica (CRM)
       - entry:
+          a: 03/2021?
+          b: Topology Seminar
+          c: Massachusetts Institute of Technology (MIT)
+          d: en ligne ! online
+      - entry:
           a: 02/2021
           b: Research Seminar on Algebraic Topology
-          c: Universität Hamburg (en ligne) ! Universität Hamburg (online)
+          c: Universität Hamburg
+          d: en ligne ! online
       - entry:
           a: 01/2021
           b: Séminaire Algèbre et topologie
-          c: Université de Strasbourg (en ligne) ! Université de Strasbourg (online)
+          c: Université de Strasbourg
+          d: en ligne ! online
       - entry:
           a: 10/2020
           b: Topology seminar
-          c: Northeastern University (en ligne) ! Northeastern University (online)
+          c: Northeastern University
+          d: en ligne ! online
       - entry:
           a: 04/2020
           b: Toric Topology Research Seminar
-          c: Institut Fields (en ligne à cause du COVID-19) ! Fields Institute (online due to COVID19)
+          c: Institut Fields
+          d: en ligne ! online
       - entry:
           a: 02/2020
           b: Málaga & Topology Meeting

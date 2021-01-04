@@ -277,26 +277,32 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
+<dt class="col-lg-2 col-sm-3 text-sm-right">mars 2021?</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Massachusetts Institute of Technology (MIT)</em>, en ligne.</dd>
+
+
+
+
 <dt class="col-lg-2 col-sm-3 text-sm-right">févr. 2021</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Research Seminar on Algebraic Topology</strong>, <em>Universität Hamburg (en ligne)</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Research Seminar on Algebraic Topology</strong>, <em>Universität Hamburg</em>, en ligne.</dd>
 
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">janv. 2021</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Séminaire Algèbre et topologie</strong>, <em>Université de Strasbourg (en ligne)</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Séminaire Algèbre et topologie</strong>, <em>Université de Strasbourg</em>, en ligne.</dd>
 
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">oct. 2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Topology seminar</strong>, <em>Northeastern University (en ligne)</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Topology seminar</strong>, <em>Northeastern University</em>, en ligne.</dd>
 
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">avr. 2020</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Toric Topology Research Seminar</strong>, <em>Institut Fields (en ligne à cause du COVID-19)</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Toric Topology Research Seminar</strong>, <em>Institut Fields</em>, en ligne.</dd>
 
 
 
