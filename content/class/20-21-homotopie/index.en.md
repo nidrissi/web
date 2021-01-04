@@ -32,6 +32,54 @@ It will be useful to have a certain familiarity with categorical language and wi
 - The course [_Higher categories_ (Muriel Livernet)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Livernet-spe.html) is a natural continuation.
 - I gave in 2020 a [Peccot lecture entitled *Real homotopy of configuration spaces*]({{< ref "class/peccot" >}}) at the Collège de France which gave concrete applications of the methods presented here.
 
+## Organization
+
+Lectures will happen on _Mondays 10:45--12:45_ and _Fridays 15:45--17:45_.
+They will begin on January 11th and end on February 19th.
+
+For now, lectures will be online.
+We will meet via Zoom.
+You will receive the link to the meeting by email; if you did not receive it, please contact me.
+The sessions will also be recorded and available on YouTube.
+
+## Content of the sessions
+
+Monday January 11<sup>th</sup> 10:45--12:45
+: TODO
+
+Friday January 15<sup>th</sup> 15:45--17:45
+: TODO
+
+Monday January 18<sup>th</sup> 10:45--12:45
+: TODO
+
+Friday January 22<sup>th</sup> 15:45--17:45
+: TODO
+
+Monday January 25<sup>th</sup> 10:45--12:45
+: TODO
+
+Friday January 29<sup>th</sup> 15:45--17:45
+: TODO
+
+Monday February 1<sup>st</sup> 10:45--12:45
+: TODO
+
+Friday February 5<sup>th</sup> 15:45--17:45
+: TODO
+
+Monday February 8<sup>th</sup> 10:45--12:45
+: TODO
+
+Friday February 12<sup>th</sup> 10:45--12:45
+: TODO
+
+Monday February 15<sup>th</sup> 10:45--12:45
+: TODO
+
+Friday February 19<sup>th</sup> 15:45--17:45
+: TODO
+
 ## Bibliography
 
 <p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Lecture notes are here.</b></a></p>

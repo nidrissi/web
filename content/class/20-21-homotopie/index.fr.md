@@ -31,7 +31,53 @@ Il est recommandé d'avoir suivi les cours [_Homologie_ (Emmanuel Wagner)](https
 - Le cours [_Catégories supérieures_ (Muriel Livernet)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Livernet-spe.html) est une continuation naturelle de ce cours.
 - J'ai donné en 2020 un [cours Peccot intitulé *Homotopie réelle des espaces de configuration*]({{< ref "class/peccot" >}}) au Collège de France qui contenait des applications concrètes des méthodes présentées ici.
 
----
+## Organisation
+
+Les cours auront lieu le **lundi de 10h45 à 12h45** et le **vendredi de 15h45 à 17h45**.
+Ils commenceront le 11 janvier et se termineront le 19 février.
+
+Pour le moment, les cours sont prévus à distance.
+Ils se dérouleront via Zoom.
+Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, veuillez me contacter.
+Les séances seront également enregistrées et disponibles sur YouTube.
+
+## Contenu des séances
+
+Lundi 11 janvier 10h45--12h45
+: TODO
+
+Vendredi 15 janvier 15h45--17h45
+: TODO
+
+Lundi 18 janvier 10h45--12h45
+: TODO
+
+Vendredi 22 janvier 15h45--17h45
+: TODO
+
+Lundi 25 janvier 10h45--12h45
+: TODO
+
+Vendredi 29 janvier 15h45--17h45
+: TODO
+
+Lundi 1<sup>er</sup> février 10h45--12h45
+: TODO
+
+Vendredi 5 février 15h45--17h45
+: TODO
+
+Lundi 8 février 10h45--12h45
+: TODO
+
+Vendredi 12 février 15h45--17h45
+: TODO
+
+Lundi 15 février 10h45--12h45
+: TODO
+
+Vendredi 19 février 15h45--17h45
+: TODO
 
 ## Bibliographie
 
