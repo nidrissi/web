@@ -45,7 +45,7 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
 ## Contenu des séances
 
 Lundi 11 janvier 10h45--12h45
-: TODO
+: Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)
 
 Vendredi 15 janvier 15h45--17h45
 : TODO

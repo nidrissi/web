@@ -46,7 +46,7 @@ The sessions will also be recorded and [available on YouTube](https://www.youtub
 ## Content of the sessions
 
 Monday January 11<sup>th</sup> 10:45--12:45
-: TODO
+: Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of model categories. (Sections 1.1 and 1.2)
 
 Friday January 15<sup>th</sup> 15:45--17:45
 : TODO
