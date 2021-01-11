@@ -44,7 +44,7 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
 
 ## Contenu des séances
 
-Lundi 11 janvier 10h45--12h45
+Lundi 11 janvier 10h45--12h45 <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="badge badge-primary">{{< fa "chalkboard" >}} Tableau</a> <a href="#" class="badge badge-primary">{{< fa "video" >}} Vidéo</a>
 : Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)
 
 Vendredi 15 janvier 15h45--17h45
