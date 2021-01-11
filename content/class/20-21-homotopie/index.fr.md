@@ -9,6 +9,7 @@ publishDate: 2020-05-06
 sidebar:
   - "[M2 Mathématiques fondamentales](http://master-math-fonda.imj-prg.fr/)"
   - "[**Notes de cours**](homotopie.pdf)"
+  - "[Séances enregistrées](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf)"
 ---
 
 L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications.
@@ -39,7 +40,7 @@ Ils commenceront le 11 janvier et se termineront le 19 février.
 Pour le moment, les cours sont prévus à distance.
 Ils se dérouleront via Zoom.
 Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, veuillez me contacter.
-Les séances seront également enregistrées et disponibles sur YouTube.
+Les séances seront également enregistrées et [disponibles sur YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 
 ## Contenu des séances
 

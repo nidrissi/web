@@ -9,6 +9,7 @@ publishDate: 2020-05-06
 sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
   - "[**Lecture notes**](homotopie.pdf)"
+  - "[Recorded lectures](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf)"
 ---
 
 The goal of this course is to introduce modern homotopy theory, its tools and applications.
@@ -40,7 +41,7 @@ They will begin on January 11th and end on February 19th.
 For now, lectures will be online.
 We will meet via Zoom.
 You will receive the link to the meeting by email; if you did not receive it, please contact me.
-The sessions will also be recorded and available on YouTube.
+The sessions will also be recorded and [available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 
 ## Content of the sessions
 
