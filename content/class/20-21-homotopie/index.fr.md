@@ -44,41 +44,129 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
 
 ## Contenu des séances
 
-Lundi 11 janvier 10h45--12h45 <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="badge badge-primary">{{< fa "chalkboard" >}} Tableau</a> <a href="https://youtu.be/cilKcPVEnX0" class="badge badge-primary">{{< fa "video" >}} Vidéo</a>
-: Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)
+<div class="row row-cols-1 row-cols-md-2">
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 1</h5>
+    <h6 class="card-subtitle text-muted mb-2">Lundi 11 janvier, 10h45–12h45</h6>
+    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cilKcPVEnX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <p class="card-text mb-0">Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)</p>
+    <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+  </div>
+</div>
+</div>
 
-Vendredi 15 janvier 15h45--17h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 2</h5>
+    <h6 class="card-subtitle text-muted mb-2">Vendredi 15 janvier, 15h45–17h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Lundi 18 janvier 10h45--12h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 3</h5>
+    <h6 class="card-subtitle text-muted mb-2">Lundi 18 janvier, 10h45–12h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Vendredi 22 janvier 15h45--17h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 4</h5>
+    <h6 class="card-subtitle text-muted mb-2">Vendredi 22 janvier, 15h45–17h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Lundi 25 janvier 10h45--12h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 5</h5>
+    <h6 class="card-subtitle text-muted mb-2">Lundi 25 janvier, 10h45–12h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Vendredi 29 janvier 15h45--17h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 6</h5>
+    <h6 class="card-subtitle text-muted mb-2">Vendredi 29 janvier, 15h45–17h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Lundi 1<sup>er</sup> février 10h45--12h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 7</h5>
+    <h6 class="card-subtitle text-muted mb-2">Lundi 1<sup>er</sup> février, 10h45–12h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Vendredi 5 février 15h45--17h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 8</h5>
+    <h6 class="card-subtitle text-muted mb-2">Vendredi 5 février, 15h45–17h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Lundi 8 février 10h45--12h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 9</h5>
+    <h6 class="card-subtitle text-muted mb-2">Lundi 8 février, 10h45–12h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Vendredi 12 février 15h45--17h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 10</h5>
+    <h6 class="card-subtitle text-muted mb-2">Vendredi 12 février, 15h45–17h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Lundi 15 février 10h45--12h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 11</h5>
+    <h6 class="card-subtitle text-muted mb-2">Lundi 15 février, 10h45–12h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Vendredi 19 février 15h45--17h45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Séance 12</h5>
+    <h6 class="card-subtitle text-muted mb-2">Vendredi 19 février, 15h45–17h45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
+</div>
 
 ## Bibliographie
 
@@ -93,7 +181,7 @@ Ouvrages sur la théorie de l'homotopie :
 - **William G. Dwyer et Jan Spaliński. "Homotopy theories and model categories".** In: _Handbook of algebraic topology_. Amsterdam: North-Holland, 1995, pp. 73–126. [DOI:10.1016/B978-044481779-2/50003-1](https://dx.doi.org/10.1016/B978-044481779-2/50003-1). [MR1361887](http://www.ams.org/mathscinet-getitem?mr=1361887). [Zbl:0869.55018](https://zbmath.org/?q=an%3A0869.55018). <span class="text-muted">[Introduction aux catégories de modèles.]</span>
 - **Yves Félix, Stephen Halperin et Jean-Claude Thomas. _Rational Homotopy Theory_.** Graduate Texts in Mathematics 205. New York : Springer-Verlag, 2001, p. xxxiv+535. ISBN : 0-387-95068-0. DOI : [10.1007/978-1-4613-0105-9](https://doi.org/10.1007/978-1-4613-0105-9).<span class="text-muted">[Livre de référence sur la théorie de l'homotopie rationnelle.]</span>
 - **Paul G. Goerss et John F. Jardine. _Simplicial homotopy theory_.** Progress in Mathematics 174. Basel: Birkhäuser Verlag, 1999, pp. xvi+510. ISBN: 3-7643-6064-X. [DOI:10.1007/978-3-0348-8707-6](https://doi.org/10.1007/978-3-0348-8707-6). [MR1711612](http://www.ams.org/mathscinet-getitem?mr=1711612). [Zbl:0949.55001](https://zbmath.org/?q=an%3A0949.55001). <span class="text-muted">[Livre sur les ensembles simpliciaux et leur propriétés homotopiques.]</span>
-- **Phillip Griffiths et John Morgan. _Rational homotopy theory and differential forms_.** 2<sup>e</sup> ed. Progress in Mathematics 16. New York : Springer, 2013. 224 p. ISBN : 978-1-4614-8467-7. DOI : [10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4). <span class="text-muted">[Notes sur la théorie de l'homotopie rationnelle]</span>
+- \*_Phillip Griffiths et John Morgan. \_Rational homotopy theory and differential _ 2forms\_.\*ed. Progress in Mathematics 16. New York : Springer, 2013. 224 p. ISBN : 978-1-4614-8467-7. DOI : [10.1007/978-1-4614-8468-4](https://doi.org/10.1007/978-1-4614-8468-4). <span class="text-muted">[Notes sur la théorie de l'homotopie rationnelle]</span>
 - **Kathryn Hess. "Rational homotopy theory: a brief introduction".** In: _Interactions between homotopy theory and algebra_. Contemp. Math. 436. Providence, RI: Amer. Math. Soc., 2007, pp. 175–202. [DOI:10.1090/conm/436/08409](https://dx.doi.org/10.1090/conm/436/08409). [arXiv:math/0604626](http://arxiv.org/abs/math/0604626). [MR2355774](http://www.ams.org/mathscinet-getitem?mr=2355774). [Zbl:1128.55010](https://zbmath.org/?q=an%3A1128.55010). <span class="text-muted">[Introduction à la théorie de l'homotopie rationnelle]</span>
 - **Mark Hovey. _Model categories_.** Mathematical Surveys and Monographs 63. Providence, RI: American Mathematical Society, 1999, pp. xii+209. ISBN: 0-8218-1359-5. [MR1650134](http://www.ams.org/mathscinet-getitem?mr=1650134). [Zbl:0909.55001](https://zbmath.org/?q=an%3A0909.55001). <span class="text-muted">[Livre sur les catégories de modèles.]</span>
 - **Jacob Lurie. _Higher topos theory_.** Annals of Mathematics Studies 170. Princeton, NJ: Princeton University Press, 2009, pp. xviii+925. ISBN: 978-0-691-14049-0. [MR2522659](http://www.ams.org/mathscinet-getitem?mr=2522659). [Zbl:1175.18001](https://zbmath.org/?q=an%3A1175.18001) <span class="text-muted">[Livre très complet sur les {{< tex "\infty" >}}-catégories.]</span>

@@ -45,41 +45,129 @@ The sessions will also be recorded and [available on YouTube](https://www.youtub
 
 ## Content of the sessions
 
-Monday January 11<sup>th</sup> 10:45--12:45 <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="badge badge-primary">{{< fa "chalkboard" >}} Blackboard</a> <a href="https://youtu.be/cilKcPVEnX0" class="badge badge-primary">{{< fa "video" >}} Video</a>
-: Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of model categories. (Sections 1.1 and 1.2)
+<div class="row row-cols-1 row-cols-md-2">
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 1</h5>
+    <h6 class="card-subtitle text-muted mb-2">Monday January 11<sup>th</sup>, 10:45–12:45</h6>
+    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cilKcPVEnX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <p class="card-text mb-0">Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of model categories. (Sections 1.1 and 1.2)</p>
+    <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+  </div>
+</div>
+</div>
 
-Friday January 15<sup>th</sup> 15:45--17:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 2</h5>
+    <h6 class="card-subtitle text-muted mb-2">Friday January 15<sup>th</sup>, 15:45–17:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Monday January 18<sup>th</sup> 10:45--12:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 3</h5>
+    <h6 class="card-subtitle text-muted mb-2">Monday January 18<sup>th</sup>, 10:45–12:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Friday January 22<sup>th</sup> 15:45--17:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 4</h5>
+    <h6 class="card-subtitle text-muted mb-2">Friday January 22<sup>nd</sup>, 15:45–17:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Monday January 25<sup>th</sup> 10:45--12:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 5</h5>
+    <h6 class="card-subtitle text-muted mb-2">Monday January 25<sup>th</sup>, 10:45–12:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Friday January 29<sup>th</sup> 15:45--17:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 6</h5>
+    <h6 class="card-subtitle text-muted mb-2">Friday January 29<sup>th</sup>, 15:45–17:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Monday February 1<sup>st</sup> 10:45--12:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 7</h5>
+    <h6 class="card-subtitle text-muted mb-2">Monday February 1<sup>st</sup>, 10:45–12:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Friday February 5<sup>th</sup> 15:45--17:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 8</h5>
+    <h6 class="card-subtitle text-muted mb-2">Friday February 5<sup>th</sup>, 15:45–17:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Monday February 8<sup>th</sup> 10:45--12:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 9</h5>
+    <h6 class="card-subtitle text-muted mb-2">Monday February 8<sup>th</sup>, 10:45–12:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Friday February 12<sup>th</sup> 10:45--12:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 10</h5>
+    <h6 class="card-subtitle text-muted mb-2">Friday February 12<sup>th</sup>, 15:45–17:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Monday February 15<sup>th</sup> 10:45--12:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 11</h5>
+    <h6 class="card-subtitle text-muted mb-2">Monday February 15<sup>th</sup>, 10:45–12:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
 
-Friday February 19<sup>th</sup> 15:45--17:45
-: TODO
+<div class="col mb-3">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Lecture 12</h5>
+    <h6 class="card-subtitle text-muted mb-2">Friday February 19<sup>th</sup>, 15:45–17:45</h6>
+    <p class="card-text mb-0">TODO</p>
+  </div>
+</div>
+</div>
+</div>
 
 ## Bibliography
 
