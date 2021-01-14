@@ -6,7 +6,7 @@ draft: false
 abstract: TBA
 event: Research Seminar on Algebraic Topology
 eventURL: https://www.math.uni-hamburg.de/home/richter/research-seminar-jhbr.html
-location: Universität Hamburg
+location: Universität Hamburg (online)
 urls:
   pdf:
   slides:
