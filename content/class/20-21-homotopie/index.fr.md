@@ -64,7 +64,9 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
   <div class="card-body">
     <h5 class="card-title">Séance 2</h5>
     <h6 class="card-subtitle text-muted mb-2">Vendredi 15 janvier, 15h45–17h45</h6>
-    <p class="card-text mb-0">TODO</p>
+    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RSANbPkQaFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <p class="card-text mb-0">Définition des catégories de modèles et premiers exemples (Section 1.3)</p>
+    <a href="https://cloud.math.univ-paris-diderot.fr/s/j6wHGyE9KEWAtLp" class="card-link">{{< fa "chalkboard" >}} Blackboard</
   </div>
 </div>
 </div>

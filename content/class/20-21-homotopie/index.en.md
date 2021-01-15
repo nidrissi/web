@@ -65,7 +65,10 @@ The sessions will also be recorded and [available on YouTube](https://www.youtub
   <div class="card-body">
     <h5 class="card-title">Lecture 2</h5>
     <h6 class="card-subtitle text-muted mb-2">Friday January 15<sup>th</sup>, 15:45–17:45</h6>
-    <p class="card-text mb-0">TODO</p>
+    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RSANbPkQaFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    <p class="card-text mb-0">Definition of model categories and first examples (Section 1.3)</p>
+    <a href="https://cloud.math.univ-paris-diderot.fr/s/j6wHGyE9KEWAtLp" class="card-link">{{< fa "chalkboard" >}} Blackboard</
+
   </div>
 </div>
 </div>
