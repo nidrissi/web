@@ -44,6 +44,8 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
 
 ## Contenu des séances
 
+<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
+
 <div class="row row-cols-1 row-cols-md-2">
 <div class="col mb-3">
 <div class="card">
@@ -169,8 +171,6 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
 </div>
 
 ## Bibliographie
-
-<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
 
 J'ai donné un [cours similaire l'année dernière]({{< ref "class/19-20-homotopie" >}}), vous pourrez notamment y trouver les sujets d'examen.
 Grégory Ginot a donné un [cours en 2017--2018--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
