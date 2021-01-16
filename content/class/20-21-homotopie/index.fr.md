@@ -48,127 +48,127 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
 
 <div class="row row-cols-1 row-cols-md-2">
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 1</h5>
-    <h6 class="card-subtitle text-muted mb-2">Lundi 11 janvier, 10h45–12h45</h6>
-    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cilKcPVEnX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <p class="card-text mb-0">Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)</p>
-    <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 1</h5>
+      <h6 class="card-subtitle text-muted mb-2">Lundi 11 janvier, 10h45–12h45</h6>
+      <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cilKcPVEnX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   picture-in-picture" allowfullscreen></iframe></div>
+      <p class="card-text mb-0">Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles   simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/  surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)</p>
+      <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 2</h5>
-    <h6 class="card-subtitle text-muted mb-2">Vendredi 15 janvier, 15h45–17h45</h6>
-    <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RSANbPkQaFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-    <p class="card-text mb-0">Définition des catégories de modèles et premiers exemples (Section 1.3)</p>
-    <a href="https://cloud.math.univ-paris-diderot.fr/s/j6wHGyE9KEWAtLp" class="card-link">{{< fa "chalkboard" >}} Blackboard</
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 2</h5>
+      <h6 class="card-subtitle text-muted mb-2">Vendredi 15 janvier, 15h45–17h45</h6>
+      <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RSANbPkQaFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <p class="card-text mb-0">Définition des catégories de modèles et premiers exemples (Section 1.3)</p>
+      <a href="https://cloud.math.univ-paris-diderot.fr/s/j6wHGyE9KEWAtLp" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 3</h5>
-    <h6 class="card-subtitle text-muted mb-2">Lundi 18 janvier, 10h45–12h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 3</h5>
+      <h6 class="card-subtitle text-muted mb-2">Lundi 18 janvier, 10h45–12h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 4</h5>
-    <h6 class="card-subtitle text-muted mb-2">Vendredi 22 janvier, 15h45–17h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 4</h5>
+      <h6 class="card-subtitle text-muted mb-2">Vendredi 22 janvier, 15h45–17h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 5</h5>
-    <h6 class="card-subtitle text-muted mb-2">Lundi 25 janvier, 10h45–12h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 5</h5>
+      <h6 class="card-subtitle text-muted mb-2">Lundi 25 janvier, 10h45–12h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 6</h5>
-    <h6 class="card-subtitle text-muted mb-2">Vendredi 29 janvier, 15h45–17h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 6</h5>
+      <h6 class="card-subtitle text-muted mb-2">Vendredi 29 janvier, 15h45–17h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 7</h5>
-    <h6 class="card-subtitle text-muted mb-2">Lundi 1<sup>er</sup> février, 10h45–12h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 7</h5>
+      <h6 class="card-subtitle text-muted mb-2">Lundi 1<sup>er</sup> février, 10h45–12h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 8</h5>
-    <h6 class="card-subtitle text-muted mb-2">Vendredi 5 février, 15h45–17h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 8</h5>
+      <h6 class="card-subtitle text-muted mb-2">Vendredi 5 février, 15h45–17h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 9</h5>
-    <h6 class="card-subtitle text-muted mb-2">Lundi 8 février, 10h45–12h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 9</h5>
+      <h6 class="card-subtitle text-muted mb-2">Lundi 8 février, 10h45–12h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 10</h5>
-    <h6 class="card-subtitle text-muted mb-2">Vendredi 12 février, 15h45–17h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 10</h5>
+      <h6 class="card-subtitle text-muted mb-2">Vendredi 12 février, 15h45–17h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 11</h5>
-    <h6 class="card-subtitle text-muted mb-2">Lundi 15 février, 10h45–12h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 11</h5>
+      <h6 class="card-subtitle text-muted mb-2">Lundi 15 février, 10h45–12h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 
 <div class="col mb-3">
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Séance 12</h5>
-    <h6 class="card-subtitle text-muted mb-2">Vendredi 19 février, 15h45–17h45</h6>
-    <p class="card-text mb-0">TODO</p>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Séance 12</h5>
+      <h6 class="card-subtitle text-muted mb-2">Vendredi 19 février, 15h45–17h45</h6>
+      <p class="card-text mb-0">TODO</p>
+    </div>
   </div>
-</div>
 </div>
 </div>
 
