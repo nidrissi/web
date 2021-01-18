@@ -52,7 +52,7 @@ To access the different videos, click on the playlist icon in the top right of t
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-<div class="row row-cols-1 row-cols-md-2">
+<div class="row row-cols-1 row-cols-md-2 mt-3">
 <div class="col mb-3">
   <div class="card">
     <div class="card-body">
@@ -173,7 +173,6 @@ To access the different videos, click on the playlist icon in the top right of t
       <h6 class="card-subtitle text-muted mb-2">Friday February 19<sup>th</sup>, 15:45–17:45</h6>
       <p class="card-text mb-0">TODO</p>
     </div>
-  </div>
   </div>
 </div>
 </div>
