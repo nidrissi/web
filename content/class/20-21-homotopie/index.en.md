@@ -77,7 +77,9 @@ The sessions will also be recorded and [available on YouTube](https://www.youtub
     <div class="card-body">
       <h5 class="card-title">Lecture 3</h5>
       <h6 class="card-subtitle text-muted mb-2">Monday January 18<sup>th</sup>, 10:45–12:45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AA1WQWUG2II" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <p class="card-text mb-0">Definition and construction of the localization of a category with respect to a class of weak equivalence, definition of left homotopies, first properties, dual case of right homotopies (Sections 1.4.1 and 1.4.2).</p>
+      <a href="https://cloud.math.univ-paris-diderot.fr/s/BjFAQHYx9a4o7XN" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
     </div>
   </div>
 </div>

@@ -54,7 +54,7 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
       <h6 class="card-subtitle text-muted mb-2">Lundi 11 janvier, 10h45–12h45</h6>
       <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cilKcPVEnX0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   picture-in-picture" allowfullscreen></iframe></div>
       <p class="card-text mb-0">Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles   simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/  surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)</p>
-      <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
     </div>
   </div>
 </div>
@@ -66,7 +66,7 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
       <h6 class="card-subtitle text-muted mb-2">Vendredi 15 janvier, 15h45–17h45</h6>
       <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RSANbPkQaFw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
       <p class="card-text mb-0">Définition des catégories de modèles et premiers exemples (Section 1.3)</p>
-      <a href="https://cloud.math.univ-paris-diderot.fr/s/j6wHGyE9KEWAtLp" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://cloud.math.univ-paris-diderot.fr/s/j6wHGyE9KEWAtLp" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
     </div>
   </div>
 </div>
@@ -76,7 +76,9 @@ Les séances seront également enregistrées et [disponibles sur YouTube](https:
     <div class="card-body">
       <h5 class="card-title">Séance 3</h5>
       <h6 class="card-subtitle text-muted mb-2">Lundi 18 janvier, 10h45–12h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AA1WQWUG2II" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+      <p class="card-text mb-0">Définition et construction de la localisation d'une catégorie, définition des homotopies à gauche, premières propriétés, cas dual des homotopies à droite (Sections 1.4.1 et 1.4.2).</p>
+      <a href="https://cloud.math.univ-paris-diderot.fr/s/BjFAQHYx9a4o7XN" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
     </div>
   </div>
 </div>
