@@ -16,4 +16,5 @@ You can find more info in [my CV]({{< ref "/cv" >}}).
 I am mainly interested in operads and their applications to algebraic topology and homological algebra.
 I am especially interested in the study of configuration spaces of manifolds, their links to graph complexes, and the invariants they define.
 
-[I gave a Peccot lecture at the Collège de France in Spring 2020, you can find it here.]({{< ref "/class/peccot" >}})
+- [If you are looking for the **Homotopy II** lectures, go here.]({{< ref "class/20-21-homotopie" >}})
+- [I gave a Peccot lecture at the Collège de France in Spring 2020, you can find it here.]({{< ref "/class/peccot" >}})

@@ -60,7 +60,7 @@ To access the different videos, click on the playlist icon in the top right of t
       <h6 class="card-subtitle text-muted mb-2">Monday January 11<sup>th</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0 mt-2">Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of   model categories. (Sections 1.1 and 1.2)</p>
       <a href="https://cloud.math.univ-paris-diderot.fr/s/5xasbRZPzKyKgYD" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
-      <a href="https://youtu.be/cilKcPVEnX0" class="card-link">{{< fa "chalkboard" >}} Video</a>
+      <a href="https://youtu.be/cilKcPVEnX0" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>
@@ -72,7 +72,7 @@ To access the different videos, click on the playlist icon in the top right of t
       <h6 class="card-subtitle text-muted mb-2">Friday January 15<sup>th</sup>, 15:45–17:45</h6>
       <p class="card-text mt-2 mb-0">Definition of model categories and first examples (Section 1.3)</p>
       <a href="https://cloud.math.univ-paris-diderot.fr/s/j6wHGyE9KEWAtLp" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
-      <a href="https://youtu.be/RSANbPkQaFw" class="card-link">{{< fa "chalkboard" >}} Video</a>
+      <a href="https://youtu.be/RSANbPkQaFw" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>
@@ -84,7 +84,7 @@ To access the different videos, click on the playlist icon in the top right of t
       <h6 class="card-subtitle text-muted mb-2">Monday January 18<sup>th</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0">Definition and construction of the localization of a category with respect to a class of weak equivalence, definition of left homotopies, first properties, dual case of right homotopies (Sections 1.4.1 and 1.4.2).</p>
       <a href="https://cloud.math.univ-paris-diderot.fr/s/BjFAQHYx9a4o7XN" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
-      <a href="https://youtu.be/AA1WQWUG2II" class="card-link">{{< fa "chalkboard" >}} Video</a>
+      <a href="https://youtu.be/AA1WQWUG2II" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>
