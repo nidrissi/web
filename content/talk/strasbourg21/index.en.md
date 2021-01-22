@@ -10,6 +10,6 @@ eventURL: http://irma.math.unistra.fr/article286.html
 location: Université de Strasbourg (online)
 urls:
   pdf:
-  slides: strasbourg.pdf
+  slides: strasbourg.png
   video:
 ---
