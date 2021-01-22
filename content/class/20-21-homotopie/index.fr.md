@@ -95,7 +95,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
     <div class="card-body">
       <h5 class="card-title">Séance 4</h5>
       <h6 class="card-subtitle text-muted mb-2">Vendredi 22 janvier, 15h45–17h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Fin de la Section 1.4 : description explicite de la catégorie homotopique d'une catégorie de modèles, théorème de Whitehead.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/PEEUQ21TF2E" class="card-link">{{< fa "video" >}} Vidéo</a>
     </div>
   </div>
 </div>
