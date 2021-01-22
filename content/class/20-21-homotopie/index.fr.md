@@ -10,6 +10,8 @@ sidebar:
   - "[M2 Mathématiques fondamentales](http://master-math-fonda.imj-prg.fr/)"
   - "[**Notes de cours**](homotopie.pdf)"
   - "[Séances enregistrées](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf)"
+urls:
+  video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
 
 L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications.
