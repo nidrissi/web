@@ -1,7 +1,7 @@
 ---
 # ⚠ Fichier généré automatiquement ⚠
 title: Curriculum Vitæ
-lastMod: 2021-01-04
+lastMod: 2021-01-23
 date: 2018-01-01
 urls:
   pdf: cv.fr.pdf
@@ -167,6 +167,25 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2014–2015</dt>
 <dd class="col-lg-10 col-sm-9">Membre du projet ANR <a href="https://math.univ-lille1.fr/~operads/">« Homotopie algébrique, Opérades et groupes de Grothendieck–Teichmüller (HOGT) »</a>. Coordinateur : Benoit Fresse.</dd>
+
+
+</dl>
+
+## Encadrement
+
+<dl class="row mb-0">
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">2020–2021</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Marie-Camille Delarue</strong>, <em>Mémoire de master</em>.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
+<dd class="col-lg-10 col-sm-9"><strong>Yasamin Jalalian</strong>, <em>Mémoire de bachelor</em>, École Polytechnique.</dd>
+
 
 
 </dl>
