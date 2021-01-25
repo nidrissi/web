@@ -14,6 +14,8 @@ urls:
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
 
+<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
+
 L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications.
 Nous nous intéresserons particulièrement à deux exemples : les complexes de chaînes (cf. les cours d'algèbre homologique et de topologique algébrique) et les espaces topologiques.
 Nous présenterons les catégories de modèles de Quillen, et nous expliquerons l'équivalence entre les espaces topologiques et les ensembles simpliciaux.
@@ -45,8 +47,6 @@ Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, 
 Les séances seront également enregistrées et [disponibles sur YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 
 ## Contenu des séances
-
-<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
 
 Toutes les séances sont enregistrées dans [cette liste de lecture YouTube](https://youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture" dans le coin supérieur droit du lecteur intégré.
@@ -184,6 +184,8 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
 </div>
 
 ## Bibliographie
+
+<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Les notes de cours sont disponibles ici.</b></a></p>
 
 J'ai donné un [cours similaire l'année dernière]({{< ref "class/19-20-homotopie" >}}), vous pourrez notamment y trouver les sujets d'examen.
 Grégory Ginot a donné un [cours en 2017--2018--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).

@@ -14,6 +14,8 @@ urls:
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
 
+<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Lecture notes are here.</b></a></p>
+
 The goal of this course is to introduce modern homotopy theory, its tools and applications.
 We will be particularly interested in two examples: chain complexes (see the previous Homology course) and topological spaces.
 We will present Quillen's model categories, and we will explain the equivalence between topological spaces and simplicial sets.
@@ -46,8 +48,6 @@ You will receive the link to the meeting by email; if you did not receive it, pl
 The sessions will also be recorded and [available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 
 ## Content of the sessions
-
-<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Lecture notes are here.</b></a></p>
 
 All the lectures are recorded in [this YouTube playlist](https://youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 To access the different videos, click on the playlist icon in the top right of the embedded player.
@@ -185,6 +185,8 @@ To access the different videos, click on the playlist icon in the top right of t
 </div>
 
 ## Bibliography
+
+<p class="lead"><a href="homotopie.pdf"><b>{{< fa "file-pdf" >}} Lecture notes are here.</b></a></p>
 
 I gave a [similar course last year]({{< ref "class/19-20-homotopie" >}}), you can in particular find past exams.
 Grégory Ginot gave a [course in 2017--2018--2019 on the same subject](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
