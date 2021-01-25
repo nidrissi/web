@@ -89,7 +89,7 @@ To access the different videos, click on the playlist icon in the top right of t
       <h6 class="card-subtitle text-muted mb-2">Friday January 22<sup>nd</sup>, 15:45–17:45</h6>
       <p class="card-text mb-0">End of Section 1.4: explicit description of the homotopy category of a model category, Whitehead theorem.</p>
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
-      <a href="https://youtu.be/PEEUQ21TF2E" class="card-link">{{< fa "video" >}} Vidéo</a>
+      <a href="https://youtu.be/PEEUQ21TF2E" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>
@@ -99,7 +99,9 @@ To access the different videos, click on the playlist icon in the top right of t
     <div class="card-body">
       <h5 class="card-title">Lecture 5</h5>
       <h6 class="card-subtitle text-muted mb-2">Monday January 25<sup>th</sup>, 10:45–12:45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Section 1.5.1: The proof of the existence of the projective model structure on the category of bounded-below chain complexes.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/DICgkRcuR0s" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>

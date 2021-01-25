@@ -98,7 +98,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
     <div class="card-body">
       <h5 class="card-title">Séance 5</h5>
       <h6 class="card-subtitle text-muted mb-2">Lundi 25 janvier, 10h45–12h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Section 1.5.1 : preuve de l'existence de la structure projective sur la catégorie des complexes de chaînes bornés inférieurement.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
+      <a href="https://youtu.be/DICgkRcuR0s" class="card-link">{{< fa "video" >}} Vidéo</a>
     </div>
   </div>
 </div>
