@@ -24,12 +24,7 @@ Nous illustrerons ces méthodes avec la théorie de l'homotopie rationnelle en m
 **Prérequis.**
 Il est recommandé d'avoir suivi les cours [_Homologie_ (Emmanuel Wagner)](https://moodle.u-paris.fr/course/view.php?id=11052) et [_Homotopie I_ (Bruno Vallette)](https://www.math.univ-paris13.fr/~vallette/Course-Master%20II-2020.html). Il sera notamment utile d'avoir une certaine familiarité avec le langage catégorique et les notions de base en topologie algébrique et en algèbre homologique.
 
-**Plan du cours.**
-
-1. Catégories de modèles
-2. Complexes de chaînes
-3. Ensembles simpliciaux et espaces topologiques
-4. Homotopie rationnelle
+**Plan du cours.** 1. Catégories de modèles. 2. Complexes de chaînes. 3. Ensembles simpliciaux et espaces topologiques. 4. Théorie de l'homotopie rationnelle.
 
 **Après le cours.**
 
@@ -45,10 +40,6 @@ Pour le moment, les cours sont prévus à distance.
 Ils se dérouleront via Zoom.
 Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, veuillez me contacter.
 Les séances seront également enregistrées et [disponibles sur YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
-
-## Contenu des séances
-
-Toutes les séances sont enregistrées dans [cette liste de lecture YouTube](https://youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture" dans le coin supérieur droit du lecteur intégré.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>

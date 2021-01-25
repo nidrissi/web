@@ -25,12 +25,7 @@ We will illustrate these methods with rational homotopy theory by showing that m
 It is recommended to have taken the courses [_Homology_ (Emmanuel Wagner)](https://moodle.u-paris.fr/course/view.php?id=11052) and [_Homotopy I_ (Bruno Vallette)](https://www.math.univ-paris13.fr/~vallette/Course-Master%20II-2020.html).
 It will be useful to have a certain familiarity with categorical language and with basic notions of algebraic topology and homological algebra.
 
-**Plan of the course.**
-
-1. Model categories
-2. Chain complexes
-3. Simplicial sets and topological spaces
-4. Rational homotopy
+**Plan of the course.** 1. Model categories. 2. Chain complexes. 3. Simplicial sets and topological spaces. 4. Rational homotopy theory.
 
 **After this course.**
 
@@ -46,10 +41,6 @@ For now, lectures will be online.
 We will meet via Zoom.
 You will receive the link to the meeting by email; if you did not receive it, please contact me.
 The sessions will also be recorded and [available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
-
-## Content of the sessions
-
-All the lectures are recorded in [this YouTube playlist](https://youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 To access the different videos, click on the playlist icon in the top right of the embedded player.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
