@@ -114,6 +114,3 @@ Rappels de topologie algébrique et d'algèbre homologique :
 - **Pierre Schapira. _Categories and homological algebra_.** <span class="text-muted">[Notes de cours sur les catégories dérivées.]</span>
 - **Edwin Spanier. _Algebraic topology_.** Berlin: Springer-Verlag, 1995, pp. xiv+528. ISBN: 978-1-4684-9322-1. [DOI:10.1007/978-1-4684-9322-1](https://dx.doi.org/10.1007/978-1-4684-9322-1). [MR210112](https://mathscinet.ams.org/mathscinet-getitem?mr=210112). [Zbl:0145.43303](https://zbmath.org/?q=an%3A0145.43303). <span class="text-muted">[Manuel de topologie algébrique.]</span>
 - **Charles A. Weibel. _An Introduction to homological algebra_.** Cambridge Studies in Advanced Mathematics 38. Cambridge: Cambridge University Press, 1994, pp. xiv+450. ISBN: 0-521-43500-5. [MR1269324](http://www.ams.org/mathscinet-getitem?mr=1269324). [Zbl:0797.18001](https://zbmath.org/?q=an%3A0797.18001). <span class="text-muted">[Manuel d'algèbre homologique.]</span>
-
-[Les documents ci-dessus sont disponibles ici.](https://cloud.math.univ-paris-diderot.fr/s/dmKT5S3dbq5EzM9)
-Le mot de passe est `homotopie`.
