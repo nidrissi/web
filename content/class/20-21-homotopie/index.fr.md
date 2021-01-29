@@ -77,7 +77,7 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
       <p class="card-text mb-0">Définition et construction de la localisation d'une catégorie, définition des homotopies à gauche, premières propriétés, cas dual des homotopies à droite (Sections 1.4.1 et 1.4.2).</p>
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
       <a href="https://youtu.be/AA1WQWUG2II" class="card-link">{{< fa "video" >}} Vidéo</a>
-</div>
+    </div>
   </div>
 </div>
 
@@ -110,7 +110,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
     <div class="card-body">
       <h5 class="card-title">Séance 6</h5>
       <h6 class="card-subtitle text-muted mb-2">Vendredi 29 janvier, 15h45–17h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Théorème d'existence des catégories de modèles cofibrement engendrées (Section 1.5.2), adjonctions de Quillen (début de la section 1.6).</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
+      <a href="https://youtu.be/0oIAdwMu_nY" class="card-link">{{< fa "video" >}} Vidéo</a>
     </div>
   </div>
 </div>

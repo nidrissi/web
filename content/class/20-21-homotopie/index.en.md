@@ -111,7 +111,10 @@ To access the different videos, click on the playlist icon in the top right of t
     <div class="card-body">
       <h5 class="card-title">Lecture 6</h5>
       <h6 class="card-subtitle text-muted mb-2">Friday January 29<sup>th</sup>, 15:45–17:45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Existence theorem for cofibration generated model categories (Section 1.5.2), Quillen adjunctions (beginning of Section 1.6).</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/0oIAdwMu_nY" class="card-link">{{< fa "video" >}} Video</a>
+      
     </div>
   </div>
 </div>
