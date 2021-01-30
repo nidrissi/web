@@ -114,7 +114,6 @@ To access the different videos, click on the playlist icon in the top right of t
       <p class="card-text mb-0">Existence theorem for cofibration generated model categories (Section 1.5.2), Quillen adjunctions (beginning of Section 1.6).</p>
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
       <a href="https://youtu.be/0oIAdwMu_nY" class="card-link">{{< fa "video" >}} Video</a>
-      
     </div>
   </div>
 </div>
