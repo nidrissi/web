@@ -122,7 +122,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
     <div class="card-body">
       <h5 class="card-title">Séance 7</h5>
       <h6 class="card-subtitle text-muted mb-2">Lundi 1<sup>er</sup> février, 10h45–12h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Définition des équivalences de Quillen et caractérisation, limites et colimites homotopiques.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
+      <a href="https://youtu.be/bv0oGULtfaw" class="card-link">{{< fa "video" >}} Vidéo</a>
     </div>
   </div>
 </div>
