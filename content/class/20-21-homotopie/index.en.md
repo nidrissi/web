@@ -135,7 +135,9 @@ To access the different videos, click on the playlist icon in the top right of t
     <div class="card-body">
       <h5 class="card-title">Lecture 8</h5>
       <h6 class="card-subtitle text-muted mb-2">Friday February 5<sup>th</sup>, 15:45–17:45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Reminders on simplicial sets and beginning of the proof of the existence of the Quillen model structure on the category of simplicial sets (Sections 2.1, 2.2, 2.3, and beginning of 2.4).</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/3jz0g8RVPS8" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>

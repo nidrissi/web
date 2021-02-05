@@ -134,7 +134,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
     <div class="card-body">
       <h5 class="card-title">Séance 8</h5>
       <h6 class="card-subtitle text-muted mb-2">Vendredi 5 février, 15h45–17h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Rappels sur les ensembles simpliciaux et début de la preuve de l'existence de la structure de Quillen sur la catégorie des ensembles simpliciaux (Sections 2.1, 2.2, 2.3 et début 2.4).</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/3jz0g8RVPS8" class="card-link">{{< fa "video" >}} Vidéo</a>
     </div>
   </div>
 </div>
