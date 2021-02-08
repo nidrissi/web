@@ -146,7 +146,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
     <div class="card-body">
       <h5 class="card-title">Séance 9</h5>
       <h6 class="card-subtitle text-muted mb-2">Lundi 8 février, 10h45–12h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Suite de la preuve de l'existence de la structure de Quillen sur les ensembles simpliciaux, extensions anodines, groupes d'homotopie simpliciaux.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/LEgUKKzM8KE" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>

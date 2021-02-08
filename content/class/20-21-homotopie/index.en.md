@@ -147,7 +147,9 @@ To access the different videos, click on the playlist icon in the top right of t
     <div class="card-body">
       <h5 class="card-title">Lecture 9</h5>
       <h6 class="card-subtitle text-muted mb-2">Monday February 8<sup>th</sup>, 10:45–12:45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Continuation of the proof of the existence of the Quillen model structure on simplicial sets, anodynes extensions, simplicial homotopy groups.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/LEgUKKzM8KE" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>
