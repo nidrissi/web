@@ -28,7 +28,7 @@ Il est recommandé d'avoir suivi les cours [_Homologie_ (Emmanuel Wagner)](https
 
 **Après le cours.**
 
-- Le cours [_Catégories supérieures_ (Muriel Livernet)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Livernet-spe.html) est une continuation naturelle de ce cours et donne une conclusion au parcours théorie de l'homotopie du M2 (Homologie -- Homotopie I/II -- Catégories supérieures).
+- Le cours [_Catégories supérieures_ (Muriel Livernet)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Livernet-spe.html) est une continuation naturelle de ce cours et donne une conclusion à la séquence "homotopie" du M2 (Homologie -- Homotopie I/II -- Catégories supérieures).
 - J'ai donné en 2020 un [cours Peccot intitulé *Homotopie réelle des espaces de configuration*]({{< ref "class/peccot" >}}) au Collège de France qui contenait des applications concrètes des méthodes présentées ici.
 
 ## Organisation

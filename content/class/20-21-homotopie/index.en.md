@@ -29,7 +29,7 @@ It will be useful to have a certain familiarity with categorical language and wi
 
 **After this course.**
 
-- The course [_Higher categories_ (Muriel Livernet)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Livernet-spe.html) is a natural continuation of this course and a conclusion to the homotopy theory curriculum of the master's degree (Homology -- Homotopy I/II -- Higher categories).
+- The course [_Higher categories_ (Muriel Livernet)](http://master-math-fonda.imj-prg.fr/2020-21/fiches/Livernet-spe.html) is a natural continuation of this course and a conclusion to the "homotopy" sequence of the master's degree (Homology -- Homotopy I/II -- Higher categories).
 - I gave in 2020 a [Peccot lecture entitled *Real homotopy of configuration spaces*]({{< ref "class/peccot" >}}) at the Collège de France which gave concrete applications of the methods presented here.
 
 ## Organization
