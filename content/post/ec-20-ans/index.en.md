@@ -10,6 +10,7 @@ You can select which groups you want to see, and whether you only want to see le
 You can also normalize the data so that each section starts at 100 in 1998, to compare the evolutions.
 I might add the total of the two later, but I fear I've already wasted enough time on this...
 Here it is:
+
 <!--more-->
 
 <div>
@@ -38,5 +39,5 @@ The data is only for 1998, 2003, 2008, 2013, and 2018.
 In principle, the older files on the ministry's website should allow to have more data, but I wasn't courageous enough to do it all by hand, or to extract it automatically from the "open data" website.
 Note that the data is not available for section 1 -- there is an error on the government's website, the PDF links to section 3.
 
-<script src="d3.min.js"></script>
+<script src="https://d3js.org/d3.v6.min.js"></script>
 <script src="chart.js"></script>
