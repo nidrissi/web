@@ -159,7 +159,9 @@ To access the different videos, click on the playlist icon in the top right of t
     <div class="card-body">
       <h5 class="card-title">Lecture 10</h5>
       <h6 class="card-subtitle text-muted mb-2">Friday February 12<sup>th</sup>, 15:45–17:45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">End of the proof of the Quillen equivalence between simplicial sets and topological spaces. Left Bousfield localization and rational homotopy theory.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link">{{< fa "chalkboard ">}}</a>      
+      <a href="https://youtu.be/gckfIqqkO-U" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>
