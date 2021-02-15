@@ -9,6 +9,6 @@ eventURL: https://www.math.uni-hamburg.de/home/richter/research-seminar-jhbr.htm
 location: Universität Hamburg (en ligne)
 urls:
   pdf:
-  slides:
+  slides: hamburg.png
   video:
 ---
