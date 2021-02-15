@@ -159,7 +159,7 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
       <h5 class="card-title">Séance 10</h5>
       <h6 class="card-subtitle text-muted mb-2">Vendredi 12 février, 15h45–17h45</h6>
       <p class="card-text mb-0">Fin de la preuve de l'équivalence de Quillen entre les ensembles simpliciaux et les espaces topologiques. Localisation de Bousfield et homotopie rationnelle.</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link">{{< fa "chalkboard" >}} Tableau</a>      
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
       <a href="https://youtu.be/gckfIqqkO-U" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
@@ -170,7 +170,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
     <div class="card-body">
       <h5 class="card-title">Séance 11</h5>
       <h6 class="card-subtitle text-muted mb-2">Lundi 15 février, 10h45–12h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Structure de modèles transférée sur les ADGC et algèbres de Sullivan.</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
+      <a href="https://youtu.be/UDbgtU00wpg" class="card-link">{{< fa "video" >}} Vidéo</a>
     </div>
   </div>
 </div>
