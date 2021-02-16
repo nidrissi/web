@@ -1,5 +1,0 @@
-#+TITLE: My website
-#+AUTHOR: Najib Idrissi
-
-These are the source files for [[https://idrissi.eu][my website]].
-It is built using [[https://gohugo.io/][Hugo]], and it is based on a heavily modified version of the [[https://sourcethemes.com/academic/][Academic theme]].
