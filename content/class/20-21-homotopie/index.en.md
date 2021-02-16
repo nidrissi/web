@@ -10,6 +10,7 @@ sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
   - "[**Lecture notes**](homotopie.pdf)"
   - "[Recorded lectures](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf)"
+  - "[Corrected homework](devoir.pdf)"
 urls:
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---

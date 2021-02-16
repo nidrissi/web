@@ -10,8 +10,6 @@ lastMod: 2020-04-30
 sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
   - "[**Lecture notes**](../20-21-homotopie/homotopie.pdf)"
-  - "[Homework](devoir.pdf)"
-  - "[Solution of the homework](devoir-corrigé.pdf)"
   - "[Exam](examen.pdf)"
   - "[Solution of the exam](examen-corrigé.pdf)"
 ---

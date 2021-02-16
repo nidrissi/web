@@ -10,8 +10,6 @@ lastMod: 2020-04-30
 sidebar:
   - "[M2 Mathématiques fondamentales](http://master-math-fonda.imj-prg.fr/)"
   - "[**Notes de cours**](homotopie.pdf)"
-  - "[DM](devoir.pdf)"
-  - "[DM corrigé](devoir-corrigé.pdf)"
   - "[Examen](examen.pdf)"
   - "[Examen corrigé](examen-corrigé.pdf)"
 ---
