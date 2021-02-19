@@ -43,6 +43,10 @@ Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, 
 Les séances seront également enregistrées et [disponibles sur YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture" dans le coin supérieur droit du lecteur intégré.
 
+**L'examen aura lieu le vendredi 5 mars de 14h à 17h en salle 2014 du [bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces).**
+Vous aurez droit aux notes de cours imprimées ou manuscrites durant l'examen.
+Le matériel électronique sera interdit.
+
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <div class="row row-cols-1 row-cols-md-2 mt-3">

@@ -44,6 +44,10 @@ You will receive the link to the meeting by email; if you did not receive it, pl
 The sessions will also be recorded and [available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 To access the different videos, click on the playlist icon in the top right of the embedded player.
 
+**The exam will happen on Friday, March 5th, 14:00--17:00, in room 2014 of the [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces).**
+This will be an open-book exam: you will have access to printed and handwritten lecture notes.
+Electronic devices will be forbidden.
+
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 <div class="row row-cols-1 row-cols-md-2 mt-3">
