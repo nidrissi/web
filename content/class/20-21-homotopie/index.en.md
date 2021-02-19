@@ -188,7 +188,9 @@ Electronic devices will be forbidden.
     <div class="card-body">
       <h5 class="card-title">Lecture 12</h5>
       <h6 class="card-subtitle mb-2">Friday February 19<sup>th</sup>, 15:45–17:45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Equivalence between CDGAs and rational homotopy types through the PL forms. Applications of Sullivan's theory: models of spaces, dichotomy theorem...</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" class="card-link">{{< fa "chalkboard" >}} Blackboard</a>
+      <a href="https://youtu.be/tp8uJpazaaM" class="card-link">{{< fa "video" >}} Video</a>
     </div>
   </div>
 </div>

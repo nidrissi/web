@@ -187,7 +187,9 @@ Le matériel électronique sera interdit.
     <div class="card-body">
       <h5 class="card-title">Séance 12</h5>
       <h6 class="card-subtitle mb-2">Vendredi 19 février, 15h45–17h45</h6>
-      <p class="card-text mb-0">TODO</p>
+      <p class="card-text mb-0">Equivalence entre les ADGC et les types d'homotopie rationnelle au travers des formes PL. Applications de la théorie des modèles de Sullivan : modèles d'espaces, théorème de la dichotomie...</p>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" class="card-link">{{< fa "chalkboard" >}} Tableau</a>
+      <a href="https://youtu.be/tp8uJpazaaM" class="card-link">{{< fa "video" >}} Vidéo</a>
     </div>
   </div>
 </div>
