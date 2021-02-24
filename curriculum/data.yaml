@@ -1,5 +1,5 @@
 ---
-lastMod: 2021-01-23
+lastMod: 2021-02-23
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -404,7 +404,7 @@ section:
       - item:
           a: ""
           b: |
-            *Introduction à la théorie de l'homotopie*, M2 Maths fondas (cours, 24h) 
+            *Introduction à la théorie de l'homotopie*, M2 Maths fondas (cours, 24h)
             !
             *Introduction to Homotopy Theory*, M2 Fundam.\ Math (lectures, 24h)
       - item:
