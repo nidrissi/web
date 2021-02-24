@@ -43,7 +43,7 @@ Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, 
 Les séances seront également enregistrées et [disponibles sur YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture" dans le coin supérieur droit du lecteur intégré.
 
-**L'examen aura lieu le vendredi 5 mars de 14h à 17h en salle 2014 du [bâtiment Sophie Germain](https://www.math.univ-paris-diderot.fr/ufr/acces).**
+**L'examen aura lieu le vendredi 5 mars de 14h à 17h en salle 207C de la [Halle aux Farines]({{< ref "class/19-20-homotopie" >}}/HAF.pdf) ({{< fa "exclamation-triangle" >}} changement de salle).**
 Vous aurez droit aux notes de cours imprimées ou manuscrites durant l'examen.
 Le matériel électronique sera interdit.
 
