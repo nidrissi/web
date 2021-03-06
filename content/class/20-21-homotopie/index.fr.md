@@ -11,6 +11,9 @@ sidebar:
   - "[**Notes de cours**](homotopie.pdf)"
   - "[Séances enregistrées](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf)"
   - "[DM corrigé](devoir.pdf)"
+  - "[Examen (fr)](examen-fr.pdf)"
+  - "[Examen corrigé (fr)](examen-fr-corrigé.pdf)"
+  - "[Examen (en)](examen-en.pdf)"
 urls:
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
