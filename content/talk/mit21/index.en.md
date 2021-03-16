@@ -9,6 +9,6 @@ eventURL: https://math.mit.edu/topology/
 location: MIT (Online)
 urls:
   pdf:
-  slides:
+  slides: mit.png
   video:
 ---
