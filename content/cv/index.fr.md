@@ -296,7 +296,13 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">mars 2021?</dt>
+<dt class="col-lg-2 col-sm-3 text-sm-right">mai 2021</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Topology and Geometry seminar</strong>, <em>University of Haifa</em>, en ligne.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">mars 2021</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Massachusetts Institute of Technology (MIT)</em>, en ligne.</dd>
 
 

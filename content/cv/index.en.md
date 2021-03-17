@@ -296,7 +296,13 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">Mar. 2021?</dt>
+<dt class="col-lg-2 col-sm-3 text-sm-right">May 2021</dt>
+<dd class="col-lg-10 col-sm-9"><strong>Topology and Geometry seminar</strong>, <em>University of Haifa</em>, online.</dd>
+
+
+
+
+<dt class="col-lg-2 col-sm-3 text-sm-right">Mar. 2021</dt>
 <dd class="col-lg-10 col-sm-9"><strong>Topology Seminar</strong>, <em>Massachusetts Institute of Technology (MIT)</em>, online.</dd>
 
 
