@@ -59,7 +59,5 @@ I am active on [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi
 ---
 
 This website is built using the static website generator [Hugo](https://gohugo.io/) and a heavily modified version of the [Academic](https://sourcethemes.com/academic/) theme.
-
----
-
-[My “dotfiles” are on GitHub.](https://github.com/nidrissi/dotfiles)
+[The source is on GitHub.](https://github.com/nidrissi/nidrissi)
+My [dotfiles](https://github.com/nidrissi/dotfiles) are also on GitHub.
