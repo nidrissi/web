@@ -1,5 +1,5 @@
 ---
-lastMod: 2021-02-23
+lastMod: 2021-03-22
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -117,9 +117,9 @@ section:
       - item:
           a: 2021--2024
           b: |
-            Membre du projet ANR «\ Algèbre, Géométrie et Topologie Supérieures (HighAGT)\ ». Coordinateur : Bruno Vallette.
+            Membre du projet ANR «\ [Algèbre, Géométrie et Topologie Supérieures (HighAGT)](https://anr-highagt.pages.math.cnrs.fr/)\ ». Coordinateur : Bruno Vallette.
             !
-            Member of the ANR project "Higher Algebra, Geometry, and Topology (HighAGT)". Coordinator: Bruno Vallette.
+            Member of the ANR project "[Higher Algebra, Geometry, and Topology (HighAGT)](https://anr-highagt.pages.math.cnrs.fr/)". Coordinator: Bruno Vallette.
       - item:
           a: 2014--2015
           b: |

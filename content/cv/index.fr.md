@@ -1,7 +1,7 @@
 ---
 # ⚠ Fichier généré automatiquement ⚠
 title: Curriculum Vitæ
-lastMod: 2021-02-23
+lastMod: 2021-03-22
 date: 2018-01-01
 urls:
   pdf: cv.fr.pdf
@@ -160,7 +160,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2021–2024</dt>
-<dd class="col-lg-10 col-sm-9">Membre du projet ANR « Algèbre, Géométrie et Topologie Supérieures (HighAGT) ». Coordinateur : Bruno Vallette..</dd>
+<dd class="col-lg-10 col-sm-9">Membre du projet ANR « <a href="https://anr-highagt.pages.math.cnrs.fr/">Algèbre, Géométrie et Topologie Supérieures (HighAGT)</a> ». Coordinateur : Bruno Vallette..</dd>
 
 
 

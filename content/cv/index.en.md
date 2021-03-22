@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-02-23
+lastMod: 2021-03-22
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf
@@ -160,7 +160,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2021–2024</dt>
-<dd class="col-lg-10 col-sm-9">Member of the ANR project “Higher Algebra, Geometry, and Topology (HighAGT)”. Coordinator: Bruno Vallette..</dd>
+<dd class="col-lg-10 col-sm-9">Member of the ANR project “<a href="https://anr-highagt.pages.math.cnrs.fr/">Higher Algebra, Geometry, and Topology (HighAGT)</a>”. Coordinator: Bruno Vallette..</dd>
 
 
 

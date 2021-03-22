@@ -1,7 +1,7 @@
 ---
 title: Divers
 url: /fr/divers/
-lastMod: 2020-08-14
+lastMod: 2021-03-22
 date: 2018-01-01
 menu:
   main:
@@ -9,10 +9,11 @@ menu:
     pre: <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="project-diagram" class="svg-inline--fa fa-project-diagram fa-w-20" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M384 320H256c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V352c0-17.67-14.33-32-32-32zM192 32c0-17.67-14.33-32-32-32H32C14.33 0 0 14.33 0 32v128c0 17.67 14.33 32 32 32h95.72l73.16 128.04C211.98 300.98 232.4 288 256 288h.28L192 175.51V128h224V64H192V32zM608 0H480c-17.67 0-32 14.33-32 32v128c0 17.67 14.33 32 32 32h128c17.67 0 32-14.33 32-32V32c0-17.67-14.33-32-32-32z"></path></svg>
 ---
 
-Je suis/fus membre :
+Je suis/fus membre des :
 
-- du [GDR Topologie Algébrique et Applications](http://gdrtop.math.cnrs.fr) ;
-- (2014--2015) du [projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller » (HOGT)](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse.
+- [GDR Topologie Algébrique et Applications](http://gdrtop.math.cnrs.fr).
+- (2014--2015) [Projet ANR « Homotopie algébrique, Opérades et groupes de Grothendieck--Teichmüller » (HOGT)](http://math.univ-lille1.fr/~operads/) coordonné par Benoit Fresse.
+- (2021--2024) [Projet ANR « Higher Algebra, Geometry, and Topology » (HighAGT)](https://anr-highagt.pages.math.cnrs.fr/) coordonné par Bruno Vallette.
 
 ---
 
