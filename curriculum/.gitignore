@@ -25,6 +25,3 @@ auto/
 *.out.tex
 *.out.md
 build
-
-# tup
-.tup/
