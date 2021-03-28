@@ -58,5 +58,5 @@ languages:
 deployment:
   targets:
     - name: s3
-      URL: s3://idrissi-eu?region=eu-west-3
-      cloudFrontDistributionID: E1A3OA020Q98SG
+      URL: s3://www-idrissi-eu?region=us-east-1
+      cloudFrontDistributionID: EHH2Z2SDJ7KMS
