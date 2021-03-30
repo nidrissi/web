@@ -96,8 +96,8 @@ section:
       - bib: publication
       - subtitle: Prépublications ! Preprints
       - bib: preprint
-      - subtitle: Autres documents ! Other documents
-      - bib: thesis,other
+      - subtitle: Autre ! Other documents
+      - bib: thesis
   - title: Financements ! Funding
     content:
       - subtitle: Obtenus ! Obtained

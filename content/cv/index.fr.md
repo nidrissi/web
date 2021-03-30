@@ -106,7 +106,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 </dl>
 
-#### Autres documents
+#### Autre
 
 <dl class="row mb-0">
 
@@ -117,7 +117,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 </dl>
-{{< cvbib "thesis,other" >}}
+{{< cvbib "thesis" >}}
 <dl class="row mb-0">
 
 </dl>

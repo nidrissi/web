@@ -117,7 +117,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 </dl>
-{{< cvbib "thesis,other" >}}
+{{< cvbib "thesis" >}}
 <dl class="row mb-0">
 
 </dl>

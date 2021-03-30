@@ -3,6 +3,7 @@
 
   {{- $pages := where .Site.RegularPages "Type" "research" -}}
   {{- $pages := where $pages ".Params.status" "in" (slice "publication" "preprint") -}}
+  {{- $pages := $pages.ByDate.Reverse -}}
   {{- range $pages -}}
   {{- .Render "card" -}}
   {{- end -}}
