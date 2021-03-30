@@ -29,7 +29,9 @@ The proof involves ideas from the theory of operads, which will be introduced at
 
 This lecture is based in part on joint works with Ricardo Campos, Julien Ducoulombier, Pascal Lambrechts, and Thomas Willwacher.
 
-<p class="lead"><a href="peccot.pdf"><b>{{< fa "file-pdf" >}} Lecture notes are available here.</b></a></p>
+[**{{< fa "file-pdf" >}} Lecture notes are available here.**](peccot.pdf)
+
+<div class="alert alert-warning">An enhanced version, in English, of these lecture notes is in preparation.</div>
 
 ## Practical informations
 

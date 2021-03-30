@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-03-22
+lastMod: 2021-03-30
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf

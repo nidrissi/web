@@ -29,7 +29,9 @@ La preuve fait intervenir des idées de la théorie des opérades, qui sera intr
 
 Ce cours sera en partie basé sur des travaux en collaboration avec Ricardo Campos, Julien Ducoulombier, Pascal Lambrechts et Thomas Willwacher.
 
-<p class="lead"><a href="peccot.pdf"><b>{{< fa "file-pdf" >}} Des notes de cours sont disponibles ici.</b></a></p>
+[**{{< fa "file-pdf" >}} Des notes de cours sont disponibles ici.**](peccot.pdf)
+
+<div class="alert alert-warning">Une version améliorée et en anglais de ces notes de cours est en préparation.</div>
 
 ## Informations pratiques
 
