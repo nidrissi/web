@@ -15,6 +15,7 @@ sidebar:
   - "[Examen corrigé (fr)](examen-fr-corrigé.pdf)"
   - "[Examen (en)](examen-en.pdf)"
 urls:
+  pdf: homotopie.pdf
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
 

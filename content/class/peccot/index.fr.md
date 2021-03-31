@@ -9,6 +9,7 @@ date: 2020-03-04
 publishDate: 2019-11-08
 lastMod: 2020-06-26
 urls:
+  pdf: peccot-fr.pdf
   video: https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm
 sidebar:
   - "[Notes de cours](./peccot.pdf)"
