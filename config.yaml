@@ -20,6 +20,7 @@ author:
   phone:
     pretty: "(+33) 01 57 27 91 16"
     ugly: "+33157279116"
+  github: nidrissi
 
 markup:
   goldmark:
