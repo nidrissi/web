@@ -9,10 +9,11 @@ date: 2020-03-04
 publishDate: 2019-11-08
 lastMod: 2020-06-26
 urls:
-  pdf: peccot-fr.pdf
+  pdf: /en/research/peccot/peccot.pdf
   video: https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm
 sidebar:
-  - "[Notes de cours](./peccot.pdf)"
+  - "[Notes de cours](/en/research/peccot/peccot.pdf)"
+  - "[Vieille version des notes](./peccot-fr.pdf)"
   - "[Site du Cours Peccot](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
   - "[Article d'information @ Université de Lille](https://www.univ-lille.fr/fileadmin/user_upload/illustrations/contenus/recherche/2017/ActULille_Recherche/News_52_Cours_Peccot_de_Najib_Idrissi_-_article.pdf)"
   - "[Version longue @ Laboratoire Paul Painlevé](https://math.univ-lille1.fr/d7/node/10461)"
@@ -30,9 +31,7 @@ La preuve fait intervenir des idées de la théorie des opérades, qui sera intr
 
 Ce cours sera en partie basé sur des travaux en collaboration avec Ricardo Campos, Julien Ducoulombier, Pascal Lambrechts et Thomas Willwacher.
 
-[**{{< fa "file-pdf" >}} Des notes de cours sont disponibles ici.**](peccot.pdf)
-
-<div class="alert alert-warning">Une version améliorée et en anglais de ces notes de cours est en préparation.</div>
+<div class="alert alert-info"><a class="alert-link" href="{{< ref "research/peccot" >}}peccot.pdf">{{< fa "file-pdf" >}} Lecture notes are available here.</a></span></div>
 
 ## Informations pratiques
 

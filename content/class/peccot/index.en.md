@@ -9,10 +9,11 @@ date: 2020-03-04
 publishDate: 2019-11-08
 lastMod: 2020-06-26
 urls:
-  pdf: peccot-fr.pdf
+  pdf: /en/research/peccot/peccot.pdf
   video: https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm
 sidebar:
-  - "[Lecture notes](./peccot.pdf)"
+  - "[Lecture notes](/en/research/peccot/peccot.pdf)"
+  - "[Old version of the notes, in French](./peccot-fr.pdf)"
   - "[Website of the Peccot Lectures](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
   - "[News article @ University of Lille](https://www.univ-lille.fr/fileadmin/user_upload/illustrations/contenus/recherche/2017/ActULille_Recherche/News_52_Cours_Peccot_de_Najib_Idrissi_-_article.pdf)"
   - "[Longer version @ Paul Painlevé laboratory](https://math.univ-lille1.fr/d7/node/10461)"
@@ -30,9 +31,7 @@ The proof involves ideas from the theory of operads, which will be introduced at
 
 This lecture is based in part on joint works with Ricardo Campos, Julien Ducoulombier, Pascal Lambrechts, and Thomas Willwacher.
 
-[**{{< fa "file-pdf" >}} Lecture notes are available here.**](peccot.pdf)
-
-<div class="alert alert-warning">An enhanced version, in English, of these lecture notes is in preparation.</div>
+<div class="alert alert-info"><a class="alert-link" href="{{< ref "research/peccot" >}}peccot.pdf">{{< fa "file-pdf" >}} Lecture notes are available here.</a></span></div>
 
 ## Practical informations
 
