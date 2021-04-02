@@ -1,7 +1,7 @@
 ---
 # ⚠ Fichier généré automatiquement ⚠
 title: Curriculum Vitæ
-lastMod: 2021-03-30
+lastMod: 2021-04-02
 date: 2018-01-01
 urls:
   pdf: cv.fr.pdf
@@ -178,13 +178,13 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2020–2021</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Marie-Camille Delarue</strong>, <em>Mémoire de master</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Marie-Camille Delarue</strong>, <em>Mémoire de master</em>, Sorbonne Université / ENS.</dd>
 
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
-<dd class="col-lg-10 col-sm-9"><strong>Yasamin Jalalian</strong>, <em>Mémoire de bachelor</em>, École Polytechnique.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Yasamin Jalalian</strong>, <em>Mémoire de bachelor</em>, École Polytechnique.<br>Titre : <em>Lie algebras and the PBW theorem</em>. Soutenance le 22 avril 2021.</dd>
 
 
 

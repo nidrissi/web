@@ -1,5 +1,5 @@
 ---
-lastMod: 2021-03-30
+lastMod: "2021-04-02"
 # localization
 lang: fr ! en
 mylang: french ! english
@@ -132,11 +132,16 @@ section:
           a: 2020--2021
           b: Marie-Camille Delarue
           c: Mémoire de master ! Master's thesis
+          d: Sorbonne Université / ENS
       - entry:
           a: ""
           b: Yasamin Jalalian
           c: Mémoire de bachelor ! Bachelor thesis
           d: École Polytechnique
+          f: |
+            Titre : *Lie algebras and the PBW theorem*. Soutenance le 22 avril 2021.
+            !
+            Title: *Lie algebras and the PBW theorem*. Defense on April 22^nd^, 2021.
   - title: Service
     content:
       - subtitle: Organisation ! Organization

@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-03-30
+lastMod: 2021-04-02
 date: 2018-01-01
 urls:
   pdf: cv.en.pdf
@@ -178,13 +178,13 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">2020–2021</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Marie-Camille Delarue</strong>, <em>Master’s thesis</em>.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Marie-Camille Delarue</strong>, <em>Master’s thesis</em>, Sorbonne Université / ENS.</dd>
 
 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right"></dt>
-<dd class="col-lg-10 col-sm-9"><strong>Yasamin Jalalian</strong>, <em>Bachelor thesis</em>, École Polytechnique.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Yasamin Jalalian</strong>, <em>Bachelor thesis</em>, École Polytechnique.<br>Title: <em>Lie algebras and the PBW theorem</em>. Defense on April 22<sup>nd</sup>, 2021.</dd>
 
 
 
