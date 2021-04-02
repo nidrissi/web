@@ -5,7 +5,7 @@ authors:
 date: 2014-06-30
 status: thesis
 publication: Mémoire de master, Université Paris Diderot
-title: Homologie et complexes de déformations d’opérades \(E_n\)
+title: Homologie et complexes de déformations d’opérades \\(E_n\\)
 urls:
   pdf: m2.pdf
 ---
