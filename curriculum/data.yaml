@@ -102,7 +102,7 @@ section:
     content:
       - subtitle: Obtenus ! Obtained
       - item:
-          a: 2019
+          a: "2019"
           b: |
             Porteur d'un *Projet Exploratoire de Premier Soutien « Jeune chercheuse, jeune chercheur (PEPS JCJC) »*, CNRS / Insmi, 3500 €
             !
@@ -476,17 +476,17 @@ section:
   - title: Participation à des conférences ! Conferences attended
     content:
       - item:
-          a: 2021
+          a: "2021"
           b: |
             *Barcelona Conference on Higher Structures*^?^ (Centre de Recerca Matemàtica) •
             *Colloque 2021 du GDR Topologie Algébrique et Applications*^?^ (Université de Strasbourg)
       - item:
-          a: 2020
+          a: "2020"
           b: |
             ~~*Toric Topology and Polyhedral Products* (Fields Institute)~~ [cancelled due to Covid19] •
             *Málaga & Topology Meeting* (Universidad de Málaga)
       - item:
-          a: 2019
+          a: "2019"
           b: |
             *Opening workshop of the OCHoTop project* (EPFL) •
             *Journée de topologie* (Université de Picardie Jules Verne) •
@@ -498,7 +498,7 @@ section:
             *Structures Supérieures* (Centre International de Rencontres Mathématiques, Luminy) •
             *Higher Structures in Holomorphic and Topological Field Theory* (Institut des Hautes Études Scientifiques)
       - item:
-          a: 2018
+          a: "2018"
           b: |
             *New trends in K-theory and homotopy theory -- A conference in honor of Max Karoubi's 80th birthday* (Institut Henri Poincaré, Paris) •
             *Colloque 2018 du GDR Topologie Algébrique* (Université de Montpellier) •
@@ -506,7 +506,7 @@ section:
             *Graph Complexes, Configuration Spaces and Manifold Calculus* (University of British Columbia) •
             *Rational Homotopy and its Applications* (Université de Lille)
       - item:
-          a: 2017
+          a: "2017"
           b: |
             *Colloque 2017 du GDR Topologie Algébrique* (Université Paris Diderot) •
             *Séminaire Itinérant de Catégories* (Université du Littoral Côte d'Opale) •
@@ -520,7 +520,7 @@ section:
             *Workshop on Quantum Topology* (Université de Lille) •
             *Conference for Young researchers in homotopy theory and categorical structures* (Max-Planck-Institut für Mathematik, Bonn)
       - item:
-          a: 2016
+          a: "2016"
           b: |
             *Conference in the honour of Saïd Zarati* (Institut des Hautes Études à Tunis) •
             *Colloque 2016 du GDR Topologie Algébrique et Applications* (Université de Picardie Jules Verne) •
@@ -528,7 +528,7 @@ section:
             *Workshop: Factorization Algebras and Functorial Field Theories* (Mathematisches Forschungsinstitut Oberwolfach) •
             *Séminaire Itinérant de Catégories* (Université de Lille)
       - item:
-          a: 2015
+          a: "2015"
           b: |
             *Colloque 2015 du GDR Topologie Algébrique et Applications* (Université de Toulouse-3) •
             *Lens Topology and geometry 2015* (Université d'Artois, Lens) •
@@ -539,7 +539,7 @@ section:
             *Masterclass : K-théorie topologique et applications* (Université de Strasbourg) •
             *Séminaire du projet ANR HOGT* (Université de Lille)
       - item:
-          a: 2014
+          a: "2014"
           b: |
             *Colloque 2014 du GDR Topologie Algébrique et Applications* (Université Blaise Pascal) •
             *Colloque de clôture du projet ANR HOGT* (Université de Nice) •
@@ -548,7 +548,7 @@ section:
             *Young Mathematicians Colloquium* (Université de Lille) •
             *Séminaire du projet ANR HOGT* (Université de Lille)
       - item:
-          a: 2013
+          a: "2013"
           b: |
             *Gelfand Centennial Conference: A View of 21st Century Mathematics* (Massachusetts Institute of Technology) •
             *Conference in Algebra and Topology celebrating Lionel Schwartz's 60th birthday* (Université de Nantes)

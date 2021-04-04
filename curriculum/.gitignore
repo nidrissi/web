@@ -21,7 +21,8 @@ auto/
 *.pdf
 
 # CV
-*.out.yaml
-*.out.tex
-*.out.md
+*.out.*
 build
+
+# node
+node_modules

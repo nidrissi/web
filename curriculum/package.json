@@ -1,0 +1,15 @@
+{
+  "name": "curriculum",
+  "version": "0.0.1",
+  "description": "Mon CV",
+  "private": "true",
+  "main": "split.js",
+  "scripts": {
+    "start": "make"
+  },
+  "author": "Najib Idrissi",
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.0.0-4"
+  }
+}
