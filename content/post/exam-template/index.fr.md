@@ -14,6 +14,8 @@ J'ai décidé d'écrire un petit modèle [Pandoc](https://pandoc.org/), ce qui m
 Ce n'était pas complètement trivial, car la classe `exam` utilise les environnements `questions` et `parts`, et les commandes `\question` et `\part`, que je ne voulais pas réécrire à chaque fois.
 J'ai donc écrit un petit filtre Pandoc pour gagner du temps.
 
+<!--more-->
+
 Voici [(`exam-template.tex`)](exam-template.tex) :
 
 ```latex
