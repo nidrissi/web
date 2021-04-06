@@ -2,12 +2,9 @@
 {{- $is_card := .is_card -}}
 {{- $ := .content -}}
 
-{{- $class := "btn btn-primary btn-sm" -}}
+{{- $class := "badge badge-primary" -}}
 {{- if $is_card -}}
 {{- $class = "card-link" -}}
-{{- end -}}
-{{- if $is_li -}}
-{{- $class = "badge badge-primary" -}}
 {{- end -}}
 
 {{- with $.Params.urls.pdf -}}
@@ -64,6 +61,7 @@
   {{ i18n "btn_source" -}}
 </a>
 {{ end -}}
+
 
 {{- range $.Params.urls.custom -}}
 <a class="{{ $class }}" href="{{ .url | absURL }}">
