@@ -22,14 +22,18 @@ function traverse(obj) {
     } else {
       [retA, retB] = [obj, obj];
     }
-    retA = retA.replace(
-      /(\d\d)\/(\d\d\d\d)/g,
-      (_, month, year) => months[0][Number(month) - 1] + "\\ " + year
-    );
-    retB = retB.replace(
-      /(\d\d)\/(\d\d\d\d)/g,
-      (_, month, year) => months[1][Number(month) - 1] + "\\ " + year
-    );
+    retA = retA
+      .trim()
+      .replace(
+        /(\d\d)\/(\d\d\d\d)/g,
+        (_, month, year) => months[0][Number(month) - 1] + "\\ " + year
+      );
+    retB = retB
+      .trim()
+      .replace(
+        /(\d\d)\/(\d\d\d\d)/g,
+        (_, month, year) => months[1][Number(month) - 1] + "\\ " + year
+      );
   } else if (Array.isArray(obj)) {
     [retA, retB] = [[], []];
     for (const elt of obj) {
