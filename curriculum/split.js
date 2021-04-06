@@ -15,50 +15,47 @@ const inputJSON = YAML.parse(inputRaw);
  * @param obj Either a string, an array, or an object
  */
 function traverse(obj) {
-  let retA, retB;
+  let ret;
   if (typeof obj === "string") {
     if (obj.match("!")) {
-      [retA, retB] = obj.split(/\s*!\s*/);
+      ret = obj.split(/\s*!\s*/);
     } else {
-      [retA, retB] = [obj, obj];
+      ret = [obj, obj];
     }
-    retA = retA
-      .trim()
-      .replace(
-        /(\d\d)\/(\d\d\d\d)/g,
-        (_, month, year) => months[0][Number(month) - 1] + "\\ " + year
-      );
-    retB = retB
-      .trim()
-      .replace(
-        /(\d\d)\/(\d\d\d\d)/g,
-        (_, month, year) => months[1][Number(month) - 1] + "\\ " + year
-      );
+    ret = ret.map((string, i) =>
+      string
+        .trim()
+        .replace(
+          /(\d\d)\/(\d\d\d\d)/g,
+          (_, month, year) => months[i][Number(month) - 1] + "\\ " + year
+        )
+    );
   } else if (Array.isArray(obj)) {
-    [retA, retB] = [[], []];
+    ret = [[], []];
     for (const elt of obj) {
-      const [a, b] = traverse(elt);
-      retA.push(a);
-      retB.push(b);
+      traverse(elt).forEach((val, i) => {
+        ret[i].push(val);
+      });
     }
   } else {
-    [retA, retB] = [{}, {}];
+    ret = [{}, {}];
     for (const [key, value] of Object.entries(obj)) {
-      const [a, b] = traverse(value);
-      retA[key] = a;
-      retB[key] = b;
+      traverse(value).forEach((val, i) => {
+        ret[i][key] = val;
+      });
     }
   }
-  return [retA, retB];
+  return ret;
 }
 
-const [outputA, outputB] = traverse(inputJSON);
+const output = traverse(inputJSON);
 
-fs.writeFileSync(
-  "french.out.yaml",
-  "---\n" + YAML.stringify(outputA) + "\n---\n"
-);
-fs.writeFileSync(
-  "english.out.yaml",
-  "---\n" + YAML.stringify(outputB) + "\n---\n"
-);
+for (const [lang, i] of [
+  ["french", 0],
+  ["english", 1],
+]) {
+  fs.writeFileSync(
+    `${lang}.out.yaml`,
+    "---\n" + YAML.stringify(output[i]) + "\n---\n"
+  );
+}
