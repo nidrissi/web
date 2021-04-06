@@ -4,7 +4,7 @@ date: 2021-03-30
 draft: false
 authors: [me]
 status: preprint
-publication: Cours Peccot. 162 pages
+publication: Cours Peccot, 162 pages, soumis
 abstract: |
   In this lecture, we will study the real homotopy type of configuration spaces of manifolds.
   Configuration spaces consist in collections of pairwise distinct points in a given manifold.
