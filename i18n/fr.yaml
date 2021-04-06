@@ -18,6 +18,8 @@
   translation: Notes
 - id: btn_source
   translation: Source
+- id: btn_discuss
+  translation: Discuter
 # About
 - id: office
   translation: Bureau

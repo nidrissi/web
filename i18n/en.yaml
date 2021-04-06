@@ -20,6 +20,8 @@
   translation: Notes
 - id: btn_source
   translation: Source
+- id: btn_discuss
+  translation: Discuss
 # About
 - id: office
   translation: Office
