@@ -3,9 +3,8 @@ title: Real Homotopy of Configuration Spaces
 date: 2021-03-30
 draft: false
 authors: [me]
-# preprint, publication, or other
 status: preprint
-publication: Cours Peccot. 162 pages.
+publication: Cours Peccot. 162 pages
 abstract: |
   In this lecture, we will study the real homotopy type of configuration spaces of manifolds.
   Configuration spaces consist in collections of pairwise distinct points in a given manifold.
