@@ -56,8 +56,3 @@ languages:
       research: /recherche/:filename/
       talk: /expose/:filename/
       class: /cours/:filename/
-
-deployment:
-  targets:
-    - name: s3
-      URL: s3://www-idrissi-eu?region=us-east-1

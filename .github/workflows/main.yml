@@ -9,14 +9,30 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - run: curl -Ls "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_Linux-64bit.tar.gz" -o /tmp/hugo.tar.gz
+      - name: Download hugo
+        run: curl -Ls "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_Linux-64bit.tar.gz" -o /tmp/hugo.tar.gz
         env:
           hugo_version: "0.81.0"
-      - run: tar xf /tmp/hugo.tar.gz -C /tmp
-      - run: chmod +x /tmp/hugo
-      - uses: actions/checkout@master
-      - run: /tmp/hugo
-      - run: /tmp/hugo deploy
+      - name: Unpack hugo
+        run: tar xf /tmp/hugo.tar.gz -C /tmp
+      - name: Execute bit hugo
+        run: chmod +x /tmp/hugo
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Build
+        run: /tmp/hugo
+      - name: Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Upload
+        uses: azure/CLI@v1
+        with:
+          azcliversion: 2.21.0
+          inlineScript: |
+            az storage blob sync --container '$web' --source public
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
+      - name: Logout
+        run: |
+          az logout
