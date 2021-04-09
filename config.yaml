@@ -56,3 +56,5 @@ languages:
       research: /recherche/:filename/
       talk: /expose/:filename/
       class: /cours/:filename/
+
+disableHugoGeneratorInject: true
