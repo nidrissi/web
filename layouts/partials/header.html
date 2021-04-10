@@ -19,8 +19,8 @@
   {{- range .AlternativeOutputFormats -}} {{- printf `
   <link rel="%s" type="%s" href="%s" title="%s" />
   ` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML -}} {{- end -}} {{
-  $css := slice (resources.Get "css/style.css") | resources.Concat "bundle.css"
-  | resources.Minify -}}
+  $css := slice (resources.Get "css/style.css") | resources.Concat (printf
+  "bundle-%d.css" now.Unix) | resources.Minify -}}
   <link
     rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -57,10 +57,9 @@
   ></script>
 
   {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get
-  "js/ga.js") (resources.Get "js/toc.js") | resources.Concat "bundle.js" |
-  resources.Minify -}}
+  "js/ga.js") (resources.Get "js/toc.js") | resources.Concat (printf
+  "bundle-%d.js" now.Unix) | resources.Minify -}}
   <script src="{{ $js.Permalink }}"></script>
-
   <script
     src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-chtml.js"
     integrity="sha384-UozJ99uTsC3hGw/ZyfGWyZhGT2HagM/UTaJSjYDDwJkJAV7YGoW0bHz7DI5XCN6X"
