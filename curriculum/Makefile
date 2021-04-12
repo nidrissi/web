@@ -6,6 +6,9 @@ LATEX = latexmk -pdf -lualatex -quiet -outdir=$(BUILD)
 TPL_TEX = template.tex
 TPL_MD = template.md
 
+LASTMOD = $(shell git log -1 --pretty="format:%ci" ./data.yaml | head -c 10)
+PANDOC = pandoc --metadata=lastMod:$(LASTMOD)
+
 TARGET = french.out.pdf english.out.pdf french.out.md english.out.md
 
 .PHONY: all copy clean
@@ -17,14 +20,14 @@ english.out.yaml french.out.yaml: data.yaml split.js
 	node split.js
 
 %.out.tex: %.out.yaml $(TPL_TEX)
-	pandoc --template $(TPL_TEX) $< --output=$@
+	$(PANDOC) --template $(TPL_TEX) $< --output=$@
 
 %.out.pdf: %.out.tex $(BIB)
 	$(LATEX) $<
 	cp $(BUILD)/$@ .
 
 %.out.md: %.out.yaml $(TPL_MD)
-	pandoc --template $(TPL_MD) --to html $< --output=$@
+	$(PANDOC) --template $(TPL_MD) --to html $< --output=$@
 
 copy: all
 	cp french.out.pdf $(TARGET_DIR)/cv.fr.pdf
