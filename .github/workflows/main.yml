@@ -1,9 +1,13 @@
-name: Upload Website
+name: Build and upload the website
 
 on:
   push:
     branches:
       - master
+    paths-ignore:
+      - ".gitignore"
+      - "README.md"
+      - "curriculum/**"
 
 jobs:
   deploy:
