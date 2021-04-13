@@ -6,7 +6,7 @@ toc: true
 tags: [code]
 ---
 
-In this post, I will try to explain how to explain how to use Git.
+In this post, I will try to explain how to use Git to write papers, with an audience of professional mathematicians in mind.
 
 <div class="alert alert-warning">This article is still a work in progress!</div>
 
