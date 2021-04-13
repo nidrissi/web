@@ -1,7 +1,7 @@
 ---
 # ⚠ Fichier généré automatiquement ⚠
 title: Curriculum Vitæ
-date: 2021-04-05
+date: 2021-04-12
 urls:
   pdf: cv.fr.pdf
 toc: true
@@ -265,7 +265,7 @@ Fin 2013 : Stage de recherche en topologie algébrique, Massachusetts Institute 
 
 
 <dt class="col-lg-2 col-sm-3 text-sm-right">en cours</dt>
-<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles (rapports et/ou opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. Topol. • Homol. Homot. Appl. • J. Éc. Polytech. Math. • J. Lond. Math. Soc. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math.</dd>
+<dd class="col-lg-10 col-sm-9"><strong>Évaluations d’articles (rapports et/ou opinions)</strong>.<br>Adv. Math. • Alg. Geom. Topol. • Comm. Math. Phys. • Compos. Math. • Geom. Topol. • Homol. Homot. Appl. • J. Algebra • J. Éc. Polytech. Math. • J. Homotopy Relat. Struct. • J. Lond. Math. Soc. • Lett. Math. Phys. • Proc. Roy. Soc. Edinburgh Sect. A • Selecta Math.</dd>
 
 
 
