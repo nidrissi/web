@@ -1,20 +1,18 @@
 ---
-title: Git for Mathematicians
+title: "Git for Mathematicians (1/3): Preliminaries"
 date: 2021-04-13
 draft: false
 toc: true
 tags: [code]
 ---
 
-In this post, I will try to explain how to use Git to write papers, with an audience of professional mathematicians in mind.
-
-<div class="alert alert-warning">This article is still a work in progress!</div>
+This post is the first in a series in which I will try to explain how to use Git to write papers, with an audience of professional mathematicians in mind.
+I know that there are a lot of material online about learning Git, but as far as I can tell, none are tailored specifically for mathematicians' needs (which differ a bit from programmers' needs).
+Here, I will try to explain why one would even be interested in Git to begin with.
 
 <!--more-->
 
-## Preliminaries
-
-### Why do I need a (distributed) version control system?
+## Why do I need a (distributed) version control system?
 
 Git is a [distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control).
 Behind this barbarous name is a rather simple idea.
@@ -43,7 +41,7 @@ They range from "everyone writes one section of the paper alone and the paper ge
 This can certainly work, and a combination of these has been the standard way to collaboratively work on math papers since the invention of the Internet, I guess.
 But each approach has its pitfalls.
 
-### Why Git?
+## Why Git?
 
 Distributed version control systems (DVCSs) are essentially an answer to all these challenges and the pitfalls of the other approaches.
 I will not bore you with the details of the history of version control systems.
@@ -71,10 +69,10 @@ There are two operative phrases in the name, that can be explained at a high lev
   This allows theoretically eliminates the need to work with a central server. Of course, most people choose to work with one(e.g. GitHub or Bitbucket) for easier collaboration and backup.
   But strictly speaking, you could set things up so that nothing leaves your computer(s).
 
-## How does Git work?
+## Next steps
 
-### Theory
+In the next post, I will try to explain how one uses Git.
+In the meantime, here are some links:
 
-### Practice
-
-### Collaboration
+- [Git's documentation](https://git-scm.com/doc).
+- [GitHub's "Resources to learn Git"](https://try.github.io/), and in particular their handy [cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/).
