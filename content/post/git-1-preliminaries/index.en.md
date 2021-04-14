@@ -76,3 +76,7 @@ In the meantime, here are some links:
 
 - [Git's documentation](https://git-scm.com/doc).
 - [GitHub's "Resources to learn Git"](https://try.github.io/), and in particular their handy [cheat sheet](https://training.github.com/downloads/github-git-cheat-sheet/).
+
+And here's a little teaser of what you will hopefully be able to do by the end of all this!
+
+<div class="embed-responsive embed-responsive-16by9"><video controls loop autoplay class="embed-responsive-item"><source src="teaser.mp4" type="video/mp4"></video></div>
