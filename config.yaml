@@ -27,8 +27,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
-  # highlight:
-  #   style: emacs
+
+enableGitInfo: true
 
 params:
   currentYear: 2020–2021

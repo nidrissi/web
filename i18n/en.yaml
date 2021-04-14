@@ -50,8 +50,10 @@
   translation: Reference
 - id: date
   translation: Date
+- id: published_on
+  translation: Published on
 - id: last_updated
-  translation: Last updated on
+  translation: Updated on
 - id: links
   translation: Links
 - id: event

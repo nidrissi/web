@@ -1,9 +1,9 @@
-{{- if ne .Lastmod .Date -}}
-{{- i18n "last_updated" -}}
+{{- i18n "published_on" }}
+<time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ .Date.Format .Site.Params.date_format -}}</time>
+{{- if ne (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date) }}
+&bull; {{ i18n "last_updated" }}
+<time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">{{- .Lastmod.Format .Site.Params.date_format -}}</time>
 {{- end }}
-<time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">
-  {{- .Lastmod.Format .Site.Params.date_format -}}
-</time>
 {{ range $k, $v := $.Params.tags -}}
 <a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" class="badge badge-primary">#{{ . }}</a>
 {{ end }}
