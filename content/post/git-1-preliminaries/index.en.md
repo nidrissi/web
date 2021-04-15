@@ -47,9 +47,11 @@ Distributed version control systems (DVCSs) are essentially an answer to all the
 I will not bore you with the details of the history of version control systems.
 You may have heard of some of them, like the old-school CVS or Subversion, or the other DVCSs like Mercurial or GNU Bazaar.
 Git, which was created by Linus Torvalds (who also created the Linux kernel) in 2005.
-While there used to be some contention in the early days (Subversion supplanted CVS a while ago, then DVCSs came along and the battle raged between Git and Mercurial), it is generally accepted today that Git is the most popular one.
+
+While there used to be some contention in the early days (Subversion supplanted CVS a while ago, then DVCSs came along and the battle raged between Git and Mercurial), it is generally accepted today that [Git](https://git-scm.com/) is the most popular one.
 In 2018, the [StackOverflow developer survey](https://insights.stackoverflow.com/survey/2018#work-_-version-control) listed Git as the most-used VCS with a 87.2% market share.
 Newer editions of the developer survey do not even include the question anymore, as Git is completely dominating the scene.
+Even Microsoft is using Git to [manage the source code of Windows](https://devblogs.microsoft.com/bharry/the-largest-git-repo-on-the-planet/).
 
 So how does a distributed version control system like Git work?
 There are two operative phrases in the name, that can be explained at a high level:
@@ -66,7 +68,8 @@ There are two operative phrases in the name, that can be explained at a high lev
   "User" should be understood in a wide sense: if you are working from two different computers, and you download a Git repository on both, then both copies will contain the full history of the repository.
   In addition to making many things easier, this adds an extra layer of security: if you lose your laptop, your desktop will still contain the full history of all the changes you ever made to your article, for example.
 
-  This allows theoretically eliminates the need to work with a central server. Of course, most people choose to work with one(e.g. GitHub or Bitbucket) for easier collaboration and backup.
+  This also theoretically eliminates the need to work with a central server.
+  Of course, most people choose to work with one (e.g. GitHub or Bitbucket) for easier collaboration and backup.
   But strictly speaking, you could set things up so that nothing leaves your computer(s).
 
 ## Next steps
@@ -79,4 +82,4 @@ In the meantime, here are some links:
 
 And here's a little teaser of what you will hopefully be able to do by the end of all this!
 
-<div class="embed-responsive embed-responsive-16by9"><video controls loop autoplay class="embed-responsive-item"><source src="teaser.mp4" type="video/mp4"></video></div>
+<div class="embed-responsive embed-responsive-16by9"><video controls loop autoplay class="embed-responsive-item"><source src="teaser.mp4" type="video/mp4">This is supposed to be a video showcasing the use of Git in Visual Studio Code, but apparently your browser does not support showing HTML5 videos.</video></div>
