@@ -7,7 +7,7 @@
       "label": "hugo: serve",
       "type": "process",
       "command": "hugo",
-      "args": ["serve", "--buildDrafts", "--buildFuture"],
+      "args": ["serve", "--buildDrafts", "--buildFuture", "--minify"],
       "isBackground": true,
       "problemMatcher": {
         "severity": "error",
@@ -30,6 +30,7 @@
       "label": "hugo: build",
       "type": "process",
       "command": "hugo",
+      "args": ["--minify"],
       "group": "build",
       "problemMatcher": []
     },
