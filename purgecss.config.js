@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["public/**.html", "public/**.js"],
+  content: ["public/**/*.html", "public/**/*.js"],
   css: ["public/**.css"],
   output: "public/",
 };
