@@ -36,7 +36,8 @@
     {
       "label": "cv: build",
       "type": "process",
-      "command": "make -j5",
+      "command": "make",
+      "args": ["-j5"],
       "group": "build",
       "problemMatcher": [],
       "options": {
