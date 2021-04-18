@@ -1,5 +1,18 @@
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+$(document).ready(function () {
+  if (
+    !document.cookie
+      .split("; ")
+      .find((row) => row.startsWith("cookieToastShown"))
+  ) {
+    $("#cookie-toast").toast("show");
+    document.cookie =
+      "cookieToastShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  }
+});
 
-  gtag('config', 'G-S549JC61XZ');
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+gtag("config", "G-S549JC61XZ");
