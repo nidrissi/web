@@ -23,6 +23,3 @@ auto/
 # CV
 *.out.*
 build
-
-# node
-node_modules

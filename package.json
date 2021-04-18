@@ -1,14 +1,14 @@
 {
-  "name": "curriculum",
+  "name": "nidrissi",
   "version": "0.0.1",
-  "description": "Mon CV",
+  "description": "My website",
   "private": "true",
   "main": "split.js",
   "scripts": {
-    "start": "make"
+    "build-cv": "make -C curriculum"
   },
   "author": "Najib Idrissi",
-  "license": "MIT",
+  "license": "none",
   "dependencies": {
     "yaml": "^2.0.0-4"
   }

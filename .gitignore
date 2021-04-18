@@ -1,3 +1,5 @@
 public/
 resources/
-Thumbs.db
+
+# node
+node_modules
