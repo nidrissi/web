@@ -5,11 +5,12 @@
   "private": "true",
   "main": "split.js",
   "scripts": {
-    "build-cv": "make -C curriculum"
+    "purgecss": "purgecss --config purgecss.config.js"
   },
   "author": "Najib Idrissi",
   "license": "none",
   "dependencies": {
+    "purgecss": "^4.0.3",
     "yaml": "^2.0.0-4"
   }
 }

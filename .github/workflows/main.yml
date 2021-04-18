@@ -25,6 +25,10 @@ jobs:
         uses: actions/checkout@master
       - name: Build
         run: /tmp/hugo
+      - name: Install dependenciens
+        run: npm clean-install
+      - name: PurgeCSS
+        run: npm run purgecss
       - name: Login
         uses: azure/login@v1
         with:
