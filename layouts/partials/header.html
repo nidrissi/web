@@ -22,8 +22,12 @@
   <!-- css -->
   {{- $css := slice (resources.Get "css/bootstrap.min.css") (resources.Get
   "css/svg-with-js.css") (resources.Get "css/style.css") | resources.Concat
-  (printf "bundle-%d.css" now.Unix) | resources.Minify -}}
-  <link rel="stylesheet" href="{{ $css.Permalink }}" />
+  "bundle.css" | resources.Minify -}}
+  <link
+    rel="stylesheet"
+    href="{{
+  $css.Permalink }}?{{ now.Unix}}"
+  />
 
   <script
     async
@@ -33,8 +37,8 @@
   {{- $js := slice (resources.Get "js/jquery.slim.js") (resources.Get
   "js/popper.min.js") (resources.Get "js/bootstrap.min.js") (resources.Get
   "js/mathjax-conf.js") (resources.Get "js/ga.js") (resources.Get "js/toc.js") |
-  resources.Concat (printf "bundle-%d.js" now.Unix) | resources.Minify -}}
-  <script src="{{ $js.Permalink }}"></script>
+  resources.Concat "bundle.js" | resources.Minify -}}
+  <script src="{{ $js.Permalink }}?{{ now.Unix }}"></script>
   <script
     src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-chtml.js"
     integrity="sha384-UozJ99uTsC3hGw/ZyfGWyZhGT2HagM/UTaJSjYDDwJkJAV7YGoW0bHz7DI5XCN6X"
