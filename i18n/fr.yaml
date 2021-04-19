@@ -48,9 +48,9 @@
   translation: Référence
 - id: date
   translation: Date
-- id: last_updated
 - id: published_on
   translation: Publié le
+- id: last_updated
   translation: Modifié le
 - id: links
   translation: Liens
