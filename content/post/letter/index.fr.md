@@ -2,7 +2,9 @@
 title: Modèle de lettres en LaTeX
 date: 2020-08-18
 draft: false
-tags: [latex]
+tags: [code]
+urls:
+  source: https://gist.github.com/nidrissi/7b9d8f2f1a80837090e84160e68e8f00
 ---
 
 Plusieurs personnes m'ont demandé mon modèle LaTeX pour les lettres que j'écris, donc au cas où je le mets aussi sur mon site web.

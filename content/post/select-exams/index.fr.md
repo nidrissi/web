@@ -3,6 +3,8 @@ title: Select-Exams
 date: 2021-04-19
 draft: false
 tags: [code, teaching]
+urls:
+  source: https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92
 ---
 
 Avec les cours en ligne, je dois trouver des moyens de rendre de nombreux processus plus rapides, car sinon l'enseignement prend un temps infiniment plus long qu'avec des cours traditionnels (et mon salaire reste le même...).

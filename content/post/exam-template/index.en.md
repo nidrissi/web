@@ -3,6 +3,8 @@ title: Exam Template for Pandoc
 date: 2020-11-20
 draft: false
 tags: [code, teaching]
+urls:
+  source: https://github.com/nidrissi/exam-template
 ---
 
 Like many people, I have been teaching online for some time now.

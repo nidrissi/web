@@ -3,6 +3,8 @@ title: Modèle Pandoc pour les examens
 date: 2020-11-20
 draft: false
 tags: [code, teaching]
+urls:
+  source: https://github.com/nidrissi/exam-template
 ---
 
 Comme beaucoup, j'enseigne en ligne depuis un petit moment.

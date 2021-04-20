@@ -3,6 +3,8 @@ title: Select-Exams
 date: 2021-04-19
 draft: false
 tags: [code, teaching]
+urls:
+  source: https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92
 ---
 
 With online teaching, I have to find ways to make many processes go faster, as otherwise teaching takes an inordinate amount of time compared to traditional teaching (and my salary doesn't change...).

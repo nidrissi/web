@@ -2,7 +2,9 @@
 title: Template for letters in LaTeX
 date: 2020-08-18
 draft: false
-tags: [latex]
+tags: [code]
+urls:
+  source: https://gist.github.com/nidrissi/7b9d8f2f1a80837090e84160e68e8f00
 ---
 
 Several people have asked me for my LaTeX template to write letters, so I guess I might as well put it up on my webpage.
