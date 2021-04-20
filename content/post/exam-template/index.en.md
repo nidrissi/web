@@ -14,7 +14,7 @@ I decided to write a small template to be used with [Pandoc](https://pandoc.org/
 It was not completely trivial since the `exam` class requires bullet items to use the `questions` and `parts` environment, and the `\question` and `\part` commands, which I did not want to retype manually all the time.
 I thus wrote a little Pandoc filter to save some time.
 
-_Update: This template is now [available on GitHub](https://github.com/nidrissi/exam-template)._
+_Update: This template is now [**available on GitHub**](https://github.com/nidrissi/exam-template). The GitHub version may be more up-to-date._
 
 <!--more-->
 
