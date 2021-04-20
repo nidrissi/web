@@ -2,7 +2,7 @@
 title: Modèle Pandoc pour les examens
 date: 2020-11-20
 draft: false
-tags: [teaching, latex]
+tags: [code, teaching]
 ---
 
 Comme beaucoup, j'enseigne en ligne depuis un petit moment.

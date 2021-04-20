@@ -2,7 +2,7 @@
 title: Exam Template for Pandoc
 date: 2020-11-20
 draft: false
-tags: [teaching, latex]
+tags: [code, teaching]
 ---
 
 Like many people, I have been teaching online for some time now.
