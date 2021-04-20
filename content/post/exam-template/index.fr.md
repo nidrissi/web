@@ -14,9 +14,11 @@ J'ai décidé d'écrire un petit modèle [Pandoc](https://pandoc.org/), ce qui m
 Ce n'était pas complètement trivial, car la classe `exam` utilise les environnements `questions` et `parts`, et les commandes `\question` et `\part`, que je ne voulais pas réécrire à chaque fois.
 J'ai donc écrit un petit filtre Pandoc pour gagner du temps.
 
+_Màj : Ce modèle est désormais [disponible sur GitHub](https://github.com/nidrissi/exam-template)_
+
 <!--more-->
 
-Voici [(`exam-template.tex`)](exam-template.tex) :
+Voici [(`exam-template.tex`)](https://github.com/nidrissi/exam-template/blob/master/exam-template.tex) :
 
 ```latex
 \documentclass[12pt, a4paper $if(réponses)$, answers $endif$]{exam}
@@ -75,7 +77,7 @@ $endif$
 \end{document}
 ```
 
-Et voici le filtre [(`exam-filter.lua`)](exam-filter.lua) :
+Et voici le filtre [(`exam-filter.lua`)](https://github.com/nidrissi/exam-template/blob/master/exam-filter.lua) :
 
 ```lua
 function Div(el)
@@ -97,7 +99,7 @@ function Str(e)
 end
 ```
 
-Enfin, voici un examen d'exemple, [(`example.md`)](example.md) :
+Enfin, voici un examen d'exemple, [(`example.md`)](https://github.com/nidrissi/exam-template/blob/master/example.md) :
 
 ```markdown
 ---
@@ -138,8 +140,8 @@ And each one gets a solution!
 Pour compiler l'exemple, [installez Pandoc](https://pandoc.org/installing.html) (et LaTeX évidemment), puis lancez la commande :
 pandoc --pdf-engine lualatex --template exam-template.tex --lua-filter exam-filter.lua example.md --output example.pdf
 
-Vous devriez obtenir un PDF qui ressemble à [`example.pdf`](example.pdf).
-J'ai récemment commencé à utiliser [Visual Studio Code](https://code.visualstudio.com/) (après des années passées sur Emacs), et voici un [`tasks.json`](./tasks.json) qui devrait marcher (en supposant que `exam-template.tex` et `exam-filter.lua` soient à la racine de votre projet) :
+Vous devriez obtenir un PDF qui ressemble à [`example.pdf`](https://github.com/nidrissi/exam-template/blob/master/example.pdf).
+J'ai récemment commencé à utiliser [Visual Studio Code](https://code.visualstudio.com/) (après des années passées sur Emacs), et voici un [`tasks.json`](https://github.com/nidrissi/exam-template/blob/master/tasks.json) qui devrait marcher (en supposant que `exam-template.tex` et `exam-filter.lua` soient à la racine de votre projet) :
 
 ```json
 {

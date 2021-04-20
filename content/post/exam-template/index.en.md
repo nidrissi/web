@@ -14,9 +14,11 @@ I decided to write a small template to be used with [Pandoc](https://pandoc.org/
 It was not completely trivial since the `exam` class requires bullet items to use the `questions` and `parts` environment, and the `\question` and `\part` commands, which I did not want to retype manually all the time.
 I thus wrote a little Pandoc filter to save some time.
 
+_Update: This template is now [available on GitHub](https://github.com/nidrissi/exam-template)._
+
 <!--more-->
 
-Here is it [(`exam-template.tex`)](exam-template.tex):
+Here is it [(`exam-template.tex`)](https://github.com/nidrissi/exam-template/blob/master/exam-template.tex):
 
 ```latex
 \documentclass[12pt, a4paper $if(réponses)$, answers $endif$]{exam}
@@ -75,7 +77,7 @@ $endif$
 \end{document}
 ```
 
-The filter is here [(`exam-filter.lua`)](exam-filter.lua):
+The filter is here [(`exam-filter.lua`)](https://github.com/nidrissi/exam-template/blob/master/exam-filter.lua):
 
 ```lua
 function Div(el)
@@ -97,7 +99,7 @@ function Str(e)
 end
 ```
 
-Here is an example exam [(`example.md`)](example.md):
+Here is an example exam [(`example.md`)](https://github.com/nidrissi/exam-template/blob/master/example.md):
 
 ```markdown
 ---
@@ -141,8 +143,8 @@ To compile the file, [install Pandoc](https://pandoc.org/installing.html) (and L
 pandoc --pdf-engine lualatex --template exam-template.tex --lua-filter exam-filter.lua example.md --output example.pdf
 ```
 
-Then you should get something like [`example.pdf`](example.pdf).
-I recently started using [Visual Studio Code](https://code.visualstudio.com/) (after years of using Emacs), and here is a [`tasks.json`](./tasks.json) that should work (assuming `exam-template.tex` and `exam-filter.lua` are at the root of your project):
+Then you should get something like [`example.pdf`](https://github.com/nidrissi/exam-template/blob/master/example.pdf).
+I recently started using [Visual Studio Code](https://code.visualstudio.com/) (after years of using Emacs), and here is a [`tasks.json`](https://github.com/nidrissi/exam-template/blob/master/tasks.json) that should work (assuming `exam-template.tex` and `exam-filter.lua` are at the root of your project):
 
 ```json
 {
