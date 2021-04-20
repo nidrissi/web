@@ -20,7 +20,7 @@ This is easier to grade (I don't need to switch back and forth between 30+ bookl
 I have thus written a PowerShell script to separate exams and name them automatically so that I can feed them to Moodle.
 It's rather simple to use and self-explanatory.
 [**It is available as a GitHub gist.**](https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92)
-You can also <button class="btn btn-primary btn-sm" type="button" data-toggle="collapse" data-target="#gist-collapse" aria-expanded="false" aria-controls="gist-collapse">find it here</button>.
+You can also <a href="#" data-toggle="collapse" data-target="#gist-collapse" aria-expanded="false" aria-controls="gist-collapse">find it here</a>.
 
 <div class="collapse" id="gist-collapse">
 <script src="https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92.js"></script>
