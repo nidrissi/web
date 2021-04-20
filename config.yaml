@@ -5,6 +5,8 @@ enableEmoji: true
 copyright: © Najib Idrissi
 author:
   name: Najib Idrissi
+  first_name: Najib
+  last_name: Idrissi
   email: najib.idrissi-kaitouni@imj-prg.fr
   role: Maître de conférences
   organizations:
@@ -22,6 +24,7 @@ author:
     ugly: "+33157279116"
   github: nidrissi
   mathoverflow: 36146/najib-idrissi
+  twitter: najib_idrissi
 
 markup:
   goldmark:
