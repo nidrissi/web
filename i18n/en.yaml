@@ -3,8 +3,8 @@
   translation: Toggle navigation
 - id: contents
   translation: Contents
-- id: see_more
-  translation: see more
+- id: seemore
+  translation: See more
 - id: home
   translation: Home
 # Buttons
