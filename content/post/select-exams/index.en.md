@@ -29,14 +29,7 @@ You can also <a href="#" data-toggle="collapse" data-target="#gist-collapse" ari
 </div>
 
 Note that you need [PDFtk](https://www.pdflabs.com/tools/pdftk-server/) to be installed.
-Typically, you would give it a CSV file that looks like this:
 
-```csv
-Name;ID;Start;End
-Doe;12345;1;4
-Jekyll;4321;5;8
-Hyde;666;9;12
-```
-
-Which means that the exam of student Doe (Moodle participant ID 12345) is from page 1 to 4, and so on.
+The gist includes an example CSV file.
+In the example, the exam of student Doe (Moodle participant ID 12345) is from page 1 to 4, and so on.
 This produces a zip file that you can simply send to Moodle, and it will automatically pair students and exams.

@@ -28,14 +28,7 @@ Vous pouvez aussi <a href="#" data-toggle="collapse" data-target="#gist-collapse
 </div>
 
 Vous devez installer [PDFtk](https://www.pdflabs.com/tools/pdftk-server/) pour le faire tourner.
-Typiquement, vous lui donneriez un fichier CSV qui ressemble à ça :
 
-```csv
-Name;ID;Start;End
-Doe;12345;1;4
-Jekyll;4321;5;8
-Hyde;666;9;12
-```
-
-Cela signifie que la copie de l'étudiant·e Doe (dont l'ID de participant Moodle est 12345) va des pages 1 à 4, etc.
+Le gist contient un exemple de fichier CSV.
+Les données dans ce fichier signifient que la copie de l'étudiant·e Doe (dont l'ID de participant Moodle est 12345) va des pages 1 à 4, etc.
 Cela produit une archive zip que vous pouvez simplement envoyer à Moodle, qui les appariera automatiquement avec les étudiants.
