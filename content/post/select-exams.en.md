@@ -6,7 +6,8 @@ tags: [code, teaching]
 ---
 
 With online teaching, I have to find ways to make many processes go faster, as otherwise teaching takes an inordinate amount of time compared to traditional teaching (and my salary doesn't change...).
-I've taken to scanning my students' exams and grading them directly on my touchscreen computer.
+[I have already written about automating exam production]({{< ref "post/exam-template" >}})
+I've now taken to scanning my students' exams and grading them directly on my touchscreen computer.
 This way I avoid all the issues that come with physical exams: I'm not scared to death of bringing them home anymore -- losing them means redoing the whole exam
 😨, I have a backup, I can give more detailed feedback to students, give it to them earlier and more often, etc.
 
