@@ -12,3 +12,5 @@ Comme le billet est long et que je suis paresseux 🙂, je ne l'ai pas traduit e
 Cliquez sur le bouton en haut à droite de l'écran et choisissez l'anglais, ou bien [suivez ce lien]({{< ref lang="en" path="post/git-1-preliminaries" >}}).
 
 <!--more-->
+
+[*MàJ*: La partie 2 ("La Théorie") est ici.]({{< ref lang="en" path="git-2-theory" >}})
