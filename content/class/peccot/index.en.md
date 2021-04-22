@@ -31,7 +31,7 @@ The proof involves ideas from the theory of operads, which will be introduced at
 
 This lecture is based in part on joint works with Ricardo Campos, Julien Ducoulombier, Pascal Lambrechts, and Thomas Willwacher.
 
-<div class="alert alert-info"><a class="alert-link" href="{{< ref "research/peccot" >}}peccot.pdf">{{< fa "file-pdf" >}} Lecture notes are available here.</a></span></div>
+<div class="alert alert-info"><a class="alert-link" href="{{< ref "research/peccot" >}}peccot.pdf"><i class="fas fa-file-pdf"></i> Lecture notes are available here.</a></span></div>
 
 ## Practical informations
 
@@ -55,7 +55,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     <li>Rational homotopy theory</li>
     <li>Formality of {{< tex "\mathrm{Conf}_{\mathbb{R}^n}" >}}</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm">Video {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm">Video <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>
@@ -73,7 +73,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     <li>Semi-algebraic sets and forms</li>
     <li>Definition of the unreduced graph complex – Propagator</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm">Video {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm">Video <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     <li>Motivation: gluing</li>
     <li>Poincaré–Lefschetz duality models</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm">Video {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm">Video <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>
@@ -121,7 +121,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     <li>Definition of factorization homology</li>
     <li>Relationship with configuration spaces</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm">Video {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm">Video <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>

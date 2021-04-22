@@ -31,7 +31,7 @@ La preuve fait intervenir des idées de la théorie des opérades, qui sera intr
 
 Ce cours sera en partie basé sur des travaux en collaboration avec Ricardo Campos, Julien Ducoulombier, Pascal Lambrechts et Thomas Willwacher.
 
-<div class="alert alert-info"><a class="alert-link" href="{{< ref "research/peccot" >}}peccot.pdf">{{< fa "file-pdf" >}} Lecture notes are available here.</a></span></div>
+<div class="alert alert-info"><a class="alert-link" href="{{< ref "research/peccot" >}}peccot.pdf"><i class="fas fa-file-pdf"></i> Lecture notes are available here.</a></span></div>
 
 ## Informations pratiques
 
@@ -55,7 +55,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
     <li>Théorie de l’homotopie rationnelle</li>
     <li>Formalité de {{< tex "\mathrm{Conf}_{\mathbb{R}^n}" >}}</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm">Vidéo {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm">Vidéo <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>
@@ -73,7 +73,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
     <li>Ensembles et formes semi-algébriques</li>
     <li>Définition du complexe de graphes non-réduit – Propagateur</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm">Vidéo {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm">Vidéo <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
     <li>Motivation : recollements</li>
     <li>Modèles à dualité de Poincaré–Lefschetz</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm">Vidéo {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm">Vidéo <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>
@@ -121,7 +121,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
     <li>Définition de l’homologie de factorisation</li>
     <li>Lien avec les espaces de configuration</li>
     </ul>
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm">Vidéo {{< fa "video" >}}</a>
+    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm">Vidéo <i class="fas fa-video"></i></a>
   </div>
 </div>
 </div>
