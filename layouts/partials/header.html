@@ -37,8 +37,9 @@
   "js/popper.min.js") (resources.Get "js/bootstrap.min.js") (resources.Get
   "js/mathjax-conf.js") (resources.Get "js/ga.js") (resources.Get "js/toc.js") |
   resources.Concat "bundle.js" | resources.Minify -}}
-  <script src="{{ $js.Permalink }}?{{ now.Unix }}"></script>
+  <script async src="{{ $js.Permalink }}?{{ now.Unix }}"></script>
   <script
+    async
     src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-chtml.js"
     integrity="sha384-UozJ99uTsC3hGw/ZyfGWyZhGT2HagM/UTaJSjYDDwJkJAV7YGoW0bHz7DI5XCN6X"
     crossorigin="anonymous"
