@@ -55,7 +55,7 @@ Let me try to explained what this all means.
 - So far, what I have described is a rooted tree: the history starts somewhere, then users commit files and changes starting from somewhere.
   As soon as two or more people start working on the same repository (or the same person from different computers), the history can split in two or more directions.
   For example, authors A and B could start working from a common basis, author A makes some changes to Section 2, and author B makes some changes to Section 3 (or Section 2!).
-  This could look like this (orange is author A, yellow is author 2):
+  This could look like this (blue is author A, yellow is author 2):
 
   <img class="img-fluid" id="history-fork" alt="An example of a split history tree." src="history-fork.svg"/>
 
@@ -160,5 +160,22 @@ One can imagine that the story went this way:
      The yellow commits will remain in the Git repository, but will not be accessible from any branch.
      Git will notice this and eventually delete them to free up space.
      Or she can keep the branch around, in case a later idea allows the changes to be re-incorporated into the article, but continue working on the `master` branch in the meantime.
+
+For a concrete example, this is exactly what I did while writing this post.
+I created a branch (unimaginatively) called [`git2`](https://github.com/nidrissi/nidrissi/tree/git2) and started writing the post.
+But while writing it, I noticed that I forgot to call the FontAwesome script asynchronously.
+I switched back to the `master` branch and [committed my change](https://github.com/nidrissi/nidrissi/commit/aa29cbf23715e409be5ef2c05efc791dbdf4174b).
+This allowed me to immediately change my website without putting an incomplete article online.
+Then, when I was done with this article, I merged the `git2` branch into the `master` branch.
+Git was smart enough to notice that there was no conflict: the header file that I modified for the script was not modified as part of this article.
+Thus, Git just merged to two changes gracefully.
+
+<div class="alert alert-info">
+There exists a lightweight version of pointers called <em>tags</em>.
+Tags live separately from branches.
+There are two mains difference between tags and branches: 1. a tag is typically immutable: when you make new commits to a branch, the tag stays where it is; 2. in addition to the name of the tag, one can add a message to a tag, much like a commit message.
+This is useful to keep track of special points of history.
+For articles, I have found useful to create tags such as <code>arxiv-v1</code>, <code>arxiv-v2</code>... for the version submitted to arXiv, <code>submitted-v1</code>, <code>submitted-v2</code>... for the versions submitted to the journal, etc.
+</div>
 
 ### Remotes
