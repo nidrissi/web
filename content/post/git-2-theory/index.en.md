@@ -176,6 +176,7 @@ This allowed me to immediately change my website without putting an incomplete a
 Then, when I was done with this article, I merged the `git2` branch into the `master` branch.
 Git was smart enough to notice that there was no conflict: the header file that I modified for the script was not modified as part of this article.
 Thus, Git just merged to two changes gracefully.
+This resulted in [this merge commit](https://github.com/nidrissi/nidrissi/commit/152e9d2f12778a947f0e6318efc0d36a5a21066b).
 
 <div class="alert alert-info">
 There exists a lightweight version of pointers called <em>tags</em>.
