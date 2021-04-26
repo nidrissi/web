@@ -16,7 +16,7 @@ That is what the [reference documentation](https://git-scm.com/docs) is for.
 
 <!-- more -->
 
-## Git History
+## Commits
 
 Since this post is intended for mathematicians, I hope that I can get away with some mathematical terminology.
 For a given Git repository, the history is stored as a **rooted directed graph (without directed cycles) with marked vertices**.
@@ -26,7 +26,7 @@ Let me try to explained what this all means.
 - The history is a graph.
   Its vertices are called the **commits**.
   A commit represents a state of the repository, i.e., what the contents of all the files at that point in history where.
-  This is what you see if you type <kbd>git log</kbd> in a repository (see the next post for what that means).
+  This is what you see if you type `git log` in a repository (see the next post for what that means).
   Moreover, every commit has some metadata associated to it:
   - Its _author_, which is the user that made the modifications in the commit.
     (There is also a _committer_, which is the user who actually committed the changes in the repository; the two are typically one and the same, but not always.)
@@ -44,7 +44,7 @@ Let me try to explained what this all means.
   This relation is asymmetrical: one commit is identified as the parent, and one is identified as the child.
   This makes the graph into a _directed_ graph.
   An edge of the graph can be thought of as a list of changes from one commit to the next.
-  This is what you see when you run <kbd>git diff</kbd>.
+  This is what you see when you run `git diff`.
   It's not possible to create a loop in the history, so this graph has no directed cycles.
 
 - Everything has to start somewhere.
@@ -74,11 +74,42 @@ Let me try to explained what this all means.
   Git at least gives you a heads up, prevents you from blindly overwriting your coauthor's changes, and tells you exactly where the issue is.
   (See the next post for how to do it concretely).
 
-Alright, now we know what the history of a Git repository looks like.
-But in practice, how does one actually insert changes into that history?
+From all the metadata of a commit, Git computes a commit ID.
+This commit ID is an [SHA-1 hash](https://en.wikipedia.org/wiki/SHA-1), which typically looks like this: `4303a91e4e4f5fedceead0d4dfe939471451e65d`.
+These commits IDs depend on all the metadata, including the parent commits; since the parent commits depend themselves on their own parents, and so on, up until the initial commit.
+A reference to a commit thus depends on the whole history of the repository up to that point.
+This is useful to note, as some commands can be used to rewrite history; but any rewrite will change all the commit IDs.
 
-## Staging commits
+## Staging
+
+Alright, now we know what the history of a Git repository looks like.
+But in practice, how does one actually append changes into that history?
+
+In an addition to the history (which contains the commits), Git has a notion called the "staging area".
+As you modify files in a repository, your actual files will diverge from what Git considers to be the latest version of the repository.
+Before actually committing changes to the history, you need to explicitly "stage" them.
+Concretely, this means that you select the changes that you want to insert into the history.
+Once these changes are selected and you are satisfied, you would then insert the changes to history, creating a new commit whose parent is the previous commit, with a message that explains your changes.
+A typical workflow looks like this:
 
 <img class="img-fluid" style="max-width: 300px;" alt="The modify-stage-commit cycle." src="cycle.svg"/>
+
+This notion of staging is useful for various reasons, compared to blindly committing everything that's changed in your repository:
+
+- You may have modified many different files but you may not want to commit them just yet, as you don't consider these changes to be done.
+- It is in fact possible to choose individual lines of a file to be committed.
+  This can be useful if for example you are happy with the changes you've made to Section 2, forgot to commit, started working on Section 3, then remembered to commit ("save") but you don't want to commit Section 3 yet.
+- You may also want to group changes logically.
+  For example, if you have modified five files, but two of them are related to one change and three to another change, then it makes sense to make two different commits.
+  In that case, you don't have to commit as soon as you want to group a set of changes together: you can group them after the fact.
+- You may not want to include _every_ file in the Git history.
+  For example, it's not a good idea to include LaTeX's `.aux` files, or the `.pdf` files, as they take up a lot of space, can be recreated at will, and the changes therein are not interesting (for example, if you compile the PDF on one day, then you compile it the next day, the PDF metadata will change, but that's not really something you are interested in recording).
+  In that case, you would simply not commit the files that you don't want to record.
+
+Git has some features that help you with this:
+
+- If you don't care about grouping logically file changes or anything like that, then Git has an option to stage and commit all modified files in one fell swoop.
+- You can also tell Git to ignore some files (e.g. the PDF).
+  Git will not offer you to stage those files, and the commands that stage every file will not stage those.
 
 ## Branches and remotes
