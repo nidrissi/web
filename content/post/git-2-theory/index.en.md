@@ -38,7 +38,7 @@ Let me try to explained what this all means.
   This is simply the point in time from which the author in order to write their modifications.
   A typical history of a single-author git repository could look like this:
 
-  <img class="img-fluid" alt="An example of a linear history tree." src="history-linear.svg"/>
+  <img class="img-fluid" id="history-linear" alt="An example of a linear history tree." src="history-linear.svg"/>
 
   (If only writing a paper took four tries!)
   This relation is asymmetrical: one commit is identified as the parent, and one is identified as the child.
@@ -57,7 +57,7 @@ Let me try to explained what this all means.
   For example, authors A and B could start working from a common basis, author A makes some changes to Section 2, and author B makes some changes to Section 3 (or Section 2!).
   This could look like this (orange is author A, yellow is author 2):
 
-  <img class="img-fluid" alt="An example of a split history tree." src="history-fork.svg"/>
+  <img class="img-fluid" id="history-fork" alt="An example of a split history tree." src="history-fork.svg"/>
 
   At some point, the two sets of changes need to be reconciled.
   In Git parlance, this is called merging.
@@ -65,7 +65,7 @@ Let me try to explained what this all means.
   (I say special, but this is a commit like any other, so it has an author, a date, etc.)
   After such a commit, the history looks like this:
 
-  <img class="img-fluid" alt="An example of a merge commit." src="history-merge.svg"/>
+  <img class="img-fluid" id="history-merge" alt="An example of a merge commit." src="history-merge.svg"/>
 
   If all goes well (i.e., there are no conflicting changes) then Git is able to automatically reconcile the changes.
   In that case, the merge commit will merely contain the information that the histories were merged without hiccups.
@@ -112,4 +112,53 @@ Git has some features that help you with this:
 - You can also tell Git to ignore some files (e.g. the PDF).
   Git will not offer you to stage those files, and the commands that stage every file will not stage those.
 
-## Branches and remotes
+## Pointers
+
+### Branches
+
+As we saw before, the history of a Git repository can get pretty complicated.
+The "latest version" can be difficult to determine: in the image with the forked history (before the merge commit), is the "latest version" the commit labeled
+"More work on Section 2", or the one "Even more work on Section 3"?
+
+Another (more "advanced" but related) thing that you may want to consider is when you want to start working on a file without touching to what is considered the "main" version of the paper.
+For example, you may have an idea for a new proof of Proposition 3, and you want to start rewriting it, but you may want to be able to easily go back to the "main" version.
+Moreover, while you are going off on your tangent, you may also want to make changes to the "main" version of the paper and immediately make them available to your coauthors.
+
+Branches are a solution to these questions.
+A branch is merely a **named pointer** to a specific commit.
+Nothing more, nothing less.
+Every Git repository typically starts with a single branch called `master` (in the sense of [master record](<https://en.wikipedia.org/wiki/Mastering_(audio)>); nowadays, the default branch is sometimes called `main`).
+Whenever you commit something to Git, you are actually doing two things:
+
+1. you commit the staged changes to the history, creating a new "point in time" with all its associated metadata;
+2. you move the pointer of the current branch to that new point in time.
+
+For example, in [the first image](#history-linear), the `master` branch was pointing to "Started working on the paper" at first.
+Then as more commits were added, it moved to the right each time, until it pointed to "Posted to arXiv", which I drew in green to indicate that it was the commit referenced by the master branch.
+
+In [the second image](#history-fork), instead of imagining that two authors have been working on the paper, it's possible to imagine that a single author has been working with two different branches.
+One can imagine that the story went this way:
+
+1. The author wrote the two commits "Started working on the paper" and "Wrote proof of Proposition 3".
+2. Then, the author had an idea for Section 3, but wasn't sure that the idea would make this way to the final version of the paper.
+   The author thus decided to create a new branch, named for example `great-idea`, and wrote the commit "Worked on Section 3".
+   At that point, the `master` branch still points to "Wrote proof of Proposition 3", but `super-idea` points to the new commit.
+3. Then, the author noticed an important issue that requires immediate fixing in Section 2.
+   The author switch back to `master`, commits the fix, and calls it "Worked on Section 2".
+   Some time later, the author commits "More work on Section 2".
+4. After some more time, the author decide to start working again on Section 3.
+   She switches back to `super-idea`, and commits "More work on Section 3" then "Even more work on Section 3".
+5. At this point, the history looks like [the second image](#history-fork).
+   The author has a choice:
+   - Either she's happy with the changes to Section 3 and decides to _merge_ the changes into the main branch (taking care of conflicts if any).
+     She calls the appropriate Git command and creates a new commit, called "Merge!" in [the third image](#history-merge).
+     The `master` branch now points to this merge commit.
+     The `super-idea` branch has become unnecessary: the whole history of the branch is now part of the history of the `master` branch.
+     She can now safely delete it, or keep it around for sentimental reasons.
+   - Or she decides that the changes to Section 3 were not worth it and keeps the `master` branch as it is.
+     She can delete the `super-idea` branch.
+     The yellow commits will remain in the Git repository, but will not be accessible from any branch.
+     Git will notice this and eventually delete them to free up space.
+     Or she can keep the branch around, in case a later idea allows the changes to be re-incorporated into the article, but continue working on the `master` branch in the meantime.
+
+### Remotes
