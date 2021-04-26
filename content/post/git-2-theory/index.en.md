@@ -11,8 +11,12 @@ This post is the second in a series in which I will try to explain how to use Gi
 Let us now dive into the second part, in which I explain a little what's going "under the hood" of Git.
 
 While it is not strictly necessary to know all this to use Git, I think that understanding the mechanics helps in actually using it correctly and efficiently.
-Of course, I will not be able to explain _everything_ about Git's inner workings!
-That is what the [reference documentation](https://git-scm.com/docs) is for.
+Commands like `git push` or `git pull` are actually a bit complex and it is useful to know what words like "commit", "branch", "remote", etc. refer to, especially when there is a conflict between branches.
+
+<div class="alert alert-warning">
+Of course, I will not be able to explain <em>everything</em> about Git's inner workings!
+That is what the <a href="https://git-scm.com/docs">reference documentation</a> is for.
+</div>
 
 <!-- more -->
 
@@ -127,7 +131,10 @@ Moreover, while you are going off on your tangent, you may also want to make cha
 Branches are a solution to these questions.
 A branch is merely a **named pointer** to a specific commit.
 Nothing more, nothing less.
-Every Git repository typically starts with a single branch called `master` (in the sense of [master record](<https://en.wikipedia.org/wiki/Mastering_(audio)>); nowadays, the default branch is sometimes called `main`).
+Every Git repository typically starts with a single branch called `master` (in the sense of [master record](<https://en.wikipedia.org/wiki/Mastering_(audio)>)).
+Nowadays, the default branch is sometimes called `main`.
+The name is not important.
+
 Whenever you commit something to Git, you are actually doing two things:
 
 1. you commit the staged changes to the history, creating a new "point in time" with all its associated metadata;
@@ -179,3 +186,56 @@ For articles, I have found useful to create tags such as <code>arxiv-v1</code>, 
 </div>
 
 ### Remotes
+
+You may have noticed something while reading the previous section.
+Suppose that two authors are working on the same article.
+Let's say that they start from the same commit (for example, they copied the files around).
+Then they start working on the article and committing changes to the `master` branch.
+At this point, the two authors both have a branch called `master`, but they refer to different things!
+How to reconcile them?
+
+This is where _remotes_ come in.
+Remember when I said in [the first post]({{< ref "git-1-preliminaries" >}}) that Git is distributed?
+A remote is just someone else (another user, a server...) that also has a copy of your repository and that you can access, typically through the network.
+This remote also has a full copy of the history of the repository, and their own branches.
+
+You can essentially do two things with a remote:
+
+- You can _pull_ changes.
+  This command is actually a combination of two different steps:
+
+  1. First, you _fetch_ the commits from the remote.
+     Git will add to its internal database of commits the remote commits that it doesn't already have.
+  2. Then, Git moves the pointer of the current branch to match.
+     If you haven't made changes before pulling, then that's all there is.
+     However, if you _have_ made changes, then Git needs to do something: either merge the remote changes, or do a special operation called a rebase.
+
+  This sounds complex, but in the majority of cases, Git is smart enough to figure it all out on its own.
+  You just need to type a single command (or click on the correct button in your IDE) and the magic happens.
+
+- You can _push_ changes.
+  This is basically the mirror operation of the previous one:
+
+  1. First, you send your commits to the remote, which adds it to its own database of commits.
+  2. Then, you tell the remote to move the pointer of the branch to the correct new commit.
+
+  Again, this sounds complex, but in practice Git can figure it all out on its own.
+
+Now, what's a good choice for a remote?
+Strictly speaking, a remote doesn't have to be a central server that all your collaborators work with.
+You could work on your local copy of the repository, then you could meet with your collaborator and exchange commits and merge branches using some flash drive or whatever.
+As I said, a remote is nothing special: it's just another copy of the repository.
+
+This is, however, highly unpractical.
+In general, one does work with a central server such as GitHub or Bitbucket.
+Everyone agrees to push/pull to that central server which works 24/7.
+
+## Wrapping up
+
+Alright, I hope this helps you in understanding how Git works.
+In the next post, I hope to be able to explain how this all works in practice.
+In the meantime, there are some resources online, such as the [_Pro Git Book_](https://git-scm.com/book/en/v2), that can be of use.
+
+As you may know, this entire website is hosted in a [Git repository on GitHub](https://github.com/nidrissi/nidrissi).
+If you see anything wrong above, please [raise an issue there 🙂](https://github.com/nidrissi/nidrissi/issues).
+If you'd just like to talk or comment about this article, [you can also start a new discussion](https://github.com/nidrissi/nidrissi/discussion).
