@@ -79,4 +79,6 @@ But in practice, how does one actually insert changes into that history?
 
 ## Staging commits
 
+<img class="img-fluid" style="max-width: 300px;" alt="The modify-stage-commit cycle." src="cycle.svg"/>
+
 ## Branches and remotes
