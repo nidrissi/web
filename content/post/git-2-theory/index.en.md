@@ -41,18 +41,17 @@ Let me try to explained what this all means.
   <img class="img-fluid" alt="An example of a linear history tree." src="history-linear.svg"/>
 
   (If only writing a paper took four tries!)
-  The tip of the arrow is the child, and the shaft of the arrow is the parent.
   This relation is asymmetrical: one commit is identified as the parent, and one is identified as the child.
   This makes the graph into a _directed_ graph.
-  It's not possible to create a loop in the history, so this graph has no directed cycles.
-
   An edge of the graph can be thought of as a list of changes from one commit to the next.
   This is what you see when you run <kbd>git diff</kbd>.
+  It's not possible to create a loop in the history, so this graph has no directed cycles.
 
 - Everything has to start somewhere.
   There is one special commit which has no parent, the initial commit.
   This commit is the beginning of the history of the repository.
   It simply represents the first time that files have been committed to the repository.
+
 - So far, what I have described is a rooted tree: the history starts somewhere, then users commit files and changes starting from somewhere.
   As soon as two or more people start working on the same repository (or the same person from different computers), the history can split in two or more directions.
   For example, authors A and B could start working from a common basis, author A makes some changes to Section 2, and author B makes some changes to Section 3 (or Section 2!).
@@ -78,6 +77,6 @@ Let me try to explained what this all means.
 Alright, now we know what the history of a Git repository looks like.
 But in practice, how does one actually insert changes into that history?
 
-## Staging commit
+## Staging commits
 
 ## Branches and remotes
