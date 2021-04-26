@@ -1,7 +1,7 @@
 ---
 title: "Git pour les Mathématicien·ne·s (2/3): La Théorie"
 date: 2021-04-22
-draft: false
+draft: true
 tags: [code]
 ---
 

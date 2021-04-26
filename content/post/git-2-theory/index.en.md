@@ -1,7 +1,7 @@
 ---
 title: "Git for Mathematicians (2/3): The Theory"
 date: 2021-04-24
-draft: false
+draft: true
 toc: true
 tags: [code]
 ---
@@ -16,7 +16,7 @@ That is what the [reference documentation](https://git-scm.com/docs) is for.
 
 <!-- more -->
 
-# Git History
+## Git History
 
 Since this post is intended for mathematicians, I hope that I can get away with some mathematical terminology.
 For a given Git repository, the history is stored as a **rooted directed graph (without directed cycles) with marked vertices**.
@@ -41,7 +41,7 @@ Let me try to explained what this all means.
   <img class="img-fluid" alt="An example of a linear history tree." src="history-linear.svg"/>
 
   (If only writing a paper took four tries!)
-  The tip of the arrow is the parent, and the shaft of the arrow is the child.
+  The tip of the arrow is the child, and the shaft of the arrow is the parent.
   This relation is asymmetrical: one commit is identified as the parent, and one is identified as the child.
   This makes the graph into a _directed_ graph.
   It's not possible to create a loop in the history, so this graph has no directed cycles.
@@ -75,6 +75,9 @@ Let me try to explained what this all means.
   Git at least gives you a heads up, prevents you from blindly overwriting your coauthor's changes, and tells you exactly where the issue is.
   (See the next post for how to do it concretely).
 
-# Staging
+Alright, now we know what the history of a Git repository looks like.
+But in practice, how does one actually insert changes into that history?
 
-# Branches and remotes
+## Staging commit
+
+## Branches and remotes
