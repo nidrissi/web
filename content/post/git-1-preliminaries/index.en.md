@@ -74,6 +74,8 @@ There are two operative phrases in the name, that can be explained at a high lev
 
 ## Next steps
 
+[*Update*: Part 2 ("Theory") is now available here.]({{< ref "git-2-theory" >}})
+
 In the next post, I will try to explain how one uses Git.
 In the meantime, here are some links:
 
