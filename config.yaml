@@ -1,5 +1,15 @@
 baseURL: https://idrissi.eu/
 enableEmoji: true
+disableHugoGeneratorInject: true
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  currentYear: 2020–2021
+  homeCounts:
+    talk: 5
+    post: 5
 
 # for RSS
 copyright: © Najib Idrissi
@@ -26,19 +36,6 @@ author:
   mathoverflow: 36146/najib-idrissi
   twitter: najib_idrissi
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
-
-enableGitInfo: true
-
-params:
-  currentYear: 2020–2021
-  homeCounts:
-    talk: 5
-    post: 5
-
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: true
 languages:
@@ -59,5 +56,3 @@ languages:
       research: /recherche/:filename/
       talk: /expose/:filename/
       class: /cours/:filename/
-
-disableHugoGeneratorInject: true
