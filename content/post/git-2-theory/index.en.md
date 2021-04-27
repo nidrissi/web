@@ -13,12 +13,12 @@ Let us now dive into the second part, in which I explain a little what's going "
 While it is not strictly necessary to know all this to use Git, I think that understanding the mechanics helps in actually using it correctly and efficiently.
 Commands like `git push` or `git pull` are actually a bit complex and it is useful to know what words like "commit", "branch", "remote", etc. refer to, especially when there is a conflict between branches.
 
+<!--more-->
+
 <div class="alert alert-warning">
 Of course, I will not be able to explain <em>everything</em> about Git's inner workings!
 That is what the <a href="https://git-scm.com/docs">reference documentation</a> is for.
 </div>
-
-<!-- more -->
 
 ## Commits
 
@@ -148,10 +148,10 @@ One can imagine that the story went this way:
 
 1. The author wrote the two commits "Started working on the paper" and "Wrote proof of Proposition 3".
 2. Then, the author had an idea for Section 3, but wasn't sure that the idea would make this way to the final version of the paper.
-   The author thus decided to create a new branch, named for example `great-idea`, and wrote the commit "Worked on Section 3".
+   The author thus decided to create a new branch, named for example `super-idea`, and wrote the commit "Worked on Section 3".
    At that point, the `master` branch still points to "Wrote proof of Proposition 3", but `super-idea` points to the new commit.
 3. Then, the author noticed an important issue that requires immediate fixing in Section 2.
-   The author switch back to `master`, commits the fix, and calls it "Worked on Section 2".
+   The author switches back to `master`, commits the fix, and calls it "Worked on Section 2".
    Some time later, the author commits "More work on Section 2".
 4. After some more time, the author decide to start working again on Section 3.
    She switches back to `super-idea`, and commits "More work on Section 3" then "Even more work on Section 3".
