@@ -24,3 +24,9 @@ body {
   padding-left: 0.5rem;
   list-style-type: none;
 }
+
+#cookie-toast {
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
