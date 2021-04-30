@@ -26,35 +26,6 @@ De janvier à juin 2019, j'ai organisé un [groupe de travail sur la stabilité 
 
 ---
 
-Pour les concours d'entrée aux grandes écoles en 2011, j'ai écrit un tout petit programme pour trouver des [surfaces minimales](https://fr.wikipedia.org/wiki/Surface_minimale) à bord fixe.
-Il n'est pas très mature, il ne marche pas toujours et il n'est pas bien documenté, mais [il est disponible ici](minimale.zip)
-Pour le compiler, installez OCaml, OCamlBuild, et les bibliothèques OpenGL pour OCaml.
-Ensuite lancez `ocamlbuild main.native`.
-Les contrôles sont rudimentaires : <kbd>SPC</kbd> pour démarrer/arrêter, clic gauche et défilement pour bouger, clic droit pour choisir une des quatres courbes de bords prédéfinies, <kbd>s</kbd> pour changer entre plein et vide.
-On obtient ces images :
-
-<div class="row">
-<figure class="figure col-md-4">
-<img src="catenoide.png" alt="Caténoïde" class="figure-img img-fluid">
-<figcaption class="figure-caption"><a href="https://fr.wikipedia.org/wiki/Cat%C3%A9no%C3%AFde">Caténoïde</a>.</figcaption>
-</figure>
-
-<figure class="figure col-md-4">
-<img src="enneper.png" alt="Surface d'Enneper" class="figure-img img-fluid">
-<figcaption class="figure-caption"><a href="https://fr.wikipedia.org/wiki/Surface_d%27Enneper">Surface d'Enneper</a>.</figcaption>
-</figure>
-
-<figure class="figure col-md-4">
-<img src="tetrahedron.png" alt="Tétrahèdre bizarre" class="figure-img img-fluid">
-<figcaption class="figure-caption">Tétrahèdre bizarre.</figcaption>
-</figure>
-</div>
-
-Je ne garantis absolument pas que le programme est correct.
-Les surfaces trouvées ressemblent bien aux surfaces théoriques, mais je n'ai pas de preuve mathématique que ce sont les bonnes.
-
----
-
 <a href="https://math.stackexchange.com/users/10014/najib-idrissi"><img src="https://math.stackexchange.com/users/flair/10014.png" width="208" height="58" alt="profile for Najib Idrissi at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields" title="profile for Najib Idrissi at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields"></a>
 <a href="https://mathoverflow.net/users/36146/najib-idrissi"><img src="https://mathoverflow.net/users/flair/36146.png" width="208" height="58" alt="profile for Najib Idrissi at MathOverflow, Q&amp;A for professional mathematicians" title="profile for Najib Idrissi at MathOverflow, Q&amp;A for professional mathematicians"></a>
 
