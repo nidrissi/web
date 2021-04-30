@@ -2,6 +2,7 @@
 title: "Git pour les Mathématicien·ne·s (1/3): Préliminaires"
 aliases: "/fr/billet/git-for-mathematicians/"
 date: 2021-04-13
+lastMod: 2021-04-26
 draft: false
 tags: [code]
 ---
@@ -14,4 +15,6 @@ Cliquez sur le bouton en haut à droite de l'écran et choisissez l'anglais, ou 
 
 <!--more-->
 
-[*MàJ*: La partie 2 ("La Théorie") est ici.]({{< ref lang="en" path="git-2-theory" >}})
+<div class="alert alert-info">
+Mise à jour : <a href="{{< ref lang="en" path="git-2-theory" >}}" class="alert-link">La partie 2 ("La Théorie") est ici.</a>
+</div>

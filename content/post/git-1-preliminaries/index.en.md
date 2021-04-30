@@ -2,6 +2,7 @@
 title: "Git for Mathematicians (1/3): Preliminaries"
 aliases: "/en/post/git-for-mathematicians/"
 date: 2021-04-13
+lastMod: 2021-04-26
 draft: false
 toc: true
 tags: [code]
@@ -75,7 +76,9 @@ There are two operative phrases in the name, that can be explained at a high lev
 
 ## Next steps
 
-[*Update*: Part 2 ("Theory") is now available here.]({{< ref "git-2-theory" >}})
+<div class="alert alert-info">
+Update: <a href="{{< ref lang="en" path="git-2-theory" >}}" class="alert-link">Part 2 ("Theory") is now available here.</a>
+</div>
 
 In the next post, I will try to explain how one uses Git.
 In the meantime, here are some links:
