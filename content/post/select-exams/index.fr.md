@@ -32,3 +32,11 @@ Vous devez installer [PDFtk](https://www.pdflabs.com/tools/pdftk-server/) pour l
 Le gist contient un exemple de fichier CSV.
 Les données dans ce fichier signifient que la copie de l'étudiant·e Doe (dont l'ID de participant Moodle est 12345) va des pages 1 à 4, etc.
 Cela produit une archive zip que vous pouvez simplement envoyer à Moodle, qui les appariera automatiquement avec les étudiants.
+
+<div class="alert alert-danger">
+L'identifiant de participant n'est <em>pas</em> l'identifiant utilisateur (que vous pouvez voir sur <a href="moodle-user-id.png" class="alert-link">cette image</a> par exemple).
+L'identifiant de participant est spécifique au cours Moodle et est plus difficile à trouver.
+Pour le trouver, vous pouvez par exemple <a href="https://docs.moodle.org/3x/fr/Param%C3%A8tres_du_devoir#Formulaire_d.27.C3.A9valuation_hors_ligne" class="alert-link">activer le formulaire d'évaluation hors-ligne</a> pour le devoir, puis aller sur la page du devoir et choisir l'action "Télécharger le formulaire d'évaluation".
+Vous obtiendrez un fichier CSV dont la première colonne sera l'identifiant de participant, de la forme <code>Participant12345678</code>.
+Recopiez le nombre (sans <code>Participant</code>) dans le fichier CSV que vous donnez à mon script.
+</div>
