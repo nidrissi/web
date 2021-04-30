@@ -1,5 +1,6 @@
 ---
 title: "Git for Mathematicians (1/3): Preliminaries"
+aliases: "/en/post/git-for-mathematicians/"
 date: 2021-04-13
 draft: false
 toc: true
