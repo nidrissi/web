@@ -1,5 +1,6 @@
 ---
 title: "Git pour les Mathématicien·ne·s (1/3): Préliminaires"
+aliases: "/fr/billet/git-for-mathematicians/"
 date: 2021-04-13
 draft: false
 tags: [code]
