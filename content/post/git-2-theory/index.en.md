@@ -34,8 +34,8 @@ Let me try to explained what this all means.
   Moreover, every commit has some metadata associated to it:
   - Its _author_, which is the user that made the modifications in the commit.
     (There is also a _committer_, which is the user who actually committed the changes in the repository; the two are typically one and the same, but not always.)
-  - A date, i.e., when the commit was authored.
-  - A commit message, written by the author.
+  - A _date_, i.e., when the commit was authored.
+  - A _message_, written by the author, which summarizes the commit.
     This is typically used to write some information about what was changed in commit.
 - So far, I have only described the vertices of the graph.
   There is an additional piece of metadata about every commit that actually makes the history into a graph: the **parent commit**.
@@ -52,7 +52,7 @@ Let me try to explained what this all means.
   It's not possible to create a loop in the history, so this graph has no directed cycles.
 
 - Everything has to start somewhere.
-  There is one special commit which has no parent, the initial commit.
+  There is one special commit which has no parent, the **initial commit** (the root, in mathematical terms).
   This commit is the beginning of the history of the repository.
   It simply represents the first time that files have been committed to the repository.
 
