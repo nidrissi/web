@@ -1,0 +1,18 @@
+<hr />
+<footer class="text-muted text-center">
+  {{ .Site.Author.first_name }} {{ .Site.Author.last_name }} &bull; {{ delimit
+  .Site.Author.organizations " & " | markdownify }} &bull;
+  <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
+  &bull;
+  <a href="https://github.com/{{ .Site.Author.github }}"
+    ><i class="fab fa-github"></i>&nbsp;GitHub</a
+  >
+  &bull;
+  <a href="https://mathoverflow.net/users/{{ .Site.Author.mathoverflow }}"
+    ><i class="far fa-circle"></i>&nbsp;MathOverflow</a
+  >
+  &bull;
+  <a href="https://twitter.com/{{ .Site.Author.twitter }}"
+    ><i class="fab fa-twitter"></i>&nbsp;Twitter</a
+  >
+</footer>
