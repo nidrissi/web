@@ -18,7 +18,7 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 
 **Prérequis.** Il est conseillé d'avoir suivi un cours de topologie algébrique ainsi qu'une introduction à l'algèbre homologique.
 
-<p class="lead"><a href="../20-21-homotopie/homotopie.pdf"><b><i class="fas fa-file-pdf"></i> Les notes de cours sont disponibles ici.</b></a></p>
+<p class="lead"><a href="../20-21-homotopie/homotopie.pdf"><b><i class="fas fa-file-pdf"></i>&nbsp;Les notes de cours sont disponibles ici.</b></a></p>
 
 ## Plan
 
@@ -75,7 +75,7 @@ Mardi 28 janvier
 Jeudi 30 janvier
 : Sections 2.1--2.3 : Introduction aux ensembles simpliciaux.
 
-Lundi 3 février (<i class="fas fa-exclamation-triangle"></i> créneau inhabituel 16h15--18h15)
+Lundi 3 février (<i class="fas fa-exclamation-triangle"></i>&nbsp;créneau inhabituel 16h15--18h15)
 : Sections 2.4--2.5 : Structure de catégorie de modèles sur les ensembles simpliciaux et début de l'équivalence avec les espaces topologiques.
 
 Mardi 4 février
@@ -84,7 +84,7 @@ Mardi 4 février
 ~~Jeudi 6 février~~
 : (cours avancé au 3 février)
 
-Mardi 11 février (<i class="fas fa-exclamation-triangle"></i> salle 2017)
+Mardi 11 février (<i class="fas fa-exclamation-triangle"></i>&nbsp;salle 2017)
 : Section 3.2--3.3 : Structure de catégorie de modèles sur les ADGC, théorie de Sullivan, comparaison avec les ensembles simpliciaux à équivalence rationnelle près.
 
 Jeudi 13 février

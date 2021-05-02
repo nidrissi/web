@@ -18,7 +18,7 @@ The goal of this course is to give an introduction to modern homotopy theory, it
 
 **Prerequisites.** It is advised to have already taken a class on algebraic topology as well as an introduction to homological algebra.
 
-<p class="lead"><a href="../20-21-homotopie/homotopie.pdf"><b><i class="fas fa-file-pdf"></i> Lecture notes are available here.</b></a></p>
+<p class="lead"><a href="../20-21-homotopie/homotopie.pdf"><b><i class="fas fa-file-pdf"></i>&nbsp;Lecture notes are available here.</b></a></p>
 
 ## Plan
 
@@ -75,7 +75,7 @@ Tuesday January 28th
 Thursday January 30th
 : Sections 2.1--2.3: Introduction to simplicial sets.
 
-Monday February 3rd (<i class="fas fa-exclamation-triangle"></i> unusual time slot: 16:15--18:15)
+Monday February 3rd (<i class="fas fa-exclamation-triangle"></i>&nbsp;unusual time slot: 16:15--18:15)
 : Sections 2.4--2.5: Model structure on simplicial sets, beginning of the equivalence with topological spaces.
 
 Tuesday February 4th
@@ -84,7 +84,7 @@ Tuesday February 4th
 ~~Thursday February 6th~~
 : (moved to February 3rd)
 
-Tuesday February 11th (<i class="fas fa-exclamation-triangle"></i> room 2017)
+Tuesday February 11th (<i class="fas fa-exclamation-triangle"></i>&nbsp;room 2017)
 : Sections 3.2--3.3: Model structure on CDGAs, Sullivan theory, comparison with simplicial sets up to rational equivalence.
 
 Thursday February 13th
