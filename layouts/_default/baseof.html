@@ -9,18 +9,8 @@
           {{- partial "draft" . -}}
 
           <section>{{- block "main" . -}}{{- end -}}</section>
-          <hr />
-          <footer class="text-muted text-center">
-            {{ .Site.Author.first_name }} {{ .Site.Author.last_name }} &bull; {{
-            delimit .Site.Author.organizations " & " | markdownify }} &bull;
-            <a href="mailto:{{ .Site.Author.email }}"
-              >{{ .Site.Author.email }}</a
-            >
-            &bull;
-            <a href="https://github.com/nidrissi/nidrissi/issues"
-              >See something wrong?</a
-            >
-          </footer>
+
+          {{ partial "footer" . }}
         </div>
 
         {{- if or .Params.toc .Params.sidebar -}}
