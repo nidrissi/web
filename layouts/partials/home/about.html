@@ -43,12 +43,14 @@
       {{- end -}} {{- with .Site.Author.github -}}
       <li>
         <span class="fa-li"><i class="fab fa-github"></i></span>
-        <a href="https://github.com/{{ . }}">GitHub</a>
+        <a href="https://github.com/{{ . }}" rel="me">GitHub</a>
       </li>
       {{- end -}} {{- with .Site.Author.mathoverflow -}}
       <li>
         <span class="fa-li"><i class="far fa-circle"></i></span>
-        <a href="https://mathoverflow.net/users/{{ . }}">MathOverflow</a>
+        <a href="https://mathoverflow.net/users/{{ . }}" rel="me"
+          >MathOverflow</a
+        >
       </li>
       {{- end -}}
     </ul>
