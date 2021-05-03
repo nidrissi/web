@@ -2,17 +2,21 @@
 <footer class="text-muted text-center">
   {{ .Site.Author.first_name }} {{ .Site.Author.last_name }} &bull; {{ delimit
   .Site.Author.organizations " & " | markdownify }} &bull;
-  <a href="mailto:{{ .Site.Author.email }}">{{ .Site.Author.email }}</a>
+  <a href="mailto:{{ .Site.Author.email }}"
+    ><i class="fas fa-at"></i>&nbsp;{{ .Site.Author.email }}</a
+  >
   &bull;
-  <a href="https://github.com/{{ .Site.Author.github }}"
+  <a href="https://github.com/{{ .Site.Author.github }}" rel="me"
     ><i class="fab fa-github"></i>&nbsp;GitHub</a
   >
   &bull;
-  <a href="https://mathoverflow.net/users/{{ .Site.Author.mathoverflow }}"
+  <a
+    href="https://mathoverflow.net/users/{{ .Site.Author.mathoverflow }}"
+    rel="me"
     ><i class="far fa-circle"></i>&nbsp;MathOverflow</a
   >
   &bull;
-  <a href="https://twitter.com/{{ .Site.Author.twitter }}"
+  <a href="https://twitter.com/{{ .Site.Author.twitter }}" rel="me"
     ><i class="fab fa-twitter"></i>&nbsp;Twitter</a
   >
 </footer>
