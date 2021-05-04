@@ -5,6 +5,10 @@ date: 2021-04-13
 lastMod: 2021-04-26
 draft: false
 tags: [code]
+sidebar:
+  - "**Partie 1: Préliminaires**"
+  - "[Partie 2: La Théorie](https://idrissi.eu/en/post/git-2-theory/)"
+  - "Partie 3: La Pratique (à paraître)"
 ---
 
 Ce billet est le premier d'une série dans laquelle j'essaierai d'expliquer comment utiliser Git pour écrire des articles, avec comme audience voulue les mathématicien·ne·s professionnel·le·s.

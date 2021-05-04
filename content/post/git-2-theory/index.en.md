@@ -3,6 +3,10 @@ title: "Git for Mathematicians (2/3): The Theory"
 date: 2021-04-26
 draft: false
 toc: true
+sidebar:
+  - "[Part 1: Preliminaries](https://idrissi.eu/en/post/git-1-preliminaries/)"
+  - "**Part 2: The Theory**"
+  - "Part 3: The Practice (to appear)"
 tags: [code]
 ---
 
