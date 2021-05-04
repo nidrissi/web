@@ -5,5 +5,5 @@ menu:
   main:
     weight: 30
     name: Exposés
-    pre: '<i class="fas fa-bullhorn"></i>'
+    pre: '<i class="bi bi-megaphone"></i>'
 ---

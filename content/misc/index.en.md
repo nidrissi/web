@@ -6,7 +6,7 @@ menu:
   main:
     weight: 99
     name: Misc
-    pre: '<i class="fas fa-project-diagram"></i>'
+    pre: '<i class="bi bi-bookmark"></i>'
 ---
 
 I am/was a member of:

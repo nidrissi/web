@@ -9,7 +9,7 @@ menu:
   main:
     weight: 10
     name: CV
-    pre: '<i class="fas fa-id-card"></i>'
+    pre: '<i class="bi bi-file-person"></i>'
 ---
 
 $for(section)$

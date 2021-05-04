@@ -3,7 +3,7 @@ title: Teaching
 menu:
   main:
     weight: 40
-    pre: '<i class="fas fa-chalkboard-teacher"></i>'
+    pre: '<i class="bi bi-book"></i>'
 ---
 
 Acronyms:
