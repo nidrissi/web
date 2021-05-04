@@ -6,7 +6,7 @@ date: 2018-01-01
 menu:
   main:
     weight: 99
-    pre: '<i class="fas fa-project-diagram"></i>'
+    pre: '<i class="bi bi-bookmark"></i>'
 ---
 
 Je suis/fus membre des :

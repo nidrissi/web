@@ -3,22 +3,17 @@ $class := "badge badge-primary" -}} {{- if $is_card -}} {{- $class = "card-link"
 -}} {{- end -}} {{- with $.Params.urls.pdf -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{- $link | absURL }}"
-  ><i class="fas fa-file-pdf"></i>&nbsp;PDF</a
+  ><i class="bi bi-file-earmark-text"></i>&nbsp;PDF</a
 >
 {{ end -}} {{- with $.Params.urls.slides -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="fas fa-tv"></i>&nbsp;{{ i18n "btn_slides" -}}
+  ><i class="bi bi-file-earmark-slides"></i>&nbsp;{{ i18n "btn_slides" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.video -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="fas fa-video"></i>&nbsp;{{ i18n "btn_video" -}}
-</a>
-{{ end -}} {{- with $.Params.urls.notes -}} {{- $link := . -}}{{- with
-$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
-<a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="fas fa-file-alt"></i>&nbsp;{{ i18n "btn_notes" -}}
+  ><i class="bi bi-play-circle"></i>&nbsp;{{ i18n "btn_video" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.doi -}}
 <a class="{{ $class }}" href="https://doi.org/{{ . }}">DOI</a>
@@ -33,7 +28,7 @@ $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 {{ end -}} {{- with $.Params.urls.source -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="fas fa-file-code"></i>&nbsp;{{ i18n "btn_source" -}}
+  ><i class="bi bi-file-earmark-code"></i>&nbsp;{{ i18n "btn_source" -}}
 </a>
 {{ end -}} {{- range $.Params.urls.custom -}}
 <a class="{{ $class }}" href="{{ .url | absURL }}"> {{- .name -}} </a>

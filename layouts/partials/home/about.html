@@ -19,40 +19,32 @@
     </p>
 
     <h4>Contact</h4>
-    <ul class="fa-ul mb-0">
       {{- with .Site.Author.email -}}
-      <li>
-        <span class="fa-li"><i class="fas fa-at"></i></span>
-        <a href="mailto:{{ . }}">{{ . }}</a>
-      </li>
+      <p class="mb-0">
+        <i class="bi bi-envelope"></i>&nbsp;<a href="mailto:{{ . }}">{{ . }}</a>
+      </p>
       {{- end -}} {{- with .Site.Author.phone -}}
-      <li>
-        <span class="fa-li"><i class="fas fa-phone"></i></span>
-        <a href="tel:{{ .ugly }}">{{ .pretty }}</a>
-      </li>
+      <p class="mb-0">
+        <i class="bi bi-telephone"></i>&nbsp;<a href="tel:{{ .ugly }}">{{ .pretty }}</a>
+      </p>
       {{- end -}} {{- with .Site.Author.address -}}
-      <li>
-        <span class="fa-li"><i class="fas fa-envelope"></i></span>
-        {{- delimit . " &bull; " -}}
-      </li>
+      <p class="mb-0">
+        <i class="bi bi-map"></i>&nbsp;{{- delimit . " &bull; " -}}
+      </p>
       {{- end -}} {{- with .Site.Author.office -}}
-      <li>
-        <span class="fa-li"><i class="fas fa-building"></i></span>
-        {{- i18n "office"}} {{ . -}}
-      </li>
+      <p class="mb-0">
+        <i class="bi bi-building"></i>&nbsp;{{- i18n "office"}} {{ . -}}
+      </p>
       {{- end -}} {{- with .Site.Author.github -}}
-      <li>
-        <span class="fa-li"><i class="fab fa-github"></i></span>
-        <a href="https://github.com/{{ . }}" rel="me">GitHub</a>
-      </li>
+      <p class="mb-0">
+        <i class="bi bi-github"></i>&nbsp;<a href="https://github.com/{{ . }}" rel="me">GitHub</a>
+      </p>
       {{- end -}} {{- with .Site.Author.mathoverflow -}}
-      <li>
-        <span class="fa-li"><i class="far fa-circle"></i></span>
-        <a href="https://mathoverflow.net/users/{{ . }}" rel="me"
-          >MathOverflow</a
+      <p class="mb-0">
+        <i class="bi bi-circle"></i>&nbsp;<a href="https://mathoverflow.net/users/{{ . }}" rel="me"
+        p>MathOverflow</a
         >
       </li>
       {{- end -}}
-    </ul>
   </section>
 </article>

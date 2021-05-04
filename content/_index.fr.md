@@ -5,7 +5,7 @@ menu:
   main:
     weight: 1
     name: Accueil
-    pre: '<i class="fas fa-home"></i>'
+    pre: '<i class="bi bi-house"></i>'
 ---
 
 Bonjour !

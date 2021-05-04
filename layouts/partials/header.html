@@ -4,7 +4,7 @@
 
   <meta
     http-equiv="Content-Security-Policy"
-    content="default-src 'self'; style-src 'self' 'unsafe-inline' use.fontawesome.com github.githubassets.com; script-src 'self' 'unsafe-eval' www.googletagmanager.com cdn.jsdelivr.net gist.github.com kit.fontawesome.com; img-src 'self' data: www.googletagmanager.com math.stackexchange.com mathoverflow.net; connect-src 'self' analytics.google.com stats.g.doubleclick.net *.fontawesome.com; font-src 'self' cdn.jsdelivr.net *.fontawesome.com; frame-src 'self' www.youtube.com;"
+    content="default-src 'self'; style-src 'self' 'unsafe-inline' github.githubassets.com cdn.jsdelivr.net; script-src 'self' 'unsafe-eval' www.googletagmanager.com cdn.jsdelivr.net gist.github.com; img-src 'self' data: www.googletagmanager.com math.stackexchange.com mathoverflow.net; connect-src 'self' analytics.google.com stats.g.doubleclick.net; font-src 'self' cdn.jsdelivr.net; frame-src 'self' www.youtube.com;"
   />
 
   <link rel="canonical" href="{{ .Permalink }}" />
@@ -27,6 +27,12 @@
     href="{{
   $css.Permalink }}?{{ now.Unix}}"
   />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    crossorigin="anonymous"
+    integrity="sha384-NUDU7Qr8dfscXBIhA0px/bRl3cgNrOT9l/WPm15DzH5xnBs4fL4vgRiXURs98/ID"
+  />
 
   <script
     async
@@ -42,11 +48,6 @@
     async
     src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-chtml.js"
     integrity="sha384-UozJ99uTsC3hGw/ZyfGWyZhGT2HagM/UTaJSjYDDwJkJAV7YGoW0bHz7DI5XCN6X"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    async
-    src="https://kit.fontawesome.com/1d93526181.js"
     crossorigin="anonymous"
   ></script>
 
