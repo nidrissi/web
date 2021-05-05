@@ -21,15 +21,17 @@ $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
   ><i class="bi bi-journal"></i>&nbsp;{{ i18n "btn_notes" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.doi -}}
-<a class="{{ $class }}" href="https://doi.org/{{ . }}">DOI</a>
+<a class="{{ $class }}" href="https://doi.org/{{ . }}">DOI:{{ . }}</a>
 {{ end -}} {{- with $.Params.urls.arxiv -}}
-<a class="{{ $class }}" href="https://arxiv.org/abs/{{ . }}">arXiv</a>
+<a class="{{ $class }}" href="https://arxiv.org/abs/{{ . }}">arXiv:{{ . }}</a>
 {{ end -}} {{- with $.Params.urls.mathrev -}}
 <a class="{{ $class }}" href="http://www.ams.org/mathscinet-getitem?mr={{ . }}"
-  >MR</a
+  >MR:{{ . }}</a
 >
 {{ end -}} {{- with $.Params.urls.zbmath -}}
-<a class="{{ $class }}" href="https://zbmath.org/?q=an:{{ . }}">Zbl</a>
+<a class="{{ $class }}" href="https://zbmath.org/?q=an:{{ . }}"
+  >zbMath:{{ . }}</a
+>
 {{ end -}} {{- with $.Params.urls.source -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
