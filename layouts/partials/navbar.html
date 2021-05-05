@@ -42,7 +42,7 @@
     {{- if .IsTranslated -}}
     <ul class="navbar-nav ml-auto">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"><i class="bi bi-globe"></i>&nbsp;{{ .Language.LanguageName }}
+        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"><i class="bi bi-globe mr-1"></i>{{ .Language.LanguageName }}
         </a>
         <div class="dropdown-menu dropdown-menu-right">
           {{- range .Translations -}}
