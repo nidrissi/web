@@ -1,21 +1,32 @@
 <article class="card border-light">
   <div class="card-body px-3 py-2">
     <h5 class="card-title mb-1">
-      {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}">{{- end -}}
-      {{- .Params.event | markdownify -}}
-      {{- if .Params.eventURL }}</a>{{- end }}
-      <small>&ndash; {{ partial "meta/talk" . }}</small>
+      {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}"
+        >{{- end -}} {{- .Params.event | markdownify -}} {{- if .Params.eventURL
+        }}</a
+      >{{- end }}
+      <small
+        >&ndash; {{ partial "meta/talk" . }}. {{- if (or .Params.Title
+        .Params.Abstract) }}
+        <a
+          class="card-link dropdown-toggle"
+          data-toggle="collapse"
+          href="#talk-{{ .File.UniqueID }}"
+          role="button"
+          aria-expanded="false"
+          aria-controls="talk-{{ .File.UniqueID }}"
+          >{{ i18n "title" }} &amp; {{ i18n "abstract" }}</a
+        >
+        {{- end -}}
+      </small>
     </h5>
-
-    {{- if (or .Params.Title .Params.Abstract) -}}
-    <a class="card-link dropdown-toggle" data-toggle="collapse" href="#talk-{{ .File.UniqueID }}" role="button" aria-expanded="false" aria-controls="talk-{{ .File.UniqueID }}">{{ i18n "title" }} &amp; {{ i18n "abstract" }}</a>
-    {{- end -}}
 
     {{- partial "links" (dict "content" . "is_card" 1) -}}
 
     <p id="talk-{{ .File.UniqueID }}" class="collapse card-text">
-      {{- with .Params.Title -}}<strong>{{ . | markdownify }}</strong><br>{{- end -}}
-      {{- with .Params.Abstract -}}{{- i18n "abstract" -}}: {{ . | markdownify -}}{{- end -}}
+      {{- with .Params.Title -}}<strong>{{ . | markdownify }}</strong><br />{{-
+      end -}} {{- with .Params.Abstract -}}{{- i18n "abstract" -}}: {{ . |
+      markdownify -}}{{- end -}}
     </p>
   </div>
 </article>
