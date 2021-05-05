@@ -8,12 +8,17 @@ $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 {{ end -}} {{- with $.Params.urls.slides -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="bi bi-file-earmark-slides mr-1"></i>{{ i18n "btn_slides" -}}
+  ><i class="bi bi-easel mr-1"></i>{{ i18n "btn_slides" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.video -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
   ><i class="bi bi-play-circle mr-1"></i>{{ i18n "btn_video" -}}
+</a>
+{{ end -}} {{- with $.Params.urls.notes -}} {{- $link := . -}}{{- with
+$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
+<a class="{{ $class }}" href="{{ $link | absURL }}"
+  ><i class="bi bi-journal"></i>&nbsp;{{ i18n "btn_notes" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.doi -}}
 <a class="{{ $class }}" href="https://doi.org/{{ . }}">DOI</a>
