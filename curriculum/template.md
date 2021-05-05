@@ -1,7 +1,8 @@
 ---
 # $autogen$
 title: Curriculum Vitæ
-date: $lastMod$
+date: "2015-01-01"
+lastMod: $lastMod$
 urls:
   pdf: cv.$lang$.pdf
 toc: true
