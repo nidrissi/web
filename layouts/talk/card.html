@@ -1,6 +1,6 @@
 <article class="card border-light">
   <div class="card-body px-3 py-2">
-    <h5 class="card-title mb-1">
+    <h3 class="card-title mb-1 fs-5">
       {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}"
         >{{- end -}} {{- .Params.event | markdownify -}} {{- if .Params.eventURL
         }}</a
@@ -19,7 +19,7 @@
         >
         {{- end -}}
       </small>
-    </h5>
+    </h3>
 
     {{- partial "links" (dict "content" . "is_card" 1) -}}
 
