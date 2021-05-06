@@ -1,19 +1,19 @@
 <article class="card border-light">
   <div class="card-body px-3 py-2">
     <div class="card-title mb-2">
-      <h3 class="mb-1 fs-5">
-        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-      </h3>
+      <h3 class="mb-1 fs-5">{{ .Title | markdownify }}</h3>
       <small>{{ partial "meta/post" . }}</small>
     </div>
     <div class="card-text">
       {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else
       if .Truncated -}} {{- .Summary -}} {{- else -}} {{- .Content -}} {{- end
-      -}} {{- if or .Params.summary .Truncated -}}<a
-        href="{{ .Permalink }}"
-        class="card-link"
-        >[{{ i18n "continue_reading" }} ▷]</a
-      >{{- end -}}
+      -}} {{- if or .Params.summary .Truncated -}}
+      <div class="d-grid">
+        <a href="{{ .Permalink }}" class="btn btn-outline-success" role="button"
+          >{{ i18n "continue_reading" }}&nbsp;▷</a
+        >
+      </div>
+      {{- end -}}
     </div>
   </div>
 </article>
