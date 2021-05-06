@@ -4,7 +4,7 @@
       <h5 class="mb-1">
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
       </h5>
-      <small>{{ partial "meta/data" . }}</small>
+      <small>{{ partial "meta/post" . }}</small>
     </div>
     <div class="card-text">
       {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else
