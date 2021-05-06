@@ -21,27 +21,27 @@
     <h4>Contact</h4>
       {{- with .Site.Author.email -}}
       <p class="mb-0">
-        <i class="bi bi-envelope mr-1"></i><a href="mailto:{{ . }}">{{ . }}</a>
+        <i class="bi bi-envelope me-1"></i><a href="mailto:{{ . }}">{{ . }}</a>
       </p>
       {{- end -}} {{- with .Site.Author.phone -}}
       <p class="mb-0">
-        <i class="bi bi-telephone mr-1"></i><a href="tel:{{ .ugly }}">{{ .pretty }}</a>
+        <i class="bi bi-telephone me-1"></i><a href="tel:{{ .ugly }}">{{ .pretty }}</a>
       </p>
       {{- end -}} {{- with .Site.Author.address -}}
       <p class="mb-0">
-        <i class="bi bi-map mr-1"></i>{{- delimit . " &bull; " -}}
+        <i class="bi bi-map me-1"></i>{{- delimit . " &bull; " -}}
       </p>
       {{- end -}} {{- with .Site.Author.office -}}
       <p class="mb-0">
-        <i class="bi bi-building mr-1"></i>{{- i18n "office"}} {{ . -}}
+        <i class="bi bi-building me-1"></i>{{- i18n "office"}} {{ . -}}
       </p>
       {{- end -}} {{- with .Site.Author.github -}}
       <p class="mb-0">
-        <i class="bi bi-github mr-1"></i><a href="https://github.com/{{ . }}" rel="me">GitHub</a>
+        <i class="bi bi-github me-1"></i><a href="https://github.com/{{ . }}" rel="me">GitHub</a>
       </p>
       {{- end -}} {{- with .Site.Author.mathoverflow -}}
       <p class="mb-0">
-        <i class="bi bi-circle mr-1"></i><a href="https://mathoverflow.net/users/{{ . }}" rel="me"
+        <i class="bi bi-circle me-1"></i><a href="https://mathoverflow.net/users/{{ . }}" rel="me"
         p>MathOverflow</a
         >
       </li>
