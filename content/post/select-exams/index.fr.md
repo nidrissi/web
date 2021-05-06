@@ -21,7 +21,7 @@ C'est plus facile à corriger (je ne dois pas changer entre 30+ copies différen
 J'ai donc écrit un script PowerShell qui sépare les examens et les renomme automatiquement pour que je puisse les donner à Moodle.
 Il est plutôt simple à utiliser et le code se passe d'explications.
 [**Vous pouvez le trouver sur GitHub.**](https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92)
-Vous pouvez aussi <a href="#" data-toggle="collapse" data-target="#gist-collapse" aria-expanded="false" aria-controls="gist-collapse">le trouver ici</a>.
+Vous pouvez aussi <a href="#" data-bs-toggle="collapse" data-bs-target="#gist-collapse" aria-expanded="false" aria-controls="gist-collapse">le trouver ici</a>.
 
 <div class="collapse" id="gist-collapse">
 <script src="https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92.js"></script>
