@@ -1,24 +1,21 @@
 {{- define "main" -}}
 <article>
-    <h1 class="mb-0">{{- .Title | markdownify -}}</h1>
-    <p class="lead">
-      {{- partial "meta/research" . }}
-      &emsp;
-      {{- partial "links" (dict "content" . "is_card" 0) -}}
+  <h1 class="mb-0">{{- .Title | markdownify -}}</h1>
+  <p class="lead">
+    {{- partial "meta/research" . }} {{- partial "links" (dict "content" .
+    "is_card" 0) -}}
+  </p>
+
+  {{- with .Params.abstract -}}
+  <blockquote class="blockquote">
+    <p>
+      <strong>{{ i18n "abstract" }}.</strong>
+      {{ . | markdownify -}}
     </p>
-    
-    {{- with .Params.abstract -}}
-    <blockquote class="blockquote"><p>
-        <strong>{{ i18n "abstract" }}.</strong>
-        {{ . | markdownify -}}
-    </p></blockquote>
-    {{- end -}}
-
-    {{- with .Content -}}
-    <hr>
-    <div>{{- . -}}</div>
-    {{- end -}}
+  </blockquote>
+  {{- end -}} {{- with .Content -}}
+  <hr />
+  <div>{{- . -}}</div>
+  {{- end -}}
 </article>
-
-{{- partial "breadcrumbs" . -}}
 {{- end -}}

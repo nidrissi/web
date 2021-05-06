@@ -12,6 +12,4 @@
   {{ partial "links" (dict "content" . "is_card" 0) }}
 </p>
 {{- with .Content }}<div>{{ . }}</div>{{ end -}}
-
-{{- partial "breadcrumbs" . -}}
 {{- end -}}

@@ -3,14 +3,11 @@
 
 <div class="mb-2">
   {{- partial "research-list-bytype" (dict "content" . "key" "publication") -}}
-  {{- partial "research-list-bytype" (dict "content" . "key" "preprint") -}}
-  {{- partial "research-list-bytype" (dict "content" . "key" "thesis") -}}
+  {{- partial "research-list-bytype" (dict "content" . "key" "preprint") -}} {{-
+  partial "research-list-bytype" (dict "content" . "key" "thesis") -}}
   <!-- {{- partial "research-list-bytype" (dict "content" . "key" "lecture") -}} -->
 </div>
 
 {{- with .Content -}}
 <div>{{- . -}}</div>
-{{- end -}}
-
-{{- partial "breadcrumbs" . -}}
-{{- end -}}
+{{- end -}} {{- end -}}

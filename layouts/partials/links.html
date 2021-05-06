@@ -1,42 +1,43 @@
 {{- $is_li := .is_li -}} {{- $is_card := .is_card -}} {{- $ := .content -}} {{-
-$class := "badge bg-primary" -}} {{- if $is_card -}} {{- $class = "card-link"
--}} {{- end -}} {{- with $.Params.urls.pdf -}} {{- $link := . -}}{{- with
-$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
+$class := "" -}} {{ $bull := " &bull; " | markdownify }} {{- if $is_card -}} {{-
+$class = "card-link" -}} {{ $bull = "" }} {{- end -}} {{- with $.Params.urls.pdf
+-}} {{- $link := . -}}{{- with $.Resources.GetMatch $link -}}{{- $link =
+.Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{- $link | absURL }}"
   ><i class="bi bi-file-earmark-text me-1"></i>PDF</a
 >
 {{ end -}} {{- with $.Params.urls.slides -}} {{- $link := . -}}{{- with
-$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
+$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
   ><i class="bi bi-easel me-1"></i>{{ i18n "btn_slides" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.video -}} {{- $link := . -}}{{- with
-$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
+$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
   ><i class="bi bi-play-circle me-1"></i>{{ i18n "btn_video" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.notes -}} {{- $link := . -}}{{- with
-$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
+$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
   ><i class="bi bi-journal"></i>&nbsp;{{ i18n "btn_notes" -}}
 </a>
-{{ end -}} {{- with $.Params.urls.doi -}}
+{{ end -}} {{- with $.Params.urls.doi -}} {{ $bull }}
 <a class="{{ $class }}" href="https://doi.org/{{ . }}">DOI:{{ . }}</a>
-{{ end -}} {{- with $.Params.urls.arxiv -}}
+{{ end -}} {{- with $.Params.urls.arxiv -}} {{ $bull }}
 <a class="{{ $class }}" href="https://arxiv.org/abs/{{ . }}">arXiv:{{ . }}</a>
-{{ end -}} {{- with $.Params.urls.mathrev -}}
+{{ end -}} {{- with $.Params.urls.mathrev -}} {{ $bull }}
 <a class="{{ $class }}" href="http://www.ams.org/mathscinet-getitem?mr={{ . }}"
   >MR:{{ . }}</a
 >
-{{ end -}} {{- with $.Params.urls.zbmath -}}
+{{ end -}} {{- with $.Params.urls.zbmath -}} {{ $bull }}
 <a class="{{ $class }}" href="https://zbmath.org/?q=an:{{ . }}"
   >zbMath:{{ . }}</a
 >
 {{ end -}} {{- with $.Params.urls.source -}} {{- $link := . -}}{{- with
-$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
+$.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
   ><i class="bi bi-file-earmark-code me-1"></i>{{ i18n "btn_source" -}}
 </a>
-{{ end -}} {{- range $.Params.urls.custom -}}
+{{ end -}} {{- range $.Params.urls.custom -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ .url | absURL }}"> {{- .name -}} </a>
 {{ end -}}

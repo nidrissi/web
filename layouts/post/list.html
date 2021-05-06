@@ -3,11 +3,5 @@
 
 {{- with .Content -}}
 <div>{{- . -}}</div>
-{{- end -}}
-
-{{- range .Data.Pages -}}
-{{- .Render "card" -}}
-{{- end -}}
-
-{{- partial "breadcrumbs" . -}}
-{{- end -}}
+{{- end -}} {{- range .Data.Pages -}} {{- .Render "card" -}} {{- end -}} {{- end
+-}}
