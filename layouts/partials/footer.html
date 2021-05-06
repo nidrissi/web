@@ -3,11 +3,11 @@
   {{ .Site.Author.first_name }} {{ .Site.Author.last_name }} &bull; {{ delimit
   .Site.Author.organizations " & " | markdownify }} &bull;
   <a href="mailto:{{ .Site.Author.email }}"
-    ><i class="bi bi-envelope me-1"></i>{{ .Site.Author.email }}</a
+    ><i class="bi bi-envelope"></i>&nbsp;{{ .Site.Author.email }}</a
   >
   &bull;
   <a href="https://github.com/{{ .Site.Author.github }}" rel="me"
-    ><i class="bi bi-github me-1"></i>GitHub</a
+    ><i class="bi bi-github"></i>&nbsp;GitHub</a
   >
   &bull;
   <a
@@ -17,6 +17,6 @@
   >
   &bull;
   <a href="https://twitter.com/{{ .Site.Author.twitter }}" rel="me"
-    ><i class="bi bi-twitter me-1"></i>Twitter</a
+    ><i class="bi bi-twitter"></i>&nbsp;Twitter</a
   >
 </footer>

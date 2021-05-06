@@ -19,7 +19,7 @@ urls:
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
 
-<p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text me-1"></i>Les notes de cours sont disponibles ici.</b></a></p>
+<p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text"></i>&nbsp;Les notes de cours sont disponibles ici.</b></a></p>
 
 L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications.
 Nous nous intéresserons particulièrement à deux exemples : les complexes de chaînes (cf. les cours d'algèbre homologique et de topologique algébrique) et les espaces topologiques.
@@ -47,7 +47,7 @@ Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, 
 Les séances seront également enregistrées et [disponibles sur YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture" dans le coin supérieur droit du lecteur intégré.
 
-**L'examen aura lieu le vendredi 5 mars de 14h à 17h en salle 207C de la [Halle aux Farines]({{< ref "class/19-20-homotopie" >}}HAF.pdf) (<i class="bi bi-exclamation-triangle me-1"></i>changement de salle).**
+**L'examen aura lieu le vendredi 5 mars de 14h à 17h en salle 207C de la [Halle aux Farines]({{< ref "class/19-20-homotopie" >}}HAF.pdf) (<i class="bi bi-exclamation-triangle"></i>&nbsp;changement de salle).**
 Vous aurez droit aux notes de cours imprimées ou manuscrites durant l'examen.
 Le matériel électronique sera interdit.
 
@@ -60,8 +60,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 1</h5>
       <h6 class="card-subtitle mb-2">Lundi 11 janvier, 10h45–12h45</h6>
       <p class="card-text mb-0">Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles   simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/  surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/cilKcPVEnX0" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/cilKcPVEnX0" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -72,8 +72,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 2</h5>
       <h6 class="card-subtitle mb-2">Vendredi 15 janvier, 15h45–17h45</h6>
       <p class="card-text mb-0">Définition des catégories de modèles et premiers exemples (Section 1.3)</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwp_LIfgCS5Yjv4-A" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/RSANbPkQaFw" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwp_LIfgCS5Yjv4-A" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/RSANbPkQaFw" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -84,8 +84,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 3</h5>
       <h6 class="card-subtitle mb-2">Lundi 18 janvier, 10h45–12h45</h6>
       <p class="card-text mb-0">Définition et construction de la localisation d'une catégorie, définition des homotopies à gauche, premières propriétés, cas dual des homotopies à droite (Sections 1.4.1 et 1.4.2).</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/AA1WQWUG2II" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/AA1WQWUG2II" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -96,8 +96,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 4</h5>
       <h6 class="card-subtitle mb-2">Vendredi 22 janvier, 15h45–17h45</h6>
       <p class="card-text mb-0">Fin de la Section 1.4 : description explicite de la catégorie homotopique d'une catégorie de modèles, théorème de Whitehead.</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" class="card-link me-1"></i>Blackboard</a>
-      <a href="https://youtu.be/PEEUQ21TF2E" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" class="card-link"></i>&nbsp;Blackboard</a>
+      <a href="https://youtu.be/PEEUQ21TF2E" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -108,8 +108,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 5</h5>
       <h6 class="card-subtitle mb-2">Lundi 25 janvier, 10h45–12h45</h6>
       <p class="card-text mb-0">Section 1.5.1 : preuve de l'existence de la structure projective sur la catégorie des complexes de chaînes bornés inférieurement.</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/DICgkRcuR0s" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/DICgkRcuR0s" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -120,8 +120,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 6</h5>
       <h6 class="card-subtitle mb-2">Vendredi 29 janvier, 15h45–17h45</h6>
       <p class="card-text mb-0">Théorème d'existence des catégories de modèles cofibrement engendrées (Section 1.5.2), adjonctions de Quillen (début de la section 1.6).</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/0oIAdwMu_nY" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/0oIAdwMu_nY" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -132,8 +132,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 7</h5>
       <h6 class="card-subtitle mb-2">Lundi 1<sup>er</sup> février, 10h45–12h45</h6>
       <p class="card-text mb-0">Définition des équivalences de Quillen et caractérisation, limites et colimites homotopiques.</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/bv0oGULtfaw" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/bv0oGULtfaw" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -144,8 +144,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 8</h5>
       <h6 class="card-subtitle mb-2">Vendredi 5 février, 15h45–17h45</h6>
       <p class="card-text mb-0">Rappels sur les ensembles simpliciaux et début de la preuve de l'existence de la structure de Quillen sur la catégorie des ensembles simpliciaux (Sections 2.1, 2.2, 2.3 et début 2.4).</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" class="card-link me-1"></i>Blackboard</a>
-      <a href="https://youtu.be/3jz0g8RVPS8" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" class="card-link"></i>&nbsp;Blackboard</a>
+      <a href="https://youtu.be/3jz0g8RVPS8" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -156,8 +156,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 9</h5>
       <h6 class="card-subtitle mb-2">Lundi 8 février, 10h45–12h45</h6>
       <p class="card-text mb-0">Suite de la preuve de l'existence de la structure de Quillen sur les ensembles simpliciaux, extensions anodines, groupes d'homotopie simpliciaux.</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" class="card-link me-1"></i>Blackboard</a>
-      <a href="https://youtu.be/LEgUKKzM8KE" class="card-link"><i class="bi bi-play-circle me-1"></i>Video</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" class="card-link"></i>&nbsp;Blackboard</a>
+      <a href="https://youtu.be/LEgUKKzM8KE" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
   </div>
 </div>
@@ -168,8 +168,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 10</h5>
       <h6 class="card-subtitle mb-2">Vendredi 12 février, 15h45–17h45</h6>
       <p class="card-text mb-0">Fin de la preuve de l'équivalence de Quillen entre les ensembles simpliciaux et les espaces topologiques. Localisation de Bousfield et homotopie rationnelle.</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/gckfIqqkO-U" class="card-link"><i class="bi bi-play-circle me-1"></i>Video</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/gckfIqqkO-U" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
   </div>
 </div>
@@ -180,8 +180,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 11</h5>
       <h6 class="card-subtitle mb-2">Lundi 15 février, 10h45–12h45</h6>
       <p class="card-text mb-0">Structure de modèles transférée sur les ADGC et algèbres de Sullivan.</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/UDbgtU00wpg" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/UDbgtU00wpg" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -192,8 +192,8 @@ Le matériel électronique sera interdit.
       <h5 class="card-title">Séance 12</h5>
       <h6 class="card-subtitle mb-2">Vendredi 19 février, 15h45–17h45</h6>
       <p class="card-text mb-0">Equivalence entre les ADGC et les types d'homotopie rationnelle au travers des formes PL. Applications de la théorie des modèles de Sullivan : modèles d'espaces, théorème de la dichotomie...</p>
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" class="card-link me-1"></i>Tableau</a>
-      <a href="https://youtu.be/tp8uJpazaaM" class="card-link"><i class="bi bi-play-circle me-1"></i>Vidéo</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://youtu.be/tp8uJpazaaM" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
 </div>
@@ -201,7 +201,7 @@ Le matériel électronique sera interdit.
 
 ## Bibliographie
 
-<p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text me-1"></i>Les notes de cours sont disponibles ici.</b></a></p>
+<p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text"></i>&nbsp;Les notes de cours sont disponibles ici.</b></a></p>
 
 J'ai donné un [cours similaire l'année dernière]({{< ref "class/19-20-homotopie" >}}), vous pourrez notamment y trouver les sujets d'examen.
 Grégory Ginot a donné un [cours en 2017--2018--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
