@@ -20,7 +20,7 @@ Remember to also change the parameter of the `\setmainlanguage` command.
 Other options are available, see "Letter Class Option Files" in the `scrlttr2` manual.
 
 **[The code is available on GitHub.](https://gist.github.com/nidrissi/7b9d8f2f1a80837090e84160e68e8f00)**
-You can also <a href="#" data-toggle="collapse" data-target="#gist-collapse" aria-expanded="false" aria-controls="gist-collapse">find it here</a>.
+You can also <a href="#" data-bs-toggle="collapse" data-bs-target="#gist-collapse" aria-expanded="false" aria-controls="gist-collapse">find it here</a>.
 The end result [looks like this PDF](letter.pdf).
 
 <div class="collapse" id="gist-collapse">
