@@ -4,7 +4,7 @@
 
   {{- with index $.Site.Data.people $auth -}}
     {{- .name -}}
-    {{ with .url }}<a href="{{ . }}"><i class="bi bi-person-fill ms-1" alt="Homepage"></i></a>{{- end -}}
+    {{ with .url }}<a href="{{ . }}"><i class="bi bi-person-fill ms-1" aria-label="(Homepage)"></i></a>{{- end -}}
 
   {{- else -}}
   {{- $auth | markdownify -}}
