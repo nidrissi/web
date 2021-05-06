@@ -45,9 +45,11 @@
           </a>
           <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
             {{- range .Translations -}}
-            <a href="{{ .Permalink }}" class="dropdown-item">
-              {{- .Language.LanguageName -}}
-            </a>
+            <li>
+              <a href="{{ .Permalink }}" class="dropdown-item">
+                {{- .Language.LanguageName -}}
+              </a>
+            </li>
             {{- end -}}
           </ul>
         </li>
