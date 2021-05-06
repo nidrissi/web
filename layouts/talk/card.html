@@ -6,7 +6,7 @@
     </h3>
 
     {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}"
-      ><i class="me-1 bi bi-calendar-event"></i>{{ i18n "event" }}</a
+      ><i class="bi bi-calendar-event"></i>&nbsp;{{ i18n "event" }}</a
     >{{- end -}} {{- if (or .Params.Title .Params.Abstract) }}
     <a
       class="card-link dropdown-toggle"

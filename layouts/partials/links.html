@@ -4,17 +4,17 @@ $class = "card-link" -}} {{ $bull = "" }} {{- end -}} {{- with $.Params.urls.pdf
 -}} {{- $link := . -}}{{- with $.Resources.GetMatch $link -}}{{- $link =
 .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{- $link | absURL }}"
-  ><i class="bi bi-file-earmark-text me-1"></i>PDF</a
+  ><i class="bi bi-file-earmark-text"></i>&nbsp;PDF</a
 >
 {{ end -}} {{- with $.Params.urls.slides -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="bi bi-easel me-1"></i>{{ i18n "btn_slides" -}}
+  ><i class="bi bi-easel"></i>&nbsp;{{ i18n "btn_slides" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.video -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="bi bi-play-circle me-1"></i>{{ i18n "btn_video" -}}
+  ><i class="bi bi-play-circle"></i>&nbsp;{{ i18n "btn_video" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.notes -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
@@ -36,7 +36,7 @@ $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 {{ end -}} {{- with $.Params.urls.source -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="bi bi-file-earmark-code me-1"></i>{{ i18n "btn_source" -}}
+  ><i class="bi bi-file-earmark-code"></i>&nbsp;{{ i18n "btn_source" -}}
 </a>
 {{ end -}} {{- range $.Params.urls.custom -}} {{ $bull }}
 <a class="{{ $class }}" href="{{ .url | absURL }}"> {{- .name -}} </a>
