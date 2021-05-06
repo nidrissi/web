@@ -10,25 +10,21 @@ on:
       - "curriculum/**"
 
 jobs:
-  deploy:
+  main:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@master
       - name: Download hugo
-        run: curl -Ls "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_Linux-64bit.tar.gz" -o /tmp/hugo.tar.gz
+        run: curl -Ls "https://github.com/gohugoio/hugo/releases/download/v${hugo_version}/hugo_extended_${hugo_version}_Linux-64bit.tar.gz" -o hugo.tar.gz
         env:
           hugo_version: "0.81.0"
       - name: Unpack hugo
-        run: tar xf /tmp/hugo.tar.gz -C /tmp
+        run: tar xf hugo.tar.gz
       - name: Execute bit hugo
-        run: chmod +x /tmp/hugo
-      - name: Checkout
-        uses: actions/checkout@master
+        run: chmod +x hugo
       - name: Build
-        run: /tmp/hugo --minify
-      - name: Install dependenciens
-        run: npm clean-install
-      - name: PurgeCSS
-        run: npm run purgecss
+        run: ./hugo --minify
       - name: Login
         uses: azure/login@v1
         with:
