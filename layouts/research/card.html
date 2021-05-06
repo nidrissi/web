@@ -1,8 +1,12 @@
 <article class="card border-light">
   <div class="card-body px-3 py-2">
-    <h5 class="card-title mb-1"><a href="{{ .Permalink }}">{{ .Title | markdownify }}.</a>
-      <small>{{- partial "meta/research" . -}}</small>
-    </h5>
+    <div class="card-title mb-0">
+      <h5 class="mb-0">{{ .Title | markdownify }}.</h5>
+      {{- partial "meta/research" . -}}
+    </div>
+    <a class="card-link" href="{{ .Permalink }}"
+      ><i class="bi bi-search me-1"></i>Info</a
+    >
     {{- partial "links" (dict "content" . "is_card" 1) -}}
   </div>
 </article>
