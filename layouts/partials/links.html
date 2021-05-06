@@ -1,19 +1,19 @@
 {{- $is_li := .is_li -}} {{- $is_card := .is_card -}} {{- $ := .content -}} {{-
-$class := "badge badge-primary" -}} {{- if $is_card -}} {{- $class = "card-link"
+$class := "badge bg-primary" -}} {{- if $is_card -}} {{- $class = "card-link"
 -}} {{- end -}} {{- with $.Params.urls.pdf -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{- $link | absURL }}"
-  ><i class="bi bi-file-earmark-text mr-1"></i>PDF</a
+  ><i class="bi bi-file-earmark-text me-1"></i>PDF</a
 >
 {{ end -}} {{- with $.Params.urls.slides -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="bi bi-easel mr-1"></i>{{ i18n "btn_slides" -}}
+  ><i class="bi bi-easel me-1"></i>{{ i18n "btn_slides" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.video -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="bi bi-play-circle mr-1"></i>{{ i18n "btn_video" -}}
+  ><i class="bi bi-play-circle me-1"></i>{{ i18n "btn_video" -}}
 </a>
 {{ end -}} {{- with $.Params.urls.notes -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
@@ -35,7 +35,7 @@ $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 {{ end -}} {{- with $.Params.urls.source -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 <a class="{{ $class }}" href="{{ $link | absURL }}"
-  ><i class="bi bi-file-earmark-code mr-1"></i>{{ i18n "btn_source" -}}
+  ><i class="bi bi-file-earmark-code me-1"></i>{{ i18n "btn_source" -}}
 </a>
 {{ end -}} {{- range $.Params.urls.custom -}}
 <a class="{{ $class }}" href="{{ .url | absURL }}"> {{- .name -}} </a>

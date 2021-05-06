@@ -5,9 +5,9 @@
 <time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">{{- .Lastmod.Format .Site.Params.date_format -}}</time>
 {{- end }}
 {{ range $k, $v := $.Params.tags -}}
-<a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" class="badge badge-primary">#{{ . }}</a>
+<a href="{{ "/tags/" | relLangURL }}{{ . | urlize | lower }}" class="badge bg-primary">#{{ . }}</a>
 {{ end }}
 {{ partial "links" (dict "content" . "is_card" 0) }}
 
-<a class="badge badge-primary" href="https://github.com/nidrissi/nidrissi/discussions"><i class="bi bi-chat mr-1"></i>{{ i18n "btn_discuss" -}}
+<a class="badge bg-primary" href="https://github.com/nidrissi/nidrissi/discussions"><i class="bi bi-chat me-1"></i>{{ i18n "btn_discuss" -}}
 </a>

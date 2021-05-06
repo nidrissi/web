@@ -1,58 +1,58 @@
- <nav class="navbar navbar-dark navbar-expand-md sticky-top">
-  <a class="navbar-brand" href="{{ "/" | relLangURL }}">
-    {{- .Site.Title -}}
-  </a>
+<nav class="navbar navbar-dark navbar-expand-md">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/{{ .Site.Language.Lang }}/">
+      {{- .Site.Title -}}
+    </a>
 
-  {{- if or .Site.Menus.main .IsTranslated -}}
-  <button type="button" class="navbar-toggler" data-toggle="collapse"
-          data-target=".navbar-collapse" aria-expanded="false">
-    <span class="sr-only">{{ i18n "toggle_navigation" -}}</span>
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  {{- end -}}
-
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav mr-auto">
-      {{ $currentURL := .Permalink | absURL }}
-      {{- range .Site.Menus.main -}}
-      {{- if .HasChildren -}}
-      <li class="nav-item dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" role="button">
-          {{ .Pre }}&nbsp;{{ .Name }}
-        </a>
-        <div class="dropdown-menu">
-          {{- range .Children -}}
-          {{- $url := .URL | absURL -}}
-          <a class="dropdown-item {{ if eq $url $currentURL }}active{{ end }}" href="{{ $url }}"{{ if $.IsHome }} data-target="{{ $url }}"{{ end }}>
-            {{- .Pre }}&nbsp;{{ .Name }}
-          </a>
-          {{- end -}}
-        </div>
-      </li>
-      {{- else -}}
-      {{- $url := .URL | absURL -}}
-      <li class="nav-item">
-        <a class="nav-link {{ if eq $url $currentURL }}active{{ end }}" href="{{ $url }}">
-          {{ .Pre }}&nbsp;{{ .Name }}
-        </a>
-      </li>
-      {{- end -}}
-      {{- end -}}
-    </ul>
-    {{- if .IsTranslated -}}
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"><i class="bi bi-globe mr-1"></i>{{ .Language.LanguageName }}
-        </a>
-        <div class="dropdown-menu dropdown-menu-right">
-          {{- range .Translations -}}
-          <a href="{{ .Permalink }}" class="dropdown-item">
-            {{- .Language.LanguageName -}}
-          </a>
-          {{- end -}}
-        </div>
-      </li>
-    </ul>
+    {{- if or .Site.Menus.main .IsTranslated -}}
+    <button
+      type="button"
+      class="navbar-toggler"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-expanded="false"
+    >
+      <span class="visually-hidden">{{ i18n "toggle_navigation" -}}</span>
+      <span class="navbar-toggler-icon"></span>
+    </button>
     {{- end -}}
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        {{ $currentURL := .Permalink | absURL }} {{- range .Site.Menus.main -}}
+        {{- $url := .URL | absURL -}}
+        <li class="nav-item">
+          <a
+            class="nav-link {{ if eq $url $currentURL }}active{{ end }}"
+            href="{{ $url }}"
+          >
+            {{ .Pre }}&nbsp;{{ .Name }}
+          </a>
+        </li>
+        {{- end -}}
+      </ul>
+
+      {{- if .IsTranslated -}}
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarTranslation"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            ><i class="bi bi-globe me-1"></i>{{ .Language.LanguageName }}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+            {{- range .Translations -}}
+            <a href="{{ .Permalink }}" class="dropdown-item">
+              {{- .Language.LanguageName -}}
+            </a>
+            {{- end -}}
+          </ul>
+        </li>
+      </ul>
+      {{- end -}}
+    </div>
   </div>
 </nav>

@@ -2,31 +2,35 @@
 <h1>{{ markdownify .Title }}</h1>
 
 <div class="accordion" id="accordionCours">
-  {{- $current := .Site.Params.currentYear -}}
-  {{- range (.Pages.GroupByParam "year").Reverse -}}
-  <div class="card">
-    <div class="card-header p-0">
-      <h2 class="mb-0" id="heading-{{ .Key }}">
-        <button class="btn btn-link btn-block text-left dropdown-toggle px-3 py-2 {{ if eq .Key $current }}font-weight-bold{{ end }}" type="button" data-toggle="collapse" data-target="#collapse-{{ .Key }}" aria-expanded="true" aria-controls="collapse-{{ .Key }}">
-          {{- .Key -}}
-        </button>
-      </h2>
-    </div>
-    <div id="collapse-{{ .Key }}" class="collapse {{ if eq .Key $current }}show{{ end }}" aria-labelledby="heading-{{ .Key }}" data-parent="#accordionCours">
-      <div class="card-body p-0">
-        {{- range .Pages.ByDate.Reverse -}}
-        {{- .Render "card" -}}
-        {{- end -}}
-      </div>
+  {{- $current := .Site.Params.currentYear -}} {{- range (.Pages.GroupByParam
+  "year").Reverse -}}
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading-{{ .Key }}">
+      <button
+        class="accordion-button {{ if not (eq .Key $current) }}collapsed{{ end }}"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse-{{ .Key }}"
+        aria-expanded="true"
+        aria-controls="collapse-{{ .Key }}"
+      >
+        {{- .Key -}}
+      </button>
+    </h2>
+  </div>
+  <div
+    id="collapse-{{ .Key }}"
+    class="accordion-collapse collapse {{ if eq .Key $current }}show{{ end }}"
+    aria-labelledby="heading-{{ .Key }}"
+    data-bs-parent="#accordionCours"
+  >
+    <div class="accordion-body">
+      {{- range .Pages.ByDate.Reverse -}} {{- .Render "card" -}} {{- end -}}
     </div>
   </div>
   {{- end -}}
 </div>
 
 {{- with .Content -}}
-<hr>
-{{- . -}}
-{{- end -}}
-
-{{- partial "breadcrumbs" . -}}
-{{- end -}}
+<hr />
+{{- . -}} {{- end -}} {{- partial "breadcrumbs" . -}} {{- end -}}

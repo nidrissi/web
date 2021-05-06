@@ -12,8 +12,8 @@ Je ne suis pas un artiste 3D, évidemment, mais je pense que cette vidéo (et le
 
 <!--more-->
 
-<div class="embed-responsive embed-responsive-16by9">
-    <video controls class="embed-responsive-item">
+<div class="ratio ratio-16x9">
+    <video controls>
         <source src="animation.mp4" type="video/mp4">
     </video>
 </div>
