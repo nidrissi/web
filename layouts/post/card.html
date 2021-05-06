@@ -1,9 +1,11 @@
 <article class="card border-light">
   <div class="card-body px-3 py-2">
-    <h5 class="card-title mb-2">
-      <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-      <small>&ndash; {{ partial "meta/data" . }}</small>
-    </h5>
+    <div class="card-title mb-2">
+      <h5 class="mb-1">
+        <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+      </h5>
+      <small>{{ partial "meta/data" . }}</small>
+    </div>
     <div class="card-text">
       {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else
       if .Truncated -}} {{- .Summary -}} {{- else -}} {{- .Content -}} {{- end
