@@ -20,11 +20,11 @@ Soit {{< tex "\upsilon \in H^2(S^2)" >}} un générateur.
 Donc sur {{< tex "\mathbb{Q}" >}} l'application {{< tex "\rho" >}} factorise au travers de la seconde projection {{< tex "p_2 : SO(3) \times S^2 \to S^2" >}}.
 
 On sait que {{< tex "pSO(3) \simeq_{\mathbb{Q}} S^3" >}} and that {{< tex "\pi^{\mathbb{Q}}_3(S^3) = \mathbb{Q}" >}}.
-Soit {{< tex "x" >}} un générateur de ce groupe ; montrons que {{< tex "\rho__(x \times 1)" >}} doit engendrer {{< tex "\pi^{\mathbb{Q}}*3(S^2)" >}}
+Soit {{< tex "x" >}} un générateur de ce groupe ; montrons que {{< tex "\rho_(x \times 1)" >}} doit engendrer {{< tex "\pi^{\mathbb{Q}}*3(S^2)" >}}
 On sait aussi que {{< tex "\rho" >}} induit un fibré {{< tex "SO(2)" >}}-principal :
 {{< tex display="SO(2) \hookrightarrow SO(3) \twoheadrightarrow S^2" >}}
 où {{< tex "p : SO(3) \to S^2" >}} est donnée par {{< tex "p(A) = A \cdot w" >}} pour un vecteur {{< tex "w" >}} fixé et où {{< tex "SO(2)" >}} est le stabilisateur de {{< tex "w" >}}.
 On obtient ainsi une suite exacte longue de groupes d'homotopie :
-{{< tex display="\pi*{3}(SO(2)) \to \pi*{3}(SO(3)) \xrightarrow{p*{_}} \pi*{3}(S^{2}) \to \pi*{2}(SO(2))." >}}
+{{< tex display="\pi_{3}(SO(2)) \to \pi_{3}(SO(3)) \xrightarrow{p_{*}} \pi_{3}(S^{2}) \to \pi_{2}(SO(2))." >}}
 Comme {{< tex "\pi_{3}(SO(2)) = \pi_{2}(SO(2)) = 0" >}}, on voit que {{< tex "p_*(x) = \rho_*(x \times 1)" >}} est un générateur.
 Cela contredit le fait que {{< tex "\rho" >}} factorise par la deuxième projection, car alors {{< tex "\rho_*(x \times 1)" >}} devrait s'annuler.
