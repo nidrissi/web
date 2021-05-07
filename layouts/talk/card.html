@@ -21,8 +21,8 @@
 
     <p id="talk-{{ .File.UniqueID }}" class="collapse card-text">
       {{- with .Params.Title -}}<strong>{{ . | markdownify }}</strong><br />{{-
-      end -}} {{- with .Params.Abstract -}}{{- i18n "abstract" -}}: {{ . |
-      markdownify -}}{{- end -}}
+      end -}} {{- with .Params.Abstract -}}{{- i18n "abstract" -}}: {{ . -}}{{-
+      end -}}
     </p>
   </div>
 </article>
