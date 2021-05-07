@@ -22,11 +22,11 @@ By degree reasons, we must have {{< tex "\rho^*(\upsilon) = \lambda \otimes \ups
 This implies that, over {{< tex "\mathbb{Q}" >}}, the map {{< tex "\rho" >}} factors through the second projection {{< tex "p_2 : SO(3) \times S^2 \to S^2" >}}.
 
 We know that {{< tex "pSO(3) \simeq_{\mathbb{Q}} S^3" >}} and that {{< tex "\pi^{\mathbb{Q}}_3(S^3) = \mathbb{Q}" >}}.
-Let {{< tex "x" >}} be a generator and let us show that {{< tex "\rho__(x \times 1)" >}} must generate {{< tex "\pi^{\mathbb{Q}}*3(S^2)" >}}
+Let {{< tex "x" >}} be a generator and let us show that {{< tex "\rho_(x \times 1)" >}} must generate {{< tex "\pi^{\mathbb{Q}}*3(S^2)" >}}
 We also know that {{< tex "\rho" >}} induces a principal {{< tex "SO(2)" >}}-bundle :
 {{< tex display="SO(2) \hookrightarrow SO(3) \twoheadrightarrow S^2" >}}
 where {{< tex "p : SO(3) \to S^2" >}} is given by {{< tex "p(A) = A \cdot w" >}} for a fixed vector {{< tex "w" >}} and {{< tex "SO(2)" >}} is the stabilizer of {{< tex "w" >}}.
 We thus get a long exact sequence of homotopy groups:
-{{< tex display="\pi*{3}(SO(2)) \to \pi*{3}(SO(3)) \xrightarrow{p*{_}} \pi*{3}(S^{2}) \to \pi*{2}(SO(2))." >}}
+{{< tex display="\pi_{3}(SO(2)) \to \pi_{3}(SO(3)) \xrightarrow{p_*} \pi_{3}(S^{2}) \to \pi_{2}(SO(2))." >}}
 Since {{< tex "\pi_{3}(SO(2)) = \pi_{2}(SO(2)) = 0" >}}, we get that {{< tex "p_*(x) = \rho_*(x \times 1)" >}} is a generator.
 This contradicts the fact that {{< tex "\rho" >}} factors through the second projection as then {{< tex "\rho_*(x \times 1)" >}} would vanish.
