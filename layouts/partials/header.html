@@ -33,35 +33,47 @@
     crossorigin="anonymous"
     integrity="sha384-NUDU7Qr8dfscXBIhA0px/bRl3cgNrOT9l/WPm15DzH5xnBs4fL4vgRiXURs98/ID"
   />
-  {{- $css := slice (resources.Get "css/style.css") | resources.Concat (printf
-  "bundle-%d.css" now.Unix) | resources.Minify -}}
   <link
     rel="stylesheet"
-    href="{{
-  $css.Permalink }}"
+    href="https://cdn.jsdelivr.net/npm/katex@0.13.9/dist/katex.min.css"
+    integrity="sha384-r/BYDnh2ViiCwqZt5VJVWuADDic3NnnTIEOv4hOh05nSfB6tjWpKmn1kUHOVkMXc"
+    crossorigin="anonymous"
   />
+  {{- $css := slice (resources.Get "css/style.css") | resources.Concat (printf
+  "bundle-%d.css" now.Unix) | resources.Minify -}}
+  <link rel="stylesheet" href="{{ $css.Permalink }}" />
+
+  <!-- js -->
+
+  {{- $js := slice (resources.Get "js/katex.js") (resources.Get "js/ga.js") |
+  resources.Concat (printf "bundle-%d.js" now.Unix) | resources.Minify -}}
+  <script defer src="{{ $js.Permalink }}"></script>
 
   <script
-    async
+    defer
     src="https://www.googletagmanager.com/gtag/js?id=G-S549JC61XZ"
   ></script>
 
   <script
+    defer
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
     crossorigin="anonymous"
   ></script>
+
   <script
-    async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-chtml.js"
-    integrity="sha384-UozJ99uTsC3hGw/ZyfGWyZhGT2HagM/UTaJSjYDDwJkJAV7YGoW0bHz7DI5XCN6X"
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.13.9/dist/katex.min.js"
+    integrity="sha384-zDIgORxjImEWftZXZpWLs2l57fMX9B3yWFPN5Ecabe211Hm5ZG/OIz2b07DYPUcH"
     crossorigin="anonymous"
   ></script>
-
-  {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get
-  "js/ga.js") | resources.Concat (printf "bundle-%d.js" now.Unix) |
-  resources.Minify -}}
-  <script src="{{ $js.Permalink }}"></script>
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/katex@0.13.9/dist/contrib/auto-render.min.js"
+    integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl"
+    crossorigin="anonymous"
+    id="auto-render"
+  ></script>
 
   <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/img/icon.png" />
   <link
