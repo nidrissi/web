@@ -33,11 +33,12 @@
     crossorigin="anonymous"
     integrity="sha384-NUDU7Qr8dfscXBIhA0px/bRl3cgNrOT9l/WPm15DzH5xnBs4fL4vgRiXURs98/ID"
   />
-  {{- $css := resources.Get "css/style.css" | resources.Minify -}}
+  {{- $css := slice (resources.Get "css/style.css") | resources.Concat (printf
+  "bundle-%d.css" now.Unix) | resources.Minify -}}
   <link
     rel="stylesheet"
     href="{{
-  $css.Permalink }}?{{ now.Unix}}"
+  $css.Permalink }}"
   />
 
   <script
@@ -58,8 +59,9 @@
   ></script>
 
   {{- $js := slice (resources.Get "js/mathjax-conf.js") (resources.Get
-  "js/ga.js") | resources.Concat "bundle.js" | resources.Minify -}}
-  <script src="{{ $js.Permalink }}?{{ now.Unix }}"></script>
+  "js/ga.js") | resources.Concat (printf "bundle-%d.js" now.Unix) |
+  resources.Minify -}}
+  <script src="{{ $js.Permalink }}"></script>
 
   <link rel="icon" type="image/png" href="{{ .Site.BaseURL }}/img/icon.png" />
   <link
