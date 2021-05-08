@@ -70,6 +70,8 @@
   translation: Thèses
 - id: status_lecture
   translation: Notes de cours
+- id: share
+  translation: Partager
 # Errors
 - id: page_not_found
   translation: Page introuvable

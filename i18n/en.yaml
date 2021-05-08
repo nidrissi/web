@@ -72,6 +72,8 @@
   translation: Theses
 - id: status_lecture
   translation: Lecture notes
+- id: share
+  translation: Share
 # Error 404
 - id: page_not_found
   translation: Page not found
