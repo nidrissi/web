@@ -1,6 +1,6 @@
 {{- define "main" -}}
 <h1 class="mb-0">{{ .Title }} ({{ .Params.year }})</h1>
-<p class="lead">
+<p class="fs-4">
   {{- partial "meta/cours" . }}
   {{- if ne .Lastmod .Date -}}
   &bull;
