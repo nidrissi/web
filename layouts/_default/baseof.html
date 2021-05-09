@@ -3,9 +3,9 @@
   {{- partial "header" . -}}
   <body>
     {{- partial "navbar" . -}}
-    <div class="container-fluid" id="outer-container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-8 offset-lg-2 py-3" id="main-container">
+        <div class="col-lg-8 offset-lg-2 py-3">
           {{- partial "draft" . -}}
 
           <section>{{- block "main" . -}}{{- end -}}</section>
