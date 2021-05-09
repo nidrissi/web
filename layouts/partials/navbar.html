@@ -1,9 +1,5 @@
-<nav class="navbar navbar-dark navbar-expand-lg mb-3">
+<nav class="navbar navbar-dark navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/{{ .Site.Language.Lang }}/">
-      {{- .Site.Title -}}
-    </a>
-
     {{- if or .Site.Menus.main .IsTranslated -}}
     <button
       type="button"
