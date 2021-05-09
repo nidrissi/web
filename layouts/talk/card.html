@@ -1,9 +1,9 @@
 <article class="card border-light">
   <div class="card-body px-3 py-2">
-    <h3 class="card-title mb-1 fs-5">
-      {{- .Params.event | markdownify -}}
-      <small> &ndash; {{ partial "meta/talk" . }}. </small>
-    </h3>
+    <div class="card-title mb-0">
+      <h3 class="mb-0 fs-5">{{- .Params.event | markdownify -}}</h3>
+      <p class="mb-1">{{ partial "meta/talk" . }}.</p>
+    </div>
 
     {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}"
       ><i class="bi bi-calendar-event"></i>&nbsp;{{ i18n "event" }}</a

@@ -2,7 +2,7 @@
   <div class="card-body px-3 py-2">
     <div class="card-title mb-2">
       <h3 class="mb-1 fs-5">{{ .Title | markdownify }}</h3>
-      <small>{{ partial "meta/post" . }}</small>
+      <p>{{ partial "meta/post" . }}</p>
     </div>
     <div class="card-text">
       {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else
