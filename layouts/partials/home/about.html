@@ -1,5 +1,12 @@
 <article>
-  <img src="/img/photo.jpg" width="150px" class="float-end m-2" alt="Photo" />
+  <a href="/img/photo.jpg">
+    <img
+      src="/img/photo.jpg"
+      width="150px"
+      class="float-sm-end m-2 img-thumbnail"
+      alt="Photo"
+    />
+  </a>
   <h1>{{ .Site.Author.first_name }} {{.Site.Author.last_name }}</h1>
 
   <article>{{- .Content -}}</article>
