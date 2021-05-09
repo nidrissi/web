@@ -51,9 +51,9 @@ Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture"
 Vous aurez droit aux notes de cours imprimées ou manuscrites durant l'examen.
 Le matériel électronique sera interdit.
 
-<div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<!-- <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> -->
 
-<div class="row row-cols-1 row-cols-md-2 mt-3">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
 <div class="col mb-3">
   <div class="card">
     <div class="card-body">
