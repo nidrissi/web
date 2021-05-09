@@ -1,50 +1,52 @@
-<article class="row">
-  <section class="col-md-3 card border-light text-center">
-    <img class="card-img-top w-75 mx-auto" src="/img/photo.jpg" alt="Photo" />
-    <div class="card-body">
-      <h5 class="card-title">
-        {{ .Site.Author.first_name }} {{.Site.Author.last_name }}
-      </h5>
-      <h6 class="card-subtitle mb-1">{{ .Site.Author.role }}</h6>
-      <p class="card-text">
-        {{- delimit .Site.Author.organizations " & " | markdownify -}}
-      </p>
-    </div>
-  </section>
-  <section class="col">
-    <article>{{- .Content -}}</article>
+<article>
+  <img src="/img/photo.jpg" width="150px" class="float-end m-2" alt="Photo" />
+  <h1>{{ .Site.Author.first_name }} {{.Site.Author.last_name }}</h1>
 
-    <p class="small">
-      ({{ i18n "last_updated" }} {{ .Lastmod.Format .Site.Params.date_format }})
-    </p>
+  <article>{{- .Content -}}</article>
 
-    <h4>Contact</h4>
-      {{- with .Site.Author.email -}}
-      <p class="mb-0">
-        <i class="bi bi-envelope"></i>&nbsp;<a href="mailto:{{ . }}">{{ . }}</a>
-      </p>
-      {{- end -}} {{- with .Site.Author.phone -}}
-      <p class="mb-0">
-        <i class="bi bi-telephone"></i>&nbsp;<a href="tel:{{ .ugly }}">{{ .pretty }}</a>
-      </p>
-      {{- end -}} {{- with .Site.Author.address -}}
-      <p class="mb-0">
-        <i class="bi bi-map"></i>&nbsp;{{- delimit . " &bull; " -}}
-      </p>
-      {{- end -}} {{- with .Site.Author.office -}}
-      <p class="mb-0">
-        <i class="bi bi-building"></i>&nbsp;{{- i18n "office"}} {{ . -}}
-      </p>
-      {{- end -}} {{- with .Site.Author.github -}}
-      <p class="mb-0">
-        <i class="bi bi-github"></i>&nbsp;<a href="https://github.com/{{ . }}" rel="me">GitHub</a>
-      </p>
-      {{- end -}} {{- with .Site.Author.mathoverflow -}}
-      <p class="mb-0">
-        <i class="bi bi-circle"></i>&nbsp;<a href="https://mathoverflow.net/users/{{ . }}" rel="me"
-        p>MathOverflow</a
-        >
-      </li>
-      {{- end -}}
-  </section>
+  <p class="small">
+    ({{ i18n "last_updated" }} {{ .Lastmod.Format .Site.Params.date_format }})
+  </p>
+
+  <span class="h4">Contact</span>
+  {{- with .Site.Author.email -}}
+  <p class="mb-0">
+    <i class="bi bi-envelope"></i>&nbsp;<a href="mailto:{{ . }}">{{ . }}</a>
+  </p>
+  {{- end -}} {{- with .Site.Author.organizations -}}
+  <p class="mb-0">
+    <i class="bi bi-building"></i>&nbsp;{{- delimit . " & " | markdownify -}}
+  </p>
+  {{- end -}} {{- with .Site.Author.address -}}
+  <p class="mb-0">
+    <i class="bi bi-map"></i>&nbsp;{{- delimit . " &bull; " -}}
+  </p>
+  {{- end -}} {{- with .Site.Author.office -}}
+  <p class="mb-0">
+    <i class="bi bi-door-open"></i>&nbsp;{{- i18n "office"}} {{ . -}}
+  </p>
+  {{- end -}} {{- with .Site.Author.phone -}}
+  <p class="mb-0">
+    <i class="bi bi-telephone"></i>&nbsp;<a href="tel:{{ .ugly }}"
+      >{{ .pretty }}</a
+    >
+  </p>
+  {{- end -}} {{- with .Site.Author.github -}}
+  <p class="mb-0">
+    <i class="bi bi-github"></i>&nbsp;<a
+      href="https://github.com/{{ . }}"
+      rel="me"
+      >GitHub</a
+    >
+  </p>
+  {{- end -}} {{- with .Site.Author.mathoverflow -}}
+  <p class="mb-0">
+    <i class="bi bi-circle"></i>&nbsp;<a
+      href="https://mathoverflow.net/users/{{ . }}"
+      rel="me"
+      p
+      >MathOverflow</a
+    >
+  </p>
+  {{- end -}}
 </article>
