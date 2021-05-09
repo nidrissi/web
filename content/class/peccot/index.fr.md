@@ -43,7 +43,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
 
 <div class="row row-cols-1 row-cols-md-2">
 <div class="col mb-3">
-<div class="card">
+<div class="card h-100">
   <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm"><img src="thumb1.jpg" class="card-img-top" /></a>
   <div class="card-body">
     <h5 class="card-title">Leçon 1</h5>
@@ -61,7 +61,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
 </div>
 
 <div class="col mb-3">
-<div class="card">
+<div class="card h-100">
   <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm"><img src="thumb2.jpg" class="card-img-top" /></a>
   <div class="card-body">
     <h5 class="card-title">Leçon 2</h5>
@@ -79,7 +79,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
 </div>
 
 <div class="col mb-3">
-<div class="card">
+<div class="card h-100">
   <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm"><img src="thumb3.jpg" class="card-img-top" /></a>
   <div class="card-body">
     <h5 class="card-title">Leçon 3</h5>
@@ -101,7 +101,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
 </div>
 
 <div class="col mb-3">
-<div class="card">
+<div class="card h-100">
   <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm"><img src="thumb4.jpg" class="card-img-top" /></a>
   <div class="card-body">
     <h5 class="card-title">Leçon 4</h5>
