@@ -9,6 +9,6 @@ eventURL: https://mathematics.haifa.ac.il/?cat=6
 location: University of Haifa (online)
 urls:
   pdf:
-  slides:
+  slides: haifa21.pdf
   video:
 ---
