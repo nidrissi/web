@@ -52,9 +52,9 @@ To access the different videos, click on the playlist icon in the top right of t
 This will be an open-book exam: you will have access to printed and handwritten lecture notes.
 Electronic devices will be forbidden.
 
-<div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<!-- <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The course's YouTube playlist."></iframe></div> -->
 
-<div class="row row-cols-1 row-cols-md-2 mt-3">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
 <div class="col mb-3">
   <div class="card">
     <div class="card-body">
