@@ -2,21 +2,11 @@
 <html lang="{{ .Site.LanguageCode }}">
   {{- partial "header" . -}}
   <body>
-    {{- partial "navbar" . -}}
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-8 offset-lg-2 py-3">
-          {{- partial "draft" . -}}
+    {{- partial "navbar" . -}} {{- partial "draft" . -}}
+    <div class="container">
+      <section>{{- block "main" . -}}{{- end -}}</section>
 
-          <section>{{- block "main" . -}}{{- end -}}</section>
-
-          {{ partial "footer" . }}
-        </div>
-
-        {{- if or .Params.toc .Params.sidebar -}}
-        <aside class="col">{{- partial "sidebar" . -}}</aside>
-        {{- end -}}
-      </div>
+      {{ partial "footer" . }}
     </div>
     {{- partial "toast" . -}}
   </body>
