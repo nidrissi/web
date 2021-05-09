@@ -56,11 +56,13 @@ Electronic devices will be forbidden.
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-3">
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 1</h5>
       <h6 class="card-subtitle mb-2">Monday January 11<sup>th</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0 mt-2">Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of   model categories. (Sections 1.1 and 1.2)</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/cilKcPVEnX0" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -68,11 +70,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 2</h5>
       <h6 class="card-subtitle mb-2">Friday January 15<sup>th</sup>, 15:45–17:45</h6>
       <p class="card-text mt-2 mb-0">Definition of model categories and first examples (Section 1.3)</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwp_LIfgCS5Yjv4-A" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/RSANbPkQaFw" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -80,11 +84,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 3</h5>
       <h6 class="card-subtitle mb-2">Monday January 18<sup>th</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0">Definition and construction of the localization of a category with respect to a class of weak equivalence, definition of left homotopies, first properties, dual case of right homotopies (Sections 1.4.1 and 1.4.2).</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/AA1WQWUG2II" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -92,11 +98,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 4</h5>
       <h6 class="card-subtitle mb-2">Friday January 22<sup>nd</sup>, 15:45–17:45</h6>
       <p class="card-text mb-0">End of Section 1.4: explicit description of the homotopy category of a model category, Whitehead theorem.</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/PEEUQ21TF2E" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -104,11 +112,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 5</h5>
       <h6 class="card-subtitle mb-2">Monday January 25<sup>th</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0">Section 1.5.1: The proof of the existence of the projective model structure on the category of bounded-below chain complexes.</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/DICgkRcuR0s" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -116,11 +126,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 6</h5>
       <h6 class="card-subtitle mb-2">Friday January 29<sup>th</sup>, 15:45–17:45</h6>
       <p class="card-text mb-0">Existence theorem for cofibration generated model categories (Section 1.5.2), Quillen adjunctions (beginning of Section 1.6).</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/0oIAdwMu_nY" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -128,11 +140,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 7</h5>
       <h6 class="card-subtitle mb-2">Monday February 1<sup>st</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0">Definition of Quillen equivalences and characterization, homotopy limits and colimits.</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/bv0oGULtfaw" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -140,11 +154,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 8</h5>
       <h6 class="card-subtitle mb-2">Friday February 5<sup>th</sup>, 15:45–17:45</h6>
       <p class="card-text mb-0">Reminders on simplicial sets and beginning of the proof of the existence of the Quillen model structure on the category of simplicial sets (Sections 2.1, 2.2, 2.3, and beginning of 2.4).</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/3jz0g8RVPS8" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -152,11 +168,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 9</h5>
       <h6 class="card-subtitle mb-2">Monday February 8<sup>th</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0">Continuation of the proof of the existence of the Quillen model structure on simplicial sets, anodynes extensions, simplicial homotopy groups.</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/LEgUKKzM8KE" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -164,11 +182,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 10</h5>
       <h6 class="card-subtitle mb-2">Friday February 12<sup>th</sup>, 15:45–17:45</h6>
       <p class="card-text mb-0">End of the proof of the Quillen equivalence between simplicial sets and topological spaces. Left Bousfield localization and rational homotopy theory.</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/gckfIqqkO-U" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -176,11 +196,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 11</h5>
       <h6 class="card-subtitle mb-2">Monday February 15<sup>th</sup>, 10:45–12:45</h6>
       <p class="card-text mb-0">Transferred model structure on CDGAs and Sullivan algebras.</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/UDbgtU00wpg" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
@@ -188,11 +210,13 @@ Electronic devices will be forbidden.
 </div>
 
 <div class="col mb-3">
-  <div class="card">
+  <div class="card h-100">
     <div class="card-body">
       <h5 class="card-title">Lecture 12</h5>
       <h6 class="card-subtitle mb-2">Friday February 19<sup>th</sup>, 15:45–17:45</h6>
       <p class="card-text mb-0">Equivalence between CDGAs and rational homotopy types through the PL forms. Applications of Sullivan's theory: models of spaces, dichotomy theorem...</p>
+    </div>
+    <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/tp8uJpazaaM" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
