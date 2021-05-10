@@ -1,22 +1,29 @@
 <hr />
 <footer class="text-muted text-center">
-  {{ .Site.Author.first_name }} {{ .Site.Author.last_name }} &bull; {{ delimit
-  .Site.Author.organizations " & " | markdownify }} &bull;
-  <a href="mailto:{{ .Site.Author.email }}"
+  {{ .Site.Author.first_name }} {{ .Site.Author.last_name }} &bull; {{ partial
+  "organizations" . }} &bull;
+  <a href="mailto:{{ .Site.Author.email }}" class="text-decoration-none"
     ><i class="bi bi-envelope"></i>&nbsp;{{ .Site.Author.email }}</a
   >
   &bull;
-  <a href="https://github.com/{{ .Site.Author.github }}" rel="me"
+  <a
+    href="https://github.com/{{ .Site.Author.github }}"
+    class="text-decoration-none"
+    rel="me"
     ><i class="bi bi-github"></i>&nbsp;GitHub</a
   >
   &bull;
   <a
     href="https://mathoverflow.net/users/{{ .Site.Author.mathoverflow }}"
+    class="text-decoration-none"
     rel="me"
     >MathOverflow</a
   >
   &bull;
-  <a href="https://twitter.com/{{ .Site.Author.twitter }}" rel="me"
+  <a
+    href="https://twitter.com/{{ .Site.Author.twitter }}"
+    class="text-decoration-none"
+    rel="me"
     ><i class="bi bi-twitter"></i>&nbsp;Twitter</a
   >
 </footer>
