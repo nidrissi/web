@@ -2,13 +2,13 @@
     {{- i18n "published_on" }}
     <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ .Date.Format .Site.Params.date_format -}}</time>.
 </span>
-{{- if ne (dateFormat "2006-01-02" .Lastmod) (dateFormat "2006-01-02" .Date) }}
+{{- if ne .Lastmod .Date }}
 <span class="me-2">
-    {{ i18n "last_updated" }}
+    {{- i18n "last_updated" }}
     <time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">{{- .Lastmod.Format .Site.Params.date_format -}}</time>.
 </span>
 {{- end }}
-{{ range $k, $v := $.Params.tags -}}
+{{- range $k, $v := $.Params.tags -}}
  <a href="{{ "tags" | relLangURL }}{{ . | urlize | lower }}" class="text-decoration-none me-2">#{{ . }}</a>
 {{- end -}}
 {{- partial "links" . -}}
