@@ -1,10 +1,7 @@
-<article class="card border-light">
-  <div class="card-body px-3 py-2">
-    <div class="card-title mb-0">
-      <h3 class="mb-0 fs-5">{{- .Params.event | markdownify -}}</h3>
-      <p class="mb-1">{{ partial "meta/talk" . }}.</p>
-    </div>
-
+<article>
+  <h3 class="mb-0 fs-5">{{- .Params.event | markdownify -}}</h3>
+  <p class="mb-0 text-muted">{{ partial "meta/talk" . }}.</p>
+  <p>
     {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}"
       ><i class="bi bi-calendar-event"></i>&nbsp;{{ i18n "event" }}</a
     >{{- end -}} {{- if (or .Params.Title .Params.Abstract) }}
@@ -18,8 +15,9 @@
       >{{ i18n "title" }} &amp; {{ i18n "abstract" }}</a
     >
     {{- end -}} {{- partial "links" (dict "content" . "is_card" 1) -}}
-
-    <p id="talk-{{ .File.UniqueID }}" class="collapse card-text">
+  </p>
+  <div class="collapse" id="talk-{{ .File.UniqueID }}">
+    <p class="border rounded p-1">
       {{- with .Params.Title -}}<strong>{{ . | markdownify }}</strong><br />{{-
       end -}} {{- with .Params.Abstract -}}{{- i18n "abstract" -}}: {{ . -}}{{-
       end -}}

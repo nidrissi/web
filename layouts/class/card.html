@@ -1,13 +1,11 @@
-<article class="card border-light">
-  <div class="card-body px-3 py-2">
-    <h3 class="card-title mb-1 fs-5">
-      {{- if .Content -}}<a href="{{ .Permalink -}}"
-        >{{- end -}} {{- markdownify .Title -}} {{- if .Content -}}</a
-      >{{- end }}
-    </h3>
-    <p class="card-text">
-      {{ partial "meta/cours" . -}} {{ partial "links" (dict "content" .
-      "is_card" 0 "is_li" 1) }}
-    </p>
-  </div>
+<article>
+  <h3 class="mb-0 fs-5">
+    {{- if .Content -}}<a href="{{ .Permalink -}}" class="text-decoration-none"
+      >{{- end -}} {{- markdownify .Title -}} {{- if .Content -}}</a
+    >{{- end }}
+  </h3>
+  <p class="text-muted">
+    {{ partial "meta/cours" . -}} {{ partial "links" (dict "content" . "is_card"
+    0 "is_li" 1) }}
+  </p>
 </article>

@@ -1,15 +1,19 @@
 <article>
   <h3 class="mb-1 fs-5">
-    {{ .Title | markdownify }} {{ if or .Params.summary .Truncated }}
-    <a
-      href="{{ .Permalink }}"
-      class="border border-success px-1 rounded-pill fw-light ms-2 text-decoration-none link-success fs-6"
-      >{{ i18n "continue_reading" }}&nbsp;<i class="bi bi-arrow-right"></i
-    ></a>
-    {{- end -}}
+    <a href="{{ .Permalink }}" class="text-decoration-none">
+      {{ .Title | markdownify }}
+    </a>
   </h3>
-  <p>{{ partial "meta/post" . }}</p>
+  <p class="text-muted">{{ partial "meta/post" . }}</p>
 
   {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else if
-  .Truncated -}} {{- .Summary -}} {{- else -}} {{- .Content -}} {{- end -}}
+  .Truncated -}} {{- .Summary -}} {{- else -}} {{- .Content -}} {{- end -}} {{
+  if or .Params.summary .Truncated }}
+  <p>
+    <a href="{{ .Permalink }}" class="text-decoration-none link-success fs-6"
+      >{{ i18n "continue_reading" }}&nbsp;<i class="bi bi-arrow-right"></i
+    ></a>
+  </p>
+  {{- end -}}
+  <hr />
 </article>
