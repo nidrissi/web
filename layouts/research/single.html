@@ -1,5 +1,6 @@
 {{- define "main" -}}
 <article>
+  {{ partial "sidebar-button" .}}
   <h1 class="mb-0">{{- .Title | markdownify -}}</h1>
   <p class="fs-4">
     {{- partial "meta/research" . }} {{- partial "links" (dict "content" .
