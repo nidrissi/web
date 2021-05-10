@@ -6,5 +6,5 @@
   <a class="card-link text-decoration-none" href="{{ .Permalink }}"
     ><i class="bi bi-search"></i>&nbsp;Info</a
   >
-  {{ partial "links" (dict "content" . "is_card" 0 "is_li" 1) }}
+  {{ partial "links" . }}
 </li>
