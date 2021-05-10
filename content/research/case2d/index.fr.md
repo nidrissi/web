@@ -17,7 +17,7 @@ urls:
   slides:
   video:
   source: https://arxiv.org/e-print/1911.12281
-  arxiv: 1911.12281
+  arxiv: "1911.12281"
   doi:
   mathrev:
   zbmath:
