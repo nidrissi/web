@@ -8,7 +8,7 @@ publication: "In: *Grad. J. Math* 1.1, pp. 9--17"
 title: Opérades et Structures Commutatives à Homotopie Près
 urls:
   pdf: gradmath.pdf
-  mathrev: 3848667
+  mathrev: "3848667"
   custom:
     - name: Journal
       url: http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/

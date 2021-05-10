@@ -37,7 +37,7 @@ $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
 {{- end -}}
 <!-- zbMath -->
 {{- with $.Params.urls.zbmath -}}
-{{ partial "badge" (dict "url" (printf "https://zbmath.org/?q=an:%s" .)) }}
+{{ partial "badge" (dict "url" (printf "https://zbmath.org/?q=an:%s" .) "label" (printf "zb:%s" .)) }}
 {{- end -}}
 <!-- source -->
 {{- with $.Params.urls.source -}} {{- $link := . -}}{{- with
