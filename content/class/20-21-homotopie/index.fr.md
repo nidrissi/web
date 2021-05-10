@@ -62,7 +62,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Analogies entre les différentes théories de l'homotopie : espaces topologiques, ensembles   simpliciaux, complexes de chaînes. Motivation pour la notion de catégories de modèles. (Co)fibrations vs. injections/  surjections. Définition des catégories de modèles. (Sections 1.1 et 1.2)</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/cilKcPVEnX0" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -76,7 +76,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Définition des catégories de modèles et premiers exemples (Section 1.3)</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwp_LIfgCS5Yjv4-A" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwp_LIfgCS5Yjv4-A" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/RSANbPkQaFw" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -90,7 +90,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Définition et construction de la localisation d'une catégorie, définition des homotopies à gauche, premières propriétés, cas dual des homotopies à droite (Sections 1.4.1 et 1.4.2).</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/AA1WQWUG2II" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -104,7 +104,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Fin de la Section 1.4 : description explicite de la catégorie homotopique d'une catégorie de modèles, théorème de Whitehead.</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" class="card-link"></i>&nbsp;Blackboard</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/PEEUQ21TF2E" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -118,7 +118,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Section 1.5.1 : preuve de l'existence de la structure projective sur la catégorie des complexes de chaînes bornés inférieurement.</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/DICgkRcuR0s" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -132,7 +132,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Théorème d'existence des catégories de modèles cofibrement engendrées (Section 1.5.2), adjonctions de Quillen (début de la section 1.6).</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/0oIAdwMu_nY" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -146,7 +146,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Définition des équivalences de Quillen et caractérisation, limites et colimites homotopiques.</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/bv0oGULtfaw" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -160,7 +160,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Rappels sur les ensembles simpliciaux et début de la preuve de l'existence de la structure de Quillen sur la catégorie des ensembles simpliciaux (Sections 2.1, 2.2, 2.3 et début 2.4).</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" class="card-link"></i>&nbsp;Blackboard</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/3jz0g8RVPS8" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -174,7 +174,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Suite de la preuve de l'existence de la structure de Quillen sur les ensembles simpliciaux, extensions anodines, groupes d'homotopie simpliciaux.</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" class="card-link"></i>&nbsp;Blackboard</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Blackboard</a>
       <a href="https://youtu.be/LEgUKKzM8KE" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
   </div>
@@ -188,7 +188,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Fin de la preuve de l'équivalence de Quillen entre les ensembles simpliciaux et les espaces topologiques. Localisation de Bousfield et homotopie rationnelle.</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/gckfIqqkO-U" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
     </div>
   </div>
@@ -202,7 +202,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Structure de modèles transférée sur les ADGC et algèbres de Sullivan.</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/UDbgtU00wpg" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
@@ -216,7 +216,7 @@ Le matériel électronique sera interdit.
       <p class="card-text mb-0">Equivalence entre les ADGC et les types d'homotopie rationnelle au travers des formes PL. Applications de la théorie des modèles de Sullivan : modèles d'espaces, théorème de la dichotomie...</p>
     </div>
     <div class="card-footer">
-      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" class="card-link"></i>&nbsp;Tableau</a>
+      <a href="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" class="card-link"><i class="bi bi-fullscreen"></i>&nbsp;Tableau</a>
       <a href="https://youtu.be/tp8uJpazaaM" class="card-link"><i class="bi bi-play-circle"></i>&nbsp;Vidéo</a>
     </div>
   </div>
