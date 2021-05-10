@@ -15,11 +15,9 @@ sidebar:
   - "[Solution of the exam (fr)](examen-fr-corrigé.pdf)"
   - "[Exam (en)](examen-en.pdf)"
 urls:
-  pdf: homotopie.pdf
+  notes: homotopie.pdf
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
-
-<p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text"></i>&nbsp;Lecture notes are here.</b></a></p>
 
 The goal of this course is to introduce modern homotopy theory, its tools and applications.
 We will be particularly interested in two examples: chain complexes (see the previous Homology course) and topological spaces.
