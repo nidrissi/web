@@ -1,5 +1,6 @@
 ---
 title: Teaching
+abstract: All the classes I have taught and/or am currently teaching.
 menu:
   main:
     weight: 40

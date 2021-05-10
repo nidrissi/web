@@ -1,5 +1,6 @@
 ---
-title: Exposés récents et à venir
+title: Exposés
+abstract: Les exposés récents et à venir de Najib Idrissi.
 url: /fr/expose/
 menu:
   main:

@@ -1,5 +1,6 @@
 ---
 title: Blog
+abstract: The blog of Najib Idrissi.
 menu:
   main:
     weight: 60

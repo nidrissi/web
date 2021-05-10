@@ -1,5 +1,6 @@
 ---
 title: Enseignement
+abstract: Les cours que j'ai donné et/ou vais donner.
 url: /fr/cours/
 menu:
   main:

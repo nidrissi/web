@@ -1,5 +1,6 @@
 ---
 title: Blog
+abstract: Le blog de Najib Idrissi.
 url: /fr/billet/
 menu:
   main:
