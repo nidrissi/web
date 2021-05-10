@@ -7,7 +7,7 @@ publication: "In: *Invent. Math* 216.1, p. 1--68"
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:
   pdf: ls-model.pdf
-  arxiv: 1608.08054
+  arxiv: "1608.08054"
   source: https://arxiv.org/e-print/1608.08054
   hal: "01438861"
   doi: 10.1007/s00222-018-0842-9

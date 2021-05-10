@@ -9,6 +9,6 @@
 </span>
 {{- end }}
 {{- range .Params.tags -}}
- <a href="{{ "tags" | relLangURL }}/{{ . | urlize | lower }}" class="text-decoration-none me-2">#{{ . }}</a>
+{{- partial "badge" (dict "url" (printf "%s/%s" (relLangURL "tags") (lower (urlize .))) "icon" "hash" "label" .) -}}
 {{- end -}}
 {{- partial "links" . -}}
