@@ -1,4 +1,4 @@
-<article class="py-1">
+<article class="py-2">
   <h3 class="mb-1 fs-5">
     <a href="{{ .Permalink }}" class="text-decoration-none">
       {{ .Title | markdownify }}
@@ -6,13 +6,12 @@
   </h3>
   <p class="text-muted">{{ partial "meta/post" . }}</p>
 
-  {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else if
-  .Truncated -}} {{- .Summary -}} {{- else -}} {{- .Content -}} {{- end -}} {{
-  if or .Params.summary .Truncated }}
+  {{ if .Truncated }} {{ .Summary }} {{ else }} {{ .Content }} {{ end }} {{ if
+  .Truncated }}
   <p>
     <a href="{{ .Permalink }}" class="text-decoration-none link-success fs-6"
       >{{ i18n "continue_reading" }}&nbsp;<i class="bi bi-arrow-right"></i
     ></a>
   </p>
-  {{- end -}}
+  {{ end }}
 </article>
