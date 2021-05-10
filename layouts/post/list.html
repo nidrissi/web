@@ -10,13 +10,18 @@
     <li class="page-item {{ if not .Paginator.HasPrev }}disabled{{ end }}">
       <a
         class="page-link"
-        {{
+        {{-
         if
         .Paginator.HasPrev
-        }}href="{{ .Paginator.Prev.URL }}"
-        {{
+        -}}
+        href="{{ .Paginator.Prev.URL }}"
+        {{-
+        else
+        -}}
+        href="#"
+        {{-
         end
-        }}
+        -}}
       >
         <i class="bi bi-arrow-left" aria-label="Previous"></i>
       </a>
@@ -39,13 +44,18 @@
     <li class="page-item {{ if not .Paginator.HasNext }}disabled{{ end }}">
       <a
         class="page-link"
-        {{
+        {{-
         if
         .Paginator.HasNext
-        }}href="{{ .Paginator.Next.URL }}"
-        {{
+        -}}
+        href="{{ .Paginator.Next.URL }}"
+        {{-
+        else
+        -}}
+        href="#"
+        {{-
         end
-        }}
+        -}}
       >
         <i class="bi bi-arrow-right" aria-label="Next"></i>
       </a>
