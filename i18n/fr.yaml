@@ -30,7 +30,7 @@
   translation: Auteur(s)
 # Posts widget
 - id: blog
-  translation: Blog
+  translation: Billet
 - id: continue_reading
   translation: lire la suite
 # Talks widget

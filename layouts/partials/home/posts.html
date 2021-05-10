@@ -1,9 +1,7 @@
 <section>
   <h2 class="mb-3">{{ i18n "blog" }}</h2>
 
-  {{- range first .Site.Params.homeCounts.post (where .Site.RegularPages "Type" "post") -}}
-  {{- .Render "card" -}}
-  {{- end -}}
-
-  {{- partial "seemore" (ref . "post/") -}}
+  {{- range first .Site.Params.homeCounts.post (where .Site.RegularPages "Type"
+  "post") -}} {{- .Render "card" -}} {{- end -}} {{- partial "seemore" (dict
+  "ref" (ref . "post/") "label" (i18n "blog")) -}}
 </section>
