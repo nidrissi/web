@@ -119,10 +119,7 @@
     content="{{ .Title }}{{ with
     .Params.event }} @ {{ . }}{{ end }}"
   />
-  <meta
-    property="og:description"
-    content="{{- with .Params.abstract -}}{{- . -}}{{- else -}}{{- .Summary -}}{{- end -}}"
-  />
+  <meta property="og:description" content="{{- $description -}}" />
   <meta property="og:article:published_time" content="{{ .Date }}" />
   {{ with .Lastmod }}
   <meta property="og:article:modified_time" content="{{ . }}" />

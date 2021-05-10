@@ -1,5 +1,6 @@
 ---
-title: Recent & Upcoming Talks
+title: Talks
+abstract: The recent and upcoming talks of Najib Idrissi.
 menu:
   main:
     weight: 30
