@@ -15,11 +15,9 @@ sidebar:
   - "[Examen corrigé (fr)](examen-fr-corrigé.pdf)"
   - "[Examen (en)](examen-en.pdf)"
 urls:
-  pdf: homotopie.pdf
+  notes: homotopie.pdf
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
 ---
-
-<p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text"></i>&nbsp;Les notes de cours sont disponibles ici.</b></a></p>
 
 L'objectif de ce cours est d'introduire la théorie de l'homotopie moderne, ses outils et ses applications.
 Nous nous intéresserons particulièrement à deux exemples : les complexes de chaînes (cf. les cours d'algèbre homologique et de topologique algébrique) et les espaces topologiques.
