@@ -1,19 +1,15 @@
-<article class="card border-light">
-  <div class="card-body px-3 py-2">
-    <div class="card-title mb-2">
-      <h3 class="mb-1 fs-5">{{ .Title | markdownify }}</h3>
-      <p>{{ partial "meta/post" . }}</p>
-    </div>
-    <div class="card-text">
-      {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else
-      if .Truncated -}} {{- .Summary -}} {{- else -}} {{- .Content -}} {{- end
-      -}} {{- if or .Params.summary .Truncated -}}
-      <div class="d-grid">
-        <a href="{{ .Permalink }}" class="btn btn-outline-success" role="button"
-          >{{ i18n "continue_reading" }}&nbsp;▷</a
-        >
-      </div>
-      {{- end -}}
-    </div>
-  </div>
+<article>
+  <h3 class="mb-1 fs-5">
+    {{ .Title | markdownify }} {{ if or .Params.summary .Truncated }}
+    <a
+      href="{{ .Permalink }}"
+      class="border border-success px-1 rounded-pill fw-light ms-2 text-decoration-none link-success fs-6"
+      >{{ i18n "continue_reading" }}&nbsp;▷</a
+    >
+    {{- end -}}
+  </h3>
+  <p>{{ partial "meta/post" . }}</p>
+
+  {{- if .Params.summary -}} {{- .Params.summary | markdownify -}} {{- else if
+  .Truncated -}} {{- .Summary -}} {{- else -}} {{- .Content -}} {{- end -}}
 </article>
