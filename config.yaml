@@ -6,7 +6,6 @@ markup:
     renderer:
       unsafe: true
 params:
-  currentYear: 2020–2021
   homeCounts:
     talk: 5
     post: 5
