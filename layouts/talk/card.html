@@ -2,11 +2,13 @@
   <h3 class="mb-0 fs-5">{{- .Params.event | markdownify -}}</h3>
   <p class="mb-0 text-muted">{{ partial "meta/talk" . }}.</p>
   <p>
-    {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}"
+    {{- with .Params.eventURL -}}<a
+      class="card-link text-decoration-none"
+      href="{{ . }}"
       ><i class="bi bi-calendar-event"></i>&nbsp;{{ i18n "event" }}</a
     >{{- end -}} {{- if (or .Params.Title .Params.Abstract) }}
     <a
-      class="card-link dropdown-toggle"
+      class="card-link text-decoration-none dropdown-toggle"
       data-bs-toggle="collapse"
       href="#talk-{{ .File.UniqueID }}"
       role="button"

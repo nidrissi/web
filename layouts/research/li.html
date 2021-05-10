@@ -3,7 +3,7 @@
   <strong>{{ .Title | markdownify }}</strong>
   {{- if eq .Language.Lang "fr" }}&nbsp;»{{ else }}”{{ end -}}. {{ partial
   "meta/research" . }}
-  <a class="card-link" href="{{ .Permalink }}"
+  <a class="card-link text-decoration-none" href="{{ .Permalink }}"
     ><i class="bi bi-search"></i>&nbsp;Info</a
   >
   {{ partial "links" (dict "content" . "is_card" 0 "is_li" 1) }}

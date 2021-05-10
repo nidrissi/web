@@ -2,7 +2,7 @@
   <h3 class="mb-0 fs-5">{{ .Title | markdownify }}.</h3>
   {{- partial "meta/research" . -}}
   <p>
-    <a class="card-link" href="{{ .Permalink }}"
+    <a class="card-link text-decoration-none" href="{{ .Permalink }}"
       ><i class="bi bi-search"></i>&nbsp;Info</a
     >
     {{- partial "links" (dict "content" . "is_card" 1) -}}

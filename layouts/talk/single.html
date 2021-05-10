@@ -1,7 +1,7 @@
 {{- define "main" -}}
 <article>
   <h1 class="mb-0">
-    {{- with .Params.eventURL -}}<a class="card-link" href="{{ . }}">{{- end -}}
+    {{- with .Params.eventURL -}}<a class="card-link text-decoration-none" href="{{ . }}">{{- end -}}
     {{- .Params.event | markdownify -}}
     {{- if .Params.eventURL }}<i class="bi bi-link"></i>{{- end -}}
   </h1>
