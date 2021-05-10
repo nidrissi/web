@@ -55,7 +55,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     </ul>
   </div>
   <div class="card-footer">
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
+    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
   </div>
 </div>
 </div>
@@ -75,7 +75,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     </ul>
   </div>
   <div class="card-footer">
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
+    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
   </div>
 </div>
 </div>
@@ -99,7 +99,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     </ul>
   </div>
   <div class="card-footer">
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
+    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
   </div>
 </div>
 </div>
@@ -127,7 +127,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     </ul>
   </div>
   <div class="card-footer">
-    <a class="card-link" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
+    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
   </div>
 </div>
 </div>

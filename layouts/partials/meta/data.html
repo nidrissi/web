@@ -5,6 +5,6 @@
 <time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">{{- .Lastmod.Format .Site.Params.date_format -}}</time>
 {{- end }}
 {{ range $k, $v := $.Params.tags -}}
-&bull; <a href="{{ "tags" | relLangURL }}{{ . | urlize | lower }}">#{{ . }}</a>
+&bull; <a href="{{ "tags" | relLangURL }}{{ . | urlize | lower }}" class="text-decoration-none">#{{ . }}</a>
 {{ end }}
 {{ partial "links" (dict "content" . "is_card" 0) }}
