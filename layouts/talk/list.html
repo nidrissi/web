@@ -5,7 +5,7 @@
 <div>{{- . -}}</div>
 {{- end -}} {{- range (where .Data.Pages "Type" "talk").GroupByDate "2006" -}}
 <div class="row">
-  <h3 class="col-md-1 col-lg-2 col-xl-1">{{- .Key -}}</h3>
+  <h2 class="col-md-1 col-lg-2 col-xl-1">{{- .Key -}}</h2>
   <div class="col">
     {{- range .Pages.ByDate.Reverse -}} {{- .Render "card" -}} {{- end -}}
   </div>
