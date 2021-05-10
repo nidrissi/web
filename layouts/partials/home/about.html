@@ -24,9 +24,9 @@
       >{{ . }}</a
     >
   </p>
-  {{- end -}} {{- with .Site.Author.organizations -}}
+  {{- end -}} {{- if .Site.Author.organizations -}}
   <p class="mb-0">
-    <i class="bi bi-building"></i>&nbsp;{{- delimit . " & " | markdownify -}}
+    <i class="bi bi-building"></i>&nbsp;{{ partial "organizations" . }}
   </p>
   {{- end -}} {{- with .Site.Author.address -}}
   <p class="mb-0">
