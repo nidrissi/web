@@ -1,13 +1,11 @@
 <a
   href="#"
   role="button"
-  class="text-decoration-none mx-1"
+  class="text-decoration-none me-2"
   data-bs-toggle="modal"
   data-bs-target="#share-modal-{{ .File.UniqueID }}"
->
-  <i class="bi bi-share"></i>&nbsp;{{ i18n "share" }}
+  ><i class="bi bi-share"></i>&nbsp;{{- i18n "share" -}}
 </a>
-
 <div
   class="modal fade"
   id="share-modal-{{ .File.UniqueID }}"

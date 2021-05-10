@@ -3,12 +3,12 @@
   <p class="mb-0 text-muted">{{ partial "meta/talk" . }}.</p>
   <p>
     {{- with .Params.eventURL -}}<a
-      class="text-decoration-none mx-1"
+      class="text-decoration-none me-2"
       href="{{ . }}"
       ><i class="bi bi-calendar-event"></i>&nbsp;{{ i18n "event" }}</a
     >{{- end -}} {{- if (or .Params.Title .Params.Abstract) }}
     <a
-      class="text-decoration-none mx-1 dropdown-toggle"
+      class="text-decoration-none me-2 dropdown-toggle"
       data-bs-toggle="collapse"
       href="#talk-{{ .File.UniqueID }}"
       role="button"
