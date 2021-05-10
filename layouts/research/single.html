@@ -2,10 +2,8 @@
 <article>
   {{ partial "sidebar-button" .}}
   <h1 class="mb-0">{{- .Title | markdownify -}}</h1>
-  <p class="fs-5">
-    {{- partial "meta/research" . }} {{- partial "links" (dict "content" .
-    "is_card" 0) -}}
-  </p>
+  <p class="fs-5 mb-0">{{- partial "meta/research" . }}</p>
+  <p class="fs-5">{{- partial "links" . -}}</p>
 
   {{- with .Params.abstract -}}
   <blockquote class="blockquote">

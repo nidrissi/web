@@ -11,7 +11,7 @@
       {{ .Lastmod.Format .Site.Params.date_format -}}
     </time>
     {{ end }}
-    {{ partial "links" (dict "content" . "is_card" 0) }}
+    {{ partial "links" . }}
   </p>
   {{- with .Content }}<div>{{ . }}</div>{{ end -}}
 </article>
