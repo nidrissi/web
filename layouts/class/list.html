@@ -1,36 +1,15 @@
-{{- define "main" -}}
+{{ define "main" }}
 <h1>{{ markdownify .Title }}</h1>
 
-<div class="accordion" id="accordionCours">
-  {{- $current := .Site.Params.currentYear -}} {{- range (.Pages.GroupByParam
-  "year").Reverse -}}
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="heading-{{ .Key }}">
-      <button
-        class="accordion-button {{ if not (eq .Key $current) }}collapsed{{ end }}"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#collapse-{{ .Key }}"
-        aria-expanded="true"
-        aria-controls="collapse-{{ .Key }}"
-      >
-        {{- .Key -}}
-      </button>
-    </h2>
+{{- range (.Pages.GroupByParam "year").Reverse -}}
+<section class="row">
+  <h2 class="col-md-1 col-lg-2 col-xl-1" id="heading-{{ .Key }}">
+    {{- .Key -}}
+  </h2>
+  <div class="col">
+    {{- range .Pages.ByDate.Reverse -}} {{- .Render "card" -}} {{- end -}}
   </div>
-  <div
-    id="collapse-{{ .Key }}"
-    class="accordion-collapse collapse {{ if eq .Key $current }}show{{ end }}"
-    aria-labelledby="heading-{{ .Key }}"
-    data-bs-parent="#accordionCours"
-  >
-    <div class="accordion-body">
-      {{- range .Pages.ByDate.Reverse -}} {{- .Render "card" -}} {{- end -}}
-    </div>
-  </div>
-  {{- end -}}
-</div>
-
-{{- with .Content -}}
+</section>
+{{- end -}} {{- with .Content -}}
 <hr />
-{{- . -}} {{- end -}} {{- end -}}
+{{- . -}} {{- end -}} {{ end }}
