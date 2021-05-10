@@ -8,7 +8,7 @@
     <time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">{{- .Lastmod.Format .Site.Params.date_format -}}</time>.
 </span>
 {{- end }}
-{{- range $k, $v := $.Params.tags -}}
- <a href="{{ "tags" | relLangURL }}{{ . | urlize | lower }}" class="text-decoration-none me-2">#{{ . }}</a>
+{{- range .Params.tags -}}
+ <a href="{{ "tags" | relLangURL }}/{{ . | urlize | lower }}" class="text-decoration-none me-2">#{{ . }}</a>
 {{- end -}}
 {{- partial "links" . -}}
