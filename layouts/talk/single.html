@@ -6,7 +6,7 @@
     {{- if .Params.eventURL }}<i class="bi bi-link"></i>{{- end -}}
   </h1>
 
-  <p class="fs-4">{{- partial "meta/talk" . }} {{ partial "links" (dict "content" . "is_card" 0) -}}</p>
+  <p class="fs-5">{{- partial "meta/talk" . }} {{ partial "links" (dict "content" . "is_card" 0) -}}</p>
 
   {{- with .Title -}}<p><strong>{{- markdownify . -}}</strong></p>{{- end -}}
 

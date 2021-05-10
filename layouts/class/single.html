@@ -2,7 +2,7 @@
 <article>
   {{ partial "sidebar-button" .}}
   <h1 class="mb-0">{{ .Title }} ({{ .Params.year }})</h1>
-  <p class="fs-4">
+  <p class="fs-5">
     {{- partial "meta/cours" . }}
     {{- if ne .Lastmod .Date -}}
     &bull;
