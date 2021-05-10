@@ -1,16 +1,30 @@
-<nav class="card">
-  {{- if .Params.toc -}}
-  <div class="card-body">
-    <h6 class="card-title">
+<div
+  class="offcanvas offcanvas-end"
+  data-bs-scroll="true"
+  tabindex="-1"
+  id="sidebar"
+>
+  <div class="offcanvas-header">
+    <span class="offcanvas-title fs-6">
       <i class="bi bi-paragraph"></i>&nbsp;{{ i18n "contents" }}
-    </h6>
-    {{- .TableOfContents -}}
+    </span>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
   </div>
-  {{- end -}} {{- if .Params.sidebar -}}
-  <ul class="list-group list-group-flush">
-    {{- range .Params.sidebar -}}
-    <li class="list-group-item">{{ . | markdownify }}</li>
+  <div class="offcanvas-body">
+    {{ with .TableOfContents }}{{ . }}{{ end }} {{- if .Params.sidebar -}} {{ if
+    .TableOfContents }}
+    <hr />
+    {{ end }}
+    <ul class="list-group list-group-flush">
+      {{- range .Params.sidebar -}}
+      <li class="list-group-item">{{ . | markdownify }}</li>
+      {{- end -}}
+    </ul>
     {{- end -}}
-  </ul>
-  {{- end -}}
-</nav>
+  </div>
+</div>
