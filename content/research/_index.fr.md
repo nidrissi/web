@@ -1,5 +1,6 @@
 ---
 title: Recherche
+abstract: Mes articles de recherche.
 url: /fr/recherche/
 menu:
   main:
