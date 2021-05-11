@@ -1,6 +1,6 @@
 <article>
   <h3 class="mb-0 fs-5">{{- .Params.event | markdownify -}}</h3>
-  <p class="mb-0 text-muted">{{ partial "meta/talk" . }}.</p>
+  <p class="mb-0 text-muted d-inline-block align-middle">{{ partial "meta/talk" . }}.</p>
   <p>
     <!-- eventURL -->
     {{- with .Params.eventURL -}} {{- partial "badge" (dict "url" . "icon"

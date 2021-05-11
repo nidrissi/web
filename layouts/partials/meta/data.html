@@ -1,9 +1,9 @@
-<span class="me-2">
+<span class="me-2 d-inline-block align-middle">
     {{- i18n "published_on" }}
     <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ .Date.Format .Site.Params.date_format -}}</time>.
 </span>
 {{- if ne .Lastmod .Date }}
-<span class="me-2">
+<span class="me-2 d-inline-block align-middle">
     {{- i18n "last_updated" }}
     <time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">{{- .Lastmod.Format .Site.Params.date_format -}}</time>.
 </span>
