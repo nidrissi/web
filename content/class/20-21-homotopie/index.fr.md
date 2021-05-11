@@ -6,6 +6,7 @@ time: 24h
 year: 2020–2021
 date: 2021-01-01
 publishDate: 2020-05-06
+lastMod: 2021-04-02
 sidebar:
   - "[M2 Mathématiques fondamentales](http://master-math-fonda.imj-prg.fr/)"
   - "[**Notes de cours**](homotopie.pdf)"

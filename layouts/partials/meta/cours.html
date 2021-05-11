@@ -1,1 +1,6 @@
-{{ .Params.cursus }} &bull; {{ .Params.what }} &bull; {{ .Params.time }}
+{{ .Params.cursus }} &bull; {{ .Params.what }} &bull; {{ .Params.time -}} {{- if
+ne .Lastmod .Date }} &bull; {{ i18n "last_updated" }}
+<time datetime="{{ dateFormat `2006-01-02` .Lastmod }}">
+  {{- .Lastmod.Format .Site.Params.date_format -}}
+</time>
+{{- end -}}.
