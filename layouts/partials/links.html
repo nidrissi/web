@@ -1,50 +1,46 @@
 <!-- pdf -->
 {{- with $.Params.urls.pdf -}} {{- $link := . -}}{{- with $.Resources.GetMatch
 $link -}}{{- $link = .Permalink -}}{{- end -}}
-{{ partial "badge" (dict "url" (absURL $link) "icon" "file-earmark-text" "label" "PDF") }}
+{{- partial "badge" (dict "url" (absURL $link) "icon" "file-earmark-text" "label" "PDF") -}}
 {{- end -}}
-
 <!-- slides -->
 {{- with $.Params.urls.slides -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
-{{ partial "badge" (dict "url" (absURL $link) "icon" "easel" "label" (i18n "btn_slides")) }}
+{{- partial "badge" (dict "url" (absURL $link) "icon" "easel" "label" (i18n "btn_slides")) -}}
 </a>
 {{- end -}}
-
 <!-- video -->
  {{- with $.Params.urls.video -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
-{{ partial "badge" (dict "url" (absURL $link) "icon" "play-circle" "label" (i18n "btn_video")) }}
+{{- partial "badge" (dict "url" (absURL $link) "icon" "play-circle" "label" (i18n "btn_video")) -}}
 {{- end -}}
-
 <!-- notes -->
 {{- with $.Params.urls.notes -}} {{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
-{{ partial "badge" (dict "url" (absURL $link) "icon" "journal" "label" (i18n "btn_notes")) }}
+{{- partial "badge" (dict "url" (absURL $link) "icon" "journal" "label" (i18n "btn_notes")) -}}
 {{- end -}}
-
 <!-- doi -->
 {{- with $.Params.urls.doi -}}
-{{ partial "badge" (dict "url" (printf "https://doi.org/%s" .) "label" (printf "DOI:%s" .)) }}
+{{- partial "badge" (dict "url" (printf "https://doi.org/%s" .) "label" (printf "DOI:%s" .)) -}}
 {{- end -}}
 <!-- arXiv -->
 {{- with $.Params.urls.arxiv -}}
-{{ partial "badge" (dict "url" (printf "https://arxiv.org/abs/%s" .) "label" (printf "arXiv:%s" .)) }}
+{{- partial "badge" (dict "url" (printf "https://arxiv.org/abs/%s" .) "label" (printf "arXiv:%s" .)) -}}
 {{- end -}}
 <!-- MR -->
 {{- with $.Params.urls.mathrev -}}
-{{ partial "badge" (dict "url" (printf "http://www.ams.org/mathscinet-getitem?mr=%s" .) "label" (printf "MR:%s" .)) }}
+{{- partial "badge" (dict "url" (printf "http://www.ams.org/mathscinet-getitem?mr=%s" .) "label" (printf "MR:%s" .)) -}}
 {{- end -}}
 <!-- zbMath -->
 {{- with $.Params.urls.zbmath -}}
-{{ partial "badge" (dict "url" (printf "https://zbmath.org/?q=an:%s" .) "label" (printf "zb:%s" .)) }}
+{{- partial "badge" (dict "url" (printf "https://zbmath.org/?q=an:%s" .) "label" (printf "zb:%s" .)) -}}
 {{- end -}}
 <!-- source -->
-{{- with $.Params.urls.source -}} {{- $link := . -}}{{- with
+{{- with $.Params.urls.source -}}{{- $link := . -}}{{- with
 $.Resources.GetMatch $link -}}{{- $link = .Permalink -}}{{- end -}}
-{{ partial "badge" (dict "url" (absURL $link) "icon" "file-earmark-code" "label" (i18n "btn_source")) }}
+{{- partial "badge" (dict "url" (absURL $link) "icon" "file-earmark-code" "label" (i18n "btn_source")) -}}
 {{- end -}}
 <!-- custom -->
 {{- range $.Params.urls.custom -}}
-{{ partial "badge" (dict "url" (absURL .url) "label" .name) }}
+{{- partial "badge" (dict "url" (absURL .url) "label" .name) -}}
 {{- end -}}
