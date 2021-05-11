@@ -2,17 +2,9 @@
 <article>
   {{ partial "sidebar-button" .}}
   <h1 class="mb-0">{{ .Title }} ({{ .Params.year }})</h1>
-  <p class="fs-5">
-    {{- partial "meta/cours" . }}
-    {{- if ne .Lastmod .Date -}}
-    &bull;
-    {{ i18n "last_updated" -}}
-    <time datetime="{{ dateFormat "2006-01-02" .Lastmod }}">
-      {{ .Lastmod.Format .Site.Params.date_format -}}
-    </time>
-    {{ end }}
-    {{ partial "links" . }}
-  </p>
-  {{- with .Content }}<div>{{ . }}</div>{{ end -}}
+  <p class="fs-5">{{- partial "meta/cours" . }} {{ partial "links" . }}</p>
+  {{- with .Content }}
+  <div>{{ . }}</div>
+  {{ end -}}
 </article>
 {{- end -}}
