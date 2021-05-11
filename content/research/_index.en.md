@@ -1,5 +1,6 @@
 ---
 title: Research
+abstract: My research papers.
 menu:
   main:
     weight: 20
