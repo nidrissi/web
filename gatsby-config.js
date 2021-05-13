@@ -1,6 +1,7 @@
 module.exports = {
   plugins: [
     "gatsby-plugin-postcss",
+    "gatsby-plugin-catch-links",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -9,12 +10,11 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: "gatsby-plugin-mdx",
       options: {
-        plugins: [
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-        ],
+        extensions: [`.mdx`, `.md`],
+        remarkPlugins: [require("remark-math")],
+        rehypePlugins: [require("rehype-katex")],
       },
     },
   ],

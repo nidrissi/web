@@ -1,6 +1,6 @@
 import React from "react";
 
-const Layout = ({ title, children }) => {
+const Layout = ({ children, title }) => {
   return (
     <div className="container">
       <header>
