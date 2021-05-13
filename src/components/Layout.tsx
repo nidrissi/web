@@ -3,12 +3,21 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 
-const Layout = ({ children, title }) => {
+type LayoutQuery = {
+  site: {
+    siteMetadata: {
+      siteTitle: string;
+      siteUrl: string;
+    };
+  };
+};
+
+const Layout: React.FC<{ title: string }> = ({ children, title }) => {
   const {
     site: {
       siteMetadata: { siteTitle, siteUrl },
     },
-  } = useStaticQuery(
+  }: LayoutQuery = useStaticQuery(
     graphql`
       query {
         site {

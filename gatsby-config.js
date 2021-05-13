@@ -6,6 +6,7 @@ module.exports = {
     description: `Blazing fast modern site generator for React`,
   },
   plugins: [
+    "gatsby-plugin-typescript",
     "gatsby-plugin-postcss",
     "gatsby-plugin-catch-links",
     {

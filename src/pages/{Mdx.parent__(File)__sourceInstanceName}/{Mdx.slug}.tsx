@@ -4,11 +4,24 @@ import React from "react";
 
 import Layout from "../../components/Layout";
 
-const PostTemplate = ({ data }) => {
-  const post = data.mdx;
+type PostTemplateQuery = {
+  mdx: {
+    body: string;
+    frontmatter: {
+      title: string;
+    };
+  };
+};
+
+const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
+  const {
+    body,
+    frontmatter: { title },
+  } = data.mdx;
+
   return (
-    <Layout title={post.frontmatter.title}>
-      <MDXRenderer>{post.body}</MDXRenderer>
+    <Layout title={title}>
+      <MDXRenderer>{body}</MDXRenderer>
     </Layout>
   );
 };
