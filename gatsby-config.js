@@ -1,4 +1,10 @@
 module.exports = {
+  siteMetadata: {
+    siteTitle: `Najib Idrissi's page`,
+    author: `Najib Idrissi`,
+    siteUrl: `https://idrissi.eu`,
+    description: `Blazing fast modern site generator for React`,
+  },
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-catch-links",
