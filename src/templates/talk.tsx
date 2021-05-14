@@ -4,16 +4,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 
-type PostTemplateQuery = {
-  mdx: {
-    body: string;
-    frontmatter: {
-      title: string;
-    };
-  };
-};
-
-const TalkTemplate: React.FC<{ data: PostTemplateQuery }> = ({
+const TalkTemplate: React.FC<{ data: TalkTemplateQuery }> = ({
   data: { mdx },
 }) => {
   const {
@@ -23,8 +14,8 @@ const TalkTemplate: React.FC<{ data: PostTemplateQuery }> = ({
 
   return (
     <Layout title={title}>
-      <h1>{title}</h1>
       <div className="prose prose-blue">
+        <h1>{title}</h1>
         <MDXRenderer>{body}</MDXRenderer>
       </div>
     </Layout>
@@ -32,6 +23,14 @@ const TalkTemplate: React.FC<{ data: PostTemplateQuery }> = ({
 };
 export default TalkTemplate;
 
+type TalkTemplateQuery = {
+  mdx: {
+    body: string;
+    frontmatter: {
+      title: string;
+    };
+  };
+};
 export const query = graphql`
   query ($id: String) {
     mdx(id: { eq: $id }) {
