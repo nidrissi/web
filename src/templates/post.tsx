@@ -23,7 +23,9 @@ const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({
 
   return (
     <Layout title={title}>
-      <MDXRenderer>{body}</MDXRenderer>
+      <div className="prose prose-blue">
+        <MDXRenderer>{body}</MDXRenderer>
+      </div>
     </Layout>
   );
 };
