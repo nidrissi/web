@@ -58,11 +58,11 @@ const Footer: React.FC<{}> = () => {
   ].flat();
 
   return (
-    <footer>
-      <hr className="my-2 w-full" />
+    <footer className="text-center">
+      <hr className="my-2 w-11/12 mx-auto" />
       <div className="flex flex-wrap gap-4 py-2 divide-x divide-gray-300 divide-dotted">
         {links.map((v) => (
-          <div className="flex-auto text-center" key={v.label}>
+          <div className="flex-auto" key={v.label}>
             <a
               href={v.url}
               rel="me"
