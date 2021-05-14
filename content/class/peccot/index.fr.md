@@ -51,7 +51,7 @@ Elles étaient initialement prévues les mercredi 4, 11, 18 et 25 mars 2020 de 1
     <li>Généralités sur les espaces de configuration</li>
     <li>Conjecture de l’invariance homotopique</li>
     <li>Théorie de l’homotopie rationnelle</li>
-    <li>Formalité de {{< tex "\mathrm{Conf}_{\mathbb{R}^n}" >}}</li>
+    <li>Formalité de $\mathrm{Conf}_{\mathbb{R}^n}$</li>
     </ul>
   </div>
   <div class="card-footer">

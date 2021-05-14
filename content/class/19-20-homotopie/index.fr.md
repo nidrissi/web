@@ -14,7 +14,7 @@ sidebar:
   - "[Examen corrigé](examen-corrigé.pdf)"
 ---
 
-Le but de ce cours est de donner une introduction à la théorie de l'homotopie moderne, à ses outils et à ses applications, puis d'introduire la notion d'{{< tex "\infty" >}}-catégorie. On suivra essentiellement deux exemples : l'exemple fondateur des espaces topologiques et l'exemple des complexes de chaînes (au sens des cours d'algèbre homologique et topologie algébrique). On présentera l'axiomatique moderne de l'homotopie, les catégories de modèles de Quillen, et on expliquera l'équivalence entre les espaces topologiques et les ensembles simpliciaux. On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour montrer comment les structures multiplicatives des cochaines (singulières ou de Rham) encodent les espaces à homotopie rationnelle près.
+Le but de ce cours est de donner une introduction à la théorie de l'homotopie moderne, à ses outils et à ses applications, puis d'introduire la notion d'$\infty$-catégorie. On suivra essentiellement deux exemples : l'exemple fondateur des espaces topologiques et l'exemple des complexes de chaînes (au sens des cours d'algèbre homologique et topologie algébrique). On présentera l'axiomatique moderne de l'homotopie, les catégories de modèles de Quillen, et on expliquera l'équivalence entre les espaces topologiques et les ensembles simpliciaux. On illustrera aussi ces méthodes via l'exemple de l'homotopie rationnelle pour montrer comment les structures multiplicatives des cochaines (singulières ou de Rham) encodent les espaces à homotopie rationnelle près.
 
 **Prérequis.** Il est conseillé d'avoir suivi un cours de topologie algébrique ainsi qu'une introduction à l'algèbre homologique.
 
@@ -26,7 +26,7 @@ Le but de ce cours est de donner une introduction à la théorie de l'homotopie 
 2. Foncteurs de Quillen et foncteurs dérivés.
 3. Comparaison des ensembles simpliciaux et espaces topologiques.
 4. Homotopie rationnelle.
-5. Notions de théorie des {{< tex "\infty" >}}-catégories.
+5. Notions de théorie des $\infty$-catégories.
 
 ## Organisation
 
@@ -88,7 +88,7 @@ Mardi 11 février (<i class="bi bi-exclamation-triangle"></i>&nbsp;salle 2017)
 : Section 3.2--3.3 : Structure de catégorie de modèles sur les ADGC, théorie de Sullivan, comparaison avec les ensembles simpliciaux à équivalence rationnelle près.
 
 Jeudi 13 février
-: Chapitre 3 : Quelques applications de la théorie de l'homotopie rationnelle. Chapitre 4 : Introduction très courte aux {{< tex "\infty" >}}-catégories.
+: Chapitre 3 : Quelques applications de la théorie de l'homotopie rationnelle. Chapitre 4 : Introduction très courte aux $\infty$-catégories.
 
 ## Bibliographie
 
@@ -102,7 +102,7 @@ Ouvrages sur la théorie de l'homotopie :
 - **Paul G. Goerss et John F. Jardine. _Simplicial homotopy theory_.** Progress in Mathematics 174. Basel: Birkhäuser Verlag, 1999, pp. xvi+510. ISBN: 3-7643-6064-X. [DOI:10.1007/978-3-0348-8707-6](https://doi.org/10.1007/978-3-0348-8707-6). [MR1711612](http://www.ams.org/mathscinet-getitem?mr=1711612). [Zbl:0949.55001](https://zbmath.org/?q=an%3A0949.55001). <span class="text-muted">[Livre sur les ensembles simpliciaux et leur propriétés homotopiques.]</span>
 - **Kathryn Hess. "Rational homotopy theory: a brief introduction".** In: _Interactions between homotopy theory and algebra_. Contemp. Math. 436. Providence, RI: Amer. Math. Soc., 2007, pp. 175–202. [DOI:10.1090/conm/436/08409](https://dx.doi.org/10.1090/conm/436/08409). [arXiv:math/0604626](http://arxiv.org/abs/math/0604626). [MR2355774](http://www.ams.org/mathscinet-getitem?mr=2355774). [Zbl:1128.55010](https://zbmath.org/?q=an%3A1128.55010).
 - **Mark Hovey. _Model categories_.** Mathematical Surveys and Monographs 63. Providence, RI: American Mathematical Society, 1999, pp. xii+209. ISBN: 0-8218-1359-5. [MR1650134](http://www.ams.org/mathscinet-getitem?mr=1650134). [Zbl:0909.55001](https://zbmath.org/?q=an%3A0909.55001). <span class="text-muted">[Livre sur les catégories de modèles.]</span>
-- **Jacob Lurie. _Higher topos theory_.** Annals of Mathematics Studies 170. Princeton, NJ: Princeton University Press, 2009, pp. xviii+925. ISBN: 978-0-691-14049-0. [MR2522659](http://www.ams.org/mathscinet-getitem?mr=2522659). [Zbl:1175.18001](https://zbmath.org/?q=an%3A1175.18001) <span class="text-muted">[Livre très complet sur les {{< tex "\infty" >}}-catégories.]</span>
+- **Jacob Lurie. _Higher topos theory_.** Annals of Mathematics Studies 170. Princeton, NJ: Princeton University Press, 2009, pp. xviii+925. ISBN: 978-0-691-14049-0. [MR2522659](http://www.ams.org/mathscinet-getitem?mr=2522659). [Zbl:1175.18001](https://zbmath.org/?q=an%3A1175.18001) <span class="text-muted">[Livre très complet sur les $\infty$-catégories.]</span>
 
 Rappels de topologie algébrique et d'algèbre homologique :
 

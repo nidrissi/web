@@ -14,7 +14,7 @@ sidebar:
   - "[Solution of the exam](examen-corrigé.pdf)"
 ---
 
-The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of {{< tex "\infty" >}}-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory – Quillen's model categories – and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains – singular or de Rham – encode topological spaces up to rational homotopy.
+The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of $\infty$-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory – Quillen's model categories – and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains – singular or de Rham – encode topological spaces up to rational homotopy.
 
 **Prerequisites.** It is advised to have already taken a class on algebraic topology as well as an introduction to homological algebra.
 
@@ -26,7 +26,7 @@ The goal of this course is to give an introduction to modern homotopy theory, it
 2. Quillen functors and derived functors.
 3. Comparison between simplicial sets and topological spaces.
 4. Rational homotopy.
-5. Notion of {{< tex "\infty" >}}-category theory.
+5. Notion of $\infty$-category theory.
 
 ## Organization
 
@@ -88,7 +88,7 @@ Tuesday February 11th (<i class="bi bi-exclamation-triangle"></i>&nbsp;room 2017
 : Sections 3.2--3.3: Model structure on CDGAs, Sullivan theory, comparison with simplicial sets up to rational equivalence.
 
 Thursday February 13th
-: Chapter 3: Some applications of rational homotopy theory. Chapter 4: Very bried introduction to {{< tex "\infty" >}}-categories.
+: Chapter 3: Some applications of rational homotopy theory. Chapter 4: Very bried introduction to $\infty$-categories.
 
 ## Bibliography
 
@@ -102,7 +102,7 @@ Works on homotopy theory:
 - **Paul G. Goerss et John F. Jardine. _Simplicial homotopy theory_.** Progress in Mathematics 174. Basel: Birkhäuser Verlag, 1999, pp. xvi+510. ISBN: 3-7643-6064-X. [DOI:10.1007/978-3-0348-8707-6](https://doi.org/10.1007/978-3-0348-8707-6). [MR1711612](http://www.ams.org/mathscinet-getitem?mr=1711612). [Zbl:0949.55001](https://zbmath.org/?q=an%3A0949.55001). <span class="text-muted">[Book on simplicial sets and their homotopical properties.]</span>
 - **Kathryn Hess. "Rational homotopy theory: a brief introduction".** In: _Interactions between homotopy theory and algebra_. Contemp. Math. 436. Providence, RI: Amer. Math. Soc., 2007, pp. 175–202. [DOI:10.1090/conm/436/08409](https://dx.doi.org/10.1090/conm/436/08409). [arXiv:math/0604626](http://arxiv.org/abs/math/0604626). [MR2355774](http://www.ams.org/mathscinet-getitem?mr=2355774). [Zbl:1128.55010](https://zbmath.org/?q=an%3A1128.55010).
 - **Mark Hovey. _Model categories_.** Mathematical Surveys and Monographs 63. Providence, RI: American Mathematical Society, 1999, pp. xii+209. ISBN: 0-8218-1359-5. [MR1650134](http://www.ams.org/mathscinet-getitem?mr=1650134). [Zbl:0909.55001](https://zbmath.org/?q=an%3A0909.55001). <span class="text-muted">[Book on model categories.]</span>
-- **Jacob Lurie. _Higher topos theory_.** Annals of Mathematics Studies 170. Princeton, NJ: Princeton University Press, 2009, pp. xviii+925. ISBN: 978-0-691-14049-0. [MR2522659](http://www.ams.org/mathscinet-getitem?mr=2522659). [Zbl:1175.18001](https://zbmath.org/?q=an%3A1175.18001) <span class="text-muted">[Very complete book on {{< tex "\infty" >}}-categories.]</span>
+- **Jacob Lurie. _Higher topos theory_.** Annals of Mathematics Studies 170. Princeton, NJ: Princeton University Press, 2009, pp. xviii+925. ISBN: 978-0-691-14049-0. [MR2522659](http://www.ams.org/mathscinet-getitem?mr=2522659). [Zbl:1175.18001](https://zbmath.org/?q=an%3A1175.18001) <span class="text-muted">[Very complete book on $\infty$-categories.]</span>
 
 Reminders on algebraic topology and homological algebra:
 
