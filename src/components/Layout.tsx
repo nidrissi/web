@@ -3,6 +3,8 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 
+import Footer from "./Footer";
+
 import "../styles/global.css";
 import "katex/dist/katex.css";
 
@@ -41,16 +43,13 @@ const Layout: React.FC<{ title: string }> = ({ children, title }) => {
         <title>{siteTitle}</title>
         <link rel="canonical" href={`${siteUrl}${pathname}`} />
       </Helmet>
-      <div className="container mx-auto">
+      <div className="container mx-auto py-2">
         <header>
           <h1 className="text-4xl font-bold mb-3">{title}</h1>
         </header>
         <main>{children}</main>
-        <footer className="py-2 text-center">
-          <hr className="my-1" />
-          Najib Idrissi
-        </footer>
       </div>
+      <Footer />
     </>
   );
 };
