@@ -3,6 +3,9 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 
+import "../styles/global.css";
+import "katex/dist/katex.css";
+
 type LayoutQuery = {
   site: {
     siteMetadata: {

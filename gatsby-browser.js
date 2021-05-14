@@ -1,5 +1,3 @@
-import "./src/styles/global.css";
-import "katex/dist/katex.css";
 exports.onClientEntry = () => {
   window.onload = function () {
     if (
