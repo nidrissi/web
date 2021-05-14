@@ -7,8 +7,11 @@ const Footer: React.FC<{}> = () => {
   const {
     site: {
       siteMetadata: {
-        siteUrl,
-        author: { name, arXiv, github, mathoverflow, twitter },
+        author: {
+          name,
+          organizations,
+          social: { arXiv, github, mathoverflow, twitter },
+        },
       },
     },
   } = useStaticQuery(graphql`
@@ -18,10 +21,16 @@ const Footer: React.FC<{}> = () => {
           siteUrl
           author {
             name
-            arXiv
-            github
-            mathoverflow
-            twitter
+            organizations {
+              name
+              url
+            }
+            social {
+              arXiv
+              github
+              mathoverflow
+              twitter
+            }
           }
         }
       }
@@ -30,6 +39,7 @@ const Footer: React.FC<{}> = () => {
 
   const links = [
     { url: "/", label: name },
+    organizations.map((o) => ({ url: o.url, label: o.name })),
     { url: `https://arxiv.org/a/${arXiv}.html`, label: "arXiv" },
     { url: `https://github.com/${github}`, label: "GitHub", icon: faGithub },
     {
@@ -41,12 +51,12 @@ const Footer: React.FC<{}> = () => {
       label: "Twitter",
       icon: faTwitter,
     },
-  ];
+  ].flat();
 
   return (
     <footer>
       <hr className="my-2 w-screen" />
-      <div className="flex flex-wrap gap-4 divide-x divide-gray-300 divide-dotted">
+      <div className="flex flex-wrap gap-4 px-2 divide-x divide-gray-300 divide-dotted">
         {links.map((v) => (
           <div className="flex-auto text-center" key={v.label}>
             <a
