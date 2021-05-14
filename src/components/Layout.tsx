@@ -45,7 +45,7 @@ const Layout: React.FC<{ title: string }> = ({ children, title }) => {
         </title>
         <link rel="canonical" href={`${siteUrl}${pathname}`} />
       </Helmet>
-      <main className="container mx-auto py-2">{children}</main>
+      <main className="container mx-auto p-2">{children}</main>
       <Footer />
     </>
   );
