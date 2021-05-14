@@ -3,7 +3,6 @@ module.exports = {
     siteTitle: `Najib Idrissi's page`,
     author: `Najib Idrissi`,
     siteUrl: `https://idrissi.eu`,
-    description: `Blazing fast modern site generator for React`,
   },
   plugins: [
     "gatsby-plugin-typescript",
