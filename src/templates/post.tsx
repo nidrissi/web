@@ -16,7 +16,11 @@ const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
       <header className="mb-3">
         <h1 className="mb-0 text-3xl font-bold text-gray-700">{title}</h1>
         <p>
-          <Meta date={date} lastMod={lastMod} tags={tags} />
+          <Meta
+            date={new Date(date)}
+            lastMod={lastMod ? new Date(lastMod) : null}
+            tags={tags}
+          />
         </p>
       </header>
       <div className="prose prose-blue">
@@ -46,8 +50,8 @@ export const query = graphql`
       id
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
-        lastMod(formatString: "MMMM DD, YYYY")
+        date
+        lastMod
         tags
       }
     }
