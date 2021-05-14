@@ -24,7 +24,7 @@ const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
           />
         </p>
       </header>
-      <div className="prose prose-blue">
+      <div className="prose prose-indigo">
         <MDXRenderer>{body}</MDXRenderer>
       </div>
     </Layout>
