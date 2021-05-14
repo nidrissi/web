@@ -14,4 +14,4 @@ urls:
       url: http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/
 ---
 
-Travail introductif sur la théorie des opérades basé sur mon [mémoire de master]({{< ref "/research/m2" >}})
+Travail introductif sur la théorie des opérades basé sur mon [mémoire de master](research/m2)

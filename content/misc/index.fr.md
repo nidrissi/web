@@ -22,7 +22,7 @@ Il est bien sûr open source : le code est sur [GitHub](https://github.com/nidri
 
 ---
 
-De janvier à juin 2019, j'ai organisé un [groupe de travail sur la stabilité homologique et les travaux de Galatius--Kupers--Randal-Williams]({{< ref "gdt/stabilite" >}}) avec Mario Gonçalves Lamas, sur une idée de Muriel Livernet.
+De janvier à juin 2019, j'ai organisé un [groupe de travail sur la stabilité homologique et les travaux de Galatius--Kupers--Randal-Williams](/gdt/stabilite) avec Mario Gonçalves Lamas, sur une idée de Muriel Livernet.
 
 ---
 

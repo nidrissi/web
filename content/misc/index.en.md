@@ -22,7 +22,7 @@ It is of course open source: the code is hosted on [GitHub](https://github.com/n
 
 ---
 
-From January to June 2019, I organized a [reading seminar on homological stability and the works of Galatius--Kupers--Randal-Williams]({{< ref path="gdt/stabilite" lang="fr" >}}) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
+From January to June 2019, I organized a [reading seminar on homological stability and the works of Galatius--Kupers--Randal-Williams](/gdt/stabilite) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
 
 ---
 

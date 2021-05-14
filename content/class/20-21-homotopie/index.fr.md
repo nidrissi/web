@@ -33,7 +33,7 @@ Il est recommandé d'avoir suivi les cours [_Homologie_ (Emmanuel Wagner)](https
 **Après le cours.**
 
 - Le cours [_Catégories supérieures_ (Muriel Livernet)](https://webusers.imj-prg.fr/~muriel.livernet/enseignement/index.html) est une continuation naturelle de ce cours et donne une conclusion à la séquence "homotopie" du M2 (Homologie -- Homotopie I/II -- Catégories supérieures).
-- J'ai donné en 2020 un [cours Peccot intitulé *Homotopie réelle des espaces de configuration*]({{< ref "class/peccot" >}}) au Collège de France qui contenait des applications concrètes des méthodes présentées ici.
+- J'ai donné en 2020 un [cours Peccot intitulé _Homotopie réelle des espaces de configuration_](/class/peccot) au Collège de France qui contenait des applications concrètes des méthodes présentées ici.
 
 ## Organisation
 
@@ -46,7 +46,7 @@ Vous recevrez le lien vers la réunion par email ; si vous ne l'avez pas reçu, 
 Les séances seront également enregistrées et [disponibles sur YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 Pour accéder aux différentes vidéos, cliquez sur le bouton "liste de lecture" dans le coin supérieur droit du lecteur intégré.
 
-**L'examen aura lieu le vendredi 5 mars de 14h à 17h en salle 207C de la [Halle aux Farines]({{< ref "class/19-20-homotopie" >}}HAF.pdf) (<i class="bi bi-exclamation-triangle"></i>&nbsp;changement de salle).**
+**L'examen aura lieu le vendredi 5 mars de 14h à 17h en salle 207C de la [Halle aux Farines](/class/19-20-homotopieHAF.pdf) (<i class="bi bi-exclamation-triangle"></i>&nbsp;changement de salle).**
 Vous aurez droit aux notes de cours imprimées ou manuscrites durant l'examen.
 Le matériel électronique sera interdit.
 
@@ -226,7 +226,7 @@ Le matériel électronique sera interdit.
 
 <p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text"></i>&nbsp;Les notes de cours sont disponibles ici.</b></a></p>
 
-J'ai donné un [cours similaire l'année dernière]({{< ref "class/19-20-homotopie" >}}), vous pourrez notamment y trouver les sujets d'examen.
+J'ai donné un [cours similaire l'année dernière](/class/19-20-homotopie), vous pourrez notamment y trouver les sujets d'examen.
 Grégory Ginot a donné un [cours en 2017--2018--2019 sur le même sujet](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
 On pourra trouver sur sa page **[les notes de son cours](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)**, ainsi que les anciennes feuilles d'exercices et les anciens examens.
 

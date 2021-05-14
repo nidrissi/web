@@ -34,7 +34,7 @@ It will be useful to have a certain familiarity with categorical language and wi
 **After this course.**
 
 - The course [_Higher categories_ (Muriel Livernet)](https://webusers.imj-prg.fr/~muriel.livernet/enseignement/index.html) is a natural continuation of this course and a conclusion to the "homotopy" sequence of the master's degree (Homology -- Homotopy I/II -- Higher categories).
-- I gave in 2020 a [Peccot lecture entitled *Real homotopy of configuration spaces*]({{< ref "class/peccot" >}}) at the Collège de France which gave concrete applications of the methods presented here.
+- I gave in 2020 a [Peccot lecture entitled _Real homotopy of configuration spaces_](/class/peccot) at the Collège de France which gave concrete applications of the methods presented here.
 
 ## Organization
 
@@ -47,7 +47,7 @@ You will receive the link to the meeting by email; if you did not receive it, pl
 The sessions will also be recorded and [available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 To access the different videos, click on the playlist icon in the top right of the embedded player.
 
-**The exam will happen on Friday, March 5th, 14:00--17:00, in room 207C of the [Halle aux Farines]({{< ref "class/19-20-homotopie" >}}HAF.pdf) (<i class="bi bi-exclamation-triangle"></i>&nbsp;note the room change).**
+**The exam will happen on Friday, March 5th, 14:00--17:00, in room 207C of the [Halle aux Farines](/class/19-20-homotopieHAF.pdf) (<i class="bi bi-exclamation-triangle"></i>&nbsp;note the room change).**
 This will be an open-book exam: you will have access to printed and handwritten lecture notes.
 Electronic devices will be forbidden.
 
@@ -227,7 +227,7 @@ Electronic devices will be forbidden.
 
 <p class="lead"><a href="homotopie.pdf"><b><i class="bi bi-file-earmark-text"></i>&nbsp;Lecture notes are here.</b></a></p>
 
-I gave a [similar course last year]({{< ref "class/19-20-homotopie" >}}), you can in particular find past exams.
+I gave a [similar course last year](/class/19-20-homotopie), you can in particular find past exams.
 Grégory Ginot gave a [course in 2017--2018--2019 on the same subject](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
 You can find on his page **[his lecture notes](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)**, as well as past exercise sheets and exams.
 

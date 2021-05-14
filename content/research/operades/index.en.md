@@ -14,4 +14,4 @@ urls:
       url: http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/
 ---
 
-Introductory work on operads based on my [Master's thesis]({{< ref "/research/m2" >}}).
+Introductory work on operads based on my [Master's thesis](research/m2).

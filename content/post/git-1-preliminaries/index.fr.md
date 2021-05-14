@@ -15,10 +15,10 @@ Ce billet est le premier d'une série dans laquelle j'essaierai d'expliquer comm
 Je sais qu'il y a beaucoup de contenus en ligne sur l'utilisation de Git, mais peu sont à destination des mathématicien·ne·s (dont les besoins diffèrent un peu de ceux des programmeur·e·s).
 
 Comme le billet est long et que je suis paresseux 🙂, je ne l'ai pas traduit en français, mais vous pouvez le lire en anglais.
-Cliquez sur le bouton en haut à droite de l'écran et choisissez l'anglais, ou bien [suivez ce lien]({{< ref lang="en" path="post/git-1-preliminaries" >}}).
+Cliquez sur le bouton en haut à droite de l'écran et choisissez l'anglais, ou bien [suivez ce lien](/post/git-1-preliminaries).
 
 <!--more-->
 
 <div class="alert alert-info">
-Mise à jour : <a href="{{< ref lang="en" path="git-2-theory" >}}" class="alert-link">La partie 2 ("La Théorie") est ici.</a>
+Mise à jour : <a href="/git-2-theory" class="alert-link">La partie 2 ("La Théorie") est ici.</a>
 </div>

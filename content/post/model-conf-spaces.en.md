@@ -4,7 +4,7 @@ tags: ["conf-spaces", "paper"]
 title: "Paper: The Lambrechts–Stanley Model of Configuration Spaces"
 ---
 
-I have uploaded a new preprint, [*The Lambrechts–Stanley Model of Configuration Spaces*]({{< ref "/research/ls-model" >}}), which you can find on [arXiv](http://arxiv.org/abs/1608.08054). Here is the abstract:
+I have uploaded a new preprint, [_The Lambrechts–Stanley Model of Configuration Spaces_](research/ls-model), which you can find on [arXiv](http://arxiv.org/abs/1608.08054). Here is the abstract:
 
 <!--more-->
 

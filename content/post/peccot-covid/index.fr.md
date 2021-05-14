@@ -8,7 +8,7 @@ tags: [math, peccot]
 
 **MàJ** : Les cours sont désormais en ligne ! Rendez vous [ici pour la troisième leçon](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm) et [là pour la quatrième](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm).
 
-Vous savez peut-être que j'ai été cette année l'une des personnes choisies pour donner un [Cours Peccot](https://idrissi.eu/en/class/peccot/) au Collège de France (cf. [mon premier billet à ce sujet]({{< ref "post/peccot" >}})).
+Vous savez peut-être que j'ai été cette année l'une des personnes choisies pour donner un [Cours Peccot](https://idrissi.eu/en/class/peccot/) au Collège de France (cf. [mon premier billet à ce sujet](/post/peccot)).
 Mais comme vous le savez très certainement, la vie normale s'est arrêtée il y a quelques mois quand le nombre de cas de COVID-19 a explosé en France (et dans le monde) et quand le gouvernement français a ordonné le confinement.
 J'avais pu donner mes deux premières leçons en personne avant le début du confinement, mais les deux dernières ont dû être reportées.
 
