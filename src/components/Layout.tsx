@@ -35,18 +35,23 @@ const Layout: React.FC<{ title: string }> = ({ children, title }) => {
   const { pathname } = useLocation();
 
   return (
-    <div className="container">
+    <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>{siteTitle}</title>
         <link rel="canonical" href={`${siteUrl}${pathname}`} />
       </Helmet>
-      <header>
-        <h1>{title}</h1>
-      </header>
-      <main>{children}</main>
-      <footer>Najib Idrissi</footer>
-    </div>
+      <div className="container mx-auto">
+        <header>
+          <h1 className="text-4xl font-bold mb-3">{title}</h1>
+        </header>
+        <main>{children}</main>
+        <footer className="py-2 text-center">
+          <hr className="my-1" />
+          Najib Idrissi
+        </footer>
+      </div>
+    </>
   );
 };
 
