@@ -2,6 +2,12 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
+const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
+  return <Layout title={data.site.siteMetadata.siteTitle}>Index page.</Layout>;
+};
+
+export default Index;
+
 type IndexQuery = {
   site: {
     siteMetadata: {
@@ -9,13 +15,6 @@ type IndexQuery = {
     };
   };
 };
-
-const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
-  return <Layout title={data.site.siteMetadata.siteTitle}>Index page.</Layout>;
-};
-
-export default Index;
-
 export const query = graphql`
   query {
     site {
