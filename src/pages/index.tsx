@@ -49,9 +49,6 @@ const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
             interested in the study of configuration spaces of manifolds, their
             links to graph complexes, and the invariants they define.
           </p>
-          <p className="text-xs">
-            (Last updated May 14<sup>th</sup>, 2021.)
-          </p>
         </div>
         <Contact />
       </article>
