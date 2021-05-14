@@ -18,15 +18,14 @@ const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
       <div className="prose prose-blue">
         <p>
           Hello! I am a <em>maître de conférences</em> at the math department of
-          the
-          <a href="https://u-paris.fr">University of Paris</a> and a member of
-          the team-project{" "}
+          the <a href="https://u-paris.fr">University of Paris</a> and a member
+          of the team-project{" "}
           <a href="https://www.imj-prg.fr/tga/">
             Algebraic Topology &amp; Geometry
-          </a>
+          </a>{" "}
           of the{" "}
           <a href="https://www.imj-prg.fr">
-            Institut de Mathématiques de Jussieu--Paris Rive Gauche
+            Institut de Mathématiques de Jussieu&ndash;Paris Rive Gauche
           </a>
           . I am one of the organizers of the{" "}
           <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">

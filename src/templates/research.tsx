@@ -4,16 +4,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 
-type PostTemplateQuery = {
-  mdx: {
-    body: string;
-    frontmatter: {
-      title: string;
-    };
-  };
-};
-
-const ResearchTemplate: React.FC<{ data: PostTemplateQuery }> = ({
+const ResearchTemplate: React.FC<{ data: ResearchTemplateQuery }> = ({
   data: { mdx },
 }) => {
   const {
@@ -23,14 +14,23 @@ const ResearchTemplate: React.FC<{ data: PostTemplateQuery }> = ({
 
   return (
     <Layout title={title}>
-      <h1>{title}</h1>
       <div className="prose prose-blue">
+        <h1>{title}</h1>
         <MDXRenderer>{body}</MDXRenderer>
       </div>
     </Layout>
   );
 };
 export default ResearchTemplate;
+
+type ResearchTemplateQuery = {
+  mdx: {
+    body: string;
+    frontmatter: {
+      title: string;
+    };
+  };
+};
 
 export const query = graphql`
   query ($id: String) {
