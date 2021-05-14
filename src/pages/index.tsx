@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 
 import Layout from "../components/Layout";
 import Contact from "../components/Contact";
@@ -40,7 +40,8 @@ const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
             <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">
               Topology Seminar
             </a>{" "}
-            of the IMJ-PRG. You can find more info in <a href="/cv">CV</a>.
+            of the IMJ-PRG. You can find more info in{" "}
+            <Link to="/cv">my CV</Link>.
           </p>
           <p>
             I am mainly interested in operads and their applications to

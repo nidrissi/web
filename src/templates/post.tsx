@@ -3,19 +3,23 @@ import { graphql } from "gatsby";
 import React from "react";
 
 import Layout from "../components/Layout";
+import Meta from "../components/meta/data";
 
-const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({
-  data: { mdx },
-}) => {
+const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
   const {
     body,
-    frontmatter: { title },
-  } = mdx;
+    frontmatter: { title, date, lastMod, tags },
+  } = data.mdx;
 
   return (
     <Layout title={title}>
+      <header className="mb-3">
+        <h1 className="mb-0 text-3xl font-bold text-gray-700">{title}</h1>
+        <p>
+          <Meta date={date} lastMod={lastMod} tags={tags} />
+        </p>
+      </header>
       <div className="prose prose-blue">
-        <h1>{title}</h1>
         <MDXRenderer>{body}</MDXRenderer>
       </div>
     </Layout>
@@ -28,6 +32,9 @@ type PostTemplateQuery = {
     body: string;
     frontmatter: {
       title: string;
+      date: string;
+      lastMod?: string;
+      tags: string[];
     };
   };
 };
@@ -36,8 +43,12 @@ export const query = graphql`
   query ($id: String) {
     mdx(id: { eq: $id }) {
       body
+      id
       frontmatter {
         title
+        date(formatString: "MMMM DD, YYYY")
+        lastMod(formatString: "MMMM DD, YYYY")
+        tags
       }
     }
   }
