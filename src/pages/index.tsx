@@ -5,13 +5,13 @@ import Layout from "../components/Layout";
 type IndexQuery = {
   site: {
     siteMetadata: {
-      author: string;
+      siteTitle: string;
     };
   };
 };
 
 const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
-  return <Layout title={data.site.siteMetadata.author}>Index page.</Layout>;
+  return <Layout title={data.site.siteMetadata.siteTitle}>Index page.</Layout>;
 };
 
 export default Index;
@@ -20,7 +20,7 @@ export const query = graphql`
   query {
     site {
       siteMetadata {
-        author
+        siteTitle
       }
     }
   }

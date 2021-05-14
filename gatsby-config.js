@@ -1,7 +1,13 @@
 module.exports = {
   siteMetadata: {
     siteTitle: `Najib Idrissi's page`,
-    author: `Najib Idrissi`,
+    author: {
+      name: `Najib Idrissi`,
+      arXiv: `idrissi_n_1`,
+      github: `nidrissi`,
+      twitter: `najib_idrissi`,
+      mathoverflow: `36146/najib-idrissi`,
+    },
     siteUrl: `https://idrissi.eu`,
   },
   plugins: [
