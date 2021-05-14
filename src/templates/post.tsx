@@ -2,7 +2,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { graphql } from "gatsby";
 import React from "react";
 
-import Layout from "../../components/Layout";
+import Layout from "../components/Layout";
 
 type PostTemplateQuery = {
   mdx: {
@@ -13,11 +13,13 @@ type PostTemplateQuery = {
   };
 };
 
-const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
+const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({
+  data: { mdx },
+}) => {
   const {
     body,
     frontmatter: { title },
-  } = data.mdx;
+  } = mdx;
 
   return (
     <Layout title={title}>
