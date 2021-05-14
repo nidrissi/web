@@ -7,7 +7,9 @@
       "label": "cv: build",
       "type": "process",
       "command": "make",
-      "args": ["-j5"],
+      "args": [
+        "-j5"
+      ],
       "group": "build",
       "problemMatcher": [],
       "options": {
@@ -18,7 +20,9 @@
       "label": "cv: copy",
       "type": "process",
       "command": "make",
-      "args": ["copy"],
+      "args": [
+        "copy"
+      ],
       "problemMatcher": [],
       "options": {
         "cwd": "${workspaceFolder}/curriculum"
@@ -28,11 +32,20 @@
       "label": "cv: clean",
       "type": "process",
       "command": "make",
-      "args": ["clean"],
+      "args": [
+        "clean"
+      ],
       "problemMatcher": [],
       "options": {
         "cwd": "${workspaceFolder}/curriculum"
       }
+    },
+    {
+      "type": "npm",
+      "script": "develop",
+      "problemMatcher": [],
+      "label": "npm: develop",
+      "detail": "gatsby develop"
     }
   ]
 }
