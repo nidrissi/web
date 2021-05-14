@@ -48,6 +48,14 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         remarkPlugins: [require("remark-math")],
         rehypePlugins: [require("rehype-katex")],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+          },
+          {
+            resolve: `gatsby-remark-smartypants`,
+          },
+        ],
       },
     },
     {
