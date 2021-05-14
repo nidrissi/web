@@ -11,6 +11,7 @@ The video is going to be available soon [on this webpage](https://www.college-de
 I mainly talked about the background for my course: what are configuration spaces, why do we care about them, what do we know about them, and what we would like to know about them.
 
 <!--more-->
+
 I also got this medal :smile:
 
-<img src="{{< ref "post/first-peccot" >}}médaille.jpeg" alt="Peccot lecture medal" class="img-fluid" width="300px">
+<img src="médaille.jpeg" alt="Peccot lecture medal" class="img-fluid" width="300px" />

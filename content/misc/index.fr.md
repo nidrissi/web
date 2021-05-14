@@ -26,8 +26,8 @@ De janvier à juin 2019, j'ai organisé un [groupe de travail sur la stabilité 
 
 ---
 
-<a href="https://math.stackexchange.com/users/10014/najib-idrissi"><img src="https://math.stackexchange.com/users/flair/10014.png" width="208" height="58" alt="profile for Najib Idrissi at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields" title="profile for Najib Idrissi at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields"></a>
-<a href="https://mathoverflow.net/users/36146/najib-idrissi"><img src="https://mathoverflow.net/users/flair/36146.png" width="208" height="58" alt="profile for Najib Idrissi at MathOverflow, Q&amp;A for professional mathematicians" title="profile for Najib Idrissi at MathOverflow, Q&amp;A for professional mathematicians"></a>
+<a href="https://math.stackexchange.com/users/10014/najib-idrissi"><img src="https://math.stackexchange.com/users/flair/10014.png" width="208" height="58" alt="profile for Najib Idrissi at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields" title="profile for Najib Idrissi at Mathematics Stack Exchange, Q&amp;A for people studying math at any level and professionals in related fields" /></a>
+<a href="https://mathoverflow.net/users/36146/najib-idrissi"><img src="https://mathoverflow.net/users/flair/36146.png" width="208" height="58" alt="profile for Najib Idrissi at MathOverflow, Q&amp;A for professional mathematicians" title="profile for Najib Idrissi at MathOverflow, Q&amp;A for professional mathematicians" /></a>
 
 Je suis actif sur [MathOverflow](https://mathoverflow.net/users/36146/najib-idrissi) et [Math StackExchange](https://math.stackexchange.com/users/10014/najib-idrissi).
 
