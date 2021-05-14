@@ -1,8 +1,8 @@
 import React from "react";
 
 type MetaProps = {
-  date: string;
-  lastMod: string;
+  date: Date;
+  lastMod: Date;
   tags: string[];
 };
 
@@ -10,11 +10,19 @@ const Meta: React.FC<MetaProps> = ({ date, lastMod, tags }) => {
   return (
     <>
       <span>
-        Published <time dateTime={date}>{date}</time>.
+        Published{" "}
+        <time dateTime={date.toISOString()}>
+          {new Date(date).toLocaleDateString()}
+        </time>
+        .
       </span>
       {lastMod ? (
         <span>
-          Updated <time dateTime={lastMod}>{lastMod}</time>.
+          Updated{" "}
+          <time dateTime={lastMod.toISOString()}>
+            {lastMod.toLocaleDateString()}
+          </time>
+          .
         </span>
       ) : null}
       {tags.map((t) => (
