@@ -7,6 +7,7 @@ import Footer from "./Footer";
 
 import "../styles/global.css";
 import "katex/dist/katex.css";
+import Navbar from "./Navbar";
 
 type LayoutQuery = {
   site: {
@@ -45,6 +46,7 @@ const Layout: React.FC<{ title: string }> = ({ children, title }) => {
         </title>
         <link rel="canonical" href={`${siteUrl}${pathname}`} />
       </Helmet>
+      <Navbar />
       <main className="container mx-auto p-2">{children}</main>
       <Footer />
     </>
