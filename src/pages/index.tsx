@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+
 import Layout from "../components/Layout";
 
 const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
@@ -14,32 +15,44 @@ const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
 
   return (
     <Layout title={siteTitle}>
-      <h1 className="text-3xl font-bold mb-3">{author}</h1>
-      <div className="prose prose-blue">
-        <p>
-          Hello! I am a <em>maître de conférences</em> at the math department of
-          the <a href="https://u-paris.fr">University of Paris</a> and a member
-          of the team-project{" "}
-          <a href="https://www.imj-prg.fr/tga/">
-            Algebraic Topology &amp; Geometry
-          </a>{" "}
-          of the{" "}
-          <a href="https://www.imj-prg.fr">
-            Institut de Mathématiques de Jussieu&ndash;Paris Rive Gauche
-          </a>
-          . I am one of the organizers of the{" "}
-          <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">
-            Topology Seminar
-          </a>{" "}
-          of the IMJ-PRG. You can find more info in <a href="/cv">CV</a>.
-        </p>
-        <p>
-          I am mainly interested in operads and their applications to algebraic
-          topology and homological algebra. I am especially interested in the
-          study of configuration spaces of manifolds, their links to graph
-          complexes, and the invariants they define.
-        </p>
-      </div>
+      <img
+        src="/img/photo.jpg"
+        width="150px"
+        height="150px"
+        className="float-right m-2 rounded-md"
+      />
+      <article>
+        <div className="prose prose-blue max-w-none mb-3">
+          <h1>{author}</h1>
+          <p>
+            Hello! I am a <em>maître de conférences</em> at the math department
+            of the <a href="https://u-paris.fr">University of Paris</a> and a
+            member of the team-project{" "}
+            <a href="https://www.imj-prg.fr/tga/">
+              Algebraic Topology &amp; Geometry
+            </a>{" "}
+            of the{" "}
+            <a href="https://www.imj-prg.fr">
+              Institut de Mathématiques de Jussieu&ndash;Paris Rive Gauche
+            </a>
+            . I am one of the organizers of the{" "}
+            <a href="https://www.imj-prg.fr/gestion/evenement/affEvenement/43">
+              Topology Seminar
+            </a>{" "}
+            of the IMJ-PRG. You can find more info in <a href="/cv">CV</a>.
+          </p>
+          <p>
+            I am mainly interested in operads and their applications to
+            algebraic topology and homological algebra. I am especially
+            interested in the study of configuration spaces of manifolds, their
+            links to graph complexes, and the invariants they define.
+          </p>
+          <p className="text-xs">
+            (Last updated May 14<sup>th</sup>, 2021.)
+          </p>
+        </div>
+        <h2 className="text-2xl font-bold">Contact</h2>
+      </article>
     </Layout>
   );
 };

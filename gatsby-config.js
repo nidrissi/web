@@ -3,10 +3,24 @@ module.exports = {
     siteTitle: `Najib Idrissi's page`,
     author: {
       name: `Najib Idrissi`,
-      arXiv: `idrissi_n_1`,
-      github: `nidrissi`,
-      twitter: `najib_idrissi`,
-      mathoverflow: `36146/najib-idrissi`,
+      email: `najib.idrissi-kaitouni@imj-prg.fr`,
+      organizations: [
+        { name: "Université de Paris", url: "https://u-paris.fr" },
+        { name: "IMJ-PRG", url: "https://www.imj-prg.fr" },
+      ],
+      address: [
+        "Bâtiment Sophie Germain",
+        "8 place Aurélie Nemours",
+        "F-75013 Paris",
+        "France",
+      ],
+      office: "SG-7032",
+      social: {
+        arXiv: `idrissi_n_1`,
+        github: `nidrissi`,
+        twitter: `najib_idrissi`,
+        mathoverflow: `36146/najib-idrissi`,
+      },
     },
     siteUrl: `https://idrissi.eu`,
   },
