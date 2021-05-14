@@ -1,5 +1,7 @@
-import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
+import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer: React.FC<{}> = () => {
   const {
@@ -29,12 +31,16 @@ const Footer: React.FC<{}> = () => {
   const links = [
     { url: "/", label: name },
     { url: `https://arxiv.org/a/${arXiv}.html`, label: "arXiv" },
-    { url: `https://github.com/${github}`, label: "GitHub" },
+    { url: `https://github.com/${github}`, label: "GitHub", icon: faGithub },
     {
       url: `https://mathoverflow.net/users/${mathoverflow}`,
       label: "MathOverFlow",
     },
-    { url: `https://twitter.com/${twitter}`, label: "Twitter" },
+    {
+      url: `https://twitter.com/${twitter}`,
+      label: "Twitter",
+      icon: faTwitter,
+    },
   ];
 
   return (
@@ -49,6 +55,12 @@ const Footer: React.FC<{}> = () => {
               className="text-blue-800 hover:underline"
               key={v.label}
             >
+              {v.icon ? (
+                <>
+                  <FontAwesomeIcon icon={v.icon} />
+                  &nbsp;
+                </>
+              ) : null}
               {v.label}
             </a>
           </div>
