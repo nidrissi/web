@@ -15,6 +15,10 @@ module.exports = {
         "France",
       ],
       office: "SG-7032",
+      phone: {
+        pretty: "(+33) 01 57 27 91 16",
+        ugly: "+33157279116",
+      },
       social: {
         arXiv: `idrissi_n_1`,
         github: `nidrissi`,

@@ -2,16 +2,36 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAt,
+  faDoorOpen,
+  faMapMarkerAlt,
+  faPhone,
+  faUniversity,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
   const {
     site: {
       siteMetadata: {
         siteTitle,
-        author: { name: author },
+        author: { name: author, email, organizations, phone, address, office },
       },
     },
   } = data;
+
+  const contactLinks = [
+    { label: email, url: `mailto:${email}`, icon: faAt },
+    organizations.map((o) => ({
+      label: o.name,
+      url: o.url,
+      icon: faUniversity,
+    })),
+    { label: phone.pretty, url: `tel:${phone.ugly}`, icon: faPhone },
+    { label: address.join(" • "), icon: faMapMarkerAlt },
+    { label: office, icon: faDoorOpen },
+  ].flat();
 
   return (
     <Layout title={siteTitle}>
@@ -51,7 +71,21 @@ const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
             (Last updated May 14<sup>th</sup>, 2021.)
           </p>
         </div>
-        <h2 className="text-2xl font-bold">Contact</h2>
+        <h2 className="text-2xl font-bold mb-1">Contact</h2>
+        <ul>
+          {contactLinks.map((l) => (
+            <li key={l.label} className="content-center">
+              <FontAwesomeIcon icon={l.icon} className="mr-1" />
+              {l.url ? (
+                <a href={l.url} className="text-blue-600 hover:underline">
+                  {l.label}
+                </a>
+              ) : (
+                l.label
+              )}
+            </li>
+          ))}
+        </ul>
       </article>
     </Layout>
   );
@@ -65,6 +99,14 @@ type IndexQuery = {
       siteTitle: string;
       author: {
         name: string;
+        email: string;
+        address: string[];
+        office: string;
+        phone: {
+          pretty: string;
+          ugly: string;
+        };
+        organizations: { name: string; url: string }[];
       };
     };
   };
@@ -76,6 +118,17 @@ export const query = graphql`
         siteTitle
         author {
           name
+          email
+          address
+          office
+          phone {
+            pretty
+            ugly
+          }
+          organizations {
+            name
+            url
+          }
         }
       }
     }
