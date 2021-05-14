@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#TableOfContents ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#TableOfContents ul li {
+  margin-bottom: 0;
+  padding-left: 0.5rem;
+  list-style-type: none;
+}
+
+#cookie-toast {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+}
