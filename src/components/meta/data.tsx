@@ -123,9 +123,7 @@ const MetaData: React.FC<MetaDataProps> = ({ date, lastMod, tags, urls }) => {
         </div>
       ) : null}
       <Links urls={urls} />
-      {tags.map((t) => (
-        <div key={t}>#{t}</div>
-      ))}
+      {tags && tags.map((t) => <div key={t}>#{t}</div>)}
     </div>
   );
 };
