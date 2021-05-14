@@ -9,6 +9,11 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         nodes {
           id
           slug
+          parent {
+            ... on File {
+              sourceInstanceName
+            }
+          }
         }
       }
     }
@@ -22,7 +27,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   posts.forEach((node) => {
     createPage({
-      path: path.join("post", node.slug),
+      path: path.join(node.parent.sourceInstanceName, node.slug),
       component: path.resolve(`./src/templates/post.tsx`),
       context: { id: node.id },
     });
