@@ -1,4 +1,4 @@
-exports.onClientRender = () => {
+exports.onInitialClientRender = () => {
   // window.onload = function () {
   //   if (
   //     !document.cookie

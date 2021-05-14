@@ -18,15 +18,15 @@ Voici le graphique :
 <div id="groups"></div>
 <div>
   <div class="form-check-inline">
-    <input class="form-check-input" type="checkbox" value="" id="mcf" checked>
+    <input class="form-check-input" type="checkbox" value="" id="mcf" checked />
     <label class="form-check-label" for="mcf">MCF</label>
   </div>
   <div class="form-check-inline">
-    <input class="form-check-input" type="checkbox" value="" id="pr" checked>
+    <input class="form-check-input" type="checkbox" value="" id="pr" checked />
     <label class="form-check-label" for="pr">PR</label>
   </div>
   <div class="form-check-inline">
-    <input class="form-check-input" type="checkbox" value="" id="normalize">
+    <input class="form-check-input" type="checkbox" value="" id="normalize" />
     <label class="form-check-label" for="normalize">Normaliser</label>
   </div>
 </div>

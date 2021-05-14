@@ -12,6 +12,6 @@ J'en ai profité pour faire une petite animation qui illustre le lien entre les 
 <!--more-->
 <div class="ratio ratio-16x9">
     <video controls loop autoplay>
-        <source src="braid.mp4" type="video/mp4">
+        <source src="braid.mp4" type="video/mp4" />
     </video>
 </div>

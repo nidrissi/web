@@ -59,7 +59,7 @@ Electronic devices will be forbidden.
     <div class="card-body">
       <h5 class="card-title">Lecture 1</h5>
       <h6 class="card-subtitle mb-2">Monday January 11<sup>th</sup>, 10:45–12:45</h6>
-      <p class="card-text mb-0 mt-2">Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of   model categories. (Sections 1.1 and 1.2)</p>
+      <p class="card-text mb-0 mt-2">Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of model categories. (Sections 1.1 and 1.2)</p>
     </div>
     <div class="card-footer">
       <a href="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" class="card-link text-decoration-none"><i class="bi bi-text-paragraph"></i>&nbsp;Blackboard</a>

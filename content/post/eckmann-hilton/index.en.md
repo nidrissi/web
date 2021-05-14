@@ -145,7 +145,7 @@ For those interested, I wrote [a paper](http://arxiv.org/abs/1507.06844) explain
 
 The Drinfeld center is, in many respects, the "correct" notion of center for a monoidal category -- but it is not symmetric, only braided. There is some amount of commutativity lost when one goes to higher dimensional category theory. This is explained by Baez and Dolan in their article (cf. [References](#references)) through $k$-tuply monoidal $n$-categories, an $n$-category equipped with $k$ different "compatible" monoidal structures.
 
-By the Eckmann--Hilton argument, all these monoidal structures are equal, but the amount of commutativity one gets changes depending on $n$ and $k$. These types of categories eventually stabilize to a "fully symmetric" structure for $k > n + 1$, as in this table (Table 21 in [Baez and Dolan]):
+By the Eckmann--Hilton argument, all these monoidal structures are equal, but the amount of commutativity one gets changes depending on $n$ and $k$. These types of categories eventually stabilize to a "fully symmetric" structure for $k > n + 1$, as in this table (Table 21 in (Baez and Dolan)):
 
 <table class="table">
   <thead>
@@ -195,7 +195,7 @@ By the Eckmann--Hilton argument, all these monoidal structures are equal, but th
   </tbody>
 </table>
 
-This _Stabilization Hypothesis_ is one of the features that is expected of any good notion of $\infty$-categories, inspired by the Freudenthal suspension theorem. The notion of $k$-fold monoidal categories also appears to be linked to the theory of $E_k$-operads (cf. [Balteanu et al.]), something on which I intend to speak later (cliff-hanger!).
+This _Stabilization Hypothesis_ is one of the features that is expected of any good notion of $\infty$-categories, inspired by the Freudenthal suspension theorem. The notion of $k$-fold monoidal categories also appears to be linked to the theory of $E_k$-operads (cf. (Balteanu et al.)), something on which I intend to speak later (cliff-hanger!).
 
 ## References
 
