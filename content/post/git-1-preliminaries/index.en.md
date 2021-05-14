@@ -81,7 +81,7 @@ There are two operative phrases in the name, that can be explained at a high lev
 ## Next steps
 
 <div class="alert alert-info">
-Update: <a href="{{< ref lang="en" path="git-2-theory" >}}" class="alert-link">Part 2 ("Theory") is now available here.</a>
+Update: <a href="/post/git-2-theory" class="alert-link">Part 2 ("Theory") is now available here.</a>
 </div>
 
 In the next post, I will try to explain how one uses Git.

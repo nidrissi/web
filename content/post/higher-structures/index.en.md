@@ -14,7 +14,7 @@ I'd like to thank Bruno Vallette and all the organizers for giving me this oppor
 
 <!--more-->
 
-[(The slides of my talk are available there.)]({{< ref "/talk/cirm18" >}})
+[(The slides of my talk are available there.)](talk/cirm18)
 
 <figure class="figure">
 <img src="belvedere.jpg" alt="Photo taken from the Belvédère de Sugiton" class="figure-img img-fluid" />
