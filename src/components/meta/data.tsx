@@ -70,7 +70,10 @@ const Link: React.FC<{ definition: LinkDefinition; url: string }> = ({
       : definition.label(url);
   const href = definition.urlBuilder ? definition.urlBuilder(url) : url;
   return (
-    <a href={href}>
+    <a
+      href={href}
+      className="block bg-blue-200 text-black hover:bg-gray-100 hover:text-blue-900 hover:border-blue-900 border rounded-full px-2 py-0.5 text-sm"
+    >
       {definition.icon ? (
         <FontAwesomeIcon icon={definition.icon} className="mr-1" />
       ) : null}
@@ -100,31 +103,30 @@ type MetaDataProps = {
   tags: string[];
   urls: Urls;
 };
-/** Not to be used on its own! */
 const MetaData: React.FC<MetaDataProps> = ({ date, lastMod, tags, urls }) => {
   return (
-    <>
-      <span>
+    <div className="flex flex-wrap gap-2 content-center text-gray-600">
+      <div>
         Published{" "}
         <time dateTime={date.toISOString()}>
           {new Date(date).toLocaleDateString()}
         </time>
         .
-      </span>
+      </div>
       {lastMod ? (
-        <span>
+        <div>
           Updated{" "}
           <time dateTime={lastMod.toISOString()}>
             {lastMod.toLocaleDateString()}
           </time>
           .
-        </span>
+        </div>
       ) : null}
       <Links urls={urls} />
       {tags.map((t) => (
-        <span key={t}>#{tags}</span>
+        <div key={t}>#{t}</div>
       ))}
-    </>
+    </div>
   );
 };
 export default MetaData;
