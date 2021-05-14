@@ -3,7 +3,13 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 
 const Index: React.FC<{ data: IndexQuery }> = ({ data }) => {
-  return <Layout title={data.site.siteMetadata.siteTitle}>Index page.</Layout>;
+  const {
+    site: {
+      siteMetadata: { siteTitle },
+    },
+  } = data;
+
+  return <Layout title={siteTitle}>Index page.</Layout>;
 };
 
 export default Index;

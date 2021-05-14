@@ -40,15 +40,12 @@ const Layout: React.FC<{ title: string }> = ({ children, title }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{siteTitle}</title>
+        <title>
+          {title !== siteTitle ? `${title} | ${siteTitle}` : siteTitle}
+        </title>
         <link rel="canonical" href={`${siteUrl}${pathname}`} />
       </Helmet>
-      <div className="container mx-auto py-2">
-        <header>
-          <h1 className="text-4xl font-bold mb-3">{title}</h1>
-        </header>
-        <main>{children}</main>
-      </div>
+      <main className="container mx-auto py-2">{children}</main>
       <Footer />
     </>
   );

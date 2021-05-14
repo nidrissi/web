@@ -13,7 +13,7 @@ type PostTemplateQuery = {
   };
 };
 
-const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({
+const TalkTemplate: React.FC<{ data: PostTemplateQuery }> = ({
   data: { mdx },
 }) => {
   const {
@@ -23,13 +23,14 @@ const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({
 
   return (
     <Layout title={title}>
+      <h1>{title}</h1>
       <div className="prose prose-blue">
         <MDXRenderer>{body}</MDXRenderer>
       </div>
     </Layout>
   );
 };
-export default PostTemplate;
+export default TalkTemplate;
 
 export const query = graphql`
   query ($id: String) {
