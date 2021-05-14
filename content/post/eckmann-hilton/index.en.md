@@ -150,7 +150,7 @@ By the Eckmann--Hilton argument, all these monoidal structures are equal, but th
 <table class="table">
   <thead>
     <tr>
-      <th></th>
+      <th>.</th>
       <th scope="col">n=0</th>
       <th scope="col">n=1</th>
       <th scope="col">n=2</th>
@@ -177,20 +177,21 @@ By the Eckmann--Hilton argument, all these monoidal structures are equal, but th
     </tr>
     <tr>
       <th scope="row">k=3</th>
-      <td>"</td>
+      <td>idem</td>
       <td>symmetric monoidal categories</td>
       <td>weakly involutory monoidal 2-categories</td>
-    <tr>
-      <th scope="row">k=4</th>
-      <td>"</td>
-      <td>"</td>
-      <td>strongly involutory monoidal 2-categories</td>
     </tr>
     <tr>
       <th scope="row">k=4</th>
-      <td>"</td>
-      <td>"</td>
-      <td>"</td>
+      <td>idem</td>
+      <td>idem</td>
+      <td>strongly involutory monoidal 2-categories</td>
+    </tr>
+    <tr>
+      <th scope="row">k=5</th>
+      <td>idem</td>
+      <td>idem</td>
+      <td>idem</td>
     </tr>
   </tbody>
 </table>
