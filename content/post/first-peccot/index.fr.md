@@ -11,6 +11,7 @@ La vidéo sera disponible prochainement [sur cette page web](https://www.college
 J'ai principalement parlé du contexte pour mon cours : que sont les espaces de configuration, pourquoi on s'y intéresse, que sait-on à leur sujet, qu'aimerait-on savoir.
 
 <!--more-->
+
 J'ai aussi eu cette médaille :smile:
 
-<img src="{{< ref "post/first-peccot" >}}médaille.jpeg" alt="Médaille cours Peccot" class="img-fluid" width="300px">
+<img src="médaille.jpeg" alt="Médaille cours Peccot" class="img-fluid" width="300px" />

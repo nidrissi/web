@@ -1,13 +1,14 @@
 ---
 date: 2016-05-15T00:00:00Z
-tags: ['trip']
+tags: ["trip"]
 title: Oberwolfach
 ---
 
 I just came back from the [Mathematisches Forschungsinstitut Oberwolfach](https://www.mfo.de/)!
+
 <!--more-->
 
-<img alt="The library" src="mfo.jpg" class="img-fluid">
+<img alt="The library" src="mfo.jpg" class="img-fluid" />
 
 I was there for the "[Factorization Algebras and Functorial Field Theories](https://www.mfo.de/occasion/1619/www_view)" workshop. It was an incredible experience. The talks were all, of course, very interesting, and I learned a lot about QFT. But more than that, I learned a lot speaking to the people about various research topics -- several people made several very interesting remarks to me, and others explained to me various points to mathematics that had remained obscure to me until this point.
 

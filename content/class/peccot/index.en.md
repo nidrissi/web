@@ -51,7 +51,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
     <li>Generalities on configuration spaces sur les espaces de configuration</li>
     <li>Homotopy invariance conjecture</li>
     <li>Rational homotopy theory</li>
-    <li>Formality of $\mathrm{Conf}_{\mathbb{R}^n}$</li>
+    <li>Formality of configuration spaces of Euclidean spaces</li>
     </ul>
   </div>
   <div class="card-footer">

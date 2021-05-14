@@ -21,7 +21,7 @@ Here's something that I hope people will find interesting.
 ## The mille-feuille
 
 <figure class="figure float-end">
-<img src="mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="200px">
+<img src="mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="200px" />
 <figcaption class="figure-caption">A <em>mille-feuille</em> (image from <a href="https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg">Wikipedia</a>).</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ In bold are the organizations that I belong to.
 I couldn't decide on a nice way to show that the research structures (the IMJ-PRG and the other labs) administratively depend on the two universities and the CNRS.**
 
 <figure class="figure">
-<a href="diagram.svg"><img src="diagram.svg" alt="Organizational diagram" class="figure-img img-fluid" width="500px"></a>
+<a href="diagram.svg"><img src="diagram.svg" alt="Organizational diagram" class="figure-img img-fluid" width="500px" /></a>
 <figcaption class="figure-caption">A silly organizational chart.</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ I will be appointed in the _corps_ (group of civil servants) of _maître de conf
 The other rank is _professeurs des universités_ (PR).
 Since this is a national deal, I will be appointed by the Minister of Higher Education and Research, while professors are appointed by the President of the Republic.
 
-<img src="univ-paris-diderot.png" alt="Logo Université Paris-VII" class="float-end img-fluid" width="200px">
+ <img src="univ-paris-diderot.png" alt="Logo Université Paris-VII" class="float-end img-fluid" width="200px" />
 
 I will then be assigned to a university.
 In my case, Université Paris-VII (also known as Université Paris Diderot), who will be my actual employer and give me paychecks.
@@ -58,7 +58,7 @@ Despite their name, these UFRs are almost exclusively devoted to the teaching si
 I will obviously be assigned to the Mathematics UFR of Université Paris-VII.
 A commission of the UFR is in charge of assigning teaching loads, and I already know mine for next year: lectures and exercise sessions of "Elementary algebra and calculus I", a first-year first-semester course (in addition to a smaller teaching load the second semester).
 
-<img src="imj-prg.png" alt="Logo IMJ-PRG" class="float-end img-fluid" width="200px">
+<img src="imj-prg.png" alt="Logo IMJ-PRG" class="float-end img-fluid" width="200px" />
 
 For the actual research, I will be assigned to the _Institut de Mathématiques de Jussieu--Paris Rive Gauche_ (IMJ-PRG).
 The IMJ-PRG is a Mixed Research Unit (UMR), also colloquially known as a "lab".
@@ -77,7 +77,7 @@ Other math research units are located in suburbs of Paris, such as the LAGA in P
 Yes, this is complex, and it is not always easy to determine who does what and who to ask a question.
 Fortunately, most of the administrative staff I have dealt with has been very nice and competent.
 I tried to draw a diagram explaining all of this, but I eventually gave up.
-Besides, that diagram will be obsolete in a few months: Paris-VII is merging with another university, Paris-V (AKA Paris-Descartes), to create a new big university with a yet unknown name, much like what was formerly known as Paris-VI (Université Pierre et Marie Curie, that you perhaps know as "Jussieu") merged with Paris-IV to create "_Sorbonne Université_" (yes, the name in French follows the English word order -- don't ask me why[^1]).
+Besides, that diagram will be obsolete in a few months: Paris-VII is merging with another university, Paris-V (AKA Paris-Descartes), to create a new big university with a yet unknown name, much like what was formerly known as Paris-VI (Université Pierre et Marie Curie, that you perhaps know as "Jussieu") merged with Paris-IV to create "_Sorbonne Université_" (yes, the name in French follows the English word order -- don't ask me why).
 While the research side of the story will probably not be affected, teaching certainly will.
 
 I have been told that the true test of one's bureaucratic mettle is the habilitation (HDR), the diploma which allows you to supervise doctoral students alone and to apply for full professor positions.
@@ -85,4 +85,5 @@ Since you have no advisor to guide you through the administration, it can get...
 As a funny anecdote, someone once told me that through a complex network of signature delegations and counter-signatures, he was the one required to eventually authorize his own habilitation defense.
 This was of course unacceptable and was resolved in a different way, but still, interesting things can happen.
 
-[^1]: Update August 2018: I have learned why. The IDEX grant (see the last part of [my previous post]({{< ref "/post/why-name-paris-7" >}})) which was the main driving force behind the creation of _Sorbonne Université_ was entitled _Sorbonne Universités à Paris pour l'Enseignement et la Recherche_ ("Sorbonne Universities in Paris for Education and Research"). Its acronym is SUPER (note that it is basically mandatory for all ANR projects to have an acronym). I imagine that "USPER" was less catchy. <br> Update 2: well, apparently it also stems from a dispute between the university and the local government in Paris. The local government did not want one university to monopolize the name "Sorbonne", and the "compromise" that was reached was the name "Université Sorbonne-Université". What can I say... politics can be intricate sometimes.
+_Update August 2018_: I have learned why. The IDEX grant (see the last part of [my previous post](/post/why-name-paris-7) which was the main driving force behind the creation of _Sorbonne Université_ was entitled _Sorbonne Universités à Paris pour l'Enseignement et la Recherche_ ("Sorbonne Universities in Paris for Education and Research"). Its acronym is SUPER (note that it is basically mandatory for all ANR projects to have an acronym). I imagine that "USPER" was less catchy.
+Update 2: well, apparently it also stems from a dispute between the university and the local government in Paris. The local government did not want one university to monopolize the name "Sorbonne", and the "compromise" that was reached was the name "Université Sorbonne-Université". What can I say... politics can be intricate sometimes.
