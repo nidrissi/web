@@ -45,5 +45,11 @@ module.exports = {
         rehypePlugins: [require("rehype-katex")],
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-S549JC61XZ"],
+      },
+    },
   ],
 };
