@@ -26,10 +26,15 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const posts = result.data.allMdx.nodes;
 
   posts.forEach((node) => {
+    const {
+      id,
+      slug,
+      parent: { sourceInstanceName },
+    } = node;
     createPage({
-      path: path.join(node.parent.sourceInstanceName, node.slug),
-      component: path.resolve(`./src/templates/post.tsx`),
-      context: { id: node.id },
+      path: path.join(sourceInstanceName, slug),
+      component: path.resolve(`./src/templates/${sourceInstanceName}.tsx`),
+      context: { id },
     });
   });
 };
