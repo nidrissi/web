@@ -59,8 +59,8 @@ const Footer: React.FC<{}> = () => {
 
   return (
     <footer>
-      <hr className="my-2 w-screen" />
-      <div className="flex flex-wrap gap-4 px-2 divide-x divide-gray-300 divide-dotted">
+      <hr className="my-2 w-full" />
+      <div className="flex flex-wrap gap-4 py-2 divide-x divide-gray-300 divide-dotted">
         {links.map((v) => (
           <div className="flex-auto text-center" key={v.label}>
             <a
