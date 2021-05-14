@@ -17,6 +17,27 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/class`,
+        name: `class`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/research`,
+        name: `research`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/talk`,
+        name: `talk`,
+      },
+    },
+    {
       resolve: "gatsby-plugin-mdx",
       options: {
         extensions: [`.mdx`, `.md`],
