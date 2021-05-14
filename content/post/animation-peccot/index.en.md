@@ -14,6 +14,6 @@ I am not a 3D artist, obviously, but (with oral explanations) I think it explain
 
 <div class="ratio ratio-16x9">
     <video controls>
-        <source src="animation.mp4" type="video/mp4">
+        <source src="animation.mp4" type="video/mp4" />
     </video>
 </div>
