@@ -1,5 +1,5 @@
 public/
 resources/
-
-# node
 node_modules
+.cache/
+public
