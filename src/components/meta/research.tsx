@@ -29,17 +29,19 @@ type MetaResearchProps = {
 };
 const MetaResearch: React.FC<MetaResearchProps> = ({ date, lastMod, urls, publication, authors }) => {
   const displayedAuthors = authors.length > 1 ? (
-    <div>
+    <>
       {authors.map((a, i) => <>
         {i > 0 && ', '}
         {formatAuthor(a)}
       </>)}.
-    </div>
+    </>
   ) : null;
 
   return (
-    <div className="flex flex-wrap gap-x-2 gap-y-1 content-center text-gray-600">
-      {displayedAuthors}
+    <>
+      <div>
+        {displayedAuthors}
+      </div>
       <div>
         {publication}
       </div>
@@ -60,7 +62,7 @@ const MetaResearch: React.FC<MetaResearchProps> = ({ date, lastMod, urls, public
         </div>
       ) : null}
       <Links urls={urls} />
-    </div>
+    </>
   );
 };
 export default MetaResearch;
