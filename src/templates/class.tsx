@@ -14,7 +14,7 @@ const ClassTemplate: React.FC<{ data: ClassTemplateQuery }> = ({
 
   return (
     <Layout title={title}>
-      <div className="prose prose-blue">
+      <div className="prose prose-blue max-w-none">
         <h1>{title}</h1>
         <MDXRenderer>{body}</MDXRenderer>
       </div>
