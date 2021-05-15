@@ -6,6 +6,10 @@ module.exports = {
       typography: {
         DEFAULT: {
           css: {
+            hr: {
+              "margin-top": "12px",
+              "margin-bottom": "12px"
+            },
             a: {
               "text-decoration": "none",
               "&:hover": { "text-decoration": "underline" },
