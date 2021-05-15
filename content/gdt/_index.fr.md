@@ -1,3 +1,0 @@
----
-title: Groupes de travail
----
