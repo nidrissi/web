@@ -1,5 +1,4 @@
 ---
-abstract: We build a model in groupoids for the Swiss-Cheese operad, based on parenthesized permutations and braids, and we relate algebras over this model to the classical description of algebras over the homology of the Swiss-Cheese operad. We extend our model to a rational model for the Swiss-Cheese operad, and we compare it to the model that we would get if the operad Swiss-Cheese were formal.
 authors:
   - me
 date: 2017-09-22
@@ -15,3 +14,5 @@ urls:
   zbmath: "06808424"
   hal: "01438863"
 ---
+
+We build a model in groupoids for the Swiss-Cheese operad, based on parenthesized permutations and braids, and we relate algebras over this model to the classical description of algebras over the homology of the Swiss-Cheese operad. We extend our model to a rational model for the Swiss-Cheese operad, and we compare it to the model that we would get if the operad Swiss-Cheese were formal.

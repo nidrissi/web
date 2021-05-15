@@ -14,7 +14,7 @@ const TalkTemplate: React.FC<{ data: TalkTemplateQuery }> = ({
 
   return (
     <Layout title={title}>
-      <div className="prose prose-blue">
+      <div className="prose prose-blue max-w-none">
         <h1>{title}</h1>
         <MDXRenderer>{body}</MDXRenderer>
       </div>

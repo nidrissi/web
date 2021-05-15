@@ -29,7 +29,7 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
         className="float-right m-2 rounded-md"
       />
       <article>
-        <div className="prose prose-blue max-w-4xl mb-3">
+        <div className="prose prose-blue max-w-none mb-3">
           {children}
         </div>
         <Contact />
