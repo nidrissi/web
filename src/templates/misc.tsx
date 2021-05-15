@@ -4,6 +4,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 import MetaData from "../components/meta/data";
+import { Urls } from "../components/meta/links";
 
 const MiscTemplate: React.FC<{ data: MiscTemplateQuery }> = ({ data }) => {
   const {
@@ -19,7 +20,7 @@ const MiscTemplate: React.FC<{ data: MiscTemplateQuery }> = ({ data }) => {
           date={new Date(date)}
           lastMod={lastMod ? new Date(lastMod) : null}
           tags={null}
-          urls={{ ...urls, pdf: urls?.pdf?.publicURL }}
+          urls={urls}
         />
       </header>
       <div className="prose prose-indigo max-w-none">
@@ -37,12 +38,7 @@ type MiscTemplateQuery = {
       title: string;
       date: string;
       lastMod?: string;
-      urls: {
-        source: string;
-        pdf: {
-          publicURL: string
-        }
-      };
+      urls: Urls;
     };
   };
 };
@@ -57,9 +53,20 @@ export const query = graphql`
         date
         lastMod
         urls {
-          source
           pdf {
             publicURL
+          }
+          slides {
+            publicURL
+          }
+          source
+          doi
+          arxiv
+          mathrev
+          zbmath
+          custom {
+            url
+            name
           }
         }
       }

@@ -4,6 +4,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 import MetaData from "../components/meta/data";
+import { Urls } from "../components/meta/links";
 
 const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
   const {
@@ -38,9 +39,7 @@ type PostTemplateQuery = {
       date: string;
       lastMod?: string;
       tags: string[];
-      urls: {
-        source: string;
-      };
+      urls: Urls;
     };
   };
 };
@@ -56,7 +55,21 @@ export const query = graphql`
         lastMod
         tags
         urls {
+          pdf {
+            publicURL
+          }
+          slides {
+            publicURL
+          }
           source
+          doi
+          arxiv
+          mathrev
+          zbmath
+          custom {
+            url
+            name
+          }
         }
       }
     }

@@ -4,6 +4,7 @@ import React from "react";
 
 import Layout from "../components/Layout";
 import MetaResearch from "../components/meta/research";
+import { Urls } from "../components/meta/links";
 
 const ResearchTemplate: React.FC<{ data: ResearchTemplateQuery }> = ({
   data: { mdx },
@@ -29,7 +30,7 @@ const ResearchTemplate: React.FC<{ data: ResearchTemplateQuery }> = ({
           date={new Date(date)}
           lastMod={lastMod ? new Date(lastMod) : null}
           authors={authors}
-          urls={{ ...urls, pdf: urls?.pdf.publicURL }}
+          urls={urls}
         />
       </div>
       <div className="prose prose-blue max-w-none">
@@ -49,15 +50,7 @@ type ResearchTemplateQuery = {
       date: string;
       lastMod?: string;
       authors: string[];
-      urls: {
-        pdf: { publicURL: string; }
-        source: string;
-        doi: string;
-        arxiv: string;
-        mathrev: string;
-        zbmath: string;
-        custom: { url: string; name: string }[];
-      }
+      urls: Urls
     };
   };
 };
@@ -74,6 +67,9 @@ export const query = graphql`
         authors
         urls {
           pdf {
+            publicURL
+          }
+          slides {
             publicURL
           }
           source
