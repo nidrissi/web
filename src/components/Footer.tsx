@@ -60,13 +60,13 @@ const Footer: React.FC<{}> = () => {
   return (
     <footer className="text-center">
       <hr className="my-2 w-11/12 mx-auto" />
-      <div className="flex flex-wrap gap-4 py-2 divide-x divide-gray-300 divide-dotted">
+      <div className="flex flex-wrap py-2 divide-x divide-gray-300 divide-dotted">
         {links.map((v) => (
           <div className="flex-auto" key={v.label}>
             <a
               href={v.url}
               rel="me"
-              className="text-blue-800 hover:underline"
+              className="text-blue-800 hover:underline block"
               key={v.label}
             >
               {v.icon ? (
