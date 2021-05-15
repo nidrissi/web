@@ -5,7 +5,7 @@ import React from "react";
 import Layout from "../components/Layout";
 import MetaData from "../components/meta/data";
 
-const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
+const MiscTemplate: React.FC<{ data: MiscTemplateQuery }> = ({ data }) => {
   const {
     body,
     frontmatter: { title, date, lastMod, tags, urls },
@@ -28,9 +28,9 @@ const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
     </Layout>
   );
 };
-export default PostTemplate;
+export default MiscTemplate;
 
-type PostTemplateQuery = {
+type MiscTemplateQuery = {
   mdx: {
     body: string;
     frontmatter: {
