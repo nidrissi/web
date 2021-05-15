@@ -85,6 +85,9 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-smartypants`,
+            options: {
+              "dashes": "oldschool"
+            }
           },
         ],
       },
