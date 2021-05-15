@@ -13,8 +13,8 @@ const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
 
   return (
     <Layout title={title}>
-      <header className="mb-3">
-        <h1 className="mb-0 text-3xl font-bold text-gray-700">{title}</h1>
+      <header className="mb-4">
+        <h1 className="mb-1 text-3xl font-bold text-gray-700">{title}</h1>
         <MetaData
           date={new Date(date)}
           lastMod={lastMod ? new Date(lastMod) : null}

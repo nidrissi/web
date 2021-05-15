@@ -9,7 +9,7 @@ type MetaDataProps = {
 };
 const MetaData: React.FC<MetaDataProps> = ({ date, lastMod, tags, urls }) => {
   return (
-    <div className="flex flex-wrap gap-2 content-center text-gray-600">
+    <div className="flex flex-wrap gap-x-2 gap-y-1 content-center text-gray-600">
       <div>
         Published{" "}
         <time dateTime={date.toISOString()}>
