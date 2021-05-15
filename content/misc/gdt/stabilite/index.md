@@ -2,7 +2,6 @@
 title: "Groupe de travail : Stabilité homologique"
 date: 2019-01-01
 lastMod: 2019-06-13
-aliases: [/fr/gdt-stabilite/]
 ---
 
 Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-Williams sur la stabilité homologique, et plus particulièrement leur article [_Cellular $E_k$-algebras_](https://arxiv.org/abs/1805.07184), dont voici le résumé :
@@ -63,5 +62,5 @@ L'article principal :
 
 Applications :
 
-- Soren Galatius, Alexander Kupers, Oscar Randal-Williams. _$E_2$-cells and mapping class groups_ (2018). [arXiv:1805.07187](https://arxiv.org/abs/1805.07187).
-- Soren Galatius, Alexander Kupers, Oscar Randal-Williams. _$E_\infty$-cells and general linear groups of finite fields\_ (2018). [arXiv:1810.11931](https://arxiv.org/abs/1810.11931)
+- Soren Galatius, Alexander Kupers, Oscar Randal-Williams. $E_2$-cells and mapping class groups (2018). [arXiv:1805.07187](https://arxiv.org/abs/1805.07187).
+- Soren Galatius, Alexander Kupers, Oscar Randal-Williams. $E_{\infty}$-cells and general linear groups of finite fields (2018). [arXiv:1810.11931](https://arxiv.org/abs/1810.11931)

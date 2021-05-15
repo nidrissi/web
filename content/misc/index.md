@@ -2,11 +2,6 @@
 title: Miscellaneous
 lastMod: 2021-03-22
 date: 2018-01-01
-menu:
-  main:
-    weight: 99
-    name: Misc
-    pre: '<i class="bi bi-bookmark"></i>'
 ---
 
 I am/was a member of:
@@ -22,7 +17,7 @@ It is of course open source: the code is hosted on [GitHub](https://github.com/n
 
 ---
 
-From January to June 2019, I organized a [reading seminar on homological stability and the works of Galatius--Kupers--Randal-Williams](/gdt/stabilite) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
+From January to June 2019, I organized a [reading seminar on homological stability and the works of Galatius--Kupers--Randal-Williams](/misc/gdt/stabilite) with Mario Gonçalves Lamas following an idea of Muriel Livernet.
 
 ---
 
