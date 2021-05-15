@@ -10,14 +10,17 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+type LocalFile = {
+  publicURL: string;
+}
 export type Urls = {
   arxiv?: string;
   custom?: { name: string; url: string }[];
   doi?: string;
   mathrev?: string;
   notes?: string;
-  pdf?: string;
-  slides?: string;
+  pdf?: LocalFile;
+  slides?: LocalFile;
   source?: string;
   video?: string;
   zbmath?: string;
@@ -57,18 +60,21 @@ const linkDefinitions: LinkDefinition[] = [
   { link: "source", label: "Source", icon: faFileCode },
 ];
 
-const Link: React.FC<{ definition: LinkDefinition; url: string }> = ({
+const Link: React.FC<{ definition: LinkDefinition; url: string | LocalFile }> = ({
   url,
   definition,
 }) => {
   if (!url) {
     return null;
   }
-  const label =
+
+  const actualUrl: string = typeof url === 'string' ? url : url.publicURL;
+  const label: string =
     typeof definition.label === "string"
       ? definition.label
-      : definition.label(url);
-  const href = definition.urlBuilder ? definition.urlBuilder(url) : url;
+      : definition.label(actualUrl);
+  const href: string = definition.urlBuilder ? definition.urlBuilder(actualUrl) : actualUrl;
+
   return (
     <a
       href={href}
