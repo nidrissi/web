@@ -42,13 +42,11 @@
     "gatsby-remark-copy-linked-files": "^4.2.0",
     "gatsby-remark-smartypants": "^4.2.0",
     "gatsby-source-filesystem": "^3.5.0",
-    "katex": "^0.12.0",
     "postcss": "^8.2.15",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "rehype-katex": "^5.0.0",
-    "remark": "^13.0.0",
     "remark-math": "^3.0.1",
     "tailwindcss": "^2.1.2"
   }
