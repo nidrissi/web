@@ -1,28 +1,22 @@
 import React from "react";
-import Links, { Urls } from "./links";
+import { Frontmatter } from ".";
+import DateTime from "./datetime";
+import Links from "./links";
 
-type MetaDataProps = {
-  date: Date;
-  lastMod: Date;
-  tags?: string[];
-  urls: Urls;
-};
-const MetaData: React.FC<MetaDataProps> = ({ date, lastMod, tags, urls }) => {
+const MetaData: React.FC<{ frontmatter: Frontmatter }> = ({
+  frontmatter: { date, lastMod, tags, urls }
+}) => {
   return (
     <>
       <div>
         Published{" "}
-        <time dateTime={date.toISOString()}>
-          {new Date(date).toLocaleDateString()}
-        </time>
-        .
+        <DateTime date={date} />
+          .
       </div>
       {lastMod ? (
         <div>
           Updated{" "}
-          <time dateTime={lastMod.toISOString()}>
-            {lastMod.toLocaleDateString()}
-          </time>
+          <DateTime date={lastMod} />
           .
         </div>
       ) : null}
