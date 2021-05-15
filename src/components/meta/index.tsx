@@ -1,4 +1,5 @@
 import React from "react";
+import MetaClass from "./class";
 import MetaData from "./data";
 import { Urls } from "./links";
 import MetaResearch from "./research";
@@ -8,13 +9,18 @@ export type Frontmatter = {
   date: string;
   lastMod?: string;
   tags: string[];
+  urls: Urls;
+  // Research
   publication?: string;
   authors?: string[];
-  urls: Urls;
+  // Class
+  cursus?: string;
+  what?: string;
+  time?: string;
 };
 
 const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({
-  frontmatter: { title, date, lastMod, tags, urls, publication, authors },
+  frontmatter: { date, lastMod, tags, urls, publication, authors, cursus, what, time },
   type
 }) => {
   return (
@@ -28,6 +34,16 @@ const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({
             lastMod={lastMod ? new Date(lastMod) : null}
             authors={authors}
             urls={urls}
+          />
+        ) : type === 'class' ? (
+          <MetaClass
+            date={new Date(date)}
+            lastMod={lastMod ? new Date(lastMod) : null}
+            tags={tags}
+            urls={urls}
+            cursus={cursus}
+            what={what}
+            time={time}
           />
         ) : (
           <MetaData
