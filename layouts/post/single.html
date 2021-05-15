@@ -1,8 +1,0 @@
-{{- define "main" -}}
-<article>
-  {{ partial "sidebar-button" . }}
-  <h1 class="mb-0">{{- .Title | markdownify -}}</h1>
-  <p class="fs-5">{{- partial "meta/post" . -}}</p>
-  <div>{{- .Content -}}</div>
-</article>
-{{- end -}}
