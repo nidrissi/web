@@ -33,8 +33,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     } = node;
     createPage({
       path: path.join(sourceInstanceName, slug),
-      component: path.resolve(`./src/templates/${sourceInstanceName}.tsx`),
-      context: { id },
+      component: path.resolve(`./src/templates/page.tsx`),
+      context: { id, type: sourceInstanceName },
     });
   });
 };

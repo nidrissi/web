@@ -5,23 +5,44 @@ import React from "react";
 import Layout from "../components/Layout";
 import MetaData from "../components/meta/data";
 import { Urls } from "../components/meta/links";
+import MetaResearch from "../components/meta/research";
 
-const MiscTemplate: React.FC<{ data: MiscTemplateQuery }> = ({ data }) => {
+const PageTemplate: React.FC<{
+  data: PageTemplateQuery;
+  pageContext: {
+    id: string;
+    type: string
+  }
+}> = ({ data, pageContext: { type } }) => {
   const {
     body,
-    frontmatter: { title, date, lastMod, urls },
+    frontmatter: { title, date, lastMod, tags, urls, publication, authors },
   } = data.mdx;
+
+  const meta =
+    type === 'research' ? (
+      <MetaResearch
+        publication={publication}
+        date={new Date(date)}
+        lastMod={lastMod ? new Date(lastMod) : null}
+        authors={authors}
+        urls={urls}
+      />
+    ) : (
+      <MetaData
+        date={new Date(date)
+        }
+        lastMod={lastMod ? new Date(lastMod) : null}
+        tags={tags}
+        urls={urls}
+      />
+    );
 
   return (
     <Layout title={title}>
-      <header className="mb-3">
-        <h1 className="mb-0 text-3xl font-bold text-gray-700">{title}</h1>
-        <MetaData
-          date={new Date(date)}
-          lastMod={lastMod ? new Date(lastMod) : null}
-          tags={null}
-          urls={urls}
-        />
+      <header className="mb-4">
+        <h1 className="mb-1 text-3xl font-bold text-gray-700">{title}</h1>
+        {meta}
       </header>
       <div className="prose prose-indigo max-w-none">
         <MDXRenderer>{body}</MDXRenderer>
@@ -29,15 +50,18 @@ const MiscTemplate: React.FC<{ data: MiscTemplateQuery }> = ({ data }) => {
     </Layout>
   );
 };
-export default MiscTemplate;
+export default PageTemplate;
 
-type MiscTemplateQuery = {
+type PageTemplateQuery = {
   mdx: {
     body: string;
     frontmatter: {
       title: string;
       date: string;
       lastMod?: string;
+      tags: string[];
+      publication?: string;
+      authors?: string[];
       urls: Urls;
     };
   };
@@ -52,6 +76,9 @@ export const query = graphql`
         title
         date
         lastMod
+        tags
+        publication
+        authors
         urls {
           pdf {
             publicURL
