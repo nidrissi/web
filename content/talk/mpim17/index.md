@@ -6,5 +6,5 @@ eventURL: "https://www.mpim-bonn.mpg.de/node/6791"
 location: Max Planck Institute for Mathematics (MPIM Bonn)
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:
-  slides: /pdf/slides/model-conf-sp_slides_en.pdf
+  slides: model-conf-sp_slides_en.pdf
 ---

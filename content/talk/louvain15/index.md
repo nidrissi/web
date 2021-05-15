@@ -7,5 +7,5 @@ location: Université catholique de Louvain
 selected: false
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 urls:
-  slides: /pdf/slides/center_slides.pdf
+  slides: center_slides.pdf
 ---

@@ -7,5 +7,5 @@ event: Séminaire de physique mathématique et de topologie algébrique
 eventURL: "http://recherche.math.univ-angers.fr/spip.php?article29&site=56&session=15&presentation=180"
 location: Université d'Angers
 urls:
-  slides: /pdf/slides/bord.pdf
+  slides: bord.pdf
 ---

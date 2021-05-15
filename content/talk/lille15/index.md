@@ -6,5 +6,5 @@ eventURL: "http://math.univ-lille1.fr/d7/node/8621"
 location: Université de Lille
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 urls:
-  slides: /pdf/slides/center_slides.pdf
+  slides: center_slides.pdf
 ---

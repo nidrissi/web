@@ -6,6 +6,6 @@ abstract: "L'objet de cet exposé est le type d'homotopie réel des espaces de c
 event: Homotopie en Géométrie Algébrique
 eventURL: "https://www.math.univ-toulouse.fr/spip.php?rubrique94"
 location: Université Paul Sabatier (Toulouse)
-urls: 
-  slides: /pdf/slides/bord.pdf
+urls:
+  slides: bord.pdf
 ---

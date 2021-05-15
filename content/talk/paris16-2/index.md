@@ -6,5 +6,5 @@ eventURL: "https://www.math.univ-paris13.fr/laga/index.php/fr/ta/seminaires"
 location: Université Paris 13
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
 urls:
-  slides: /pdf/slides/model-conf-sp_slides_fr.pdf
+  slides: model-conf-sp_slides_fr.pdf
 ---

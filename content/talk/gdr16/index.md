@@ -6,5 +6,5 @@ eventURL: "https://indico.math.cnrs.fr/event/1297/"
 location: Université de Picardie Jules Vernes (Amiens)
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:
-  slides: /pdf/slides/model-conf-sp_slides_en.pdf
+  slides: model-conf-sp_slides_en.pdf
 ---
