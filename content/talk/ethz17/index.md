@@ -7,5 +7,5 @@ eventURL: "https://www.math.ethz.ch/news-and-events/events/research-seminars/tal
 location: ETH Zürich
 selected: false
 urls:
-  slides: /pdf/slides/config_boundary.pdf
+  slides: config_boundary.pdf
 ---

@@ -7,5 +7,5 @@ event: Séminaire de topologie, géométrie et algèbre
 eventURL: "http://www.math.sciences.univ-nantes.fr/fr/exposes/3219"
 location: Université de Nantes
 urls:
-  slides: /pdf/slides/bord.pdf
+  slides: bord.pdf
 ---
