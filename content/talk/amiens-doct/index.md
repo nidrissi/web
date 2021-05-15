@@ -6,5 +6,5 @@ eventURL: "https://www.lamfa.u-picardie.fr/seminaires-colloques/seminaire-doctor
 location: Université de Picardie Jules Vernes (Amiens)
 title: Opérades
 urls:
-  notes: /pdf/slides/operades.pdf
+  notes: operades.pdf
 ---

@@ -18,7 +18,7 @@ export type Urls = {
   custom?: { name: string; url: string }[];
   doi?: string;
   mathrev?: string;
-  notes?: string;
+  notes?: LocalFile;
   pdf?: LocalFile;
   slides?: LocalFile;
   source?: string;

@@ -48,11 +48,17 @@ export const query = graphql`
         tags
         publication
         authors
+        cursus
+        what
+        time
         urls {
           pdf {
             publicURL
           }
           slides {
+            publicURL
+          }
+          notes {
             publicURL
           }
           source
