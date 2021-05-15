@@ -66,6 +66,8 @@ export const query = graphql`
           notes {
             publicURL
           }
+          event
+          video
           source
           doi
           arxiv
