@@ -63,6 +63,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-mdx",
       options: {
+        defaultLayouts: {
+          default: require.resolve("./src/components/Layout.tsx"),
+        },
         extensions: [`.mdx`, `.md`],
         remarkPlugins: [require("remark-math")],
         rehypePlugins: [require("rehype-katex")],
