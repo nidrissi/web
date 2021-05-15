@@ -8,7 +8,7 @@ import MetaData from "../components/meta/data";
 const MiscTemplate: React.FC<{ data: MiscTemplateQuery }> = ({ data }) => {
   const {
     body,
-    frontmatter: { title, date, lastMod, tags, urls },
+    frontmatter: { title, date, lastMod, urls },
   } = data.mdx;
 
   return (
@@ -18,7 +18,7 @@ const MiscTemplate: React.FC<{ data: MiscTemplateQuery }> = ({ data }) => {
         <MetaData
           date={new Date(date)}
           lastMod={lastMod ? new Date(lastMod) : null}
-          tags={tags}
+          tags={null}
           urls={{ ...urls, pdf: urls?.pdf?.publicURL }}
         />
       </header>
@@ -37,7 +37,6 @@ type MiscTemplateQuery = {
       title: string;
       date: string;
       lastMod?: string;
-      tags: string[];
       urls: {
         source: string;
         pdf: {
@@ -57,7 +56,6 @@ export const query = graphql`
         title
         date
         lastMod
-        tags
         urls {
           source
           pdf {
