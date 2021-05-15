@@ -22,8 +22,8 @@ const ResearchTemplate: React.FC<{ data: ResearchTemplateQuery }> = ({
 
   return (
     <Layout title={title}>
-      <h1 className="text-3xl font-bold mb-0">{title}</h1>
-      <div className="text-lg mb-3">
+      <h1 className="text-3xl font-bold mb-1">{title}</h1>
+      <div className="text-lg mb-4">
         <MetaResearch
           publication={publication}
           date={new Date(date)}

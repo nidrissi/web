@@ -38,7 +38,7 @@ const MetaResearch: React.FC<MetaResearchProps> = ({ date, lastMod, urls, public
   ) : null;
 
   return (
-    <div className="flex flex-wrap gap-2 content-center text-gray-600">
+    <div className="flex flex-wrap gap-x-2 gap-y-1 content-center text-gray-600">
       {displayedAuthors}
       <div>
         {publication}
