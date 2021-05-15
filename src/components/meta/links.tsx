@@ -5,6 +5,7 @@ import {
   faFileVideo,
 } from "@fortawesome/free-regular-svg-icons";
 import {
+  faCalendarDay,
   faPencilRuler,
   IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
@@ -33,6 +34,7 @@ type LinkDefinition = {
   urlBuilder?: (id: string) => string;
 };
 const linkDefinitions: LinkDefinition[] = [
+  { link: "event", label: "Event", icon: faCalendarDay },
   { link: "pdf", label: "PDF", icon: faFilePdf },
   { link: "slides", label: "Slides" },
   { link: "video", label: "Video", icon: faFileVideo },

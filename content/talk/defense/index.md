@@ -6,5 +6,5 @@ event: Doctoral thesis defense
 location: Université de Lille
 urls:
   slides: soutenance.pdf
-  video: proclamation.mp4
+  # video: proclamation.mp4
 ---

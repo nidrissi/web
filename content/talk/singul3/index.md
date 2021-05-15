@@ -5,7 +5,8 @@ abstract: |
     Les opérades $D\_1$, $D\_2$ et $SC$ sont toutes les trois complètement décrites par leurs groupoïdes fondamentaux. Les groupoïdes fondamentaux de $D\_1$ et $D\_2$ sont équivalents à des opérades qui gouvernent respectivement les catégories monoïdales et les catégories monoïdales tressées. J'expliquerai que le groupoïde fondamental de $SC$ est équivalent à une opérade qui fait intervenir les catégories monoïdales, les catégories monoïdales tressées et le centre de Drinfeld, en analogie avec le théorème de Voronov.
 date: 2017-10-03
 event: Séminaire de Géométrie des Espaces Singuliers
-eventURL: "http://math.univ-lille1.fr/d7/node/9492"
 location: Université de Lille
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
+urls:
+    event: "http://math.univ-lille1.fr/d7/node/9492"
 ---
