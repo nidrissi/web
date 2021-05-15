@@ -4,7 +4,6 @@ date: 2017-07-06
 event: Young Topologists Meeting 2017
 eventURL: https://www.math-stockholm.se/en/konferenser-och-akti/young-topologists-meeting-2017-1.670396
 location: Stockholm University & Royal Institute of Technology (KTH)
-selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:
   slides: ytm2017.pdf

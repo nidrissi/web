@@ -5,7 +5,6 @@ what: Lectures
 time: 24h
 year: 2019–2020
 date: 2020-01-01
-publishDate: 2019-05-01
 lastMod: 2020-04-30
 sidebar:
   - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"

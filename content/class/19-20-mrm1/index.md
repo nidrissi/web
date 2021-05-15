@@ -5,5 +5,4 @@ what: Lectures + Exercise sessions
 time: 56.5h
 year: 2019–2020
 date: 2019-10-01
-publishDate: 2019-05-15
 ---

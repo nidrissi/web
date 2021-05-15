@@ -6,7 +6,6 @@ what: Peccot Lecture
 time: 8h
 year: 2019–2020
 date: 2020-03-04
-publishDate: 2019-11-08
 lastMod: 2020-06-26
 urls:
   notes: /en/research/peccot/peccot.pdf
