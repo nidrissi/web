@@ -5,7 +5,6 @@ abstract: "We study the real homotopy type of configuration spaces of smooth com
 event: Talks in mathematical physics
 eventURL: "https://www.math.ethz.ch/news-and-events/events/research-seminars/talks-in-mathematical-physics.html?s=hs17"
 location: ETH Zürich
-selected: false
 urls:
   slides: config_boundary.pdf
 ---

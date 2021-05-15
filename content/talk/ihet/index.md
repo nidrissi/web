@@ -4,7 +4,6 @@ date: 2016-10-26
 event: Conference in the honour of Saïd Zarati
 eventURL: "http://www.mims.tn/events/details/74"
 location: Institut des Hautes Études à Tunis (IHET)
-selected: false
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:
   slides: model-conf-sp_slides_en.pdf

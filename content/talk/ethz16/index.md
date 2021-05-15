@@ -4,7 +4,6 @@ date: 2016-06-03
 event: Talks in mathematical physics
 eventURL: "https://math.ethz.ch/news-and-events/events/research-seminars/talks-in-mathematical-physics.html?s=fs16"
 location: ETH Zürich
-selected: false
 title: Swiss-Cheese Operad and Drinfeld Center
 urls:
   slides: center_slides_en.pdf

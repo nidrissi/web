@@ -4,7 +4,6 @@ date: 2015-10-28
 event: Séminaire de Topologie Algébrique
 eventURL:
 location: Université catholique de Louvain
-selected: false
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 urls:
   slides: center_slides.pdf

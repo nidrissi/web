@@ -2,7 +2,6 @@
 title: "Lecture Notes"
 date: 2019-09-11
 tags: [math, class]
-translationKey: lecture-notes
 ---
 
 This summer I've started to compile lecture notes for my [class](/class/19-20-homotopie) on homotopy theory in January/February.
