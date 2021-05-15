@@ -20,7 +20,7 @@ type navbarLink = {
 };
 const navbarLinks: navbarLink[] = [
   { to: "/", icon: faHome, label: "Home" },
-  { to: "/cv", icon: faPortrait, label: "CV" },
+  { to: "/misc/cv", icon: faPortrait, label: "CV" },
   { to: "/research", icon: faPenNib, label: "Research" },
   { to: "/talk", icon: faBullhorn, label: "Talks" },
   { to: "/class", icon: faChalkboardTeacher, label: "Teaching" },
@@ -32,9 +32,8 @@ const Navbar: React.FC<{}> = () => {
   const [expanded, setExpanded] = useState(false);
   return (
     <div
-      className={`sticky top-0 w-full ${
-        expanded ? "grid grid-cols-1" : "flex"
-      } items-center gap-4 mb-3 bg-white text-black z-50`}
+      className={`sticky top-0 w-full ${expanded ? "grid grid-cols-1" : "flex"
+        } items-center gap-4 mb-3 bg-white text-black z-50`}
     >
       <div
         id="navbar-content"
