@@ -4,9 +4,6 @@ import { Helmet } from "react-helmet";
 import { useLocation } from "@reach/router";
 
 import Footer from "./Footer";
-
-import "../styles/global.css";
-import "katex/dist/katex.css";
 import Navbar from "./Navbar";
 
 type LayoutQuery = {

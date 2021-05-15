@@ -75,7 +75,10 @@ module.exports = {
         },
         extensions: [`.mdx`, `.md`],
         remarkPlugins: [require("remark-math")],
-        rehypePlugins: [require("rehype-katex")],
+        rehypePlugins: [
+          require("rehype-katex"),
+          require("@mapbox/rehype-prism")
+        ],
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-copy-linked-files`,
