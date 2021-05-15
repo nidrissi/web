@@ -1,5 +1,5 @@
 ---
-title: "The action of \\\\(SO(n)\\\\) on \\\\(S^{n-1}\\\\) is not formal"
+title: "The action of the orthogonal group on the sphere is not formal"
 date: 2020-09-17
 draft: false
 tags: [math]
@@ -24,9 +24,13 @@ This implies that, over $\mathbb{Q}$, the map $\rho$ factors through the second 
 We know that $pSO(3) \simeq_{\mathbb{Q}} S^3$ and that $\pi^{\mathbb{Q}}_3(S^3) = \mathbb{Q}$.
 Let $x$ be a generator and let us show that $\rho_(x \times 1)$ must generate $\pi^{\mathbb{Q}}*3(S^2)$
 We also know that $\rho$ induces a principal $SO(2)$-bundle :
+
 $$SO(2) \hookrightarrow SO(3) \twoheadrightarrow S^2$$
+
 where $p : SO(3) \to S^2$ is given by $p(A) = A \cdot w$ for a fixed vector $w$ and $SO(2)$ is the stabilizer of $w$.
 We thus get a long exact sequence of homotopy groups:
+
 $$\pi_{3}(SO(2)) \to \pi_{3}(SO(3)) \xrightarrow{p_*} \pi_{3}(S^{2}) \to \pi_{2}(SO(2)).$$
+
 Since $\pi_{3}(SO(2)) = \pi_{2}(SO(2)) = 0$, we get that $p_*(x) = \rho_*(x \times 1)$ is a generator.
 This contradicts the fact that $\rho$ factors through the second projection as then $\rho_*(x \times 1)$ would vanish.
