@@ -1,7 +1,7 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
 
-import Layout from "./Layout";
+import Layout from "../Layout";
 import Contact from "./Contact";
 
 const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
@@ -11,7 +11,14 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
         siteTitle
       },
     },
-  } = data;
+  } = useStaticQuery(graphql`
+        query {
+          site {
+            siteMetadata {
+              siteTitle
+            }
+          }
+        }`);
 
   return (
     <Layout title={siteTitle}>
@@ -22,7 +29,7 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
         className="float-right m-2 rounded-md"
       />
       <article>
-        <div className="prose prose-blue max-w-none mb-3">
+        <div className="prose prose-blue max-w-4xl mb-3">
           {children}
         </div>
         <Contact />
