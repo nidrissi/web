@@ -19,7 +19,7 @@ const PostTemplate: React.FC<{ data: PostTemplateQuery }> = ({ data }) => {
           date={new Date(date)}
           lastMod={lastMod ? new Date(lastMod) : null}
           tags={tags}
-          urls={urls}
+          urls={{ ...urls, pdf: urls?.pdf?.publicURL }}
         />
       </header>
       <div className="prose prose-indigo max-w-none">
@@ -40,6 +40,9 @@ type PostTemplateQuery = {
       tags: string[];
       urls: {
         source: string;
+        pdf: {
+          publicURL: string
+        }
       };
     };
   };
@@ -57,6 +60,9 @@ export const query = graphql`
         tags
         urls {
           source
+          pdf {
+            publicURL
+          }
         }
       }
     }

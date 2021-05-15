@@ -4,13 +4,8 @@ title: Curriculum Vitæ
 date: "2015-01-01"
 lastMod: 2021-05-05
 urls:
-  pdf: cv.en.pdf
+  pdf: cv.pdf
 toc: true
-menu:
-  main:
-    weight: 10
-    name: CV
-    pre: '<i class="bi bi-file-person"></i>'
 ---
 
 ## Academic Career
@@ -57,7 +52,6 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <dl class="row mb-0">
 
 </dl>
-{{< cvbib "publication" >}}
 <dl class="row mb-0">
 
 </dl>
@@ -67,7 +61,6 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <dl class="row mb-0">
 
 </dl>
-{{< cvbib "preprint" >}}
 <dl class="row mb-0">
 
 </dl>
@@ -77,7 +70,6 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <dl class="row mb-0">
 
 </dl>
-{{< cvbib "thesis" >}}
 <dl class="row mb-0">
 
 </dl>
