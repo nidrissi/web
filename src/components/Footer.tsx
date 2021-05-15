@@ -66,7 +66,7 @@ const Footer: React.FC<{}> = () => {
             <a
               href={v.url}
               rel="me"
-              className="text-blue-800 hover:underline block"
+              className="text-blue-800 hover:underline block p-2"
               key={v.label}
             >
               {v.icon ? (
