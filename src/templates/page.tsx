@@ -15,10 +15,12 @@ const PageTemplate: React.FC<{
   const { body, frontmatter,
   } = data.mdx;
 
+  const actualTitle = type === 'talk' ? frontmatter.event : frontmatter.title;
+
   return (
     <Layout title={frontmatter.title}>
       <header className="mb-4">
-        <h1 className="mb-1 text-3xl font-bold text-gray-700">{frontmatter.title}</h1>
+        <h1 className="mb-1 text-3xl font-bold text-gray-700">{actualTitle}</h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
       <div className="prose prose-indigo max-w-none">
@@ -51,6 +53,9 @@ export const query = graphql`
         cursus
         what
         time
+        event
+        TBA
+        location
         urls {
           pdf {
             publicURL

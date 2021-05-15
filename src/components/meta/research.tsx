@@ -1,6 +1,9 @@
 import React from "react";
 
-import Links, { Urls } from "./links";
+import { Frontmatter } from ".";
+import DateTime from "./datetime";
+import Links from "./links";
+
 import people from './people.json'
 
 function formatAuthor(author: string): string | JSX.Element {
@@ -20,14 +23,7 @@ function formatAuthor(author: string): string | JSX.Element {
   }
 }
 
-type MetaResearchProps = {
-  date: Date;
-  lastMod?: Date;
-  authors: string[];
-  publication: string;
-  urls: Urls;
-};
-const MetaResearch: React.FC<MetaResearchProps> = ({ date, lastMod, urls, publication, authors }) => {
+const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { date, lastMod, urls, publication, authors } }) => {
   const displayedAuthors = authors.length > 1 ? (
     <>
       {authors.map((a, i) => <>
@@ -47,17 +43,13 @@ const MetaResearch: React.FC<MetaResearchProps> = ({ date, lastMod, urls, public
       </div>
       <div>
         Online{" "}
-        <time dateTime={date.toISOString()}>
-          {new Date(date).toLocaleDateString()}
-        </time>
+        <DateTime date={date} />
         .
       </div>
       {lastMod ? (
         <div>
           Updated{" "}
-          <time dateTime={lastMod.toISOString()}>
-            {lastMod.toLocaleDateString()}
-          </time>
+          <DateTime date={lastMod} />
           .
         </div>
       ) : null}

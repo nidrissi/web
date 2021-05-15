@@ -3,6 +3,7 @@ import MetaClass from "./class";
 import MetaData from "./data";
 import { Urls } from "./links";
 import MetaResearch from "./research";
+import MetaTalk from "./talk";
 
 export type Frontmatter = {
   title: string;
@@ -17,41 +18,27 @@ export type Frontmatter = {
   cursus?: string;
   what?: string;
   time?: string;
+  // Event
+  event: string;
+  location: string;
+  TBA: boolean;
 };
 
 const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({
-  frontmatter: { date, lastMod, tags, urls, publication, authors, cursus, what, time },
+  frontmatter,
   type
 }) => {
   return (
     <div className="flex flex-wrap gap-x-2 gap-y-1 content-center text-gray-600">
       {
-
         type === 'research' ? (
-          <MetaResearch
-            publication={publication}
-            date={new Date(date)}
-            lastMod={lastMod ? new Date(lastMod) : null}
-            authors={authors}
-            urls={urls}
-          />
+          <MetaResearch frontmatter={frontmatter} />
         ) : type === 'class' ? (
-          <MetaClass
-            date={new Date(date)}
-            lastMod={lastMod ? new Date(lastMod) : null}
-            tags={tags}
-            urls={urls}
-            cursus={cursus}
-            what={what}
-            time={time}
-          />
+          <MetaClass frontmatter={frontmatter} />
+        ) : type === 'talk' ? (
+          <MetaTalk frontmatter={frontmatter} />
         ) : (
-          <MetaData
-            date={new Date(date)}
-            lastMod={lastMod ? new Date(lastMod) : null}
-            tags={tags}
-            urls={urls}
-          />
+          <MetaData frontmatter={frontmatter} />
         )
       }
     </div>
