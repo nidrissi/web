@@ -3,9 +3,7 @@ import { graphql } from "gatsby";
 import React from "react";
 
 import Layout from "../components/Layout";
-import MetaData from "../components/meta/data";
-import { Urls } from "../components/meta/links";
-import MetaResearch from "../components/meta/research";
+import Meta, { Frontmatter } from "../components/meta";
 
 const PageTemplate: React.FC<{
   data: PageTemplateQuery;
@@ -14,35 +12,14 @@ const PageTemplate: React.FC<{
     type: string
   }
 }> = ({ data, pageContext: { type } }) => {
-  const {
-    body,
-    frontmatter: { title, date, lastMod, tags, urls, publication, authors },
+  const { body, frontmatter,
   } = data.mdx;
 
-  const meta =
-    type === 'research' ? (
-      <MetaResearch
-        publication={publication}
-        date={new Date(date)}
-        lastMod={lastMod ? new Date(lastMod) : null}
-        authors={authors}
-        urls={urls}
-      />
-    ) : (
-      <MetaData
-        date={new Date(date)
-        }
-        lastMod={lastMod ? new Date(lastMod) : null}
-        tags={tags}
-        urls={urls}
-      />
-    );
-
   return (
-    <Layout title={title}>
+    <Layout title={frontmatter.title}>
       <header className="mb-4">
-        <h1 className="mb-1 text-3xl font-bold text-gray-700">{title}</h1>
-        {meta}
+        <h1 className="mb-1 text-3xl font-bold text-gray-700">{frontmatter.title}</h1>
+        <Meta frontmatter={frontmatter} type={type} />
       </header>
       <div className="prose prose-indigo max-w-none">
         <MDXRenderer>{body}</MDXRenderer>
@@ -55,15 +32,7 @@ export default PageTemplate;
 type PageTemplateQuery = {
   mdx: {
     body: string;
-    frontmatter: {
-      title: string;
-      date: string;
-      lastMod?: string;
-      tags: string[];
-      publication?: string;
-      authors?: string[];
-      urls: Urls;
-    };
+    frontmatter: Frontmatter;
   };
 };
 

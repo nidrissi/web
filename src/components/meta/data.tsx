@@ -4,12 +4,12 @@ import Links, { Urls } from "./links";
 type MetaDataProps = {
   date: Date;
   lastMod: Date;
-  tags: string[];
+  tags?: string[];
   urls: Urls;
 };
 const MetaData: React.FC<MetaDataProps> = ({ date, lastMod, tags, urls }) => {
   return (
-    <div className="flex flex-wrap gap-x-2 gap-y-1 content-center text-gray-600">
+    <>
       <div>
         Published{" "}
         <time dateTime={date.toISOString()}>
@@ -28,7 +28,7 @@ const MetaData: React.FC<MetaDataProps> = ({ date, lastMod, tags, urls }) => {
       ) : null}
       <Links urls={urls} />
       {tags && tags.map((t) => <div key={t}>#{t}</div>)}
-    </div>
+    </>
   );
 };
 export default MetaData;
