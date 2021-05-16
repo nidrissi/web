@@ -42,10 +42,11 @@
     },
     {
       "type": "npm",
-      "script": "develop",
+      "script": "build",
       "problemMatcher": [],
-      "label": "npm: develop",
-      "detail": "gatsby develop"
+      "label": "npm: build",
+      "detail": "gatsby build",
+      "group": "build"
     }
   ]
 }

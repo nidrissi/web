@@ -2,7 +2,7 @@ name: "CodeQL"
 
 on:
   push:
-    branches: [master,gatsby]
+    branches: [master]
     paths-ignore:
       - ".vscode/**"
       - "README.md"
