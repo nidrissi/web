@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import Meta from "../meta";
 
 const Class: React.FC<{}> = () => {
@@ -59,9 +59,9 @@ query RootClassQuery {
               <h3 className="text-xl font-semibold">
                 {
                   words > 0 ? (
-                    <a href={`class/${slug}`} className="text-purple-800 hover:underline">
+                    <Link to={`/class/${slug}`} className="text-purple-800 hover:underline">
                       {frontmatter.title}
-                    </a>
+                    </Link>
                   ) : <>{frontmatter.title}</>
                 }
               </h3>
