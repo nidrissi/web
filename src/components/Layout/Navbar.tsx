@@ -35,9 +35,12 @@ const Navbar: React.FC<{}> = () => {
       className={`sticky top-0 w-full ${expanded ? "grid grid-cols-1" : "flex"
         } items-center gap-4 mb-3 bg-white text-black z-50`}
     >
-      <div className="flex ml-auto flex-none md:hidden justify-end">
+      <div className="flex w-full md:hidden items-center justify-between">
+        <Link to="/" className="block p-3 font-bold text-xl">
+          Najib Idrissi
+        </Link>
         <button
-          className="cursor-pointer p-3 text-xl bg-gray-100 rounded-md m-2"
+          className="block cursor-pointer p-3 text-xl bg-gray-100 rounded-md m-2"
           onClick={() => setExpanded(!expanded)}
           title="Expand the navbar"
         >
