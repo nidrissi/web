@@ -60,7 +60,7 @@ query RootClassQuery {
               <h3 className="text-xl font-semibold">
                 {
                   words > 0 ? (
-                    <Link to={`/class/${slug}`} className="text-purple-800 hover:underline">
+                    <Link to={`/class/${slug}`} className="text-blue-800 hover:underline">
                       {frontmatter.title}
                     </Link>
                   ) : <>{frontmatter.title}</>
@@ -70,7 +70,7 @@ query RootClassQuery {
             </article>
           ))
         }
-        <SeeMore to="/class" style="bg-purple-100" label="teaching" />
+        <SeeMore to="/class" label="teaching" />
       </div>
     </section>
   );

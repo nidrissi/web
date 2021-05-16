@@ -74,7 +74,7 @@ query ResearchListQuery {
                   .map(({ frontmatter, slug }) => (
                     <article key={slug}>
                       <h3 className="text-xl font-semibold">
-                        <Link to={`/research/${slug}`} className="text-yellow-700 hover:underline">
+                        <Link to={`/research/${slug}`} className="text-blue-800 hover:underline">
                           {frontmatter.title}
                         </Link>
                       </h3>

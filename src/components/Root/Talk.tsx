@@ -62,7 +62,7 @@ query RootTalkQuery {
               <h3 className="text-xl font-semibold">
                 {
                   words > 0 ? (
-                    <Link to={`/talk/${slug}`} className="text-green-800 hover:underline">
+                    <Link to={`/talk/${slug}`} className="text-blue-800 hover:underline">
                       {frontmatter.title}
                     </Link>
                   ) : <>{frontmatter.title}</>
@@ -72,7 +72,7 @@ query RootTalkQuery {
             </article>
           ))
         }
-        <SeeMore to="/research" style="bg-green-100" label="talks" />
+        <SeeMore to="/research" label="talks" />
       </div>
     </section>
   );

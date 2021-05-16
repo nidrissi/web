@@ -29,7 +29,7 @@ const PageTemplate: React.FC<{
         <h1 className="text-3xl font-bold text-gray-700">{actualTitle}</h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
-      <div className="prose prose-indigo max-w-none">
+      <div className="prose prose-blue max-w-none">
         <MDXRenderer>{body}</MDXRenderer>
       </div>
     </Layout>

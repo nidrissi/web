@@ -59,7 +59,7 @@ query PostListQuery {
             <article key={slug}>
               <h2 className="text-xl font-semibold mb-1 max-w-2xl">
                 {
-                  <Link to={`/post/${slug}`} className="text-indigo-800 hover:underline">
+                  <Link to={`/post/${slug}`} className="text-blue-800 hover:underline">
                     {frontmatter.title}
                   </Link>
                 }
@@ -67,7 +67,7 @@ query PostListQuery {
               <div className="mb-2">
                 <Meta frontmatter={frontmatter} type="post" />
               </div>
-              <div className="prose prose-indigo prose-sm max-w-xl">
+              <div className="prose prose-blue prose-sm max-w-xl">
                 {excerpt}
                 {' '}
                 <Link to={`/post/${slug}`}>
