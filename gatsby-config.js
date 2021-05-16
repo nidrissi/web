@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://idrissi.eu`,
     siteTitle: `Najib Idrissi's page`,
+    siteDescription: `Hello! I am Najib Idrissi, a mathematician, and this is my webpage.`,
     author: {
       name: `Najib Idrissi`,
       email: `najib.idrissi-kaitouni@imj-prg.fr`,
@@ -26,12 +28,12 @@ module.exports = {
         mathoverflow: `36146/najib-idrissi`,
       },
     },
-    siteUrl: `https://idrissi.eu`,
   },
   plugins: [
     "gatsby-plugin-typescript",
     "gatsby-plugin-postcss",
     "gatsby-plugin-catch-links",
+    "gatsby-plugin-offline",
     {
       resolve: `gatsby-source-filesystem`,
       options: {

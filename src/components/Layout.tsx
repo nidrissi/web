@@ -15,7 +15,7 @@ type LayoutQuery = {
   };
 };
 
-const Layout: React.FC<{ title: string }> = ({ children, title }) => {
+const Layout: React.FC<{ title: string, description: string }> = ({ children, title, description }) => {
   const {
     site: {
       siteMetadata: { siteTitle, siteUrl },
@@ -36,12 +36,13 @@ const Layout: React.FC<{ title: string }> = ({ children, title }) => {
 
   return (
     <>
-      <Helmet>
+      <Helmet
+        htmlAttributes={{ lang: 'en', }}
+        title={title !== siteTitle ? `${title} | ${siteTitle}` : siteTitle}
+      >
         <meta charSet="utf-8" />
-        <title>
-          {title !== siteTitle ? `${title} | ${siteTitle}` : siteTitle}
-        </title>
         <link rel="canonical" href={`${siteUrl}${pathname}`} />
+        <meta name="description" content={description} />
       </Helmet>
       <Navbar />
       <main className="container mx-auto p-2">{children}</main>

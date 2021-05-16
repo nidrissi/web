@@ -8,11 +8,12 @@ import Class from "./Class";
 import Talk from "./Talk";
 import Post from "./Post";
 
-const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
+const Index: React.FC<{ data: IndexQuery, description: string }> = ({ children }) => {
   const {
     site: {
       siteMetadata: {
-        siteTitle
+        siteTitle,
+        siteDescription
       },
     },
   } = useStaticQuery(graphql`
@@ -20,6 +21,7 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
           site {
             siteMetadata {
               siteTitle
+              siteDescription
             }
           }
         }`);
@@ -27,7 +29,7 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
   const hr = <hr className="my-4" />
 
   return (
-    <Layout title={siteTitle}>
+    <Layout title={siteTitle} description={siteDescription} >
       <img
         src="/img/photo.jpg"
         width="150px"

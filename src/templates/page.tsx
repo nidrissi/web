@@ -12,8 +12,7 @@ const PageTemplate: React.FC<{
     type: string
   }
 }> = ({ data, pageContext: { type } }) => {
-  const { body, frontmatter,
-  } = data.mdx;
+  const { body, frontmatter, excerpt } = data.mdx;
 
   const actualTitle =
     type === 'talk' ? (
@@ -25,7 +24,7 @@ const PageTemplate: React.FC<{
     );
 
   return (
-    <Layout title={frontmatter.title}>
+    <Layout title={frontmatter.title} description={excerpt}>
       <header className="mb-4">
         <h1 className="mb-1 text-3xl font-bold text-gray-700">{actualTitle}</h1>
         <Meta frontmatter={frontmatter} type={type} />
@@ -41,6 +40,7 @@ export default PageTemplate;
 type PageTemplateQuery = {
   mdx: {
     body: string;
+    excerpt: string;
     frontmatter: Frontmatter;
   };
 };
@@ -49,6 +49,7 @@ export const query = graphql`
   query ($id: String) {
     mdx(id: { eq: $id }) {
       body
+      excerpt(pruneLength: 160)
       frontmatter {
         title
         date
