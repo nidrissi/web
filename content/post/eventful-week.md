@@ -12,7 +12,7 @@ I am of course extremely happy and I feel extremely lucky. This would not have b
 
 This week I am in Vancouver, where I participated in the wonderful workshop [Graph Complexes, Configuration Spaces and Manifold Calculus](https://www.pims.math.ca/scientific-event/180522-gccsmc). (The change of scenery also helped me get some perspective on the MCF positions.) Next week I'm in Regina to talk with [Don Stanley](https://www.uregina.ca/science/mathstat/faculty-staff/faculty/stanley-donald.html) and [Paul-Arnaud Songhafouo Tsopméné](https://www.uregina.ca/science/mathstat/faculty-staff/postdoctoral/tsopmene-paul.html), then after that I go to the Fields Institute in Toronto to give a talk as a junior speaker at the [_Séminaire de mathématiques supérieures 2018_](http://www.fields.utoronto.ca/activities/17-18/sms-2018). By then I will know in which Parisian university I will work!
 
-PS: I have a new paper, [Curved Koszul Duality for Algebras over Unital Operads](https://idrissi.eu/en/research/curved-koszul/). Take a look!
+PS: I have a new paper, [Curved Koszul Duality for Algebras over Unital Operads](https://idrissi.eu/research/curved-koszul/). Take a look!
 
 ---
 
