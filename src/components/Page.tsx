@@ -2,8 +2,8 @@ import { MDXRenderer } from "gatsby-plugin-mdx";
 import { graphql } from "gatsby";
 import React from "react";
 
-import Layout from "../components/Layout";
-import Meta, { Frontmatter } from "../components/meta";
+import Layout from "./Layout";
+import Meta, { Frontmatter } from "./meta";
 
 const PageTemplate: React.FC<{
   data: PageTemplateQuery;
