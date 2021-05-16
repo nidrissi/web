@@ -31,6 +31,7 @@ query PostListQuery {
               publicURL
             }
           }
+          event
           notes {
             publicURL
           }

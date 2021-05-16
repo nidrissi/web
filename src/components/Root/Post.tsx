@@ -40,6 +40,7 @@ query RootPostQuery {
           slides {
             publicURL
           }
+          event
           source
           video
         }

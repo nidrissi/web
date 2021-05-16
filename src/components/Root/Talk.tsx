@@ -44,6 +44,7 @@ query RootTalkQuery {
           slides {
             publicURL
           }
+          event
           source
           video
         }

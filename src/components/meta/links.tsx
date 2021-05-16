@@ -25,6 +25,7 @@ export type Urls = {
   source: string;
   video: string;
   zbmath: string;
+  event: string;
   custom: { name: string; url: string }[];
   customFile: { name: string; file: { publicURL: string } }[]
 };

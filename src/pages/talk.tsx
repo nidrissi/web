@@ -43,6 +43,7 @@ query TalkListQuery {
           slides {
             publicURL
           }
+          event
           source
           video
         }
