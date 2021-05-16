@@ -51,7 +51,6 @@ const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { d
           .
         </div>
       ) : null}
-      <Links urls={urls} />
     </>
   );
 };
