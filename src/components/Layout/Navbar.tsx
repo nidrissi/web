@@ -35,9 +35,18 @@ const Navbar: React.FC<{}> = () => {
       className={`sticky top-0 w-full ${expanded ? "grid grid-cols-1" : "flex"
         } items-center gap-4 mb-3 bg-white text-black z-50`}
     >
+      <div className="flex ml-auto flex-none md:hidden justify-end">
+        <button
+          className="cursor-pointer p-3 text-xl bg-gray-100 rounded-md m-2"
+          onClick={() => setExpanded(!expanded)}
+          title="Expand the navbar"
+        >
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+      </div>
       <div
         id="navbar-content"
-        className={`grid grid-cols-1 sm:flex gap-2 ${expanded ? "" : "hidden"}`}
+        className={`grid grid-cols-1 md:flex gap-2 ${expanded ? "" : "hidden"}`}
       >
         {navbarLinks.map((l) => (
           <Link
@@ -50,15 +59,6 @@ const Navbar: React.FC<{}> = () => {
             &nbsp;{l.label}
           </Link>
         ))}
-      </div>
-      <div className="flex flex-none sm:hidden justify-end">
-        <button
-          className="cursor-pointer p-3 text-lg bg-gray-100"
-          onClick={() => setExpanded(!expanded)}
-          title="Expand the navbar"
-        >
-          <FontAwesomeIcon icon={faBars} />
-        </button>
       </div>
     </div>
   );
