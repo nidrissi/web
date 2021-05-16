@@ -6,7 +6,7 @@ draft: false
 authors: [ricardo, me, thomas]
 # preprint, publication, or other
 status: preprint
-publication: Preprint v2, 50 pages
+publication: Preprint v2, 50 pages.
 urls:
   pdf: case2d.pdf
   code:

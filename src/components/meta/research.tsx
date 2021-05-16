@@ -2,7 +2,6 @@ import React from "react";
 
 import { Frontmatter } from ".";
 import DateTime from "./datetime";
-import Links from "./links";
 
 import people from './people.json'
 
@@ -36,9 +35,7 @@ const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { d
   return (
     <>
       {displayedAuthors}
-      <div>
-        {publication}
-      </div>
+      <div dangerouslySetInnerHTML={{ __html: publication }} />
       <div>
         Online{" "}
         <DateTime date={date} />
