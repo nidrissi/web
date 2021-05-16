@@ -99,7 +99,7 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
     return null;
   }
   return (
-    <>
+    <div className="flex flex-row flex-wrap gap-1 content-center">
       {linkDefinitions.map((definition) => {
         const url = urls[definition.link];
         return url ? (
@@ -121,7 +121,7 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
           definition={{ label: name, link: "customFile" }}
         />
       ))}
-    </>
+    </div>
   );
 };
 

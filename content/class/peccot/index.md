@@ -10,13 +10,18 @@ lastMod: 2020-06-26
 urls:
   notes: ../../research/peccot/peccot.pdf
   video: https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm
-sidebar:
-  - "[Lecture notes](/en/research/peccot/peccot.pdf)"
-  - "[Old version of the notes, in French](./peccot-fr.pdf)"
-  - "[Website of the Peccot Lectures](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm)"
-  - "[News article @ University of Lille](https://www.univ-lille.fr/fileadmin/user_upload/illustrations/contenus/recherche/2017/ActULille_Recherche/News_52_Cours_Peccot_de_Najib_Idrissi_-_article.pdf)"
-  - "[Longer version @ Paul Painlevé laboratory](https://math.univ-lille1.fr/d7/node/10461)"
-  - "[News article @ IMJ-PRG](https://www.imj-prg.fr/spip.php?article538)"
+  custom:
+    - name: Website of the Peccot Lectures
+      url: https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm
+    - name: News article @ University of Lille
+      url: https://www.univ-lille.fr/fileadmin/user_upload/illustrations/contenus/recherche/2017/ActULille_Recherche/News_52_Cours_Peccot_de_Najib_Idrissi_-_article.pdf
+    - name: Longer version @ Paul Painlevé laboratory
+      url: https://math.univ-lille1.fr/d7/node/10461
+    - name: News article @ IMJ-PRG
+      url: https://www.imj-prg.fr/spip.php?article538
+  customFile:
+    - name: Old version of the notes, in French
+      file: ./peccot-fr.pdf
 ---
 
 In this lecture, we will study the real homotopy type of configuration spaces of manifolds.

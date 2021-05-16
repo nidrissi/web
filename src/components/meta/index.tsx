@@ -44,9 +44,7 @@ const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({
           )
         }
       </div>
-      <div className="flex flex-row gap-1 content-center">
-        <Links urls={frontmatter.urls} />
-      </div>
+      <Links urls={frontmatter.urls} />
     </div>
   );
 }

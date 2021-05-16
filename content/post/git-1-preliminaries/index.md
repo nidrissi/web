@@ -5,11 +5,11 @@ date: 2021-04-13
 lastMod: 2021-04-26
 draft: false
 toc: true
-sidebar:
-  - "**Part 1: Preliminaries**"
-  - "[Part 2: The Theory](https://idrissi.eu/en/post/git-2-theory/)"
-  - "Part 3: The Practice (to appear)"
 tags: [code]
+urls:
+  custom:
+    - name: "Part 2: The Theory"
+      url: https://idrissi.eu/en/post/git-2-theory/
 ---
 
 This post is the first in a series in which I will try to explain how to use Git to write papers, with an audience of professional mathematicians in mind.
