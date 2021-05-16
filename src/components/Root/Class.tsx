@@ -2,22 +2,26 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Meta from "../meta";
 
-const Research: React.FC<{}> = () => {
+const Class: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
-query RootResearchQuery {
+query RootClassQuery {
   allMdx(
-    filter: {fields: {myType: {eq: "research"}}, frontmatter: {status: {regex: "/publication|preprint/"}}}
+    filter: {fields: {myType: {eq: "class"}}, frontmatter: {year: {eq: "2020–2021"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {
       slug
+      wordCount {
+        words
+      }
       frontmatter {
         title
         tags
-        authors
         date
         lastMod
-        publication
+        time
+        what
+        cursus
         urls {
           arxiv
           custom {
@@ -47,20 +51,24 @@ query RootResearchQuery {
 
   return (
     <section>
-      <h2 className="text-4xl font-bold mb-3">Research</h2>
+      <h2 className="text-4xl font-bold mb-3">Teaching (2020-2021)</h2>
       {
-        nodes.map(({ frontmatter, slug }) => (
+        nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
           <div key={slug} className="py-2">
             <h3 className="text-xl font-semibold mb-1">
-              <a href={`research/${slug}`} className="text-green-800 hover:underline">
-                {frontmatter.title}
-              </a>
+              {
+                words > 0 ? (
+                  <a href={`class/${slug}`} className="text-red-900 hover:underline">
+                    {frontmatter.title}
+                  </a>
+                ) : <>{frontmatter.title}</>
+              }
             </h3>
-            <Meta frontmatter={frontmatter} type="research" />
+            <Meta frontmatter={frontmatter} type="class" />
           </div>
         ))
       }
     </section>
   );
 }
-export default Research;
+export default Class;

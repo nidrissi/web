@@ -4,6 +4,7 @@ import { graphql, useStaticQuery } from "gatsby";
 import Layout from "../Layout";
 import Contact from "./Contact";
 import Research from "./Research";
+import Class from "./Class";
 
 const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
   const {
@@ -39,6 +40,8 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
         <Contact />
         {hr}
         <Research />
+        {hr}
+        <Class />
       </article>
     </Layout>
   );
