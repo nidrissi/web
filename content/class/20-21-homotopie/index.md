@@ -6,17 +6,25 @@ time: 24h
 year: 2020–2021
 date: 2021-01-01
 lastMod: 2021-04-02
-sidebar:
-  - "[M2 Fundamental mathematics](http://master-math-fonda.imj-prg.fr/)"
-  - "[**Lecture notes**](homotopie.pdf)"
-  - "[Recorded lectures](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf)"
-  - "[Solution of the homework](devoir.pdf)"
-  - "[Exam (fr)](examen-fr.pdf)"
-  - "[Solution of the exam (fr)](examen-fr-corrigé.pdf)"
-  - "[Exam (en)](examen-en.pdf)"
 urls:
   notes: homotopie.pdf
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
+  custom:
+    - name: M2 Fundamental mathematics
+      url: http://master-math-fonda.imj-prg.fr/
+    - name: Recorded lectures
+      url: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
+  customFile:
+    - name: Lecture notes
+      file: homotopie.pdf
+    - name: Solution of the homework
+      file: devoir.pdf
+    - name: Exam (en)
+      file: examen-en.pdf
+    - name: Exam (fr)
+      file: examen-fr.pdf
+    - name: Solution of the exam (fr)
+      file: examen-fr-corrigé.pdf
 ---
 
 The goal of this course is to introduce modern homotopy theory, its tools and applications.
