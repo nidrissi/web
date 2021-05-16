@@ -46,7 +46,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     } = node;
     createPage({
       path: path.join(myType, slug),
-      component: path.resolve(`./src/templates/page.tsx`),
+      component: path.resolve(`./src/components/Page.tsx`),
       context: { id, type: myType },
     });
   });
