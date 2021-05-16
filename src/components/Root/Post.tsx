@@ -51,30 +51,32 @@ query RootPostQuery {
   return (
     <section>
       <h2 className="text-4xl font-bold mb-3">Posts</h2>
-      {
-        nodes.map(({ frontmatter, slug, excerpt }) => (
-          <article key={slug} className="py-2">
-            <h3 className="text-xl font-semibold mb-1 max-w-2xl">
-              {
-                <a href={`post/${slug}`} className="text-indigo-800 hover:underline">
-                  {frontmatter.title}
+      <div className="flex flex-col gap-4">
+        {
+          nodes.map(({ frontmatter, slug, excerpt }) => (
+            <article key={slug}>
+              <h3 className="text-xl font-semibold max-w-2xl">
+                {
+                  <a href={`post/${slug}`} className="text-indigo-800 hover:underline">
+                    {frontmatter.title}
+                  </a>
+                }
+              </h3>
+              <div className="mb-2">
+                <Meta frontmatter={frontmatter} type="post" />
+              </div>
+              <div className="prose prose-indigo prose-sm max-w-xl">
+                {excerpt}
+                {' '}
+                <a href={`post/${slug}`}>
+                  Read more{' '}
+                  <FontAwesomeIcon icon={faCaretSquareRight} />
                 </a>
-              }
-            </h3>
-            <div className="mb-2">
-              <Meta frontmatter={frontmatter} type="post" />
-            </div>
-            <div className="prose prose-indigo prose-sm max-w-xl">
-              {excerpt}
-              {' '}
-              <a href={`post/${slug}`}>
-                Read more{' '}
-                <FontAwesomeIcon icon={faCaretSquareRight} />
-              </a>
-            </div>
-          </article>
-        ))
-      }
+              </div>
+            </article>
+          ))
+        }
+      </div>
     </section>
   );
 }

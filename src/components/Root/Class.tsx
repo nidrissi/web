@@ -52,22 +52,24 @@ query RootClassQuery {
   return (
     <section>
       <h2 className="text-4xl font-bold mb-3">Teaching (2020-2021)</h2>
-      {
-        nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
-          <article key={slug} className="py-2">
-            <h3 className="text-xl font-semibold mb-1">
-              {
-                words > 0 ? (
-                  <a href={`class/${slug}`} className="text-purple-800 hover:underline">
-                    {frontmatter.title}
-                  </a>
-                ) : <>{frontmatter.title}</>
-              }
-            </h3>
-            <Meta frontmatter={frontmatter} type="class" />
-          </article>
-        ))
-      }
+      <div className="flex flex-col gap-4">
+        {
+          nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
+            <article key={slug}>
+              <h3 className="text-xl font-semibold">
+                {
+                  words > 0 ? (
+                    <a href={`class/${slug}`} className="text-purple-800 hover:underline">
+                      {frontmatter.title}
+                    </a>
+                  ) : <>{frontmatter.title}</>
+                }
+              </h3>
+              <Meta frontmatter={frontmatter} type="class" />
+            </article>
+          ))
+        }
+      </div>
     </section>
   );
 }
