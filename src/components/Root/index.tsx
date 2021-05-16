@@ -29,7 +29,7 @@ const Index: React.FC<{ data: IndexQuery, description: string }> = ({ children }
   const hr = <hr className="my-4" />
 
   return (
-    <Layout title={siteTitle} description={siteDescription} >
+    <Layout title={siteTitle} description={siteDescription} date={new Date().toISOString()}>
       <img
         src="/img/photo.jpg"
         width="150px"
