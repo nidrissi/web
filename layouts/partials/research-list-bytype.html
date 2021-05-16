@@ -1,5 +1,0 @@
-{{- $ := .content -}} {{- $key := .key -}}
-<h2 class="mt-2">{{- i18n (printf "status_%s" $key) -}}</h2>
-
-{{- range (where $.Pages "Params.status" $key).ByDate.Reverse -}} {{- .Render
-"card" -}} {{- end -}}

@@ -1,53 +1,50 @@
 ---
 # $autogen$
 title: Curriculum Vitæ
-date: "2015-01-01"
 lastMod: $lastMod$
 urls:
-  pdf: cv.$lang$.pdf
+  customFile:
+  - name: CV (en)
+    file: cv.en.pdf
+  - name: CV (fr)
+    file: cv.fr.pdf
 toc: true
-menu:
-  main:
-    weight: 10
-    name: CV
-    pre: '<i class="bi bi-file-person"></i>'
 ---
+
+import Bibliography from "../../../src/components/Bibliography"
 
 $for(section)$
 
 ## $section.title$
 
-<dl class="row mb-0">
-
 $for(section.content)$
 $if(section.content.subtitle)$
 
-</dl>
+### $section.content.subtitle$
 
-#### $section.content.subtitle$
-
-<dl class="row mb-0">
 $endif$
 
 $if(section.content.entry)$
 
-<dt class="col-lg-2 col-sm-3 text-sm-right">$section.content.entry.a$</dt>
-<dd class="col-lg-10 col-sm-9"><strong>$section.content.entry.b$</strong>$if(section.content.entry.c)$, <em>$section.content.entry.c$</em>$endif$$if(section.content.entry.d)$, $section.content.entry.d$$endif$$if(section.content.entry.e)$, $section.content.entry.e$$endif$.$if(section.content.entry.f)$<br>$section.content.entry.f$$endif$</dd>
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold">$section.content.entry.a$</div>
+<div class="sm:w-5/6"><span class="font-bold">$section.content.entry.b$</span>$if(section.content.entry.c)$, <span class="italic">$section.content.entry.c$</span>$endif$$if(section.content.entry.d)$, $section.content.entry.d$$endif$$if(section.content.entry.e)$, $section.content.entry.e$$endif$.$if(section.content.entry.f)$<br/>$section.content.entry.f$$endif$</div>
+</div>
 $endif$
 
 $if(section.content.item)$
-
-<dt class="col-lg-2 col-sm-3 text-sm-right">$section.content.item.a$</dt>
-<dd class="col-lg-10 col-sm-9">$section.content.item.b$.</dd>
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold">$section.content.item.a$</div>
+<div class="sm:w-5/6">$section.content.item.b$</div>
+</div>
 $endif$
 
 $if(section.content.bib)$
 
-</dl>
-{{< cvbib "$section.content.bib$" >}}
-<dl class="row mb-0">
+<Bibliography status="$section.content.bib$" />
+
 $endif$
+
 $endfor$
 
-</dl>
 $endfor$

@@ -4,41 +4,12 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "hugo: serve",
-      "type": "process",
-      "command": "hugo",
-      "args": ["serve", "--buildDrafts", "--buildFuture", "--minify"],
-      "isBackground": true,
-      "problemMatcher": {
-        "severity": "error",
-        "fileLocation": "absolute",
-        "pattern": {
-          "regexp": "^ERROR .+ \"(.+):(\\d+):(\\d+)\": (.+)$",
-          "file": 1,
-          "line": 2,
-          "column": 3,
-          "message": 4
-        },
-        "background": {
-          "activeOnStart": true,
-          "beginsPattern": "Change detected, rebuilding site.",
-          "endsPattern": "^Total in"
-        }
-      }
-    },
-    {
-      "label": "hugo: build",
-      "type": "process",
-      "command": "hugo",
-      "args": ["--minify"],
-      "group": "build",
-      "problemMatcher": []
-    },
-    {
       "label": "cv: build",
       "type": "process",
       "command": "make",
-      "args": ["-j5"],
+      "args": [
+        "-j5"
+      ],
       "group": "build",
       "problemMatcher": [],
       "options": {
@@ -49,7 +20,9 @@
       "label": "cv: copy",
       "type": "process",
       "command": "make",
-      "args": ["copy"],
+      "args": [
+        "copy"
+      ],
       "problemMatcher": [],
       "options": {
         "cwd": "${workspaceFolder}/curriculum"
@@ -59,11 +32,21 @@
       "label": "cv: clean",
       "type": "process",
       "command": "make",
-      "args": ["clean"],
+      "args": [
+        "clean"
+      ],
       "problemMatcher": [],
       "options": {
         "cwd": "${workspaceFolder}/curriculum"
       }
+    },
+    {
+      "type": "npm",
+      "script": "build",
+      "problemMatcher": [],
+      "label": "npm: build",
+      "detail": "gatsby build",
+      "group": "build"
     }
   ]
 }

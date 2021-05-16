@@ -1,7 +1,0 @@
-{{- define "main" -}}
-<h1>{{- .Title -}}</h1>
-
-{{- with .Content -}}
-<div>{{- . -}}</div>
-{{- end -}} {{- range .Paginator.Pages -}} {{- .Render "card" -}} {{- end -}}
-{{- partial "pager" . -}} {{- end -}}

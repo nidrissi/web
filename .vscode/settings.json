@@ -1,5 +1,3 @@
 {
-    "cSpell.words": [
-        "markdownify"
-    ]
+  "cSpell.words": ["markdownify", "frontmatter", "katex", "rehype"]
 }
