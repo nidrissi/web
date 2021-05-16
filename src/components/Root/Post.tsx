@@ -3,6 +3,7 @@ import { graphql, Link, useStaticQuery } from "gatsby";
 import Meta from "../meta";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretSquareRight } from "@fortawesome/free-solid-svg-icons";
+import SeeMore from "./SeeMore";
 
 const Post: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
@@ -76,6 +77,7 @@ query RootPostQuery {
             </article>
           ))
         }
+        <SeeMore to="/post" style="bg-indigo-100" />
       </div>
     </section>
   );
