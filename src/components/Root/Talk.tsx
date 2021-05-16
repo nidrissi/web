@@ -53,22 +53,24 @@ query RootTalkQuery {
   return (
     <section>
       <h2 className="text-4xl font-bold mb-3">Talks</h2>
-      {
-        nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
-          <article key={slug} className="py-2">
-            <h3 className="text-xl font-semibold mb-1">
-              {
-                words > 0 ? (
-                  <a href={`talk/${slug}`} className="text-green-800 hover:underline">
-                    {frontmatter.title}
-                  </a>
-                ) : <>{frontmatter.title}</>
-              }
-            </h3>
-            <Meta frontmatter={frontmatter} type="talk" />
-          </article>
-        ))
-      }
+      <div className="flex flex-col gap-4">
+        {
+          nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
+            <article key={slug}>
+              <h3 className="text-xl font-semibold">
+                {
+                  words > 0 ? (
+                    <a href={`talk/${slug}`} className="text-green-800 hover:underline">
+                      {frontmatter.title}
+                    </a>
+                  ) : <>{frontmatter.title}</>
+                }
+              </h3>
+              <Meta frontmatter={frontmatter} type="talk" />
+            </article>
+          ))
+        }
+      </div>
     </section>
   );
 }
