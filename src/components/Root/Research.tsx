@@ -52,7 +52,7 @@ query RootResearchQuery {
         nodes.map(({ frontmatter, slug }) => (
           <div key={slug} className="py-2">
             <h3 className="text-xl font-semibold mb-1">
-              <a href={`research/${slug}`} className="text-green-800 hover:underline">
+              <a href={`research/${slug}`} className="text-yellow-800 hover:underline">
                 {frontmatter.title}
               </a>
             </h3>
