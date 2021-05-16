@@ -1,13 +1,14 @@
 import React from "react";
 import {
-  faFileCode,
-  faFilePdf,
-  faFileVideo,
-} from "@fortawesome/free-regular-svg-icons";
-import {
+  faBook,
   faCalendarDay,
-  faPencilRuler,
+  faCode,
+  faFilePdf,
+  faDesktop,
+  faVideo,
   IconDefinition,
+  faLink,
+  faFileSignature,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -36,18 +37,20 @@ type LinkDefinition = {
 const linkDefinitions: LinkDefinition[] = [
   { link: "event", label: "Event", icon: faCalendarDay },
   { link: "pdf", label: "PDF", icon: faFilePdf },
-  { link: "slides", label: "Slides" },
-  { link: "video", label: "Video", icon: faFileVideo },
-  { link: "notes", label: "Notes", icon: faPencilRuler },
+  { link: "slides", label: "Slides", icon: faDesktop },
+  { link: "video", label: "Video", icon: faVideo },
+  { link: "notes", label: "Notes", icon: faBook },
   {
     link: "doi",
     label: (id) => `DOI:${id}`,
     urlBuilder: (id) => `https://doi.org/${id}`,
+    icon: faLink
   },
   {
     link: "arxiv",
     label: (id) => `arXiv:${id}`,
     urlBuilder: (id) => `https://arxiv.org/abs/${id}`,
+    icon: faFileSignature
   },
   {
     link: "mathrev",
@@ -59,7 +62,7 @@ const linkDefinitions: LinkDefinition[] = [
     label: (id) => `zb:${id}`,
     urlBuilder: (id) => `https://zbmath.org/?q=an:${id}`,
   },
-  { link: "source", label: "Source", icon: faFileCode },
+  { link: "source", label: "Source", icon: faCode },
 ];
 
 const Link: React.FC<{ definition: LinkDefinition; url: string | LocalFile }> = ({

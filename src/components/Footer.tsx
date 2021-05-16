@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faStackExchange, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 
@@ -49,6 +49,7 @@ const Footer: React.FC<{}> = () => {
     {
       url: `https://mathoverflow.net/users/${mathoverflow}`,
       label: "MathOverFlow",
+      icon: faStackExchange
     },
     {
       url: `https://twitter.com/${twitter}`,
