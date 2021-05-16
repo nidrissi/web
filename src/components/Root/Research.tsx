@@ -61,7 +61,7 @@ query RootResearchQuery {
             return (
               <article key={slug}>
                 <h3 className="text-xl font-semibold">
-                  <Link to={`/research/${slug}`} className="text-yellow-700 hover:underline">
+                  <Link to={`/research/${slug}`} className="text-blue-800 hover:underline">
                     {frontmatter.title}
                   </Link>
                 </h3>
@@ -70,7 +70,7 @@ query RootResearchQuery {
             );
           })
         }
-        <SeeMore to="/research" style="bg-yellow-100" label="research" />
+        <SeeMore to="/research" label="research" />
       </div>
     </section>
   );

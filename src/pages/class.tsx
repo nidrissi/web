@@ -69,7 +69,7 @@ query ClassListQuery {
                       <h3 className="text-xl font-semibold">
                         {
                           words > 0 ? (
-                            <Link to={`/class/${slug}`} className="text-purple-800 hover:underline">
+                            <Link to={`/class/${slug}`} className="text-blue-800 hover:underline">
                               {frontmatter.title}
                             </Link>
                           ) : <>{frontmatter.title}</>
