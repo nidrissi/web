@@ -9,7 +9,7 @@ As promised, this post is about the famous [Eckmann--Hilton argument](https://en
 
 ## Some background
 
-When I was a first-year student at the ENS, we had to write a "_Mémoire de première année_" ("First-year essay") on a topic. I wrote mine together with Maxence Novel, with Grégory Ginot as advisor, about the Eckmann--Hilton argument. You can find it [here](eckmann-hilton.pdf) (it's in French; bear in mind that we were undergrads when we wrote this).
+When I was a first-year student at the ENS, we had to write a "_Mémoire de première année_" ("First-year essay") on a topic. I wrote mine together with Maxence Novel, with Grégory Ginot as advisor, about the Eckmann--Hilton argument. You can find it [here](./eckmann-hilton.pdf) (it's in French; bear in mind that we were undergrads when we wrote this).
 
 This was my first exposure to many topics: algebraic topology, operads, $\infty$-categories... And it definitely shaped up my current mathematical interests. I still remember trying to read Lurie's _Higher Algebra_ armed only with point-set topology and basic category theory! Needless to say I didn't get very far. I very much enjoyed the experience anyway.
 
@@ -35,7 +35,7 @@ Pretty nifty!
 
 One can reformulate the interchange law: it is equivalent to the fact that $* : (M, \cdot)^2 \to (M, \cdot)$ is a morphism of monoids, and also equivalently, $\cdot : (M, *)^2 \to (M, *)$ is a morphism of monoids. Thus we get a reformulation of the Eckmann--Hilton argument (sorry folks, this blog will contain a lot of category theory):
 
-**Reformulation.** A [monoid object](<https://en.wikipedia.org/wiki/Monoid_(category_theory)>) in the category of monoids is an abelian monoid.
+**Reformulation.** A [monoid object](https://en.wikipedia.org/wiki/Monoid_(category_theory)) in the category of monoids is an abelian monoid.
 
 Reformulated in this way, the argument immediately generalizes. Let $(\mathsf{C}, \otimes)$ be a monoidal category. The category $\mathsf{Mon}(\mathsf{C})$ is the category of monoid objects in $\mathsf{C}$: its objects are triplet $(M, \mu, \eta)$, where $M$ is an object of $\mathsf{C}$, $\mu : M^2 \to M$ and $\eta : 1_{\mathsf{C}} \to M$ satisfy the axioms of a monoid (associativity, unitality).
 
@@ -70,7 +70,7 @@ This has immediate consequences: a space like $S^1 \vee S^1$ with a nonabelian f
 
 This section can be summarized by this picture:
 
-![Homotopy between fg and gf](arg-htpy.png)
+![Homotopy between fg and gf](./arg-htpy.png)
 
 It is a depiction of the Eckmann--Hilton argument applied to $\pi_2(X)$. To understand it, consider a set $M$ with two monoid structures; instead of writing them with two different operators, represent one of them with horizontal multiplication and the other with vertical multiplication, like this:
 
@@ -108,9 +108,9 @@ Natural transformations between functors can be composed in two different ways:
 
 1. If $F,G,H : \mathsf{C} \to \mathsf{D}$ are functors and $\alpha : F \to G$ and $\beta : G \to H$ are natural transformations, then there is a "vertical composite" $\beta \circ \alpha : F \to G$ given component-wise by $(\beta \circ \alpha)_X = \beta_X \circ \alpha_X$: 2. If $F_1, G_1 : \mathsf{C} \to \mathsf{D}$ and $F_2, G_2 : \mathsf{D} \to \mathsf{E}$ are functors and $\beta : F_1 \to G_1$, $\beta : F_2 \to G_2$ are natural transformation, there is an horizontal composite $\alpha * \alpha$.
 
-![Vertical composition](arg-vert.png)
+![Vertical composition](./arg-vert.png)
 
-![Horizontal composition](arg-horiz.png)
+![Horizontal composition](./arg-horiz.png)
 
 So if one only considers natural transformations from the identity functor $\operatorname{id}_{\mathsf{C}}$ to itself, one gets two different composition laws on $Z(\mathsf{C}) = \operatorname{End}(\operatorname{id}_{\mathsf{C}})$. Again these two laws satisfy the interchange law, and thus $Z(C)$, called the _center_ of the category $\mathsf{C}$, is abelian. If $\mathsf{C}$ is a monoid seen as a category with one object, then $Z(\mathsf{C})$ is the usual center of the monoid.
 
@@ -202,6 +202,6 @@ This _Stabilization Hypothesis_ is one of the features that is expected of any g
 
 - Beno Eckmann and Peter J. Hilton. “Group-like structures in general categories. I. Multiplications and comultiplications”. In: _Math. Ann._ 145 (1961–1962), pp. 227–255. ISSN: 0025-5831. [MR0136642](http://www.ams.org/mathscinet-getitem?mr=0136642).
 - Shahn Majid. “Representations, duals and quantum doubles of monoidal categories”. In: _Proceedings of the Winter School on Geometry and Physics (Srní, 1990)_. 26. 1991, pp. 197–206. [MR1151906](http://www.ams.org/mathscinet-getitem?mr=1151906). _(Note: Majid cites a personal communication of Drinfeld where Drinfeld tells him about the Drinfeld center.)_
-- André Joyal and Ross Street. “Tortile Yang-Baxter operators in tensor categories”. In: _J. Pure Appl. Algebra_ 71.1 (1991), pp. 43–51. ISSN: 0022-4049. DOI: [10.1016/0022-4049(91)90039-5](<http://dx.doi.org/10.1016/0022-4049(91)90039-5>). [MR1107651](http://www.ams.org/mathscinet-getitem?mr=1107651).
+- André Joyal and Ross Street. “Tortile Yang-Baxter operators in tensor categories”. In: _J. Pure Appl. Algebra_ 71.1 (1991), pp. 43–51. ISSN: 0022-4049. DOI: [10.1016/0022-4049(91)90039-5](http://dx.doi.org/10.1016/0022-4049(91)90039-5>). [MR1107651](http://www.ams.org/mathscinet-getitem?mr=1107651).
 - John C. Baez and James Dolan. “Higher-dimensional algebra and topological quantum field theory”. In: _J. Math. Phys._ 36.11 (1995), pp. 6073–6105. ISSN: 0022-2488. DOI: [10.1063/1.531236](http://dx.doi.org/10.1063/1.531236). arXiv: [q-alg/9503002 [math.QA]](http://arxiv.org/abs/q-alg/9503002). [MR1355899](http://www.ams.org/mathscinet-getitem?mr=1355899).
-- Cornel Balteanu, Zbigniew Fiedorowicz, Roland Schwänzl, and Rainer M. Vogt. “Iterated monoidal categories”. In: _Adv. Math._ 176.2 (2003), pp. 277–349. ISSN: 0001-8708. DOI: [10.1016/S0001-8708(03)00065-3](<http://dx.doi.org/10.1016/S0001-8708(03)00065-3>). arXiv: [math/9808082 [math.AT]](http://arxiv.org/abs/math/9808082). [MR1982884](http://www.ams.org/mathscinet-getitem?mr=1982884).
+- Cornel Balteanu, Zbigniew Fiedorowicz, Roland Schwänzl, and Rainer M. Vogt. “Iterated monoidal categories”. In: _Adv. Math._ 176.2 (2003), pp. 277–349. ISSN: 0001-8708. DOI: [10.1016/S0001-8708(03)00065-3](http://dx.doi.org/10.1016/S0001-8708(03)00065-3>). arXiv: [math/9808082 [math.AT]](http://arxiv.org/abs/math/9808082). [MR1982884](http://www.ams.org/mathscinet-getitem?mr=1982884).

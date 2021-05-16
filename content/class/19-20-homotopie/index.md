@@ -45,16 +45,16 @@ The first two weeks, they will happen on:
 The last four weeks, they will happen on:
 
 - Tuesdays 14:00--16:00, [Sophie Germain building](https://www.math.univ-paris-diderot.fr/ufr/acces), room 2016 (_except on February 11th: room 2017_).
-- Thursdays 9:00--11:00, [Halles aux Farines](HAF.pdf), room 280F (_except February 6th: moved to the 3rd_).
+- Thursdays 9:00--11:00, [Halles aux Farines](./HAF.pdf), room 280F (_except February 6th: moved to the 3rd_).
 
 The session of February 6th is moved to Monday, February 3rd, between 16:15 and 18:15, in the room 137 of the Olympe de Gouges building.
 
-The optional homework (to hand in if you would like some feedback), due on February 4th, [is available here](devoir.pdf).
-You can [find the solution there](devoir-corrigé.pdf).
+The optional homework (to hand in if you would like some feedback), due on February 4th, [is available here](./devoir.pdf).
+You can [find the solution there](/devoir-corrigé.pdf).
 
-The [exam](examen.pdf) was on Tuesday, February 18th, between 14:00 and 17:00, in the room 1009 of the Sophie Germain building.
+The [exam](/examen.pdf) was on Tuesday, February 18th, between 14:00 and 17:00, in the room 1009 of the Sophie Germain building.
 It covered chapters 1 and 2.
-[The solution can be found here.](examen-corrigé.pdf)
+[The solution can be found here.](/examen-corrigé.pdf)
 
 Monday January 6th
 : Section 1.1: Motivation, parallels between topological spaces and chain complexes (homotopy equivalences, weak equivalences, Whitehead theorem(s), models).

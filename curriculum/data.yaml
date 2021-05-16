@@ -15,7 +15,7 @@ address:
   - 8 place Aurélie Nemours
   - F-75013 Paris, France
 email: najib.idrissi-kaitouni@imj-prg.fr
-homepage: idrissi.eu/fr ! idrissi.eu/en
+homepage: idrissi.eu
 phone: (+33) 01 57 27 91 16
 # citations
 nocite: CamposDucoulombierIdrissiWillwacher2018, CamposDucoulombierIdrissi2019, CamposIdrissiWillwacher2019, CamposIdrissiLambrechtsWillwacher2018, Idrissi2017, Idrissi2017a, Idrissi2018, Idrissi2018a, Idrissi2018b, Idrissi2016a, Idrissi2014, Idrissi2021
@@ -154,9 +154,9 @@ section:
       - entry:
           a: 01/2019--06/2019
           b: |
-            Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/fr/gdt/stabilite/)
+            Organisation d'un [groupe de travail sur la stabilité homologique](https://idrissi.eu/misc/gdt/stabilite/)
             !
-            Organization of a [reading seminar on homological stability](https://idrissi.eu/fr/gdt/stabilite/)
+            Organization of a [reading seminar on homological stability](https://idrissi.eu/misc/gdt/stabilite/)
           c: Institut de Mathématiques de Jussieu-Paris Rive Gauche
       - entry:
           a: 10/2017

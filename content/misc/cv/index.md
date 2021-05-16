@@ -219,7 +219,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">Jan. 2019–June 2019</div>
-<div class="sm:w-5/6"><span class="font-bold">Organization of a <a href="https://idrissi.eu/fr/gdt/stabilite/">reading seminar on homological stability</a></span>, <span class="italic">Institut de Mathématiques de Jussieu-Paris Rive Gauche</span>.</div>
+<div class="sm:w-5/6"><span class="font-bold">Organization of a <a href="https://idrissi.eu/misc/gdt/stabilite/">reading seminar on homological stability</a></span>, <span class="italic">Institut de Mathématiques de Jussieu-Paris Rive Gauche</span>.</div>
 </div>
 
 
