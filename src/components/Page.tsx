@@ -16,7 +16,7 @@ const PageTemplate: React.FC<{
 
   const actualTitle =
     type === 'talk' ? (
-      frontmatter.event
+      `${frontmatter.event} @ ${frontmatter.location}`
     ) : type === 'class' ? (
       `${frontmatter.title} (${frontmatter.year})`
     ) : (
