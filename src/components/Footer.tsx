@@ -17,7 +17,7 @@ const Footer: React.FC<{}> = () => {
       },
     },
   } = useStaticQuery(graphql`
-    query MyQuery {
+    query FooterQuery {
       site {
         siteMetadata {
           siteUrl

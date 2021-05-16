@@ -1,5 +1,20 @@
 const path = require("path");
 
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
+
+  if (node.internal.type === 'Mdx') {
+    const { sourceInstanceName } = getNode(node.parent)
+
+    createNodeField({
+      node,
+      name: 'myType',
+      value: sourceInstanceName
+    })
+  }
+}
+
+
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
@@ -9,10 +24,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         nodes {
           id
           slug
-          parent {
-            ... on File {
-              sourceInstanceName
-            }
+          fields {
+            myType
           }
         }
       }
@@ -29,12 +42,12 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const {
       id,
       slug,
-      parent: { sourceInstanceName },
+      fields: { myType },
     } = node;
     createPage({
-      path: path.join(sourceInstanceName, slug),
+      path: path.join(myType, slug),
       component: path.resolve(`./src/templates/page.tsx`),
-      context: { id, type: sourceInstanceName },
+      context: { id, type: myType },
     });
   });
 };
