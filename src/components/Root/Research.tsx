@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Meta from "../meta";
+import SeeMore from "./SeeMore";
 
 const Research: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
@@ -69,6 +70,7 @@ query RootResearchQuery {
             );
           })
         }
+        <SeeMore to="/research" style="bg-yellow-100" />
       </div>
     </section>
   );
