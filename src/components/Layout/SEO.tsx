@@ -59,8 +59,13 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
       title={isRoot ? siteTitle : `${title} · ${siteTitle}`}
     >
       <meta charSet="utf-8" />
+
+      <meta
+        http-equiv="Content-Security-Policy"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval' www.googletagmanager.com; img-src 'self' data: www.googletagmanager.com; connect-src 'self' analytics.google.com stats.g.doubleclick.net; frame-src 'self' www.youtube.com;"
+      />
+
       <link rel="canonical" href={`${siteUrl}${pathname}`} />
-      <meta name="description" content={description} />
       <meta name="description" content={description} />
 
       <meta name="twitter:card" content="summary" />
