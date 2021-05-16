@@ -16,21 +16,16 @@ query RootClassQuery {
       }
       frontmatter {
         title
-        tags
         date
         lastMod
         time
         what
         cursus
         urls {
-          arxiv
           custom {
             name
             url
           }
-          doi
-          hal
-          mathrev
           notes {
             publicURL
           }
@@ -42,7 +37,6 @@ query RootClassQuery {
           }
           source
           video
-          zbmath
         }
       }
     }
