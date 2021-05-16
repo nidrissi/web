@@ -12,7 +12,7 @@ urls:
     - name: University
       url: http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595
     - name: Defense
-      url: /en/talk/defense/
+      url: /talk/defense/
 ---
 
 In a first part, we study Voronov's "Swiss-Cheese" operad $\mathsf{SC}_2$, which governs the action of a $\mathsf{D}_2$-algebra on a $\mathsf{D}_1$-algebra. We build a model in groupoids of this operad and we describe algebras over this model in a manner similar to the classical description of algebras over $H_*(\mathsf{SC})$. We extend our model into a rational model which depends on a Drinfeld associator, and we compare this new model to the one that we would get if the operad $\mathsf{SC}$ were formal.
