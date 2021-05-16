@@ -8,16 +8,17 @@ import MetaTalk from "./talk";
 export type Frontmatter = {
   title: string;
   date: string;
-  lastMod?: string;
+  lastMod: string;
   tags: string[];
   urls: Urls;
   // Research
-  publication?: string;
-  authors?: string[];
+  publication: string;
+  authors: string[];
   // Class
-  cursus?: string;
-  what?: string;
-  time?: string;
+  cursus: string;
+  what: string;
+  time: string;
+  year: string;
   // Event
   event: string;
   location: string;
