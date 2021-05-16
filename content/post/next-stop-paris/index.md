@@ -20,10 +20,7 @@ Here's something that I hope people will find interesting.
 
 ## The mille-feuille
 
-<figure class="figure float-end">
-<img src="mille-feuille.jpg" alt="Photo of a mille-feuille" class="figure-img img-fluid" width="200px" />
-<figcaption class="figure-caption">A <em>mille-feuille</em> (image from <a href="https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg">Wikipedia</a>).</figcaption>
-</figure>
+![Photo of a mille-feuille - image from Wikipedia: https://commons.wikimedia.org/wiki/File:Mille-feuille456.jpg](mille-feuille.jpg)
 
 When I tell people I got the job, they usually ask me where I will be working.
 This is a bit complicated: French academia is organized in many layers, and it is not easy to extricate what is going on.
@@ -35,10 +32,7 @@ So I decided to make a diagram!
 In bold are the organizations that I belong to.
 I couldn't decide on a nice way to show that the research structures (the IMJ-PRG and the other labs) administratively depend on the two universities and the CNRS.**
 
-<figure class="figure">
-<a href="diagram.svg"><img src="diagram.svg" alt="Organizational diagram" class="figure-img img-fluid" width="500px" /></a>
-<figcaption class="figure-caption">A silly organizational chart.</figcaption>
-</figure>
+![Organizational diagram](diagram.svg)
 
 In France, almost all academics work in public institutions.
 Permanent hires are actually civil servants.
@@ -46,7 +40,7 @@ I will be appointed in the _corps_ (group of civil servants) of _maître de conf
 The other rank is _professeurs des universités_ (PR).
 Since this is a national deal, I will be appointed by the Minister of Higher Education and Research, while professors are appointed by the President of the Republic.
 
- <img src="univ-paris-diderot.png" alt="Logo Université Paris-VII" class="float-end img-fluid" width="200px" />
+![Logo Université Paris-VII](univ-paris-diderot.png)
 
 I will then be assigned to a university.
 In my case, Université Paris-VII (also known as Université Paris Diderot), who will be my actual employer and give me paychecks.
@@ -58,7 +52,7 @@ Despite their name, these UFRs are almost exclusively devoted to the teaching si
 I will obviously be assigned to the Mathematics UFR of Université Paris-VII.
 A commission of the UFR is in charge of assigning teaching loads, and I already know mine for next year: lectures and exercise sessions of "Elementary algebra and calculus I", a first-year first-semester course (in addition to a smaller teaching load the second semester).
 
-<img src="imj-prg.png" alt="Logo IMJ-PRG" class="float-end img-fluid" width="200px" />
+![Logo IMJ-PRG](imj-prg.png)
 
 For the actual research, I will be assigned to the _Institut de Mathématiques de Jussieu--Paris Rive Gauche_ (IMJ-PRG).
 The IMJ-PRG is a Mixed Research Unit (UMR), also colloquially known as a "lab".

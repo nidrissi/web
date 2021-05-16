@@ -46,7 +46,7 @@ Let me try to explained what this all means.
   This is simply the point in time from which the author in order to write their modifications.
   A typical history of a single-author git repository could look like this:
 
-  <img class="img-fluid" id="history-linear" alt="An example of a linear history tree." src="history-linear.svg"/>
+  <img id="history-linear" alt="An example of a linear history tree." src="history-linear.svg"/>
 
   (If only writing a paper took four tries!)
   This relation is asymmetrical: one commit is identified as the parent, and one is identified as the child.
@@ -65,7 +65,7 @@ Let me try to explained what this all means.
   For example, authors A and B could start working from a common basis, author A makes some changes to Section 2, and author B makes some changes to Section 3 (or Section 2!).
   This could look like this (blue is author A, yellow is author 2):
 
-  <img class="img-fluid" id="history-fork" alt="An example of a split history tree." src="history-fork.svg"/>
+  <img id="history-fork" alt="An example of a split history tree." src="history-fork.svg"/>
 
   At some point, the two sets of changes need to be reconciled.
   In Git parlance, this is called merging.
@@ -73,7 +73,7 @@ Let me try to explained what this all means.
   (I say special, but this is a commit like any other, so it has an author, a date, etc.)
   After such a commit, the history looks like this:
 
-  <img class="img-fluid" id="history-merge" alt="An example of a merge commit." src="history-merge.svg"/>
+  <img id="history-merge" alt="An example of a merge commit." src="history-merge.svg"/>
 
   If all goes well (i.e., there are no conflicting changes) then Git is able to automatically reconcile the changes.
   In that case, the merge commit will merely contain the information that the histories were merged without hiccups.
@@ -100,7 +100,7 @@ Concretely, this means that you select the changes that you want to insert into 
 Once these changes are selected and you are satisfied, you would then insert the changes to history, creating a new commit whose parent is the previous commit, with a message that explains your changes.
 A typical workflow looks like this:
 
-<img class="img-fluid" style="max-width: 300px;" alt="The modify-stage-commit cycle." src="cycle.svg"/>
+<img style="max-width: 300px;" alt="The modify-stage-commit cycle." src="cycle.svg"/>
 
 This notion of staging is useful for various reasons, compared to blindly committing everything that's changed in your repository:
 

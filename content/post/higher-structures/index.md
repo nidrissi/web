@@ -16,7 +16,6 @@ I'd like to thank Bruno Vallette and all the organizers for giving me this oppor
 
 [(The slides of my talk are available there.)](talk/cirm18)
 
-<figure class="figure">
-<img src="belvedere.jpg" alt="Photo taken from the Belvédère de Sugiton" class="figure-img img-fluid" />
-<figcaption class="figure-caption">Bonus: a picture taken from the top of the <em>Belvédère de Sugiton</em>, inside the <a href="https://en.wikipedia.org/wiki/Massif_des_Calanques"><em>Calanques</em></a>.</figcaption>
-</figure>
+Bonus: a picture taken from the top of the *Belvédère de Sugiton*, inside the [*Calanques*](https://en.wikipedia.org/wiki/Massif_des_Calanques):
+
+![Photo taken from the Belvédère de Sugiton](belvedere.jpg)

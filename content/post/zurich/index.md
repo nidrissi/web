@@ -8,6 +8,6 @@ Last week I was invited by [Thomas Willwacher](http://user.math.uzh.ch/willwache
 
 <!--more-->
 
-<img alt="ETH" src="eth.jpg" class="img-fluid" />
+![The main building of ETH](eth.jpg)
 
 It also explains why I've been slacking off a bit with this blog -- my teaching for the year is done and I'm traveling a lot in a short period...
