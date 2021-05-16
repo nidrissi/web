@@ -8,7 +8,7 @@ import {
   faVideo,
   IconDefinition,
   faLink,
-  faFileSignature,
+  faFile,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -45,13 +45,11 @@ const linkDefinitions: LinkDefinition[] = [
     link: "doi",
     label: (id) => `DOI:${id}`,
     urlBuilder: (id) => `https://doi.org/${id}`,
-    icon: faLink
   },
   {
     link: "arxiv",
     label: (id) => `arXiv:${id}`,
     urlBuilder: (id) => `https://arxiv.org/abs/${id}`,
-    icon: faFileSignature
   },
   {
     link: "mathrev",
@@ -111,14 +109,14 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
         <Link
           key={name}
           url={url}
-          definition={{ label: name, link: "custom" }}
+          definition={{ label: name, link: "custom", icon: faLink }}
         />
       ))}
       {urls.customFile?.map(({ name, file: { publicURL } }) => (
         <Link
           key={name}
           url={publicURL}
-          definition={{ label: name, link: "customFile" }}
+          definition={{ label: name, link: "customFile", icon: faFile }}
         />
       ))}
     </div>

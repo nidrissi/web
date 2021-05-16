@@ -14,7 +14,7 @@ urls:
   customFile:
     - name: Exam
       file: examen-corrigé.pdf
-    - name: Solution of the exam
+    - name: Solved exam
       file: examen-corrigé.pdf
 ---
 
