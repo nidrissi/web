@@ -27,6 +27,7 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
         width="150px"
         height="150px"
         className="float-right m-2 rounded-md"
+        alt="My photo."
       />
       <article>
         <div className="prose prose-blue max-w-none mb-3">
