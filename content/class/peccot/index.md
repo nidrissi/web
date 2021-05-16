@@ -24,6 +24,8 @@ urls:
       file: ./peccot-fr.pdf
 ---
 
+import PeccotCard from "./PeccotCard";
+
 In this lecture, we will study the real homotopy type of configuration spaces of manifolds.
 Configuration spaces consist in collections of pairwise distinct points in a given manifold.
 The study of these spaces is a classical problem in algebraic topology.
@@ -43,96 +45,56 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
 
 ### Lessons
 
-<div class="row row-cols-1 row-cols-md-2">
-<div class="col mb-3">
-<div class="card h-100">
-  <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm"><img src="thumb1.jpg" class="card-img-top" /></a>
-  <div class="card-body">
-    <h5 class="card-title">Lesson 1</h5>
-    <h6 class="card-subtitle text-muted mb-2">March 4th 2020, 11:00–13:00</h6>
-    <p class="card-text mb-0">Chapter 1: Configuration spaces of manifolds</p>
-    <ul class="mb-2">
-    <li>Generalities on configuration spaces sur les espaces de configuration</li>
-    <li>Homotopy invariance conjecture</li>
-    <li>Rational homotopy theory</li>
-    <li>Formality of configuration spaces of Euclidean spaces</li>
-    </ul>
-  </div>
-  <div class="card-footer">
-    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
-  </div>
-</div>
-</div>
+<div class="flex flex-col gap-2 sm:grid sm:grid-cols-2">
+<PeccotCard number={1} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm" date="March 4th 2020, 11:00–13:00">
+  <p>Chapter 1: Configuration spaces of manifolds</p>
+  <ul>
+  <li>Generalities on configuration spaces sur les espaces de configuration</li>
+  <li>Homotopy invariance conjecture</li>
+  <li>Rational homotopy theory</li>
+  <li>Formality of configuration spaces of Euclidean spaces</li>
+  </ul>
+</PeccotCard>
 
-<div class="col mb-3">
-<div class="card h-100">
-  <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm"><img src="thumb2.jpg" class="card-img-top" /></a>
-  <div class="card-body">
-    <h5 class="card-title">Lesson 2</h5>
-    <h6 class="card-subtitle text-muted mb-2">March 11th 2020, 11:00–13:00</h6>
-    <p class="card-text mb-0">Chapter 2: The Lambrechts–Stanley model</p>
-    <ul class="mb-2">
-    <li>Definition of the model and theorem</li>
-    <li>Compactifications of configuration spaces</li>
-    <li>Semi-algebraic sets and forms</li>
-    <li>Definition of the unreduced graph complex – Propagator</li>
-    </ul>
-  </div>
-  <div class="card-footer">
-    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
-  </div>
-</div>
-</div>
+<PeccotCard number={2} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm" date="March 11th 2020, 11:00–13:00">
+  <p>Chapter 2: The Lambrechts–Stanley model</p>
+  <ul>
+  <li>Definition of the model and theorem</li>
+  <li>Compactifications of configuration spaces</li>
+  <li>Semi-algebraic sets and forms</li>
+  <li>Definition of the unreduced graph complex – Propagator</li>
+  </ul>
+</PeccotCard>
 
-<div class="col mb-3">
-<div class="card h-100">
-  <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm"><img src="thumb3.jpg" class="card-img-top" /></a>
-  <div class="card-body">
-    <h5 class="card-title">Lesson 3</h5>
-    <h6 class="card-subtitle text-muted mb-2">May 25th 2020 (online)</h6>
-    <p class="card-text mb-0">Chapter 2: The Lambrechts–Stanley model (continued)</p>
-    <ul class="mb-0">
-    <li>Partition function and reduced graph complex</li>
-    <li>Simplification of the partition function</li>
-    <li>Quasi-isomorphism: combinatorial proof</li>
-    </ul>
-    <p class="card-text mb-0">Chapter 3: Manifolds with boundary</p>
-    <ul class="mb-2">
-    <li>Motivation: gluing</li>
-    <li>Poincaré–Lefschetz duality models</li>
-    </ul>
-  </div>
-  <div class="card-footer">
-    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
-  </div>
-</div>
-</div>
+<PeccotCard number={3} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm" date="May 25th 2020 (online)">
+  <p>Chapter 2: The Lambrechts–Stanley model (continued)</p>
+  <ul>
+  <li>Partition function and reduced graph complex</li>
+  <li>Simplification of the partition function</li>
+  <li>Quasi-isomorphism: combinatorial proof</li>
+  </ul>
+  <p>Chapter 3: Manifolds with boundary</p>
+  <ul>
+  <li>Motivation: gluing</li>
+  <li>Poincaré–Lefschetz duality models</li>
+  </ul>
+</PeccotCard>
 
-<div class="col mb-3">
-<div class="card h-100">
-  <a href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm"><img src="thumb4.jpg" class="card-img-top" /></a>
-  <div class="card-body">
-    <h5 class="card-title">Lesson 4</h5>
-    <h6 class="card-subtitle text-muted mb-2">May 28th 2020 (online)</h6>
-    <p class="card-text mb-0">Chapter 3: Manifolds with boundary (continued)</p>
-    <ul class="mb-0">
-    <li>Fulton–MacPherson compactifications</li>
-    <li>Propagators</li>
-    <li>Graph complexes</li>
-    <li>Simplification of the partition functions</li>
-    <li>End of the proof</li>
-    <li>Perturbed Lambrechts–Stanley model</li>
-    </ul>
-    <p class="card-text mb-0">Chapter 4: Operads</p>
-    <ul class="mb-2">
-    <li>Quick introduction to the theory</li>
-    <li>Definition of factorization homology</li>
-    <li>Relationship with configuration spaces</li>
-    </ul>
-  </div>
-  <div class="card-footer">
-    <a class="card-link text-decoration-none" href="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm"><i class="bi bi-play-circle"></i>&nbsp;Video</a>
-  </div>
-</div>
-</div>
+<PeccotCard number={4} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm" date="May 28th 2020 (online)">
+  <p>Chapter 3: Manifolds with boundary (continued)</p>
+  <ul>
+  <li>Fulton–MacPherson compactifications</li>
+  <li>Propagators</li>
+  <li>Graph complexes</li>
+  <li>Simplification of the partition functions</li>
+  <li>End of the proof</li>
+  <li>Perturbed Lambrechts–Stanley model</li>
+  </ul>
+  <p>Chapter 4: Operads</p>
+  <ul>
+  <li>Quick introduction to the theory</li>
+  <li>Definition of factorization homology</li>
+  <li>Relationship with configuration spaces</li>
+  </ul>
+</PeccotCard>
 </div>
