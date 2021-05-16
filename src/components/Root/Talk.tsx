@@ -72,7 +72,7 @@ query RootTalkQuery {
             </article>
           ))
         }
-        <SeeMore to="/research" style="bg-green-100" />
+        <SeeMore to="/research" style="bg-green-100" label="talks" />
       </div>
     </section>
   );
