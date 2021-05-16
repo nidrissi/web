@@ -12,18 +12,14 @@ urls:
   custom:
     - name: M2 Fundamental mathematics
       url: http://master-math-fonda.imj-prg.fr/
-    - name: Recorded lectures
-      url: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
   customFile:
-    - name: Lecture notes
-      file: homotopie.pdf
-    - name: Solution of the homework
+    - name: Homework
       file: devoir.pdf
     - name: Exam (en)
       file: examen-en.pdf
     - name: Exam (fr)
       file: examen-fr.pdf
-    - name: Solution of the exam (fr)
+    - name: Solved exam (fr)
       file: examen-fr-corrigé.pdf
 ---
 
