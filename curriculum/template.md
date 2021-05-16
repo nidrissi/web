@@ -1,17 +1,17 @@
 ---
 # $autogen$
 title: Curriculum Vitæ
-date: "2015-01-01"
 lastMod: $lastMod$
 urls:
-  pdf: cv.$lang$.pdf
+  customFile:
+  - name: CV (en)
+    file: cv.en.pdf
+  - name: CV (fr)
+    file: cv.fr.pdf
 toc: true
-menu:
-  main:
-    weight: 10
-    name: CV
-    pre: '<i class="bi bi-file-person"></i>'
 ---
+
+import Bibliography from "../../../src/components/Bibliography"
 
 $for(section)$
 
@@ -44,7 +44,7 @@ $endif$
 $if(section.content.bib)$
 
 </dl>
-{{< cvbib "$section.content.bib$" >}}
+<Bibliography status="$section.content.bib$" />
 <dl class="row mb-0">
 $endif$
 $endfor$

@@ -1,5 +1,5 @@
 BUILD = build
-TARGET_DIR = ../content/cv
+TARGET_DIR = ../content/misc/cv
 BIB = $(shell kpsewhich mainbib.bib)
 LATEX = latexmk -pdf -lualatex -quiet -outdir=$(BUILD)
 
@@ -32,8 +32,8 @@ english.out.yaml french.out.yaml: data.yaml split.js
 copy: all
 	cp french.out.pdf $(TARGET_DIR)/cv.fr.pdf
 	cp english.out.pdf $(TARGET_DIR)/cv.en.pdf
-	cp french.out.md $(TARGET_DIR)/index.fr.md
-	cp english.out.md $(TARGET_DIR)/index.en.md
+	# cp french.out.md $(TARGET_DIR)/index.fr.md
+	cp english.out.md $(TARGET_DIR)/index.md
 
 clean:
 	rm -rf *.out.* $(BUILD)
