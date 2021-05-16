@@ -70,7 +70,7 @@ query RootResearchQuery {
             );
           })
         }
-        <SeeMore to="/research" style="bg-yellow-100" />
+        <SeeMore to="/research" style="bg-yellow-100" label="research" />
       </div>
     </section>
   );

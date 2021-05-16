@@ -70,7 +70,7 @@ query RootClassQuery {
             </article>
           ))
         }
-        <SeeMore to="/class" style="bg-purple-100" />
+        <SeeMore to="/class" style="bg-purple-100" label="teaching" />
       </div>
     </section>
   );

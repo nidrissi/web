@@ -77,7 +77,7 @@ query RootPostQuery {
             </article>
           ))
         }
-        <SeeMore to="/post" style="bg-indigo-100" />
+        <SeeMore to="/post" style="bg-indigo-100" label="research" />
       </div>
     </section>
   );

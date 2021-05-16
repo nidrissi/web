@@ -3,10 +3,14 @@ import { Link } from "gatsby";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
-const SeeMore: React.FC<{ to: string, style: string }> = ({ to, style }) => (
+type SeeMoreProps = {
+  to: string;
+  style: string;
+  label: string
+}
+const SeeMore: React.FC<SeeMoreProps> = ({ to, style, label }) => (
   <Link to={to} className={`block text-center ${style} py-1 rounded-md`}>
-    See more <FontAwesomeIcon icon={faArrowRight} />
+    See more {label} <FontAwesomeIcon icon={faArrowRight} />
   </Link>
 );
 export default SeeMore;
