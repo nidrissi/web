@@ -20,7 +20,6 @@ const MetaData: React.FC<{ frontmatter: Frontmatter }> = ({
           .
         </div>
       ) : null}
-      <Links urls={urls} />
       {tags && tags.map((t) => <div key={t}>#{t}</div>)}
     </>
   );

@@ -80,7 +80,7 @@ const Link: React.FC<{ definition: LinkDefinition; url: string | LocalFile }> = 
   return (
     <a
       href={href}
-      className="block bg-blue-100 text-black hover:bg-gray-100 hover:border-blue-900 border rounded-full px-2 py-0.5 text-sm"
+      className="block text-black hover:bg-blue-100 hover:border-blue-900 border rounded-sm px-2 py-0.5 text-sm"
     >
       {definition.icon ? (
         <FontAwesomeIcon icon={definition.icon} className="mr-1" />
