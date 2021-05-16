@@ -1,5 +1,4 @@
 ---
-abstract:
 date: 2017-05-02
 event: Séminaire de Géométrie des espaces singuliers
 location: Université de Lille

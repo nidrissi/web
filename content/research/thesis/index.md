@@ -1,5 +1,4 @@
 ---
-abstract: |
 authors:
   - me
 date: 2017-11-17
