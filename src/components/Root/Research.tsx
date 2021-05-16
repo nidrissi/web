@@ -24,6 +24,12 @@ query RootResearchQuery {
             name
             url
           }
+          customFile {
+            name
+            file {
+              publicURL
+            }
+          }
           doi
           hal
           mathrev

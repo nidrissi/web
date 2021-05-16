@@ -26,6 +26,12 @@ query RootClassQuery {
             name
             url
           }
+          customFile {
+            name
+            file {
+              publicURL
+            }
+          }
           notes {
             publicURL
           }

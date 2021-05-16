@@ -84,6 +84,12 @@ export const query = graphql`
             url
             name
           }
+          customFile {
+            name
+            file {
+              publicURL
+            }
+          }
         }
       }
     }
