@@ -48,7 +48,7 @@ query RootClassQuery {
       <h2 className="text-4xl font-bold mb-3">Teaching (2020-2021)</h2>
       {
         nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
-          <div key={slug} className="py-2">
+          <article key={slug} className="py-2">
             <h3 className="text-xl font-semibold mb-1">
               {
                 words > 0 ? (
@@ -59,7 +59,7 @@ query RootClassQuery {
               }
             </h3>
             <Meta frontmatter={frontmatter} type="class" />
-          </div>
+          </article>
         ))
       }
     </section>
