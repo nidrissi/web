@@ -24,7 +24,7 @@ const PageTemplate: React.FC<{
     );
 
   return (
-    <Layout title={frontmatter.title} description={excerpt}>
+    <Layout title={frontmatter.title} description={excerpt} date={frontmatter.date} lastMod={frontmatter.lastMod}>
       <header className="mb-4">
         <h1 className="mb-1 text-3xl font-bold text-gray-700">{actualTitle}</h1>
         <Meta frontmatter={frontmatter} type={type} />
