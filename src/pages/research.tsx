@@ -73,11 +73,11 @@ query ResearchListQuery {
                   .filter(({ frontmatter }) => frontmatter.status === key)
                   .map(({ frontmatter, slug }) => (
                     <article key={slug}>
-                      <h2 className="text-xl font">
+                      <h3 className="text-xl font-semibold">
                         <Link to={`/research/${slug}`} className="text-yellow-700 hover:underline">
                           {frontmatter.title}
                         </Link>
-                      </h2>
+                      </h3>
                       <Meta frontmatter={frontmatter} type="research" />
                     </article>
                   ))
