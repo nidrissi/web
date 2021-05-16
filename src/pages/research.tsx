@@ -84,9 +84,7 @@ query ResearchListQuery {
               }
             </div>
           </section>
-        )
-        )
-        }
+        ))}
       </div>
     </Layout>
   );
