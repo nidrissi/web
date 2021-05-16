@@ -1,8 +1,0 @@
-{{- $keyword := .Get 0 -}}
-{{- $pages := where .Site.RegularPages "Type" "research" -}}
-{{- $pages := where $pages ".Params.status" "in" (split $keyword ",") -}}
-<ol>
-{{- range $pages -}}
-{{- .Render "li" -}}
-{{- end -}}
-</ol>
