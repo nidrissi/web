@@ -100,5 +100,17 @@ module.exports = {
         trackingIds: ["G-S549JC61XZ"],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Najib Idrissi's page`,
+        short_name: `Najib Idrissi`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#663399`,
+        display: `browser`,
+        icon: `static/img/photo.jpg`,
+      },
+    },
   ],
 };
