@@ -5,6 +5,7 @@ import Layout from "../Layout";
 import Contact from "./Contact";
 import Research from "./Research";
 import Class from "./Class";
+import Talk from "./Talk";
 
 const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
   const {
@@ -42,6 +43,8 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
         <Research />
         {hr}
         <Class />
+        {hr}
+        <Talk />
       </article>
     </Layout>
   );
