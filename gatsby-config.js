@@ -34,6 +34,8 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-catch-links",
     "gatsby-plugin-offline",
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -76,9 +78,11 @@ module.exports = {
           default: require.resolve("./src/components/Layout/index.tsx"),
         },
         extensions: [`.mdx`, `.md`],
-        remarkPlugins: [require("remark-math")],
+        remarkPlugins: [
+          require("remark-math"),
+          require("remark-html-katex"),
+        ],
         rehypePlugins: [
-          require("rehype-katex"),
           require("@mapbox/rehype-prism")
         ],
         gatsbyRemarkPlugins: [
@@ -90,6 +94,12 @@ module.exports = {
             options: {
               "dashes": "oldschool"
             }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
           },
         ],
       },
