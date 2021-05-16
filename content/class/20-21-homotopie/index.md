@@ -52,7 +52,7 @@ You will receive the link to the meeting by email; if you did not receive it, pl
 The sessions will also be recorded and [available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 To access the different videos, click on the playlist icon in the top right of the embedded player.
 
-**The exam will happen on Friday, March 5th, 14:00--17:00, in room 207C of the [Halle aux Farines](/class/19-20-homotopieHAF.pdf) (<i class="bi bi-exclamation-triangle"></i>&nbsp;note the room change).**
+**The exam will happen on Friday, March 5th, 14:00--17:00, in room 207C of the [Halle aux Farines](../19-20-homotopie/HAF.pdf) (note the room change!).**
 This will be an open-book exam: you will have access to printed and handwritten lecture notes.
 Electronic devices will be forbidden.
 
