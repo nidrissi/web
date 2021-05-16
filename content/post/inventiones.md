@@ -4,7 +4,7 @@ date: 2018-11-22
 tags: [paper, conf-spaces]
 ---
 
-My second paper, [The Lambrechts--Stanley Model of Configuration Space](research/ls-model), has been accepted for publication in _Inventiones Mathematicae_!
+My second paper, [The Lambrechts--Stanley Model of Configuration Space](/research/ls-model), has been accepted for publication in _Inventiones Mathematicae_!
 This is a great honor and I am very happy.
 The refeereing process was a bit above average (14 months for the first report, 7 for the final acceptancee), but I am thankful for it.
 The anonymous referee had many remarks and questions that greatly improved my paper.

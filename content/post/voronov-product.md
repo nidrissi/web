@@ -57,7 +57,7 @@ This is indeed the case. The homology of the little disks operad $\mathtt{Ger}$,
 
 $$(a \cdot b) \cdot (a' \cdot b') = aa' \cdot bb', \; \forall a,a' \in A, b,b' \in B.$$
 
-(Here we see [the Eckmann--Hilton argument](post/eckmann-hilton) appearing in the background...)
+(Here we see [the Eckmann--Hilton argument](/post/eckmann-hilton) appearing in the background...)
 
 If we now allow operations with an open output and only closed inputs, things get a bit more complicated. The description of the homology of this new operad can be found in the paper "Open-closed homotopy algebras and strong homotopy Leibniz pairs through Koszul operad theory" by Hoefel and Livernet. Just like before, an algebra over this operad is given by a pair consisting of a Gerstenhaber algebra $A$ and an associative algebra $B$. Instead of an action of $A$ on $B$, there is a morphism of commutative algebras from $A$ to the _center_ of the algebra $B$. If $B$ is a unital algebra, this is exactly the same thing as before, with $f(b) = b \cdot 1_A$ (and the Eckmann--Hilton argument shows that this lands in the center of $A$).
 

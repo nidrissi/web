@@ -2,13 +2,14 @@
 title: Digging
 date: 2019-03-15
 draft: false
-tags: []
+urls:
+  source: minimale.zip
 ---
 
 I dug up the tiny program I wrote to find [minimal surfaces](https://en.wikipedia.org/wiki/Minimal_surface) with fixed boundary in 2011 for the "grandes écoles" entrance exams.
 Ah, the memories...
 
-It's [available here](minimale.zip), along with some pictures.
+It's [available here](./minimale.zip), along with some pictures.
 It's written in OCaml, of course!
 To compile it, install OCaml, OCamlBuild, and the OpenGL libraries for OCaml.
 Then run `ocamlbuild main.native`.

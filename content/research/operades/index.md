@@ -15,4 +15,4 @@ urls:
 
 Nous donnons une introduction au domaine des opérades, des objets qui encodent les structures algébriques. Après les avoir définies, nous présentons plusieurs domaines d’application des opérades : espaces de lacets itérés, formalité, algèbres homotopiques, longs nœuds et groupe de Grothendieck–Teichmüller.
 
-Introductory work on operads based on my [Master's thesis](research/m2).
+Introductory work on operads based on my [Master's thesis](/research/m2).

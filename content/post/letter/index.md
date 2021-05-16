@@ -19,7 +19,7 @@ Remember to also change the parameter of the `\setmainlanguage` command.
 Other options are available, see "Letter Class Option Files" in the `scrlttr2` manual.
 
 **[The code is available on GitHub.](https://gist.github.com/nidrissi/7b9d8f2f1a80837090e84160e68e8f00)**
-The end result [looks like this PDF](letter.pdf).
+The end result [looks like this PDF](./letter.pdf).
 
 Since I use [`polyglossia`](https://www.ctan.org/pkg/polyglossia) (for language-specific settings) and [`unicode-math`](https://www.ctan.org/pkg/unicode-math) (for the fonts), the file needs to be compiled with either XeLaTeX or LuaLaTeX.
 If you do not want this, then remove these two packages, the `\setmainfont` and `\setmathfont` commands, and add the following lines at the beginning of the preamble:

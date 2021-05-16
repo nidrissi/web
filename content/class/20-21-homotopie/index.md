@@ -110,7 +110,7 @@ Electronic devices will be forbidden.
 
 ## Bibliography
 
-[**Lecture notes are here.**](homotopie.pdf)
+[**Lecture notes are here.**](./homotopie.pdf)
 
 I gave a [similar course last year](/class/19-20-homotopie), you can in particular find past exams.
 Grégory Ginot gave a [course in 2017--2018--2019 on the same subject](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
