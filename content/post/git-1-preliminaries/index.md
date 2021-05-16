@@ -78,9 +78,7 @@ There are two operative phrases in the name, that can be explained at a high lev
 
 ## Next steps
 
-<div class="bg-yellow-100 p-1 rounded-sm text-yellow-900">
-Update: <a href="/post/git-2-theory" class="alert-link">Part 2 ("Theory") is now available here.</a>
-</div>
+**Update:** [Part 2 ("Theory") is now available here.](/post/git-2-theory)
 
 In the next post, I will try to explain how one uses Git.
 In the meantime, here are some links:
