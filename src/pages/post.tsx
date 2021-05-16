@@ -67,11 +67,10 @@ query PostListQuery {
               <div className="mb-2">
                 <Meta frontmatter={frontmatter} type="post" />
               </div>
-              <div className="prose prose-blue prose-sm max-w-xl">
-                {excerpt}
-                {' '}
+              <div className="text-sm hover:text-blue-800 hover:underline max-w-xl">
                 <Link to={`/post/${slug}`}>
-                  Read more{' '}
+                  {excerpt}
+                  {' '}
                   <FontAwesomeIcon icon={faCaretSquareRight} />
                 </Link>
               </div>

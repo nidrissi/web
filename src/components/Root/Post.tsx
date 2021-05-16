@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Meta from "../meta";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretSquareRight } from "@fortawesome/free-solid-svg-icons";
+import { faCaretSquareRight } from "@fortawesome/free-regular-svg-icons";
 import SeeMore from "./SeeMore";
 
 const Post: React.FC<{}> = () => {
@@ -66,11 +66,10 @@ query RootPostQuery {
               <div className="mb-2">
                 <Meta frontmatter={frontmatter} type="post" />
               </div>
-              <div className="prose prose-blue prose-sm max-w-xl">
-                {excerpt}
-                {' '}
+              <div className="text-sm hover:underline hover:text-blue-800 max-w-xl">
                 <Link to={`/post/${slug}`}>
-                  Read more{' '}
+                  {excerpt}
+                  {' '}
                   <FontAwesomeIcon icon={faCaretSquareRight} />
                 </Link>
               </div>
