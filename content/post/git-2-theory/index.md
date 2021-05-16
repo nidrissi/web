@@ -7,11 +7,11 @@ tags: [code]
 urls:
   custom:
     - name: "Part 1: Preliminaries"
-      url: https://idrissi.eu/en/post/git-1-preliminaries/
+      url: /post/git-1-preliminaries/
 ---
 
 This post is the second in a series in which I will try to explain how to use Git to write papers, with an audience of professional mathematicians in mind.
-[The first part, which was about why one would want to use Git, is here.](/git-1-preliminaries)
+[The first part, which was about why one would want to use Git, is here.](/post/git-1-preliminaries)
 Let us now dive into the second part, in which I explain a little what's going "under the hood" of Git.
 
 While it is not strictly necessary to know all this to use Git, I think that understanding the mechanics helps in actually using it correctly and efficiently.
@@ -199,7 +199,7 @@ At this point, the two authors both have a branch called `master`, but they refe
 How to reconcile them?
 
 This is where _remotes_ come in.
-Remember when I said in [the first post](/git-1-preliminaries) that Git is distributed?
+Remember when I said in [the first post](/post/git-1-preliminaries) that Git is distributed?
 A remote is just someone else (another user, a server...) that also has a copy of your repository and that you can access, typically through the network.
 This remote also has a full copy of the history of the repository, and their own branches.
 

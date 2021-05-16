@@ -9,7 +9,7 @@ tags: [code]
 urls:
   custom:
     - name: "Part 2: The Theory"
-      url: https://idrissi.eu/en/post/git-2-theory/
+      url: /post/git-2-theory/
 ---
 
 This post is the first in a series in which I will try to explain how to use Git to write papers, with an audience of professional mathematicians in mind.
