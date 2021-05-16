@@ -10,7 +10,6 @@ I have prepared a small animation to illustrate the Fulton--MacPherson compactif
 I am not a 3D artist, obviously, but (with oral explanations) I think it explains the concept better than drawing on the board, since drawing moving 3D pictures is not an easy task...
 [The animation is available here](animation.mp4), and here it is in all its glory:
 
-<!--more-->
 
 <div class="aspect-w-16 aspect-h-9">
     <video controls>

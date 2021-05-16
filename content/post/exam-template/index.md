@@ -18,7 +18,6 @@ I thus wrote a little Pandoc filter to save some time.
 
 _Update: This template is now [**available on GitHub**](https://github.com/nidrissi/exam-template). The GitHub version may be more up-to-date._
 
-<!--more-->
 
 Here is it [(`exam-template.tex`)](https://github.com/nidrissi/exam-template/blob/master/exam-template.tex):
 

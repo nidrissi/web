@@ -11,7 +11,6 @@ Several people have asked me for my LaTeX template to write letters, so I guess 
 It uses the [`scrlttr2`](https://www.ctan.org/pkg/scrlttr2) package.
 I think the markup is relatively self-explanatory.
 
-<!--more-->
 
 The template expects a copy of your signature and the logo of your university in the same folder, in images named `signature.(png|jpg|...)` and `logo.(png|jpg|...)`; this can of course be customized.
 

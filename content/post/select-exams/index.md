@@ -14,7 +14,6 @@ I've now taken to scanning my students' exams and grading them directly on my to
 This way I avoid all the issues that come with physical exams: I'm not scared to death of bringing them home anymore -- losing them means redoing the whole exam
 😨, I have a backup, I can give more detailed feedback to students, give it to them earlier and more often, etc.
 
-<!--more-->
 
 My department is equipped with one of these huge scanners that can easily chew through dozens of two-sided A3 exam booklets.
 However, this produces a single huge PDF that contains all the exams.

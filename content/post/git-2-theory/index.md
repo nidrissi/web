@@ -17,7 +17,6 @@ Let us now dive into the second part, in which I explain a little what's going "
 While it is not strictly necessary to know all this to use Git, I think that understanding the mechanics helps in actually using it correctly and efficiently.
 Commands like `git push` or `git pull` are actually a bit complex and it is useful to know what words like "commit", "branch", "remote", etc. refer to, especially when there is a conflict between branches.
 
-<!--more-->
 
 <div class="bg-red-100 text-red-900 p-1 rounded-sm">
 Of course, I will not be able to explain <em>everything</em> about Git's inner workings!

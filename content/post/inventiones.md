@@ -13,5 +13,3 @@ Since I use techniques from several areas of mathematics -- algebraic topology, 
 So, I'd like to thank the referee, as well as many people (see the acknowledgments on my paper): Ricardo Campos, Ivo Dell'Ambrogio, Julien Ducoulombier, Matteo Felder, Benoit Fresse, Ben Knudsen, Pascal Lambrechts, Antoine Touzé, Thomas Willwacher.
 Anyway, time to celebrate!
 (And tomorrow's my birthday 😃)
-
-<!--more-->

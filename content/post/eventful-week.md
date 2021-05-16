@@ -9,7 +9,6 @@ Last week was life-changing, to say the least. I was interviewed for two _maîtr
 
 I am of course extremely happy and I feel extremely lucky. This would not have been possible without the support of many people, foremost my former advisor Benoit Fresse, who gave me a lot of advice on how to navigate the French academic maze. My current supervisor, Thomas Willwacher, has also been a great support, and I thank him too.
 
-<!--more-->
 
 This week I am in Vancouver, where I participated in the wonderful workshop [Graph Complexes, Configuration Spaces and Manifold Calculus](https://www.pims.math.ca/scientific-event/180522-gccsmc). (The change of scenery also helped me get some perspective on the MCF positions.) Next week I'm in Regina to talk with [Don Stanley](https://www.uregina.ca/science/mathstat/faculty-staff/faculty/stanley-donald.html) and [Paul-Arnaud Songhafouo Tsopméné](https://www.uregina.ca/science/mathstat/faculty-staff/postdoctoral/tsopmene-paul.html), then after that I go to the Fields Institute in Toronto to give a talk as a junior speaker at the [_Séminaire de mathématiques supérieures 2018_](http://www.fields.utoronto.ca/activities/17-18/sms-2018). By then I will know in which Parisian university I will work!
 

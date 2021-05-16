@@ -11,7 +11,6 @@ This past month, I've had the pleasure of applying for *maître de conférences*
 It turned out to be a singularly more complicated process than I expected.
 The actual scientific part of the application was not too taxing, as I already had to do it when I applied for a *chargé de recherche* ("junior scientist") job at CNRS in December, and my research statements, CV... didn't change much since then.
 The administrative part was the kafkaesque part.
-<!--more-->
 
 ## Qualification
 

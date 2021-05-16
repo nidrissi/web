@@ -8,7 +8,6 @@ The purpose of this post is to record the definition of $\infty$-operads and exp
 
 Indeed, the definition on an $\infty$-operad is a bit mysterious taken "as-is" -- see [HA, §2.1.1.10]. My goal is to explain how to reach this definition, mostly for my own sake. Most of what follows is taken either from the book _Higher Algebra_, the $n$Lab, or the semester-long workshop about hgiher category theory in Lille in 2015.
 
-<!--more-->
 
 ## Cartesian morphisms
 

@@ -11,4 +11,3 @@ I just got the answer: it's a yes!
 So my project is now funded in 2019, for the amount of 3500 €.
 It's comfortable, especially considering that the application and the administrative requirements are lightweight.
 Time to get to work!
-<!--more-->
