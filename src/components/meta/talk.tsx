@@ -1,14 +1,14 @@
 import React from "react";
 import { Frontmatter } from ".";
-import MetaData from "./data";
+import DateTime from "./datetime";
 
 const MetaTalk: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter }) => {
-  const { TBA, location } = frontmatter;
+  const { TBA, location, event, date } = frontmatter;
 
   return (
     <>
-      <div>{TBA ? '?' : ''}{location}{TBA ? '?' : ''}</div>
-      <MetaData frontmatter={frontmatter} />
+      <div>{event} @ {location}.</div>
+      <div>{TBA ? '?' : ''}On <DateTime date={date} />{TBA ? '?' : ''}.</div>
     </>
   );
 };
