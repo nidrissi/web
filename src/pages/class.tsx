@@ -55,7 +55,7 @@ query ClassListQuery {
 
   return (
     <Layout title="Teaching" description="My teaching.">
-      <h1 className="text-4xl font-bold mb-3">Teaching (2020-2021)</h1>
+      <h1 className="text-4xl font-bold mb-3">Teaching</h1>
       <div className="flex flex-col gap-8">
         {years.map(year => (
           <div key="year">
