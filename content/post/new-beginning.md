@@ -13,7 +13,6 @@ And I finally found an apartment in Paris!
 It was unexpectedly hard: faculty salaries are not very high compared to the cost of living, and the first year is technically on "probation", meaning I could theoretically get fired next August...
 Landlords in Paris have very rigid expectations and this made me fall outside them.
 
-<!--more-->
 
 I've also started teaching a course called "Elementary Algebra and Analysis I".
 It's basically the course that gets taught everywhere around the world to first year students who just get into university.

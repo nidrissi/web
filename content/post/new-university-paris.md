@@ -12,4 +12,3 @@ We have a new logo that you can view on the [university's new website](https://u
 We also have [new statutes](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000038252458&dateTexte=20190329) that govern the internal structure of the new university.
 And most importantly... all the staff got pots and seeds to plant in them!
 Very symbolic.
-<!--more-->

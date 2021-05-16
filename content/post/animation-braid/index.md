@@ -9,7 +9,6 @@ Thursday I'm giving a talk at the online [Toric Topology research seminar](http:
 (I was supposed to go there in person, but you can probably expect, the current pandemic made that impossible.)
 So I took the opportunity to prepare a little illustration to explain the connection between braids and configuration spaces!
 
-<!--more-->
 <div class="aspect-w-16 aspect-h-9">
     <video controls loop autoplay>
         <source src="braid.mp4" type="video/mp4" />

@@ -13,7 +13,6 @@ There are too many people to thank for that, so please see the "Thanks" section 
 I am now entering the scary world of job applications.
 I am discovering the wonderful "GALAXIE" web application -- fellow French job applicants know my pain.
 
-<!--more-->
 
 Fortunately, starting on February 1st, I have had the chance of becoming a postdoc at [ETH Zürich](https://ethz.ch) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/), funded by his ERC grant 678156--GRAPHCPX.
 So for the next two years (and perhaps even a third) the pressure of job applications will hopefully not weigh down too much...

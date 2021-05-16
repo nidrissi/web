@@ -7,7 +7,6 @@ tags: [job]
 
 One question people often ask is why the university is called "Paris 7", followed by the realization that there are (were!) thirteen universities in Paris, numbered from "Paris 1" to "Paris 13".
 Here's an attempt at explaining it (though I'm sure I can't cover all the reasons.)
-<!--more-->
 
 ## At the beginning
 

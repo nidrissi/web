@@ -11,7 +11,6 @@ You can also normalize the data so that each section starts at 100 in 1998, to c
 I might add the total of the two later, but I fear I've already wasted enough time on this...
 Here it is:
 
-<!--more-->
 
 <div>
 <div id="groups"></div>

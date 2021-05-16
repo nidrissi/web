@@ -6,7 +6,6 @@ title: Oberwolfach
 
 I just came back from the [Mathematisches Forschungsinstitut Oberwolfach](https://www.mfo.de/)!
 
-<!--more-->
 
 ![The library](mfo.jpg)
 

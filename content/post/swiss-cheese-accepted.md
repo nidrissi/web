@@ -6,7 +6,6 @@ title: First Article Accepted!
 
 My paper [Swiss-Cheese operad and Drinfeld center](research/swiss-cheese) has finally been accepted! It is going to appear in the [Israel Journal of Mathematics](http://www.ma.huji.ac.il/~ijmath/). I've made the few corrections suggested by the referee (the new version is [available on the arXiv](https://arxiv.org/pdf/1507.06844)), and I'm now waiting for the final proofs before the paper can be published.
 
-<!--more-->
 
 If you haven't read the paper yet, I wrote [a post some time ago](post/voronov-product) about the Voronov product of operads. My paper starts with the following observation, due to Voronov: the homology of the Swiss-Cheese operad $\mathtt{SC}$ split as a "product" of the Gerstenhaber operad and the associative operad. It thus seems natural to think that the Swiss-Cheese operad itself could split as some kind of product. Unfortunately, this operad is not formal [Livernet, 2015], which makes matters more complex.
 
