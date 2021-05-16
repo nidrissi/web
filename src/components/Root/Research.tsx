@@ -46,19 +46,22 @@ query RootResearchQuery {
   }
 }`);
 
-  return <>
-    <h2 className="text-4xl font-bold mb-3">Research</h2>
-    {
-      nodes.map(({ frontmatter, slug }) => (
-        <div key={frontmatter.title} className="py-2">
-          <h3 className="text-2xl font-semibold">
-            <a href={`research/${slug}`} className="text-green-800 hover:underline">
-              {frontmatter.title}
-            </a>
-          </h3>
-          <Meta frontmatter={frontmatter} type="research" />
-        </div>
-      ))
-    }</>;
+  return (
+    <section>
+      <h2 className="text-4xl font-bold mb-3">Research</h2>
+      {
+        nodes.map(({ frontmatter, slug }) => (
+          <div key={slug} className="py-2">
+            <h3 className="text-xl font-semibold mb-1">
+              <a href={`research/${slug}`} className="text-green-800 hover:underline">
+                {frontmatter.title}
+              </a>
+            </h3>
+            <Meta frontmatter={frontmatter} type="research" />
+          </div>
+        ))
+      }
+    </section>
+  );
 }
 export default Research;
