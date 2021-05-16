@@ -18,11 +18,12 @@ urls:
       file: examen-corrigé.pdf
 ---
 
+import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of $\infty$-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory – Quillen's model categories – and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains – singular or de Rham – encode topological spaces up to rational homotopy.
 
 **Prerequisites.** It is advised to have already taken a class on algebraic topology as well as an introduction to homological algebra.
-
-<p class="lead"><a href="../20-21-homotopie/homotopie.pdf"><b><i class="bi bi-file-earmark-text"></i>&nbsp;Lecture notes are available here.</b></a></p>
 
 ## Plan
 
@@ -79,7 +80,7 @@ Tuesday January 28th
 Thursday January 30th
 : Sections 2.1--2.3: Introduction to simplicial sets.
 
-Monday February 3rd (<i class="bi bi-exclamation-triangle"></i>&nbsp;unusual time slot: 16:15--18:15)
+Monday February 3rd (<FontAwesomeIcon icon={faExclamationTriangle}/>&nbsp;unusual time slot: 16:15--18:15)
 : Sections 2.4--2.5: Model structure on simplicial sets, beginning of the equivalence with topological spaces.
 
 Tuesday February 4th
@@ -88,7 +89,7 @@ Tuesday February 4th
 ~~Thursday February 6th~~
 : (moved to February 3rd)
 
-Tuesday February 11th (<i class="bi bi-exclamation-triangle"></i>&nbsp;room 2017)
+Tuesday February 11th (<FontAwesomeIcon icon={faExclamationTriangle}/>&nbsp;room 2017)
 : Sections 3.2--3.3: Model structure on CDGAs, Sullivan theory, comparison with simplicial sets up to rational equivalence.
 
 Thursday February 13th
