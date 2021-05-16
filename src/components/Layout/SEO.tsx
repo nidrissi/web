@@ -22,7 +22,7 @@ type SEOQuery = {
 export type SEOProps = {
   title: string;
   description: string;
-  date: string;
+  date?: string;
   lastMod?: string;
 }
 
@@ -76,7 +76,9 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
       <meta property="og:description" content={description} />
       <meta property="og:profile:first_name" content={name.split(' ')[0]} />
       <meta property="og:profile:last_name" content={name.split(' ')[1]} />
-      <meta property="og:article:published_time" content={new Date(date).toISOString()} />
+      {date
+        ? <meta property="og:article:published_time" content={new Date(date).toISOString()} />
+        : null}
       {lastMod
         ? <meta property="og:article:modified_time" content={new Date(lastMod).toISOString()} />
         : null}
