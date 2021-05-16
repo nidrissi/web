@@ -1,18 +1,19 @@
 import React from "react";
 import { Frontmatter } from ".";
 import DateTime from "./datetime";
-import Links from "./links";
 
 const MetaData: React.FC<{ frontmatter: Frontmatter }> = ({
   frontmatter: { date, lastMod, tags, urls }
 }) => {
   return (
     <>
-      <div>
-        Published{" "}
-        <DateTime date={date} />
+      {date ? (
+        <div>
+          Published{" "}
+          <DateTime date={date} />
           .
-      </div>
+        </div>
+      ) : null}
       {lastMod ? (
         <div>
           Updated{" "}

@@ -31,7 +31,7 @@ const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({
 }) => {
   return (
     <div className="flex flex-col gap-1">
-      <div className="flex flex-row gap-x-2 gap-y-1 content-center text-gray-700">
+      <div className="flex flex-row flex-wrap gap-x-2 gap-y-1 content-center text-gray-700">
         {
           type === 'research' ? (
             <MetaResearch frontmatter={frontmatter} />
