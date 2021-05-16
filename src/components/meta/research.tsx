@@ -26,10 +26,10 @@ function formatAuthor(author: string): string | JSX.Element {
 const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { date, lastMod, urls, publication, authors } }) => {
   const displayedAuthors = authors.length > 1 ? (
     <>
-      {authors.map((a, i) => <>
+      {authors.map((a, i) => <React.Fragment key={a}>
         {i > 0 && ', '}
         {formatAuthor(a)}
-      </>)}.
+      </React.Fragment>)}.
     </>
   ) : null;
 

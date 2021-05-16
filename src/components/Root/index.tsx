@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby";
 
 import Layout from "../Layout";
 import Contact from "./Contact";
+import Research from "./Research";
 
 const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
   const {
@@ -20,6 +21,8 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
           }
         }`);
 
+  const hr = <hr className="my-4" />
+
   return (
     <Layout title={siteTitle}>
       <img
@@ -34,6 +37,8 @@ const Index: React.FC<{ data: IndexQuery }> = ({ children, data }) => {
           {children}
         </div>
         <Contact />
+        {hr}
+        <Research />
       </article>
     </Layout>
   );
