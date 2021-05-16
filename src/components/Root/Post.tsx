@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Meta from "../meta";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCaretSquareRight } from "@fortawesome/free-regular-svg-icons";
+import { faCaretSquareRight } from "@fortawesome/free-solid-svg-icons";
 
 const Post: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`

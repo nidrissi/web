@@ -2,6 +2,8 @@
 title: "Peccot Lecture: Notes"
 date: 2021-04-06
 tags: [math, peccot]
+urls:
+    notes: ../../research/peccot/peccot.pdf
 ---
 
 I have finished translation my notes for my [Peccot Lecture](/class/peccot) to English.
