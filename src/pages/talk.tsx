@@ -62,9 +62,9 @@ query TalkListQuery {
                 <h2 className="text-xl font-semibold">
                   {words > 0 ? (
                     <Link to={`/talk/${slug}`} className="text-blue-800 hover:underline">
-                      {frontmatter.title}
+                      {`${frontmatter.event} @ ${frontmatter.location}`}
                     </Link>
-                  ) : <>{frontmatter.title}</>}
+                  ) : <>{`${frontmatter.event} @ ${frontmatter.location}`}</>}
                 </h2>
                 <Meta frontmatter={frontmatter} type="talk" />
               </article>

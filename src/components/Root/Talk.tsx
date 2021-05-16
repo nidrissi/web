@@ -52,6 +52,7 @@ query RootTalkQuery {
   }
 }`);
 
+
   return (
     <section>
       <h2 className="text-4xl font-bold mb-3">Talks</h2>
@@ -63,16 +64,16 @@ query RootTalkQuery {
                 {
                   words > 0 ? (
                     <Link to={`/talk/${slug}`} className="text-blue-800 hover:underline">
-                      {frontmatter.title}
+                      {`${frontmatter.event} @ ${frontmatter.location}`}
                     </Link>
-                  ) : <>{frontmatter.title}</>
+                  ) : <>{`${frontmatter.event} @ ${frontmatter.location}`}</>
                 }
               </h3>
               <Meta frontmatter={frontmatter} type="talk" />
             </article>
           ))
         }
-        <SeeMore to="/research" label="talks" />
+        <SeeMore to="/talk" label="talks" />
       </div>
     </section>
   );
