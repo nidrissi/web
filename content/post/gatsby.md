@@ -1,7 +1,7 @@
 ---
 title: New website!
 date: 2021-05-16
-tags: code
+tags: [code]
 ---
 
 You may have noticed that the layout of my website has almost completely changed.
