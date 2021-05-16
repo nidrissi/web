@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 
 import Layout from "../components/Layout";
 import Meta from "../components/meta";
@@ -59,9 +59,9 @@ query PostListQuery {
             <article key={slug}>
               <h2 className="text-xl font-semibold mb-1 max-w-2xl">
                 {
-                  <a href={`post/${slug}`} className="text-indigo-800 hover:underline">
+                  <Link to={`/post/${slug}`} className="text-indigo-800 hover:underline">
                     {frontmatter.title}
-                  </a>
+                  </Link>
                 }
               </h2>
               <div className="mb-2">
@@ -70,10 +70,10 @@ query PostListQuery {
               <div className="prose prose-indigo prose-sm max-w-xl">
                 {excerpt}
                 {' '}
-                <a href={`post/${slug}`}>
+                <Link to={`/post/${slug}`}>
                   Read more{' '}
                   <FontAwesomeIcon icon={faCaretSquareRight} />
-                </a>
+                </Link>
               </div>
             </article>
           ))

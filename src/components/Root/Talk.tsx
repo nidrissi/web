@@ -1,6 +1,7 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import Meta from "../meta";
+import { Link } from "gatsby";
 
 const Talk: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
@@ -60,9 +61,9 @@ query RootTalkQuery {
               <h3 className="text-xl font-semibold">
                 {
                   words > 0 ? (
-                    <a href={`talk/${slug}`} className="text-green-800 hover:underline">
+                    <Link to={`/talk/${slug}`} className="text-green-800 hover:underline">
                       {frontmatter.title}
-                    </a>
+                    </Link>
                   ) : <>{frontmatter.title}</>
                 }
               </h3>

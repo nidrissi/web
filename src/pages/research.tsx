@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 
 import Layout from "../components/Layout";
 import Meta from "../components/meta";
@@ -74,9 +74,9 @@ query ResearchListQuery {
                   .map(({ frontmatter, slug }) => (
                     <article key={slug}>
                       <h2 className="text-xl font">
-                        <a href={`research/${slug}`} className="text-yellow-700 hover:underline">
+                        <Link to={`/research/${slug}`} className="text-yellow-700 hover:underline">
                           {frontmatter.title}
-                        </a>
+                        </Link>
                       </h2>
                       <Meta frontmatter={frontmatter} type="research" />
                     </article>

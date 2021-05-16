@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import Meta from "../meta";
 
 const Research: React.FC<{}> = () => {
@@ -56,16 +56,18 @@ query RootResearchQuery {
       <h2 className="text-4xl font-bold mb-3">Research</h2>
       <div className="flex flex-col gap-4">
         {
-          nodes.map(({ frontmatter, slug }) => (
-            <article key={slug}>
-              <h3 className="text-xl font-semibold">
-                <a href={`research/${slug}`} className="text-yellow-700 hover:underline">
-                  {frontmatter.title}
-                </a>
-              </h3>
-              <Meta frontmatter={frontmatter} type="research" />
-            </article>
-          ))
+          nodes.map(({ frontmatter, slug }) => {
+            return (
+              <article key={slug}>
+                <h3 className="text-xl font-semibold">
+                  <Link to={`/research/${slug}`} className="text-yellow-700 hover:underline">
+                    {frontmatter.title}
+                  </Link>
+                </h3>
+                <Meta frontmatter={frontmatter} type="research" />
+              </article>
+            );
+          })
         }
       </div>
     </section>

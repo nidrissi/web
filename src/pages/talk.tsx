@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 
 import Layout from '../components/Layout'
 import Meta from '../components/meta'
@@ -61,9 +61,9 @@ query TalkListQuery {
               <article key={slug} >
                 <h2 className="text-xl font-semibold">
                   {words > 0 ? (
-                    <a href={`talk/${slug}`} className="text-green-800 hover:underline">
+                    <Link to={`/talk/${slug}`} className="text-green-800 hover:underline">
                       {frontmatter.title}
-                    </a>
+                    </Link>
                   ) : <>{frontmatter.title}</>}
                 </h2>
                 <Meta frontmatter={frontmatter} type="talk" />
