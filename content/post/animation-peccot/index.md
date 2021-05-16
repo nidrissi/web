@@ -12,7 +12,7 @@ I am not a 3D artist, obviously, but (with oral explanations) I think it explain
 
 <!--more-->
 
-<div class="ratio ratio-16x9">
+<div class="aspect-w-16 aspect-h-9">
     <video controls>
         <source src="animation.mp4" type="video/mp4" />
     </video>
