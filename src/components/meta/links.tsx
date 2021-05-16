@@ -106,6 +106,13 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
         ) : null;
       }
       )}
+      {urls.custom?.map(({ name, url }) => (
+        <Link
+          key={name}
+          url={url}
+          definition={{ label: name, link: "custom" }}
+        />
+      ))}
     </>
   );
 };
