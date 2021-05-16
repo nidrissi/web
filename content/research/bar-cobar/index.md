@@ -5,7 +5,7 @@ lastMod: 2021-02-11
 draft: false
 authors: [ricardo, julien, me]
 status: preprint
-publication: Preprint v2, 68 pages
+publication: Preprint v2, 68 pages.
 urls:
   pdf: bar-cobar.pdf
   code:

@@ -4,7 +4,7 @@ date: 2020-12-08
 status: publication
 authors:
   - me
-publication: To appear in *Algebr. Geom. Topol.*, 47 p.
+publication: "To appear in <em>Algebr. Geom. Topol.</em>, 47 p."
 urls:
   pdf: sfm-mn.pdf
   arxiv: "1809.07667"
