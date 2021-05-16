@@ -15,7 +15,14 @@ const PageTemplate: React.FC<{
   const { body, frontmatter,
   } = data.mdx;
 
-  const actualTitle = type === 'talk' ? frontmatter.event : frontmatter.title;
+  const actualTitle =
+    type === 'talk' ? (
+      frontmatter.event
+    ) : type === 'class' ? (
+      `${frontmatter.title} (${frontmatter.year})`
+    ) : (
+      frontmatter.title
+    );
 
   return (
     <Layout title={frontmatter.title}>
@@ -52,6 +59,7 @@ export const query = graphql`
         cursus
         what
         time
+        year
         event
         TBA
         location

@@ -58,7 +58,7 @@ query RootClassQuery {
             <h3 className="text-xl font-semibold mb-1">
               {
                 words > 0 ? (
-                  <a href={`class/${slug}`} className="text-red-900 hover:underline">
+                  <a href={`class/${slug}`} className="text-purple-800 hover:underline">
                     {frontmatter.title}
                   </a>
                 ) : <>{frontmatter.title}</>
