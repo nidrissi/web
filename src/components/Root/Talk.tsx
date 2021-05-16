@@ -27,6 +27,12 @@ query RootTalkQuery {
             name
             url
           }
+          customFile {
+            name
+            file {
+              publicURL
+            }
+          }
           notes {
             publicURL
           }

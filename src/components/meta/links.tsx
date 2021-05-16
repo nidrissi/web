@@ -16,16 +16,17 @@ type LocalFile = {
   publicURL: string;
 }
 export type Urls = {
-  arxiv?: string;
-  custom?: { name: string; url: string }[];
-  doi?: string;
-  mathrev?: string;
-  notes?: LocalFile;
-  pdf?: LocalFile;
-  slides?: LocalFile;
-  source?: string;
-  video?: string;
-  zbmath?: string;
+  arxiv: string;
+  doi: string;
+  mathrev: string;
+  notes: LocalFile;
+  pdf: LocalFile;
+  slides: LocalFile;
+  source: string;
+  video: string;
+  zbmath: string;
+  custom: { name: string; url: string }[];
+  customFile: { name: string; file: { publicURL: string } }[]
 };
 
 type LinkDefinition = {
@@ -111,6 +112,13 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
           key={name}
           url={url}
           definition={{ label: name, link: "custom" }}
+        />
+      ))}
+      {urls.customFile?.map(({ name, file: { publicURL } }) => (
+        <Link
+          key={name}
+          url={publicURL}
+          definition={{ label: name, link: "customFile" }}
         />
       ))}
     </>
