@@ -14,7 +14,7 @@ query RootPostQuery {
   ) {
     nodes {
       slug
-      excerpt(pruneLength: 280)
+      excerpt(pruneLength: 250)
       frontmatter {
         title
         date
