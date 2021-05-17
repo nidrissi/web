@@ -6,7 +6,7 @@ tags: [code]
 
 You may have noticed that the layout of my website has almost completely changed.
 I have completely reworked the way it's rendered!
-Instead of Hugo, I am now using [Gatsby](https://www.gatsbyjs.com/), a JavaScript framework for producing static website.
+Instead of Hugo, I am now using [Gatsby](https://www.gatsbyjs.com/), a JavaScript framework for producing static websites.
 I have had this project for a while, but never took the time to do it.
 Given the circumstances (COVID...), I have a lot more "free time" than usual and managed to do it---essentially---over the week-end.
 You can check out [the GitHub repo](https://github.com/nidrissi/nidrissi) for the source.
