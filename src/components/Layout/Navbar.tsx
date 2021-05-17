@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
   faBoxOpen,
-  faBroadcastTower,
-  faBullhorn,
   faCaretDown,
   faChalkboardTeacher,
+  faComments,
+  faFlask,
   faHome,
-  faPenNib,
+  faPencilAlt,
   faPortrait,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
@@ -21,10 +21,10 @@ type navbarLink = {
 const navbarLinks: navbarLink[] = [
   { to: "/", icon: faHome, label: "Home" },
   { to: "/misc/cv", icon: faPortrait, label: "CV" },
-  { to: "/research", icon: faPenNib, label: "Research" },
-  { to: "/talk", icon: faBullhorn, label: "Talks" },
+  { to: "/research", icon: faFlask, label: "Research" },
+  { to: "/talk", icon: faComments, label: "Talks" },
   { to: "/class", icon: faChalkboardTeacher, label: "Teaching" },
-  { to: "/post", icon: faBroadcastTower, label: "Blog" },
+  { to: "/post", icon: faPencilAlt, label: "Blog" },
   { to: "/misc", icon: faBoxOpen, label: "Misc" },
 ];
 

@@ -1,8 +1,9 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
-import { faGithub, faStackExchange, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faStackExchange, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 
 const Footer: React.FC<{}> = () => {
   const {
@@ -63,7 +64,10 @@ const Footer: React.FC<{}> = () => {
     <>
       <hr className="mt-2" />
       <footer className="mx-auto flex flex-wrap py-2 divide-x divide-gray-300 divide-dotted text-center">
-        <Link to="/" className={linkStyle}>{name}</Link>
+        <Link to="/" className={linkStyle}>
+          <FontAwesomeIcon icon={faCopyright} className="mr-1" />
+          {name}
+        </Link>
         {links.map((v) => (
           <a
             href={v.url}
@@ -72,10 +76,7 @@ const Footer: React.FC<{}> = () => {
             key={v.label}
           >
             {v.icon ? (
-              <>
-                <FontAwesomeIcon icon={v.icon} />
-                  &nbsp;
-              </>
+              <FontAwesomeIcon icon={v.icon} className="mr-1" />
             ) : null}
             {v.label}
           </a>
