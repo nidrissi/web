@@ -31,16 +31,16 @@ const navbarLinks: navbarLink[] = [
 const Navbar: React.FC<{}> = () => {
   const [expanded, setExpanded] = useState(false);
   return (
-    <div
+    <nav
       className={`sticky top-0 w-full ${expanded ? "grid grid-cols-1" : "flex"
         } items-center gap-4 mb-3 bg-green-800 text-gray-200 z-50`}
     >
       <div className="flex w-full md:hidden items-center justify-between">
-        <Link to="/" className="block p-3 font-bold text-xl">
+        <Link to="/" className="block p-2 font-bold text-xl">
           Najib Idrissi
         </Link>
         <button
-          className="block cursor-pointer p-3 text-xl bg-gray-100 rounded-md m-2"
+          className="block cursor-pointer p-2 text-xl bg-gray-100 rounded-md m-2"
           onClick={() => setExpanded(!expanded)}
           title="Expand the navbar"
         >
@@ -55,7 +55,7 @@ const Navbar: React.FC<{}> = () => {
           <Link
             key={l.to}
             to={l.to}
-            className="block p-3 text-lg"
+            className="block p-2 text-lg"
             activeClassName="font-bold text-white"
           >
             <FontAwesomeIcon icon={l.icon} />
@@ -63,7 +63,7 @@ const Navbar: React.FC<{}> = () => {
           </Link>
         ))}
       </div>
-    </div>
+    </nav>
   );
 };
 
