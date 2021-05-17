@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
-  faBars,
   faBoxOpen,
   faBroadcastTower,
   faBullhorn,
+  faCaretDown,
   faChalkboardTeacher,
   faHome,
   faPenNib,
@@ -40,11 +40,11 @@ const Navbar: React.FC<{}> = () => {
           Najib Idrissi
         </Link>
         <button
-          className="block cursor-pointer p-2 text-xl bg-gray-100 rounded-md m-2"
+          className="block cursor-pointer p-2 text-2xl bg-green-600 rounded-sm"
           onClick={() => setExpanded(!expanded)}
           title="Expand the navbar"
         >
-          <FontAwesomeIcon icon={faBars} />
+          <FontAwesomeIcon icon={faCaretDown} />
         </button>
       </div>
       <div
