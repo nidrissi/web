@@ -49,8 +49,9 @@ The last four weeks, they will happen on:
 
 The session of February 6th is moved to Monday, February 3rd, between 16:15 and 18:15, in the room 137 of the Olympe de Gouges building.
 
-The optional homework (to hand in if you would like some feedback), due on February 4th, [is available here](./devoir.pdf).
-You can [find the solution there](/devoir-corrigé.pdf).
+The optional homework (to hand in if you would like some feedback) was due on February 4th.
+<!-- You can [find the solution there](/devoir-corrigé.pdf). -->
+The updated solution [is available on the page of the 2020--2021 lecture](/class/20-21-homotopie).
 
 The [exam](/examen.pdf) was on Tuesday, February 18th, between 14:00 and 17:00, in the room 1009 of the Sophie Germain building.
 It covered chapters 1 and 2.
