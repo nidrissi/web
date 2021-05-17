@@ -18,6 +18,7 @@ query RootPostQuery {
         title
         date
         lastMod
+        tags
         urls {
           custom {
             name
@@ -45,8 +46,7 @@ query RootPostQuery {
       }
     }
   }
-}
-`);
+}`);
 
   return (
     <section>

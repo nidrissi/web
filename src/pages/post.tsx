@@ -49,6 +49,7 @@ query {
         title
         date
         lastMod
+        tags
         urls {
           custom {
             name
