@@ -1,5 +1,5 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 import { faGithub, faStackExchange, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
@@ -41,7 +41,6 @@ const Footer: React.FC<{}> = () => {
   `);
 
   const links = [
-    { url: "/", label: name },
     { url: `mailto:${email}`, label: email, icon: faAt },
     organizations.map((o) => ({ url: o.url, label: o.name })),
     { url: `https://arxiv.org/a/${arXiv}.html`, label: "arXiv" },
@@ -58,30 +57,31 @@ const Footer: React.FC<{}> = () => {
     },
   ].flat();
 
+  const linkStyle = "block flex-auto text-blue-800 hover:underline block p-2";
+
   return (
-    <footer className="text-center">
-      <hr className="my-2 w-11/12 mx-auto" />
-      <div className="flex flex-wrap py-2 divide-x divide-gray-300 divide-dotted">
+    <>
+      <hr className="mt-2" />
+      <footer className="mx-auto flex flex-wrap py-2 divide-x divide-gray-300 divide-dotted text-center">
+        <Link to="/" className={linkStyle}>{name}</Link>
         {links.map((v) => (
-          <div className="flex-auto" key={v.label}>
-            <a
-              href={v.url}
-              rel="me"
-              className="text-blue-800 hover:underline block p-2"
-              key={v.label}
-            >
-              {v.icon ? (
-                <>
-                  <FontAwesomeIcon icon={v.icon} />
+          <a
+            href={v.url}
+            rel="me"
+            className={linkStyle}
+            key={v.label}
+          >
+            {v.icon ? (
+              <>
+                <FontAwesomeIcon icon={v.icon} />
                   &nbsp;
-                </>
-              ) : null}
-              {v.label}
-            </a>
-          </div>
+              </>
+            ) : null}
+            {v.label}
+          </a>
         ))}
-      </div>
-    </footer>
+      </footer>
+    </>
   );
 };
 export default Footer;
