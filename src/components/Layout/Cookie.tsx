@@ -17,7 +17,7 @@ const Cookie: React.FC<{}> = () => {
   }, []);
 
   const cookieBar = (
-    <div className="fixed bottom-0 left-0 w-screen bg-gray-200 border-t border-black p-2 flex">
+    <aside className="fixed bottom-0 left-0 w-screen bg-gray-200 border-t border-black p-2 flex">
       <p className="block m-auto">
         I use cookies to analyze traffic. To opt out, you can
         {' '}
@@ -26,7 +26,7 @@ const Cookie: React.FC<{}> = () => {
           className="text-blue-700 hover:underline"
         >install the Google Analytics opt-out add-on</a>.
       </p>
-    </div>
+    </aside>
   );
 
   return (show ? cookieBar : null)
