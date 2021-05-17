@@ -16,7 +16,7 @@ module.exports = {
         "F-75013 Paris",
         "France",
       ],
-      office: "SG-7032",
+      office: "(Sophie Germain) SG-7032, 7th floor",
       phone: {
         pretty: "(+33) 01 57 27 91 16",
         ugly: "+33157279116",

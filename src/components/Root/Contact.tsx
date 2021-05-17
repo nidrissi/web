@@ -48,7 +48,7 @@ const Contact: React.FC<{}> = () => {
     })),
     { label: phone.pretty, url: `tel:${phone.ugly}`, icon: faPhone },
     { label: address.join(" • "), icon: faMapMarkerAlt },
-    { label: office, icon: faDoorOpen },
+    { label: `Office: ${office}`, icon: faDoorOpen },
   ].flat();
   return (
     <>
