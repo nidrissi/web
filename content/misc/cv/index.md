@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-05-05
+lastMod: 2021-05-16
 urls:
   customFile:
   - name: CV (en)
@@ -310,6 +310,15 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">Oct. 2021</div>
 <div class="sm:w-5/6"><span class="font-bold">Colloque 2021 du GDR Topologie Algébrique</span>, <span class="italic">Université de Strasbourg</span>.</div>
+</div>
+
+
+
+
+
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold">June 2021</div>
+<div class="sm:w-5/6"><span class="font-bold"></span>, <span class="italic">Online</span>.</div>
 </div>
 
 
