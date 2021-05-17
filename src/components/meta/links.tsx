@@ -102,7 +102,7 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
       {linkDefinitions.map((definition) => {
         const url = urls[definition.link];
         return url ? (
-          <Link key={url} definition={definition} url={url}></Link>
+          <Link key={url.publicURL || url} definition={definition} url={url}></Link>
         ) : null;
       }
       )}
