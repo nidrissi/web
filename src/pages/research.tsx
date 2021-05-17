@@ -3,6 +3,7 @@ import { graphql, Link, useStaticQuery } from "gatsby";
 
 import Layout from "../components/Layout";
 import Meta from "../components/meta";
+import Mini from "../components/Mini";
 
 const sections = [
   { key: "publication", title: "Publications" },
@@ -72,14 +73,7 @@ query ResearchListQuery {
                 nodes
                   .filter(({ frontmatter }) => frontmatter.status === key)
                   .map(({ frontmatter, slug }) => (
-                    <article key={slug}>
-                      <h3 className="text-xl font-semibold">
-                        <Link to={`/research/${slug}`} className="text-blue-800 hover:underline">
-                          {frontmatter.title}
-                        </Link>
-                      </h3>
-                      <Meta frontmatter={frontmatter} type="research" />
-                    </article>
+                    <Mini key={slug} type="research" slug={slug} frontmatter={frontmatter} />
                   ))
               }
             </div>

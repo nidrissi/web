@@ -1,6 +1,6 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
-import Meta from "../meta";
+import Mini from "../Mini";
 import SeeMore from "./SeeMore";
 
 const Research: React.FC<{}> = () => {
@@ -59,14 +59,7 @@ query RootResearchQuery {
         {
           nodes.map(({ frontmatter, slug }) => {
             return (
-              <article key={slug}>
-                <h3 className="text-xl font-semibold">
-                  <Link to={`/research/${slug}`} className="text-blue-800 hover:underline">
-                    {frontmatter.title}
-                  </Link>
-                </h3>
-                <Meta frontmatter={frontmatter} type="research" />
-              </article>
+              <Mini key={slug} type="research" slug={slug} frontmatter={frontmatter} />
             );
           })
         }

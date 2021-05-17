@@ -1,7 +1,6 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
-import Meta from "../meta";
-import { Link } from "gatsby";
+import Mini from "../Mini";
 import SeeMore from "./SeeMore";
 
 const Talk: React.FC<{}> = () => {
@@ -60,18 +59,7 @@ query RootTalkQuery {
       <div className="flex flex-col gap-4">
         {
           nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
-            <article key={slug}>
-              <h3 className="text-xl font-semibold">
-                {
-                  words > 0 ? (
-                    <Link to={`/talk/${slug}`} className="text-blue-800 hover:underline">
-                      {`${frontmatter.event} @ ${frontmatter.location}`}
-                    </Link>
-                  ) : <>{`${frontmatter.event} @ ${frontmatter.location}`}</>
-                }
-              </h3>
-              <Meta frontmatter={frontmatter} type="talk" />
-            </article>
+            <Mini key={slug} type="talk" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
           ))
         }
         <SeeMore to="/talk" label="talks" />
