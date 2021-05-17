@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../Layout";
 import Contact from "./Contact";
@@ -30,12 +31,10 @@ const Index: React.FC<{ data: IndexQuery, description: string }> = ({ children }
 
   return (
     <Layout title={siteTitle} description={siteDescription}>
-      <img
-        src="/img/photo.jpg"
-        // width="150px"
-        // height="150px"
-        className="float-right m-2 border p-1 rounded-md w-28 sm:w-40"
-        alt="My photo."
+      <StaticImage
+        src="../../images/photo.jpg"
+        alt="A photo of me."
+        className="float-right m-2 rounded-md w-28 sm:w-40"
       />
       <article>
         <div className="prose prose-blue max-w-none mb-3">

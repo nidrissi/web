@@ -34,6 +34,7 @@ module.exports = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-catch-links",
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
     `gatsby-remark-images`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -121,7 +122,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#065F46`,
         display: `fullscreen`,
-        icon: `static/img/photo.jpg`,
+        icon: `src/images/photo.jpg`,
         icon_options: {
           purpose: `any maskable`,
         },

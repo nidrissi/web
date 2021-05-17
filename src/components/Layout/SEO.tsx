@@ -71,11 +71,9 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:site" content={`@${twitter}`} />
       <meta name="twitter:creator" content={`@${twitter}`} />
-      <meta name="twitter:image" content={`${siteUrl}/img/photo.jpg`} />
       <meta name="twitter:description" content={description} />
 
       <meta property="og:url" content={`${siteUrl}${pathname}`} />
-      <meta property="og:image" content={`${siteUrl}/img/social.png`} />
       <meta property="og:type" content={isRoot ? "profile" : "article"} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
