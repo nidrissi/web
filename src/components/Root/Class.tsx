@@ -2,9 +2,18 @@ import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Mini from "../Mini";
 import SeeMore from "./SeeMore";
+import { Frontmatter } from "../meta";
 
 const Class: React.FC<{}> = () => {
-  const { allMdx: { nodes } } = useStaticQuery(graphql`
+  const { allMdx: { nodes } }: {
+    allMdx: {
+      nodes: {
+        slug: string;
+        wordCount: { words: number; };
+        frontmatter: Frontmatter;
+      }[]
+    }
+  } = useStaticQuery(graphql`
 query RootClassQuery {
   allMdx(
     filter: {fields: {myType: {eq: "class"}}, frontmatter: {year: {eq: "2020–2021"}}}

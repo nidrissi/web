@@ -1,11 +1,19 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Layout from "../components/Layout";
-import Meta from "../components/meta";
 import Mini from "../components/Mini";
+import { Frontmatter } from "../components/meta";
 
 const Class: React.FC<{}> = () => {
-  const { allMdx: { nodes } } = useStaticQuery(graphql`
+  const { allMdx: { nodes } }: {
+    allMdx: {
+      nodes: {
+        slug: string;
+        wordCount: { words: number; };
+        frontmatter: Frontmatter;
+      }[]
+    }
+  } = useStaticQuery(graphql`
 query ClassListQuery {
   allMdx(
     filter: {fields: {myType: {eq: "class"}}}
@@ -59,7 +67,7 @@ query ClassListQuery {
       <h1 className="text-4xl font-bold mb-3">Teaching</h1>
       <div className="flex flex-col gap-8">
         {years.map(year => (
-          <div key="year">
+          <div key={year}>
             <h2 className="text-2xl font-bold">{year}</h2>
             <div className="flex flex-col gap-2">
               {
