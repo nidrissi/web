@@ -13,6 +13,7 @@ export type Frontmatter = {
   urls: Urls;
   // Research
   publication: string;
+  status: string;
   authors: string[];
   // Class
   cursus: string;
