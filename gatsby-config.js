@@ -33,7 +33,6 @@ module.exports = {
     "gatsby-plugin-typescript",
     "gatsby-plugin-postcss",
     "gatsby-plugin-catch-links",
-    "gatsby-plugin-offline",
     `gatsby-plugin-sharp`,
     `gatsby-remark-images`,
     {
@@ -110,16 +109,22 @@ module.exports = {
         trackingIds: ["G-S549JC61XZ"],
       },
     },
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Najib Idrissi's page`,
+        name: `Najib Idrissi`,
         short_name: `Najib Idrissi`,
+        description: `Home page of Najib Idrissi`,
         start_url: `/`,
+        lang: `en`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `browser`,
+        theme_color: `#065F46`,
+        display: `fullscreen`,
         icon: `static/img/photo.jpg`,
+        icon_options: {
+          purpose: `any maskable`,
+        },
       },
     },
   ],
