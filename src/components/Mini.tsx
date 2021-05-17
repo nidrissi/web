@@ -35,13 +35,11 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   )
 
   const fullExcerpt = excerpt ? (
-    <div className="text-sm hover:underline hover:text-blue-800 max-w-xl">
-      <Link to={`/post/${slug}`}>
-        {excerpt}
-        {' '}
-        <FontAwesomeIcon icon={faCaretSquareRight} />
-      </Link>
-    </div>
+    <Link to={`/post/${slug}`} className="block text-sm hover:underline hover:text-blue-800 max-w-xl">
+      {excerpt}
+      {' '}
+      <FontAwesomeIcon icon={faCaretSquareRight} />
+    </Link>
   ) : null;
 
   return (
