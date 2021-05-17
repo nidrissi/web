@@ -10,14 +10,19 @@ const DateTime: React.FC<DateTimeProps> = ({ date, label, TBA }) => {
   if (!date) {
     return null;
   }
+
+  const formattedDate = new Date(date).toLocaleDateString();
+
   return (
     <div>
       {label}
       {' '}
       <time dateTime={new Date(date).toISOString()}>
-        {TBA ? '?' : null}
-        {new Date(date).toLocaleDateString()}
-        {TBA ? '?' : null}
+        {TBA ? (
+          <abbr title="The precise date is not yet known.">
+            {formattedDate}?
+          </abbr>
+        ) : formattedDate}
       </time>
       .
     </div>
