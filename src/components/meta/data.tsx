@@ -3,24 +3,12 @@ import { Frontmatter } from ".";
 import DateTime from "./datetime";
 
 const MetaData: React.FC<{ frontmatter: Frontmatter }> = ({
-  frontmatter: { date, lastMod, tags, urls }
+  frontmatter: { date, lastMod, tags }
 }) => {
   return (
     <>
-      {date ? (
-        <div>
-          Published{" "}
-          <DateTime date={date} />
-          .
-        </div>
-      ) : null}
-      {lastMod ? (
-        <div>
-          Updated{" "}
-          <DateTime date={lastMod} />
-          .
-        </div>
-      ) : null}
+      <DateTime date={date} label="Published" />
+      <DateTime date={lastMod} label="Updated" />
       {tags && tags.map((t) => <div key={t}>#{t}</div>)}
     </>
   );

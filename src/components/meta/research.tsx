@@ -36,18 +36,8 @@ const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { d
     <>
       {displayedAuthors}
       <div dangerouslySetInnerHTML={{ __html: publication }} />
-      <div>
-        Online{" "}
-        <DateTime date={date} />
-        .
-      </div>
-      {lastMod ? (
-        <div>
-          Updated{" "}
-          <DateTime date={lastMod} />
-          .
-        </div>
-      ) : null}
+      <DateTime date={date} label="Online" />
+      <DateTime date={lastMod} label="Updated" />
     </>
   );
 };
