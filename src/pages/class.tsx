@@ -2,6 +2,7 @@ import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import Layout from "../components/Layout";
 import Meta from "../components/meta";
+import Mini from "../components/Mini";
 
 const Class: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
@@ -65,18 +66,7 @@ query ClassListQuery {
                 nodes
                   .filter(node => node.frontmatter.year === year)
                   .map(({ frontmatter, slug, wordCount: { words } }) => (
-                    <article key={slug}>
-                      <h3 className="text-xl font-semibold">
-                        {
-                          words > 0 ? (
-                            <Link to={`/class/${slug}`} className="text-blue-800 hover:underline">
-                              {frontmatter.title}
-                            </Link>
-                          ) : <>{frontmatter.title}</>
-                        }
-                      </h3>
-                      <Meta frontmatter={frontmatter} type="class" />
-                    </article>
+                    <Mini key={slug} type="class" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
                   ))
               }
             </div>

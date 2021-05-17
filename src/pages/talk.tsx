@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 
 import Layout from '../components/Layout'
-import Meta from '../components/meta'
+import Mini from "../components/Mini";
 
 const TalkList: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
@@ -59,16 +59,7 @@ query TalkListQuery {
         {
           nodes.map(({ frontmatter, slug, wordCount: { words } }) => {
             return (
-              <article key={slug} >
-                <h2 className="text-xl font-semibold">
-                  {words > 0 ? (
-                    <Link to={`/talk/${slug}`} className="text-blue-800 hover:underline">
-                      {`${frontmatter.event} @ ${frontmatter.location}`}
-                    </Link>
-                  ) : <>{`${frontmatter.event} @ ${frontmatter.location}`}</>}
-                </h2>
-                <Meta frontmatter={frontmatter} type="talk" />
-              </article>
+              <Mini key={slug} type="talk" levelUp slug={slug} frontmatter={frontmatter} noLink={words === 0} />
             );
           })
         }
