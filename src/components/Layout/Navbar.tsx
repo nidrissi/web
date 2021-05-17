@@ -40,7 +40,7 @@ const Navbar: React.FC<{}> = () => {
           Najib Idrissi
         </Link>
         <button
-          className="block cursor-pointer p-2 text-2xl bg-green-600 rounded-sm"
+          className="block cursor-pointer py-2 px-4 text-2xl bg-green-600 rounded-sm"
           onClick={() => setExpanded(!expanded)}
           aria-controls="#navbar-content"
         >
