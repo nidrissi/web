@@ -5,6 +5,7 @@ draft: false
 event: Doctoral thesis defense
 location: Université de Lille
 urls:
+  pdf: ../../research/thesis/thesis.pdf
   slides: soutenance.pdf
   # video: proclamation.mp4
 ---
