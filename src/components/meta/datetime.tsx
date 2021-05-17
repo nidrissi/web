@@ -1,10 +1,26 @@
 import React from "react";
 
-const DateTime: React.FC<{ date: string }> = ({ date }) => {
+type DateTimeProps = {
+  date: string;
+  label: string;
+  TBA?: boolean
+}
+
+const DateTime: React.FC<DateTimeProps> = ({ date, label, TBA }) => {
+  if (!date) {
+    return null;
+  }
   return (
-    <time dateTime={new Date(date).toISOString()}>
-      {new Date(date).toLocaleDateString()}
-    </time>
+    <div>
+      {label}
+      {' '}
+      <time dateTime={new Date(date).toISOString()}>
+        {TBA ? '?' : null}
+        {new Date(date).toLocaleDateString()}
+        {TBA ? '?' : null}
+      </time>
+      .
+    </div>
   )
 }
 export default DateTime;
