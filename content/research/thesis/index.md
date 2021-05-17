@@ -21,47 +21,16 @@ In a second part, we study configuration spaces of closed smooth simply connecte
 
 Finally, in a third part, we expand this result to a large class of manifolds with boundary. We first use a chain-level Poincaré--Lefschetz duality result to compute the homology of the configuration spaces of these manifolds, then we reuse the methods of the second chapter to obtain our model, which is compatible with the action of the Swiss-Cheese operad $\mathsf{SC}_n$.
 
----
+***
 
 Thesis realized under the supervision of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at [Université de Lille](https://www.univ-lille.fr) and funded by an _Allocation Spécifique_ from the [École Normale Supérieure](https://www.ens.fr).
 The defense jury was composed of:
 
-<table>
-<tbody>
-<tr>
-<td>Advisor:</td>
-<td><a href="https://math.univ-lille1.fr/~fresse/">Benoit Fresse</a></td>
-<td>Université Lille 1</td>
-</tr>
-
-<tr>
-<td>Referees:</td>
-<td><a href="http://imag.umontpellier.fr/~calaque/">Damien Calaque</a></td>
-<td>Université de Montpellier</td>
-</tr>
-
-<tr>
-<td></td>
-<td><a href="http://hessbellwald-lab.epfl.ch/HessBellwald">Kathryn Hess Bellwald</a></td>
-<td>École Polytechnique Fédérale de Lausanne (EPFL)</td>
-</tr>
-
-<tr>
-<td>Examiners:</td>
-<td><a href="https://uclouvain.be/fr/repertoires/pascal.lambrechts">Pascal Lambrechts</a></td>
-<td>Université catholique de Louvain</td>
-</tr>
-
-<tr>
-<td></td>
-<td><a href="http://math.univ-lille1.fr/~popescu/">Patrick Popescu-Pampu</a> (president)</td>
-<td>Université Lille 1</td>
-</tr>
-
-<tr>
-<td></td>
-<td><a href="https://people.math.ethz.ch/~wilthoma/">Thomas Willwacher</a></td>
-<td>École Polytechnique Fédérale de Zurich (ETH Zurich)</td>
-</tr>
-</tbody>
-</table>
+| Roles      | Name                                                                       | Institution                                     |
+|------------|----------------------------------------------------------------------------|-------------------------------------------------|
+| Advisor:   | [Benoit Fresse](https://math.univ-lille1.fr/~fresse/)                      | Université Lille 1                              |
+| Referees:  | [Damien Calaque](http://imag.umontpellier.fr/~calaque/)                    | Université de Montpellier                       |
+|            | [Kathryn Hess Bellwald](http://hessbellwald-lab.epfl.ch/HessBellwald)      | École Polytechnique Fédérale de Lausanne (EPFL) |
+| Examiners: | [Pascal Lambrechts](https://uclouvain.be/fr/repertoires/pascal.lambrechts) | Université catholique de Louvain                |
+|            | [Patrick Popescu-Pampu](http://math.univ-lille1.fr/~popescu/) (president)  | Université Lille 1                              |
+|            | [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/)                | ETH Zurich                                      |
