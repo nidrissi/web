@@ -82,6 +82,7 @@ module.exports = {
         remarkPlugins: [
           require("remark-math"),
           require("remark-html-katex"),
+          require("remark-external-links")
         ],
         rehypePlugins: [
           require("@mapbox/rehype-prism")
