@@ -33,7 +33,7 @@ const Navbar: React.FC<{}> = () => {
   return (
     <div
       className={`sticky top-0 w-full ${expanded ? "grid grid-cols-1" : "flex"
-        } items-center gap-4 mb-3 bg-white text-black z-50`}
+        } items-center gap-4 mb-3 bg-green-800 text-gray-200 z-50`}
     >
       <div className="flex w-full md:hidden items-center justify-between">
         <Link to="/" className="block p-3 font-bold text-xl">
@@ -56,7 +56,7 @@ const Navbar: React.FC<{}> = () => {
             key={l.to}
             to={l.to}
             className="block p-3 text-lg"
-            activeClassName="font-semibold"
+            activeClassName="font-bold text-white"
           >
             <FontAwesomeIcon icon={l.icon} />
             &nbsp;{l.label}
