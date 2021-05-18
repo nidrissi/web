@@ -18,6 +18,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
+  const listAssociation = {
+    post: {
+      component: './src/components/Lists/Posts.tsx',
+      perPage: 5
+    },
+    talk: {
+      component: './src/components/Lists/Talks.tsx',
+      perPage: 5
+    },
+    class: {
+      component: './src/components/Lists/Classes.tsx'
+    },
+    research: {
+      component: './src/components/Lists/Research.tsx'
+    },
+  };
+
   for (const type of ['class', 'misc', 'post', 'research', 'talk']) {
     const result = await graphql(`
     query {
@@ -47,6 +64,33 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     const edges = result.data.allMdx.edges;
 
+    // Create a paginated list
+    if (listAssociation[type]) {
+      const { component, perPage } = listAssociation[type];
+      if (perPage) {
+
+        const numPages = Math.ceil(edges.length / perPage)
+        Array.from({ length: numPages }).forEach((_, i) => {
+          createPage({
+            path: i === 0 ? `/${type}` : `/${type}/${i + 1}`,
+            component: path.resolve(component),
+            context: {
+              limit: perPage,
+              skip: i * perPage,
+              numPages,
+              currentPage: i + 1,
+            },
+          })
+        })
+      } else {
+        createPage({
+          path: `/${type}`,
+          component: path.resolve(component),
+        })
+      }
+    };
+
+    // Create all the pages
     edges.forEach(({
       node: {
         id,
