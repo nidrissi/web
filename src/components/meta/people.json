@@ -1,26 +1,21 @@
-[
-  {
-    "id": "me",
+{
+  "me": {
     "name": "[N.I.]"
   },
-  {
-    "id": "ricardo",
+  "ricardo": {
     "name": "Ricardo Campos",
     "url": "http://imag.umontpellier.fr/~campos/"
   },
-  {
-    "id": "julien",
+  "julien": {
     "name": "Julien Ducoulombier",
     "url": "https://julien-ducoulombie.wixsite.com/ducoulombiermaths"
   },
-  {
-    "id": "pascal",
+  "pascal": {
     "name": "Pascal Lambrechts",
     "url": "https://uclouvain.be/fr/repertoires/pascal.lambrechts"
   },
-  {
-    "id": "thomas",
+  "thomas": {
     "name": "Thomas Willwacher",
     "url": "https://people.math.ethz.ch/~wilthoma/"
   }
-]
+}
