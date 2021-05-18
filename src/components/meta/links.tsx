@@ -11,6 +11,7 @@ import {
   faFile,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { graphql } from "gatsby";
 
 type LocalFile = {
   publicURL: string;
@@ -29,6 +30,38 @@ export type Urls = {
   custom: { name: string; url: string }[];
   customFile: { name: string; file: { publicURL: string } }[]
 };
+export const allUrlsFragment = graphql`
+fragment allUrlsFragment on MdxFrontmatter {
+urls {
+  pdf {
+    publicURL
+  }
+  slides {
+    publicURL
+  }
+  notes {
+    publicURL
+  }
+  event
+  video
+  source
+  doi
+  arxiv
+  mathrev
+  zbmath
+  custom {
+    url
+    name
+  }
+  customFile {
+    name
+    file {
+      publicURL
+    }
+  }
+}
+}
+`;
 
 type LinkDefinition = {
   link: string;

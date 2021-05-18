@@ -19,34 +19,8 @@ query RootResearchQuery {
         date
         lastMod
         publication
-        urls {
-          arxiv
-          custom {
-            name
-            url
-          }
-          customFile {
-            name
-            file {
-              publicURL
-            }
-          }
-          doi
-          hal
-          mathrev
-          notes {
-            publicURL
-          }
-          pdf {
-            publicURL
-          }
-          slides {
-            publicURL
-          }
-          source
-          video
-          zbmath
-        }
+        tags
+        ...allUrlsFragment
       }
     }
   }

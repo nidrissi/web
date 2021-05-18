@@ -128,34 +128,7 @@ export const query = graphql`
         event
         TBA
         location
-        urls {
-          pdf {
-            publicURL
-          }
-          slides {
-            publicURL
-          }
-          notes {
-            publicURL
-          }
-          event
-          video
-          source
-          doi
-          arxiv
-          mathrev
-          zbmath
-          custom {
-            url
-            name
-          }
-          customFile {
-            name
-            file {
-              publicURL
-            }
-          }
-        }
+        ... allUrlsFragment
         localImages {
           childImageSharp {
             gatsbyImageData
