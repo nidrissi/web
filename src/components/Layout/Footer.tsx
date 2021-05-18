@@ -1,9 +1,30 @@
 import React from "react";
 import { graphql, Link, useStaticQuery } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faStackExchange, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faStackExchange, faTwitter, IconDefinition } from "@fortawesome/free-brands-svg-icons";
 import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+
+type FooterQuery = {
+  site: {
+    siteMetadata: {
+      author: {
+        name: string;
+        email: string;
+        organizations: {
+          name: string;
+          url: string
+        }[];
+        social: {
+          arXiv: string;
+          github: string;
+          mathoverflow: string;
+          twitter: string;
+        }
+      }
+    }
+  }
+};
 
 const Footer: React.FC<{}> = () => {
   const {
@@ -17,7 +38,7 @@ const Footer: React.FC<{}> = () => {
         },
       },
     },
-  } = useStaticQuery(graphql`
+  }: FooterQuery = useStaticQuery(graphql`
     query FooterQuery {
       site {
         siteMetadata {
@@ -41,7 +62,7 @@ const Footer: React.FC<{}> = () => {
     }
   `);
 
-  const links = [
+  const links: { url: string; label: string; icon?: IconDefinition }[] = [
     { url: `mailto:${email}`, label: email, icon: faAt },
     organizations.map((o) => ({ url: o.url, label: o.name })),
     { url: `https://arxiv.org/a/${arXiv}.html`, label: "arXiv" },
