@@ -8,7 +8,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
     createNodeField({
       node,
-      name: 'myType',
+      name: 'type',
       value: sourceInstanceName
     })
   }
@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     const result = await graphql(`
     query {
       allMdx(
-        filter: {fields: {myType: {eq: "${type}"}}}
+        filter: {fields: {type: {eq: "${type}"}}}
         sort: {fields: frontmatter___date}
       ) {
         edges {

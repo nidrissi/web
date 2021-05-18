@@ -40,7 +40,7 @@ export default TalkList;
 export const query = graphql`
 query {
   allMdx(
-    filter: {fields: {myType: {eq: "talk"}}}
+    filter: {fields: {type: {eq: "talk"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {

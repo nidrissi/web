@@ -7,7 +7,7 @@ const Research: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
 query RootResearchQuery {
   allMdx(
-    filter: {fields: {myType: {eq: "research"}}, frontmatter: {status: {regex: "/publication|preprint/"}}}
+    filter: {fields: {type: {eq: "research"}}, frontmatter: {status: {regex: "/publication|preprint/"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {

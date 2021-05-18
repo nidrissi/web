@@ -47,7 +47,7 @@ export default ClassList;
 export const query = graphql`
 query {
   allMdx(
-    filter: {fields: {myType: {eq: "class"}}}
+    filter: {fields: {type: {eq: "class"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {
