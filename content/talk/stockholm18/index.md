@@ -1,7 +1,6 @@
 ---
 title: Configuration spaces and Operads
 date: 2018-12-11
-draft: false
 event: Stockholm Topology Seminar
 location: Stockholm University + Royal Institute of Technology (KTH)
 urls:

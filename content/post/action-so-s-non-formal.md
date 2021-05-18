@@ -1,7 +1,6 @@
 ---
 title: "The action of the orthogonal group on the sphere is not formal"
 date: 2020-09-17
-draft: false
 tags: [math]
 ---
 

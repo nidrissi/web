@@ -1,7 +1,6 @@
 ---
 title: Espaces de configuration et Opérades
 date: 2018-11-08
-draft: false
 event: Geometry & Topology Seminar
 location: Institut de Mathématiques de Jussieu-Paris Rive Gauche
 urls:

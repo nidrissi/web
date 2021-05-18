@@ -1,7 +1,6 @@
 ---
 title: Espaces de configuration de variétés compactes
 date: 2017-12-05
-draft: false
 event: Séminaire Algèbre et topologie
 location: Université de Strasbourg
 urls:

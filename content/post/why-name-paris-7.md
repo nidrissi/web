@@ -1,7 +1,6 @@
 ---
 title: Why is it called “Paris 7”?
 date: 2018-06-26
-draft: false
 tags: [job]
 ---
 

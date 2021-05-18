@@ -2,7 +2,6 @@
 title: Configuration Spaces of Manifolds with Boundary
 date: 2018-05-24
 TBA: false
-draft: false
 event: Graph Complexes, Configuration Spaces and Manifold Calculus
 location: University of British Columbia (Vancouver)
 urls:

@@ -1,7 +1,6 @@
 ---
 title: Template for letters in LaTeX
 date: 2020-08-18
-draft: false
 tags: [code]
 urls:
   source: https://gist.github.com/nidrissi/7b9d8f2f1a80837090e84160e68e8f00

@@ -1,7 +1,6 @@
 ---
 title: Curved Koszul duality for algebras over unital operads
 date: 2019-05-09
-draft: false
 event: Higher Homotopy Algebras in Topology
 location: Max Planck Institute for Mathematics (MPIM Bonn)
 urls:

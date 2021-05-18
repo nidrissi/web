@@ -1,7 +1,6 @@
 ---
 title: Espaces de configuration de variétés compactes
 date: 2017-11-07
-draft: false
 event: Homotopie en Géométrie Algébrique
 location: Université Paul Sabatier (Toulouse)
 urls:

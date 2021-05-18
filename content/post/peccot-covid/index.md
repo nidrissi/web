@@ -2,7 +2,6 @@
 title: Peccot lecture & COVID-19
 date: 2020-05-25
 lastMod: 2020-06-26
-draft: false
 tags: [math, peccot]
 ---
 

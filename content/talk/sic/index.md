@@ -1,7 +1,6 @@
 ---
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 date: 2017-10-13
-draft: false
 event: Séminaire Itinérant de Catégories
 location: Université du Littoral-Côte-d'Opale (Calais)
 urls:

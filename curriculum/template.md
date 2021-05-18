@@ -8,7 +8,6 @@ urls:
     file: cv.en.pdf
   - name: CV (fr)
     file: cv.fr.pdf
-toc: true
 ---
 
 import Bibliography from "../../../src/components/Bibliography"

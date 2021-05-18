@@ -1,7 +1,6 @@
 ---
 title: Espaces de configuration de surfaces
 date: 2021-01-19
-draft: false
 event: Séminaire Algèbre et topologie
 location: Université de Strasbourg (online)
 urls:

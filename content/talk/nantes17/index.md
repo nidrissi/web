@@ -1,7 +1,6 @@
 ---
 title: Espaces de configuration de variétés compactes
 date: 2017-12-21
-draft: false
 event: Séminaire de topologie, géométrie et algèbre
 location: Université de Nantes
 urls:

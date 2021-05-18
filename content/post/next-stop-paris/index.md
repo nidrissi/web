@@ -1,7 +1,6 @@
 ---
 title: "Next Stop: Paris!"
 date: 2018-06-20
-draft: false
 tags: [job]
 ---
 

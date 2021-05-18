@@ -1,7 +1,6 @@
 ---
 title: En français, s'il-vous-plaît !
 date: 2017-12-29
-draft: false
 tags: ['blog']
 ---
 

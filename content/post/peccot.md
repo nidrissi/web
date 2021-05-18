@@ -1,7 +1,6 @@
 ---
 title: Peccot Lecture
 date: 2019-09-24
-draft: false
 tags: [math, peccot]
 ---
 

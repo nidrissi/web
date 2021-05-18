@@ -1,7 +1,6 @@
 ---
 title: arXiv2BibLaTeX
 date: 2020-06-29
-draft: false
 tags: [math, arxiv]
 ---
 

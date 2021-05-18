@@ -1,7 +1,6 @@
 ---
 title: Braid video
 date: 2020-04-21
-draft: false
 tags: [math, talk, animation]
 ---
 

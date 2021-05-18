@@ -1,7 +1,6 @@
 ---
 title: Espaces de configuration de variétés compactes
 date: 2017-11-21
-draft: false
 event: Séminaire de physique mathématique et de topologie algébrique
 location: Université d'Angers
 urls:

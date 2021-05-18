@@ -1,7 +1,6 @@
 ---
 title: Real homotopy of configuration spaces
 date: 2020-10-13
-draft: false
 event: Topology seminar
 location: Northeastern University (online)
 urls:
