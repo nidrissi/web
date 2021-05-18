@@ -83,7 +83,8 @@ module.exports = {
         remarkPlugins: [
           require("remark-math"),
           require("remark-html-katex"),
-          require("remark-external-links")
+          require("remark-external-links"),
+          [require("@silvenon/remark-smartypants"), { "dashes": "oldschool" }],
         ],
         rehypePlugins: [
           require("@mapbox/rehype-prism"),
@@ -92,12 +93,6 @@ module.exports = {
         gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-copy-linked-files`,
-          },
-          {
-            resolve: `gatsby-remark-smartypants`,
-            options: {
-              "dashes": "oldschool"
-            }
           },
           {
             resolve: `gatsby-remark-images`,
