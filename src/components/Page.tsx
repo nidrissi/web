@@ -38,7 +38,9 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
         <Meta frontmatter={frontmatter} type={myType} />
       </header>
       <div className="prose prose-blue max-w-none">
-        <MDXRenderer>{body}</MDXRenderer>
+        <MDXRenderer localImages={frontmatter.localImages}>
+          {body}
+        </MDXRenderer>
       </div>
     </Layout>
   );
@@ -93,6 +95,11 @@ export const query = graphql`
             file {
               publicURL
             }
+          }
+        }
+        localImages {
+          childImageSharp {
+            gatsbyImageData
           }
         }
       }

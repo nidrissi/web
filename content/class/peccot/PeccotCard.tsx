@@ -1,26 +1,28 @@
+import React from "react"
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import React from "react"
+import { getImage, GatsbyImage, ImageDataLike } from 'gatsby-plugin-image';
 
 type PeccotCardProps = {
   link: string;
   number: string;
   date: string;
   video: string
+  image: ImageDataLike;
 }
 
-const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, children }) => {
+const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, image, children }) => {
   return (
     <div className="border rounded-md flex flex-col gap-1 h-full">
-      {/* Awful hack. tailwind-prose puts a margin on images and I couldn't find how to disable it. */}
-      <div className="-mb-9"></div>
-      <a
-        className="block"
-        href={link}
-      >
-        <img src={`/img/peccot/thumb${number}.jpg`} alt={`Photo of the lecture ${number}`} className="w-full rounded-t-md" />
+      <div className="-mt-9"></div>
+      <a href={link} className="block" target="_blank">
+        <GatsbyImage
+          alt={`Photo of the lecture ${number}`}
+          image={getImage(image)}
+          imgClassName="rounded-t-md"
+        />
       </a>
-      <div className="-mt-3">
+      <div>
         <span className="font-bold text-xl">Lesson {number}</span>
         <br />
         <span className="text-gray-700 font-semibold">{date}</span>
