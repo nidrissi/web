@@ -14,7 +14,6 @@ type PeccotCardProps = {
 const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, image, children }) => {
   return (
     <div className="border rounded-md flex flex-col gap-1 h-full">
-      <div className="-mt-9"></div>
       <a href={link} className="block" target="_blank">
         <GatsbyImage
           alt={`Photo of the lecture ${number}`}
