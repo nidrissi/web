@@ -35,6 +35,7 @@ const Index: React.FC<{ data: IndexQuery, description: string }> = ({ children }
         src="../../images/photo.jpg"
         alt="A photo of me."
         className="float-right m-2 rounded-md w-28 sm:w-40"
+        loading="eager"
       />
       <article>
         <div className="prose prose-blue max-w-none mb-3">

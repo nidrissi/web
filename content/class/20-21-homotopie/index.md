@@ -21,9 +21,22 @@ urls:
       file: examen-fr.pdf
     - name: Solved exam (fr)
       file: examen-fr-corrigé.pdf
+localImages:
+  - blackboard1.png
+  - blackboard2.png
+  - blackboard3.png
+  - blackboard4.png
+  - blackboard5.png
+  - blackboard6.png
+  - blackboard7.png
+  - blackboard8.png
+  - blackboard9.png
+  - blackboard10.png
+  - blackboard11.png
+  - blackboard12.png
 ---
 
-import Card from "./Card.tsx"
+import HomotopyCard from "./HomotopyCard.tsx"
 
 The goal of this course is to introduce modern homotopy theory, its tools and applications.
 We will be particularly interested in two examples: chain complexes (see the previous Homology course) and topological spaces.
@@ -59,53 +72,53 @@ Electronic devices will be forbidden.
 <!-- <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The course's YouTube playlist."></iframe></div> -->
 
 <div class="flex flex-col sm:grid sm:grid-cols-3 gap-3">
-<Card number={1} date="Monday January 11th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" video="https://youtu.be/cilKcPVEnX0">
+<HomotopyCard number={1} images={props.localImages} date="Monday January 11th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" video="https://youtu.be/cilKcPVEnX0">
   Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of model categories. (Sections 1.1 and 1.2)
-</Card>
+</HomotopyCard>
 
-<Card number={2} date="Friday January 15th, 15:45-17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwp_LIfgCS5Yjv4-A" video="https://youtu.be/RSANbPkQaFw">
+<HomotopyCard number={2} images={props.localImages} date="Friday January 15th, 15:45-17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwp_LIfgCS5Yjv4-A" video="https://youtu.be/RSANbPkQaFw">
   Definition of model categories and first examples (Section 1.3)
-</Card>
+</HomotopyCard>
 
-<Card number={3} date="Monday January 18th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" video="https://youtu.be/AA1WQWUG2II">
+<HomotopyCard number={3} images={props.localImages} date="Monday January 18th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwoWwbOnO-oAaofQQ" video="https://youtu.be/AA1WQWUG2II">
   Definition and construction of the localization of a category with respect to a class of weak equivalence, definition of left homotopies, first properties, dual case of right homotopies (Sections 1.4.1 and 1.4.2).
-</Card>
+</HomotopyCard>
 
-<Card number={4} date="Friday January 22nd, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" video="https://youtu.be/PEEUQ21TF2E">
+<HomotopyCard number={4} images={props.localImages} date="Friday January 22nd, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwtonTZx945QUEwnA?e=1AZn5V" video="https://youtu.be/PEEUQ21TF2E">
   End of Section 1.4: explicit description of the homotopy category of a model category, Whitehead theorem.
-</Card>
+</HomotopyCard>
 
-<Card number={5} date="Monday January 25th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" video="https://youtu.be/DICgkRcuR0s">
+<HomotopyCard number={5} images={props.localImages} date="Monday January 25th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgd8jccpopRAmxsy-2g?e=qzduBy" video="https://youtu.be/DICgkRcuR0s">
   Section 1.5.1: The proof of the existence of the projective model structure on the category of bounded-below chain complexes.
-</Card>
+</HomotopyCard>
 
-<Card number={6} date="Friday January 29th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" video="https://youtu.be/0oIAdwMu_nY">
+<HomotopyCard number={6} images={props.localImages} date="Friday January 29th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgetLswe8qnRCxMuUag?e=7wDGkZ" video="https://youtu.be/0oIAdwMu_nY">
   Existence theorem for cofibration generated model categories (Section 1.5.2), Quillen adjunctions (beginning of Section 1.6).
-</Card>
+</HomotopyCard>
 
-<Card number={7} date="Monday February 1st, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" video="https://youtu.be/bv0oGULtfaw">
+<HomotopyCard number={7} images={props.localImages} date="Monday February 1st, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqU71PH4u6dfdXcoUA?e=LsxxSv" video="https://youtu.be/bv0oGULtfaw">
   Definition of Quillen equivalences and characterization, homotopy limits and colimits.
-</Card>
+</HomotopyCard>
 
-<Card number={8} date="Friday February 5th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" video="https://youtu.be/3jz0g8RVPS8">
+<HomotopyCard number={8} images={props.localImages} date="Friday February 5th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqVycce4eNwFUCWJfA?e=HJiZeu" video="https://youtu.be/3jz0g8RVPS8">
   Reminders on simplicial sets and beginning of the proof of the existence of the Quillen model structure on the category of simplicial sets (Sections 2.1, 2.2, 2.3, and beginning of 2.4).
-</Card>
+</HomotopyCard>
 
-<Card number={9} date="Monday February 8th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" video="https://youtu.be/LEgUKKzM8KE">
+<HomotopyCard number={9} images={props.localImages} date="Monday February 8th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqdX1P1g6xQGLN2k5A?e=yT0Uyg" video="https://youtu.be/LEgUKKzM8KE">
   Continuation of the proof of the existence of the Quillen model structure on simplicial sets, anodynes extensions, simplicial homotopy groups.
-</Card>
+</HomotopyCard>
 
-<Card number={10} date="Friday February 12th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" video="https://youtu.be/gckfIqqkO-U">
+<HomotopyCard number={10} images={props.localImages} date="Friday February 12th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqg2gvqajH4PKIppBA?e=dsWoSd" video="https://youtu.be/gckfIqqkO-U">
   End of the proof of the Quillen equivalence between simplicial sets and topological spaces. Left Bousfield localization and rational homotopy theory.
-</Card>
+</HomotopyCard>
 
-<Card number={11} date="Monday February 15th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" video="https://youtu.be/UDbgtU00wpg">
+<HomotopyCard number={11} images={props.localImages} date="Monday February 15th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqhiiRKE5GbT6tGROA?e=gbKycv" video="https://youtu.be/UDbgtU00wpg">
   Transferred model structure on CDGAs and Sullivan algebras.
-</Card>
+</HomotopyCard>
 
-<Card number={12} date="Friday February 19th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" video="https://youtu.be/tp8uJpazaaM">
+<HomotopyCard number={12} images={props.localImages} date="Friday February 19th, 15:45–17:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgqkY7AiWbsUURaFaKw?e=zzCyMX" video="https://youtu.be/tp8uJpazaaM">
   Equivalence between CDGAs and rational homotopy types through the PL forms. Applications of Sullivan's theory: models of spaces, dichotomy theorem, etc.
-</Card>
+</HomotopyCard>
 </div>
 
 ## Bibliography

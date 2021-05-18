@@ -7,17 +7,22 @@ import Links, { Urls } from "./links";
 import MetaResearch from "./research";
 import MetaTalk from "./talk";
 
+export type LocalImage = {
+  childImageSharp: {
+    gatsbyImageData: ImageDataLike;
+    original: {
+      src: string;
+    };
+  };
+};
+
 export type Frontmatter = {
   title: string;
   date: string;
   lastMod: string;
   tags: string[];
   urls: Urls;
-  localImages: {
-    childImageSharp: {
-      gatsbyImageData: ImageDataLike
-    }
-  }
+  localImages: LocalImage[];
   // Research
   publication: string;
   status: string;
