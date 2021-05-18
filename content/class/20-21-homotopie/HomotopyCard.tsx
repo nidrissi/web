@@ -19,7 +19,6 @@ type CardProps = {
 }
 
 const Card: React.FC<CardProps> = ({ number, date, children, video, images }) => {
-  console.log(images);
   return (
     <div className="flex flex-col border border-gray-400 rounded-md gap-2">
       <div className="p-1 bg-gray-200 rounded-t-md">
@@ -29,8 +28,8 @@ const Card: React.FC<CardProps> = ({ number, date, children, video, images }) =>
       </div>
       <div className="flex-grow p-1">{children}</div>
       <div className="flex flex-col gap-2 sm:flex-row sm:divide-x divide-gray-500 text-center bg-gray-100 rounded-b-md p-1">
-        <Link to={images[number - 1].childImageSharp.original.src} className="block flex-grow"><FontAwesomeIcon icon={faChalkboard} />&nbsp;Blackboard</Link>
-        <a href={video} className="block flex-grow"><FontAwesomeIcon icon={faPlayCircle} />&nbsp;Video</a>
+        <Link to={images[number - 1].childImageSharp.original.src} className="block flex-grow" target="_blank"><FontAwesomeIcon icon={faChalkboard} />&nbsp;Blackboard</Link>
+        <a href={video} className="block flex-grow" target="_blank"><FontAwesomeIcon icon={faPlayCircle} />&nbsp;Video</a>
       </div>
     </div>
   )

@@ -71,7 +71,7 @@ Electronic devices will be forbidden.
 
 <!-- <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The course's YouTube playlist."></iframe></div> -->
 
-<div class="flex flex-col sm:grid sm:grid-cols-3 gap-3">
+<div class="flex flex-col sm:grid sm:grid-cols-3 lg:grid-cols-4 gap-3">
 <HomotopyCard number={1} images={props.localImages} date="Monday January 11th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" video="https://youtu.be/cilKcPVEnX0">
   Analogies between different homotopy theories: topological spaces, simplicial sets, chain complexes. Motivation for the definition of model categories. (Co)fibrations vs. injections/surjections. Definition of model categories. (Sections 1.1 and 1.2)
 </HomotopyCard>
