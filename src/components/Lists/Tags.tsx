@@ -1,59 +1,60 @@
 import React from "react";
 import { graphql } from "gatsby";
-
 import Layout from "../Layout";
 import Mini from "../Mini";
 import { Frontmatter } from "../meta";
-import Pager from "./Pager";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTag } from "@fortawesome/free-solid-svg-icons";
 
-type PostListProps = {
+type TagListProps = {
   data: {
     allMdx: {
       nodes: {
         slug: string;
         excerpt: string;
+        fields: {
+          type: string;
+        }
         frontmatter: Frontmatter;
       }[];
     }
   },
   pageContext: {
-    limit: number;
-    skip: number;
-    numPages: number;
-    currentPage: number;
+    tag: string;
   }
 };
 
-const PostList: React.FC<PostListProps> = ({ data, pageContext }) => {
-  const { allMdx: { nodes } } = data;
-
+const TagList: React.FC<TagListProps> = ({ data: { allMdx: { nodes } }, pageContext: { tag } }) => {
   return (
-    <Layout title="Posts" description="My blog posts.">
-      <h1 className="text-4xl font-bold mb-4">Posts</h1>
+    <Layout title={`Tag #${tag}`} description={`The list of all pages tagged with #${tag}`}>
+      <h1 className="text-4xl font-bold mb-4">
+        <FontAwesomeIcon icon={faTag} className="mr-1" aria-label="Tag" />
+        {tag}
+      </h1>
       <div className="flex flex-col gap-4">
         {
-          nodes.map(({ frontmatter, slug, excerpt }) => (
-            <Mini key={slug} type="post" levelUp slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
+          nodes.map(({ frontmatter, fields: { type }, slug, excerpt }) => (
+            <Mini key={slug} type={type} levelUp slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
           ))
         }
       </div>
-      <Pager currentPage={pageContext.currentPage} numPages={pageContext.numPages} type="post" />
     </Layout>
-  );
-}
-export default PostList;
+  )
+};
+export default TagList;
 
 export const query = graphql`
-query postListQuery($skip: Int!, $limit: Int!) {
+query tagListQuery($tag: String!) {
   allMdx(
-    filter: {fields: {type: {eq: "post"}}}
-    sort: {fields: frontmatter___date, order: DESC}
-    limit: $limit
-    skip: $skip
+    sort: { fields: [frontmatter___date], order: DESC }
+    filter: { frontmatter: { tags: { in: [$tag] } } }
   ) {
     nodes {
       slug
       excerpt(pruneLength: 250)
+      fields {
+        type
+      }
       frontmatter {
         title
         date
@@ -87,4 +88,4 @@ query postListQuery($skip: Int!, $limit: Int!) {
     }
   }
 }
-`;
+`

@@ -18,6 +18,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions;
 
+  // The components and optional pagination for lists
   const listAssociation = {
     post: {
       component: './src/components/Lists/Posts.tsx',
@@ -35,6 +36,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     },
   };
 
+  // Create pages of all types and lists
+  // TODO: Do just one query and group?
   for (const type of ['class', 'misc', 'post', 'research', 'talk']) {
     const result = await graphql(`
     query {
@@ -110,4 +113,28 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       });
     });
   }
+
+  // Tag pages
+  const tagResult = await graphql(`
+  query {
+    allMdx {
+      group(field: frontmatter___tags) {
+        fieldValue
+      }
+    }
+  }`);
+  if (tagResult.errors) {
+    reporter.panicOnBuild(`Error while running tags GraphQL query.`)
+    return
+  }
+  const tags = tagResult.data.allMdx.group;
+  tags.forEach(tag => {
+    createPage({
+      path: `/tag/${tag.fieldValue}/`,
+      component: path.resolve("./src/components/Lists/Tags.tsx"),
+      context: {
+        tag: tag.fieldValue,
+      },
+    })
+  })
 };
