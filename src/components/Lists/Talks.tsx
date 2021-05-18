@@ -1,9 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from '../components/Layout'
-import Mini from "../components/Mini";
-import { Frontmatter } from "../components/meta";
+import Layout from '../Layout'
+import Mini from "../Mini";
+import { Frontmatter } from "../meta";
+import Pager from "./Pager";
 
 type TalkListProps = {
   data: {
@@ -14,10 +15,16 @@ type TalkListProps = {
         frontmatter: Frontmatter;
       }[];
     }
+  },
+  pageContext: {
+    limit: number;
+    skip: number;
+    numPages: number;
+    currentPage: number;
   }
 };
 
-const TalkList: React.FC<TalkListProps> = ({ data }) => {
+const TalkList: React.FC<TalkListProps> = ({ data, pageContext }) => {
   const { allMdx: { nodes } } = data;
 
   return (
@@ -32,16 +39,19 @@ const TalkList: React.FC<TalkListProps> = ({ data }) => {
           })
         }
       </div>
+      <Pager currentPage={pageContext.currentPage} numPages={pageContext.numPages} type="talk" />
     </Layout>
   );
 }
 export default TalkList;
 
 export const query = graphql`
-query {
+query talkListQuery($skip: Int!, $limit: Int!) {
   allMdx(
     filter: {fields: {type: {eq: "talk"}}}
     sort: {fields: frontmatter___date, order: DESC}
+    limit: $limit
+    skip: $skip
   ) {
     nodes {
       slug

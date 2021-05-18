@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from "../components/Layout";
-import Mini from "../components/Mini";
-import { Frontmatter } from "../components/meta";
+import Layout from "../Layout";
+import Mini from "../Mini";
+import { Frontmatter } from "../meta";
 
 const sections = [
   { key: "publication", title: "Publications" },
