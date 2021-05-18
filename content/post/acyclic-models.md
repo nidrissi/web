@@ -111,7 +111,7 @@ Let $M$ and $N$ be two simplicial modules over some ring $R$. One can produce tw
 
 The two complexes are both equal to $M_0 \otimes N_0$ is degree zero. This gives the base case for the induction (we can just take the map to be the identity). One can then choose as models the simplicial modules given by $\Delta^n \otimes R$, which can easily be proven to be acyclic. The adjunctions
 
-$$\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M\_\bullet) \cong M_n$$
+$$\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M_\bullet) \cong M_n$$
 
 can then be used to prove that both functors are representable. (I'm omitting a lot of computations here! Though most of it is straightforward.) The acyclic models technique then yields the equivalence:
 
