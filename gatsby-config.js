@@ -86,7 +86,8 @@ module.exports = {
           require("remark-external-links")
         ],
         rehypePlugins: [
-          require("@mapbox/rehype-prism")
+          require("@mapbox/rehype-prism"),
+          require("rehype-slug"),
         ],
         gatsbyRemarkPlugins: [
           {
