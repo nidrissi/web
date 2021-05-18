@@ -36,7 +36,7 @@ const Pager: React.FC<{ previous: NextPrevious, next: NextPrevious, type: string
   if (!next && !previous) {
     return null;
   }
-  if (type === 'misc') {
+  if (type === 'misc' || type === 'class') {
     return null;
   }
 
