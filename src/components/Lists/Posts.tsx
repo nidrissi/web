@@ -59,30 +59,7 @@ query postListQuery($skip: Int!, $limit: Int!) {
         date
         lastMod
         tags
-        urls {
-          custom {
-            name
-            url
-          }
-          customFile {
-            name
-            file {
-              publicURL
-            }
-          }
-          event
-          notes {
-            publicURL
-          }
-          pdf {
-            publicURL
-          }
-          slides {
-            publicURL
-          }
-          source
-          video
-        }
+        ...allUrlsFragment
       }
     }
   }

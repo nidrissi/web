@@ -65,30 +65,8 @@ query talkListQuery($skip: Int!, $limit: Int!) {
         TBA
         location
         event
-        urls {
-          custom {
-            name
-            url
-          }
-          customFile {
-            name
-            file {
-              publicURL
-            }
-          }
-          notes {
-            publicURL
-          }
-          pdf {
-            publicURL
-          }
-          slides {
-            publicURL
-          }
-          event
-          source
-          video
-        }
+        tags
+        ...allUrlsFragment
       }
     }
   }

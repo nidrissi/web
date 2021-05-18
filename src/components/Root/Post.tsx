@@ -19,30 +19,7 @@ query RootPostQuery {
         date
         lastMod
         tags
-        urls {
-          custom {
-            name
-            url
-          }
-          customFile {
-            name
-            file {
-              publicURL
-            }
-          }
-          notes {
-            publicURL
-          }
-          pdf {
-            publicURL
-          }
-          slides {
-            publicURL
-          }
-          event
-          source
-          video
-        }
+        ...allUrlsFragment
       }
     }
   }

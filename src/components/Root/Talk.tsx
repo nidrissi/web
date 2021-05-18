@@ -23,30 +23,8 @@ query RootTalkQuery {
         TBA
         location
         event
-        urls {
-          custom {
-            name
-            url
-          }
-          customFile {
-            name
-            file {
-              publicURL
-            }
-          }
-          notes {
-            publicURL
-          }
-          pdf {
-            publicURL
-          }
-          slides {
-            publicURL
-          }
-          event
-          source
-          video
-        }
+        tags
+        ...allUrlsFragment
       }
     }
   }

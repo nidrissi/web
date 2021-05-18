@@ -63,29 +63,8 @@ query {
         what
         cursus
         year
-        urls {
-          custom {
-            name
-            url
-          }
-          customFile {
-            name
-            file {
-              publicURL
-            }
-          }
-          notes {
-            publicURL
-          }
-          pdf {
-            publicURL
-          }
-          slides {
-            publicURL
-          }
-          source
-          video
-        }
+        tags
+        ...allUrlsFragment
       }
     }
   }
