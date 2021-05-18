@@ -18,8 +18,8 @@ urls:
       file: examen-corrigé.pdf
 ---
 
-import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 
 The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of $\infty$-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory – Quillen's model categories – and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains – singular or de Rham – encode topological spaces up to rational homotopy.
 
@@ -50,7 +50,9 @@ The last four weeks, they will happen on:
 The session of February 6th is moved to Monday, February 3rd, between 16:15 and 18:15, in the room 137 of the Olympe de Gouges building.
 
 The optional homework (to hand in if you would like some feedback) was due on February 4th.
+
 <!-- You can [find the solution there](/devoir-corrigé.pdf). -->
+
 The updated solution [is available on the page of the 2020--2021 lecture](/class/20-21-homotopie).
 
 The [exam](/examen.pdf) was on Tuesday, February 18th, between 14:00 and 17:00, in the room 1009 of the Sophie Germain building.

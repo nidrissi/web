@@ -36,7 +36,9 @@ localImages:
   - blackboard12.png
 ---
 
-import HomotopyCard from "./HomotopyCard.tsx"
+import HomotopyCard from "./HomotopyCard.tsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook } from "@fortawesome/free-solid-svg-icons";
 
 The goal of this course is to introduce modern homotopy theory, its tools and applications.
 We will be particularly interested in two examples: chain complexes (see the previous Homology course) and topological spaces.
@@ -70,6 +72,8 @@ This will be an open-book exam: you will have access to printed and handwritten 
 Electronic devices will be forbidden.
 
 <!-- <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The course's YouTube playlist."></iframe></div> -->
+
+## Lectures
 
 <div class="flex flex-col sm:grid sm:grid-cols-3 lg:grid-cols-4 gap-3">
 <HomotopyCard number={1} images={props.localImages} date="Monday January 11th, 10:45–12:45" blackboard="https://1drv.ms/u/s!AnvK73_nfBCYgbwniUtJEGp299BZuA" video="https://youtu.be/cilKcPVEnX0">
@@ -123,7 +127,7 @@ Electronic devices will be forbidden.
 
 ## Bibliography
 
-[**Lecture notes are here.**](./homotopie.pdf)
+[<FontAwesomeIcon icon={faBook} /> Lecture notes are here.](./homotopie.pdf)
 
 I gave a [similar course last year](/class/19-20-homotopie), you can in particular find past exams.
 Grégory Ginot gave a [course in 2017--2018--2019 on the same subject](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
