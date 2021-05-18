@@ -159,6 +159,9 @@ export const query = graphql`
         localImages {
           childImageSharp {
             gatsbyImageData
+            original {
+              src
+            }
           }
         }
       }
