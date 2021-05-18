@@ -82,11 +82,11 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
         remarkPlugins: [
           require("remark-math"),
-          require("remark-html-katex"),
           require("remark-external-links"),
           [require("@silvenon/remark-smartypants"), { "dashes": "oldschool" }],
         ],
         rehypePlugins: [
+          require("rehype-katex"),
           require("@mapbox/rehype-prism"),
           require("rehype-slug"),
         ],

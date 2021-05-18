@@ -56,9 +56,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "rehype-katex": "^5.0.0",
     "rehype-slug": "^4.0.1",
     "remark-external-links": "^8.0.0",
-    "remark-html-katex": "^3.0.0",
     "remark-math": "^3.0.1",
     "tailwindcss": "^2.1.2"
   }
