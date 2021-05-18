@@ -18,7 +18,7 @@ While it is not strictly necessary to know all this to use Git, I think that und
 Commands like `git push` or `git pull` are actually a bit complex and it is useful to know what words like "commit", "branch", "remote", etc. refer to, especially when there is a conflict between branches.
 
 
-<div class="bg-red-100 text-red-900 p-1 rounded-sm">
+<div class="bg-red-100 text-red-900 p-1 rounded-md">
 Of course, I will not be able to explain <em>everything</em> about Git's inner workings!
 That is what the <a href="https://git-scm.com/docs">reference documentation</a> is for.
 </div>
@@ -42,7 +42,7 @@ Let me try to explained what this all means.
     This is typically used to write some information about what was changed in commit.
 - So far, I have only described the vertices of the graph.
   There is an additional piece of metadata about every commit that actually makes the history into a graph: the **parent commit**.
-  This is simply the point in time from which the author in order to write their modifications.
+  This is simply the point in time from which the author wrote their modifications.
   A typical history of a single-author git repository could look like this:
 
   <img id="history-linear" alt="An example of a linear history tree." src="history-linear.svg"/>
