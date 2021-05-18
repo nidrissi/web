@@ -1,4 +1,6 @@
 import React from "react";
+import { ImageDataLike } from "gatsby-plugin-image";
+
 import MetaClass from "./class";
 import MetaData from "./data";
 import Links, { Urls } from "./links";
@@ -11,6 +13,11 @@ export type Frontmatter = {
   lastMod: string;
   tags: string[];
   urls: Urls;
+  localImages: {
+    childImageSharp: {
+      gatsbyImageData: ImageDataLike
+    }
+  }
   // Research
   publication: string;
   status: string;

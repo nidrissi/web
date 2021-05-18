@@ -22,6 +22,11 @@ urls:
   customFile:
     - name: Old version of the notes, in French
       file: ./peccot-fr.pdf
+localImages:
+  - thumb1.jpg
+  - thumb2.jpg
+  - thumb3.jpg
+  - thumb4.jpg
 ---
 
 import PeccotCard from "./PeccotCard";
@@ -43,10 +48,10 @@ The lessons will take place at the Collège de France (11 place Marcelin-Berthel
 They were initially planned on Wednesdays 4th, 11th, 18th, and 25th, March 2020, from 11AM to 1PM.
 Due to the COVID-19 pandemic, the last two lessons were postponed respectively to May 25th and 28th (10AM--12PM) and were recorded without an audience.
 
-### Lessons
+## Lessons
 
-<div class="flex flex-col gap-2 sm:grid sm:grid-cols-2">
-<PeccotCard number={1} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm" date="March 4th 2020, 11:00–13:00">
+<div class="flex flex-col gap-2 sm:grid sm:grid-cols-2 md:grid-cols-4">
+<PeccotCard number={1} image={props.localImages[0]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm" date="March 4th 2020, 11:00–13:00">
   <p>Chapter 1: Configuration spaces of manifolds</p>
   <ul>
   <li>Generalities on configuration spaces sur les espaces de configuration</li>
@@ -56,7 +61,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
   </ul>
 </PeccotCard>
 
-<PeccotCard number={2} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm" date="March 11th 2020, 11:00–13:00">
+<PeccotCard number={2} image={props.localImages[1]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm" date="March 11th 2020, 11:00–13:00">
   <p>Chapter 2: The Lambrechts–Stanley model</p>
   <ul>
   <li>Definition of the model and theorem</li>
@@ -66,7 +71,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
   </ul>
 </PeccotCard>
 
-<PeccotCard number={3} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm" date="May 25th 2020 (online)">
+<PeccotCard number={3} image={props.localImages[2]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm" date="May 25th 2020 (online)">
   <p>Chapter 2: The Lambrechts–Stanley model (continued)</p>
   <ul>
   <li>Partition function and reduced graph complex</li>
@@ -80,7 +85,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
   </ul>
 </PeccotCard>
 
-<PeccotCard number={4} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm" date="May 28th 2020 (online)">
+<PeccotCard number={4} image={props.localImages[3]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm" date="May 28th 2020 (online)">
   <p>Chapter 3: Manifolds with boundary (continued)</p>
   <ul>
   <li>Fulton–MacPherson compactifications</li>
