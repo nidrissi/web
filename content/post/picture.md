@@ -1,7 +1,6 @@
 ---
 title: A Picture
 date: 2018-11-01
-draft: false
 tags: [job]
 ---
 

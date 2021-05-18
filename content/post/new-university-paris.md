@@ -1,7 +1,6 @@
 ---
 title: New University of Paris
 date: 2019-03-29
-draft: false
 tags: [job]
 ---
 

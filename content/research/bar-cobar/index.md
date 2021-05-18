@@ -2,7 +2,6 @@
 title: Boardman–Vogt resolutions and bar/cobar constructions of (co)operadic (co)bimodules
 date: 2019-11-21
 lastMod: 2021-02-11
-draft: false
 authors: [ricardo, julien, me]
 status: preprint
 publication: Preprint v2, 68 pages.

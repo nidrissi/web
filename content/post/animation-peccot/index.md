@@ -1,7 +1,6 @@
 ---
 title: Video
 date: 2020-02-28
-draft: false
 tags: [math, peccot, animation]
 ---
 

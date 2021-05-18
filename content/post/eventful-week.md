@@ -1,7 +1,6 @@
 ---
 title: An Eventful Week
 date: 2018-05-26
-draft: false
 tags: ["job"]
 ---
 

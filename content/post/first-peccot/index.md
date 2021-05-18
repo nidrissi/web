@@ -1,7 +1,6 @@
 ---
 title: First Peccot lecture
 date: 2020-03-05
-draft: false
 tags: [math, peccot]
 ---
 

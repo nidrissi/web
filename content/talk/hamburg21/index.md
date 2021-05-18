@@ -1,7 +1,6 @@
 ---
 title: Configuration spaces of surfaces
 date: 2021-02-15
-draft: false
 event: Research Seminar on Algebraic Topology
 location: Universität Hamburg (online)
 urls:

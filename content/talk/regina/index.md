@@ -1,7 +1,6 @@
 ---
 title: Configuration Spaces and Graph Complexes
 date: 2018-06-05
-draft: false
 event: Departmental colloquium
 location: University of Regina
 urls:

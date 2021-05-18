@@ -1,7 +1,6 @@
 ---
 title: Kafka in the stars
 date: 2018-03-16
-draft: false
 tags: [job]
 ---
 

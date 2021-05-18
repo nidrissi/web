@@ -1,7 +1,6 @@
 ---
 title: Digging
 date: 2019-03-15
-draft: false
 ---
 
 I dug up the tiny program I wrote to find [minimal surfaces](https://en.wikipedia.org/wiki/Minimal_surface) with fixed boundary in 2011 for the "grandes écoles" entrance exams.

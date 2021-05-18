@@ -1,7 +1,6 @@
 ---
 title: Defense, postdoc, new paper
 date: 2018-02-05
-draft: false
 tags: ["job", "conf-spaces", "paper"]
 ---
 

@@ -2,7 +2,6 @@
 title: Configuration Spaces of Surfaces
 date: 2019-11-27
 lastMod: 2020-04-03
-draft: false
 authors: [ricardo, me, thomas]
 # preprint, publication, or other
 status: preprint

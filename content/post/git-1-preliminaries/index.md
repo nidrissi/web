@@ -2,8 +2,6 @@
 title: "Git for Mathematicians (1/3): Preliminaries"
 date: 2021-04-13
 lastMod: 2021-04-26
-draft: false
-toc: true
 tags: [code]
 urls:
   custom:

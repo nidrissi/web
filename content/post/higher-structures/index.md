@@ -1,7 +1,6 @@
 ---
 title: Higher Structures at the CIRM
 date: 2019-01-24
-draft: false
 tags: [trip]
 ---
 

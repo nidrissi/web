@@ -8,7 +8,6 @@ urls:
     file: cv.en.pdf
   - name: CV (fr)
     file: cv.fr.pdf
-toc: true
 ---
 
 import Bibliography from "../../../src/components/Bibliography"
@@ -958,5 +957,3 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="sm:w-1/6 font-semibold">2013</div>
 <div class="sm:w-5/6"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology) • <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes)</div>
 </div>
-
-

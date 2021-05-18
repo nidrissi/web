@@ -1,8 +1,6 @@
 ---
 title: "Git for Mathematicians (2/3): The Theory"
 date: 2021-04-26
-draft: false
-toc: true
 tags: [code]
 urls:
   custom:
