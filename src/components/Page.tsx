@@ -6,6 +6,7 @@ import Layout from "./Layout";
 import Meta, { Frontmatter } from "./meta";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft, faArrowRight, faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import TOC, { TableOfContents } from "./TOC";
 
 
 type NextPrevious = {
@@ -22,6 +23,7 @@ type PageTemplateProps = {
       }
       excerpt: string;
       frontmatter: Frontmatter;
+      tableOfContents: TableOfContents;
     };
     previous: NextPrevious;
     next: NextPrevious;
@@ -88,6 +90,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
         <h1 className="text-3xl font-bold text-gray-700">{actualTitle}</h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
+      <TOC toc={data.mdx.tableOfContents} />
       <div className="prose prose-blue max-w-none">
         <MDXRenderer localImages={frontmatter.localImages}>
           {body}
@@ -159,6 +162,7 @@ export const query = graphql`
           }
         }
       }
+    tableOfContents
     }
     previous: mdx(id: { eq: $previousId }) {
       slug
