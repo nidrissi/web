@@ -7,7 +7,7 @@ const Talk: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
 query RootTalkQuery {
   allMdx(
-    filter: {fields: {myType: {eq: "talk"}}}
+    filter: {fields: {type: {eq: "talk"}}}
     sort: {fields: frontmatter___date, order: DESC}
     limit: 5
   ) {

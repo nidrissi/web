@@ -16,7 +16,7 @@ const Class: React.FC<{}> = () => {
   } = useStaticQuery(graphql`
 query RootClassQuery {
   allMdx(
-    filter: {fields: {myType: {eq: "class"}}, frontmatter: {year: {eq: "2020–2021"}}}
+    filter: {fields: {type: {eq: "class"}}, frontmatter: {year: {eq: "2020–2021"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {

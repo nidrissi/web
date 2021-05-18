@@ -39,7 +39,7 @@ export default PostList;
 export const query = graphql`
 query {
   allMdx(
-    filter: {fields: {myType: {eq: "post"}}}
+    filter: {fields: {type: {eq: "post"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {

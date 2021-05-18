@@ -52,7 +52,7 @@ export default ResearchList;
 export const query = graphql`
 query {
   allMdx(
-    filter: {fields: {myType: {eq: "research"}}}
+    filter: {fields: {type: {eq: "research"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {

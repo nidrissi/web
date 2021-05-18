@@ -6,7 +6,7 @@ const Bibliography: React.FC<{ status: string }> = ({ status }) => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
 query BibliographyQuery {
   allMdx(
-    filter: {fields: {myType: {eq: "research"}}}
+    filter: {fields: {type: {eq: "research"}}}
     sort: {fields: frontmatter___date, order: DESC}
   ) {
     nodes {

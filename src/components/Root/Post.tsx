@@ -7,7 +7,7 @@ const Post: React.FC<{}> = () => {
   const { allMdx: { nodes } } = useStaticQuery(graphql`
 query RootPostQuery {
   allMdx(
-    filter: {fields: {myType: {eq: "post"}}}
+    filter: {fields: {type: {eq: "post"}}}
     sort: {fields: frontmatter___date, order: DESC}
     limit: 5
   ) {

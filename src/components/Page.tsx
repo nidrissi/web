@@ -18,7 +18,7 @@ type PageTemplateProps = {
     mdx: {
       body: string;
       fields: {
-        myType: string;
+        type: string;
       }
       excerpt: string;
       frontmatter: Frontmatter;
@@ -70,13 +70,13 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
     body,
     frontmatter,
     excerpt,
-    fields: { myType }
+    fields: { type }
   } = data.mdx;
 
   const actualTitle =
-    myType === 'talk' ? (
+    type === 'talk' ? (
       `${frontmatter.event} @ ${frontmatter.location}`
-    ) : myType === 'class' ? (
+    ) : type === 'class' ? (
       `${frontmatter.title} (${frontmatter.year})`
     ) : (
       frontmatter.title
@@ -86,14 +86,14 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
     <Layout title={frontmatter.title} description={excerpt} date={frontmatter.date} lastMod={frontmatter.lastMod}>
       <header className="mb-4">
         <h1 className="text-3xl font-bold text-gray-700">{actualTitle}</h1>
-        <Meta frontmatter={frontmatter} type={myType} />
+        <Meta frontmatter={frontmatter} type={type} />
       </header>
       <div className="prose prose-blue max-w-none">
         <MDXRenderer localImages={frontmatter.localImages}>
           {body}
         </MDXRenderer>
       </div>
-      <Pager next={data.next} previous={data.previous} type={myType} />
+      <Pager next={data.next} previous={data.previous} type={type} />
     </Layout>
   );
 };
@@ -108,7 +108,7 @@ export const query = graphql`
     mdx(id: { eq: $id }) {
       body
       fields {
-        myType
+        type
       }
       excerpt(pruneLength: 160)
       frontmatter {
