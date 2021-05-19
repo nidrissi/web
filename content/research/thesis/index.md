@@ -23,12 +23,12 @@ Finally, in a third part, we expand this result to a large class of manifolds wi
 
 ***
 
-Thesis realized under the supervision of [Benoit Fresse](https://math.univ-lille1.fr/~fresse/) at [Université de Lille](https://www.univ-lille.fr) and funded by an _Allocation Spécifique_ from the [École Normale Supérieure](https://www.ens.fr).
+Thesis realized under the supervision of [Benoit Fresse](https://pro.univ-lille.fr/benoit-fresse/) at [Université de Lille](https://www.univ-lille.fr) & [Laboratoire Paul Painlevé](https://math.univ-lille1.fr/) and funded by an _Allocation Spécifique_ from the [École Normale Supérieure](https://www.ens.psl.eu).
 The defense jury was composed of:
 
-| Roles      | Name                                                                       | Institution                                     |
+| Role       | Name                                                                       | Institution                                     |
 |------------|----------------------------------------------------------------------------|-------------------------------------------------|
-| Advisor:   | [Benoit Fresse](https://math.univ-lille1.fr/~fresse/)                      | Université Lille 1                              |
+| Advisor:   | [Benoit Fresse](https://pro.univ-lille.fr/benoit-fresse/)                      | Université Lille 1                              |
 | Referees:  | [Damien Calaque](http://imag.umontpellier.fr/~calaque/)                    | Université de Montpellier                       |
 |            | [Kathryn Hess Bellwald](http://hessbellwald-lab.epfl.ch/HessBellwald)      | École Polytechnique Fédérale de Lausanne (EPFL) |
 | Examiners: | [Pascal Lambrechts](https://uclouvain.be/fr/repertoires/pascal.lambrechts) | Université catholique de Louvain                |
