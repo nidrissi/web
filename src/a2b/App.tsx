@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Page } from "./Page";
 
 // state
-import { selectSettings } from "./features/Settings/settingsSlice";
+import { initialState, saveSettings, selectSettings } from "./features/Settings/settingsSlice";
 import {
   selectIds,
   selectAuthors,
@@ -29,7 +29,16 @@ const App: React.FC<{}> = () => {
   const authors = useSelector(selectAuthors);
   const titles = useSelector(selectTitles);
   // settings
-  const { maxResults, sortBy, sortOrder } = useSelector(selectSettings);
+  const settings = useSelector(selectSettings);
+  const { maxResults, sortBy, sortOrder } = settings;
+  useEffect(() => {
+    const persistentState = localStorage.getItem("settings");
+    if (persistentState) {
+      // in case I have introduced new settings since the last time the user
+      // has used the app, I still want to use defaultInitialState as fallback
+      dispatch(saveSettings({ ...initialState, ...JSON.parse(persistentState) }))
+    }
+  }, []);
 
   useEffect(() => {
     if (authors.length > 0 || ids.length > 0 || titles.length > 0) {
