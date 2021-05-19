@@ -58,7 +58,12 @@ const Contact: React.FC<{}> = () => {
           <li key={l.label} className="content-center">
             <FontAwesomeIcon icon={l.icon} fixedWidth className="mr-1" />
             {l.url ? (
-              <a href={l.url} className="text-blue-600 hover:underline">
+              <a
+                href={l.url}
+                className="text-blue-600 hover:underline"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 {l.label}
               </a>
             ) : (
