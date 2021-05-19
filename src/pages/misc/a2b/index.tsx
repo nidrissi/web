@@ -1,9 +1,9 @@
 import React from "react";
 import { Provider } from "react-redux";
 
-import Layout from "../../components/Layout";
-import store from "../../a2b/store";
-import App from "../../a2b/App";
+import Layout from "../../../components/Layout";
+import store from "../../../a2b/store";
+import App from "../../../a2b/App";
 
 const A2B: React.FC<{}> = () => {
   return (
