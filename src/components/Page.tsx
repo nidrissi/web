@@ -5,13 +5,17 @@ import React from "react";
 import Layout from "./Layout";
 import Meta, { Frontmatter } from "./meta";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowLeft, faArrowRight, faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import TOC, { TableOfContents } from "./TOC";
 
-
-type NextPrevious = {
+type NextPreviousProps = {
   slug: string;
-  frontmatter: { title: string; };
+  frontmatter: {
+    title: string;
+    event: string;
+    location: string;
+    year: string;
+  };
 }
 
 type PageTemplateProps = {
@@ -25,12 +29,30 @@ type PageTemplateProps = {
       frontmatter: Frontmatter;
       tableOfContents: TableOfContents;
     };
-    previous: NextPrevious;
-    next: NextPrevious;
+    previous: NextPreviousProps;
+    next: NextPreviousProps;
   };
 };
 
-const Pager: React.FC<{ previous: NextPrevious, next: NextPrevious, type: string }> = ({
+export function actualTitle(
+  frontmatter: {
+    title: string;
+    event: string;
+    location: string;
+    year: string;
+  },
+  type: string
+) {
+  return type === 'talk' ? (
+    `${frontmatter.event} @ ${frontmatter.location}`
+  ) : type === 'class' ? (
+    `${frontmatter.title} (${frontmatter.year})`
+  ) : (
+    frontmatter.title
+  );
+}
+
+const NextPrevious: React.FC<{ previous: NextPreviousProps, next: NextPreviousProps, type: string }> = ({
   next, previous, type
 }) => {
   if (!next && !previous) {
@@ -50,7 +72,7 @@ const Pager: React.FC<{ previous: NextPrevious, next: NextPrevious, type: string
           className={linkStyle}
         >
           <FontAwesomeIcon icon={faArrowLeft} className="mr-1" />
-          {previous.frontmatter.title}
+          {actualTitle(previous.frontmatter, type)}
         </Link>
       ) : <div></div>}
       {next ? (
@@ -58,7 +80,7 @@ const Pager: React.FC<{ previous: NextPrevious, next: NextPrevious, type: string
           to={`/${type}/${next.slug}`}
           className={linkStyle}
         >
-          {next.frontmatter.title}
+          {actualTitle(next.frontmatter, type)}
           <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
         </Link>
       ) : <div></div>}
@@ -75,19 +97,12 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
     fields: { type }
   } = data.mdx;
 
-  const actualTitle =
-    type === 'talk' ? (
-      `${frontmatter.event} @ ${frontmatter.location}`
-    ) : type === 'class' ? (
-      `${frontmatter.title} (${frontmatter.year})`
-    ) : (
-      frontmatter.title
-    );
-
   return (
     <Layout title={frontmatter.title} description={excerpt} date={frontmatter.date} lastMod={frontmatter.lastMod}>
       <header className="mb-4">
-        <h1 className="text-3xl font-bold text-gray-700">{actualTitle}</h1>
+        <h1 className="text-3xl font-bold text-gray-700">
+          {actualTitle(frontmatter, type)}
+        </h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
       <TOC toc={data.mdx.tableOfContents} />
@@ -96,7 +111,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
           {body}
         </MDXRenderer>
       </div>
-      <Pager next={data.next} previous={data.previous} type={type} />
+      <NextPrevious next={data.next} previous={data.previous} type={type} />
     </Layout>
   );
 };
@@ -144,12 +159,18 @@ export const query = graphql`
       slug
       frontmatter {
         title
+        event
+        location
+        year
       }
     }
     next: mdx(id: { eq: $nextId }) {
       slug
       frontmatter {
         title
+        event
+        location
+        year
       }
     }
   }
