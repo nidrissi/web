@@ -26,7 +26,7 @@ const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, image, chil
         <br />
         <span className="text-gray-700 font-semibold">{date}</span>
       </div>
-      <div className="flex-grow">
+      <div className="flex-grow p-1">
         {children}
       </div>
       <a className="block p-2 bg-gray-200 rounded-b-md text-center" href={link} rel="noreferrer noopener">
