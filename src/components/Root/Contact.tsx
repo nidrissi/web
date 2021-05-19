@@ -56,7 +56,7 @@ const Contact: React.FC<{}> = () => {
       <ul>
         {contactLinks.map((l) => (
           <li key={l.label} className="content-center">
-            <FontAwesomeIcon icon={l.icon} className="mr-1" />
+            <FontAwesomeIcon icon={l.icon} fixedWidth className="mr-1" />
             {l.url ? (
               <a href={l.url} className="text-blue-600 hover:underline">
                 {l.label}
