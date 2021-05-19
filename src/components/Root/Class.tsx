@@ -31,6 +31,7 @@ query RootClassQuery {
         time
         what
         cursus
+        year
         tags
         ...allUrlsFragment
       }
@@ -40,7 +41,7 @@ query RootClassQuery {
 
   return (
     <section>
-      <h2 className="text-4xl font-bold mb-3">Teaching (2020-2021)</h2>
+      <h2 className="text-4xl font-bold mb-3">Teaching</h2>
       <div className="flex flex-col gap-4">
         {
           nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
