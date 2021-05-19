@@ -27,8 +27,24 @@ const Card: React.FC<CardProps> = ({ number, date, children, video, images }) =>
       </div>
       <div className="flex-grow p-1">{children}</div>
       <div className="flex flex-col gap-2 sm:flex-row sm:divide-x divide-gray-500 text-center bg-gray-100 rounded-b-md p-1">
-        <a href={images[number - 1].childImageSharp.original.src} className="block flex-grow" target="_blank"><FontAwesomeIcon icon={faChalkboard} />&nbsp;Blackboard</a>
-        <a href={video} className="block flex-grow" target="_blank"><FontAwesomeIcon icon={faPlayCircle} />&nbsp;Video</a>
+        <a
+          href={images[number - 1].childImageSharp.original.src}
+          className="block flex-grow"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <FontAwesomeIcon icon={faChalkboard} className="mr-1" />
+          Blackboard
+        </a>
+        <a
+          href={video}
+          className="block flex-grow"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <FontAwesomeIcon icon={faPlayCircle} className="mr-1" />
+          Video
+        </a>
       </div>
     </div>
   )
