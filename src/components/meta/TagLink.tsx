@@ -6,10 +6,11 @@ import { faTag } from "@fortawesome/free-solid-svg-icons";
 type TagLinkProps = {
   tag: string;
   big?: boolean;
+  count?: number;
 };
 
-const TagLink: React.FC<TagLinkProps> = ({ tag, big }) => {
-  const extraStyle = big ? "font-semibold text-2xl p-2" : "font-light text-sm px-1";
+const TagLink: React.FC<TagLinkProps> = ({ tag, big, count }) => {
+  const extraStyle = big ? "font-semibold text-2xl py-2 px-3" : "font-light text-sm px-1";
 
   return (
     <Link
@@ -18,6 +19,7 @@ const TagLink: React.FC<TagLinkProps> = ({ tag, big }) => {
     >
       <FontAwesomeIcon icon={faTag} size="sm" className="mr-1" />
       {tag}
+      {count && <span className="text-lg"> [{count}]</span>}
     </Link>
   )
 }

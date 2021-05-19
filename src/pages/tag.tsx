@@ -10,6 +10,7 @@ type TagListProps = {
     allMdx: {
       group: {
         fieldValue: string;
+        totalCount: number;
       }[];
     }
   }
@@ -21,10 +22,10 @@ const TagList: React.FC<TagListProps> = ({ data: { allMdx: { group } } }) => {
         <FontAwesomeIcon icon={faTags} className="mr-1" />
         All Tags
       </h1>
-      <ul className="flex flex-wrap gap-4">
-        {group.map(({ fieldValue: tag }) => (
-          <li key={tag}>
-            <TagLink tag={tag} big />
+      <ul className="flex flex-wrap gap-8">
+        {group.map(({ fieldValue, totalCount }) => (
+          <li key={fieldValue}>
+            <TagLink tag={fieldValue} big count={totalCount} />
           </li>
         ))}
       </ul>
@@ -38,6 +39,7 @@ query {
   allMdx {
     group(field: frontmatter___tags) {
       fieldValue
+      totalCount
     }
   }
 }
