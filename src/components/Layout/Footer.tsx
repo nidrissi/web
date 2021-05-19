@@ -62,20 +62,31 @@ const Footer: React.FC<{}> = () => {
     }
   `);
 
-  const links: { url: string; label: string; icon?: IconDefinition }[] = [
+  const links: { url: string; label: string; icon?: IconDefinition, relMe?: boolean }[] = [
     { url: `mailto:${email}`, label: email, icon: faAt },
     organizations.map((o) => ({ url: o.url, label: o.name })),
-    { url: `https://arxiv.org/a/${arXiv}.html`, label: "arXiv" },
-    { url: `https://github.com/${github}`, label: "GitHub", icon: faGithub },
+    {
+      url: `https://arxiv.org/a/${arXiv}.html`,
+      label: "arXiv",
+      relMe: true,
+    },
+    {
+      url: `https://github.com/${github}`,
+      label: "GitHub",
+      icon: faGithub,
+      relMe: true,
+    },
     {
       url: `https://mathoverflow.net/users/${mathoverflow}`,
       label: "MathOverFlow",
-      icon: faStackExchange
+      icon: faStackExchange,
+      relMe: true,
     },
     {
       url: `https://twitter.com/${twitter}`,
       label: "Twitter",
       icon: faTwitter,
+      relMe: true,
     },
   ].flat();
 
@@ -92,7 +103,8 @@ const Footer: React.FC<{}> = () => {
         {links.map((v) => (
           <a
             href={v.url}
-            rel="me"
+            rel={`noreferrer noopener ${v.relMe ? "me" : ""}`}
+            target="_blank"
             className={linkStyle}
             key={v.label}
           >
