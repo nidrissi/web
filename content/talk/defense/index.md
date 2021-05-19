@@ -4,7 +4,8 @@ date: 2017-11-17
 event: Doctoral thesis defense
 location: Université de Lille
 urls:
-  pdf: ../../research/thesis/thesis.pdf
   slides: soutenance.pdf
-  # video: proclamation.mp4
+  custom:
+    - name: Thesis
+      url: "/research/thesis"
 ---
