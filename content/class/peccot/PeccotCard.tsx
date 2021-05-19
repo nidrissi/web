@@ -29,9 +29,9 @@ const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, image, chil
       <div className="flex-grow">
         {children}
       </div>
-      <a className="block p-2 bg-gray-200 rounded-b-md text-center" href={link}>
-        <FontAwesomeIcon icon={faPlayCircle} />
-        &nbsp;Video
+      <a className="block p-2 bg-gray-200 rounded-b-md text-center" href={link} rel="noreferrer noopener">
+        <FontAwesomeIcon icon={faPlayCircle} className="mr-1" />
+        Video
       </a>
     </div>
   )
