@@ -2,7 +2,9 @@ import React, { Suspense, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 // these components are always loaded
-import { Page } from "./Page";
+import Search from "./features/Search";
+import Settings from "./features/Settings";
+import DIY from "./features/DIY";
 
 // state
 import { initialState, saveSettings, selectSettings } from "./features/Settings/settingsSlice";
@@ -13,13 +15,6 @@ import {
 } from "./features/SearchForm/searchFormSlice";
 import { fetchEntries } from "./features/Results/resultsSlice";
 import Navbar from "./features/Navbar";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSpinner } from "@fortawesome/free-solid-svg-icons";
-
-// lazy loaded components
-const DIY = React.lazy(() => import("./features/DIY"));
-const Search = React.lazy(() => import("./features/Search"));
-const Settings = React.lazy(() => import("./features/Settings"));
 
 const App: React.FC<{}> = () => {
   // keep here to avoid re-fetching on route change
@@ -57,17 +52,7 @@ const App: React.FC<{}> = () => {
   return (
     <>
       <Navbar setCurrentPage={setCurrentPage} />
-      <Suspense
-        fallback={
-          <div className="text-center text-xl font-bold">
-            <FontAwesomeIcon icon={faSpinner} spin className="mr-1" />
-            Loading…
-          </div>
-        }
-      >
-        {pageAssociation[currentPage]}
-      </Suspense>
-    </>
+      {pageAssociation[currentPage]}    </>
   );
 };
 export default App;
