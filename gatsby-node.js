@@ -36,43 +36,37 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     },
   };
 
-  // Create pages of all types and lists
-  // TODO: Do just one query and group?
-  for (const type of ['class', 'misc', 'post', 'research', 'talk']) {
-    const result = await graphql(`
-    query {
-      allMdx(
-        filter: {fields: {type: {eq: "${type}"}}}
-        sort: {fields: frontmatter___date}
-      ) {
+  const pageResult = await graphql(`
+  query {
+    allMdx(sort: {fields: frontmatter___date, order: DESC}) {
+      group(field: fields___type) {
+        fieldValue
+        totalCount
         edges {
           node {
             id
             slug
           }
-          previous {
+          next {
             id
           }
-          next {
+          previous {
             id
           }
         }
       }
     }
-  `);
+  }`);
+  if (pageResult.errors) {
+    reporter.panicOnBuild('ERROR: Loading "createPages" query');
+  }
+  for (const { fieldValue: type, totalCount, edges } of pageResult.data.allMdx.group) {
 
-    if (result.errors) {
-      reporter.panicOnBuild('ERROR: Loading "createPages" query');
-    }
-
-    const edges = result.data.allMdx.edges;
-
-    // Create a paginated list
     if (listAssociation[type]) {
       const { component, perPage } = listAssociation[type];
       if (perPage) {
 
-        const numPages = Math.ceil(edges.length / perPage)
+        const numPages = Math.ceil(totalCount / perPage)
         Array.from({ length: numPages }).forEach((_, i) => {
           createPage({
             path: i === 0 ? `/${type}` : `/${type}/${i + 1}`,
