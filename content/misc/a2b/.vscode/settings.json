@@ -1,0 +1,18 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "cSpell.words": [
+        "Formik",
+        "biblatex",
+        "browserslist",
+        "cacheable",
+        "fontawesome",
+        "fortawesome",
+        "opensearch",
+        "precaching",
+        "preload",
+        "prepublished",
+        "pubstate",
+        "reduxjs"
+    ]
+}
