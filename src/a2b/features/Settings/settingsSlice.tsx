@@ -1,7 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { RootState } from "../../store";
+import { Settings } from "../../types";
 
-export const defaultInitialState: Settings = {
+export const initialState: Settings = {
   mode: "biblatex",
   includeAbstract: false,
   includeFile: true,
@@ -15,14 +16,6 @@ export const defaultInitialState: Settings = {
   sortOrder: "descending",
   maxResults: 10,
 };
-
-const persistentState = localStorage.getItem("settings");
-
-// in case I have introduced new settings since the last time the user
-// has used the app, I still want to use defaultInitialState as fallback
-const initialState: Settings = persistentState
-  ? { ...defaultInitialState, ...JSON.parse(persistentState) }
-  : defaultInitialState;
 
 export const settingsSlice = createSlice({
   name: "settings",
