@@ -9,7 +9,7 @@ const months = [
 ];
 
 const inputRaw = fs.readFileSync("./data.yaml", "utf-8");
-const inputJSON = YAML.parse(inputRaw);
+const inputYAML = YAML.parse(inputRaw);
 
 /** Traverses an object and splits it along "!"
  * @param obj Either a string, an array, or an object
@@ -48,7 +48,7 @@ function traverse(obj) {
   return ret;
 }
 
-const output = traverse(inputJSON);
+const output = traverse(inputYAML);
 
 for (const [lang, i] of [
   ["french", 0],
