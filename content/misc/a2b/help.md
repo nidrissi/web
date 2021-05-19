@@ -1,3 +1,11 @@
+---
+title: arXiv2BibLaTeX | Help
+urls:
+  custom:
+    - name: Back to app
+      url: /misc/a2b
+---
+
 ## This program
 
 ### What (is this)?
