@@ -10,7 +10,7 @@ const Error404: React.FC<{}> = () => {
   // redirect /en/* => *
   const { pathname } = useLocation();
   if (pathname.startsWith('/en/')) {
-    navigate(pathname.replace(/^\/en/, ''))
+    navigate(pathname.replace(/^\/en/, ''), { replace: true })
     return <></>;
   }
 
