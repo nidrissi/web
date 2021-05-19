@@ -4,7 +4,7 @@ import {
   createAsyncThunk,
 } from "@reduxjs/toolkit";
 
-import { ArxivResult, arxivSearch } from "../../api/arxiv";
+import { ArxivResult, arxivSearch } from "../../arxiv";
 import { RootState } from "../../store";
 
 /** An asynchronous "thunk" that fetches entries based on the request. */

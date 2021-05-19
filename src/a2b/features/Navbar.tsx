@@ -17,7 +17,6 @@ const navbarLinks: navbarLink[] = [
   { icon: faSearch, label: "Search" },
   { icon: faTools, label: "DIY" },
   { icon: faCog, label: "Settings" },
-  { icon: faQuestion, label: "Help" },
 ];
 
 /** A react-router powered navigation bar. */

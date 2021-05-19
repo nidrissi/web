@@ -16,7 +16,6 @@ import Navbar from "./features/Navbar";
 
 // lazy loaded components
 const DIY = React.lazy(() => import("./features/DIY"));
-const Help = React.lazy(() => import("./features/Help"));
 const Search = React.lazy(() => import("./features/Search"));
 const Settings = React.lazy(() => import("./features/Settings"));
 
@@ -41,7 +40,6 @@ const App: React.FC<{}> = () => {
   const pageAssociation = {
     "Search": <Search />,
     "Settings": <Settings />,
-    "Help": <Help />,
     "DIY": <DIY />,
   }
 
