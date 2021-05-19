@@ -13,6 +13,8 @@ import {
 } from "./features/SearchForm/searchFormSlice";
 import { fetchEntries } from "./features/Results/resultsSlice";
 import Navbar from "./features/Navbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
 // lazy loaded components
 const DIY = React.lazy(() => import("./features/DIY"));
@@ -48,7 +50,10 @@ const App: React.FC<{}> = () => {
       <Navbar setCurrentPage={setCurrentPage} />
       <Suspense
         fallback={
-          <div className="text-center text-xl font-bold">Loading…</div>
+          <div className="text-center text-xl font-bold">
+            <FontAwesomeIcon icon={faSpinner} spin className="mr-1" />
+            Loading…
+          </div>
         }
       >
         {pageAssociation[currentPage]}
