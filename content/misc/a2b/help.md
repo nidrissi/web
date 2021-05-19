@@ -1,10 +1,15 @@
 ---
 title: arXiv2BibLaTeX | Help
-urls:
-  custom:
-    - name: Back to app
-      url: /misc/a2b
 ---
+
+import { Link } from "gatsby"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowLeft} from "@fortawesome/free-solid-svg-icons";
+
+<Link to="/misc/a2b" className="text-lg border border-blue-800 rounded-md hover:bg-blue-800 hover:text-white p-2">
+<FontAwesomeIcon icon={faArrowLeft} size="sm" className="mr-1" />
+Back to app
+</Link>
 
 ## This program
 

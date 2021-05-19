@@ -1,7 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBars,
   faCog,
   faQuestion,
   faSearch,
@@ -20,14 +19,17 @@ const navbarLinks: navbarLink[] = [
   { icon: faCog, label: "Settings" },
 ];
 
-const buttonStyle = "block p-3 text-lg"
+const buttonStyle = "block p-2 text-lg border border-blue-800 hover:bg-blue-800 hover:text-white rounded-md"
 
 /** A react-router powered navigation bar. */
 const Navbar: React.FC<{
   setCurrentPage: React.Dispatch<React.SetStateAction<string>>
 }> = ({ setCurrentPage }) => {
   return (
-    <div className="flex bg-blue-800 text-white mb-3">
+    <div className="flex flex-wrap mb-3 items-center gap-x-3">
+      <div className="text-3xl font-bold px-1">
+        arXiv2BibLaTeX
+      </div>
       {navbarLinks.map((l) => (
         <button
           key={l.label}
