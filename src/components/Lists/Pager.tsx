@@ -9,7 +9,7 @@ type PagerProps = {
   type: string;
 };
 const Pager: React.FC<PagerProps> = ({ numPages, currentPage, type }) => {
-  const buttonStyle = "border text-indigo-700 border-indigo-700 hover:bg-indigo-800 hover:text-white px-2 py-1 rounded-md";
+  const buttonStyle = "border text-purple-700 border-purple-700 hover:bg-purple-700 hover:text-white px-2 py-1 rounded-md";
 
   const indexToLink: ((i: number) => string) = i => i === 1 ? `/${type}` : `/${type}/${i}`;
 
