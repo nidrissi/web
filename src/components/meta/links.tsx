@@ -88,7 +88,7 @@ const linkDefinitions: LinkDefinition[] = [
   {
     link: "mathrev",
     label: (id) => `MR:${id}`,
-    urlBuilder: (id) => `http://www.ams.org/mathscinet-getitem?mr=${id}`,
+    urlBuilder: (id) => `https://www.ams.org/mathscinet-getitem?mr=${id}`,
   },
   {
     link: "zbmath",
@@ -98,7 +98,7 @@ const linkDefinitions: LinkDefinition[] = [
   { link: "source", label: "Source", icon: faCode },
 ];
 
-const Link: React.FC<{ definition: LinkDefinition; url: string | LocalFile }> = ({
+const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile }> = ({
   url,
   definition,
 }) => {
@@ -117,6 +117,8 @@ const Link: React.FC<{ definition: LinkDefinition; url: string | LocalFile }> = 
     <a
       href={href}
       className="block border border-gray-500 text-black hover:bg-blue-800 hover:border-blue-800 hover:text-white rounded-md px-2 py-0.5 text-sm"
+      target={href.startsWith('http') ? "_blank" : null}
+      rel={href.startsWith('http') ? "noopener noreferrer" : null}
     >
       {definition.icon ? (
         <FontAwesomeIcon icon={definition.icon} className="mr-1" />
@@ -135,20 +137,20 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
       {linkDefinitions.map((definition) => {
         const url = urls[definition.link];
         return url ? (
-          <Link key={url.publicURL || url} definition={definition} url={url}></Link>
+          <EntryLink key={url.publicURL || url} definition={definition} url={url}></EntryLink>
         ) : null;
       }
       )}
-      {urls.custom?.map(({ name, url }) => (
-        <Link
-          key={name}
+      {urls.custom?.map(({ name, url }, i) => (
+        <EntryLink
+          key={`custom-${i}`}
           url={url}
           definition={{ label: name, link: "custom", icon: faLink }}
         />
       ))}
-      {urls.customFile?.map(({ name, file: { publicURL } }) => (
-        <Link
-          key={name}
+      {urls.customFile?.map(({ name, file: { publicURL } }, i) => (
+        <EntryLink
+          key={`customFile-${i}`}
           url={publicURL}
           definition={{ label: name, link: "customFile", icon: faFile }}
         />
