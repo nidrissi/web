@@ -1,17 +1,8 @@
-import React, { Suspense, useEffect } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
-import {
-  Switch,
-  Redirect,
-  Route,
-  BrowserRouter as Router,
-} from "react-router-dom";
 
 // these components are always loaded
 import { Page } from "./Page";
-import Footer from "./features/Footer";
-import Navbar from "./features/Navbar";
 
 // state
 import { selectSettings } from "./features/Settings/settingsSlice";
@@ -21,10 +12,10 @@ import {
   selectTitles,
 } from "./features/SearchForm/searchFormSlice";
 import { fetchEntries } from "./features/Results/resultsSlice";
+import Navbar from "./features/Navbar";
 
 // lazy loaded components
 const DIY = React.lazy(() => import("./features/DIY"));
-const Error404 = React.lazy(() => import("./features/Error404"));
 const Help = React.lazy(() => import("./features/Help"));
 const Search = React.lazy(() => import("./features/Search"));
 const Settings = React.lazy(() => import("./features/Settings"));
@@ -45,50 +36,25 @@ const App: React.FC<{}> = () => {
     }
   }, [dispatch, ids, authors, titles, maxResults, sortBy, sortOrder]);
 
+  // the page we are currently on
+  const [currentPage, setCurrentPage] = useState("Search");
+  const pageAssociation = {
+    "Search": <Search />,
+    "Settings": <Settings />,
+    "Help": <Help />,
+    "DIY": <DIY />,
+  }
+
   return (
     <>
-      <Router>
-        <Navbar />
-        <div className="container mx-auto px-8">
-          <Suspense
-            fallback={
-              <div className="text-center text-xl font-bold">Loading…</div>
-            }
-          >
-            <Switch>
-              <Route path="/" exact>
-                <Page title="Search">
-                  <Search />
-                </Page>
-              </Route>
-              <Route path="/settings">
-                <Page title="Settings">
-                  <Settings />
-                </Page>
-              </Route>
-              <Route path="/help">
-                <Page title="Help">
-                  <Help />
-                </Page>
-              </Route>
-              <Route path="/about">
-                <Redirect to="/help" />
-              </Route>
-              <Route path="/diy">
-                <Page title="Do It Yourself">
-                  <DIY />
-                </Page>
-              </Route>
-              <Route path="*">
-                <Page title="Not Found">
-                  <Error404 />
-                </Page>
-              </Route>
-            </Switch>
-          </Suspense>{" "}
-        </div>
-      </Router>
-      <Footer />
+      <Navbar setCurrentPage={setCurrentPage} />
+      <Suspense
+        fallback={
+          <div className="text-center text-xl font-bold">Loading…</div>
+        }
+      >
+        {pageAssociation[currentPage]}
+      </Suspense>
     </>
   );
 };

@@ -1,5 +1,6 @@
 // see https://arxiv.org/help/api/user-manual
-import { removeAccents } from "../utils";
+import { Entry, Query, Settings } from "./types";
+import { removeAccents } from "./utils";
 
 function getUniqueNamedTag(
   xmlEntry: Element | Document,
