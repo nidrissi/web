@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretSquareRight } from "@fortawesome/free-solid-svg-icons";
 
 import Meta, { Frontmatter } from "./meta";
+import { actualTitle } from "./Page";
 
 type MiniProps = {
   frontmatter: Frontmatter;
@@ -14,13 +15,9 @@ type MiniProps = {
   noLink?: boolean;
 }
 const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, noLink }) => {
-  const actualTitle = type === 'talk' ? (
-    `${frontmatter.event} @ ${frontmatter.location}`
-  ) : frontmatter.title;
-
-  const title = noLink ? actualTitle : (
+  const title = noLink ? actualTitle(frontmatter, type) : (
     <Link to={`/${type}/${slug}`} className="text-green-800 hover:underline">
-      {actualTitle}
+      {actualTitle(frontmatter, type)}
     </Link>
   )
 
