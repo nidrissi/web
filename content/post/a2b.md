@@ -1,10 +1,13 @@
 ---
 title: arXiv2BibLaTeX
 date: 2020-06-29
+lastMod: 2021-05-19
 tags: [math, arxiv]
 ---
 
-tl;dr: [a2b.idrissi.eu](https://a2b.idrissi.eu) to get a `.bib` from arXiv entries.
+tl;dr: [/misc/a2b](/misc/a2b) to get a `.bib` from arXiv entries.
+
+*Update May 19th, 2021: New URL.*
 
 Have you ever wanted to create a `bib` entry from an arXiv preprint?
 There are a few tools available, including one provided by arXiv (click on "NASA ADS" in the sidebar when viewing an entry), but none of them worked as I wanted.
@@ -15,8 +18,8 @@ I had been using a [homemade Perl script](https://github.com/nidrissi/dotfiles/b
 Moreover I thought such a tool could be useful for many people, but web apps are all the rage these days and many people don't want to deal with installations and dependencies anymore (installing Perl on Windows is annoying, for example).
 So I decided to write a little JavaScript program.
 
-It's available at **[a2b.idrissi.eu](https://a2b.idrissi.eu/)**.
+It's available at [/misc/a2b](/misc/a2b).
 I wrote it using a few libraries, notably React, Redux, and a few helper libraries (`react-redux`, `react-bootstrap`...).
-The program is open source (under the AGPLv3), of course, and [the code is available on Github](https://github.com/nidrissi/a2b).
+The program is open source (under the AGPLv3), of course, and [the code is available on Github](https://github.com/nidrissi/nidrissi/tree/master/src/a2b).
 There are certainly plenty of bugs, but the basics work.
-If you encounter an issue, don't hesitate to [submit one on Github](https://github.com/nidrissi/a2b/issues/new/choose).
+If you encounter an issue, don't hesitate to [submit one on Github](https://github.com/nidrissi/nidrissi/issues/new/choose).
