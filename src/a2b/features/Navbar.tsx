@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
@@ -11,59 +10,32 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 type navbarLink = {
-  to: string;
   icon: IconDefinition;
   label: string;
-  exact?: boolean;
 };
 const navbarLinks: navbarLink[] = [
-  { to: "/", icon: faSearch, label: "Search", exact: true },
-  { to: "/diy", icon: faTools, label: "DIY" },
-  { to: "/settings", icon: faCog, label: "Settings" },
-  { to: "/help", icon: faQuestion, label: "Help" },
+  { icon: faSearch, label: "Search" },
+  { icon: faTools, label: "DIY" },
+  { icon: faCog, label: "Settings" },
+  { icon: faQuestion, label: "Help" },
 ];
 
 /** A react-router powered navigation bar. */
-const Navbar: React.FC<{}> = () => {
-  const [expanded, setExpanded] = useState(false);
-
+const Navbar: React.FC<{
+  setCurrentPage: React.Dispatch<React.SetStateAction<string>>
+}> = ({ setCurrentPage }) => {
   return (
-    <div
-      className={`sticky top-0 w-full ${
-        expanded ? "grid grid-cols-1" : "flex"
-      } items-center gap-4 mb-3 bg-white text-black z-50`}
-    >
-      <div className="flex-grow sm:flex-grow-0">
-        <Link to="/" className="p-3 text-2xl font-semibold">
-          arXiv2BibLaTeX
-        </Link>
-      </div>
-      <div
-        id="navbar-content"
-        className={`grid grid-cols-1 sm:flex gap-2 ${expanded ? "" : "hidden"}`}
-      >
-        {navbarLinks.map((l) => (
-          <NavLink
-            key={l.to}
-            to={l.to}
-            exact={l.exact}
-            className="block p-3 text-lg"
-            activeClassName="font-semibold"
-          >
-            <FontAwesomeIcon icon={l.icon} />
-            &nbsp;{l.label}
-          </NavLink>
-        ))}
-      </div>
-      <div className="flex flex-none sm:hidden justify-end">
+    <div>
+      {navbarLinks.map((l) => (
         <button
-          className="cursor-pointer p-3 text-lg bg-gray-100"
-          onClick={() => setExpanded(!expanded)}
-          title="Expand the navbar"
+          key={l.label}
+          className="block p-3 text-lg"
+          onClick={() => setCurrentPage(l.label)}
         >
-          <FontAwesomeIcon icon={faBars} />
+          <FontAwesomeIcon icon={l.icon} />
+            &nbsp;{l.label}
         </button>
-      </div>
+      ))}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 /** The main entry type. */
-type Entry = {
+export type Entry = {
   authors: string[];
   date: string;
   type: string;
@@ -27,14 +27,14 @@ type Entry = {
 };
 
 /** An arXiv query as built by SearchForm */
-type Query = {
+export type Query = {
   authors: string[];
   ids: string[];
   titles: string[];
 };
 
 /** The settings */
-type Settings = {
+export type Settings = {
   fileFolder: string;
   filePrefix: boolean;
   includeAbstract: boolean;
@@ -48,9 +48,3 @@ type Settings = {
   sortBy: "submittedDate" | "lastUpdatedDate" | "relevance";
   sortOrder: "ascending" | "descending";
 };
-
-/** Markdown */
-declare module "*.md" {
-  const value: string;
-  export default value;
-}
