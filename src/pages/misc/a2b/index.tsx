@@ -8,6 +8,7 @@ import App from "../../../a2b/App";
 const A2B: React.FC<{}> = () => {
   return (
     <Layout title="arXiv2BibLaTeX" description="Convert an arXiv entry to a BibLaTeX entry.">
+      <h1 className="font-bold text-2xl mb-3">arXiv2BibLaTeX</h1>
       <Provider store={store}>
         <App />
       </Provider>

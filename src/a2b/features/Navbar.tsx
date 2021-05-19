@@ -8,6 +8,7 @@ import {
   faTools,
   IconDefinition,
 } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "gatsby";
 
 type navbarLink = {
   icon: IconDefinition;
@@ -19,22 +20,28 @@ const navbarLinks: navbarLink[] = [
   { icon: faCog, label: "Settings" },
 ];
 
+const buttonStyle = "block p-3 text-lg"
+
 /** A react-router powered navigation bar. */
 const Navbar: React.FC<{
   setCurrentPage: React.Dispatch<React.SetStateAction<string>>
 }> = ({ setCurrentPage }) => {
   return (
-    <div>
+    <div className="flex bg-blue-800 text-white mb-3">
       {navbarLinks.map((l) => (
         <button
           key={l.label}
-          className="block p-3 text-lg"
+          className={buttonStyle}
           onClick={() => setCurrentPage(l.label)}
         >
-          <FontAwesomeIcon icon={l.icon} />
-            &nbsp;{l.label}
+          <FontAwesomeIcon icon={l.icon} className="mr-1" />
+          {l.label}
         </button>
       ))}
+      <Link to="/misc/a2b/help" className={buttonStyle}>
+        <FontAwesomeIcon icon={faQuestion} className="mr-1" />
+        Help
+      </Link>
     </div>
   );
 };
