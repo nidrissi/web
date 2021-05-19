@@ -220,7 +220,7 @@ section:
           c: Université de Strasbourg
       - entry:
           a: 06/2021
-          b: Viva Talbot!
+          b: "Viva Talbot"
           c: Online
       - entry:
           a: 06/2021
@@ -484,8 +484,8 @@ section:
       - item:
           a: "2021"
           b: |
-            ~~*Barcelona Conference on Higher Structures*~~ (Centre de Recerca Matemàtica) [Postponed due to COVID-19.] •
-            *Colloque 2021 du GDR Topologie Algébrique et Applications*^?^ (Université de Strasbourg)
+            *Colloque 2021 du GDR Topologie Algébrique et Applications*? (Université de Strasbourg) •
+            ~~*Barcelona Conference on Higher Structures* (Centre de Recerca Matemàtica, Barcelona)~~ [Postponed due to COVID-19.]
       - item:
           a: "2020"
           b: |

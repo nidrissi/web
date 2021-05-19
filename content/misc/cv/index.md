@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-05-16
+lastMod: 2021-05-19
 urls:
   customFile:
   - name: CV (en)
@@ -307,7 +307,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <div class="sm:flex my-1">
-<div class="sm:w-1/6 font-semibold">Oct. 2021</div>
+<div class="sm:w-1/6 font-semibold">Oct. 2021?</div>
 <div class="sm:w-5/6"><span class="font-bold">Colloque 2021 du GDR Topologie Algébrique</span>, <span class="italic">Université de Strasbourg</span>.</div>
 </div>
 
@@ -317,7 +317,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">June 2021</div>
-<div class="sm:w-5/6"><span class="font-bold"></span>, <span class="italic">Online</span>.</div>
+<div class="sm:w-5/6"><span class="font-bold">Viva Talbot</span>, <span class="italic">Online</span>.</div>
 </div>
 
 
@@ -891,7 +891,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2021</div>
-<div class="sm:w-5/6"><del><em>Barcelona Conference on Higher Structures</em></del> (Centre de Recerca Matemàtica) [Postponed due to COVID-19.] • <em>Colloque 2021 du GDR Topologie Algébrique et Applications</em><sup>?</sup> (Université de Strasbourg)</div>
+<div class="sm:w-5/6"><em>Colloque 2021 du GDR Topologie Algébrique et Applications</em>? (Université de Strasbourg) • <del><em>Barcelona Conference on Higher Structures</em> (Centre de Recerca Matemàtica, Barcelona)</del> [Postponed due to COVID-19.]</div>
 </div>
 
 
@@ -957,3 +957,5 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="sm:w-1/6 font-semibold">2013</div>
 <div class="sm:w-5/6"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology) • <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes)</div>
 </div>
+
+
