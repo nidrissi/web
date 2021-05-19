@@ -26,10 +26,14 @@ type TalkListProps = {
 
 const TalkList: React.FC<TalkListProps> = ({ data, pageContext }) => {
   const { allMdx: { nodes } } = data;
+  const { numPages, currentPage } = pageContext;
+  const title = `Talks (p. ${currentPage}/${numPages})`;
 
   return (
-    <Layout title="Talks" description="My talks.">
-      <h1 className="text-4xl font-bold mb-3">Talks</h1>
+    <Layout title={title} description="My talks.">
+      <h1 className="text-4xl font-bold mb-3">
+        {title}
+      </h1>
       <div className="flex flex-col gap-4">
         {
           nodes.map(({ frontmatter, slug, wordCount: { words } }) => {
@@ -39,7 +43,7 @@ const TalkList: React.FC<TalkListProps> = ({ data, pageContext }) => {
           })
         }
       </div>
-      <Pager currentPage={pageContext.currentPage} numPages={pageContext.numPages} type="talk" />
+      <Pager currentPage={currentPage} numPages={numPages} type="talk" />
     </Layout>
   );
 }

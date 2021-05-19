@@ -26,10 +26,14 @@ type PostListProps = {
 
 const PostList: React.FC<PostListProps> = ({ data, pageContext }) => {
   const { allMdx: { nodes } } = data;
+  const { numPages, currentPage } = pageContext;
+  const title = `Posts (p. ${currentPage}/${numPages})`;
 
   return (
-    <Layout title="Posts" description="My blog posts.">
-      <h1 className="text-4xl font-bold mb-4">Posts</h1>
+    <Layout title={title} description="My blog posts.">
+      <h1 className="text-4xl font-bold mb-4">
+        {title}
+      </h1>
       <div className="flex flex-col gap-4">
         {
           nodes.map(({ frontmatter, slug, excerpt }) => (
@@ -37,7 +41,7 @@ const PostList: React.FC<PostListProps> = ({ data, pageContext }) => {
           ))
         }
       </div>
-      <Pager currentPage={pageContext.currentPage} numPages={pageContext.numPages} type="post" />
+      <Pager currentPage={currentPage} numPages={numPages} type="post" />
     </Layout>
   );
 }
