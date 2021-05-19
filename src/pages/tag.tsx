@@ -2,7 +2,8 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTag } from "@fortawesome/free-solid-svg-icons";
+import { faTag, faTags } from "@fortawesome/free-solid-svg-icons";
+import TagLink from "../components/meta/TagLink";
 
 type TagListProps = {
   data: {
@@ -15,15 +16,15 @@ type TagListProps = {
 }
 const TagList: React.FC<TagListProps> = ({ data: { allMdx: { group } } }) => {
   return (
-    <Layout title="Tags" description="The list of all tags used on the website.">
-      <h1 className="text-4xl font-bold mb-4">Tags</h1>
+    <Layout title="All Tags" description="The list of all tags used on the website.">
+      <h1 className="text-4xl font-bold mb-8">
+        <FontAwesomeIcon icon={faTags} className="mr-1" />
+        All Tags
+      </h1>
       <ul className="flex flex-wrap gap-4">
         {group.map(({ fieldValue: tag }) => (
           <li key={tag}>
-            <Link to={`/tag/${tag}`} className="block text-2xl flex-auto font-semibold p-2 m-auto border border-green-800 text-green-800 hover:bg-green-800 hover:text-white rounded-md">
-              <FontAwesomeIcon icon={faTag} className="mr-1" aria-label="Tag" />
-              {tag}
-            </Link>
+            <TagLink tag={tag} big />
           </li>
         ))}
       </ul>
