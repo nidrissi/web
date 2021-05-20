@@ -64,6 +64,7 @@ query {
         date
         lastMod
         publication
+        accepted
         status
         ...allUrlsFragment
       }

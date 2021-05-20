@@ -1,6 +1,8 @@
 ---
 title: Formality of a higher-codimensional Swiss-Cheese operad
-date: 2020-12-08
+date: 2018-09-20
+lastMod: 2020-11-03
+accepted: 2020-12-08
 status: publication
 authors:
   - me
