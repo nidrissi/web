@@ -335,6 +335,15 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">May 2021</div>
+<div class="sm:w-5/6"><span class="font-bold">Algebra and Topology Seminar</span>, <span class="italic">Københavns Universitet</span>, online.</div>
+</div>
+
+
+
+
+
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold">May 2021</div>
 <div class="sm:w-5/6"><span class="font-bold">Topology and Geometry seminar</span>, <span class="italic">University of Haifa</span>, online.</div>
 </div>
 
