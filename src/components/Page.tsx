@@ -136,6 +136,7 @@ export const query = graphql`
         tags
         publication
         authors
+        accepted
         cursus
         what
         time

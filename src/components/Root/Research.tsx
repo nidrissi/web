@@ -19,6 +19,7 @@ query RootResearchQuery {
         date
         lastMod
         publication
+        accepted
         tags
         ...allUrlsFragment
       }

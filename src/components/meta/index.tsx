@@ -24,6 +24,7 @@ export type Frontmatter = {
   urls: Urls;
   localImages: LocalImage[];
   // Research
+  accepted: string;
   publication: string;
   status: string;
   authors: string[];

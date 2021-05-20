@@ -23,7 +23,7 @@ function formatAuthor(author: string): string | JSX.Element {
   }
 }
 
-const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { date, lastMod, publication, authors } }) => {
+const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { date, lastMod, accepted, publication, authors } }) => {
   const displayedAuthors = authors.length > 1 ? (
     <div>
       {authors.map((a, i) => (
@@ -41,6 +41,7 @@ const MetaResearch: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter: { d
       <div dangerouslySetInnerHTML={{ __html: publication }} />
       <DateTime date={date} label="Online" />
       <DateTime date={lastMod} label="Updated" />
+      <DateTime date={accepted} label="Accepted" />
     </>
   );
 };
