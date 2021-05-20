@@ -1,8 +1,11 @@
 ---
 title: Faculty in France over the past 20 years
 date: 2019-06-21
+lastMod: 2021-05-20
 tags: []
 ---
+
+*Update (2021)*: With the switch to Gatsby, this chart doesn't work anymore; I will try to make it work with React but I cannot really give any ETA.
 
 Recently the French ministry for Higher Education and Research [released some data on demographics among lecturers and professors in France](http://www.enseignementsup-recherche.gouv.fr/cid85019/fiches-demographiques-des-sections-du-cnu.html).
 I was proctoring an exam yesterday and couldn't do anything too mentally taxing (because students might cheat :worried:) so I compiled the data in a somewhat interactive chart.
