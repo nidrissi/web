@@ -37,7 +37,7 @@ This website is currently hosted on AWS, which costs me a few cents per month. T
 
 This program is free software: you can redistribute it and/or modify it under the terms of the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html) as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-The source code is [available on GitHub](https://github.com/nidrissi/a2b).
+The source code is [available on GitHub](https://github.com/nidrissi/nidrissi/tree/master/src/a2b).
 
 ### Does it work?
 
@@ -47,7 +47,7 @@ I guess it does, and I use it daily. However, it is in a preliminary state. Ther
 
 ### I found a bug!
 
-Please [report an issue on Github](https://github.com/nidrissi/a2b/issues). Or better yet, [feel free to submit a pull request](https://github.com/nidrissi/a2b/pulls) 🙂.
+Please [report an issue on Github](https://github.com/nidrissi/nidrissi/issues). Or better yet, [feel free to submit a pull request](https://github.com/nidrissi/nidrissi/pulls) 🙂.
 
 ## Search
 
@@ -57,7 +57,7 @@ I use the [arXiv API](https://arxiv.org/help/api/index) to fetch entries. This p
 
 ### What are the conditions for an entry to be displayed?
 
-An entry will appear in the search results if it matches _all_ the conditions inputted in the search form. It is theoretically possible to build more complex search queries using the API, but this would require revamping the form. Feel free to [suggest changes](https://github.com/nidrissi/a2b/issues) if you have an idea on how to do that nicely, and/or [contribute to the code](https://github.com/nidrissi/a2b/pulls) ☺.
+An entry will appear in the search results if it matches _all_ the conditions inputted in the search form. It is theoretically possible to build more complex search queries using the API, but this would require revamping the form. Feel free to [suggest changes](https://github.com/nidrissi/nidrissi/issues) if you have an idea on how to do that nicely, and/or [contribute to the code](https://github.com/nidrissi/nidrissi/pulls) ☺.
 
 ### I cannot find entries with special characters
 
