@@ -13,7 +13,7 @@ I am/was a member of:
 ---
 
 I have written a tool which I called [arXiv2BibLaTeX](/misc/a2b) to produce BibLaTeX entries from arXiv preprints.
-It is of course open source: the code is hosted on [GitHub](https://github.com/nidrissi/a2b).
+It is of course open source: the code is hosted on [GitHub](https://github.com/nidrissi/nidrissi/tree/master/src/a2b).
 
 ---
 
