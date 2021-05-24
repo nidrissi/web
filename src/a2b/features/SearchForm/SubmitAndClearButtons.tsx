@@ -11,7 +11,7 @@ const SubmitAndClearButtons: React.FC<{ isLoading: boolean }> = ({
   return (
     <div className="row-span-full flex space-x-2">
       <button
-        className={`block flex-grow p-2 bg-blue-800 text-white rounded-md ${isLoading ? "cursor-not-allowed" : ""
+        className={`block flex-grow p-2 bg-blue-800 text-white rounded-md ${isLoading ? "cursor-wait" : ""
           }`}
         disabled={isLoading}
         type="submit"
