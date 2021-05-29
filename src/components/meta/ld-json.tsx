@@ -1,13 +1,17 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const LDJSON: React.FC<{ data: Object }> = ({ data }) => {
+const LdJSON: React.FC<{ data: Object }> = ({ data }) => {
+  // remove empty fields
+  const cleanedData = data;
+  Object.keys(cleanedData).forEach(key => !cleanedData[key] && delete cleanedData[key]);
+
   return (
     <Helmet>
       <script type="application/ld+json">
-        {JSON.stringify(data)}
+        {JSON.stringify(cleanedData)}
       </script>
     </Helmet>
   )
 };
-export default LDJSON;
+export default LdJSON;
