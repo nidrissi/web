@@ -13,7 +13,7 @@ urls:
     - name: M2 Fundamental mathematics
       url: http://master-math-fonda.imj-prg.fr/
   customFile:
-    - name: Homework
+    - name: Solved homework
       file: devoir.pdf
     - name: Exam (en)
       file: examen-en.pdf
