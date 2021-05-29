@@ -21,18 +21,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // The components and optional pagination for lists
   const listAssociation = {
     post: {
-      component: './src/components/Lists/Posts.tsx',
+      component: './src/lists/Posts.tsx',
       perPage: 5
     },
     talk: {
-      component: './src/components/Lists/Talks.tsx',
+      component: './src/lists/Talks.tsx',
       perPage: 5
     },
     class: {
-      component: './src/components/Lists/Classes.tsx'
+      component: './src/lists/Classes.tsx'
     },
     research: {
-      component: './src/components/Lists/Research.tsx'
+      component: './src/lists/Research.tsx'
     },
   };
 
@@ -125,7 +125,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   tags.forEach(tag => {
     createPage({
       path: `/tag/${tag.fieldValue}/`,
-      component: path.resolve("./src/components/Lists/Tags.tsx"),
+      component: path.resolve("./src/lists/Tags.tsx"),
       context: {
         tag: tag.fieldValue,
       },

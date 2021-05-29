@@ -1,10 +1,11 @@
 import React from "react";
 import { graphql } from "gatsby";
-import Layout from "../Layout";
-import Mini from "../Mini";
-import { Frontmatter } from "../meta";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTag } from "@fortawesome/free-solid-svg-icons";
+
+import Layout from "../components/Layout";
+import Mini from "../components/Mini";
+import { Frontmatter } from "../components/meta";
 
 type TagListProps = {
   data: {
