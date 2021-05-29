@@ -26,7 +26,7 @@ const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
       {show ? (
         <ol
           id="toc-body"
-          className="list-decimal list-inside border-t border-white mt-2 mb-1 px-1"
+          className="list-decimal list-inside text-lg border-t border-white mt-2 mb-1 px-1"
           aria-hidden={!show}
         >
           {items.map(({ url, title }) => (
