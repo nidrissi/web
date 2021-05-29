@@ -18,7 +18,7 @@ type TagListProps = {
 const TagList: React.FC<TagListProps> = ({ data: { allMdx: { group } } }) => {
   return (
     <Layout title="All Tags" description="The list of all tags used on the website.">
-      <h1 className="text-4xl font-bold mb-8">
+      <h1 role="banner" className="text-4xl font-bold mb-8">
         <FontAwesomeIcon icon={faTags} className="mr-1" />
         All Tags
       </h1>

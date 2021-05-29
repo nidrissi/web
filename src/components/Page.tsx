@@ -52,7 +52,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
   return (
     <Layout title={frontmatter.title} description={excerpt} date={frontmatter.date} lastMod={frontmatter.lastMod}>
       <header className="mb-4">
-        <h1 className="text-3xl font-bold text-gray-700">
+        <h1 role="banner" className="text-3xl font-bold text-gray-700">
           {actualTitle(frontmatter, type)}
         </h1>
         <Meta frontmatter={frontmatter} type={type} />

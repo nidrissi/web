@@ -31,7 +31,7 @@ const PostList: React.FC<PostListProps> = ({ data, pageContext }) => {
 
   return (
     <Layout title={title} description="My blog posts.">
-      <h1 className="text-4xl font-bold mb-4">
+      <h1 role="banner" className="text-4xl font-bold mb-4">
         {title}
       </h1>
       <div className="flex flex-col gap-4">
