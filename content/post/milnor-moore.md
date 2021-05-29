@@ -141,5 +141,5 @@ Now the (dual) Poincaré--Birkhoff--Witt theorem says that $\mathbb{U}^cQH \cong
 
 ## References
 
-- Benoit Fresse. Homotopy of Operads and Grothendieck–Teichmüller Groups. Preprint. 2015. [URL.](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/)
-- John W. Milnor and John C. Moore. “On the structure of Hopf algebras”. In: _Ann. of Math._ (2) 81 (1965), pp. 211–264. issn: 0003-486X. JSTOR: [1970615](http://www.jstor.org/stable/1970615). [MR0174052](http://www.ams.org/mathscinet-getitem?mr=0174052).
+- Benoit Fresse. Homotopy of Operads and Grothendieck--Teichmüller Groups. Preprint. 2015. [URL.](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/)
+- John W. Milnor and John C. Moore. “On the structure of Hopf algebras”. In: _Ann. of Math._ (2) 81 (1965), pp. 211--264. issn: 0003-486X. JSTOR: [1970615](http://www.jstor.org/stable/1970615). [MR0174052](http://www.ams.org/mathscinet-getitem?mr=0174052).

@@ -3,7 +3,7 @@ title: "Introduction to Homotopy Theory"
 cursus: M2 Fundamental Mathematics (S2)
 what: Lectures
 time: 24h
-year: 2019–2020
+year: 2019-2020
 date: 2020-01-01
 lastMod: 2020-04-30
 urls:
@@ -21,7 +21,7 @@ urls:
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 
-The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of $\infty$-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory – Quillen's model categories – and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains – singular or de Rham – encode topological spaces up to rational homotopy.
+The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of $\infty$-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory -- Quillen's model categories -- and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains -- singular or de Rham -- encode topological spaces up to rational homotopy.
 
 **Prerequisites.** It is advised to have already taken a class on algebraic topology as well as an introduction to homological algebra.
 
@@ -75,15 +75,15 @@ It covered chapters 1 and 2.
 
 ## Bibliography
 
-Grégory Ginot gave [a course in 2017–2019 on the same topic](https://www.math.univ-paris13.fr/~ginot/Homotopie).
+Grégory Ginot gave [a course in 2017--2019 on the same topic](https://www.math.univ-paris13.fr/~ginot/Homotopie).
 On his webpage, you can find [**his lecture notes**](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf), as well as past exercise sheets and past exams.
 
 Works on homotopy theory:
 
-- **William G. Dwyer et Jan Spaliński. "Homotopy theories and model categories".** In: _Handbook of algebraic topology_. Amsterdam: North-Holland, 1995, pp. 73–126. [DOI:10.1016/B978-044481779-2/50003-1](https://dx.doi.org/10.1016/B978-044481779-2/50003-1). [MR1361887](http://www.ams.org/mathscinet-getitem?mr=1361887). [Zbl:0869.55018](https://zbmath.org/?q=an%3A0869.55018). (Introduction to model categories.)
+- **William G. Dwyer et Jan Spaliński. "Homotopy theories and model categories".** In: _Handbook of algebraic topology_. Amsterdam: North-Holland, 1995, pp. 73--126. [DOI:10.1016/B978-044481779-2/50003-1](https://dx.doi.org/10.1016/B978-044481779-2/50003-1). [MR1361887](http://www.ams.org/mathscinet-getitem?mr=1361887). [Zbl:0869.55018](https://zbmath.org/?q=an%3A0869.55018). (Introduction to model categories.)
 - **Yves Félix, Stephen Halperin et Jean-Claude Thomas. _Rational Homotopy Theory_.** Graduate Texts in Mathematics 205. New York : Springer-Verlag, 2001, p. xxxiv+535. ISBN : 0-387-95068-0. DOI : [10.1007/978-1-4613-0105-9](https://doi.org/10.1007/978-1-4613-0105-9). (Reference book on rational homotopy theory.)
 - **Paul G. Goerss et John F. Jardine. _Simplicial homotopy theory_.** Progress in Mathematics 174. Basel: Birkhäuser Verlag, 1999, pp. xvi+510. ISBN: 3-7643-6064-X. [DOI:10.1007/978-3-0348-8707-6](https://doi.org/10.1007/978-3-0348-8707-6). [MR1711612](http://www.ams.org/mathscinet-getitem?mr=1711612). [Zbl:0949.55001](https://zbmath.org/?q=an%3A0949.55001). (Book on simplicial sets and their homotopical properties.)
-- **Kathryn Hess. "Rational homotopy theory: a brief introduction".** In: _Interactions between homotopy theory and algebra_. Contemp. Math. 436. Providence, RI: Amer. Math. Soc., 2007, pp. 175–202. [DOI:10.1090/conm/436/08409](https://dx.doi.org/10.1090/conm/436/08409). [arXiv:math/0604626](http://arxiv.org/abs/math/0604626). [MR2355774](http://www.ams.org/mathscinet-getitem?mr=2355774). [Zbl:1128.55010](https://zbmath.org/?q=an%3A1128.55010).
+- **Kathryn Hess. "Rational homotopy theory: a brief introduction".** In: _Interactions between homotopy theory and algebra_. Contemp. Math. 436. Providence, RI: Amer. Math. Soc., 2007, pp. 175--202. [DOI:10.1090/conm/436/08409](https://dx.doi.org/10.1090/conm/436/08409). [arXiv:math/0604626](http://arxiv.org/abs/math/0604626). [MR2355774](http://www.ams.org/mathscinet-getitem?mr=2355774). [Zbl:1128.55010](https://zbmath.org/?q=an%3A1128.55010).
 - **Mark Hovey. _Model categories_.** Mathematical Surveys and Monographs 63. Providence, RI: American Mathematical Society, 1999, pp. xii+209. ISBN: 0-8218-1359-5. [MR1650134](http://www.ams.org/mathscinet-getitem?mr=1650134). [Zbl:0909.55001](https://zbmath.org/?q=an%3A0909.55001). (Book on model categories.)
 - **Jacob Lurie. _Higher topos theory_.** Annals of Mathematics Studies 170. Princeton, NJ: Princeton University Press, 2009, pp. xviii+925. ISBN: 978-0-691-14049-0. [MR2522659](http://www.ams.org/mathscinet-getitem?mr=2522659). [Zbl:1175.18001](https://zbmath.org/?q=an%3A1175.18001) (Very complete book on $\infty$-categories.)
 

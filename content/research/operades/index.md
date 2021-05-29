@@ -13,7 +13,7 @@ urls:
       url: http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/
 ---
 
-Nous donnons une introduction au domaine des opérades, des objets qui encodent les structures algébriques. Après les avoir définies, nous présentons plusieurs domaines d’application des opérades : espaces de lacets itérés, formalité, algèbres homotopiques, longs nœuds et groupe de Grothendieck–Teichmüller.
+Nous donnons une introduction au domaine des opérades, des objets qui encodent les structures algébriques. Après les avoir définies, nous présentons plusieurs domaines d’application des opérades : espaces de lacets itérés, formalité, algèbres homotopiques, longs nœuds et groupe de Grothendieck--Teichmüller.
 
 ***
 

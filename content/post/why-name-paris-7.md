@@ -51,7 +51,7 @@ Since none were as big as the university of Paris, the "traditional" split was t
 ## Merging back
 
 Of course, this is not the end of the story.
-Some time ago, it was realized that French universities do not perform very well in international rankings of universities – you know the ones.
+Some time ago, it was realized that French universities do not perform very well in international rankings of universities -- you know the ones.
 There are several reasons that French universities are not ranked well, but an important one is that the criteria used by these rankings are often absolute numbers, not compared to the number of students of the university, which led to some absurdities.
 The political power took this very seriously.
 In fact, in 2007, president Sarkozy addressed a [letter of mission](http://discours.vie-publique.fr/notices/077002458.html) to Mrs. Pécresse, the ministry of Higher Education and Research, expressly asking her to "improve the ranks of [French] higher education centers in international rankings, with the objective of getting at least two French establishments in the top 20 and ten in the top 50".
