@@ -14,7 +14,7 @@ const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
   const [show, setShow] = useState(false);
 
   return items ? (
-    <div className="max-w-md my-2 rounded-md border border-blue-800 text-blue-800">
+    <nav className="max-w-md my-2 rounded-md border border-blue-800 text-blue-800">
       <button
         className="block focus:outline-none w-full p-1 text-lg hover:bg-blue-800 hover:text-white"
         onClick={() => setShow(!show)}
@@ -23,16 +23,23 @@ const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
         Contents
         <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
       </button>
-      <ol className={`${show ? 'block' : 'hidden'} list-decimal list-inside border-t border-white mt-2 mb-1 px-1`}>
-        {items.map(({ url, title }) => (
-          <li key={url}>
-            <Link to={url} className="hover:underline">
-              {title}
-            </Link>
-          </li>
-        ))}
-      </ol>
-    </div>
+      {show ? (
+        <ol
+          id="toc-body"
+          className="list-decimal list-inside border-t border-white mt-2 mb-1 px-1"
+          aria-hidden={!show}
+        >
+          {items.map(({ url, title }) => (
+            <li key={url}>
+              <Link to={url} className="hover:underline">
+                {title}
+              </Link>
+            </li>
+          ))}
+        </ol>
+      ) : null
+      }
+    </nav>
   ) : null;
 }
 export default TOC;

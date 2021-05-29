@@ -18,7 +18,7 @@ const Error404: React.FC<{}> = () => {
     <Layout title="404 Not Found" description="Not Found">
       <div className="w-full h-48 rounded-xl bg-gray-300 flex">
         <div className="my-auto mx-auto text-center">
-          <h1 className="text-4xl font-bold mb-4">404 Not Found</h1>
+          <h1 role="banner" className="text-4xl font-bold mb-4">404 Not Found</h1>
           <Link to="/" className="text-2xl text-blue-600 hover:underline">
             <FontAwesomeIcon icon={faUndo} className="mr-1" />
             Go back

@@ -31,7 +31,7 @@ const TalkList: React.FC<TalkListProps> = ({ data, pageContext }) => {
 
   return (
     <Layout title={title} description="My talks.">
-      <h1 className="text-4xl font-bold mb-3">
+      <h1 role="banner" className="text-4xl font-bold mb-3">
         {title}
       </h1>
       <div className="flex flex-col gap-4">
