@@ -1,9 +1,9 @@
 import React from "react";
 import { graphql } from "gatsby";
 
-import Layout from '../Layout'
-import Mini from "../Mini";
-import { Frontmatter } from "../meta";
+import Layout from '../components/Layout'
+import Mini from "../components/Mini";
+import { Frontmatter } from "../components/meta";
 import Pager from "./Pager";
 
 type TalkListProps = {
