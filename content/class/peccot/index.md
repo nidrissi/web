@@ -4,7 +4,7 @@ title: Real homotopy of configuration spaces
 cursus: Collège de France
 what: Peccot Lecture
 time: 8h
-year: 2019–2020
+year: 2019-2020
 date: 2020-03-04
 lastMod: 2020-06-26
 urls:
@@ -51,7 +51,7 @@ Due to the COVID-19 pandemic, the last two lessons were postponed respectively t
 ## Lessons
 
 <div class="flex flex-col gap-2 sm:grid sm:grid-cols-2 md:grid-cols-4">
-<PeccotCard number={1} image={props.localImages[0]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm" date="March 4th 2020, 11:00–13:00">
+<PeccotCard number={1} image={props.localImages[0]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-04-11h00.htm" date="March 4th 2020, 11:00--13:00">
 Chapter 1: Configuration spaces of manifolds
 
 - Generalities on configuration spaces
@@ -61,18 +61,18 @@ Chapter 1: Configuration spaces of manifolds
 
 </PeccotCard>
 
-<PeccotCard number={2} image={props.localImages[1]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm" date="March 11th 2020, 11:00–13:00">
-Chapter 2: The Lambrechts–Stanley model
+<PeccotCard number={2} image={props.localImages[1]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-03-11-11h00.htm" date="March 11th 2020, 11:00--13:00">
+Chapter 2: The Lambrechts--Stanley model
 
 - Definition of the model and theorem
 - Compactifications of configuration spaces
 - Semi-algebraic sets and forms
-- Definition of the unreduced graph complex – Propagator
+- Definition of the unreduced graph complex -- Propagator
 
 </PeccotCard>
 
 <PeccotCard number={3} image={props.localImages[2]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm" date="May 25th 2020 (online)">
-Chapter 2: The Lambrechts–Stanley model (continued)
+Chapter 2: The Lambrechts--Stanley model (continued)
 
 - Partition function and reduced graph complex
 - Simplification of the partition function
@@ -81,19 +81,19 @@ Chapter 2: The Lambrechts–Stanley model (continued)
 Chapter 3: Manifolds with boundary
 
 - Motivation: gluing
-- Poincaré–Lefschetz duality models
+- Poincaré--Lefschetz duality models
 
 </PeccotCard>
 
 <PeccotCard number={4} image={props.localImages[3]} link="https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm" date="May 28th 2020 (online)">
 Chapter 3: Manifolds with boundary (continued)
 
-- Fulton–MacPherson compactifications
+- Fulton--MacPherson compactifications
 - Propagators
 - Graph complexes
 - Simplification of the partition functions
 - End of the proof
-- Perturbed Lambrechts–Stanley model
+- Perturbed Lambrechts--Stanley model
 
 Chapter 4: Operads
 
