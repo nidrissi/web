@@ -8,8 +8,6 @@ publication: Preprint v2, 68 pages.
 urls:
   read: bar-cobar.pdf
   code:
-  slides:
-  video:
   source: https://arxiv.org/e-print/1911.09474
   arxiv: "1911.09474"
   doi:
