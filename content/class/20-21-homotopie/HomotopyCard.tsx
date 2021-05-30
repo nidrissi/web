@@ -1,6 +1,6 @@
 import React from "react";
 import { ImageDataLike } from "gatsby-plugin-image";
-import { faChalkboard, faPlayCircle } from "@fortawesome/free-solid-svg-icons";
+import { faChalkboard, faVideo } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type CardProps = {
@@ -42,7 +42,7 @@ const Card: React.FC<CardProps> = ({ number, date, children, video, images }) =>
           target="_blank"
           rel="noreferrer noopener"
         >
-          <FontAwesomeIcon icon={faPlayCircle} className="mr-1" />
+          <FontAwesomeIcon icon={faVideo} className="mr-1" />
           Video
         </a>
       </div>

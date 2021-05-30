@@ -1,5 +1,5 @@
 import React from "react"
-import { faPlayCircle } from "@fortawesome/free-solid-svg-icons"
+import { faVideo } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { getImage, GatsbyImage, ImageDataLike } from 'gatsby-plugin-image';
 
@@ -30,7 +30,7 @@ const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, image, chil
         {children}
       </div>
       <a className="block p-2 bg-gray-200 rounded-b-md text-center" href={link} rel="noreferrer noopener">
-        <FontAwesomeIcon icon={faPlayCircle} className="mr-1" />
+        <FontAwesomeIcon icon={faVideo} className="mr-1" />
         Video
       </a>
     </div>

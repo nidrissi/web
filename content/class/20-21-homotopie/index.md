@@ -37,8 +37,6 @@ localImages:
 ---
 
 import HomotopyCard from "./HomotopyCard.tsx";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook } from "@fortawesome/free-solid-svg-icons";
 
 The goal of this course is to introduce modern homotopy theory, its tools and applications.
 We will be particularly interested in two examples: chain complexes (see the previous Homology course) and topological spaces.
@@ -127,7 +125,7 @@ Electronic devices will be forbidden.
 
 ## Bibliography
 
-[<FontAwesomeIcon icon={faBook} /> Lecture notes are here.](./homotopie.pdf)
+[Lecture notes are here.](./homotopie.pdf)
 
 I gave a [similar course last year](/class/19-20-homotopie), you can in particular find past exams.
 Grégory Ginot gave a [course in 2017--2018--2019 on the same subject](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
