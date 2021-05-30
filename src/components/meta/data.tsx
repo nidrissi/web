@@ -21,7 +21,7 @@ const MetaData: React.FC<{ frontmatter: Frontmatter }> = ({
       <LdJSON data={data} />
       <DateTime date={date} label="Published" />
       <DateTime date={lastMod} label="Updated" />
-      {tags?.map((tag) => (
+      {tags?.sort().map((tag) => (
         <TagLink tag={tag} key={tag} />
       ))}
     </>
