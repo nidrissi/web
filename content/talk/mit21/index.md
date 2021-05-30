@@ -5,7 +5,7 @@ event: Topology Seminar
 location: MIT (Online)
 urls:
   event: https://math.mit.edu/topology/
-  pdf:
+  read:
   slides: mit.png
   video:
 ---

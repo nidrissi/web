@@ -8,7 +8,7 @@ status: publication
 publication: "In: <em>Israel J. Math.</em> (2017) 221.2, pp. 941&ndash;972."
 title: Swiss-Cheese Operad and Drinfeld Center
 urls:
-  pdf: center.pdf
+  read: center.pdf
   arxiv: "1507.06844"
   source: https://arxiv.org/e-print/1507.06844
   doi: 10.1007/s11856-017-1579-7

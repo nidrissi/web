@@ -5,7 +5,7 @@ authors: [me]
 status: preprint
 publication: Peccot Lecture, 162 pages, submitted
 urls:
-  pdf: peccot.pdf
+  read: peccot.pdf
 ---
 
 In this lecture, we will study the real homotopy type of configuration spaces of manifolds.

@@ -5,7 +5,7 @@ event: Higher Structures
 location: Centre international de rencontres mathématiques (CIRM), Luminy
 urls:
   event: "https://conferences.cirm-math.fr/1959.html"
-  pdf:
+  read:
   slides: cirm.pdf
   video:
 ---

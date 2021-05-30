@@ -6,7 +6,7 @@ authors: [ricardo, julien, me]
 status: preprint
 publication: Preprint v2, 68 pages.
 urls:
-  pdf: bar-cobar.pdf
+  read: bar-cobar.pdf
   code:
   slides:
   video:

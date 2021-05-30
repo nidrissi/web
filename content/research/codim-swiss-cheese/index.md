@@ -8,7 +8,7 @@ authors:
   - me
 publication: "To appear in <em>Algebr. Geom. Topol.</em>, 47 p."
 urls:
-  pdf: sfm-mn.pdf
+  read: sfm-mn.pdf
   arxiv: "1809.07667"
   hal: "01878406"
   source: https://arxiv.org/e-print/1809.07667

@@ -6,7 +6,7 @@ status: publication
 publication: "In: <em>Grad. J. Math.</em> (2016) 1.1, pp. 9&ndash;17."
 title: Opérades et Structures Commutatives à Homotopie Près
 urls:
-  pdf: gradmath.pdf
+  read: gradmath.pdf
   mathrev: "3848667"
   custom:
     - name: Journal

@@ -5,7 +5,7 @@ event: Málaga & Topology Meeting
 location: Universidad de Málaga
 urls:
   event: https://sites.google.com/view/jibiri-and-malaga-topology/m%C3%A1laga-topology-meeting
-  pdf:
+  read:
   slides:
   video:
 ---

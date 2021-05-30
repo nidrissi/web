@@ -7,7 +7,7 @@ accepted: 2018-11-15
 publication: "In: <em>Invent. Math.</em> (2019) 216.1, pp. 1&ndash;68."
 title: The Lambrechts–Stanley Model of Configuration Spaces
 urls:
-  pdf: ls-model.pdf
+  read: ls-model.pdf
   arxiv: "1608.08054"
   source: https://arxiv.org/e-print/1608.08054
   hal: "01438861"

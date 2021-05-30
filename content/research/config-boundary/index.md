@@ -5,7 +5,7 @@ status: preprint
 authors: [ricardo, me, pascal, thomas]
 publication: Preprint v1, 107 p.
 urls:
-  pdf: config-boundary.pdf
+  read: config-boundary.pdf
   arxiv: "1802.00716"
   source: https://arxiv.org/e-print/1802.00716
 ---

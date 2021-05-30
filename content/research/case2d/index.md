@@ -7,7 +7,7 @@ authors: [ricardo, me, thomas]
 status: preprint
 publication: Preprint v2, 50 pages.
 urls:
-  pdf: case2d.pdf
+  read: case2d.pdf
   code:
   slides:
   video:

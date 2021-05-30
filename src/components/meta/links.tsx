@@ -1,17 +1,17 @@
 import React from "react";
 import {
-  faBook,
   faCalendarDay,
   faCode,
-  faFilePdf,
   faDesktop,
   faVideo,
   IconDefinition,
   faLink,
   faFile,
+  faBookOpen,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { graphql } from "gatsby";
+import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
 
 type LocalFile = {
   publicURL: string;
@@ -21,7 +21,7 @@ export type Urls = {
   doi: string;
   mathrev: string;
   notes: LocalFile;
-  pdf: LocalFile;
+  read: LocalFile;
   slides: LocalFile;
   source: string;
   video: string;
@@ -33,7 +33,7 @@ export type Urls = {
 export const allUrlsFragment = graphql`
 fragment allUrlsFragment on MdxFrontmatter {
 urls {
-  pdf {
+  read {
     publicURL
   }
   slides {
@@ -71,10 +71,10 @@ type LinkDefinition = {
 };
 const linkDefinitions: LinkDefinition[] = [
   { link: "event", label: "Event", icon: faCalendarDay },
-  { link: "pdf", label: "PDF", icon: faFilePdf },
+  { link: "read", label: "Read", icon: faFileAlt },
   { link: "slides", label: "Slides", icon: faDesktop },
   { link: "video", label: "Video", icon: faVideo },
-  { link: "notes", label: "Notes", icon: faBook },
+  { link: "notes", label: "Notes", icon: faBookOpen },
   {
     link: "doi",
     label: (id) => `DOI:${id}`,

@@ -5,7 +5,7 @@ event: Research Seminar on Algebraic Topology
 location: Universität Hamburg (online)
 urls:
   event: https://www.math.uni-hamburg.de/home/richter/research-seminar-jhbr.html
-  pdf:
+  read:
   slides: hamburg.png
   video:
 ---

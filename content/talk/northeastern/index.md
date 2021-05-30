@@ -5,7 +5,7 @@ event: Topology seminar
 location: Northeastern University (online)
 urls:
   event: https://express.northeastern.edu/topology/
-  pdf:
+  read:
   slides: northeastern.png
   video:
 ---
