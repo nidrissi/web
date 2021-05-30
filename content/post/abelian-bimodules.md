@@ -14,7 +14,11 @@ As I said, this post is about abelian bimodules, sometimes also called infinites
 **Definition.** Let $\mathtt{P}$, $\mathtt{Q}$ be two operads in a symmetric monoidal category $\mathsf{C}$. An _abelian $(\mathtt{P}, \mathtt{Q})$-bimodule_ is a symmetric collection $M = \{ M(n) \}_{n \ge 0}$ equipped with composition morphisms:
 
 $$
-M(k) \otimes \mathtt{Q}(l) \xrightarrow{\circ_i} M(k+l-1), \\ \mathtt{P}(k) \otimes M(l) \xrightarrow{\circ_i} M(k+l-1),
+M(k) \otimes \mathtt{Q}(l) \xrightarrow{\circ_i} M(k+l-1)
+$$
+
+$$
+\mathtt{P}(k) \otimes M(l) \xrightarrow{\circ_i} M(k+l-1),
 $$
 
 satisfying obvious equivariance and associativity properties.
