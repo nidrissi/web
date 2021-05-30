@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-05-19
+lastMod: 2021-05-20
 urls:
   customFile:
   - name: CV (en)
@@ -326,7 +326,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">June 2021</div>
-<div class="sm:w-5/6"><span class="font-bold"><del>Barcelona Conference on Higher Structures</del></span>, <span class="italic">Centre de Recerca Matemàtica (CRM)</span>.<br/>Postponed due to COVID-19.</div>
+<div class="sm:w-5/6"><span class="font-bold"><del>Barcelona Conference on Higher Structures</del></span>, <span class="italic">Centre de Recerca Matemàtica (CRM)</span>, postponed to 2022.</div>
 </div>
 
 
