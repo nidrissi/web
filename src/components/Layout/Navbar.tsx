@@ -36,7 +36,7 @@ const Navbar: React.FC<{}> = () => {
         } items-center gap-4 mb-3 bg-green-800 text-gray-200 z-50`}
     >
       <div className="flex w-full md:hidden items-center justify-between">
-        <Link to="/" className="block p-2 font-bold text-xl">
+        <Link to="/" className="block p-2 font-semibold text-xl">
           Najib Idrissi
         </Link>
         <button
