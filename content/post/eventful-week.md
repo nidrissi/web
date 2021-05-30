@@ -1,7 +1,7 @@
 ---
 title: An Eventful Week
 date: 2018-05-26
-tags: ["job"]
+tags: [job]
 ---
 
 Last week was life-changing, to say the least. I was interviewed for two _maître de conférences_<sup>1</sup> positions, one in [Université Paris Diderot](https://www.univ-paris-diderot.fr/), the other in [Université Paris-Sud](http://www.u-psud.fr/fr/index.html). And... I got ranked first for both jobs! So by all accounts I should have a permanent position next September. The difficult question I have to answer soon is which one. As they correspond to rather different profiles and expectations, this is not an easy choice.

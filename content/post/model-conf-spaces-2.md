@@ -1,6 +1,6 @@
 ---
-date: 2017-02-24T00:00:00Z
-tags: ["math", "conf-spaces"]
+date: 2017-02-24
+tags: [math, conf-spaces]
 title: A Model for Configuration Spaces of Closed Manifolds
 ---
 

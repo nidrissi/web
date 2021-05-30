@@ -103,5 +103,5 @@ So I did what was necessary for the few labs that did mention it, and hope that 
 Now I'm waiting for the committees deciding on who gets auditioned.
 Let's hope!
 
-PS: Also, a big shout-out to [Opération Postes](http://postes.smai.emath.fr/2018/index.php), which centralizes a lot of information about all the available positions.
+PS: Also, a big shout-out to [Opération Postes](http://postes.smai.emath.fr), which centralizes a lot of information about all the available positions.
 This website was extremely helpful for me.

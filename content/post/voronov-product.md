@@ -1,5 +1,5 @@
 ---
-date: 2016-09-22T00:00:00Z
+date: 2016-09-22
 tags: ["math", "operads", "swiss-cheese"]
 title: The Voronov Product of Operads
 ---

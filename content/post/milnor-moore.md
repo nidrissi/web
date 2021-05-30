@@ -1,5 +1,5 @@
 ---
-date: 2016-03-10T00:00:00Z
+date: 2016-03-10
 tags: ["math", "algtop"]
 title: The Milnor–Moore Theorem
 ---

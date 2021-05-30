@@ -1,8 +1,7 @@
 ---
 title: Real homotopy of configuration spaces
-#toc: true
 cursus: Collège de France
-what: Peccot Lecture
+what: Cours Peccot
 time: 8h
 year: 2019-2020
 date: 2020-03-04
@@ -27,6 +26,7 @@ localImages:
   - thumb2.jpg
   - thumb3.jpg
   - thumb4.jpg
+tags: [peccot]
 ---
 
 import PeccotCard from "./PeccotCard";

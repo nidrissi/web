@@ -2,7 +2,7 @@
 title: Select-Exams
 date: 2021-04-19
 lastMod: 2021-04-30
-tags: [code, teaching]
+tags: [code, class]
 urls:
   source: https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92
 localImages:

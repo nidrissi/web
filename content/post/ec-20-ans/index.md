@@ -2,7 +2,7 @@
 title: Faculty in France over the past 20 years
 date: 2019-06-21
 lastMod: 2021-05-20
-tags: []
+tags: [job]
 ---
 
 *Update (2021)*: With the switch to Gatsby, this chart doesn't work anymore; I will try to make it work with React but I cannot really give any ETA.

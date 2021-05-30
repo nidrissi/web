@@ -1,7 +1,7 @@
 ---
 title: First Peccot lecture
 date: 2020-03-05
-tags: [math, peccot]
+tags: [math, peccot, class, photo]
 ---
 
 Yesterday was my first [Peccot lecture](/class/peccot)!

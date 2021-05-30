@@ -1,6 +1,6 @@
 ---
-date: 2015-12-21T00:00:00Z
-tags: ["blog"]
+date: 2015-12-21
+tags: [code]
 title: Hello Everyone!
 ---
 

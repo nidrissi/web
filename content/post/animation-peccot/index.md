@@ -1,7 +1,7 @@
 ---
 title: Video
 date: 2020-02-28
-tags: [math, peccot, animation]
+tags: [math, class, peccot, animation]
 ---
 
 I am finishing to prepare my [Peccot Lectures](/class/peccot) that start next week.

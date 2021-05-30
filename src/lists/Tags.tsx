@@ -61,7 +61,25 @@ query tagListQuery($tag: String!) {
         date
         lastMod
         tags
+        publication
+        authors
+        accepted
+        cursus
+        what
+        time
+        year
+        event
+        TBA
+        location
         ...allUrlsFragment
+        localImages {
+          childImageSharp {
+            gatsbyImageData
+            original {
+              src
+            }
+          }
+        }
       }
     }
   }

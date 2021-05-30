@@ -1,6 +1,6 @@
 ---
-date: 2016-01-31T00:00:00Z
-tags: ['paper']
+date: 2016-01-31
+tags: [paper, operads]
 title: Paper Accepted!
 ---
 

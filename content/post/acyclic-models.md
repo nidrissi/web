@@ -1,7 +1,7 @@
 ---
-date: 2016-01-15T00:00:00Z
-tags: ["math", "algtop"]
 title: Acyclic Models
+date: 2016-01-15
+tags: [math, algtop]
 ---
 
 The theorem(s) of acyclic models are a rather powerful technique for proving that some functors defined on truncated chain complexes can be extended in higher dimensions, and that two such functors are homotopic, by proving it on a small class of "model" objects.

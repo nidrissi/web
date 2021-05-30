@@ -1,6 +1,6 @@
 ---
-date: 2016-06-16T00:00:00Z
-tags: ['blog']
+date: 2016-06-16
+tags: [code]
 title: New Domain Name
 ---
 

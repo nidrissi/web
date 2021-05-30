@@ -2,7 +2,7 @@
 title: Peccot lecture & COVID-19
 date: 2020-05-25
 lastMod: 2020-06-26
-tags: [math, peccot]
+tags: [math, peccot, class]
 ---
 
 **Update**: The videos are now available on the Collège de France's website! Please [go there for the third lecture](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-25-11h00.htm) and [there for the fourth lecture](https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2020-05-28-11h00.htm).

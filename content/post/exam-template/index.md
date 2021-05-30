@@ -1,7 +1,7 @@
 ---
 title: Exam Template for Pandoc
 date: 2020-11-20
-tags: [code, teaching]
+tags: [code, class]
 urls:
   source: https://github.com/nidrissi/exam-template
 ---
