@@ -31,12 +31,14 @@ const Index: React.FC<{ data: IndexQuery, description: string }> = ({ children }
 
   return (
     <Layout title={siteTitle} description={siteDescription}>
-      <StaticImage
-        src="../../images/photo.jpg"
-        alt="A photo of me."
-        className="float-right m-2 rounded-md w-28 sm:w-40"
-        loading="eager"
-      />
+      <div className="float-right m-3 p-1 border rounded-md">
+        <StaticImage
+          src="../../images/photo.jpg"
+          alt="A photo of me."
+          className="rounded-sm w-28 sm:w-40"
+          loading="eager"
+        />
+      </div>
       <article>
         <div className="prose prose-blue max-w-none mb-3">
           {children}
