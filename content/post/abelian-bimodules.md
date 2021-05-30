@@ -13,7 +13,9 @@ As I said, this post is about abelian bimodules, sometimes also called infinites
 
 **Definition.** Let $\mathtt{P}$, $\mathtt{Q}$ be two operads in a symmetric monoidal category $\mathsf{C}$. An _abelian $(\mathtt{P}, \mathtt{Q})$-bimodule_ is a symmetric collection $M = \{ M(n) \}_{n \ge 0}$ equipped with composition morphisms:
 
-$$M(k) \otimes \mathtt{Q}(l) \xrightarrow{\circ_i} M(k+l-1), \\ \mathtt{P}(k) \otimes M(l) \xrightarrow{\circ_i} M(k+l-1),$$
+$$
+M(k) \otimes \mathtt{Q}(l) \xrightarrow{\circ_i} M(k+l-1), \\ \mathtt{P}(k) \otimes M(l) \xrightarrow{\circ_i} M(k+l-1),
+$$
 
 satisfying obvious equivariance and associativity properties.
 
@@ -29,7 +31,9 @@ Various categories of (bi)modules over operads can be represented as diagrams ov
 
 **Definition.** The _PROP associated to $\mathtt{P}$_ is the symmetric monoidal category $\mathcal{F}(\mathtt{P})$ whose objects are finite sets and whose morphisms are given by:
 
-$$\operatorname{Hom}_{\mathcal{F}(\mathtt{P})}(A,B) = \coprod_{f : A \to B} \bigotimes_{b \in B} \mathtt{P}(f^{-1}(b)).$$
+$$
+\operatorname{Hom}_{\mathcal{F}(\mathtt{P})}(A,B) = \coprod_{f : A \to B} \bigotimes_{b \in B} \mathtt{P}(f^{-1}(b)).
+$$
 
 In this definition, we implicitly use the fact that operads can equivalently be defined as functors $\mathsf{Bij}^{op} \to \mathsf{C}$ instead of as symmetric collections. The composition of $\mathcal{F}(\mathtt{P})$ is explicit and better understood with a graphical calculus (see [Arone--Turchin, §4] or [Loday--Vallette, §5.4]). It is a symmetric monoidal category, with tensor product given on objects by disjoint union.
 
@@ -51,13 +55,17 @@ Now we define a new category, $\Gamma(\mathtt{P})$, to model abelian bimodules.
 
 **Definition.** [Arone--Turchin, Def. 4.5] The category $\Gamma(\mathtt{P})$ has as objects _pointed_ finite sets and morphisms are given by:
 
-$$\operatorname{Hom}_{\Gamma(\mathtt{P})}(S, T) = \bigoplus_{f : S \to T} \bigotimes_{t \in T} \mathtt{P}(f^{-1}(t)).$$
+$$
+\operatorname{Hom}_{\Gamma(\mathtt{P})}(S, T) = \bigoplus_{f : S \to T} \bigotimes_{t \in T} \mathtt{P}(f^{-1}(t)).
+$$
 
 The definition of $\Gamma(\mathtt{P})$ is suspiciously similar to the definition of $\mathcal{F}(\mathtt{P})$, but instead of finite sets one uses finite _pointed_ sets, and the map $f : S \to T$ appearing in the definition is a pointed map. Composition is defined just like the composition of $\mathcal{F}(\mathtt{P})$.
 
 Arone--Turchin then define a certain "twisted" version $\tilde{\Gamma}(\mathtt{P})$, with the same objects and morphisms as $\Gamma(\mathtt{P})$, but with a modified composition: if $S \xrightarrow{f} T \xrightarrow{g} U$ are pointed sets and maps, one must define a composition of the type:
 
-$$\bigotimes_{u \in U} \mathtt{P}(g^{-1}(u)) \otimes \bigotimes_{t \in T} \mathtt{P}(f^{-1}(t) \to \bigotimes_{u \in U} \mathtt{P}((gf)^{-1}(u)).$$
+$$
+\bigotimes_{u \in U} \mathtt{P}(g^{-1}(u)) \otimes \bigotimes_{t \in T} \mathtt{P}(f^{-1}(t) \to \bigotimes_{u \in U} \mathtt{P}((gf)^{-1}(u)).
+$$
 
 In $\Gamma(\mathtt{P})$, this is defined in a straightforward way using partial composition operations $\circ_t$ of $\mathtt{P}$. In $\tilde{\Gamma}(\mathtt{P})$, for the composition along the base point $* \in T$, the orders of $\mathtt{P}(g^{-1}(*)) \otimes \mathtt{P}(f^{-1}(*))$ are first switched, and only then is the partial composition $\circ_*$ used. The rest of the compositions aren't changed.
 

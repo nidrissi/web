@@ -29,7 +29,9 @@ GitHub Pages uses [Jekyll](https://jekyllrb.com/) to generate the website, a too
 
 The design itself is done with the [Bootstrap](https://getbootstrap.com/) framework (which uses [jQuery](https://jquery.com/) underneath). It makes it very easy to create navigation bars (at the top), fixed sidebars (on the right), etc. I settled on [Font Awesome](https://fortawesome.github.io/Font-Awesome/) for the icons. Again, check out the GitHub repository to see how it works. I also set up MathJax to produce math formulas:
 
-$$1+1=2.$$
+$$
+1+1=2.
+$$
 
 The lack of database came at a cost though: I couldn't host comments myself. I decided to use [Disqus](https://disqus.com/), which is apparently very popular. I wish I had found something a bit less intrusive though. **Note**: you can comment as a guest! It's not very intuitive, but start filling out "Sign up with disqus" and then choose "I'd rather post as a guest".
 

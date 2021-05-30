@@ -19,7 +19,9 @@ Without further ado, here is the theorem:
 
 **Theorem (Eckmann--Hilton argument).** Let $M$ be a set equipped with two [monoid](https://en.wikipedia.org/wiki/Monoid) structures $(M,*)$ and $(M, \cdot)$ sharing the same unit $1 \in M$. Assume that they satisfy the _interchange law_:
 
-$$(a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d).$$
+$$
+(a \cdot b) * (c \cdot d) = (a * c) \cdot (b * d).
+$$
 
 Then both structures are equal ($a * b = a \cdot b$) and moreover they are commutative ($a * b = b * a$).
 
@@ -27,7 +29,9 @@ Basically, what this means is that if you have a set with two "compatible" laws 
 
 The proof is amazingly concise:
 
-$$\begin{align} a * b & = (a \cdot 1) * (1 \cdot b) \\ & = (a * 1) \cdot (1 * b) \\ a * b & = a \cdot b \\ & = (1 * a) \cdot (b * 1) \\ & = (1 \cdot b) * (a \cdot 1) \\ a * b & = b * a. \end{align}$$
+$$
+\begin{align} a * b & = (a \cdot 1) * (1 \cdot b) \\ & = (a * 1) \cdot (1 * b) \\ a * b & = a \cdot b \\ & = (1 * a) \cdot (b * 1) \\ & = (1 \cdot b) * (a \cdot 1) \\ a * b & = b * a. \end{align}
+$$
 
 Pretty nifty!
 
@@ -41,7 +45,9 @@ Reformulated in this way, the argument immediately generalizes. Let $(\mathsf{C}
 
 If $\mathsf{C}$ is symmetric monoidal, then $\mathsf{Mon}(C)$ can be equipped with a tensor product. If $(M, \mu, \eta)$ and $(M', \mu', \eta')$ are two monoids, their tensor product is defined to be $(M \otimes M', \tilde{\mu}, \eta \otimes \eta')$, where $\tilde{\mu}$ is the composite (I'm forgetting about associativity constraints):
 
-$$M \otimes M' \otimes M \otimes M' \cong M \otimes M \otimes M' \otimes M' \xrightarrow{\mu \otimes \mu'} M \otimes M'.$$
+$$
+M \otimes M' \otimes M \otimes M' \cong M \otimes M \otimes M' \otimes M' \xrightarrow{\mu \otimes \mu'} M \otimes M'.
+$$
 
 So one can speak about monoid objects inside $\mathsf{Mon}(\mathsf{CC})$. Then the Eckmann--Hilton argument says:
 
@@ -57,7 +63,9 @@ An _H-space_ is a space $X$ equipped with a "multiplication" $\mu : X^2 \to X$ w
 
 Then the Eckmann--Hilton argument can be used to show that the [fundamental group](https://en.wikipedia.org/wiki/Fundamental_group) $\pi_1(X,e)$ is commutative. Indeed, this fundamental group has two multiplications: the usual concatenation of loops $*$, and the multiplication of loops $\cdot$ induced by $\mu$, given by:
 
-$$(\gamma \cdot \gamma')(t) = \mu(\gamma(t), \gamma'(t)).$$
+$$
+(\gamma \cdot \gamma')(t) = \mu(\gamma(t), \gamma'(t)).
+$$
 
 These two laws are unital (the unit being the class of the constant loop equal to $e$), and they are compatible in the sense of Eckmann--Hilton. It thus follows:
 
@@ -74,19 +82,27 @@ This section can be summarized by this picture:
 
 It is a depiction of the Eckmann--Hilton argument applied to $\pi_2(X)$. To understand it, consider a set $M$ with two monoid structures; instead of writing them with two different operators, represent one of them with horizontal multiplication and the other with vertical multiplication, like this:
 
-$$a * b = \begin{pmatrix} a & b \end{pmatrix}, \qquad a \cdot b = \begin{pmatrix} b \\ a \end{pmatrix}.$$
+$$
+a * b = \begin{pmatrix} a & b \end{pmatrix}, \qquad a \cdot b = \begin{pmatrix} b \\ a \end{pmatrix}.
+$$
 
 The interchange law then exactly says that this multiplication is not ambiguous:
 
-$$\begin{pmatrix} c & d \\ a & b \end{pmatrix}$$
+$$
+\begin{pmatrix} c & d \\ a & b \end{pmatrix}
+$$
 
 One can either multiply first each line horizontally and then vertically to get $(a * b) \cdot (c * d)$, or first each column vertically and then horizontally to get $(a \cdot c) * (b \cdot d)$, and both are equal by the interchange law. The proof of the Eckmann--Hilton argument then goes like this:
 
-$$\begin{align} \begin{pmatrix} a & b \end{pmatrix} & = \begin{pmatrix} 1 & b \\ a & 1 \end{pmatrix} \\ & = \begin{pmatrix} b \\ a \end{pmatrix} \\ & = \begin{pmatrix} b & 1 \\ 1 & a \end{pmatrix} \\ & = \begin{pmatrix} b & a \end{pmatrix} \end{align}$$
+$$
+\begin{align} \begin{pmatrix} a & b \end{pmatrix} & = \begin{pmatrix} 1 & b \\ a & 1 \end{pmatrix} \\ & = \begin{pmatrix} b \\ a \end{pmatrix} \\ & = \begin{pmatrix} b & 1 \\ 1 & a \end{pmatrix} \\ & = \begin{pmatrix} b & a \end{pmatrix} \end{align}
+$$
 
 This is very similar to the picture at the beginning of the section! To understand it, recall that the second fundamental group $\pi_2(X,e)$ can be defined as the set:
 
-$$\pi_2(X,e) = \{ \gamma : [0,1]^2 \to X \mid \gamma(\partial [0,1]^2) = \{ x_0 \} \} / \sim$$
+$$
+\pi_2(X,e) = \{ \gamma : [0,1]^2 \to X \mid \gamma(\partial [0,1]^2) = \{ x_0 \} \} / \sim
+$$
 
 quotiented out by homotopy of maps. Since the square $[0,1]^2$ is two-dimensional, $\pi_2(X,e)$ has two composition laws: concatenation in the horizontal direction, and concatenation in the vertical direction. Both are associative, and they satisfy the interchange law (the reader is advised to draw a picture), so by the Eckmann--Hilton argument, both are equal and commutative! And the proof looks just like the picture at the beginning of the section.
 

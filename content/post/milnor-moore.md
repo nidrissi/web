@@ -17,9 +17,13 @@ A Hopf algebra is the combination of two structures: associative algebra and coa
 
 **Definition.** A (unital) associative algebra is a vector space $A$ equipped with a product $\mu : A \otimes A \to A$ and a unit $\eta : \Bbbk \to A$ satisfying:
 
-$$\mu \circ (\mu \otimes \operatorname{id}_A) = \mu \circ (\operatorname{id}_A \otimes \mu),$$
+$$
+\mu \circ (\mu \otimes \operatorname{id}_A) = \mu \circ (\operatorname{id}_A \otimes \mu),
+$$
 
-$$\mu \circ (\eta \otimes \operatorname{id}_A) = \operatorname{id}_A = \mu \circ (\operatorname{id}_A \otimes \eta).$$
+$$
+\mu \circ (\eta \otimes \operatorname{id}_A) = \operatorname{id}_A = \mu \circ (\operatorname{id}_A \otimes \eta).
+$$
 
 If we write $\mu(a \otimes b) = a \cdot b$ and $\eta(1_\Bbbk) = 1_A$, then these two axioms merely say that $(a \cdot b) \cdot c = a \cdot (b \cdot c)$ and $1_A \cdot a = a = a \cdot 1_A$.
 
@@ -27,13 +31,19 @@ The definition of a coalgebra is more-or-less formally dual:
 
 **Definition.** A coassociative coalgebra is a vector space $C$ equipped with a coproduct $\Delta : C \to C \otimes C$ and a counit $\varepsilon : C \to \Bbbk$ satisfying:
 
-$$(\Delta \otimes \operatorname{id}_C) \circ \Delta = (\operatorname{id}_C \otimes \Delta) \circ \Delta,$$
+$$
+(\Delta \otimes \operatorname{id}_C) \circ \Delta = (\operatorname{id}_C \otimes \Delta) \circ \Delta,
+$$
 
-$$(\varepsilon \otimes \operatorname{id}_C) \circ \Delta = \operatorname{id}_C = (\operatorname{id}_C \otimes \varepsilon) \circ \Delta.$$
+$$
+(\varepsilon \otimes \operatorname{id}_C) \circ \Delta = \operatorname{id}_C = (\operatorname{id}_C \otimes \varepsilon) \circ \Delta.
+$$
 
 We will use Sweedler's notation: for $x \in C$, we write
 
-$$\Delta(x) = \sum_{(x)} x_1 \otimes x_2.$$
+$$
+\Delta(x) = \sum_{(x)} x_1 \otimes x_2.
+$$
 
 The counitality axiom then becomes, for example, $\sum_{(x)} \varepsilon(x_1) x_2 = x = \sum_{(x)} x_1 \varepsilon(x_2)$.
 
@@ -49,7 +59,9 @@ A **graded algebra** is a graded vector space equipped with the structure of an 
 
 A **Hopf algebra** is a bialgebra $H$ equipped with a linear endomorphism $\sigma : H \to H$ satisfying, for all $x \in H$:
 
-$$\sum_{(x)} x_1 \cdot \sigma(x_2) = \eta(\varepsilon(x)) = \sum_{(x)} \sigma(x_1) \cdot x_2.$$
+$$
+\sum_{(x)} x_1 \cdot \sigma(x_2) = \eta(\varepsilon(x)) = \sum_{(x)} \sigma(x_1) \cdot x_2.
+$$
 
 This is a lot of structure! There's a product, a unit, a coproduct, a counit, and an antipode, satisfying a whole bunch of relations. If it exists, the antipode is unique, but its existence is not guaranteed. Fortunately, most of the time the antipode comes for free:
 
@@ -61,17 +73,23 @@ This is a lot of structure! There's a product, a unit, a coproduct, a counit, an
 
 The tensor algebra $T(V)$ on some dg-module $V$ is given by:
 
-$$T(V) = \bigoplus_{n \ge 0} V^{\otimes n},$$
+$$
+T(V) = \bigoplus_{n \ge 0} V^{\otimes n},
+$$
 
 with grading and differential induced by the grading and the differential of $V$ ($V^{\otimes 0} = \Bbbk$ is put in degree 0 and has trivial differential). The product is given by concatenation of tensors:
 
-$$(v_1 \otimes \dots \otimes v_n) \cdot (v_{n+1} \otimes \dots \otimes v_{n+m}) := v_1 \otimes \dots \otimes v_{n+m},$$
+$$
+(v_1 \otimes \dots \otimes v_n) \cdot (v_{n+1} \otimes \dots \otimes v_{n+m}) := v_1 \otimes \dots \otimes v_{n+m},
+$$
 
 and the unit is $\eta : \Bbbk \cong V^{\otimes 0}$. Then $T(V)$ is the free associative algebra on $V$: for all algebras $A$ and dg-linear morphism $f : V \to A$, there exists a unique dg-algebra morphism $T(V) \to A$ lifting $f$ (through the obvious inclusion $V = V^{\otimes 1} \subset T(V)$).
 
 One can then define a Hopf algebra structure on $T(V)$: the counit $\varepsilon : T(V) \to \Bbbk$ lifts $0 : V \to \Bbbk$, the coproduct lifts $V \to T(V) \otimes T(V)$, $v \mapsto v \otimes 1 + 1 \otimes v$, and the antipode lifts $V \to T(V)$, $v \mapsto -v$. It's possible to explicitly describe the coproduct using [shuffles](https://ncatlab.org/nlab/show/shuffle):
 
-$$\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p+q=n} \sum_{(\mu,\nu) \in \operatorname{Sh}_{p,q}} (v*{\mu_1} \otimes \dots \otimes v*{\mu*p}) \otimes (v*{\nu*1} \otimes \dots \otimes v*{\nu_q}).$$
+$$
+\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p+q=n} \sum_{(\mu,\nu) \in \operatorname{Sh}_{p,q}} (v*{\mu_1} \otimes \dots \otimes v*{\mu*p}) \otimes (v*{\nu*1} \otimes \dots \otimes v*{\nu_q}).
+$$
 
 Note that the coproduct is cocommutative, but the product is not commutative.
 
@@ -79,11 +97,15 @@ Note that the coproduct is cocommutative, but the product is not commutative.
 
 The tensor coalgebra $T^c(V)$ on some dg-module $V$ is also given by:
 
-$$T^c(V) = \bigoplus_{n \ge 0} V^{\otimes n}.$$
+$$
+T^c(V) = \bigoplus_{n \ge 0} V^{\otimes n}.
+$$
 
 The underlying dg-module is the same, but the Hopf algebra structure is different. Now it's the coproduct that's described more easily: it is given by deconcatenation of tensors,
 
-$$\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p=0}^n (v_1 \otimes \dots \otimes v_p) \otimes (v_{p+1} \otimes \dots \otimes v_n).$$
+$$
+\Delta(v_1 \otimes \dots \otimes v_n) = \sum_{p=0}^n (v_1 \otimes \dots \otimes v_p) \otimes (v_{p+1} \otimes \dots \otimes v_n).
+$$
 
 The counit is again given by $\varepsilon(v_1 \otimes \dots \otimes v_n) = 0$ if $n \ge 1$. Then $T^c(V)$ is the cofree _conilpotent_ coassociative coalgebra on $V$: for every conilpotent coalgebra $C$ and every dg-linear morphism $f : C \to V$, there exists a unique dg-coalgebra morphism $C \to T^c(V)$ lifting $f$ through the obvious projection $T^c(V) \to V$. (A fun exercise.)
 
