@@ -22,7 +22,7 @@ Les possibles erreurs qu'elles contiennent sont de mon fait.
 | 4 avril 2019 | Algèbres $W_{k-1}$ | Geoffroy Horel | [(notes)](./E4-Algebres-Wk.pdf) §16.1, §16.2 Opérations homologiques sur les algèbres $E_k$ §16.3 Homologie des algèbres $E_k$ libres |
 | 18 avril 2019 | Transfert et comparaison | Grégory Ginot | [(notes)](./E5-Transfert-Comparaison.pdf) §14.1, §14.2 Transfert ascendant de lignes d'annulation §14.3 Transfert descendant (idée de la preuve) §15 Homologie relative et comparaison d'algèbres $E_k$ |
 | 16 mai 2019 | Groupoïdes monoïdaux et algèbres $E_k$ | Jean-Michel Fischer | [(notes)](./E6-Groupoides-Algebres.pdf) §12.2 Modules sur les algèbres $E_1$ §17.1 Une construction d'algèbres $E_k$ §17.2 Complexes de scindage |
-| 13 juin 2019 | Applications | Najib Idrissi | [(notes)](./FE7-Applications.pdf) §18.1 Le théorème principal §18.2, §18.3 Application aux groupes linéaires généraux |
+| 13 juin 2019 | Applications | Najib Idrissi | [(notes)](./E7-Applications.pdf) §18.1 Le théorème principal §18.2, §18.3 Application aux groupes linéaires généraux |
 
 ## Références
 
