@@ -9,7 +9,7 @@ import Class from "./Class";
 import Talk from "./Talk";
 import Post from "./Post";
 
-const Index: React.FC<{ data: IndexQuery, description: string }> = ({ children }) => {
+const Index: React.FC<{ description: string }> = ({ children }) => {
   const {
     site: {
       siteMetadata: {
@@ -17,7 +17,7 @@ const Index: React.FC<{ data: IndexQuery, description: string }> = ({ children }
         siteDescription
       },
     },
-  } = useStaticQuery(graphql`
+  }: IndexQuery = useStaticQuery(graphql`
         query {
           site {
             siteMetadata {
@@ -63,6 +63,7 @@ type IndexQuery = {
   site: {
     siteMetadata: {
       siteTitle: string;
+      siteDescription: string;
     };
   };
 };
