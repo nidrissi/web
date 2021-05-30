@@ -9,8 +9,6 @@ publication: Preprint v2, 50 pages.
 urls:
   read: case2d.pdf
   code:
-  slides:
-  video:
   source: https://arxiv.org/e-print/1911.12281
   arxiv: "1911.12281"
   doi:

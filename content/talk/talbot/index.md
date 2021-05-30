@@ -5,8 +5,6 @@ event: Viva Talbot!
 location: Online
 urls:
   event: https://math.mit.edu/events/talbot/index.php?year=retrospective_2021
-  slides:
-  video:
 ---
 
 Operads are objects that govern categories of algebras.
