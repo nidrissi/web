@@ -10,12 +10,12 @@ type TagLinkProps = {
 };
 
 const TagLink: React.FC<TagLinkProps> = ({ tag, big, count }) => {
-  const extraStyle = big ? "font-semibold text-2xl py-2 px-3" : "font-light text-sm px-1";
+  const extraStyle = big ? "font-semibold text-2xl py-2 px-3" : "text-sm px-1";
 
   return (
     <Link
       to={`/tag/${tag}`}
-      className={`block text-indigo-800 border border-indigo-800 border-opacity-60 hover:text-white hover:bg-indigo-800 rounded-full ${extraStyle}`}
+      className={`block text-indigo-800 hover:text-white hover:bg-indigo-800 rounded-md ${extraStyle}`}
     >
       <FontAwesomeIcon icon={faTag} size="sm" className="mr-1" />
       {tag}

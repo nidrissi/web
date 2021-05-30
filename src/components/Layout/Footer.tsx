@@ -90,28 +90,28 @@ const Footer: React.FC<{}> = () => {
     },
   ].flat();
 
-  const linkStyle = "block flex-auto text-blue-800 hover:underline block p-2";
+  const linkStyle = "block flex-auto text-blue-800 hover:underline block px-2 py-4";
 
   return (
     <>
       <hr className="mt-2" />
-      <footer className="mx-auto flex flex-wrap py-2 divide-x divide-gray-300 divide-dotted text-center">
+      <footer className="mx-auto flex flex-wrap divide-x divide-gray-300 divide-dotted text-center">
         <Link to="/" className={linkStyle}>
           <FontAwesomeIcon icon={faCopyright} className="mr-1" />
           {name}
         </Link>
-        {links.map((v) => (
+        {links.map(l => (
           <a
-            href={v.url}
-            rel={`noreferrer noopener ${v.relMe ? "me" : ""}`}
+            href={l.url}
+            rel={`noreferrer noopener ${l.relMe ? "me" : ""}`}
             target="_blank"
             className={linkStyle}
-            key={v.label}
+            key={l.label}
           >
-            {v.icon ? (
-              <FontAwesomeIcon icon={v.icon} className="mr-1" />
+            {l.icon ? (
+              <FontAwesomeIcon icon={l.icon} className="mr-1" />
             ) : null}
-            {v.label}
+            {l.label}
           </a>
         ))}
       </footer>
