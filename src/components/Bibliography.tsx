@@ -31,7 +31,7 @@ query BibliographyQuery {
           <li key={slug}>
             <Link to={`/research/${slug}`}>
               {frontmatter.title}.
-        </Link>
+            </Link>
             <Meta frontmatter={frontmatter} type="research" />
           </li>
         ))
