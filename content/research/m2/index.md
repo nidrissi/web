@@ -6,7 +6,7 @@ status: thesis
 publication: Master's thesis, Université Paris Diderot.
 title: Homologie et complexes de déformations d’opérades $E_n$
 urls:
-  pdf: m2.pdf
+  read: m2.pdf
 ---
 
 The main goal of this master's thesis is to define a complex computing the cohomology of Gerstenhaber algebras and associated deformation complexes using the iterated bar construction.

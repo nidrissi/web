@@ -5,7 +5,7 @@ event: Seminar
 location: Aarhus Universitet
 urls:
   event: https://math.au.dk/aktuelt/aktiviteter/event/item/6107/
-  pdf:
+  read:
   slides:
   video:
 ---

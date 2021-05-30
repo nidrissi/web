@@ -7,7 +7,7 @@ authors:
   - me
 publication: Preprint v3, 33 p.
 urls:
-  pdf: curved-koszul.pdf
+  read: curved-koszul.pdf
   arxiv: "1805.01853"
   source: https://arxiv.org/e-print/1805.01853
   hal: "01786218"

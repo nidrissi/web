@@ -5,7 +5,7 @@ status: preprint
 authors: [ricardo, julien, me, thomas]
 publication: Preprint v1, 27 p.
 urls:
-  pdf: framed-conf.pdf
+  read: framed-conf.pdf
   arxiv: "1807.08319"
   source: https://arxiv.org/e-print/1807.08319
 ---
