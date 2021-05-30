@@ -43,8 +43,9 @@ const Navbar: React.FC<{}> = () => {
           className="block cursor-pointer py-2 px-4 text-2xl bg-green-600 rounded-sm"
           onClick={() => setExpanded(!expanded)}
           aria-controls="#navbar-content"
+          title="Expand the navbar"
         >
-          <FontAwesomeIcon icon={faCaretDown} aria-label="Expand the navbar" />
+          <FontAwesomeIcon icon={faCaretDown} />
         </button>
       </div>
       <div
