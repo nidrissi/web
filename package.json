@@ -63,5 +63,8 @@
     "remark-external-links": "^8.0.0",
     "remark-math": "^3.0.1",
     "tailwindcss": "^2.1.2"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
