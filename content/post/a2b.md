@@ -2,7 +2,7 @@
 title: arXiv2BibLaTeX
 date: 2020-06-29
 lastMod: 2021-05-19
-tags: [math, arxiv]
+tags: [math, arxiv, code]
 ---
 
 tl;dr: [/misc/a2b](/misc/a2b) to get a `.bib` from arXiv entries.

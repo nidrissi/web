@@ -1,6 +1,6 @@
 ---
-date: 2016-03-31T00:00:00Z
-tags: ["math"]
+date: 2016-03-31
+tags: [math]
 title: List of Facts
 ---
 

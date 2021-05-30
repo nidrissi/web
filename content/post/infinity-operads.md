@@ -1,6 +1,6 @@
 ---
-date: 2016-05-06T00:00:00Z
-tags: ["math", "algtop", "operads", "higher-cat"]
+date: 2016-05-06
+tags: [math, algtop, operads, higher-cat]
 title: Infinity-Operads Demystified
 ---
 

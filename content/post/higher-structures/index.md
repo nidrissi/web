@@ -1,7 +1,7 @@
 ---
 title: Higher Structures at the CIRM
 date: 2019-01-24
-tags: [trip]
+tags: [trip, talk, photo]
 ---
 
 This week I am at the _Centre international de rencontres mathématiques_ (CIRM) in Luminy.

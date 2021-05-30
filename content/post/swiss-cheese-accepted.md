@@ -1,6 +1,6 @@
 ---
 date: 2017-01-13
-tags: ["paper", "swiss-cheese", "operads"]
+tags: [paper, swiss-cheese, operads]
 title: First Article Accepted!
 ---
 

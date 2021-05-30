@@ -1,6 +1,6 @@
 ---
-date: 2016-12-02T00:00:00Z
-tags: ["conf-spaces", "paper"]
+date: 2016-12-02
+tags: [conf-spaces, paper]
 title: Configuration Spaces Woes
 ---
 

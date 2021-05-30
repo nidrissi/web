@@ -1,6 +1,6 @@
 ---
-date: 2016-04-05T00:00:00Z
-tags: ['trip']
+date: 2016-04-05
+tags: [trip, talk]
 title: Talk in Paris!
 ---
 

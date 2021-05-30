@@ -1,6 +1,6 @@
 ---
-date: 2015-12-23T00:00:00Z
-tags: ["math", "algtop"]
+date: 2015-12-23
+tags: [math, algtop]
 title: The Eckmann–Hilton Argument
 ---
 

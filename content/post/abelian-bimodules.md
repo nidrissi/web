@@ -1,5 +1,5 @@
 ---
-date: 2016-01-06T00:00:00Z
+date: 2016-01-06
 tags: ["math", "algtop", "operads"]
 title: About Abelian Bimodules
 ---

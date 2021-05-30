@@ -1,7 +1,7 @@
 ---
 title: "Next Stop: Paris!"
 date: 2018-06-20
-tags: [job]
+tags: [job, photo]
 ---
 
 I finally got the confirmation from the ministry: I definitively got the job and I will be appointed in Paris-VII!
