@@ -9,7 +9,9 @@ Last week I was at the [Max Planck Institute](https://www.mpim-bonn.mpg.de/) for
 
 Consider a manifold $M$. Then given some integer $k \ge 0$, one can build the configuration space of $k$ points in $M$:
 
-$$\newcommand{\Conf}{\mathrm{Conf}}\Conf_k(M) = \{ (x_1, \dots, x_k) \in M^{\times k} \mid x_i \neq x_j \; \forall i \neq j \}.$$
+$$
+\newcommand{\Conf}{\mathrm{Conf}}\Conf_k(M) = \{ (x_1, \dots, x_k) \in M^{\times k} \mid x_i \neq x_j \; \forall i \neq j \}.
+$$
 
 Many people are interested in configuration spaces for many different reasons. One could wonder: what does the homotopy type of $M$ tell us about the homotopy type of $\Conf_k(M)$? More concretely, does the homotopy type of $\Conf_k(M)$ depend exclusively on the homotopy type of $M$?
 
@@ -25,7 +27,9 @@ Intuitively, we can look at the configuration space $\Conf_k(M)$ as the product 
 
 This is precisely what [Lambrechts--Stanley, 2008] did, and they considered a CDGA $\mathtt{G}_A(k)$ given by:
 
-$$\mathtt{G}_A(k) = \bigl( A^{\otimes k} \otimes S(\omega_{ij}) / \text{relations}, d \omega_{ij} = [\Delta_{ij}] \bigr).$$
+$$
+\mathtt{G}_A(k) = \bigl( A^{\otimes k} \otimes S(\omega_{ij}) / \text{relations}, d \omega_{ij} = [\Delta_{ij}] \bigr).
+$$
 
 For small $k$, this CDGA is particularly simple:
 

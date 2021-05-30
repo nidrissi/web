@@ -29,7 +29,9 @@ The functor $T$ is then said to be **representable** (the terminology is unfortu
 
 In other words, this means that for all $A \in \mathsf{C}$, $T(A)$ has a "basis" (consisting of models objects) which is described by $\Psi$: $\Psi_A : T(A) \to \widetilde{T}(A)$ sends $x \in T(A)$ to a sum $\sum_{\alpha} (M_\alpha, \varphi_\alpha, m_\alpha)$ such that
 
-$$x = \sum_\alpha T(\varphi_\alpha)(m_\alpha).$$
+$$
+x = \sum_\alpha T(\varphi_\alpha)(m_\alpha).
+$$
 
 When a functor is representable, we will be able to check equalities on $\mathcal{M}$, and equalities on $\mathsf{C}$ will follow.
 
@@ -39,7 +41,9 @@ Now suppose we are given a functor $K : \mathsf{C} \to \mathsf{Ch}$ from our cat
 
 If $K$ and $L$ are two such functors, then we can define maps $K \to L$ in the obvious way, and we can also define truncated maps in degrees $\le n$. Similarly given two maps, we can define homotopies between then, as well as truncated homotopies, which satisfy
 
-$$\partial_{q+1} h_q + h_{q-1} \partial_q = g_q - f_q$$
+$$
+\partial_{q+1} h_q + h_{q-1} \partial_q = g_q - f_q
+$$
 
 in degrees $\le n$.
 
@@ -49,7 +53,9 @@ _Proof._ We want to define $f_q : K_q \to L_q$ such that $\partial_q f_q f_{q-1}
 
 Now we let $\Lambda : \widetilde{K_q} \to L_q$ be defined by
 
-$$\Lambda_A(M, \varphi, m) := L_q(\varphi)(\lambda(m)).$$
+$$
+\Lambda_A(M, \varphi, m) := L_q(\varphi)(\lambda(m)).
+$$
 
 It's easy to check that this is a natural transformation, and that $\partial_q \Lambda = f_{q-1} \partial_q \Phi$ (where $\Phi : \widetilde{K_q} \to K_q$ is the canonical morphism).
 
@@ -75,21 +81,29 @@ A functor $T : \mathsf{C} \to \mathsf{Ab}$ is the same thing as a group equipped
 
 Let $S_* : \mathsf{Top} \to \mathsf{Ch}$ be the classical "singular chains" functor. The abelian group $S_n(X)$ is free on maps $\Delta^n \to X$, where $\Delta^n$ is the standard $n$-simplex:
 
-$$\Delta^n = \{ (x_0, \dots, x_n) \in [0,1]^{n+1} \mid \sum x_i = 1 \},$$
+$$
+\Delta^n = \{ (x_0, \dots, x_n) \in [0,1]^{n+1} \mid \sum x_i = 1 \},
+$$
 
 and $\partial_n : S_n(X) \to S_{n-1}(X)$ is the usual differential $\partial_n = \sum_i (-1)^i d_i$. We consider the augmented version with $S_{-1}(X) = \mathbb{Z}$ and $\partial_0(x) = 1$ for all $x \in X = S_0(X)$.
 
 Now $\Delta^\bullet$ is in fact a cosimplicial space, and so we get degeneracy maps $s_j : S_n(X) \to S_{n+1}(X)$. For a simplex $\sigma : \Delta^n \to X$, its degeneracy is given by:
 
-$$s_j(\sigma)(x_0, \dots, x_{n+1}) = \sigma(x_0, \dots, x_j + x_{j+1}, \dots, x_{n+1}).$$
+$$
+s_j(\sigma)(x_0, \dots, x_{n+1}) = \sigma(x_0, \dots, x_j + x_{j+1}, \dots, x_{n+1}).
+$$
 
 These, together with the $d_i$, satisfy the usual simplicial identities. One can then normalize the singular chains functor, either by letting
 
-$$\bar{S}_{n+1}(X) = S_{n+1}(X) / \operatorname{im}(s_n : S_n(X) \to S_{n+1}(X))$$
+$$
+\bar{S}_{n+1}(X) = S_{n+1}(X) / \operatorname{im}(s_n : S_n(X) \to S_{n+1}(X))
+$$
 
 (the complex "normalized at the top") or by letting
 
-$$S^N(X) = S_n(X) / \bigcup_{j=0}^{n-1} \operatorname{im}(s_j)$$
+$$
+S^N(X) = S_n(X) / \bigcup_{j=0}^{n-1} \operatorname{im}(s_j)
+$$
 
 (the "normalized complex").
 
@@ -111,25 +125,35 @@ Let $M$ and $N$ be two simplicial modules over some ring $R$. One can produce tw
 
 The two complexes are both equal to $M_0 \otimes N_0$ is degree zero. This gives the base case for the induction (we can just take the map to be the identity). One can then choose as models the simplicial modules given by $\Delta^n \otimes R$, which can easily be proven to be acyclic. The adjunctions
 
-$$\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M_\bullet) \cong M_n$$
+$$
+\hom_{s\mathsf{Mod}_R}(\Delta^n \otimes R, M_\bullet) \cong \hom_{s\mathsf{Set}}(\Delta^n, M_\bullet) \cong M_n
+$$
 
 can then be used to prove that both functors are representable. (I'm omitting a lot of computations here! Though most of it is straightforward.) The acyclic models technique then yields the equivalence:
 
-$$(M \times N)_* \simeq M_* \otimes N_*.$$
+$$
+(M \times N)_* \simeq M_* \otimes N_*.
+$$
 
 Again, what's really interesting is that both maps (and both homotopies!) can be described completely explicitly once you make the right choices (you need to go back to the proof of the first theorem to know what choices I'm talking about). The map $f : (M \times N)_* \to M_* \otimes N_*$ is known as the _Alexander--Whitney_ map, and it is given by (for $a \in A_n$, $b \in B_n$):
 
-$$f(a \times b) = \sum_{i = 0}^n \bar{d}^{n-i}a \otimes d_0^i b,$$
+$$
+f(a \times b) = \sum_{i = 0}^n \bar{d}^{n-i}a \otimes d_0^i b,
+$$
 
 where $d_0 : B_k \to B_{k-1}$ is the $0$th face and $\bar{d} = d_k : A_k \to A_{k-1}$ is the "last" face.
 
 Conversely, $g : M_* \otimes N_* \to (M \times N)_*$ is known as the _Eilenberg--Zilber_ map, given by (for $a \in A_p$, $b \in B_q$):
 
-$$g(a \otimes b) = \sum_{(\mu, \nu) \in \mathrm{Sh}_{p,q}} \pm s*{\nu} a \times s*{\mu} b.$$
+$$
+g(a \otimes b) = \sum_{(\mu, \nu) \in \mathrm{Sh}_{p,q}} \pm s*{\nu} a \times s*{\mu} b.
+$$
 
 The sum runs over all $(p,q)$-shuffles, with (for $p+q = n$):
 
-$$\mathrm{Sh}_{p,q} = \{ (\mu, \nu) \in \{1,\dots,n\}^p \times \{1,\dots,n\}^q \mid \mu(1) < \dots < \mu(p), \nu(1) < \dots < \nu(q), \mu(i) \neq \nu(j) \}$$
+$$
+\mathrm{Sh}_{p,q} = \{ (\mu, \nu) \in \{1,\dots,n\}^p \times \{1,\dots,n\}^q \mid \mu(1) < \dots < \mu(p), \nu(1) < \dots < \nu(q), \mu(i) \neq \nu(j) \}
+$$
 
 and where $s_{\mu} = s_{\mu(p)} \circ \dots \circ s_{\mu(1)}$, and $s_{\nu} = s_{\nu(q)} \circ \dots \circ s_{\nu(1)}$. (The reader is encouraged to see explicitly what this all means in small cases, say $(p,q) = (1,2)$).
 

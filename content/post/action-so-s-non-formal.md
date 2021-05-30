@@ -13,7 +13,9 @@ This was first told to me by Thomas Willwacher, and it is mentioned as Remark 9.
 Here is a quick proof for $n=3$ that generalizes easily.
 Suppose that the action map $\rho : SO(n) \times S^{n-1} \to S^{n-1}$ is formal.
 Then one can find maps that make the following diagram commute:
-$$\begin{CD} \Omega(S^2) @>{\rho^*}>> \Omega(SO(3) \times S^2) @<<< \Omega(SO(3)) \otimes \Omega(S^2) \\ @A{\sim}AA @. @A{\sim}AA \\ H(S^2) @>{\rho^*}>> H(SO(3)) \otimes H(S^2) @= H(SO(3)) \otimes H(S^2) \end{CD}$$
+$$
+\begin{CD} \Omega(S^2) @>{\rho^*}>> \Omega(SO(3) \times S^2) @<<< \Omega(SO(3)) \otimes \Omega(S^2) \\ @A{\sim}AA @. @A{\sim}AA \\ H(S^2) @>{\rho^*}>> H(SO(3)) \otimes H(S^2) @= H(SO(3)) \otimes H(S^2) \end{CD}
+$$
 
 Let $\upsilon \in H^2(S^2)$ be a generator.
 By degree reasons, we must have $\rho^*(\upsilon) = \lambda \otimes \upsilon$ for some constant $\lambda \in \mathbb{Q}$.
@@ -23,12 +25,16 @@ We know that $pSO(3) \simeq_{\mathbb{Q}} S^3$ and that $\pi^{\mathbb{Q}}_3(S^3) 
 Let $x$ be a generator and let us show that $\rho_(x \times 1)$ must generate $\pi^{\mathbb{Q}}*3(S^2)$
 We also know that $\rho$ induces a principal $SO(2)$-bundle :
 
-$$SO(2) \hookrightarrow SO(3) \twoheadrightarrow S^2$$
+$$
+SO(2) \hookrightarrow SO(3) \twoheadrightarrow S^2
+$$
 
 where $p : SO(3) \to S^2$ is given by $p(A) = A \cdot w$ for a fixed vector $w$ and $SO(2)$ is the stabilizer of $w$.
 We thus get a long exact sequence of homotopy groups:
 
-$$\pi_{3}(SO(2)) \to \pi_{3}(SO(3)) \xrightarrow{p_*} \pi_{3}(S^{2}) \to \pi_{2}(SO(2)).$$
+$$
+\pi_{3}(SO(2)) \to \pi_{3}(SO(3)) \xrightarrow{p_*} \pi_{3}(S^{2}) \to \pi_{2}(SO(2)).
+$$
 
 Since $\pi_{3}(SO(2)) = \pi_{2}(SO(2)) = 0$, we get that $p_*(x) = \rho_*(x \times 1)$ is a generator.
 This contradicts the fact that $\rho$ factors through the second projection as then $\rho_*(x \times 1)$ would vanish.
