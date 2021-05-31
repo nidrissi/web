@@ -32,11 +32,11 @@ const Index: React.FC<{}> = ({ children }) => {
   return (
     <Layout title={siteTitle} description={siteDescription}>
       <article>
-        <div className="float-right m-3 p-1 border rounded-md">
+        <div className="float-right w-28 sm:w-40 m-3 p-1 border rounded-md">
           <StaticImage
-            src="../../images/photo.jpg"
-            alt="A photo of me."
-            className="rounded-sm w-28 sm:w-40"
+            src="photo.jpg"
+            alt="Photo of myself."
+            className="rounded-sm"
             loading="eager"
           />
         </div>
