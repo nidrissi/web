@@ -1,2 +1,3 @@
 User-agent: *
 Disallow:
+Sitemap: https://idrissi.eu/sitemap/sitemap-0.xml
