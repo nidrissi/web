@@ -14,41 +14,62 @@ const Pager: React.FC<PagerProps> = ({ numPages, currentPage, type }) => {
   }
 
   const buttonStyle = "block border text-purple-700 border-purple-700 hover:bg-purple-700 hover:text-white px-2 rounded-md";
+  const disabledStyle = "text-gray-600 border-gray-600 pointer-events-none"
 
-  const indexToLink: ((i: number) => string) = i => i === 1 ? `/${type}` : `/${type}/${i}`;
+  function indexToLink(i: number): string {
+    return i === 1 ? `/${type}` : `/${type}/${i}`;
+  }
 
   return (
     <nav className="mt-8 flex flex-wrap gap-2 justify-center">
+      <Link
+        to={indexToLink(1)}
+        title="First page"
+        className={buttonStyle}
+        activeClassName={disabledStyle}
+      >
+        <FontAwesomeIcon icon={faAngleDoubleLeft} />
+      </Link>
       {currentPage > 1 && (
-        <>
-          <Link to={indexToLink(1)} className={buttonStyle}>
-            <FontAwesomeIcon icon={faAngleDoubleLeft} title="First page" />
-          </Link>
-          <Link to={indexToLink(currentPage - 1)} className={buttonStyle}>
-            <FontAwesomeIcon icon={faAngleLeft} title="Previous page." />
-          </Link>
-        </>
-      )}
+        <Link
+          to={indexToLink(currentPage - 1)}
+          title="Previous page"
+          className={buttonStyle}
+          activeClassName={disabledStyle}
+        >
+          <FontAwesomeIcon icon={faAngleLeft} />
+        </Link>
+      )
+      }
       {Array.from({ length: numPages }, (_x, i) => (
         <Link
           key={i}
           to={indexToLink(i + 1)}
+          title={`Page ${i + 1}`}
           className={buttonStyle}
-          activeClassName="font-bold border-2"
+          activeClassName="font-bold border-2 pointer-events-none"
         >
           {i + 1}
         </Link>
       ))}
       {currentPage < numPages && (
-        <>
-          <Link to={indexToLink(currentPage + 1)} className={buttonStyle}>
-            <FontAwesomeIcon icon={faAngleRight} title="Next page." />
-          </Link>
-          <Link to={indexToLink(numPages)} className={buttonStyle}>
-            <FontAwesomeIcon icon={faAngleDoubleRight} title="Last page" />
-          </Link>
-        </>
+        <Link
+          to={indexToLink(currentPage + 1)}
+          title="Next page"
+          className={buttonStyle}
+          activeClassName={disabledStyle}
+        >
+          <FontAwesomeIcon icon={faAngleRight} />
+        </Link>
       )}
+      <Link
+        to={indexToLink(numPages)}
+        title="Last page"
+        className={buttonStyle}
+        activeClassName={disabledStyle}
+      >
+        <FontAwesomeIcon icon={faAngleDoubleRight} />
+      </Link>
     </nav>
   )
 };
