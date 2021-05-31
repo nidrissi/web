@@ -27,8 +27,8 @@ export type Urls = {
   video: string;
   zbmath: string;
   event: string;
-  custom: { name: string; url: string }[];
-  customFile: { name: string; file: { publicURL: string } }[]
+  custom: { label: string; url: string }[];
+  customFile: { label: string; file: { publicURL: string } }[]
 };
 export const allUrlsFragment = graphql`
 fragment allUrlsFragment on MdxFrontmatter {
@@ -50,11 +50,11 @@ urls {
   mathrev
   zbmath
   custom {
+    label
     url
-    name
   }
   customFile {
-    name
+    label
     file {
       publicURL
     }
@@ -116,9 +116,9 @@ const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile 
   return (
     <a
       href={href}
-      className="block border border-gray-500 text-black hover:bg-blue-800 hover:border-blue-800 hover:text-white rounded-md px-2 py-0.5 text-sm"
-      target={href.startsWith('http') ? "_blank" : null}
-      rel={href.startsWith('http') ? "noopener noreferrer" : null}
+      className="block border border-gray-200 text-black hover:bg-blue-800 hover:border-blue-800 hover:text-white rounded-md px-2 py-1 text-sm"
+      target={href.startsWith("http") ? "_blank" : null}
+      rel={href.startsWith("http") ? "noopener noreferrer" : null}
     >
       {definition.icon ? (
         <FontAwesomeIcon icon={definition.icon} className="mr-1" />
@@ -133,26 +133,27 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
     return null;
   }
   return (
-    <div className="flex flex-wrap gap-1 content-center">
+    <div className="flex flex-wrap gap-x-2 gap-y-1 content-center">
       {linkDefinitions.map((definition) => {
         const url = urls[definition.link];
         return url ? (
           <EntryLink key={url.publicURL || url} definition={definition} url={url}></EntryLink>
         ) : null;
-      }
-      )}
-      {urls.custom?.map(({ name, url }, i) => (
+      })}
+
+      {urls.custom?.map(({ label, url }, index) => (
         <EntryLink
-          key={`custom-${i}`}
+          key={`custom-${index}`}
           url={url}
-          definition={{ label: name, link: "custom", icon: faLink }}
+          definition={{ label, link: "custom", icon: faLink }}
         />
       ))}
-      {urls.customFile?.map(({ name, file: { publicURL } }, i) => (
+
+      {urls.customFile?.map(({ label, file: { publicURL: url } }, index) => (
         <EntryLink
-          key={`customFile-${i}`}
-          url={publicURL}
-          definition={{ label: name, link: "customFile", icon: faFile }}
+          key={`customFile-${index}`}
+          url={url}
+          definition={{ label, link: "customFile", icon: faFile }}
         />
       ))}
     </div>

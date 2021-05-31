@@ -9,7 +9,7 @@ urls:
   read: gradmath.pdf
   mathrev: "3848667"
   custom:
-    - name: Journal
+    - label: Journal
       url: http://www.gradmath.org/article/operades-et-structures-commutatives-a-homotopie-pres/
 ---
 

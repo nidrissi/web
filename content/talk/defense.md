@@ -6,6 +6,6 @@ location: Université de Lille
 urls:
   slides: soutenance.pdf
   custom:
-    - name: Thesis
+    - label: Thesis
       url: "/research/thesis"
 ---

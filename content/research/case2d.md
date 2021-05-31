@@ -16,7 +16,7 @@ urls:
   zbmath:
   hal:
 # custom:
-#   - {name: "Custom Link", url: "http://example.org"}
+#   - {label: "Custom Link", url: "http://example.org"}
 ---
 
 We compute small rational models for configuration spaces of points on oriented surfaces, as right modules over the framed little disks operad. We do this by splitting these surfaces in unions of several handles. We first describe rational models for the configuration spaces of these handles as algebras in the category of right modules over the framed little disks operad. We then express the configuration spaces of the surface as an "iterated Hochschild complex" of these algebras with coefficients in the module given by configurations in a sphere with holes.

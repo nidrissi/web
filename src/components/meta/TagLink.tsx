@@ -10,7 +10,7 @@ type TagLinkProps = {
 };
 
 const TagLink: React.FC<TagLinkProps> = ({ tag, big, count }) => {
-  const extraStyle = big ? "font-semibold text-2xl py-2 px-3" : "text-sm px-1";
+  const extraStyle = big ? "font-semibold text-2xl py-2 px-3" : "text-sm px-1.5 py-0.5";
 
   return (
     <Link

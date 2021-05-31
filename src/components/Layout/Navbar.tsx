@@ -3,6 +3,7 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
   faBoxOpen,
   faCaretDown,
+  faCaretRight,
   faChalkboardTeacher,
   faComments,
   faFlask,
@@ -33,19 +34,19 @@ const Navbar: React.FC<{}> = () => {
   return (
     <nav
       className={`sticky top-0 w-full ${expanded ? "grid grid-cols-1" : "flex"
-        } items-center gap-4 mb-3 bg-green-900 text-gray-100 z-50`}
+        } items-center gap-4 mb-3 bg-green-900 text-white z-50`}
     >
       <div className="flex w-full md:hidden items-center justify-between">
         <Link to="/" className="block p-2 font-semibold text-xl">
           Najib Idrissi
         </Link>
         <button
-          className="block cursor-pointer py-2 px-4 text-2xl bg-green-700 rounded-sm"
+          className="block cursor-pointer p-2 bg-green-800 rounded-sm"
           onClick={() => setExpanded(!expanded)}
           aria-controls="navbar-content"
           title="Expand the navbar"
         >
-          <FontAwesomeIcon icon={faCaretDown} />
+          <FontAwesomeIcon size="2x" fixedWidth icon={expanded ? faCaretDown : faCaretRight} />
         </button>
       </div>
       <div

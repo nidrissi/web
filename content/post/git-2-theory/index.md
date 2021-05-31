@@ -4,7 +4,7 @@ date: 2021-04-26
 tags: [code]
 urls:
   custom:
-    - name: "Part 1: Preliminaries"
+    - label: "Part 1: Preliminaries"
       url: /post/git-1-preliminaries/
 ---
 
