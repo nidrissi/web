@@ -67,8 +67,8 @@ export const query = graphql`
           title
           date
           lastMod
-          time
-          what
+          courseHours
+          courseType
           cursus
           year
           tags

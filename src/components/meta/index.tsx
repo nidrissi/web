@@ -30,8 +30,8 @@ export type Frontmatter = {
   authors: string[];
   // Class
   cursus: string;
-  what: string;
-  time: string;
+  courseType: string;
+  courseHours: string;
   year: string;
   // Event
   event: string;

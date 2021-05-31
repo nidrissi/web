@@ -1,8 +1,8 @@
 ---
 title: "Homotopy II"
 cursus: M2 Fundamental Mathematics (S2)
-what: Lectures
-time: 24h
+courseType: Lectures
+courseHours: 24
 year: 2021-2022
 date: 2022-01-01
 lastMod: 2021-05-31
