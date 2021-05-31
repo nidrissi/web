@@ -26,7 +26,7 @@ const ClassList: React.FC<ClassListProps> = ({ data: { allMdx: { group } } }) =>
   return (
     <Layout title="Teaching" description="The classes I have taught and/or am currently teaching.">
       <h1 role="banner" className="text-4xl font-bold mb-3">
-        <FontAwesomeIcon icon={faChalkboardTeacher} size="sm" />&nbsp;Teaching
+        <FontAwesomeIcon icon={faChalkboardTeacher} size="sm" className="mr-2" />Teaching
       </h1>
       <div className="flex flex-col gap-8">
         {group
