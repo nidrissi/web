@@ -9,7 +9,7 @@ import Class from "./Class";
 import Talk from "./Talk";
 import Post from "./Post";
 
-const Index: React.FC<{ description: string }> = ({ children }) => {
+const Index: React.FC<{}> = ({ children }) => {
   const {
     site: {
       siteMetadata: {
@@ -31,33 +31,33 @@ const Index: React.FC<{ description: string }> = ({ children }) => {
 
   return (
     <Layout title={siteTitle} description={siteDescription}>
-      <div className="float-right m-3 p-1 border rounded-md">
-        <StaticImage
-          src="../../images/photo.jpg"
-          alt="A photo of me."
-          className="rounded-sm w-28 sm:w-40"
-          loading="eager"
-        />
-      </div>
-      <header>
-        <h1 role="banner" className="text-3xl font-medium mb-4">
-          Najib Idrissi
-        </h1>
-      </header>
       <article>
+        <div className="float-right m-3 p-1 border rounded-md">
+          <StaticImage
+            src="../../images/photo.jpg"
+            alt="A photo of me."
+            className="rounded-sm w-28 sm:w-40"
+            loading="eager"
+          />
+        </div>
+        <header>
+          <h1 role="banner" className="text-3xl font-medium mb-4">
+            Najib Idrissi
+        </h1>
+        </header>
         <div className="prose prose-blue max-w-none mb-3">
           {children}
         </div>
         <Contact />
-        {hr}
-        <Research />
-        {hr}
-        <Class />
-        {hr}
-        <Talk />
-        {hr}
-        <Post />
       </article>
+      {hr}
+      <Research />
+      {hr}
+      <Class />
+      {hr}
+      <Talk />
+      {hr}
+      <Post />
     </Layout>
   );
 };
