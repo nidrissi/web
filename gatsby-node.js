@@ -26,7 +26,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     },
     talk: {
       component: './src/lists/Talks.tsx',
-      perPage: 5
+      perPage: 10
     },
     class: {
       component: './src/lists/Classes.tsx'
