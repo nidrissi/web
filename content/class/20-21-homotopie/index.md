@@ -10,16 +10,16 @@ urls:
   notes: homotopie.pdf
   video: https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf
   custom:
-    - name: M2 Fundamental mathematics
+    - label: M2 Fundamental mathematics
       url: http://master-math-fonda.imj-prg.fr/
   customFile:
-    - name: Solved homework
+    - label: Solved homework
       file: devoir.pdf
-    - name: Exam (en)
+    - label: Exam (en)
       file: examen-en.pdf
-    - name: Exam (fr)
+    - label: Exam (fr)
       file: examen-fr.pdf
-    - name: Solved exam (fr)
+    - label: Solved exam (fr)
       file: examen-fr-corrigé.pdf
 localImages:
   - blackboard1.png

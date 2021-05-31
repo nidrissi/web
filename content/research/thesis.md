@@ -9,9 +9,9 @@ urls:
   source: https://github.com/nidrissi/thesis
   read: thesis.pdf
   custom:
-    - name: University
+    - label: University
       url: http://ori.univ-lille1.fr/notice/view/univ-lille1-ori-455595
-    - name: Defense
+    - label: Defense
       url: /talk/defense/
 ---
 

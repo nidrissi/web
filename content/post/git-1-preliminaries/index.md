@@ -5,7 +5,7 @@ lastMod: 2021-04-26
 tags: [code]
 urls:
   custom:
-    - name: "Part 2: The Theory"
+    - label: "Part 2: The Theory"
       url: /post/git-2-theory/
 ---
 

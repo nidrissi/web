@@ -9,7 +9,7 @@ lastMod: 2021-05-31
 urls:
   notes: ../20-21-homotopie/homotopie.pdf
   custom:
-    - name: M2 Fundamental mathematics
+    - label: M2 Fundamental mathematics
       url: http://master-math-fonda.imj-prg.fr/
 ---
 
