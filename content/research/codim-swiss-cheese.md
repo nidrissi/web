@@ -8,7 +8,7 @@ authors:
   - me
 publication: "To appear in <em>Algebr. Geom. Topol.</em>, 47 p."
 urls:
-  read: sfm-mn.pdf
+  read: codim-swiss-cheese.pdf
   arxiv: "1809.07667"
   hal: "01878406"
   source: https://arxiv.org/e-print/1809.07667

@@ -7,7 +7,7 @@ year: 2019-2020
 date: 2020-03-04
 lastMod: 2020-06-26
 urls:
-  notes: ../../research/peccot/peccot.pdf
+  notes: ../../research/peccot.pdf
   video: https://www.college-de-france.fr/site/cours-peccot/guestlecturer-2019-2020__1.htm
   custom:
     - name: Website of the Peccot Lectures
