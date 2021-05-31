@@ -6,7 +6,7 @@ export default Root;
 # Najib Idrissi
 
 Hello!
-I am a _maître de conférences_ at the math department of the [University of Paris](https://u-paris.fr) and a member of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
+My name is Najib Idrissi and I am a _maître de conférences_ at the math department of the [University of Paris](https://u-paris.fr) and a member of the team-project [Algebraic Topology & Geometry](https://www.imj-prg.fr/tga/) of the [Institut de Mathématiques de Jussieu--Paris Rive Gauche](https://www.imj-prg.fr).
 I am one of the organizers of the [Topology Seminar](https://www.imj-prg.fr/gestion/evenement/affEvenement/43) of the IMJ-PRG.
 You can find more info in [my CV](/misc/cv).
 
