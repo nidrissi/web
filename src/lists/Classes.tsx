@@ -3,6 +3,8 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Mini from "../components/Mini";
 import { Frontmatter } from "../components/meta";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChalkboardTeacher } from "@fortawesome/free-solid-svg-icons";
 
 type ClassListProps = {
   data: {
@@ -23,7 +25,9 @@ const ClassList: React.FC<ClassListProps> = ({ data: { allMdx: { group } } }) =>
 
   return (
     <Layout title="Teaching" description="The classes I have taught and/or am currently teaching.">
-      <h1 role="banner" className="text-4xl font-bold mb-3">Teaching</h1>
+      <h1 role="banner" className="text-4xl font-bold mb-3">
+        <FontAwesomeIcon icon={faChalkboardTeacher} size="sm" />&nbsp;Teaching
+      </h1>
       <div className="flex flex-col gap-8">
         {group
           // Sort in reverse year order
