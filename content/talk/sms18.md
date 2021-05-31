@@ -7,7 +7,7 @@ location: Fields Institute (Toronto)
 urls:
   event: http://www.fields.utoronto.ca/talks/Curved-Koszul-duality-and-factorization-homology
   video: http://www.fields.utoronto.ca/video-archive/static/2018/06/2388-18977/mergedvideo.ogv
-  slides: fields.pdf
+  slides: sms18.pdf
 ---
 
 Koszul duality is a powerful tool that can be used to produce resolutions of algebras in many contexts. In this talk, I explain how to use curved Koszul duality for algebras over unital operads to compute the factorization homology of a closed manifold with values in the algebra of polynomial functions on a standard shifted symplectic space.
