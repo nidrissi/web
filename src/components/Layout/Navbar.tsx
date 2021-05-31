@@ -18,14 +18,15 @@ type navbarLink = {
   to: string;
   icon: IconDefinition;
   label: string;
+  partiallyActive?: boolean;
 };
 const navbarLinks: navbarLink[] = [
   { to: "/", icon: faHome, label: "Home" },
   { to: "/misc/cv", icon: faPortrait, label: "CV" },
-  { to: "/research", icon: faFlask, label: "Research" },
-  { to: "/talk", icon: faComments, label: "Talks" },
-  { to: "/class", icon: faChalkboardTeacher, label: "Teaching" },
-  { to: "/post", icon: faPencilAlt, label: "Blog" },
+  { to: "/research", icon: faFlask, label: "Research", partiallyActive: true },
+  { to: "/talk", icon: faComments, label: "Talks", partiallyActive: true },
+  { to: "/class", icon: faChalkboardTeacher, label: "Teaching", partiallyActive: true },
+  { to: "/post", icon: faPencilAlt, label: "Blog", partiallyActive: true },
   { to: "/misc", icon: faBoxOpen, label: "Misc" },
 ];
 
@@ -53,14 +54,15 @@ const Navbar: React.FC<{}> = () => {
         id="navbar-content"
         className={`grid grid-cols-1 md:flex gap-2 ${expanded ? "" : "hidden"}`}
       >
-        {navbarLinks.map((l) => (
+        {navbarLinks.map((link) => (
           <Link
-            key={l.to}
-            to={l.to}
+            key={link.to}
+            to={link.to}
             className="block p-2 text-lg"
             activeClassName="font-bold text-white"
+            partiallyActive={link.partiallyActive}
           >
-            <FontAwesomeIcon icon={l.icon} className="mr-1" />{l.label}
+            <FontAwesomeIcon icon={link.icon} className="mr-1" />{link.label}
           </Link>
         ))}
       </div>
