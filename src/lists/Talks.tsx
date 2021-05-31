@@ -5,6 +5,8 @@ import Layout from '../components/Layout'
 import Mini from "../components/Mini";
 import { Frontmatter } from "../components/meta";
 import Pager from "./Pager";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faComments } from "@fortawesome/free-solid-svg-icons";
 
 type TalkListProps = {
   data: {
@@ -32,7 +34,7 @@ const TalkList: React.FC<TalkListProps> = ({ data, pageContext }) => {
   return (
     <Layout title={title} description="My talks.">
       <h1 role="banner" className="text-4xl font-bold mb-3">
-        {title}
+        <FontAwesomeIcon icon={faComments} size="sm" />&nbsp;{title}
       </h1>
       <div className="flex flex-col gap-4">
         {

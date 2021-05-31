@@ -5,6 +5,8 @@ import Layout from "../components/Layout";
 import Mini from "../components/Mini";
 import { Frontmatter } from "../components/meta";
 import Pager from "./Pager";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPen } from "@fortawesome/free-solid-svg-icons";
 
 type PostListProps = {
   data: {
@@ -32,7 +34,7 @@ const PostList: React.FC<PostListProps> = ({ data, pageContext }) => {
   return (
     <Layout title={title} description="My blog posts.">
       <h1 role="banner" className="text-4xl font-bold mb-4">
-        {title}
+        <FontAwesomeIcon icon={faPen} size="sm" />&nbsp;{title}
       </h1>
       <div className="flex flex-col gap-4">
         {
