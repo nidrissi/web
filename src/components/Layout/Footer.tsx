@@ -62,8 +62,21 @@ const Footer: React.FC<{}> = () => {
     }
   `);
 
-  const links: { url: string; label: string; icon?: IconDefinition, relMe?: boolean }[] = [
-    { url: `mailto:${email}`, label: email, icon: faAt },
+  type FooterLink = {
+    url: string;
+    label: string;
+    icon?: IconDefinition;
+    relMe?: boolean;
+    extraStyle?: string;
+  };
+
+  const linkList: FooterLink[] = [
+    {
+      url: `mailto:${email}`,
+      label: email,
+      icon: faAt,
+      extraStyle: "font-mono tracking-tighter",
+    },
     organizations.map((o) => ({ url: o.url, label: o.name })),
     {
       url: `https://arxiv.org/a/${arXiv}.html`,
@@ -100,18 +113,18 @@ const Footer: React.FC<{}> = () => {
           <FontAwesomeIcon icon={faCopyright} className="mr-1" />
           {name}
         </Link>
-        {links.map(l => (
+        {linkList.map(link => (
           <a
-            href={l.url}
-            rel={`noreferrer noopener ${l.relMe ? "me" : ""}`}
+            href={link.url}
+            rel={`noreferrer noopener ${link.relMe ? "me" : ""}`}
             target="_blank"
-            className={linkStyle}
-            key={l.label}
+            className={linkStyle + " " + (link.extraStyle || "")}
+            key={link.label}
           >
-            {l.icon ? (
-              <FontAwesomeIcon icon={l.icon} className="mr-1" />
+            {link.icon ? (
+              <FontAwesomeIcon icon={link.icon} className="mr-1" />
             ) : null}
-            {l.label}
+            {link.label}
           </a>
         ))}
       </footer>
