@@ -40,8 +40,8 @@ const ResearchList: React.FC<ResearchListProps> = ({ data }) => {
               {
                 nodes
                   .filter(({ frontmatter }) => frontmatter.status === key)
-                  .map(({ frontmatter, slug }) => (
-                    <Mini key={slug} type="research" slug={slug} frontmatter={frontmatter} />
+                  .map(({ frontmatter, slug }, index) => (
+                    <Mini key={slug} type="research" slug={slug} frontmatter={frontmatter} index={index + 1} />
                   ))
               }
             </div>
