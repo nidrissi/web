@@ -30,13 +30,15 @@ module.exports = {
     },
   },
   plugins: [
-    "gatsby-plugin-typescript",
-    "gatsby-plugin-catch-links",
-    "gatsby-plugin-postcss",
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-catch-links`,
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-image`,
     `gatsby-remark-images`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -108,7 +110,6 @@ module.exports = {
         trackingIds: ["G-S549JC61XZ"],
       },
     },
-    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
