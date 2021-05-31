@@ -39,6 +39,11 @@ const Index: React.FC<{ description: string }> = ({ children }) => {
           loading="eager"
         />
       </div>
+      <header>
+        <h1 role="banner" className="text-3xl font-medium mb-4">
+          Najib Idrissi
+        </h1>
+      </header>
       <article>
         <div className="prose prose-blue max-w-none mb-3">
           {children}
