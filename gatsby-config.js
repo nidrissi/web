@@ -121,7 +121,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#065F46`,
         display: `fullscreen`,
-        icon: `src/images/photo.jpg`,
+        icon: `src/components/Root/photo.jpg`,
         icon_options: {
           purpose: `any maskable`,
         },
