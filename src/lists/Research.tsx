@@ -30,7 +30,7 @@ const ResearchList: React.FC<ResearchListProps> = ({ data }) => {
   return (
     <Layout title="Research" description="My research.">
       <h1 role="banner" className="text-4xl font-bold mb-2">
-        <FontAwesomeIcon icon={faFlask} size="sm" />&nbsp;Research
+        <FontAwesomeIcon icon={faFlask} size="sm" className="mr-2" />Research
       </h1>
       <div className="flex flex-col gap-6">
         {sections.map(({ key, title }) => (

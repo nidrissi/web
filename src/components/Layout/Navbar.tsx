@@ -60,8 +60,7 @@ const Navbar: React.FC<{}> = () => {
             className="block p-2 text-lg"
             activeClassName="font-bold text-white"
           >
-            <FontAwesomeIcon icon={l.icon} />
-            &nbsp;{l.label}
+            <FontAwesomeIcon icon={l.icon} className="mr-1" />{l.label}
           </Link>
         ))}
       </div>
