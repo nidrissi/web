@@ -13,21 +13,29 @@ type MiniProps = {
   levelUp?: boolean;
   excerpt?: string;
   noLink?: boolean;
+  index?: number;
 }
-const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, noLink }) => {
-  const title = noLink ? actualTitle(frontmatter, type) : (
-    <Link to={`/${type}/${slug}`} className="text-green-800 hover:underline">
+const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, noLink, index }) => {
+  const titleLabel = (
+    <>
       {actualTitle(frontmatter, type)}
+      {index ? <span className="tracking-wider text-sm"> [{index}]</span> : null}
+    </>
+  );
+
+  const linkedTitle = noLink ? titleLabel : (
+    <Link to={`/${type}/${slug}`} className="text-green-800 hover:underline">
+      {titleLabel}
     </Link>
   )
 
   const header = levelUp ? (
     <h2 className="text-2xl font-semibold max-w-3xl">
-      {title}
+      {linkedTitle}
     </h2>
   ) : (
     <h3 className="text-xl font-semibold max-w-3xl">
-      { title}
+      {linkedTitle}
     </h3 >
   )
 
