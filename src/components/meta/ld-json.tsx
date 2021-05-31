@@ -1,9 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 
-const LdJSON: React.FC<{ data: Object }> = ({ data }) => {
+const LdJSON: React.FC<{}> = ({ children }) => {
   // remove empty fields
-  const cleanedData = data;
+  const cleanedData = children;
   Object.keys(cleanedData).forEach(key => !cleanedData[key] && delete cleanedData[key]);
 
   return (
