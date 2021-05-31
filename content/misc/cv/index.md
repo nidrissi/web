@@ -732,7 +732,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (exercises+labs, 42h)</div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions & Labs, 42h)</div>
 </div>
 
 
@@ -772,7 +772,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 Maths (exercises+labs, 42h)</div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 Maths (Exercise sessions & Labs, 42h)</div>
 </div>
 
 

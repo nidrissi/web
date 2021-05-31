@@ -418,7 +418,7 @@ section:
           b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
       - item:
           a: ""
-          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42h) ! *Algorithms and Programming*, L2 (exercises+labs, 42h)"
+          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42h) ! *Algorithms and Programming*, L2 (Exercise sessions & Labs, 42h)"
       - item:
           a: "2019--2020"
           b: "*Homotopie réelle des espaces de configuration*, Cours Peccot, Collège de France (8h) ! *Real Homotopy of Configuration Spaces*, Peccot Lecture, Collège de France (8h)"
@@ -439,7 +439,7 @@ section:
           b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
       - item:
           a: ""
-          b: "*Algorithmes et Programmation*, L2 Maths (TD+TP, 42h) ! *Algorithms and Programming*, L2 Maths (exercises+labs, 42h)"
+          b: "*Algorithmes et Programmation*, L2 Maths (TD+TP, 42h) ! *Algorithms and Programming*, L2 Maths (Exercise sessions & Labs, 42h)"
       - item:
           a: 2018--2019
           b: "*Algèbre et analyse élémentaires 1*, L1 MIASHS (cours/TD, 72h) ! *Elementary Algebra and Analysis 1*, L1 MIASHS (lecture+exercises, 72h)"

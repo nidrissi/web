@@ -64,8 +64,8 @@ query tagListQuery($tag: String!) {
         authors
         accepted
         cursus
-        what
-        time
+        courseType
+        courseHours
         year
         event
         TBA

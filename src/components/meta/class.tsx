@@ -2,11 +2,11 @@ import React from "react";
 import { Frontmatter } from ".";
 
 const MetaClass: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter }) => {
-  const { cursus, what, time } = frontmatter;
+  const { cursus, courseType, courseHours } = frontmatter;
 
   return (
     <>
-      <div>{cursus} &bull; {what} &bull; {time}.</div>
+      <div>{cursus} &bull; {courseType} &bull; {courseHours}&nbsp;h.</div>
     </>
   );
 };

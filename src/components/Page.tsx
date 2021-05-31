@@ -90,8 +90,8 @@ export const query = graphql`
         authors
         accepted
         cursus
-        what
-        time
+        courseType
+        courseHours
         year
         event
         TBA

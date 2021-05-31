@@ -28,8 +28,8 @@ query RootClassQuery {
         title
         date
         lastMod
-        time
-        what
+        courseHours
+        courseType
         cursus
         year
         tags

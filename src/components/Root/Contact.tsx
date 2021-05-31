@@ -94,7 +94,9 @@ const Contact: React.FC<{}> = () => {
               ))
               : link.url ? (
                 <ContactLink url={link.url} label={link.label} />
-              ) : link.label}
+              ) : (
+                link.label
+              )}
           </li>
         ))}
       </ul>
