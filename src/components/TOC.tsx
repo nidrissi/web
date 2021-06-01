@@ -14,7 +14,7 @@ const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
   const [show, setShow] = useState(false);
 
   return items ? (
-    <nav className="max-w-md my-2 rounded-md border border-blue-800 text-blue-800">
+    <nav className="max-w-md my-2 rounded-md border border-blue-300 text-blue-800">
       <button
         className="block focus:outline-none w-full p-1 text-lg hover:bg-blue-800 hover:text-white"
         onClick={() => setShow(!show)}
