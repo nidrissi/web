@@ -49,11 +49,12 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
     fields: { type }
   } = data.mdx;
 
+  const parsedTitle = actualTitle(frontmatter, type);
   return (
-    <Layout title={frontmatter.title} description={excerpt} date={frontmatter.date} lastMod={frontmatter.lastMod}>
+    <Layout title={parsedTitle} description={excerpt} date={frontmatter.date} lastMod={frontmatter.lastMod}>
       <header className="mb-4">
         <h1 role="banner" className="text-3xl font-bold">
-          {actualTitle(frontmatter, type)}
+          {parsedTitle}
         </h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
@@ -63,6 +64,23 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
           {body}
         </MDXRenderer>
       </div>
+      {type === "talk" && frontmatter.urls.slides ? (
+        <div className="aspect-w-16 aspect-h-9 my-4">
+          <iframe
+            src={frontmatter.urls.slides.publicURL}
+            title={`Slides for the talk: ${parsedTitle}`}
+          />
+        </div>
+      ) : null}
+      {type === "research" && frontmatter.urls.read ? (
+        // approx A4 ratio
+        <div className="aspect-w-1 aspect-h-1 my-4">
+          <iframe
+            src={frontmatter.urls.read.publicURL}
+            title={`Read the research document: ${parsedTitle}`}
+          />
+        </div>
+      ) : null}
       <NextPrevious next={data.next} previous={data.previous} type={type} />
     </Layout>
   );
