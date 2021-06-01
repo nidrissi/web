@@ -67,14 +67,14 @@ const Contact: React.FC<{}> = () => {
     { label: `Office: ${office}`, icon: faDoorOpen },
   ];
 
-  const ContactLink: React.FC<{ url: string, label: string }> = ({ url, label }) => (
+  const ContactLink: React.FC<{ url: string }> = ({ url, children }) => (
     <a
       href={url}
       className="text-blue-600 hover:underline"
       target="_blank"
       rel="noreferrer noopener"
     >
-      {label}
+      {children}
     </a>
   );
 
@@ -88,15 +88,20 @@ const Contact: React.FC<{}> = () => {
             {link.items
               ? link.items.map((item, index) => (
                 <React.Fragment key={item.label}>
-                  {index ? ' & ' : null}
-                  <ContactLink url={item.url} label={item.label} />
+                  {index > 0 ? ' & ' : null}
+                  <ContactLink url={item.url}>
+                    {item.label}
+                  </ContactLink>
                 </React.Fragment>
               ))
               : link.url ? (
-                <ContactLink url={link.url} label={link.label} />
+                <ContactLink url={link.url}>
+                  {link.label}
+                </ContactLink>
               ) : (
                 link.label
               )}
+              .
           </li>
         ))}
       </ul>

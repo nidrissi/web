@@ -34,7 +34,7 @@ query RootPostQuery {
             <Mini key={slug} type="post" slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
           ))
         }
-        <SeeMore to="/post" label="posts" />
+        <SeeMore to="/post">posts</SeeMore>
       </div>
     </section>
   );

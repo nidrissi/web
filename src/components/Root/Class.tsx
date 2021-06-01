@@ -49,7 +49,7 @@ query RootClassQuery {
           ))
         }
         <div>
-          <SeeMore to="/class" label="teaching" />
+          <SeeMore to="/class">teaching</SeeMore>
         </div>
       </div>
     </section>

@@ -40,7 +40,7 @@ query RootTalkQuery {
             <Mini key={slug} type="talk" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
           ))
         }
-        <SeeMore to="/talk" label="talks" />
+        <SeeMore to="/talk">talks</SeeMore>
       </div>
     </section>
   );

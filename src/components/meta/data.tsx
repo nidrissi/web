@@ -19,11 +19,13 @@ const MetaData: React.FC<{ frontmatter: Frontmatter }> = ({
           "dateModified": lastMod ? new Date(lastMod).toISOString() : null,
         }}
       </LdJSON>
-      <DateTime date={date} label="Published" />
-      <DateTime date={lastMod} label="Updated" />
-      {tags?.sort().map((tag) => (
-        <TagLink tag={tag} key={tag} />
-      ))}
+      <DateTime label="Published">{date}</DateTime>
+      <DateTime label="Updated">{lastMod}</DateTime>
+      {
+        tags?.sort().map((tag) => (
+          <TagLink tag={tag} key={tag} />
+        ))
+      }
     </>
   );
 };
