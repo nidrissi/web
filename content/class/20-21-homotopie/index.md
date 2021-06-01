@@ -69,8 +69,6 @@ To access the different videos, click on the playlist icon in the top right of t
 This will be an open-book exam: you will have access to printed and handwritten lecture notes.
 Electronic devices will be forbidden.
 
-<!-- <div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/?listType=playlist&list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="The course's YouTube playlist."></iframe></div> -->
-
 ## Lectures
 
 <div class="flex flex-col sm:grid sm:grid-cols-3 lg:grid-cols-4 gap-3">
