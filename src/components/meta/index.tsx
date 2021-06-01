@@ -19,24 +19,24 @@ export type LocalImage = {
 export type Frontmatter = {
   title: string;
   date: string;
-  lastMod: string;
-  tags: string[];
-  urls: Urls;
-  localImages: LocalImage[];
+  lastMod?: string;
+  tags?: string[];
+  urls?: Urls;
+  localImages?: LocalImage[];
   // Research
-  accepted: string;
-  publication: string;
-  status: string;
-  authors: string[];
+  accepted?: string;
+  publication?: string;
+  status?: string;
+  authors?: string[];
   // Class
-  cursus: string;
-  courseType: string;
-  courseHours: string;
-  year: string;
+  cursus?: string;
+  courseType?: string;
+  courseHours?: string;
+  year?: string;
   // Event
-  event: string;
-  location: string;
-  TBA: boolean;
+  event?: string;
+  location?: string;
+  TBA?: boolean;
 };
 
 const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({

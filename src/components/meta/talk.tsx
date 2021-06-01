@@ -7,7 +7,7 @@ const MetaTalk: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter }) => {
 
   return (
     <>
-      <DateTime date={date} label="On" TBA={TBA} />
+      <DateTime label="On" TBA={TBA}>{date}</DateTime>
       <div>Title: {title}.</div>
     </>
   );

@@ -26,9 +26,9 @@ type PageTemplateProps = {
 export function actualTitle(
   frontmatter: {
     title: string;
-    event: string;
-    location: string;
-    year: string;
+    event?: string;
+    location?: string;
+    year?: string;
   },
   type: string
 ) {
@@ -64,7 +64,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
           {body}
         </MDXRenderer>
       </div>
-      {type === "talk" && frontmatter.urls.slides ? (
+      {type === "talk" && frontmatter.urls?.slides ? (
         <div className="aspect-w-16 aspect-h-9 my-4">
           <iframe
             src={frontmatter.urls.slides.publicURL}
@@ -72,7 +72,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
           />
         </div>
       ) : null}
-      {type === "research" && frontmatter.urls.read ? (
+      {type === "research" && frontmatter.urls?.read ? (
         // approx A4 ratio
         <div className="aspect-w-1 aspect-h-1 my-4">
           <iframe
