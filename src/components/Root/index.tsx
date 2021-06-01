@@ -43,7 +43,7 @@ const Index: React.FC<{}> = ({ children }) => {
         <header>
           <h1 role="banner" className="text-3xl font-medium mb-4">
             Najib Idrissi
-        </h1>
+          </h1>
         </header>
         <div className="prose prose-blue max-w-none mb-3">
           {children}

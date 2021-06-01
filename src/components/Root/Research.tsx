@@ -38,7 +38,7 @@ query RootResearchQuery {
             );
           })
         }
-        <SeeMore to="/research" label="research" />
+        <SeeMore to="/research">research</SeeMore>
       </div>
     </section>
   );

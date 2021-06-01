@@ -1,28 +1,27 @@
 import React from "react";
 
 type DateTimeProps = {
-  date: string;
   label: string;
   TBA?: boolean
 }
 
-const DateTime: React.FC<DateTimeProps> = ({ date, label, TBA }) => {
-  if (!date) {
+const DateTime: React.FC<DateTimeProps> = ({ label, children, TBA }) => {
+  if (!children) {
     return null;
   }
 
-  const formattedDate = new Date(date).toLocaleDateString();
+  const date = new Date(children.toString())
 
   return (
     <div>
       {label}
       {' '}
-      <time dateTime={new Date(date).toISOString()}>
+      <time dateTime={date.toISOString()}>
         {TBA ? (
           <abbr title="The precise date is not yet known.">
-            {formattedDate}?
+            {date.toLocaleDateString()}?
           </abbr>
-        ) : formattedDate}
+        ) : date.toLocaleDateString()}
       </time>
       .
     </div>
