@@ -6,6 +6,7 @@ import Layout from "./Layout";
 import Meta, { Frontmatter } from "./meta";
 import TOC, { TableOfContents } from "./TOC";
 import { NextPrevious, NextPreviousProps } from "./NextPrevious";
+import Embed from "./Embed";
 
 type PageTemplateProps = {
   data: {
@@ -65,21 +66,10 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
         </MDXRenderer>
       </div>
       {type === "talk" && frontmatter.urls?.slides ? (
-        <div className="aspect-w-16 aspect-h-9 my-4">
-          <iframe
-            src={frontmatter.urls.slides.publicURL}
-            title={`Slides for the talk: ${parsedTitle}`}
-          />
-        </div>
+        <Embed url={frontmatter.urls.slides.publicURL} alt={`Slides for the talk: ${parsedTitle}`} />
       ) : null}
       {type === "research" && frontmatter.urls?.read ? (
-        // approx A4 ratio
-        <div className="aspect-w-1 aspect-h-1 my-4">
-          <iframe
-            src={frontmatter.urls.read.publicURL}
-            title={`Read the research document: ${parsedTitle}`}
-          />
-        </div>
+        <Embed url={frontmatter.urls.read.publicURL} alt={`Read the research document: ${parsedTitle}`} />
       ) : null}
       <NextPrevious next={data.next} previous={data.previous} type={type} />
     </Layout>
