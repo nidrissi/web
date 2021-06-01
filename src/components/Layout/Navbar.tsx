@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
   faBoxOpen,
-  faCaretDown,
-  faCaretRight,
   faChalkboardTeacher,
   faComments,
   faFlask,
   faHome,
+  faListUl,
   faPencilAlt,
   faPortrait,
 } from "@fortawesome/free-solid-svg-icons";
@@ -34,35 +33,37 @@ const Navbar: React.FC<{}> = () => {
   const [expanded, setExpanded] = useState(false);
   return (
     <nav
-      className={`sticky top-0 w-full ${expanded ? "grid grid-cols-1" : "flex"
-        } items-center gap-4 mb-3 bg-green-900 text-white z-50`}
+      className={`sticky top-0 w-full gap-4 mb-3 bg-green-900 text-gray-200 z-50`}
     >
-      <div className="flex w-full md:hidden items-center justify-between">
+      <div className="md:hidden flex w-full items-center justify-between">
         <Link to="/" className="block p-2 font-semibold text-xl">
           Najib Idrissi
         </Link>
         <button
-          className="block cursor-pointer p-2 bg-green-800 rounded-sm"
+          className="block cursor-pointer p-1 m-2 bg-green-800 border border-black focus:outline-none rounded-md"
           onClick={() => setExpanded(!expanded)}
           aria-controls="navbar-content"
           title={`${expanded ? "Collapse" : "Expand"} the navbar`}
         >
-          <FontAwesomeIcon size="2x" fixedWidth icon={expanded ? faCaretDown : faCaretRight} />
+          <FontAwesomeIcon size="lg" fixedWidth icon={faListUl} />
         </button>
       </div>
       <div
         id="navbar-content"
-        className={`grid grid-cols-1 md:flex gap-2 ${expanded ? "" : "hidden"}`}
+        className={`${expanded ? "flex" : "hidden md:flex"} flex-row flex-wrap gap-2 px-2`}
       >
         {navbarLinks.map((link) => (
           <Link
             key={link.to}
             to={link.to}
-            className="block p-2 text-lg"
+            className="block p-2 font-semibold"
             activeClassName="font-bold text-white"
             partiallyActive={link.partiallyActive}
           >
-            <FontAwesomeIcon icon={link.icon} className="mr-1" />{link.label}
+            <FontAwesomeIcon icon={link.icon} className="mr-1" />
+            <span className="text-lg">
+              {link.label}
+            </span>
           </Link>
         ))}
       </div>
