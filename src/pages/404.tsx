@@ -11,7 +11,7 @@ const Error404: React.FC<{}> = () => {
   const { pathname } = useLocation();
   if (pathname.startsWith('/en/')) {
     navigate(pathname.replace(/^\/en/, ''), { replace: true })
-    return <></>;
+    return null;
   } else if (pathname.startsWith('/fr/')) {
     navigate(
       pathname
@@ -21,7 +21,7 @@ const Error404: React.FC<{}> = () => {
         .replace('/fr/expose', '/talk'),
       { replace: true }
     )
-    return <></>;
+    return null;
   }
 
   return (
