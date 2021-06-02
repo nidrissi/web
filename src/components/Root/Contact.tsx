@@ -60,7 +60,7 @@ const Contact: React.FC<{}> = () => {
   `);
 
   const contactLinks = [
-    { label: email, url: `mailto:${email}`, icon: faAt, extraStyle: "font-mono tracking-tighter" },
+    { label: email, url: `mailto:${email}`, icon: faAt, extraStyle: "font-semibold tracking-tight" },
     { icon: faUniversity, items: organizations.map(o => ({ label: o.name, url: o.url })) },
     { label: phone.pretty, url: `tel:${phone.ugly}`, icon: faPhone },
     { label: address.join(" • "), icon: faMapMarkerAlt },
@@ -80,8 +80,8 @@ const Contact: React.FC<{}> = () => {
 
   return (
     <>
-      <h2 className="text-2xl font-bold mb-1">Contact</h2>
-      <ul>
+      <h2 className="text-3xl font-bold mb-2">Contact</h2>
+      <ul className="text-lg">
         {contactLinks.map((link) => (
           <li key={link.icon.iconName} className={link.extraStyle}>
             <FontAwesomeIcon icon={link.icon} fixedWidth className="mr-1" />
