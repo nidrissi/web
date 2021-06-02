@@ -41,7 +41,7 @@ const Index: React.FC<{}> = ({ children }) => {
           />
         </div>
         <header>
-          <h1 role="banner" className="text-3xl font-medium mb-4">
+          <h1 role="banner" className="text-4xl font-bold mb-4">
             Najib Idrissi
           </h1>
         </header>
