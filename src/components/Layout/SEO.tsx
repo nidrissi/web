@@ -61,7 +61,7 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
 
       <meta
         http-equiv="Content-Security-Policy"
-        content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval' www.googletagmanager.com; img-src 'self' data: www.googletagmanager.com; connect-src 'self' analytics.google.com stats.g.doubleclick.net export.arxiv.org; frame-src 'self' www.youtube.com;"
+        content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-eval' www.googletagmanager.com; img-src 'self' data: www.googletagmanager.com; connect-src 'self' analytics.google.com stats.g.doubleclick.net export.arxiv.org; font-src 'self' data:;"
       />
 
       <link rel="canonical" href={`${siteUrl}${pathname}`} />
