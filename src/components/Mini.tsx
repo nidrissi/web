@@ -15,13 +15,8 @@ type MiniProps = {
   noLink?: boolean;
   index?: number;
 }
-const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, noLink, index }) => {
-  const titleLabel = (
-    <>
-      {actualTitle(frontmatter, type)}
-      {index ? <span className="tracking-wider text-sm"> [{index}]</span> : null}
-    </>
-  );
+const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, noLink }) => {
+  const titleLabel = actualTitle(frontmatter, type)
 
   const linkedTitle = noLink ? titleLabel : (
     <Link to={`/${type}/${slug}`} className="text-green-800 hover:underline">
