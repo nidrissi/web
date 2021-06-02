@@ -6,6 +6,7 @@ date: 2018-01-01
 
 I am/was a member of:
 
+- The [Société Mathématique de France](https://smf.emath.fr/) (and through it the [European Mathematical Society](https://euro-math-soc.eu/)).
 - The [GDR Algebraic Topology and Applications](http://gdrtop.math.cnrs.fr).
 - (2014--2015) The [ANR project "Algebraic Homotopy, Operads and Grothendieck--Teichmüller groups" (HOGT)](http://math.univ-lille1.fr/~operads/) coordinated by Benoit Fresse.
 - (2021--2024) The [ANR project "Higher Algebra, Geometry, and Topology" (HighAGT)](https://anr-highagt.pages.math.cnrs.fr/) coordinated by Bruno Vallette.
