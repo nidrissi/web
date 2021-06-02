@@ -33,20 +33,24 @@ const ResearchList: React.FC<ResearchListProps> = ({ data }) => {
         <FontAwesomeIcon icon={faFlask} size="sm" className="mr-2" />Research
       </h1>
       <div className="flex flex-col gap-6">
-        {sections.map(({ key, title }) => (
-          <section key={key}>
-            <h2 className="text-2xl font-semibold mb-1">{title}</h2>
-            <div className="flex flex-col gap-3">
-              {
-                nodes
-                  .filter(({ frontmatter }) => frontmatter.status === key)
-                  .map(({ frontmatter, slug }, index) => (
-                    <Mini key={slug} type="research" slug={slug} frontmatter={frontmatter} index={index + 1} />
-                  ))
-              }
-            </div>
-          </section>
-        ))}
+        {sections.map(({ key, title }) => {
+          const filteredNodes = nodes.filter(({ frontmatter: { status } }) => status === key);
+          return (
+            <section key={key}>
+              <h2 className="text-2xl font-semibold mb-1">
+                {title}
+                {" "}
+                [{filteredNodes.length}]
+              </h2>
+              <div className="flex flex-col gap-3">
+                {filteredNodes
+                  .map(({ frontmatter, slug }) => (
+                    <Mini key={slug} type="research" slug={slug} frontmatter={frontmatter} />
+                  ))}
+              </div>
+            </section>
+          );
+        })}
       </div>
     </Layout>
   );
