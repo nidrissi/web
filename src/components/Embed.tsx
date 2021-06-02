@@ -8,7 +8,7 @@ const Embed: React.FC<{ url: string, alt: string }> = ({ url, alt }) => {
     </div>
   ) : (
     <Link to={url}>
-      <img src={url} alt={alt} className="max-w-3xl" />
+      <img src={url} alt={alt} title={alt} className="max-w-full" />
     </Link>
   );
 
