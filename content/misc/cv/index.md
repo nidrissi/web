@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-05-20
+lastMod: 2021-05-31
 urls:
   customFile:
   - label: CV (en)
@@ -309,6 +309,15 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">Oct. 2021?</div>
 <div class="sm:w-5/6"><span class="font-bold">Colloque 2021 du GDR Topologie Algébrique</span>, <span class="italic">Université de Strasbourg</span>.</div>
+</div>
+
+
+
+
+
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold">June 2021</div>
+<div class="sm:w-5/6"><span class="font-bold">Séminaire de l’équipe Topologie Algébrique</span>, <span class="italic">Université Sorbonne Paris-Nord</span>.</div>
 </div>
 
 
@@ -732,7 +741,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions & Labs, 42h)</div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions &amp; Labs, 42h)</div>
 </div>
 
 
@@ -772,7 +781,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 Maths (Exercise sessions & Labs, 42h)</div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 Maths (Exercise sessions &amp; Labs, 42h)</div>
 </div>
 
 
@@ -966,3 +975,5 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="sm:w-1/6 font-semibold">2013</div>
 <div class="sm:w-5/6"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology) • <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes)</div>
 </div>
+
+
