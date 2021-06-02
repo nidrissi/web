@@ -7,7 +7,7 @@ const Cookie: React.FC<{}> = () => {
     if (
       !document.cookie
         .split("; ")
-        .find((row) => row.startsWith("cookieToastShown"))
+        .find((row) => row.startsWith("cookieToastShown="))
     ) {
       setShow(true);
       setInterval(() => { setShow(false) }, 5000);
