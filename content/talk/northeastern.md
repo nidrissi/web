@@ -4,7 +4,7 @@ date: 2020-10-13
 event: Topology seminar
 location: Northeastern University (online)
 urls:
-  event: https://express.northeastern.edu/topology/
+  event: https://topology.sites.northeastern.edu/calendar_event/najib-idrissi/
   slides: northeastern.png
 ---
 

@@ -4,7 +4,7 @@ date: 2019-12-10
 event: Opening workshop of the OCHoTop project
 location: EPFL (Lausanne)
 urls:
-  event: http://math.univ-lille1.fr/~fresse/ochotop/activities-en.html#OpeningWorkshop
+  event: https://math.univ-lille1.fr/~fresse/ochotop/activities-en.html#OpeningWorkshop
   notes: ochotop.pdf
 ---
 

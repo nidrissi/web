@@ -8,7 +8,7 @@ The theorem(s) of acyclic models are a rather powerful technique for proving tha
 
 For some reason I only discovered this last year, and I always find myself forgetting the precise hypotheses and conclusion... Hopefully writing this blog post will fix them in my mind. My main reference will be:
 
-- Samuel Eilenberg and Saunders MacLane. "Acyclic models". In: _Amer. J. Math._ 75 (1953), pp. 189–199. ISSN: 0002-9327. JSTOR: [2372628](http://www.jstor.org/stable/2372628). [MR0052766](http://www.ams.org/mathscinet-getitem?mr=0052766).
+- Samuel Eilenberg and Saunders MacLane. "Acyclic models". In: _Amer. J. Math._ 75 (1953), pp. 189–199. ISSN: 0002-9327. JSTOR: [2372628](http://www.jstor.org/stable/2372628). [MR0052766](https://www.ams.org/mathscinet-getitem?mr=0052766).
 
 Unless indicated otherwise, all the definitions, theorems... come from there.
 

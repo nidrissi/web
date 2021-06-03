@@ -4,7 +4,7 @@ event: Séminaire de topologie
 location: Université de Lille
 title: Le modèle de Lambrechts–Stanley des espaces de configuration
 urls:
-  event: "http://math.univ-lille1.fr/d7/node/9057"
+  event: "https://math.univ-lille1.fr/d7/node/9057"
   slides: model-conf-sp_slides_fr.pdf
 ---
 

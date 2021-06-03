@@ -60,7 +60,7 @@ function parseEntry(xmlEntry: Element): Entry | null {
     console.log("bad entry: no id!");
     return null;
   }
-  // the URL has the form http://arxiv.org/abs/{id}v{version}
+  // the URL has the form https://arxiv.org/abs/{id}v{version}
   const regex = /https?:\/\/arxiv\.org\/abs\/(.+)v(\d+)/;
   const match = idURL.match(regex);
   if (match === null) {

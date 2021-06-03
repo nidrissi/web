@@ -4,7 +4,7 @@ date: 2020-04-23
 event: Toric Topology Research Seminar
 location: Fields Institute (online)
 urls:
-  event: http://www.fields.utoronto.ca/activities/19-20/research-seminar
+  event: https://www.fields.utoronto.ca/talks/Real-homotopy-configuration-spaces
   slides: toric.pdf
 ---
 

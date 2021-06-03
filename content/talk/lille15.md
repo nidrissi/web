@@ -4,7 +4,7 @@ event: Séminaire de Topologie
 location: Université de Lille
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 urls:
-  event: "http://math.univ-lille1.fr/d7/node/8621"
+  event: "https://math.univ-lille1.fr/d7/node/8621"
   slides: center_slides.pdf
 ---
 
