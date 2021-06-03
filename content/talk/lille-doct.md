@@ -4,7 +4,7 @@ event: Séminaire des doctorants
 location: Université de Lille
 title: Opérades
 urls:
-  event: "http://math.univ-lille1.fr/d7/node/8816"
+  event: "https://math.univ-lille1.fr/d7/node/8816"
   notes: operades.pdf
 ---
 

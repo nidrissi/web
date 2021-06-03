@@ -6,7 +6,7 @@ title: The Voronov Product of Operads
 
 My first real post in a while! It turns out that writing an actual paper (cf. previous blog post) takes a lot of time and effort. Who knew?
 
-The Voronov product of operads is an operation introduced by Voronov in his paper _The Swiss-cheese operad_ (he just called it "the product"). It combines an operad and a multiplicative operad to yield a new colored operad; the main example I know is the homology of the Swiss-cheese operad. This is a construction that I use in my preprint [Swiss-Cheese operad and Drinfeld center](http://arxiv.org/abs/1507.06844), where as far as I know I coined the name "Voronov product" -- I haven't seen this operation at all outside of Voronov's paper. I wanted to advertise it a bit because I find it quite interesting and I'm eager to see what people can do with it.
+The Voronov product of operads is an operation introduced by Voronov in his paper _The Swiss-cheese operad_ (he just called it "the product"). It combines an operad and a multiplicative operad to yield a new colored operad; the main example I know is the homology of the Swiss-cheese operad. This is a construction that I use in my preprint [Swiss-Cheese operad and Drinfeld center](https://arxiv.org/abs/1507.06844), where as far as I know I coined the name "Voronov product" -- I haven't seen this operation at all outside of Voronov's paper. I wanted to advertise it a bit because I find it quite interesting and I'm eager to see what people can do with it.
 
 ## Voronov products
 
@@ -80,7 +80,7 @@ If we now allow operations with an open output and only closed inputs, things ge
 
 This new operad can almost be described as the Voronov product of two operads. The remark about unital algebras tips us off. Instead of $\mathtt{Ger}$ and $\mathtt{Ass}$, consider instead $\mathtt{Ger}_+$ and $\mathtt{Ass}_+$, the operads encoding _unital_ Gerstenhaber algebras and unital associative algebras. There is still a morphism $\mathtt{Com} \to \mathtt{Ger}_+$, so we can build the Voronov product $\mathtt{Ger}_+ \otimes \mathtt{Ass}_+$.
 
-This is not quite right: this encodes a pair consisting of a unital Gerstenhaber algebra, a unital associative algebra, and a central morphism from the former to the latter. To recover the homology of the variant of Swiss-cheese, one simply removes the operations with zero inputs, something I denote $\mathtt{Ger}_+ \otimes_0 \mathtt{Ass}_+$ in [my paper](http://arxiv.org/abs/1507.06844) (section 4). When we remove these operations we don't have units anymore in our algebras, but we keep a central morphism $A \to Z(B)$ and an action $A \otimes B \to B$, related by:
+This is not quite right: this encodes a pair consisting of a unital Gerstenhaber algebra, a unital associative algebra, and a central morphism from the former to the latter. To recover the homology of the variant of Swiss-cheese, one simply removes the operations with zero inputs, something I denote $\mathtt{Ger}_+ \otimes_0 \mathtt{Ass}_+$ in [my paper](https://arxiv.org/abs/1507.06844) (section 4). When we remove these operations we don't have units anymore in our algebras, but we keep a central morphism $A \to Z(B)$ and an action $A \otimes B \to B$, related by:
 
 $$
 a \cdot b = f(a) \cdot b

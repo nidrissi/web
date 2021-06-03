@@ -4,7 +4,7 @@ event: Séminaire de Géométrie des Espaces Singuliers
 location: Université de Lille
 title: L'opérade Swiss-Cheese et le centre de Drinfeld
 urls:
-    event: "http://math.univ-lille1.fr/d7/node/9492"
+    event: "https://math.univ-lille1.fr/d7/node/9492"
 ---
 
 Après avoir donné une introduction aux opérades et décrit les opérades (topologiques) des petits disques $D_1$ et $D_2$ de Boardmann-Vogt et May, je parlerai de l'opérade $SC$ (« Swiss-Cheese ») de Voronov, qui gouverne en un certain sens l'action d'une algèbre $D_1$ sur une algèbre $D_2$.

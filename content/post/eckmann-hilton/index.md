@@ -4,7 +4,7 @@ tags: [math, algtop]
 title: The Eckmann–Hilton Argument
 ---
 
-As promised, this post is about the famous [Eckmann--Hilton argument](https://en.wikipedia.org/wiki/Eckmann%E2%80%93Hilton_argument). This argument, on the surface, looks like a simple algebraic trick; but it has deep consequences, which I will now try to explain. This post is an expanded version of a [math.SE answer](http://math.stackexchange.com/a/1203969/10014) I wrote some time ago.
+As promised, this post is about the famous [Eckmann--Hilton argument](https://en.wikipedia.org/wiki/Eckmann%E2%80%93Hilton_argument). This argument, on the surface, looks like a simple algebraic trick; but it has deep consequences, which I will now try to explain. This post is an expanded version of a [math.SE answer](https://math.stackexchange.com/a/1203969/10014) I wrote some time ago.
 
 
 ## Some background
@@ -155,7 +155,7 @@ Given a monoidal category $\mathsf{C}$, the Drinfeld center $\mathscr{Z}(\mathsf
 
 The Drinfeld center also has a completely abstract definition: it is the monoidal category of endo-2-functors of the suspension $\Sigma \mathsf{C}$ (the 2-category with one object associated to $\mathsf{C}$).
 
-For those interested, I wrote [a paper](http://arxiv.org/abs/1507.06844) explaining how algebras on the groupoid of the Swiss-Cheese operad are "the same thing" as triples $(\mathsf{M}, \mathsf{N}, F)$ where $\mathsf{N}$ is a monoidal category, $\mathsf{M}$ is a braided monoidal category, and $F : \mathsf{M} \to \mathscr{Z}(\mathsf{N})$ is a braided monoidal functor. I intend to speak more about that later.
+For those interested, I wrote [a paper](https://arxiv.org/abs/1507.06844) explaining how algebras on the groupoid of the Swiss-Cheese operad are "the same thing" as triples $(\mathsf{M}, \mathsf{N}, F)$ where $\mathsf{N}$ is a monoidal category, $\mathsf{M}$ is a braided monoidal category, and $F : \mathsf{M} \to \mathscr{Z}(\mathsf{N})$ is a braided monoidal functor. I intend to speak more about that later.
 
 ## $k$-fold monoidal categories
 
@@ -177,8 +177,8 @@ This _Stabilization Hypothesis_ is one of the features that is expected of any g
 
 ## References
 
-- Beno Eckmann and Peter J. Hilton. “Group-like structures in general categories. I. Multiplications and comultiplications”. In: _Math. Ann._ 145 (1961--1962), pp. 227--255. ISSN: 0025-5831. [MR0136642](http://www.ams.org/mathscinet-getitem?mr=0136642).
-- Shahn Majid. “Representations, duals and quantum doubles of monoidal categories”. In: _Proceedings of the Winter School on Geometry and Physics (Srní, 1990)_. 26. 1991, pp. 197--206. [MR1151906](http://www.ams.org/mathscinet-getitem?mr=1151906). _(Note: Majid cites a personal communication of Drinfeld where Drinfeld tells him about the Drinfeld center.)_
-- André Joyal and Ross Street. “Tortile Yang-Baxter operators in tensor categories”. In: _J. Pure Appl. Algebra_ 71.1 (1991), pp. 43--51. ISSN: 0022-4049. DOI: [10.1016/0022-4049(91)90039-5](http://dx.doi.org/10.1016/0022-4049(91)90039-5>). [MR1107651](http://www.ams.org/mathscinet-getitem?mr=1107651).
-- John C. Baez and James Dolan. “Higher-dimensional algebra and topological quantum field theory”. In: _J. Math. Phys._ 36.11 (1995), pp. 6073--6105. ISSN: 0022-2488. DOI: [10.1063/1.531236](http://dx.doi.org/10.1063/1.531236). arXiv: [q-alg/9503002 [math.QA]](http://arxiv.org/abs/q-alg/9503002). [MR1355899](http://www.ams.org/mathscinet-getitem?mr=1355899).
-- Cornel Balteanu, Zbigniew Fiedorowicz, Roland Schwänzl, and Rainer M. Vogt. “Iterated monoidal categories”. In: _Adv. Math._ 176.2 (2003), pp. 277--349. ISSN: 0001-8708. DOI: [10.1016/S0001-8708(03)00065-3](http://dx.doi.org/10.1016/S0001-8708(03)00065-3>). arXiv: [math/9808082 [math.AT]](http://arxiv.org/abs/math/9808082). [MR1982884](http://www.ams.org/mathscinet-getitem?mr=1982884).
+- Beno Eckmann and Peter J. Hilton. “Group-like structures in general categories. I. Multiplications and comultiplications”. In: _Math. Ann._ 145 (1961--1962), pp. 227--255. ISSN: 0025-5831. [MR0136642](https://www.ams.org/mathscinet-getitem?mr=0136642).
+- Shahn Majid. “Representations, duals and quantum doubles of monoidal categories”. In: _Proceedings of the Winter School on Geometry and Physics (Srní, 1990)_. 26. 1991, pp. 197--206. [MR1151906](https://www.ams.org/mathscinet-getitem?mr=1151906). _(Note: Majid cites a personal communication of Drinfeld where Drinfeld tells him about the Drinfeld center.)_
+- André Joyal and Ross Street. “Tortile Yang-Baxter operators in tensor categories”. In: _J. Pure Appl. Algebra_ 71.1 (1991), pp. 43--51. ISSN: 0022-4049. DOI: [10.1016/0022-4049(91)90039-5](http://dx.doi.org/10.1016/0022-4049(91)90039-5>). [MR1107651](https://www.ams.org/mathscinet-getitem?mr=1107651).
+- John C. Baez and James Dolan. “Higher-dimensional algebra and topological quantum field theory”. In: _J. Math. Phys._ 36.11 (1995), pp. 6073--6105. ISSN: 0022-2488. DOI: [10.1063/1.531236](http://dx.doi.org/10.1063/1.531236). arXiv: [q-alg/9503002 [math.QA]](https://arxiv.org/abs/q-alg/9503002). [MR1355899](https://www.ams.org/mathscinet-getitem?mr=1355899).
+- Cornel Balteanu, Zbigniew Fiedorowicz, Roland Schwänzl, and Rainer M. Vogt. “Iterated monoidal categories”. In: _Adv. Math._ 176.2 (2003), pp. 277--349. ISSN: 0001-8708. DOI: [10.1016/S0001-8708(03)00065-3](http://dx.doi.org/10.1016/S0001-8708(03)00065-3>). arXiv: [math/9808082 [math.AT]](https://arxiv.org/abs/math/9808082). [MR1982884](https://www.ams.org/mathscinet-getitem?mr=1982884).

@@ -85,6 +85,6 @@ Now here's what I find a bit weird. According to Segal, a "fibrant" (for some ri
 
 ## References
 
-- Gregory Arone and Victor Turchin. “On the rational homology of high dimensional analogues of spaces of long knots”. In: _Geom. Topol._ 18.3 (2014), pp. 1261--1322. ISSN: 1465-3060. DOI: [10.2140/gt.2014.18.1261](http://dx.doi.org/10.2140/gt.2014.18.1261). arXiv: [1105.1576 [math.AT]](http://arxiv.org/abs/1105.1576). [MR3228453](http://www.ams.org/mathscinet-getitem?mr=3228453).
-- Benoit Fresse. [_Homotopy of Operads and Grothendieck--Teichmüller Groups_](http://math.univ-lille1.fr/~fresse/OperadHomotopyBook/). Preprint.
-- Jean-Louis Loday and Bruno Vallette. _Algebraic operads._ Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences] 346. Heidelberg: Springer, 2012, pp. xxiv+634. ISBN: 978-3-642-30361-6. DOI: [10.1007/978-3-642-30362-3](http://dx.doi.org/10.1007/978-3-642-30362-3). [MR2954392](http://www.ams.org/mathscinet-getitem?mr=2954392).
+- Gregory Arone and Victor Turchin. “On the rational homology of high dimensional analogues of spaces of long knots”. In: _Geom. Topol._ 18.3 (2014), pp. 1261--1322. ISSN: 1465-3060. DOI: [10.2140/gt.2014.18.1261](http://dx.doi.org/10.2140/gt.2014.18.1261). arXiv: [1105.1576 [math.AT]](https://arxiv.org/abs/1105.1576). [MR3228453](https://www.ams.org/mathscinet-getitem?mr=3228453).
+- Benoit Fresse. [_Homotopy of Operads and Grothendieck--Teichmüller Groups_](https://math.univ-lille1.fr/~fresse/OperadHomotopyBook/). Preprint.
+- Jean-Louis Loday and Bruno Vallette. _Algebraic operads._ Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences] 346. Heidelberg: Springer, 2012, pp. xxiv+634. ISBN: 978-3-642-30361-6. DOI: [10.1007/978-3-642-30362-3](http://dx.doi.org/10.1007/978-3-642-30362-3). [MR2954392](https://www.ams.org/mathscinet-getitem?mr=2954392).

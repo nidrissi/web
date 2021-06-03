@@ -32,5 +32,5 @@ The defense jury was composed of:
 | Referees: | [Damien Calaque](http://imag.umontpellier.fr/~calaque/) | Université de Montpellier |
 | | [Kathryn Hess Bellwald](http://hessbellwald-lab.epfl.ch/HessBellwald) | École Polytechnique Fédérale de Lausanne (EPFL) |
 | Examiners: | [Pascal Lambrechts](https://uclouvain.be/fr/repertoires/pascal.lambrechts) | Université catholique de Louvain |
-| | [Patrick Popescu-Pampu](http://math.univ-lille1.fr/~popescu/) (president) | Université Lille 1 |
+| | [Patrick Popescu-Pampu](https://math.univ-lille1.fr/~popescu/) (president) | Université Lille 1 |
 | | [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/) | ETH Zurich |

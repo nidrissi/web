@@ -4,5 +4,5 @@ event: Séminaire de Géométrie des espaces singuliers
 location: Université de Lille
 title: La compactification de Fulton–MacPherson des espaces de configuration
 urls:
-    event: "http://math.univ-lille1.fr/d7/node/9341"
+    event: "https://math.univ-lille1.fr/d7/node/9341"
 ---

@@ -14,7 +14,7 @@ $$
 \vec{\mathtt{P}}(x_1, \dots, x_n; b) = \mathtt{P}(n)
 $$
 
-Then if $\mathtt{P}$ is formal, so is $\vec{\mathtt{P}}$. This is to be contrasted with the fact that [the Swiss-Cheese operad is not formal](http://arxiv.org/abs/1404.2484), even though the operad of little $2$-disks is. The operad governing morphisms is formal, but not the one governing actions.
+Then if $\mathtt{P}$ is formal, so is $\vec{\mathtt{P}}$. This is to be contrasted with the fact that [the Swiss-Cheese operad is not formal](https://arxiv.org/abs/1404.2484), even though the operad of little $2$-disks is. The operad governing morphisms is formal, but not the one governing actions.
 
 ---
 
