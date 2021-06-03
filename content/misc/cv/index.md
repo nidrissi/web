@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-05-31
+lastMod: 2021-06-03
 urls:
   customFile:
   - label: CV (en)
@@ -47,7 +47,7 @@ Thesis defended on November 17th, 2017.</div>
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">Sept. 2011–Aug. 2015</div>
-<div class="sm:w-5/6"><span class="font-bold">Élève fonctionnaire</span>, <span class="italic">École Normale Supérieure de Paris</span>, Paris, France.<br/>2014–2015: Research internship in preparation of a doctorate, Université de Lille.<br />
+<div class="sm:w-5/6"><span class="font-bold">Élève de l’École Normale Supérieure</span>, <span class="italic">ENS Ulm</span>, Paris, France.<br/>2014–2015: Research internship in preparation of a doctorate, Université de Lille.<br />
 2013–2014: Master’s degree in Fundamental Mathematics, Université Paris Diderot.<br />
 Fall 2013: Research internship in algebraic topology, Massachusetts Institute of Technology.</div>
 </div>
@@ -975,3 +975,5 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 <div class="sm:w-1/6 font-semibold">2013</div>
 <div class="sm:w-5/6"><em>Gelfand Centennial Conference: A View of 21st Century Mathematics</em> (Massachusetts Institute of Technology) • <em>Conference in Algebra and Topology celebrating Lionel Schwartz’s 60th birthday</em> (Université de Nantes)</div>
 </div>
+
+
