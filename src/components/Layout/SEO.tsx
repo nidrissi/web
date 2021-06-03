@@ -51,11 +51,11 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
   const { pathname } = useLocation();
 
   const isRoot = title === siteTitle;
+  const trueTitle = isRoot ? siteTitle : `${title} · ${siteTitle}`;
 
   return (
     <Helmet
       htmlAttributes={{ lang: 'en', }}
-      title={isRoot ? siteTitle : `${title} · ${siteTitle}`}
     >
       <meta charSet="utf-8" />
 
@@ -65,6 +65,7 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
       />
 
       <link rel="canonical" href={`${siteUrl}${pathname}`} />
+      <title>{trueTitle}</title>
       <meta name="description" content={description} />
 
       <meta name="twitter:card" content="summary" />
@@ -74,7 +75,7 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
 
       <meta property="og:url" content={`${siteUrl}${pathname}`} />
       <meta property="og:type" content={isRoot ? "profile" : "article"} />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={trueTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:profile:first_name" content={name.split(' ')[0]} />
       <meta property="og:profile:last_name" content={name.split(' ')[1]} />
