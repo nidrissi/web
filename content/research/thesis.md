@@ -3,7 +3,7 @@ authors:
  - me
 date: 2017-11-17
 status: thesis
-publication: Doctoral thesis, Université Lille 1.
+publication: Doctoral thesis, Université de Lille.
 title: Operadic Formality and Homotopy of Configuration Spaces
 urls:
   source: https://github.com/nidrissi/thesis
@@ -28,9 +28,9 @@ The defense jury was composed of:
 
 | Role | Name | Institution |
 |-|-|-|
-| Advisor: | [Benoit Fresse](https://pro.univ-lille.fr/benoit-fresse/) | Université Lille 1 |
+| Advisor: | [Benoit Fresse](https://pro.univ-lille.fr/benoit-fresse/) | Université de Lille |
 | Referees: | [Damien Calaque](http://imag.umontpellier.fr/~calaque/) | Université de Montpellier |
 | | [Kathryn Hess Bellwald](http://hessbellwald-lab.epfl.ch/HessBellwald) | École Polytechnique Fédérale de Lausanne (EPFL) |
 | Examiners: | [Pascal Lambrechts](https://uclouvain.be/fr/repertoires/pascal.lambrechts) | Université catholique de Louvain |
-| | [Patrick Popescu-Pampu](https://math.univ-lille1.fr/~popescu/) (president) | Université Lille 1 |
+| | [Patrick Popescu-Pampu](https://math.univ-lille1.fr/~popescu/) (president) | Université de Lille |
 | | [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/) | ETH Zurich |
