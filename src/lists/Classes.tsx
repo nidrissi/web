@@ -28,13 +28,15 @@ const ClassList: React.FC<ClassListProps> = ({ data: { allMdx: { group } } }) =>
       <h1 role="banner" className="text-4xl font-bold mb-3">
         <FontAwesomeIcon icon={faChalkboardTeacher} size="sm" className="mr-2" />Teaching
       </h1>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-6">
         {group
           // Sort in reverse year order
           .sort((g1, g2) => g2.fieldValue.localeCompare(g1.fieldValue))
           .map(({ fieldValue: year, nodes }) => (
             <div key={year}>
-              <h2 className="text-2xl font-bold">{year}</h2>
+              <h2 className="text-2xl font-bold mb-2">
+                Year {year}&ndash;{Number(year) + 1}
+              </h2>
               <div className="flex flex-col gap-2">
                 {
                   nodes

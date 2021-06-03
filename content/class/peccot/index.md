@@ -3,7 +3,7 @@ title: Real homotopy of configuration spaces
 cursus: Collège de France
 courseType: Cours Peccot [Peccot Lecture]
 courseHours: 8
-year: 2019-2020
+year: 2019
 date: 2020-03-04
 lastMod: 2020-06-26
 urls:

@@ -3,7 +3,7 @@ title: "Introduction to Homotopy Theory"
 cursus: M2 Fundamental Mathematics (S2)
 courseType: Lectures
 courseHours: 24
-year: 2019-2020
+year: 2019
 date: 2020-01-01
 lastMod: 2020-04-30
 urls:
