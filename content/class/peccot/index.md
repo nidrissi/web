@@ -16,8 +16,6 @@ urls:
       url: https://www.univ-lille.fr/fileadmin/user_upload/illustrations/contenus/recherche/2017/ActULille_Recherche/News_52_Cours_Peccot_de_Najib_Idrissi_-_article.pdf
     - label: Longer version @ Paul Painlevé laboratory
       url: https://math.univ-lille1.fr/d7/node/10461
-    - label: News article @ IMJ-PRG
-      url: https://www.imj-prg.fr/spip.php?article538
   customFile:
     - label: Old version of the notes, in French
       file: ./peccot-fr.pdf
