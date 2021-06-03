@@ -3,8 +3,8 @@ import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 import {
   faBoxOpen,
   faChalkboardTeacher,
+  faCogs,
   faComments,
-  faFlask,
   faHome,
   faListUl,
   faPencilAlt,
@@ -22,7 +22,7 @@ type navbarLink = {
 const navbarLinks: navbarLink[] = [
   { to: "/", icon: faHome, label: "Home" },
   { to: "/misc/cv", icon: faPortrait, label: "CV" },
-  { to: "/research", icon: faFlask, label: "Research", partiallyActive: true },
+  { to: "/research", icon: faCogs, label: "Research", partiallyActive: true },
   { to: "/talk", icon: faComments, label: "Talks", partiallyActive: true },
   { to: "/class", icon: faChalkboardTeacher, label: "Teaching", partiallyActive: true },
   { to: "/post", icon: faPencilAlt, label: "Blog", partiallyActive: true },

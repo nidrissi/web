@@ -5,7 +5,7 @@ import Layout from "../components/Layout";
 import Mini from "../components/Mini";
 import { Frontmatter } from "../components/meta";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFlask } from "@fortawesome/free-solid-svg-icons";
+import { faCogs } from "@fortawesome/free-solid-svg-icons";
 
 const sections = [
   { key: "publication", title: "Publications" },
@@ -30,7 +30,7 @@ const ResearchList: React.FC<ResearchListProps> = ({ data }) => {
   return (
     <Layout title="Research" description="My research.">
       <h1 role="banner" className="text-4xl font-bold mb-2">
-        <FontAwesomeIcon icon={faFlask} size="sm" className="mr-2" />Research
+        <FontAwesomeIcon icon={faCogs} size="sm" className="mr-2" />Research
       </h1>
       <div className="flex flex-col gap-6">
         {sections.map(({ key, title }) => {
