@@ -6,6 +6,7 @@ import {
 
 import { ArxivResult, arxivSearch } from "../../arxiv";
 import { RootState } from "../../store";
+import { Entry, Query, Settings } from "../../types";
 
 /** An asynchronous "thunk" that fetches entries based on the request. */
 export const fetchEntries = createAsyncThunk<

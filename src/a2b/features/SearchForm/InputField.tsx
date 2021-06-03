@@ -20,16 +20,16 @@ const InputField: React.FC<InputFieldProps> = ({ label, ...props }) => {
       </div>
       <div className="col-span-full sm:col-span-5 sm:flex gap-2">
         <input
-          className={`w-full rounded-md ${
-            meta.error ? "border-red-600" : null
-          }`}
+          className={`w-full rounded-md focus:shadow-md ${meta.error ? "border-red-600" : null}`}
           type="text"
           id={props.name}
           {...field}
           {...props}
         />
         {meta.error ? (
-          <div className="text-sm text-red-600">{meta.error}</div>
+          <div className="text-sm text-red-600">
+            {meta.error}
+          </div>
         ) : null}
       </div>
     </>
