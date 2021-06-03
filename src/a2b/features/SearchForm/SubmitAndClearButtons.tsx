@@ -19,8 +19,8 @@ const SubmitAndClearButtons: React.FC<{ isLoading: boolean }> = ({
         {isLoading ? (
           <>
             <FontAwesomeIcon icon={faSpinner} className="mr-1" spin />
-            Loading..
-          .</>
+            Loading...
+          </>
         ) : (
           <>
             <FontAwesomeIcon icon={faSearch} className="mr-1" />

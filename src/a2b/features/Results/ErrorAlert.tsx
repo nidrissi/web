@@ -1,5 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 import { selectError, clearError } from "./resultsSlice";
 
@@ -14,10 +16,18 @@ const ErrorAlert: React.FC<{}> = () => {
     return null;
   }
   return (
-    <div className="bg-red-100 text-red-900 p-2 rounded-lg my-2 flex">
-      <div className="flex-grow">{String(error)}</div>
+    <div className="bg-red-200 text-red-900 p-2 rounded-lg my-2 flex">
+      <div className="flex-grow">
+        {error}
+      </div>
       <div>
-        <button onClick={() => dispatch(clearError)}>&times;</button>
+        <button
+          onClick={() => dispatch(clearError())}
+          title="Close the error alert."
+          className="px-1"
+        >
+          <FontAwesomeIcon icon={faTimes} />
+        </button>
       </div>
     </div>
   );
