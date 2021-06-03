@@ -36,7 +36,7 @@ export function actualTitle(
   return type === 'talk' ? (
     `${frontmatter.event} @ ${frontmatter.location}`
   ) : type === 'class' ? (
-    `${frontmatter.title} (${frontmatter.year})`
+    `${frontmatter.title} (${frontmatter.year}–${Number(frontmatter.year) + 1})`
   ) : (
     frontmatter.title
   );
