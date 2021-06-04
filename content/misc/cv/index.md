@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-06-03
+lastMod: 2021-06-04
 urls:
   customFile:
   - label: CV (en)
@@ -326,7 +326,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">June 2021</div>
-<div class="sm:w-5/6"><span class="font-bold">Viva Talbot</span>, <span class="italic">Online</span>.</div>
+<div class="sm:w-5/6"><span class="font-bold">Viva Talbot</span>, <span class="italic">MIT</span>, online.</div>
 </div>
 
 

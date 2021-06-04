@@ -2,9 +2,10 @@
 title: Little disks operads and configuration spaces
 date: 2021-06-04
 event: Viva Talbot!
-location: Online
+location: MIT (online)
 urls:
   event: https://math.mit.edu/events/talbot/index.php?year=retrospective_2021
+  slides: talbot.pdf
 ---
 
 Operads are objects that govern categories of algebras.

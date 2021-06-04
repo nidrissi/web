@@ -225,7 +225,8 @@ section:
       - entry:
           a: 06/2021
           b: "Viva Talbot"
-          c: Online
+          c: MIT
+          d: en ligne ! online
       - entry:
           a: 06/2021
           b: ~~Barcelona Conference on Higher Structures~~
