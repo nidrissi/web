@@ -1,7 +1,7 @@
+import React, { useState } from "react";
+import { Link } from "gatsby";
 import { faCaretDown, faParagraph } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "gatsby";
-import React, { useState } from "react";
 
 export type TableOfContents = {
   items: {
@@ -14,9 +14,9 @@ const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
   const [show, setShow] = useState(false);
 
   return items ? (
-    <nav className="max-w-md my-2 rounded-md border border-blue-300 text-blue-800">
+    <nav className="max-w-md my-2 border border-blue-200 text-blue-800 hover:shadow-md">
       <button
-        className="block focus:outline-none w-full p-1 text-lg hover:bg-blue-800 hover:text-white"
+        className="block rounded-none focus:outline-none focus:ring-1 focus:ring-blue-800 w-full p-1 text-lg hover:bg-blue-800 hover:text-white"
         onClick={() => setShow(!show)}
       >
         <FontAwesomeIcon icon={faParagraph} className="mr-1" />
