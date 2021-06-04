@@ -21,6 +21,7 @@
       "type": "process",
       "command": "make",
       "args": [
+        "-j5",
         "copy"
       ],
       "problemMatcher": [],
