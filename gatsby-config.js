@@ -1,4 +1,5 @@
 module.exports = {
+  flags: { PRESERVE_WEBPACK_CACHE: true },
   siteMetadata: {
     siteUrl: `https://idrissi.eu`,
     siteTitle: `Najib Idrissi's page`,
