@@ -121,9 +121,7 @@ const Footer: React.FC<{}> = () => {
             className={linkStyle + " " + (link.extraStyle || "")}
             key={link.label}
           >
-            {link.icon ? (
-              <FontAwesomeIcon icon={link.icon} className="mr-1" />
-            ) : null}
+            {link.icon && <FontAwesomeIcon icon={link.icon} className="mr-1" />}
             {link.label}
           </a>
         ))}

@@ -79,12 +79,8 @@ const SEO: React.FC<SEOProps> = ({ title, description, date, lastMod }) => {
       <meta property="og:description" content={description} />
       <meta property="og:profile:first_name" content={name.split(' ')[0]} />
       <meta property="og:profile:last_name" content={name.split(' ')[1]} />
-      {date
-        ? <meta property="og:article:published_time" content={new Date(date).toISOString()} />
-        : null}
-      {lastMod
-        ? <meta property="og:article:modified_time" content={new Date(lastMod).toISOString()} />
-        : null}
+      {date && <meta property="og:article:published_time" content={new Date(date).toISOString()} />}
+      {lastMod && <meta property="og:article:modified_time" content={new Date(lastMod).toISOString()} />}
     </Helmet>
   );
 };

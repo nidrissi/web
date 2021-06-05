@@ -23,9 +23,7 @@ export const SettingField: React.FC<SettingFieldProps> = ({
         </label>
         <Field
           type="text"
-          className={`block w-full ${
-            disabled ? "bg-gray-100 cursor-not-allowed" : null
-          }`}
+          className={`block w-full ${disabled ? "bg-gray-100 cursor-not-allowed" : ""}`}
           name={id}
           id={id}
           disabled={disabled}

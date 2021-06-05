@@ -65,12 +65,12 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
           {body}
         </MDXRenderer>
       </div>
-      {type === "talk" && frontmatter.urls?.slides ? (
+      {type === "talk" && frontmatter.urls?.slides && (
         <Embed url={frontmatter.urls.slides.publicURL} alt={`Slides for the talk: ${parsedTitle}`} />
-      ) : null}
-      {type === "research" && frontmatter.urls?.read ? (
+      )}
+      {type === "research" && frontmatter.urls?.read && (
         <Embed url={frontmatter.urls.read.publicURL} alt={`Read the research document: ${parsedTitle}`} />
-      ) : null}
+      )}
       <NextPrevious next={data.next} previous={data.previous} type={type} />
     </Layout>
   );

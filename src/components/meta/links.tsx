@@ -120,9 +120,7 @@ const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile 
       target={href.startsWith("http") ? "_blank" : null}
       rel={href.startsWith("http") ? "noopener noreferrer" : null}
     >
-      {definition.icon ? (
-        <FontAwesomeIcon icon={definition.icon} className="mr-1" />
-      ) : null}
+      {definition.icon && <FontAwesomeIcon icon={definition.icon} className="mr-1" />}
       {label}
     </a>
   );
@@ -136,9 +134,7 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
     <div className="flex flex-wrap gap-x-2 gap-y-1 content-center">
       {linkDefinitions.map((definition) => {
         const url = urls[definition.link];
-        return url ? (
-          <EntryLink key={url.publicURL || url} definition={definition} url={url}></EntryLink>
-        ) : null;
+        return url && <EntryLink key={url.publicURL || url} definition={definition} url={url}></EntryLink>;
       })}
 
       {urls.custom?.map(({ label, url }, index) => (

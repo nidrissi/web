@@ -88,7 +88,7 @@ const Contact: React.FC<{}> = () => {
             {link.items
               ? link.items.map((item, index) => (
                 <React.Fragment key={item.label}>
-                  {index > 0 ? ' & ' : null}
+                  {index > 0 && ' & '}
                   <ContactLink url={item.url}>
                     {item.label}
                   </ContactLink>
