@@ -15,7 +15,7 @@ export type StandardInputProps = {
 
 const Tooltip: React.FC<{ help?: string | JSX.Element }> = ({ help }) => {
   const [shown, setShown] = useState(false);
-  return help && (
+  return help ? (
     <span
       className="relative"
       onFocus={() => setShown(true)}
@@ -34,7 +34,7 @@ const Tooltip: React.FC<{ help?: string | JSX.Element }> = ({ help }) => {
         {help}
       </div>
     </span>
-  );
+  ) : null;
 };
 
 /** Standard inputs.

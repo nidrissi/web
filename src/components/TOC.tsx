@@ -13,7 +13,11 @@ export type TableOfContents = {
 const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
   const [show, setShow] = useState(false);
 
-  return items && (
+  if (!items) {
+    return null;
+  }
+
+  return (
     <nav className="max-w-md my-2 border border-blue-200 text-blue-800 hover:shadow-md">
       <button
         className="block rounded-none focus:outline-none focus:ring-1 focus:ring-blue-800 w-full p-1 text-lg hover:bg-blue-800 hover:text-white"
