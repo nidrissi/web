@@ -29,14 +29,14 @@ const EntryList: React.FC<{}> = () => {
   const totalText = (
     <>
       Showing {entries.length} entries out of {totalEntriesFound} in total.
-      {mode === "bibtex" ? (
+      {mode === "bibtex" && (
         <>
           {" "}
           <span className="text-danger">
             Running in legacy BibTeX mode. Check entries for issues.
           </span>
         </>
-      ) : null}
+      )}
     </>
   );
 

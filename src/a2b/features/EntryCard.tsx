@@ -6,6 +6,7 @@ import { faCheck, faClipboard } from "@fortawesome/free-solid-svg-icons";
 
 import { removeAccents, splitter } from "../utils";
 import { selectSettings } from "./Settings/settingsSlice";
+import { Entry, Settings } from "../types";
 
 // TODO Better pairing type
 type Pairing = {
@@ -118,14 +119,14 @@ function buildPairing({
   );
 
   // deal with journal ref & doi
-  const journalRefLink = entry.journalRef ? (
+  const journalRefLink = entry.journalRef && (
     <abbr title="Consider converting this entry to @article or something more appropriate.">
       {entry.journalRef}
     </abbr>
-  ) : null;
-  const doiLink = entry.doi ? (
+  );
+  const doiLink = entry.doi && (
     <a href={`https://dx.doi.org/${entry.doi}`}>{entry.doi}</a>
-  ) : null;
+  );
 
   // journal name & series in bad mode
   // if in badmode, add the series in parenthesis
@@ -166,8 +167,8 @@ function buildPairing({
       [goodMode
         ? "eprintclass"
         : "primaryclass"]: settings.includePrimaryCategory
-        ? entry.primaryCategory
-        : null,
+          ? entry.primaryCategory
+          : null,
       version: goodMode && settings.includeVersion ? entry.version : null,
       url: goodMode ? null : absURL,
     };
@@ -243,14 +244,14 @@ const EntryCard: React.FC<{ entry: Entry }> = ({ entry }) => {
       <pre ref={preRef} className="m-0 overflow-hidden">
         {formattedEntry}
       </pre>
-      {settings.includeWget && wget ? (
+      {settings.includeWget && wget && (
         <div className="mt-2 flex">
           <pre className="bg-black text-white whitespace-normal p-1">
             {wget}
           </pre>
           <div className="flex-grow"></div>
         </div>
-      ) : null}
+      )}
     </div>
   );
 };

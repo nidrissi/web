@@ -14,15 +14,15 @@ type MiniProps = {
   excerpt?: string;
   noLink?: boolean;
   index?: number;
-}
+};
 const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, noLink }) => {
-  const titleLabel = actualTitle(frontmatter, type)
+  const titleLabel = actualTitle(frontmatter, type);
 
   const linkedTitle = noLink ? titleLabel : (
     <Link to={`/${type}/${slug}`} className="text-green-800 hover:underline">
       {titleLabel}
     </Link>
-  )
+  );
 
   const header = levelUp ? (
     <h2 className="text-2xl font-semibold max-w-3xl">
@@ -32,15 +32,15 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
     <h3 className="text-xl font-semibold max-w-3xl">
       {linkedTitle}
     </h3 >
-  )
+  );
 
-  const fullExcerpt = excerpt ? (
+  const fullExcerpt = excerpt && (
     <Link to={`/post/${slug}`} className="block text-sm hover:underline hover:text-blue-800 max-w-xl">
       {excerpt}
       {' '}
       <FontAwesomeIcon icon={faCaretSquareRight} />
     </Link>
-  ) : null;
+  );
 
   return (
     <article>

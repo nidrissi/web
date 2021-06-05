@@ -13,7 +13,7 @@ export type TableOfContents = {
 const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
   const [show, setShow] = useState(false);
 
-  return items ? (
+  return items && (
     <nav className="max-w-md my-2 border border-blue-200 text-blue-800 hover:shadow-md">
       <button
         className="block rounded-none focus:outline-none focus:ring-1 focus:ring-blue-800 w-full p-1 text-lg hover:bg-blue-800 hover:text-white"
@@ -23,7 +23,7 @@ const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
         Contents
         <FontAwesomeIcon icon={faCaretDown} className="ml-1" />
       </button>
-      {show ? (
+      {show && (
         <ol
           id="toc-body"
           className="list-decimal list-inside text-lg border-t border-white mt-2 mb-1 px-1"
@@ -37,9 +37,8 @@ const TOC: React.FC<{ toc: TableOfContents }> = ({ toc: { items } }) => {
             </li>
           ))}
         </ol>
-      ) : null
-      }
+      )}
     </nav>
-  ) : null;
+  );
 }
 export default TOC;

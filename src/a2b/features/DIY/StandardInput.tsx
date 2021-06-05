@@ -15,7 +15,7 @@ export type StandardInputProps = {
 
 const Tooltip: React.FC<{ help?: string | JSX.Element }> = ({ help }) => {
   const [shown, setShown] = useState(false);
-  return help ? (
+  return help && (
     <span
       className="relative"
       onFocus={() => setShown(true)}
@@ -27,15 +27,14 @@ const Tooltip: React.FC<{ help?: string | JSX.Element }> = ({ help }) => {
         <FontAwesomeIcon icon={faQuestionCircle} aria-label="Help" />
       </button>
       <div
-        className={`${
-          shown ? "block" : "hidden"
-        } absolute -top-2 left-0 z-10 w-48 bg-black text-gray-100 rounded-md p-2`}
+        className={`${shown ? "block" : "hidden"
+          } absolute -top-2 left-0 z-10 w-48 bg-black text-gray-100 rounded-md p-2`}
       >
         <FontAwesomeIcon icon={faQuestionCircle} className="mr-2" />
         {help}
       </div>
     </span>
-  ) : null;
+  );
 };
 
 /** Standard inputs.
@@ -57,9 +56,8 @@ const StandardInput: React.FC<StandardInputProps> = ({
         <Tooltip help={help} />
       </label>
       <div
-        className={`col-span-full ${
-          halfSize ? "sm:col-span-4" : "sm:col-span-10"
-        }`}
+        className={`col-span-full ${halfSize ? "sm:col-span-4" : "sm:col-span-10"
+          }`}
       >
         <Field {...props} id={props.name} className="w-full" />
       </div>
