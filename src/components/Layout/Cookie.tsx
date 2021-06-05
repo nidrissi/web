@@ -11,24 +11,25 @@ const Cookie: React.FC<{}> = () => {
     ) {
       setShow(true);
       setInterval(() => { setShow(false) }, 5000);
-      document.cookie =
-        "cookieToastShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+      document.cookie = "cookieToastShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
     }
   }, []);
 
-  const cookieBar = (
-    <aside className="fixed bottom-0 left-0 w-screen bg-gray-200 border-t border-black p-2 flex">
-      <p className="block m-auto">
-        I use cookies to analyze traffic. To opt out, you can
-        {' '}
-        <a
-          href="https://tools.google.com/dlpage/gaoptout/"
-          className="text-blue-700 hover:underline"
-        >install the Google Analytics opt-out add-on</a>.
-      </p>
-    </aside>
-  );
-
-  return (show ? cookieBar : null)
+  if (!show) {
+    return null;
+  } else {
+    return (
+      <aside className="fixed bottom-0 left-0 w-screen bg-gray-200 border-t border-black p-3 text-center content-center text-lg">
+        <p>
+          I use cookies to analyze traffic. To opt out, you can
+          {' '}
+          <a
+            href="https://tools.google.com/dlpage/gaoptout/"
+            className="text-blue-700 hover:underline"
+          >install the Google Analytics opt-out add-on</a>.
+        </p>
+      </aside>
+    );
+  }
 };
 export default Cookie;
