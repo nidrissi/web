@@ -23,7 +23,10 @@ type ContactQuery = {
           pretty: string;
           ugly: string;
         };
-        address: string[];
+        address: {
+          url: string;
+          location: string[];
+        };
         office: string;
       }
     }
@@ -43,7 +46,10 @@ const Contact: React.FC<{}> = () => {
         siteMetadata {
           author {
             email
-            address
+            address {
+              url
+              location
+            }
             office
             phone {
               pretty
@@ -63,7 +69,7 @@ const Contact: React.FC<{}> = () => {
     { label: email, url: `mailto:${email}`, icon: faAt, extraStyle: "font-semibold tracking-tight" },
     { icon: faUniversity, items: organizations.map(o => ({ label: o.name, url: o.url })) },
     { label: phone.pretty, url: `tel:${phone.ugly}`, icon: faPhone },
-    { label: address.join(" • "), icon: faMapMarkerAlt },
+    { label: address.location.join(" • "), url: address.url, icon: faMapMarkerAlt },
     { label: `Office: ${office}`, icon: faDoorOpen },
   ];
 
