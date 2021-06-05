@@ -103,30 +103,27 @@ const Footer: React.FC<{}> = () => {
     },
   ].flat();
 
-  const linkStyle = "block flex-auto text-blue-800 hover:underline block px-2 py-4";
+  const linkStyle = "block flex-auto text-blue-800 hover:underline block px-1 py-2";
 
   return (
-    <>
-      <hr className="mt-2" />
-      <footer className="mx-auto flex flex-wrap divide-x divide-gray-300 divide-dotted text-center">
-        <Link to="/" className={linkStyle}>
-          <FontAwesomeIcon icon={faCopyright} className="mr-1" />
-          {name}
-        </Link>
-        {linkList.map(link => (
-          <a
-            href={link.url}
-            rel={`noreferrer noopener ${link.relMe ? "me" : ""}`}
-            target="_blank"
-            className={linkStyle + " " + (link.extraStyle || "")}
-            key={link.label}
-          >
-            {link.icon && <FontAwesomeIcon icon={link.icon} className="mr-1" />}
-            {link.label}
-          </a>
-        ))}
-      </footer>
-    </>
+    <footer className="border-t w-full flex flex-wrap divide-x divide-gray-300 divide-dotted text-center">
+      <Link to="/" className={linkStyle}>
+        <FontAwesomeIcon icon={faCopyright} className="mr-1" />
+        {name}
+      </Link>
+      {linkList.map(link => (
+        <a
+          href={link.url}
+          rel={`noreferrer noopener ${link.relMe ? "me" : ""}`}
+          target="_blank"
+          className={linkStyle + " " + (link.extraStyle || "")}
+          key={link.label}
+        >
+          {link.icon && <FontAwesomeIcon icon={link.icon} className="mr-1" />}
+          {link.label}
+        </a>
+      ))}
+    </footer>
   );
 };
 export default Footer;
