@@ -10,12 +10,15 @@ module.exports = {
         { name: "Université de Paris", url: "https://u-paris.fr" },
         { name: "IMJ-PRG", url: "https://www.imj-prg.fr" },
       ],
-      address: [
-        "Bâtiment Sophie Germain",
-        "8 place Aurélie Nemours",
-        "F-75013 Paris",
-        "France",
-      ],
+      address: {
+        url: `https://goo.gl/maps/2nQKHG6pEdb6w4f5A`,
+        location: [
+          "Bâtiment Sophie Germain",
+          "8 place Aurélie Nemours",
+          "F-75013 Paris",
+          "France",
+        ]
+      },
       office: "(Sophie Germain) SG-7032, 7th floor",
       phone: {
         pretty: "(+33) 01 57 27 91 16",
