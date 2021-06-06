@@ -44,8 +44,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-remark-images`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-sitemap`,
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -134,5 +133,8 @@ module.exports = {
         },
       },
     },
+    // needs to be after manifest
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`,
   ],
 };
