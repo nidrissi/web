@@ -41,7 +41,7 @@ They were written two years ago and the content of the lecture has changed since
 I gave a [similar course last year](/class/20-21-homotopie), and [also the year before that](/class/19-20-homotopie).
 You can in particular find past exams on these pages.
 Grégory Ginot gave a [course in 2017--2018--2019 on the same subject](https://www.math.univ-paris13.fr/~ginot/Homotopie/).
-You can find on his page **[his lecture notes](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf)**, as well as past exercise sheets and exams.
+You can find on his page [his lecture notes](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf), as well as past exercise sheets and exams.
 
 Works on homotopy theory:
 
