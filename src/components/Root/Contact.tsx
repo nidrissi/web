@@ -66,7 +66,7 @@ const Contact: React.FC<{}> = () => {
   `);
 
   const contactLinks = [
-    { label: email, url: `mailto:${email}`, icon: faAt, extraStyle: "font-semibold tracking-tight" },
+    { label: email, url: `mailto:${email}`, icon: faAt, extraStyle: "font-mono tracking-tighter" },
     { icon: faUniversity, items: organizations.map(o => ({ label: o.name, url: o.url })) },
     { label: phone.pretty, url: `tel:${phone.ugly}`, icon: faPhone },
     { label: address.location.join(" • "), url: address.url, icon: faMapMarkerAlt },
