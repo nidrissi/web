@@ -10,7 +10,6 @@ Several people have asked me for my LaTeX template to write letters, so I guess 
 It uses the [`scrlttr2`](https://www.ctan.org/pkg/scrlttr2) package.
 I think the markup is relatively self-explanatory.
 
-
 The template expects a copy of your signature and the logo of your university in the same folder, in images named `signature.(png|jpg|...)` and `logo.(png|jpg|...)`; this can of course be customized.
 
 If you would like to your letter to be formatted with French norms (recipient on the right, sender on the left, compatible with standard windowed letters), add the `NF` option to the `\documentclass` command.

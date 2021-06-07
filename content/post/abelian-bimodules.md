@@ -6,7 +6,6 @@ title: About Abelian Bimodules
 
 This post is about something somewhat weird I noticed about infinitesimal bimodules over operads and their relationships with some $E_n$ operads. I don't know if it's something significant, and I'd definitely be interested to hear more about it.
 
-
 ## Context: abelian bimodules
 
 As I said, this post is about abelian bimodules, sometimes also called infinitesimal or weak bimodules. They are a "linearized" version of usual bimodules over operads. Let me now recall their definition.

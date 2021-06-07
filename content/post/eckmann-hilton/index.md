@@ -6,7 +6,6 @@ title: The Eckmann–Hilton Argument
 
 As promised, this post is about the famous [Eckmann--Hilton argument](https://en.wikipedia.org/wiki/Eckmann%E2%80%93Hilton_argument). This argument, on the surface, looks like a simple algebraic trick; but it has deep consequences, which I will now try to explain. This post is an expanded version of a [math.SE answer](https://math.stackexchange.com/a/1203969/10014) I wrote some time ago.
 
-
 ## Some background
 
 When I was a first-year student at the ENS, we had to write a "_Mémoire de première année_" ("First-year essay") on a topic. I wrote mine together with Maxence Novel, with Grégory Ginot as advisor, about the Eckmann--Hilton argument. You can find it [here](./eckmann-hilton.pdf) (it's in French; bear in mind that we were undergrads when we wrote this).
@@ -162,7 +161,6 @@ For those interested, I wrote [a paper](https://arxiv.org/abs/1507.06844) explai
 The Drinfeld center is, in many respects, the "correct" notion of center for a monoidal category -- but it is not symmetric, only braided. There is some amount of commutativity lost when one goes to higher dimensional category theory. This is explained by Baez and Dolan in their article (cf. [References](#references)) through $k$-tuply monoidal $n$-categories, an $n$-category equipped with $k$ different "compatible" monoidal structures.
 
 By the Eckmann--Hilton argument, all these monoidal structures are equal, but the amount of commutativity one gets changes depending on $n$ and $k$. These types of categories eventually stabilize to a "fully symmetric" structure for $k > n + 1$, as in this table (Table 21 in (Baez and Dolan)):
-
 
 | | $n=0$ | $n=1$ | $n=2$
 -|-|-|-|-
