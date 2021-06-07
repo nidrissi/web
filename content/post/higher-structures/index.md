@@ -16,4 +16,4 @@ I'd like to thank Bruno Vallette and all the organizers for giving me this oppor
 
 Bonus: a picture taken from the top of the *Belvédère de Sugiton*, inside the [*Calanques*](https://en.wikipedia.org/wiki/Massif_des_Calanques):
 
-![Photo taken from the Belvédère de Sugiton]./(belvedere.jpg)
+![Photo taken from the Belvédère de Sugiton](belvedere.jpg)
