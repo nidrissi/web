@@ -66,7 +66,7 @@ const DIY: React.FC<{}> = () => {
   return (
     <>
       <div className="bg-yellow-100 p-3" role="alert">
-        <FontAwesomeIcon icon={faExclamationTriangle} className="mr-1" />Not feature complete yet!
+        <FontAwesomeIcon icon={faExclamationTriangle} className="mr-1" title="Warning!" />Not feature complete yet!
       </div>
       <Formik
         initialValues={initialValues}

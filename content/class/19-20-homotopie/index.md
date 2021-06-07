@@ -67,10 +67,10 @@ It covered chapters 1 and 2.
 | Thursday January 23rd | Section 1.6: Cofibrantly generated model categories, small object argument. |
 | Tuesday January 28th | Section 1.7: Quillen adjunctions and equivalences. Section 1.8: Homotopy (co)limits. |
 | Thursday January 30th | Sections 2.1--2.3: Introduction to simplicial sets. |
-| Monday February 3rd (<FontAwesomeIcon icon={faExclamationTriangle} className="mr-1" />16:15--18:15) | Sections 2.4--2.5: Model structure on simplicial sets, beginning of the equivalence with topological spaces. |
+| Monday February 3rd (<FontAwesomeIcon icon={faExclamationTriangle} className="mr-1" title="Warning!" />16:15--18:15) | Sections 2.4--2.5: Model structure on simplicial sets, beginning of the equivalence with topological spaces. |
 | Tuesday February 4th | Sections 2.5--2.6: End of the equivalence with topological spaces. Dold--Kan correspondence. Section 3.1: Localization with respect to rational equivalences. |
 | ~~Thursday February 6th~~ | Moved to February 3rd. |
-| Tuesday February 11th (<FontAwesomeIcon icon={faExclamationTriangle} className="mr-1" />room 2017) | Sections 3.2--3.3: Model structure on CDGAs, Sullivan theory, comparison with simplicial sets up to rational equivalence. |
+| Tuesday February 11th (<FontAwesomeIcon icon={faExclamationTriangle} className="mr-1" title="Warning!" />room 2017) | Sections 3.2--3.3: Model structure on CDGAs, Sullivan theory, comparison with simplicial sets up to rational equivalence. |
 | Thursday February 13th | Chapter 3: Some applications of rational homotopy theory. Chapter 4: Very bried introduction to $\infty$-categories. |
 
 ## Bibliography
