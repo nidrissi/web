@@ -138,7 +138,7 @@ And each one gets a solution!
 
 To compile the file, [install Pandoc](https://pandoc.org/installing.html) (and LaTeX, obviously) then run the following command:
 
-```
+```shell
 pandoc --pdf-engine lualatex --template exam-template.tex --lua-filter exam-filter.lua example.md --output example.pdf
 ```
 
