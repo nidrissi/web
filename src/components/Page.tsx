@@ -107,7 +107,7 @@ export const query = graphql`
         ... allUrlsFragment
         localImages {
           childImageSharp {
-            gatsbyImageData
+            gatsbyImageData(placeholder: TRACED_SVG)
             original {
               src
             }

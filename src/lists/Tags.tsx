@@ -71,14 +71,6 @@ query tagListQuery($tag: String!) {
         TBA
         location
         ...allUrlsFragment
-        localImages {
-          childImageSharp {
-            gatsbyImageData
-            original {
-              src
-            }
-          }
-        }
       }
     }
   }

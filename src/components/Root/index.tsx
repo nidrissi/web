@@ -38,6 +38,7 @@ const Index: React.FC<{}> = ({ children }) => {
             alt="Photo of myself."
             className="rounded-sm"
             loading="eager"
+            placeholder="tracedSVG"
           />
         </div>
         <header>
