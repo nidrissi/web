@@ -44,7 +44,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-remark-images`,
     `gatsby-transformer-sharp`,
-
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
