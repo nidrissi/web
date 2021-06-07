@@ -66,8 +66,8 @@ It was be an open-book exam: students had access to printed and handwritten lect
 Electronic devices were forbidden.
 
 The retake exam (*rattrapage*) will be on June 15<sup>th</sup>.
-They will consist in oral exam lasting around 30 minutes total per students.
-In-person sessions will be in the morning between 9AM and 1PM.
+It will consist in oral exams lasting around 30 minutes total per student.
+In-person sessions will be in the morning between 9AM and 1PM, in the Sophie Germain building, room 1014.
 Online sessions for students that cannot be physically present in Paris at that time will be in the afternoon.
 Individual students have been contacted for the organization.
 **If you have not been contacted, please let me know as soon as possible!**
