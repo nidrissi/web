@@ -33,10 +33,10 @@ const Navbar: React.FC<{}> = () => {
   const [expanded, setExpanded] = useState(false);
   return (
     <nav
-      className={`sticky top-0 w-full gap-4 bg-green-900 text-gray-200 z-50`}
+      className={`sticky top-0 w-full gap-4 bg-green-800 text-gray-100 text-xl z-50`}
     >
       <div className="md:hidden flex w-full items-center justify-between">
-        <Link to="/" className="block p-2 font-semibold text-xl">
+        <Link to="/" className="block p-2 font-semibold">
           Najib Idrissi
         </Link>
         <button
@@ -56,14 +56,12 @@ const Navbar: React.FC<{}> = () => {
           <Link
             key={link.to}
             to={link.to}
-            className="block p-2 font-semibold"
-            activeClassName="font-bold text-white"
+            className="block px-2 py-4 leading-none font-medium"
+            activeClassName="!font-bold !text-white"
             partiallyActive={link.partiallyActive}
           >
             <FontAwesomeIcon icon={link.icon} className="mr-1" />
-            <span className="text-lg">
-              {link.label}
-            </span>
+            {link.label}
           </Link>
         ))}
       </div>
