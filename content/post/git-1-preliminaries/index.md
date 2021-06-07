@@ -13,7 +13,6 @@ This post is the first in a series in which I will try to explain how to use Git
 I know that there are a lot of material online about learning Git, but as far as I can tell, none are tailored specifically for mathematicians' needs (which differ a bit from programmers' needs).
 Here, I will try to explain why one would even be interested in Git to begin with.
 
-
 ## Why do I need a (distributed) version control system?
 
 Git is a [distributed version control system](https://en.wikipedia.org/wiki/Distributed_version_control).

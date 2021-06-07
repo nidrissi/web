@@ -7,9 +7,7 @@ title: Hello Everyone!
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-
 Hi! If you're reading this, it means I've finally decided to upload my blog, and this is my first post.
-
 
 ## Me
 

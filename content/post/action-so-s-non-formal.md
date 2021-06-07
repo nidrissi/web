@@ -9,7 +9,6 @@ In this post, I record a simple and probably well-known fact; but since I have t
 The fact is that for an odd $n \ge 3$, the usual action of the special orthogonal group $SO(n)$ on the sphere $S^{n-1}$ is not formal over $\mathbb{Q}$ in the sense of rational homotopy theory, even though both spaces are formal.
 This was first told to me by Thomas Willwacher, and it is mentioned as Remark 9.5 in his paper ["Real models for the framed little \(n\)-disks operads" (arXiv:1705.08108)](https://arxiv.org/abs/1705.08108) with Anton Khoroshkin.
 
-
 Here is a quick proof for $n=3$ that generalizes easily.
 Suppose that the action map $\rho : SO(n) \times S^{n-1} \to S^{n-1}$ is formal.
 Then one can find maps that make the following diagram commute:
