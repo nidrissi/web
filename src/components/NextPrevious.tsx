@@ -24,33 +24,29 @@ export const NextPrevious: React.FC<{ previous: NextPreviousProps; next: NextPre
     return null;
   }
 
-  const linkStyle = "p-1 text-sm text-green-700 border border-green-700 rounded-md hover:bg-green-700 hover:text-white";
+  const linkStyle = "block p-1 text-sm text-green-700 border border-green-700 rounded-md hover:bg-green-700 hover:text-white";
 
   return (
-    <div className="flex justify-between w-full mt-6">
-      <div>
-
-        {previous && (
-          <Link
-            to={`/${type}/${previous.slug}`}
-            className={linkStyle}
-          >
-            <FontAwesomeIcon icon={faArrowLeft} className="mr-1" />
-            {actualTitle(previous.frontmatter, type)}
-          </Link>
-        )}
-      </div>
-      <div>
-        {next && (
-          <Link
-            to={`/${type}/${next.slug}`}
-            className={linkStyle}
-          >
-            {actualTitle(next.frontmatter, type)}
-            <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
-          </Link>
-        )}
-      </div>
+    <div className="flex w-full mt-6">
+      {previous && (
+        <Link
+          to={`/${type}/${previous.slug}`}
+          className={linkStyle}
+        >
+          <FontAwesomeIcon icon={faArrowLeft} className="mr-1" />
+          {actualTitle(previous.frontmatter, type)}
+        </Link>
+      )}
+      <div className="flex-grow"></div>
+      {next && (
+        <Link
+          to={`/${type}/${next.slug}`}
+          className={linkStyle}
+        >
+          {actualTitle(next.frontmatter, type)}
+          <FontAwesomeIcon icon={faArrowRight} className="ml-1" />
+        </Link>
+      )}
     </div>
   );
 };
