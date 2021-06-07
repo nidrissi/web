@@ -76,7 +76,7 @@ It covered chapters 1 and 2.
 ## Bibliography
 
 Grégory Ginot gave [a course in 2017--2019 on the same topic](https://www.math.univ-paris13.fr/~ginot/Homotopie).
-On his webpage, you can find [**his lecture notes**](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf), as well as past exercise sheets and past exams.
+On his webpage, you can find [his lecture notes](https://www.math.univ-paris13.fr/%7Eginot/Homotopie/Ginot-homotopie2019.pdf), as well as past exercise sheets and past exams.
 
 Works on homotopy theory:
 

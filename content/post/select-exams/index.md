@@ -24,7 +24,7 @@ This is easier to grade (I don't need to switch back and forth between 30+ bookl
 
 I have thus written a PowerShell script to separate exams and name them automatically so that I can feed them to Moodle.
 It's rather simple to use and self-explanatory.
-[**It is available as a GitHub gist.**](https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92)
+[It is available as a GitHub gist.](https://gist.github.com/nidrissi/a802dc0a20ecad0bc8c077ce32b6ad92)
 Note that you need [PDFtk](https://www.pdflabs.com/tools/pdftk-server/) to be installed.
 
 The gist includes an example CSV file.
