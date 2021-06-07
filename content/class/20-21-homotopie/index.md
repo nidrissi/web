@@ -56,18 +56,21 @@ It will be useful to have a certain familiarity with categorical language and wi
 
 ## Organization
 
-Lectures will happen on _Mondays 10:45--12:45_ and _Fridays 15:45--17:45_.
-They will begin on January 11th and end on February 19th.
+Lectures happened on Mondays 10:45--12:45 and Fridays 15:45--17:45.
+They began on January 11<sup>th</sup> and ended on February 19<sup>th</sup>.
+All lectures were online (via Zoom).
+The sessions were recorded and [they are now available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
 
-For now, lectures will be online.
-We will meet via Zoom.
-You will receive the link to the meeting by email; if you did not receive it, please contact me.
-The sessions will also be recorded and [available on YouTube](https://www.youtube.com/playlist?list=PLTt5PyNwzdilR4GnUNxvTBGlKzma9imTf).
-To access the different videos, click on the playlist icon in the top right of the embedded player.
+The exam was on Friday, March 5th, 14:00--17:00, in room 207C of the [Halle aux Farines](../19-20-homotopie/HAF.pdf).
+It was be an open-book exam: students had access to printed and handwritten lecture notes.
+Electronic devices were forbidden.
 
-**The exam will happen on Friday, March 5th, 14:00--17:00, in room 207C of the [Halle aux Farines](../19-20-homotopie/HAF.pdf) (note the room change!).**
-This will be an open-book exam: you will have access to printed and handwritten lecture notes.
-Electronic devices will be forbidden.
+The retake exam (*rattrapage*) will be on June 15<sup>th</sup>.
+They will consist in oral exam lasting around 30 minutes total per students.
+In-person sessions will be in the morning between 9AM and 1PM.
+Online sessions for students that cannot be physically present in Paris at that time will be in the afternoon.
+Individual students have been contacted for the organization.
+**If you have not been contacted, please let me know as soon as possible!**
 
 ## Lectures
 
