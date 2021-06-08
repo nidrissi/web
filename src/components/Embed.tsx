@@ -13,7 +13,7 @@ const Embed: React.FC<{ url: string, alt: string }> = ({ url, alt }) => {
   );
 
   return (
-    <div className="mx-auto my-4">
+    <div className="mx-auto mt-6 mb-4">
       {content}
     </div>
   )
