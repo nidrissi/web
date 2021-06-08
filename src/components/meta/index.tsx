@@ -3,6 +3,7 @@ import { ImageDataLike } from "gatsby-plugin-image";
 
 import MetaClass from "./class";
 import MetaData from "./data";
+import { actualTitle } from "../Page"
 import Links, { Urls } from "./links";
 import MetaResearch from "./research";
 import MetaTalk from "./talk";
@@ -58,7 +59,7 @@ const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({
           )
         }
       </div>
-      <Links urls={frontmatter.urls} />
+      <Links urls={frontmatter.urls} title={actualTitle(frontmatter, type)} />
     </div>
   );
 }
