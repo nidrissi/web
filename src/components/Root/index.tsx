@@ -27,8 +27,6 @@ const Index: React.FC<{}> = ({ children }) => {
           }
         }`);
 
-  const hr = <hr className="my-4" />
-
   return (
     <Layout title={siteTitle} description={siteDescription}>
       <article>
@@ -51,14 +49,12 @@ const Index: React.FC<{}> = ({ children }) => {
         </div>
         <Contact />
       </article>
-      {hr}
-      <Research />
-      {hr}
-      <Class />
-      {hr}
-      <Talk />
-      {hr}
-      <Post />
+      <div className="flex flex-col gap-8 mt-8">
+        <Research />
+        <Class />
+        <Talk />
+        <Post />
+      </div>
     </Layout>
   );
 };
