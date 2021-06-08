@@ -61,7 +61,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
       </header>
       <TOC toc={data.mdx.tableOfContents} />
       <div className="prose prose-blue max-w-none">
-        <MDXRenderer localImages={frontmatter.localImages}>
+        <MDXRenderer localImages={frontmatter.localImages} urls={frontmatter.urls}>
           {body}
         </MDXRenderer>
       </div>
