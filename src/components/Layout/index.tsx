@@ -7,7 +7,7 @@ import Cookie from "./Cookie";
 
 const Layout: React.FC<SEOProps> = ({ children, ...props }) => {
   return (
-    <div className="flex flex-col gap-y-4 h-screen">
+    <div className="flex flex-col gap-y-4 min-h-screen">
       <SEO {...props} />
       <Cookie />
       <Navbar />
