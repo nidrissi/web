@@ -40,7 +40,7 @@ const Navbar: React.FC<{}> = () => {
           Najib Idrissi
         </Link>
         <button
-          className="block cursor-pointer p-1 m-2 bg-green-800 border border-black focus:outline-none rounded-md"
+          className="block p-1 m-2 bg-green-700 text-white border border-black focus:outline-none rounded-md"
           onClick={() => setExpanded(!expanded)}
           aria-controls="navbar-content"
           title={`${expanded ? "Collapse" : "Expand"} the navbar`}
@@ -50,17 +50,17 @@ const Navbar: React.FC<{}> = () => {
       </div>
       <div
         id="navbar-content"
-        className={`${expanded ? "flex" : "hidden md:flex"} flex-row flex-wrap gap-2 px-2`}
+        className={`${expanded ? "flex" : "hidden md:flex"} flex-row flex-wrap`}
       >
         {navbarLinks.map((link) => (
           <Link
             key={link.to}
             to={link.to}
-            className="block px-2 py-4 leading-none font-medium"
+            className="block p-3"
             activeClassName="!font-bold !text-white"
             partiallyActive={link.partiallyActive}
           >
-            <FontAwesomeIcon icon={link.icon} className="mr-1" />
+            <FontAwesomeIcon icon={link.icon} className="mr-2" />
             {link.label}
           </Link>
         ))}
