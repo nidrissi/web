@@ -68,6 +68,9 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
       {type === "talk" && frontmatter.urls?.slides && (
         <Embed url={frontmatter.urls.slides.publicURL} alt={`Slides for the talk: ${parsedTitle}`} />
       )}
+      {type === "talk" && frontmatter.urls?.notes && (
+        <Embed url={frontmatter.urls.notes.publicURL} alt={`Notes for the talk: ${parsedTitle}`} />
+      )}
       {type === "research" && frontmatter.urls?.read && (
         <Embed url={frontmatter.urls.read.publicURL} alt={`Read the research document: ${parsedTitle}`} />
       )}
