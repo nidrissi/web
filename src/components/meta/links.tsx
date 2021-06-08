@@ -1,4 +1,5 @@
 import React from "react";
+import { graphql } from "gatsby";
 import {
   faCalendarDay,
   faCode,
@@ -10,7 +11,6 @@ import {
   faBookOpen,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { graphql } from "gatsby";
 import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
 
 type LocalFile = {
@@ -68,13 +68,38 @@ type LinkDefinition = {
   label: string | ((id: string) => string);
   icon?: IconDefinition;
   urlBuilder?: (id: string) => string;
+  titleBuilder?: (title: string) => string;
 };
 const linkDefinitions: LinkDefinition[] = [
-  { link: "event", label: "Event", icon: faCalendarDay },
-  { link: "read", label: "Read", icon: faFileAlt },
-  { link: "slides", label: "Slides", icon: faDesktop },
-  { link: "video", label: "Video", icon: faVideo },
-  { link: "notes", label: "Notes", icon: faBookOpen },
+  {
+    link: "event",
+    label: "Event",
+    icon: faCalendarDay,
+  },
+  {
+    link: "read",
+    label: "Read",
+    icon: faFileAlt,
+    titleBuilder: title => `Read “${title}”.`,
+  },
+  {
+    link: "slides",
+    label: "Slides",
+    icon: faDesktop,
+    titleBuilder: title => `Slides for the talk ${title}.`,
+  },
+  {
+    link: "video",
+    label: "Video",
+    icon: faVideo,
+    titleBuilder: title => `Video(s) of ${title}.`,
+  },
+  {
+    link: "notes",
+    label: "Notes",
+    icon: faBookOpen,
+    titleBuilder: title => `Notes for ${title}.`,
+  },
   {
     link: "doi",
     label: (id) => `DOI:${id}`,
@@ -95,12 +120,18 @@ const linkDefinitions: LinkDefinition[] = [
     label: (id) => `zb:${id}`,
     urlBuilder: (id) => `https://zbmath.org/?q=an:${id}`,
   },
-  { link: "source", label: "Source", icon: faCode },
+  {
+    link: "source",
+    label: "Source",
+    icon: faCode,
+    titleBuilder: title => `Source files of ${title}.`,
+  },
 ];
 
-const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile }> = ({
+const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile; title: string }> = ({
   url,
   definition,
+  title
 }) => {
   if (!url) {
     return null;
@@ -119,6 +150,7 @@ const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile 
       className="block border border-gray-200 text-black hover:bg-blue-800 hover:border-blue-800 hover:text-white hover:shadow-md rounded-md px-2 py-1 text-sm"
       target={href.startsWith("http") ? "_blank" : null}
       rel={href.startsWith("http") ? "noopener noreferrer" : null}
+      title={definition.titleBuilder ? definition.titleBuilder(title) : null}
     >
       {definition.icon && <FontAwesomeIcon icon={definition.icon} className="mr-1" />}
       {label}
@@ -126,7 +158,7 @@ const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile 
   );
 };
 
-const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
+const Links: React.FC<{ urls: Urls; title: string }> = ({ urls, title }) => {
   if (!urls) {
     return null;
   }
@@ -134,13 +166,21 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
     <div className="flex flex-wrap gap-x-2 gap-y-1 content-center">
       {linkDefinitions.map((definition) => {
         const url = urls[definition.link];
-        return url && <EntryLink key={url.publicURL || url} definition={definition} url={url}></EntryLink>;
+        return url && (
+          <EntryLink
+            key={url.publicURL || url}
+            url={url}
+            title={title}
+            definition={definition}
+          />
+        );
       })}
 
       {urls.custom?.map(({ label, url }, index) => (
         <EntryLink
           key={`custom-${index}`}
           url={url}
+          title={title}
           definition={{ label, link: "custom", icon: faLink }}
         />
       ))}
@@ -149,6 +189,7 @@ const Links: React.FC<{ urls: Urls }> = ({ urls }) => {
         <EntryLink
           key={`customFile-${index}`}
           url={url}
+          title={title}
           definition={{ label, link: "customFile", icon: faFile }}
         />
       ))}
