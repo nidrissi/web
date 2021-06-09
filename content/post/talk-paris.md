@@ -4,8 +4,8 @@ tags: [trip, talk]
 title: Talk in Paris!
 ---
 
-Today I'm in Paris! I'm giving a talk at the [Séminaire de Topologie](https://www.imj-prg.fr/spip.php?article67) of the Institut de Mathématiques de Jussieu--Paris Rive Gauche, about my preprint [Swiss-Cheese operad and Drinfeld center](https://arxiv.org/abs/1507.06844).<!--more-->
- Here is the abstract of the talk (in French):
+Today I'm in Paris! I'm giving a talk at the [Séminaire de Topologie](https://www.imj-prg.fr/spip.php?article67) of the Institut de Mathématiques de Jussieu--Paris Rive Gauche, about my preprint [Swiss-Cheese operad and Drinfeld center](/research/swiss-cheese).
+Here is the abstract of the talk (in French):
 
 > Il est possible de construire, à partir des groupes de tresses, une opérade qui décrit de manière universelle les catégories monoïdales tressées. Cette opérade est implicitement considérée par Drinfeld dans la définition de ses associateurs. Cette opérade est liée à l’opérade des petits disques.
 >

@@ -2,6 +2,10 @@
 title: Defense, postdoc, new paper
 date: 2018-02-05
 tags: [talk, job, conf-spaces, paper]
+urls:
+  read: ../research/config-boundary.pdf
+  arxiv: "1802.00716"
+  slides: ../talk/soutenance.pdf
 ---
 
 Many changes have happened in my life recently!
@@ -13,7 +17,7 @@ I am now entering the scary world of job applications.
 I am discovering the wonderful "GALAXIE" web application -- fellow French job applicants know my pain.
 
 Fortunately, starting on February 1st, I have had the chance of becoming a postdoc at [ETH Zürich](https://ethz.ch) in the group of [Thomas Willwacher](https://people.math.ethz.ch/~wilthoma/), funded by his ERC grant 678156--GRAPHCPX.
-So for the next two years (and perhaps even a third) the pressure of job applications will hopefully not weigh down too much...
+So for the next two years (and perhaps even a third) the pressure of job applications will hopefully not weigh down too much.
 
 Between all these administrative troubles I am still doing math, of course.
 With Ricardo Campos, Pascal Lambrechts, and Thomas Willwacher, we have [uploaded a preprint](/research/config-boundary) of our work on configuration spaces of manifolds with boundary, a follow-up to [my previous paper](/research/ls-model) and [the paper of Ricardo and Thomas](https://arxiv.org/abs/1604.02043).
