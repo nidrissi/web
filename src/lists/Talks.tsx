@@ -32,7 +32,7 @@ const TalkList: React.FC<TalkListProps> = ({ data, pageContext }) => {
   const title = `Talks (p. ${currentPage}/${numPages})`;
 
   return (
-    <Layout title={title} description="My talks.">
+    <Layout title={title} description={`The talks I have given and/or will give in the near future (page ${currentPage} out of ${numPages}).`}>
       <h1 role="banner" className="text-4xl font-bold mb-3">
         <FontAwesomeIcon icon={faComments} size="sm" className="mr-2" />{title}
       </h1>

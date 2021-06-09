@@ -32,7 +32,7 @@ const PostList: React.FC<PostListProps> = ({ data, pageContext }) => {
   const title = `Posts (p. ${currentPage}/${numPages})`;
 
   return (
-    <Layout title={title} description="My blog posts.">
+    <Layout title={title} description={`The blog posts I have written (page ${currentPage} out of ${numPages}).`}>
       <h1 role="banner" className="text-4xl font-bold mb-4">
         <FontAwesomeIcon icon={faPen} size="sm" className="mr-2" />{title}
       </h1>

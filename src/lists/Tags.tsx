@@ -27,7 +27,7 @@ type TagListProps = {
 
 const TagList: React.FC<TagListProps> = ({ data: { allMdx: { nodes } }, pageContext: { tag } }) => {
   return (
-    <Layout title={`Pages tagged ${tag}`} description={`The list of all pages tagged with #${tag}`}>
+    <Layout title={`Pages tagged ${tag}`} description={`The list of all pages tagged ${tag}`}>
       <h1 role="banner" className="text-4xl font-bold mb-4">
         <FontAwesomeIcon icon={faTag} size="sm" className="mr-2" />Pages tagged {tag}
       </h1>
