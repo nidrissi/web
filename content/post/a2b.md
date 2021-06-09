@@ -1,5 +1,5 @@
 ---
-title: arXiv2BibLaTeX
+title: "arXiv2BibLaTeX: Create a BibLaTeX entry from arXiv"
 date: 2020-06-29
 lastMod: 2021-05-19
 tags: [math, arxiv, code]
