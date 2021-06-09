@@ -50,18 +50,25 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
 
   const parsedTitle = actualTitle(frontmatter, type);
   return (
-    <Layout title={parsedTitle} description={excerpt} date={frontmatter.date} lastMod={frontmatter.lastMod}>
+    <Layout
+      title={parsedTitle}
+      description={excerpt}
+      date={frontmatter.date}
+      lastMod={frontmatter.lastMod}
+    >
       <header className="mb-4">
         <h1 role="banner" className="text-3xl font-bold">
           {parsedTitle}
         </h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
+
       <div className="prose prose-blue max-w-none">
         <MDXRenderer localImages={frontmatter.localImages} urls={frontmatter.urls}>
           {body}
         </MDXRenderer>
       </div>
+
       {type === "talk" && frontmatter.urls?.slides && (
         <Embed url={frontmatter.urls.slides.publicURL} alt={`Slides for the talk: ${parsedTitle}`} />
       )}
@@ -71,6 +78,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
       {type === "research" && frontmatter.urls?.read && (
         <Embed url={frontmatter.urls.read.publicURL} alt={`Read the research document: ${parsedTitle}`} />
       )}
+
       <NextPrevious next={data.next} previous={data.previous} type={type} />
     </Layout>
   );

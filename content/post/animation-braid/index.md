@@ -2,6 +2,8 @@
 title: Braid video
 date: 2020-04-21
 tags: [math, talk, animation]
+urls:
+  slides: ../../talk/toric.pdf
 ---
 
 Thursday I'm giving a talk at the online [Toric Topology research seminar](http://www.fields.utoronto.ca/activities/19-20/research-seminar).
