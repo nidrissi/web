@@ -28,7 +28,7 @@ const ResearchList: React.FC<ResearchListProps> = ({ data }) => {
   const { allMdx: { nodes } } = data;
 
   return (
-    <Layout title="Research" description="My research.">
+    <Layout title="Research" description="My research articles (both published and preprints), books, theses, etc.">
       <h1 role="banner" className="text-4xl font-bold mb-2">
         <FontAwesomeIcon icon={faCogs} size="sm" className="mr-2" />Research
       </h1>
