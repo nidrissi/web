@@ -4,9 +4,9 @@ title: Curriculum Vitæ
 lastMod: $lastMod$
 urls:
   customFile:
-  - label: CV (en)
+  - label: PDF version (English)
     file: cv.en.pdf
-  - label: CV (fr)
+  - label: PDF version (French)
     file: cv.fr.pdf
 ---
 
