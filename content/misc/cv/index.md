@@ -242,7 +242,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 
-### Jurys
+### Committees
 
 
 
@@ -252,7 +252,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">Jan. 2020</div>
-<div class="sm:w-5/6"><span class="font-bold">PhD jury of Erica Minuz (advisor: Marcel Bökstedt)</span>, <span class="italic">Aarhus University</span>.</div>
+<div class="sm:w-5/6"><span class="font-bold">PhD committee of Erica Minuz (advisor: Marcel Bökstedt)</span>, <span class="italic">Aarhus University</span>.</div>
 </div>
 
 
@@ -261,7 +261,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">Sept. 2019</div>
-<div class="sm:w-5/6"><span class="font-bold">Master’s memoir jury of Basile Coron (advisor: Thomas Willwacher)</span>, <span class="italic">Sorbonne Université / ETH Zürich</span>.</div>
+<div class="sm:w-5/6"><span class="font-bold">Master’s memoir committee of Basile Coron (advisor: Thomas Willwacher)</span>, <span class="italic">Sorbonne Université / ETH Zürich</span>.</div>
 </div>
 
 
@@ -270,7 +270,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2018–2019</div>
-<div class="sm:w-5/6"><span class="font-bold">Exam jury for L1 MIASHS</span>, <span class="italic">Université Paris Diderot</span>.</div>
+<div class="sm:w-5/6"><span class="font-bold">Exam committee for L1 MIASHS</span>, <span class="italic">Université de Paris</span>.</div>
 </div>
 
 

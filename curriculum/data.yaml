@@ -171,25 +171,25 @@ section:
           b: "Un des organisateurs du Séminaire des doctorants ! One of the organizers of the PhD students' seminar"
           c: Laboratoire Paul Painlevé
           d: Lille
-      - subtitle: Jurys
+      - subtitle: Jurys ! Committees
       - entry:
           a: 01/2020
           b: |
             Jury de thèse d'Erica Minuz (dir. de thèse : Marcel Bökstedt)
             !
-            PhD jury of Erica Minuz (advisor: Marcel Bökstedt)
+            PhD committee of Erica Minuz (advisor: Marcel Bökstedt)
           c: Université d'Aarhus ! Aarhus University
       - entry:
           a: 09/2019
           b: |
             Jury de mémoire de master de Basile Coron (dir. de stage : Thomas Willwacher)
             !
-            Master's memoir jury of Basile Coron (advisor: Thomas Willwacher)
+            Master's memoir committee of Basile Coron (advisor: Thomas Willwacher)
           c: Sorbonne Université / ETH Zürich
       - entry:
           a: 2018--2019
-          b: Jury d'examen L1 MIASHS ! Exam jury for L1 MIASHS
-          c: Université Paris Diderot
+          b: Jury d'examen L1 MIASHS ! Exam committee for L1 MIASHS
+          c: Université de Paris
       - subtitle: Autre ! Other
       - entry:
           a: en cours ! ongoing
