@@ -27,9 +27,9 @@ const Navbar: React.FC<{
 }> = ({ setCurrentPage }) => {
   return (
     <div className="flex flex-wrap mb-3 items-center gap-x-3">
-      <div className="text-3xl font-bold px-1">
+      <h1 className="text-3xl font-bold px-1">
         arXiv2BibLaTeX
-      </div>
+      </h1>
       {navbarLinks.map((l) => (
         <button
           key={l.label}
