@@ -11,6 +11,14 @@ I have had this project for a while, but never took the time to do it.
 Given the circumstances (COVID...), I have a lot more "free time" than usual and managed to do it---essentially---over the week-end.
 You can check out [the GitHub repo](https://github.com/nidrissi/nidrissi) for the source.
 
+Here is how the website looked before, for comparison:
+
+![How the website used to look](before.png)
+
+And here is how it looks now:
+
+![How the website looks now](after.png)
+
 Not all the kinks have been worked out.
 In particular, all the URLs have changed, and the website is now monolingual.
 I'm planning on reintroducing the French version of the website in the near future.
