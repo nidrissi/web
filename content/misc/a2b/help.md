@@ -19,7 +19,7 @@ This program fetches entries from the [arXiv](https://arxiv.org) and formats the
 
 ### Who (wrote it)?
 
-I am [Najib Idrissi](https://idrissi.eu), a mathematician.
+I am [Najib Idrissi](/), a mathematician.
 
 ### Why (did you write this)?
 
