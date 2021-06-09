@@ -15,10 +15,11 @@ const Error404: React.FC<{}> = () => {
   } else if (pathname.startsWith('/fr/')) {
     navigate(
       pathname
-        .replace('/fr/cours', '/class')
-        .replace('/fr/recherche', '/research')
-        .replace('/fr/billet', '/post')
-        .replace('/fr/expose', '/talk'),
+        .replace(/^\/fr/, '')
+        .replace(/^\/cours/, '/class')
+        .replace(/^\/recherche/, '/research')
+        .replace(/^\/billet/, '/post')
+        .replace(/^\/expose/, '/talk'),
       { replace: true }
     )
     return null;
