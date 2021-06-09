@@ -4,7 +4,6 @@ import React from "react";
 
 import Layout from "./Layout";
 import Meta, { Frontmatter } from "./meta";
-import TOC, { TableOfContents } from "./TOC";
 import { NextPrevious, NextPreviousProps } from "./NextPrevious";
 import Embed from "./Embed";
 
@@ -17,7 +16,6 @@ type PageTemplateProps = {
       }
       excerpt: string;
       frontmatter: Frontmatter;
-      tableOfContents: TableOfContents;
     };
     previous: NextPreviousProps;
     next: NextPreviousProps;
@@ -59,7 +57,6 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
         </h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
-      <TOC toc={data.mdx.tableOfContents} />
       <div className="prose prose-blue max-w-none">
         <MDXRenderer localImages={frontmatter.localImages} urls={frontmatter.urls}>
           {body}
@@ -117,7 +114,6 @@ export const query = graphql`
           }
         }
       }
-    tableOfContents
     }
     previous: mdx(id: { eq: $previousId }) {
       slug
