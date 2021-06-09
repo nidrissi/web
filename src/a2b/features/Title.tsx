@@ -9,15 +9,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "gatsby";
 
-type navbarLink = {
+const links: {
   icon: IconDefinition;
   label: string;
-};
-const navbarLinks: navbarLink[] = [
-  { icon: faSearch, label: "Search" },
-  { icon: faTools, label: "DIY" },
-  { icon: faCog, label: "Settings" },
-];
+}[] = [
+    { icon: faSearch, label: "Search" },
+    { icon: faTools, label: "DIY" },
+    { icon: faCog, label: "Settings" },
+  ];
 
 const buttonStyle = "block p-2 text-lg border border-blue-800 hover:bg-blue-800 hover:text-white rounded-md"
 
@@ -30,7 +29,7 @@ const Navbar: React.FC<{
       <h1 className="text-3xl font-bold px-1">
         arXiv2BibLaTeX
       </h1>
-      {navbarLinks.map((l) => (
+      {links.map((l) => (
         <button
           key={l.label}
           className={buttonStyle}

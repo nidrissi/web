@@ -14,7 +14,7 @@ import {
   selectTitles,
 } from "./features/SearchForm/searchFormSlice";
 import { fetchEntries } from "./features/Results/resultsSlice";
-import Navbar from "./features/Navbar";
+import Title from "./features/Title";
 
 const App: React.FC<{}> = () => {
   // keep here to avoid re-fetching on route change
@@ -51,7 +51,7 @@ const App: React.FC<{}> = () => {
 
   return (
     <>
-      <Navbar setCurrentPage={setCurrentPage} />
+      <Title setCurrentPage={setCurrentPage} />
       {pageAssociation[currentPage]}    </>
   );
 };
