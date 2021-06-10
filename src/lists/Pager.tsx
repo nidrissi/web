@@ -21,7 +21,7 @@ const Pager: React.FC<PagerProps> = ({ numPages, currentPage, type }) => {
   }
 
   return (
-    <nav className="mt-8 flex flex-wrap gap-2 justify-center">
+    <nav className="mt-8 flex flex-wrap gap-2 justify-around">
       <Link
         to={indexToLink(1)}
         title="First page"
