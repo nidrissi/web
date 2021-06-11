@@ -410,6 +410,15 @@ section:
     more: /class
     content:
       - item:
+          a : "2021--2022"
+          b: '*Homotopie II*, M2 Maths fondas (cours, 24h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24h)'
+      - item:
+          a: ""
+          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42h) ! *Algorithms and Programming*, L2 (Exercise sessions & Labs, 42h)"
+      - item:
+          a: ""
+          b: "Raisonnement Mathématique 2 (cours & organisation, 23h) ! Mathematical Reasoning 2 (lectures & organisation, 23h)"
+      - item:
           a: "2020--2021"
           b: '*Homotopie II*, M2 Maths fondas (cours, 24h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24h)'
       - item:

@@ -716,6 +716,30 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 
 <div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold">2021–2022</div>
+<div class="sm:w-5/6"><em>Homotopy II</em>, M2 Fundam. Math (lectures, 24h)</div>
+</div>
+
+
+
+
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold"></div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions &amp; Labs, 42h)</div>
+</div>
+
+
+
+
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold"></div>
+<div class="sm:w-5/6">Mathematical Reasoning 2 (lectures &amp; organisation, 23h)</div>
+</div>
+
+
+
+
+<div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2020–2021</div>
 <div class="sm:w-5/6"><em>Homotopy II</em>, M2 Fundam. Math (lectures, 24h)</div>
 </div>
