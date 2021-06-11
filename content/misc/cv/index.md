@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-06-09
+lastMod: 2021-06-11
 urls:
   customFile:
   - label: PDF version (English)
@@ -717,7 +717,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2021–2022</div>
-<div class="sm:w-5/6"><em>Homotopy II</em>, M2 Fundam. Math (lectures, 24h)</div>
+<div class="sm:w-5/6"><em>Homotopy II</em>, M2 Fundam. Math (lectures, 24 h)</div>
 </div>
 
 
@@ -725,7 +725,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions &amp; Labs, 42h)</div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions &amp; Labs, 42 h)</div>
 </div>
 
 
@@ -733,7 +733,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6">Mathematical Reasoning 2 (lectures &amp; organisation, 23h)</div>
+<div class="sm:w-5/6">Mathematical Reasoning 2 (lectures &amp; organisation, 23 h)</div>
 </div>
 
 
@@ -741,7 +741,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2020–2021</div>
-<div class="sm:w-5/6"><em>Homotopy II</em>, M2 Fundam. Math (lectures, 24h)</div>
+<div class="sm:w-5/6"><em>Homotopy II</em>, M2 Fundam. Math (lectures, 24 h)</div>
 </div>
 
 
@@ -749,7 +749,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 1 + Mathematical Reasoning 1</em>, L1 Maths (lecture+exercises, 56.5h)</div>
+<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 1 + Mathematical Reasoning 1</em>, L1 Maths (lecture+exercises, 56.5 h)</div>
 </div>
 
 
@@ -757,7 +757,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36h)</div>
+<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36 h)</div>
 </div>
 
 
@@ -765,7 +765,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions &amp; Labs, 42h)</div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 (Exercise sessions &amp; Labs, 42 h)</div>
 </div>
 
 
@@ -773,7 +773,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2019–2020</div>
-<div class="sm:w-5/6"><em>Real Homotopy of Configuration Spaces</em>, Peccot Lecture, Collège de France (8h)</div>
+<div class="sm:w-5/6"><em>Real Homotopy of Configuration Spaces</em>, Peccot Lecture, Collège de France (8 h)</div>
 </div>
 
 
@@ -781,7 +781,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Introduction to Homotopy Theory</em>, M2 Fundam. Math (lectures, 24h)</div>
+<div class="sm:w-5/6"><em>Introduction to Homotopy Theory</em>, M2 Fundam. Math (lectures, 24 h)</div>
 </div>
 
 
@@ -789,7 +789,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 1 + Mathematical Reasoning 1</em>, L1 MIASHS (lecture+exercises, 56.5h)</div>
+<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 1 + Mathematical Reasoning 1</em>, L1 MIASHS (lecture+exercises, 56.5 h)</div>
 </div>
 
 
@@ -797,7 +797,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36h)</div>
+<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36 h)</div>
 </div>
 
 
@@ -805,7 +805,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 Maths (Exercise sessions &amp; Labs, 42h)</div>
+<div class="sm:w-5/6"><em>Algorithms and Programming</em>, L2 Maths (Exercise sessions &amp; Labs, 42 h)</div>
 </div>
 
 
@@ -813,7 +813,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2018–2019</div>
-<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 1</em>, L1 MIASHS (lecture+exercises, 72h)</div>
+<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 1</em>, L1 MIASHS (lecture+exercises, 72 h)</div>
 </div>
 
 
@@ -821,7 +821,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36h)</div>
+<div class="sm:w-5/6"><em>Elementary Algebra and Analysis 2</em>, L1 Chemistry (exercises, 36 h)</div>
 </div>
 
 
@@ -829,7 +829,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2017–2018</div>
-<div class="sm:w-5/6"><em>Calculus 1</em>, L1 MASS (exercises, 36h)</div>
+<div class="sm:w-5/6"><em>Calculus 1</em>, L1 MASS (exercises, 36 h)</div>
 </div>
 
 
@@ -837,7 +837,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Fundamental mathematics 1</em>, L1 SESI (oral exams &amp; tutoring, 16h + 10h)</div>
+<div class="sm:w-5/6"><em>Fundamental mathematics 1</em>, L1 SESI (oral exams &amp; tutoring, 16 h + 10 h)</div>
 </div>
 
 
@@ -845,7 +845,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2016–2017</div>
-<div class="sm:w-5/6"><em>Matrix calculus</em>, L2 econ-management (exercises, 36h)</div>
+<div class="sm:w-5/6"><em>Matrix calculus</em>, L2 econ-management (exercises, 36 h)</div>
 </div>
 
 
@@ -853,7 +853,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Calculus 1</em>, L1 econ-management (exercises, 15h)</div>
+<div class="sm:w-5/6"><em>Calculus 1</em>, L1 econ-management (exercises, 15 h)</div>
 </div>
 
 
@@ -861,7 +861,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6"><em>Calculus 1</em>, L1 MASS (exercises, 15h)</div>
+<div class="sm:w-5/6"><em>Calculus 1</em>, L1 MASS (exercises, 15 h)</div>
 </div>
 
 
@@ -869,7 +869,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2015–2016</div>
-<div class="sm:w-5/6"><em>Fundamental mathematics 2</em>, L1 SESI (exercises, 66h)</div>
+<div class="sm:w-5/6"><em>Fundamental mathematics 2</em>, L1 SESI (exercises, 66 h)</div>
 </div>
 
 

@@ -411,73 +411,73 @@ section:
     content:
       - item:
           a : "2021--2022"
-          b: '*Homotopie II*, M2 Maths fondas (cours, 24h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24h)'
+          b: '*Homotopie II*, M2 Maths fondas (cours, 24\ h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24\ h)'
       - item:
           a: ""
-          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42h) ! *Algorithms and Programming*, L2 (Exercise sessions & Labs, 42h)"
+          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42\ h) ! *Algorithms and Programming*, L2 (Exercise sessions & Labs, 42\ h)"
       - item:
           a: ""
-          b: "Raisonnement Mathématique 2 (cours & organisation, 23h) ! Mathematical Reasoning 2 (lectures & organisation, 23h)"
+          b: "Raisonnement Mathématique 2 (cours & organisation, 23\ h) ! Mathematical Reasoning 2 (lectures & organisation, 23\ h)"
       - item:
           a: "2020--2021"
-          b: '*Homotopie II*, M2 Maths fondas (cours, 24h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24h)'
+          b: '*Homotopie II*, M2 Maths fondas (cours, 24\ h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24\ h)'
       - item:
           a: ""
           b: |
-            *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 (cours/TD, 56,5h)
+            *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 (cours/TD, 56,5\ h)
             !
-            *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 Maths (lecture+exercises, 56.5h)
+            *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 Maths (lecture+exercises, 56.5\ h)
       - item:
           a: ""
-          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
+          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36\ h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36\ h)"
       - item:
           a: ""
-          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42h) ! *Algorithms and Programming*, L2 (Exercise sessions & Labs, 42h)"
+          b: "*Algorithmes et Programmation*, L2 (TD+TP, 42\ h) ! *Algorithms and Programming*, L2 (Exercise sessions & Labs, 42\ h)"
       - item:
           a: "2019--2020"
-          b: "*Homotopie réelle des espaces de configuration*, Cours Peccot, Collège de France (8h) ! *Real Homotopy of Configuration Spaces*, Peccot Lecture, Collège de France (8h)"
+          b: "*Homotopie réelle des espaces de configuration*, Cours Peccot, Collège de France (8\ h) ! *Real Homotopy of Configuration Spaces*, Peccot Lecture, Collège de France (8\ h)"
       - item:
           a: ""
           b: |
-            *Introduction à la théorie de l'homotopie*, M2 Maths fondas (cours, 24h)
+            *Introduction à la théorie de l'homotopie*, M2 Maths fondas (cours, 24\ h)
             !
-            *Introduction to Homotopy Theory*, M2 Fundam.\ Math (lectures, 24h)
+            *Introduction to Homotopy Theory*, M2 Fundam.\ Math (lectures, 24\ h)
       - item:
           a: ""
           b: |
-            *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 MIASHS (cours/TD, 56,5h)
+            *Algèbre et analyse élémentaires 1 + Raisonnement mathématique 1*, L1 MIASHS (cours/TD, 56,5\ h)
             !
-            *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 MIASHS (lecture+exercises, 56.5h)
+            *Elementary Algebra and Analysis 1 + Mathematical Reasoning 1*, L1 MIASHS (lecture+exercises, 56.5\ h)
       - item:
           a: ""
-          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
+          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36\ h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36\ h)"
       - item:
           a: ""
-          b: "*Algorithmes et Programmation*, L2 Maths (TD+TP, 42h) ! *Algorithms and Programming*, L2 Maths (Exercise sessions & Labs, 42h)"
+          b: "*Algorithmes et Programmation*, L2 Maths (TD+TP, 42\ h) ! *Algorithms and Programming*, L2 Maths (Exercise sessions & Labs, 42\ h)"
       - item:
           a: 2018--2019
-          b: "*Algèbre et analyse élémentaires 1*, L1 MIASHS (cours/TD, 72h) ! *Elementary Algebra and Analysis 1*, L1 MIASHS (lecture+exercises, 72h)"
+          b: "*Algèbre et analyse élémentaires 1*, L1 MIASHS (cours/TD, 72\ h) ! *Elementary Algebra and Analysis 1*, L1 MIASHS (lecture+exercises, 72\ h)"
       - item:
           a: ""
-          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36h)"
+          b: "*Algèbre et analyse élémentaires 2*, L1 Chimie (TD, 36\ h) ! *Elementary Algebra and Analysis 2*, L1 Chemistry (exercises, 36\ h)"
       - item:
           a: 2017--2018
-          b: "*Analyse 1*, L1 MASS (TD, 36h) ! *Calculus 1*, L1 MASS (exercises, 36h)"
+          b: "*Analyse 1*, L1 MASS (TD, 36\ h) ! *Calculus 1*, L1 MASS (exercises, 36\ h)"
       - item:
           a: ""
-          b: "*Mathématiques fondamentales I*, L1 SESI (colles et tutorat, 16h + 10h) ! *Fundamental mathematics 1*, L1 SESI (oral exams & tutoring, 16h + 10h)"
+          b: "*Mathématiques fondamentales I*, L1 SESI (colles et tutorat, 16\ h + 10\ h) ! *Fundamental mathematics 1*, L1 SESI (oral exams & tutoring, 16\ h + 10\ h)"
       - item:
           a: 2016--2017
-          b: "*Calcul matriciel*, L2 éco-gestion-management (TD, 36h) ! *Matrix calculus*, L2 econ-management (exercises, 36h)"
+          b: "*Calcul matriciel*, L2 éco-gestion-management (TD, 36\ h) ! *Matrix calculus*, L2 econ-management (exercises, 36\ h)"
       - item:
           a: ""
-          b: "*Analyse 1*, L1 éco-gestion-management (TD, 15h) ! *Calculus 1*, L1 econ-management (exercises, 15h)"
+          b: "*Analyse 1*, L1 éco-gestion-management (TD, 15\ h) ! *Calculus 1*, L1 econ-management (exercises, 15\ h)"
       - item:
           a: ""
-          b: "*Analyse 1*, L1 MASS (TD, 15h) ! *Calculus 1*, L1 MASS (exercises, 15h)"
+          b: "*Analyse 1*, L1 MASS (TD, 15\ h) ! *Calculus 1*, L1 MASS (exercises, 15\ h)"
       - item:
           a: 2015--2016
-          b: "*Mathématiques fondamentales 2*, L1 SESI (TD, 66h) ! *Fundamental mathematics 2*, L1 SESI (exercises, 66h)"
+          b: "*Mathématiques fondamentales 2*, L1 SESI (TD, 66\ h) ! *Fundamental mathematics 2*, L1 SESI (exercises, 66\ h)"
   - title: Visites ! Visits
     content:
       - item:
