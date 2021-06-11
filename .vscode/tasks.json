@@ -48,6 +48,13 @@
       "label": "npm: build",
       "detail": "gatsby build",
       "group": "build"
+    },
+    {
+      "type": "npm",
+      "script": "develop",
+      "problemMatcher": [],
+      "label": "npm: develop",
+      "detail": "gatsby develop"
     }
   ]
 }
