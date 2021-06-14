@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-06-11
+lastMod: 2021-06-14
 urls:
   customFile:
   - label: PDF version (English)
@@ -933,7 +933,7 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold">2021</div>
-<div class="sm:w-5/6"><em>Colloque 2021 du GDR Topologie Algébrique et Applications</em>? (Université de Strasbourg) • <del><em>Barcelona Conference on Higher Structures</em> (Centre de Recerca Matemàtica, Barcelona)</del> [Postponed due to COVID-19.]</div>
+<div class="sm:w-5/6"><em>Colloque 2021 du GDR Topologie Algébrique et Applications</em>? (Université de Strasbourg) • <em>Mid-term workshop of the OCHoTop project</em> (Université de Lille) • <del><em>Barcelona Conference on Higher Structures</em> (Centre de Recerca Matemàtica, Barcelona)</del> [Postponed due to COVID-19.]</div>
 </div>
 
 
