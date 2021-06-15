@@ -32,7 +32,7 @@ const Error404: React.FC<{}> = () => {
           <h1 role="banner" className="text-4xl font-bold mb-4">404 Not Found</h1>
           <Link to="/" className="text-2xl text-blue-600 hover:underline">
             <FontAwesomeIcon icon={faUndo} className="mr-1" />
-            Go back
+            Go back to the front page.
           </Link>
         </div>
       </div>
