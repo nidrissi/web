@@ -19,7 +19,7 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   const titleLabel = actualTitle(frontmatter, type);
 
   const linkedTitle = noLink ? titleLabel : (
-    <Link to={`/${type}/${slug}`} className="text-green-800 dark:text-green-600 hover:underline">
+    <Link to={`/${type}/${slug}`} className="text-green-800 dark:text-green-500 hover:underline">
       {titleLabel}
     </Link>
   );
