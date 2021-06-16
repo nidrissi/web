@@ -30,7 +30,7 @@ const Index: React.FC<{}> = ({ children }) => {
   return (
     <Layout title={siteTitle} description={siteDescription}>
       <article>
-        <div className="float-right w-28 sm:w-40 md:w-56 m-3 p-1 border rounded-md">
+        <div className="float-right w-28 sm:w-40 md:w-56 m-3 p-1 border dark:border-gray-600 rounded-md">
           <StaticImage
             src="photo.jpg"
             alt="Photo of myself."
@@ -44,7 +44,7 @@ const Index: React.FC<{}> = ({ children }) => {
             {siteTitle}
           </h1>
         </header>
-        <div className="prose prose-blue max-w-none mb-3">
+        <div className="prose prose-blue dark:prose-dark max-w-none mb-3">
           {children}
         </div>
         <Contact />

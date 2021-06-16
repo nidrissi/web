@@ -19,13 +19,13 @@ const Cookie: React.FC<{}> = () => {
     return null;
   } else {
     return (
-      <aside className="fixed bottom-0 left-0 w-screen bg-gray-200 border-t border-black p-3 text-center content-center text-lg">
+      <aside className="fixed bottom-0 left-0 w-screen bg-gray-200 dark:bg-gray-900 dark:text-gray-300 p-3 text-center content-center text-lg">
         <p>
           I use cookies to analyze traffic. To opt out, you can
           {' '}
           <a
             href="https://tools.google.com/dlpage/gaoptout/"
-            className="text-blue-700 hover:underline"
+            className="text-blue-700 dark:text-indigo-300 hover:underline"
           >install the Google Analytics opt-out add-on</a>.
         </p>
       </aside>

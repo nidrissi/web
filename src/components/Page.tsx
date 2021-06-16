@@ -57,13 +57,13 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
       lastMod={frontmatter.lastMod}
     >
       <header className="mb-4">
-        <h1 role="banner" className="text-3xl font-bold">
+        <h1 role="banner" className="text-3xl font-bold mb-1 text-gray-900 dark:text-gray-200">
           {parsedTitle}
         </h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
 
-      <div className="prose prose-blue max-w-none">
+      <div className="prose prose-blue dark:prose-dark max-w-none">
         <MDXRenderer localImages={frontmatter.localImages} urls={frontmatter.urls}>
           {body}
         </MDXRenderer>
