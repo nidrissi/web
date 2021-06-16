@@ -15,7 +15,7 @@ const TagLink: React.FC<TagLinkProps> = ({ tag, big, count }) => {
   return (
     <Link
       to={`/tag/${tag}`}
-      className={`block text-indigo-800 border border-indigo-200 hover:text-white hover:bg-indigo-800 hover:shadow-md rounded-md ${extraStyle}`}
+      className={`block text-indigo-800 border border-indigo-200 dark:border-indigo-900 hover:border-transparent hover:text-white hover:bg-indigo-800 hover:shadow-md dark:text-indigo-400 dark:hover:bg-indigo-400 dark:hover:text-black rounded-md ${extraStyle}`}
     >
       <FontAwesomeIcon icon={faTag} size="sm" className="mr-1" />
       {tag}

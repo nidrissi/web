@@ -24,7 +24,7 @@ export const NextPrevious: React.FC<{ previous: NextPreviousProps; next: NextPre
     return null;
   }
 
-  const linkStyle = "block p-1 text-sm text-green-700 border border-green-700 rounded-md hover:bg-green-700 hover:text-white";
+  const linkStyle = "block p-1 text-sm text-green-700 dark:text-green-400 border border-green-700 dark:border-green-400 rounded-md hover:bg-green-700 dark:hover:bg-green-400 hover:text-white dark:hover:text-black";
 
   return (
     <div className="flex w-full mt-6">

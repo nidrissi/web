@@ -29,7 +29,7 @@ const SubmitAndClearButtons: React.FC<{ isLoading: boolean }> = ({
         )}
       </button>
       <button
-        className="block w-1/4 flex-shrink p-2 bg-gray-300 rounded-md"
+        className="block w-1/4 flex-shrink p-2 bg-gray-300 dark:bg-gray-700 dark:text-white rounded-md"
         type="reset"
       >
         <FontAwesomeIcon icon={faTrashAlt} /> Clear

@@ -76,7 +76,7 @@ const Contact: React.FC<{}> = () => {
   const ContactLink: React.FC<{ url: string }> = ({ url, children }) => (
     <a
       href={url}
-      className="text-blue-600 hover:underline"
+      className="text-blue-800 dark:text-indigo-400 hover:underline"
       target="_blank"
       rel="noreferrer noopener"
     >
@@ -107,7 +107,7 @@ const Contact: React.FC<{}> = () => {
               ) : (
                 link.label
               )}
-              .
+            .
           </li>
         ))}
       </ul>

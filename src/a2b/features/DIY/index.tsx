@@ -51,7 +51,7 @@ const DIYBody: React.FC<{ values: FormValues }> = ({ values }) => {
         <GenericPostFields />
         <button
           type="reset"
-          className="bg-gray-300 block col-span-full p-2 rounded-md"
+          className="bg-gray-300 dark:bg-gray-700 dark:text-white block col-span-full p-2 rounded-md"
         >
           <FontAwesomeIcon icon={faTrashAlt} /> Clear
         </button>

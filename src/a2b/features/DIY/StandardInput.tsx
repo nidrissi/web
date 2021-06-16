@@ -28,7 +28,7 @@ const Tooltip: React.FC<{ help?: string | JSX.Element }> = ({ help }) => {
       </button>
       <div
         className={`${shown ? "block" : "hidden"
-          } absolute -top-2 left-0 z-10 w-48 bg-black text-gray-100 rounded-md p-2`}
+          } absolute -top-2 left-0 z-10 w-48 bg-black text-gray-100 dark:text-gray-700 rounded-md p-2`}
       >
         <FontAwesomeIcon icon={faQuestionCircle} className="mr-2" />
         {help}

@@ -27,7 +27,7 @@ const InputField: React.FC<InputFieldProps> = ({ label, ...props }) => {
           {...props}
         />
         {meta.error && (
-          <div className="text-sm text-red-600">
+          <div className="text-sm text-red-600 dark:text-red-400">
             {meta.error}
           </div>
         )}

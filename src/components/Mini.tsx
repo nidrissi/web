@@ -19,7 +19,7 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   const titleLabel = actualTitle(frontmatter, type);
 
   const linkedTitle = noLink ? titleLabel : (
-    <Link to={`/${type}/${slug}`} className="text-green-800 hover:underline">
+    <Link to={`/${type}/${slug}`} className="text-green-800 dark:text-green-600 hover:underline">
       {titleLabel}
     </Link>
   );
@@ -35,7 +35,7 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   );
 
   const fullExcerpt = excerpt && (
-    <Link to={`/post/${slug}`} className="block text-sm hover:underline hover:text-blue-800 max-w-xl">
+    <Link to={`/post/${slug}`} className="block text-sm hover:underline hover:text-blue-700 dark:hover:text-indigo-400 max-w-xl">
       {excerpt}
       {' '}
       <FontAwesomeIcon icon={faCaretSquareRight} />
