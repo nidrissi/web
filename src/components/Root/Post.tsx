@@ -18,6 +18,7 @@ query RootPostQuery {
         title
         date
         lastMod
+        lang
         tags
         ...allUrlsFragment
       }
@@ -29,11 +30,9 @@ query RootPostQuery {
     <section>
       <h2 className="text-4xl font-bold mb-3">Posts</h2>
       <div className="flex flex-col gap-4">
-        {
-          nodes.map(({ frontmatter, slug, excerpt }) => (
-            <Mini key={slug} type="post" slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
-          ))
-        }
+        {nodes.map(({ frontmatter, slug, excerpt }) => (
+          <Mini key={slug} type="post" slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
+        ))}
         <SeeMore to="/post">posts</SeeMore>
       </div>
     </section>

@@ -37,13 +37,11 @@ const TalkList: React.FC<TalkListProps> = ({ data, pageContext }) => {
         <FontAwesomeIcon icon={faComments} size="sm" className="mr-2" />{title}
       </h1>
       <div className="flex flex-col gap-4">
-        {
-          nodes.map(({ frontmatter, slug, wordCount: { words } }) => {
-            return (
-              <Mini key={slug} type="talk" levelUp slug={slug} frontmatter={frontmatter} noLink={words === 0} />
-            );
-          })
-        }
+        {nodes.map(({ frontmatter, slug, wordCount: { words } }) => {
+          return (
+            <Mini key={slug} type="talk" levelUp slug={slug} frontmatter={frontmatter} noLink={words === 0} />
+          );
+        })}
       </div>
       <Pager currentPage={currentPage} numPages={numPages} type="talk" />
     </Layout>
@@ -68,6 +66,7 @@ query talkListQuery($skip: Int!, $limit: Int!) {
         title
         date
         lastMod
+        lang
         TBA
         location
         event

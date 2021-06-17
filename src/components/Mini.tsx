@@ -35,7 +35,10 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   );
 
   const fullExcerpt = excerpt && (
-    <Link to={`/post/${slug}`} className="block text-sm hover:underline hover:text-blue-700 dark:hover:text-indigo-300 max-w-xl">
+    <Link
+      to={`/post/${slug}`}
+      className="block text-sm hover:underline hover:text-blue-700 dark:hover:text-indigo-300 max-w-xl"
+    >
       {excerpt}
       {' '}
       <FontAwesomeIcon icon={faCaretSquareRight} />
@@ -43,7 +46,7 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   );
 
   return (
-    <article>
+    <article lang={frontmatter.lang || null}>
       {header}
       <div className="mb-2">
         <Meta frontmatter={frontmatter} type={type} />

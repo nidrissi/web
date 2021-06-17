@@ -37,11 +37,9 @@ const PostList: React.FC<PostListProps> = ({ data, pageContext }) => {
         <FontAwesomeIcon icon={faPen} size="sm" className="mr-2" />{title}
       </h1>
       <div className="flex flex-col gap-4">
-        {
-          nodes.map(({ frontmatter, slug, excerpt }) => (
-            <Mini key={slug} type="post" levelUp slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
-          ))
-        }
+        {nodes.map(({ frontmatter, slug, excerpt }) => (
+          <Mini key={slug} type="post" levelUp slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
+        ))}
       </div>
       <Pager currentPage={currentPage} numPages={numPages} type="post" />
     </Layout>
@@ -64,6 +62,7 @@ query postListQuery($skip: Int!, $limit: Int!) {
         title
         date
         lastMod
+        lang
         tags
         ...allUrlsFragment
       }

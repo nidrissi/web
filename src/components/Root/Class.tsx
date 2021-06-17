@@ -28,6 +28,7 @@ query RootClassQuery {
         title
         date
         lastMod
+        lang
         courseHours
         courseType
         cursus
@@ -43,11 +44,9 @@ query RootClassQuery {
     <section>
       <h2 className="text-4xl font-bold mb-3">Teaching (2021&ndash;2022)</h2>
       <div className="flex flex-col gap-4">
-        {
-          nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
-            <Mini key={slug} type="class" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
-          ))
-        }
+        {nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
+          <Mini key={slug} type="class" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
+        ))}
         <div>
           <SeeMore to="/class">teaching</SeeMore>
         </div>

@@ -38,12 +38,10 @@ const ClassList: React.FC<ClassListProps> = ({ data: { allMdx: { group } } }) =>
                 Year {year}&ndash;{Number(year) + 1}
               </h2>
               <div className="flex flex-col gap-2">
-                {
-                  nodes
-                    .map(({ frontmatter, slug, wordCount: { words } }) => (
-                      <Mini key={slug} type="class" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
-                    ))
-                }
+                {nodes
+                  .map(({ frontmatter, slug, wordCount: { words } }) => (
+                    <Mini key={slug} type="class" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
+                  ))}
               </div>
             </div>
           ))}
@@ -69,6 +67,7 @@ export const query = graphql`
           title
           date
           lastMod
+          lang
           courseHours
           courseType
           cursus
