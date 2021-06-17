@@ -15,7 +15,7 @@ Let us now dive into the second part, in which I explain a little what's going "
 While it is not strictly necessary to know all this to use Git, I think that understanding the mechanics helps in actually using it correctly and efficiently.
 Commands like `git push` or `git pull` are actually a bit complex and it is useful to know what words like "commit", "branch", "remote", etc. refer to, especially when there is a conflict between branches.
 
-<div class="bg-red-100 text-red-900 dark:bg-red-900 dark:text-red-100 p-1 rounded-md">
+<div class="bg-red-100 text-red-900 dark:bg-red-900 dark:text-red-100 py-1 px-2 rounded-md">
 Of course, I will not be able to explain <em>everything</em> about Git's inner workings!
 That is what the <a href="https://git-scm.com/docs">reference documentation</a> is for.
 </div>
