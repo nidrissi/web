@@ -55,6 +55,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
       description={excerpt}
       date={frontmatter.date}
       lastMod={frontmatter.lastMod}
+      lang={frontmatter.lang}
     >
       <header className="mb-4">
         <h1 role="banner" className="text-3xl font-bold mb-1 text-gray-900 dark:text-gray-200">
@@ -101,6 +102,7 @@ export const query = graphql`
         title
         date
         lastMod
+        lang
         tags
         publication
         authors

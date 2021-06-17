@@ -21,6 +21,7 @@ export type Frontmatter = {
   title: string;
   date: string;
   lastMod?: string;
+  lang?: string;
   tags?: string[];
   urls?: Urls;
   localImages?: LocalImage[];

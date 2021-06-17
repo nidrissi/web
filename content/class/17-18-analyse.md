@@ -1,5 +1,6 @@
 ---
-title: Calculus 1
+title: Analyse 1
+lang: fr
 cursus: L1 MASS (S1)
 courseType: Exercice sessions
 courseHours: 36
