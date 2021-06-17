@@ -24,10 +24,11 @@ query RootResearchQuery {
       slug
       frontmatter {
         title
-        tags
-        authors
         date
         lastMod
+        lang
+        tags
+        authors
         publication
         accepted
         tags

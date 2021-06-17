@@ -31,6 +31,7 @@ query RootTalkQuery {
         title
         date
         lastMod
+        lang
         TBA
         location
         event

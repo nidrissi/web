@@ -32,11 +32,9 @@ const TagList: React.FC<TagListProps> = ({ data: { allMdx: { nodes } }, pageCont
         <FontAwesomeIcon icon={faTag} size="sm" className="mr-2" />Pages tagged {tag}
       </h1>
       <div className="flex flex-col gap-4">
-        {
-          nodes.map(({ frontmatter, fields: { type }, slug, excerpt }) => (
-            <Mini key={slug} type={type} levelUp slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
-          ))
-        }
+        {nodes.map(({ frontmatter, fields: { type }, slug, excerpt }) => (
+          <Mini key={slug} type={type} levelUp slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
+        ))}
       </div>
     </Layout>
   )
