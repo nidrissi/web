@@ -1,7 +1,7 @@
 ---
 # ⚠ Automatically generated file ⚠
 title: Curriculum Vitæ
-lastMod: 2021-06-14
+lastMod: 2021-06-17
 urls:
   customFile:
   - label: PDF version (English)
