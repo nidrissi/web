@@ -29,6 +29,8 @@ tags: [peccot]
 
 import PeccotCard from "./PeccotCard";
 
+This is the webpage for the Peccot lecture that I gave at the Collège de France in March and May 2020.
+
 In this lecture, we will study the real homotopy type of configuration spaces of manifolds.
 Configuration spaces consist in collections of pairwise distinct points in a given manifold.
 The study of these spaces is a classical problem in algebraic topology.

@@ -21,6 +21,10 @@ urls:
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 
+<div class="bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-200 py-1 px-2 rounded-sm">
+This is the page for the 2019&ndash;2020 lecture, <a href="/class/21-22-homotopie">see here for the 2021&ndash;2022 page</a>.
+</div>
+
 ## Introduction
 
 The goal of this course is to give an introduction to modern homotopy theory, its tools, and its applications, as well as to introduce the notion of $\infty$-category. We will essentially follow two examples: the founding example of topological spaces and the example of chain complexes (in the sense of homological algebra and algebraic topology). We will present the modern axiomatic treatement of homotopy theory -- Quillen's model categories -- and we will explain the equivalence between topological spaces and simplicial sets. We will illustrate these methods through the example of rational homotopy theory, showing how the multiplicative structure of cochains -- singular or de Rham -- encode topological spaces up to rational homotopy.
