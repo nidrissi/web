@@ -2,6 +2,7 @@
 title: "Groupe de travail : Stabilité homologique"
 date: 2019-01-01
 lastMod: 2019-06-13
+lang: fr
 ---
 
 Le groupe de travail porte sur les travaux récents de Galatius--Kupers--Randal-Williams sur la stabilité homologique, et plus particulièrement leur article [_Cellular $E_k$-algebras_](https://arxiv.org/abs/1805.07184), dont voici le résumé :

@@ -1,5 +1,6 @@
 ---
-title: Matrix calculus
+title: Calcul matriciel
+lang: fr
 cursus: L2 MASS (S2)
 courseType: Exercise sessions
 courseHours: 36
