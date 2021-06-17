@@ -26,7 +26,7 @@ const Navbar: React.FC<{
 }> = ({ setCurrentPage }) => {
   return (
     <div className="flex flex-wrap mb-3 items-center gap-x-3">
-      <h1 className="text-3xl font-bold px-1">
+      <h1 className="text-3xl font-bold px-1 dark:text-gray-200">
         arXiv2BibLaTeX
       </h1>
       {links.map((l) => (
