@@ -25,6 +25,10 @@ urls:
 
 import HomotopyCard from "./HomotopyCard.tsx";
 
+<div class="bg-red-200 text-red-800 dark:bg-red-800 dark:text-red-200 py-1 px-2 rounded-sm">
+This is the page for the 2020&ndash;2021 lecture, <a href="/class/21-22-homotopie">see here for the 2021&ndash;2022 page</a>.
+</div>
+
 ## Introduction
 
 The goal of this course is to introduce modern homotopy theory, its tools and applications.

@@ -13,7 +13,7 @@ type PeccotCardProps = {
 
 const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, image, children }) => {
   return (
-    <div className="border rounded-md flex flex-col gap-1 h-full">
+    <div className="border dark:border-gray-900 rounded-md flex flex-col gap-1 h-full">
       <a href={link} className="block" target="_blank" rel="noreferrer noopener">
         <GatsbyImage
           alt={`Photo of the lecture ${number}`}
@@ -21,15 +21,15 @@ const PeccotCard: React.FC<PeccotCardProps> = ({ link, number, date, image, chil
           imgClassName="rounded-t-md"
         />
       </a>
-      <div>
+      <div className="px-2 py-1">
         <span className="font-bold text-xl">Lesson {number}</span>
         <br />
         <span className="text-gray-700 dark:text-gray-300 font-semibold">{date}</span>
       </div>
-      <div className="flex-grow p-1">
+      <div className="flex-grow px-2 py-1">
         {children}
       </div>
-      <a className="block p-2 bg-gray-100 rounded-b-md text-center" href={link} rel="noreferrer noopener">
+      <a className="block p-2 bg-gray-100 dark:bg-gray-900 rounded-b-md text-center" href={link} rel="noreferrer noopener">
         <FontAwesomeIcon icon={faVideo} className="mr-1" />
         Video
       </a>
