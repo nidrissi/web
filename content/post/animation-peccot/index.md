@@ -10,7 +10,8 @@ I am not a 3D artist, obviously, but (with oral explanations) I think it explain
 [The animation is available here](./animation.mp4), and here it is in all its glory:
 
 <div class="aspect-w-16 aspect-h-9">
-    <video controls>
-        <source src="./animation.mp4" type="video/mp4" />
-    </video>
+<video controls>
+<source src="./animation.mp4" type="video/mp4" />
+This is supposed to be a video illustrating the Fulton-MacPherson compactification, but apparently your browser does not support showing HTML5 videos.
+</video>
 </div>
