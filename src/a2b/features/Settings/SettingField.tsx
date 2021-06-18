@@ -15,6 +15,7 @@ export const SettingField: React.FC<SettingFieldProps> = ({
   disabled,
   children,
 }) => {
+  const bgStyle = disabled ? "bg-gray-100 dark:bg-gray-700 cursor-not-allowed" : "dark:bg-gray-900";
   if (as === "control") {
     return (
       <div>
@@ -23,7 +24,7 @@ export const SettingField: React.FC<SettingFieldProps> = ({
         </label>
         <Field
           type="text"
-          className={`block w-full ${disabled ? "bg-gray-100 cursor-not-allowed" : ""}`}
+          className={`block w-full ${bgStyle}`}
           name={id}
           id={id}
           disabled={disabled}
@@ -55,7 +56,7 @@ export const SettingField: React.FC<SettingFieldProps> = ({
         </label>
         <Field
           as="select"
-          className="block w-full"
+          className={`block w-full ${bgStyle}`}
           name={id}
           id={id}
           disabled={disabled}
