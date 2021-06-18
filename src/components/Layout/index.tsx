@@ -15,7 +15,7 @@ const Layout: React.FC<LayoutProps> = ({ children, lang, ...props }) => {
       <SEO {...props} />
       <Cookie />
       <Navbar />
-      <main className="container mx-auto p-2 flex-grow" lang={lang || "en"}>
+      <main className="container mx-auto px-2 flex-grow" lang={lang}>
         {children}
       </main>
       <Footer />

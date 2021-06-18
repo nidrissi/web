@@ -64,7 +64,10 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
         <Meta frontmatter={frontmatter} type={type} />
       </header>
 
-      <div className="prose prose-blue dark:prose-dark max-w-none">
+      {/* Large prose if research or talk abstract. */}
+      <div
+        className={`prose prose-blue dark:prose-dark max-w-none ${["research", "talk"].includes(type) ? "prose-lg" : ""}`}
+      >
         <MDXRenderer localImages={frontmatter.localImages} urls={frontmatter.urls}>
           {body}
         </MDXRenderer>
