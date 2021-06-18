@@ -68,6 +68,7 @@ export const query = graphql`
           date
           lastMod
           lang
+          institution
           courseHours
           courseType
           cursus

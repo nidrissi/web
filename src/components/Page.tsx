@@ -110,6 +110,7 @@ export const query = graphql`
         publication
         authors
         accepted
+        institution
         cursus
         courseType
         courseHours

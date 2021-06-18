@@ -61,6 +61,7 @@ query tagListQuery($tag: String!) {
         publication
         authors
         accepted
+        institution
         cursus
         courseType
         courseHours
