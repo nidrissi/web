@@ -65,7 +65,7 @@ const DIYBody: React.FC<{ values: FormValues }> = ({ values }) => {
 const DIY: React.FC<{}> = () => {
   return (
     <>
-      <div className="bg-yellow-100 p-3" role="alert">
+      <div className="bg-yellow-100 dark:bg-yellow-800 px-3 py-2" role="alert">
         <FontAwesomeIcon icon={faExclamationTriangle} className="mr-1" title="Warning!" />Not feature complete yet!
       </div>
       <Formik

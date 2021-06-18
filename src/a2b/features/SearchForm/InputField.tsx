@@ -20,7 +20,7 @@ const InputField: React.FC<InputFieldProps> = ({ label, ...props }) => {
       </div>
       <div className="col-span-full sm:col-span-5 sm:flex gap-2">
         <input
-          className={`w-full rounded-md focus:shadow-md ${meta.error ? "border-red-600" : ""}`}
+          className={`w-full rounded-md focus:shadow-md dark:bg-gray-900 ${meta.error ? "border-red-600" : ""}`}
           type="text"
           id={props.name}
           {...field}

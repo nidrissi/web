@@ -28,7 +28,7 @@ const Tooltip: React.FC<{ help?: string | JSX.Element }> = ({ help }) => {
       </button>
       <div
         className={`${shown ? "block" : "hidden"
-          } absolute -top-2 left-0 z-10 w-48 bg-black text-gray-100 dark:text-gray-700 rounded-md p-2`}
+          } absolute -top-2 left-0 z-10 w-48 bg-black text-gray-300 rounded-md p-2`}
       >
         <FontAwesomeIcon icon={faQuestionCircle} className="mr-2" />
         {help}
@@ -59,7 +59,7 @@ const StandardInput: React.FC<StandardInputProps> = ({
         className={`col-span-full ${halfSize ? "sm:col-span-4" : "sm:col-span-10"
           }`}
       >
-        <Field {...props} id={props.name} className="w-full" />
+        <Field {...props} id={props.name} className="w-full dark:bg-gray-900" />
       </div>
     </>
   );
