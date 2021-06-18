@@ -11,7 +11,8 @@ Thursday I'm giving a talk at the online [Toric Topology research seminar](http:
 So I took the opportunity to prepare a little illustration to explain the connection between braids and configuration spaces!
 
 <div class="aspect-w-16 aspect-h-9">
-    <video controls loop autoplay>
-        <source src="braid.mp4" type="video/mp4" />
-    </video>
+<video controls>
+<source src="braid.mp4" type="video/mp4" />
+This is supposed to be a video showing a braid and a path in the configuration space, but apparently your browser does not support showing HTML5 videos.
+</video>
 </div>

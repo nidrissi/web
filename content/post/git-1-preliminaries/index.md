@@ -85,4 +85,9 @@ In the meantime, here are some links:
 
 And here's a little teaser of what you will hopefully be able to do by the end of all this!
 
-<div class="ratio ratio-16x9"><video controls loop autoplay><source src="teaser.mp4" type="video/mp4"/>This is supposed to be a video showcasing the use of Git in Visual Studio Code, but apparently your browser does not support showing HTML5 videos.</video></div>
+<div class="ratio ratio-16x9">
+<video controls loop autoplay>
+<source src="teaser.mp4" type="video/mp4"/>
+This is supposed to be a video showcasing the use of Git in Visual Studio Code, but apparently your browser does not support showing HTML5 videos.
+</video>
+</div>
