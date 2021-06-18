@@ -35,7 +35,7 @@ const ClassList: React.FC<ClassListProps> = ({ data: { allMdx: { group } } }) =>
           .map(({ fieldValue: year, nodes }) => (
             <div key={year}>
               <h2 className="text-2xl font-bold mb-2">
-                Year {year}&ndash;{Number(year) + 1}
+                Academic year {year}&ndash;{Number(year) + 1}
               </h2>
               <div className="flex flex-col gap-2">
                 {nodes

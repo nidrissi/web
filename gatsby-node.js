@@ -21,17 +21,17 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const listAssociation = {
     post: {
       component: './src/lists/Posts.tsx',
-      perPage: 5
+      perPage: 10
     },
     talk: {
       component: './src/lists/Talks.tsx',
-      perPage: 10
+      perPage: 10,
     },
     class: {
-      component: './src/lists/Classes.tsx'
+      component: './src/lists/Classes.tsx',
     },
     research: {
-      component: './src/lists/Research.tsx'
+      component: './src/lists/Research.tsx',
     },
   };
 
@@ -64,7 +64,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     if (listAssociation[type]) {
       const { component, perPage } = listAssociation[type];
       if (perPage) {
-
         const numPages = Math.ceil(totalCount / perPage)
         Array.from({ length: numPages }).forEach((_, i) => {
           createPage({
