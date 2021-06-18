@@ -54,6 +54,20 @@ module.exports = {
             blockquote: {
               color: theme("colors.gray.100")
             },
+            ol: {
+              li: {
+                '&::before': {
+                  color: theme("colors.gray.400")
+                },
+              },
+            },
+            ul: {
+              li: {
+                '&::before': {
+                  color: theme("colors.gray.400")
+                },
+              },
+            },
           }
         }
       }),
