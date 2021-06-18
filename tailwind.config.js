@@ -23,6 +23,9 @@ module.exports = {
             color: theme("colors.gray.300"),
             a: {
               color: theme("colors.indigo.300"),
+              code: {
+                color: theme("colors.indigo.200"),
+              }
             },
             h1: {
               color: theme("colors.gray.200"),
@@ -46,7 +49,10 @@ module.exports = {
               color: theme("colors.gray.200"),
             },
             code: {
-              color: theme("colors.gray.100"),
+              color: theme("colors.gray.200"),
+            },
+            pre: {
+              "background-color": theme("colors.gray.900"),
             },
             strong: {
               color: theme("colors.gray.100"),
