@@ -4,21 +4,16 @@ import { Frontmatter } from ".";
 const MetaClass: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter }) => {
   const { cursus, institution, courseType, courseHours } = frontmatter;
 
-  const formattedData = [
-    institution,
-    cursus,
-    courseType,
-    // \xa0 = non-breaking space
-    courseHours ? `${courseHours}\xa0h` : null,
-  ]
-    .filter(x => x) // remove empty values
-    .join(' • ');
+  const format = (value: string) => value ? <div>{value}.</div> : null;
 
   return (
-    <div>
-      {formattedData}
-      .
-    </div>
+    <>
+      {format(institution)}
+      {format(cursus)}
+      {format(courseType)}
+      {/* \xa0 = non-breaking space */}
+      {format(courseHours ? `${courseHours}\xa0h` : null)}
+    </>
   );
 };
 export default MetaClass;
