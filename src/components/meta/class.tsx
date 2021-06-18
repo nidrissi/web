@@ -2,12 +2,23 @@ import React from "react";
 import { Frontmatter } from ".";
 
 const MetaClass: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter }) => {
-  const { cursus, courseType, courseHours } = frontmatter;
+  const { cursus, institution, courseType, courseHours } = frontmatter;
+
+  const formattedData = [
+    institution,
+    cursus,
+    courseType,
+    // \xa0 = non-breaking space
+    courseHours ? `${courseHours}\xa0h` : null,
+  ]
+    .filter(x => x) // remove empty values
+    .join(' • ');
 
   return (
-    <>
-      <div>{cursus} &bull; {courseType} &bull; {courseHours}&nbsp;h.</div>
-    </>
+    <div>
+      {formattedData}
+      .
+    </div>
   );
 };
 export default MetaClass;

@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Homotopy Theory"
+institution: Université de Paris
 cursus: M2 Fundamental Mathematics (S2)
 courseType: Lectures
 courseHours: 24

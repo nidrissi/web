@@ -31,6 +31,7 @@ export type Frontmatter = {
   status?: string;
   authors?: string[];
   // Class
+  institution?: string;
   cursus?: string;
   courseType?: string;
   courseHours?: string;

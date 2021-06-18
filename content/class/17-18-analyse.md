@@ -1,6 +1,7 @@
 ---
 title: Analyse 1
 lang: fr
+institution: Université de Lille
 cursus: L1 MASS (S1)
 courseType: Exercice sessions
 courseHours: 36

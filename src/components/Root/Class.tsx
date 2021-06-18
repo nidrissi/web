@@ -29,9 +29,10 @@ query RootClassQuery {
         date
         lastMod
         lang
+        institution
+        cursus
         courseHours
         courseType
-        cursus
         year
         tags
         ...allUrlsFragment

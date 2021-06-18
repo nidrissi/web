@@ -1,5 +1,6 @@
 ---
 title: "Homotopy II"
+institution: Université de Paris
 cursus: M2 Fundamental Mathematics (S2)
 courseType: Lectures
 courseHours: 24

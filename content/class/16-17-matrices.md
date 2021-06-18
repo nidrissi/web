@@ -1,6 +1,7 @@
 ---
 title: Calcul matriciel
 lang: fr
+institution: Université de Lille
 cursus: L2 MASS (S2)
 courseType: Exercise sessions
 courseHours: 36
