@@ -2,7 +2,8 @@
 title: Little disks operads and configuration spaces
 date: 2021-06-04
 event: Viva Talbot!
-location: MIT (online)
+location: MIT
+online: true
 urls:
   event: https://math.mit.edu/events/talbot/index.php?year=retrospective_2021
   slides: talbot.pdf

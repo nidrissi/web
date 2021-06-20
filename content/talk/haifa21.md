@@ -2,7 +2,8 @@
 title: Configuration Spaces of Surfaces
 date: 2021-05-09
 event: Topology and Geometry seminar
-location: University of Haifa (online)
+location: University of Haifa
+online: true
 urls:
   event: https://mathematics.haifa.ac.il/?cat=6
   slides: haifa21.pdf

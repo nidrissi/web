@@ -3,7 +3,7 @@ title: Real Homotopy of Configuration Spaces
 date: 2021-03-30
 authors: [me]
 status: preprint
-publication: Peccot Lecture [Cours Peccot], 162 pages, submitted
+publication: Peccot Lecture [Cours Peccot], 162 pages.
 urls:
   read: peccot.pdf
 ---

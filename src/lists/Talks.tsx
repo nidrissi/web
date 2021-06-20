@@ -68,6 +68,7 @@ query talkListQuery($skip: Int!, $limit: Int!) {
         lastMod
         lang
         TBA
+        online
         location
         event
         tags

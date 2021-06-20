@@ -33,6 +33,7 @@ query RootTalkQuery {
         lastMod
         lang
         TBA
+        online
         location
         event
         tags
