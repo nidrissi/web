@@ -39,6 +39,7 @@ export type Frontmatter = {
   // Event
   event?: string;
   location?: string;
+  online?: boolean;
   TBA?: boolean;
 };
 

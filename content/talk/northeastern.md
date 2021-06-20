@@ -2,7 +2,8 @@
 title: Real homotopy of configuration spaces
 date: 2020-10-13
 event: Topology seminar
-location: Northeastern University (online)
+location: Northeastern University
+online: true
 urls:
   event: https://topology.sites.northeastern.edu/calendar_event/najib-idrissi/
   slides: northeastern.png

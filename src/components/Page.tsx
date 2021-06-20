@@ -6,6 +6,8 @@ import Layout from "./Layout";
 import Meta, { Frontmatter } from "./meta";
 import { NextPrevious, NextPreviousProps } from "./NextPrevious";
 import Embed from "./Embed";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
 
 type PageTemplateProps = {
   data: {
@@ -30,7 +32,7 @@ export function actualTitle(
     year?: string;
   },
   type: string
-) {
+): string {
   return type === 'talk' ? (
     `${frontmatter.event} @ ${frontmatter.location}`
   ) : type === 'class' ? (
@@ -38,6 +40,16 @@ export function actualTitle(
   ) : (
     frontmatter.title
   );
+}
+
+export function heldOnline(type: string, frontmatter: Frontmatter): JSX.Element {
+  return type === "talk" && frontmatter.online ? (
+    <FontAwesomeIcon
+      icon={faNetworkWired}
+      title="The talk was held online."
+      size="xs"
+      className="ml-2" />
+  ) : null;
 }
 
 const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
@@ -49,6 +61,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
   } = data.mdx;
 
   const parsedTitle = actualTitle(frontmatter, type);
+
   return (
     <Layout
       title={parsedTitle}
@@ -60,6 +73,7 @@ const PageTemplate: React.FC<PageTemplateProps> = ({ data }) => {
       <header className="mb-4">
         <h1 role="banner" className="text-3xl font-bold mb-1 text-gray-900 dark:text-gray-200">
           {parsedTitle}
+          {heldOnline(type, frontmatter)}
         </h1>
         <Meta frontmatter={frontmatter} type={type} />
       </header>
@@ -118,6 +132,7 @@ export const query = graphql`
         event
         TBA
         location
+        online
         ... allUrlsFragment
         localImages {
           childImageSharp {
@@ -135,6 +150,7 @@ export const query = graphql`
         title
         event
         location
+        online
         year
       }
     }
@@ -144,6 +160,7 @@ export const query = graphql`
         title
         event
         location
+        online
         year
       }
     }

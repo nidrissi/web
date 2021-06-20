@@ -2,7 +2,8 @@
 title: Espaces de configuration de surfaces
 date: 2021-01-19
 event: Séminaire Algèbre et topologie
-location: Université de Strasbourg (online)
+location: Université de Strasbourg
+online: true
 urls:
   event: http://irma.math.unistra.fr/article286.html
   slides: strasbourg21.png

@@ -2,7 +2,8 @@
 title: Real homotopy of configuration spaces
 date: 2020-04-23
 event: Toric Topology Research Seminar
-location: Fields Institute (online)
+location: Fields Institute
+online: true
 urls:
   event: https://www.fields.utoronto.ca/talks/Real-homotopy-configuration-spaces
   slides: toric.pdf

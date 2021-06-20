@@ -2,7 +2,8 @@
 title: Configuration spaces of surfaces
 date: 2021-02-15
 event: Research Seminar on Algebraic Topology
-location: Universität Hamburg (online)
+location: Universität Hamburg
+online: true
 urls:
   event: https://www.math.uni-hamburg.de/home/richter/research-seminar-jhbr.html
   slides: hamburg21.png

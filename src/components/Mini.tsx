@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretSquareRight } from "@fortawesome/free-solid-svg-icons";
 
 import Meta, { Frontmatter } from "./meta";
-import { actualTitle } from "./Page";
+import { actualTitle, heldOnline } from "./Page";
 
 type MiniProps = {
   frontmatter: Frontmatter;
@@ -27,10 +27,12 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   const header = levelUp ? (
     <h2 className="text-2xl font-semibold max-w-3xl">
       {linkedTitle}
+      {heldOnline(type, frontmatter)}
     </h2>
   ) : (
     <h3 className="text-xl font-semibold max-w-3xl">
       {linkedTitle}
+      {heldOnline(type, frontmatter)}
     </h3 >
   );
 

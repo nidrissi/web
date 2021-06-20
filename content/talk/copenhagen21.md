@@ -2,7 +2,8 @@
 title: Configuration Spaces of Surfaces
 date: 2021-05-28
 event: Algebra and Topology Seminar
-location: Københavns Universitet (online)
+location: Københavns Universitet
+online: true
 urls:
   event: https://www.math.ku.dk/english/calendar/events/algebratopology-seminar-28052021/
   slides: copenhagen21.pdf

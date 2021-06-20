@@ -2,7 +2,8 @@
 title: Configuration Spaces of Surfaces
 date: 2021-03-15
 event: Topology Seminar
-location: MIT (online)
+location: MIT
+online: true
 urls:
   event: https://math.mit.edu/topology/
   slides: mit21.png

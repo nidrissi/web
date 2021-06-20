@@ -68,6 +68,7 @@ query tagListQuery($tag: String!) {
         year
         event
         TBA
+        online
         location
         ...allUrlsFragment
       }
