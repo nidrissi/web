@@ -52,7 +52,8 @@ const App: React.FC<{}> = () => {
   return (
     <>
       <Title setCurrentPage={setCurrentPage} />
-      {pageAssociation[currentPage]}    </>
+      {pageAssociation[currentPage]}
+    </>
   );
 };
 export default App;
