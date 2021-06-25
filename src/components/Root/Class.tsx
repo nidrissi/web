@@ -32,7 +32,7 @@ query RootClassQuery {
         institution
         cursus
         courseHours
-        courseType
+        courseTypes
         year
         tags
         ...allUrlsFragment

@@ -2,7 +2,7 @@
 title: "Introduction to Homotopy Theory"
 institution: Université de Paris
 cursus: M2 Fundamental Mathematics (S2)
-courseType: Lectures
+courseTypes: [CM]
 courseHours: 24
 year: 2019
 date: 2020-01-01

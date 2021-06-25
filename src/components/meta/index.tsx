@@ -33,7 +33,7 @@ export type Frontmatter = {
   // Class
   institution?: string;
   cursus?: string;
-  courseType?: string;
+  courseTypes?: string[];
   courseHours?: string;
   year?: string;
   // Event

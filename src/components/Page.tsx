@@ -126,7 +126,7 @@ export const query = graphql`
         accepted
         institution
         cursus
-        courseType
+        courseTypes
         courseHours
         year
         event

@@ -63,7 +63,7 @@ query tagListQuery($tag: String!) {
         accepted
         institution
         cursus
-        courseType
+        courseTypes
         courseHours
         year
         event
