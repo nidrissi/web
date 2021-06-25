@@ -2,7 +2,7 @@
 title: "Homotopy II"
 institution: Université de Paris
 cursus: M2 Fundamental Mathematics (S2)
-courseType: Lectures
+courseTypes: [CM]
 courseHours: 24
 year: 2021
 date: 2022-01-01

@@ -70,7 +70,7 @@ export const query = graphql`
           lang
           institution
           courseHours
-          courseType
+          courseTypes
           cursus
           year
           tags
