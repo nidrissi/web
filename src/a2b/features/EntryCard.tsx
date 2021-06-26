@@ -113,7 +113,9 @@ function buildPairing({
   // generate a filename and link to the PDF, if any
   const fileName = (settings.filePrefix ? `${key[0]}/` : "") + `${key}.pdf`;
   const fileLink = entry.pdfLink ? (
-    <a href={entry.pdfLink}>{fileName}</a>
+    <a href={entry.pdfLink}>
+      {fileName}
+    </a>
   ) : (
     fileName
   );

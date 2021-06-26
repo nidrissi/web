@@ -142,7 +142,7 @@ const EntryLink: React.FC<{ definition: LinkDefinition; url: string | LocalFile;
     typeof definition.label === "string"
       ? definition.label
       : definition.label(actualUrl);
-  const href: string = definition.urlBuilder ? definition.urlBuilder(actualUrl) : actualUrl;
+  const href: string = definition.urlBuilder?.(actualUrl) ?? actualUrl;
 
   return (
     <a

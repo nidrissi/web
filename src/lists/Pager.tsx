@@ -17,7 +17,7 @@ const Pager: React.FC<PagerProps> = ({ numPages, currentPage, type }) => {
   const disabledStyle = "text-gray-600 border-gray-600 pointer-events-none"
 
   function indexToLink(i: number): string {
-    return i === 1 ? `/${type}` : `/${type}/${i}`;
+    return `/${type}${i === 1 ? `/${i}` : ""}`;
   }
 
   return (

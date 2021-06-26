@@ -48,7 +48,7 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   );
 
   return (
-    <article lang={frontmatter.lang || null}>
+    <article lang={frontmatter?.lang}>
       {header}
       <div className="mb-2">
         <Meta frontmatter={frontmatter} type={type} />

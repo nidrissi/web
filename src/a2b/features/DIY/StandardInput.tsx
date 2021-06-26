@@ -56,8 +56,7 @@ const StandardInput: React.FC<StandardInputProps> = ({
         <Tooltip help={help} />
       </label>
       <div
-        className={`col-span-full ${halfSize ? "sm:col-span-4" : "sm:col-span-10"
-          }`}
+        className={`col-span-full ${halfSize ? "sm:col-span-4" : "sm:col-span-10"}`}
       >
         <Field {...props} id={props.name} className="w-full dark:bg-gray-900" />
       </div>

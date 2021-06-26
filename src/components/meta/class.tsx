@@ -5,9 +5,9 @@ import { useState } from "react";
 import { Frontmatter } from ".";
 
 function format(value: string): JSX.Element {
-  return value ? (
+  return value && (
     <div>{value}.</div>
-  ) : null;
+  );
 }
 
 const courseTypeAssociation: {
@@ -66,14 +66,10 @@ const CourseTypeBlock: React.FC<{ type: string }> = ({ type }) => {
   );
 }
 
-function formatCourseType(courseTypes: string[]): JSX.Element[] {
-  if (!courseTypes) {
-    return null;
-  } else {
-    return courseTypes.map(type => (
-      <CourseTypeBlock key={type} type={type} />
-    ))
-  }
+function formatCourseType(courseTypes?: string[]): JSX.Element[] {
+  return courseTypes?.map(type => (
+    <CourseTypeBlock key={type} type={type} />
+  ))
 }
 
 const MetaClass: React.FC<{ frontmatter: Frontmatter }> = ({ frontmatter }) => {

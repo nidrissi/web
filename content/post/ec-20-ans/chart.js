@@ -9,7 +9,7 @@ var state = {
   groupList: {
     1: { nom: "Droit et science politique", enabled: true },
     2: { nom: "Sciences économiques et de gestion", enabled: true },
-    3: { nom:  "Langues et littératures", enabled: true },
+    3: { nom: "Langues et littératures", enabled: true },
     4: { nom: "Sciences humaines", enabled: true },
     5: { nom: "Mathématiques et informatique", enabled: true },
     6: { nom: "Physique", enabled: true },
@@ -24,29 +24,29 @@ var state = {
 };
 
 var minDate = new Date(1998, 1, 1),
-    maxDate = new Date(2018, 1, 1);
+  maxDate = new Date(2018, 1, 1);
 
 var chart = d3.select("#chart");
 var svg = chart.append("svg")
-    .attr("width", "100%")
-    .attr("max-width", "100%");
+  .attr("width", "100%")
+  .attr("max-width", "100%");
 var gMargin;
 var gPath;
 
 var color = d3.scaleOrdinal(d3.schemeSet3)
-var margin = {top: 20, right: 20, bottom: 20, left: 35}
+var margin = { top: 20, right: 20, bottom: 20, left: 35 }
 
 // to be initialized later
 var outerWidth, outerHeight, width, height
 var xScale, yScale, xAxis, yAxis
 var xAxis, yAxis, xAxisDOM, yAxisDOM
 
-var line = d3.line().x(function(d) { return xScale(d.year); });
+var line = d3.line().x(function (d) { return xScale(d.year); });
 
 function joinData() {
   var paths = gPath.selectAll(".path-group")
-      .data(state.filteredData, d => d ? d.section : this.id);
-  
+    .data(state.filteredData, d => d ? d.section : this.id);
+
   paths.exit().remove();
   var paths_enter = paths.enter().append("g").attr("class", "path-group");
   paths = paths.merge(paths_enter);
@@ -62,16 +62,16 @@ function joinData() {
       .style("stroke-width", 2)
       .style("fill", "none")
       .style("opacity", ".5")
-      .on("mouseover", function(d) {
+      .on("mouseover", function (d) {
         gMargin.select("#tooltip")
           .text(d.section + " " + d.nom + " (" + cat.toUpperCase() + ")");
         d3.select(this).style("opacity", "1").style("stroke-width", 4);
       })
-      .on("mouseout", function(d) {
+      .on("mouseout", function (d) {
         gMargin.select("#tooltip").text("");
         d3.select(this).style("opacity", ".5").style("stroke-width", 2);
       })
-      .attr("d", function(d) { return line(d[cat]) });
+      .attr("d", function (d) { return line(d[cat]) });
   }
 }
 
@@ -79,12 +79,12 @@ function joinData() {
 function setScales() {
   if (d3.select("#normalize").node().checked) {
     // normalized data
-    yScale.domain([0,state.normMax+10]);
-    line.y(function(d) { return yScale(d.normalized) });
+    yScale.domain([0, state.normMax + 10]);
+    line.y(function (d) { return yScale(d.normalized) });
   } else {
     // raw data
-    yScale.domain([0,state.rawMax+100]);
-    line.y(function(d) { return yScale(d.num) });
+    yScale.domain([0, state.rawMax + 100]);
+    line.y(function (d) { return yScale(d.num) });
   }
 }
 
@@ -129,12 +129,12 @@ function draw() {
     .attr("id", "tooltip")
     .attr("text-anchor", "middle")
     .attr("filter", "url(#solid)")
-    .attr("transform", "translate(" + (width/2) + "," + (15) + ")");
+    .attr("transform", "translate(" + (width / 2) + "," + (15) + ")");
   let filter = svg.insert("defs")
-      .append("filter")
-      .attr("id", "solid")
-      .attr("x", -0.0625).attr("y", 0)
-      .attr("width", 1.125).attr("height", 1.1);
+    .append("filter")
+    .attr("id", "solid")
+    .attr("x", -0.0625).attr("y", 0)
+    .attr("width", 1.125).attr("height", 1.1);
   filter.append("feFlood")
     .attr("flood-color", "blue");
   filter.append("feComposite")
@@ -143,14 +143,14 @@ function draw() {
 
   // scaling
   xScale = d3.scaleTime()
-      .domain([minDate, maxDate])
-      .range([0, width]);
+    .domain([minDate, maxDate])
+    .range([0, width]);
   yScale = d3.scaleLinear()
-      .range([height, 0]);
+    .range([height, 0]);
 
   // axis
   xAxis = d3.axisBottom(xScale)
-      .ticks(d3.timeYear.every(1));
+    .ticks(d3.timeYear.every(1));
   xAxisDOM = gMargin.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(xAxis);
@@ -168,7 +168,7 @@ for (let k in state.groupList) {
   let div = groupeDOM.append("div")
     .attr("class", "form-check form-check-inline");
   div.append("input")
-    .on("change", function() { toggleSelection(k) })
+    .on("change", function () { toggleSelection(k) })
     .attr("checked", "")
     .attr("class", "form-check-input")
     .attr("type", "checkbox")
@@ -191,7 +191,7 @@ d3.json('demos.json').then((data) => {
   for (d of state.data) {
     for (cat of ["mcf", "pr"]) {
       var initial = d[cat].find(function (x) { return x.year == 1998 }).num;
-      d[cat].forEach(function(x,i,arr) {
+      d[cat].forEach(function (x, i, arr) {
         arr[i].num = +arr[i].num;
         arr[i].year = new Date(x.year, 1, 1);
         arr[i].normalized = x.num * 100.0 / initial;
