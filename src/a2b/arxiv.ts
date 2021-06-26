@@ -8,7 +8,7 @@ function getUniqueNamedTag(
 ): string | undefined {
   const collection = xmlEntry.getElementsByTagName(tag);
   const item = collection.item(0);
-  return item ? item.textContent?.trim() : undefined;
+  return item?.textContent?.trim();
 }
 
 function parseEntry(xmlEntry: Element): Entry | null {
