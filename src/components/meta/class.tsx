@@ -12,37 +12,30 @@ function format(value: string): JSX.Element {
 
 const courseTypeAssociation: {
   [key: string]: {
-    color: string;
     label: string;
     title?: string;
   }
 } = {
   CM: {
-    color: "border-indigo-300 dark:border-indigo-900",
     label: "Lectures",
   },
   TD: {
-    color: "border-blue-300 dark:border-blue-900",
     label: "Exercise sessions",
     title: "Directed exercise sessions where students work on their own before the solution to each exercise is given to the whole group."
   },
   TP: {
-    color: "border-yellow-300 dark:border-yellow-900",
     label: "Practical work",
     title: "Supervised programming exercises on computers."
   },
   O: {
-    color: "border-purple-300 dark:border-purple-900",
     label: "Organization",
     title: "Organization of the overall course, including exams, and coordination between the different exercise groups."
   },
   Colles: {
-    color: "border-pink-300 dark:border-pink-900",
     label: "Oral exams",
     title: "Graded weekly oral exams."
   },
   T: {
-    color: "border-green-300 dark:border-green-900",
     label: "Tutoring",
     title: "Weekly sessions where students can ask questions and work out exercises seen before."
   },
@@ -51,11 +44,13 @@ const courseTypeAssociation: {
 const CourseTypeBlock: React.FC<{ type: string }> = ({ type }) => {
   const [expanded, setExpanded] = useState(false)
 
-  const { color, label, title } = courseTypeAssociation[type];
+  const { label, title } = courseTypeAssociation[type];
   return (
     <div
-      className={`block px-1 border border-opacity-50 rounded-md ${color} ${title ? 'cursor-pointer' : ''}`}
-      onClick={() => title && setExpanded(e => !e)}
+      // If there is a title, put a green border when the div is either hovered or focused
+      // and the cursor becomes a pointer when the div is hovered and not already expanded
+      className={`block px-1 border border-transparent border-dashed rounded-md ${title ? 'hover:border-green-400 focus:border-green-400 dark:hover:border-green-800 dark:focus:border-green-800' + (expanded ? '' : ' hover:cursor-pointer') : ''}`}
+      onFocus={() => title && setExpanded(true)}
       onBlur={() => setExpanded(false)}
       title={title && "Click for more details."}
       tabIndex={title ? 0 : -1}
