@@ -97,7 +97,7 @@ Concretely, this means that you select the changes that you want to insert into 
 Once these changes are selected and you are satisfied, you would then insert the changes to history, creating a new commit whose parent is the previous commit, with a message that explains your changes.
 A typical workflow looks like this:
 
-<img style="max-width: 300px;" alt="The modify-stage-commit cycle." src="cycle.drawio.svg"/>
+![The modify-stage-commit cycle.](cycle.drawio.svg)
 
 This notion of staging is useful for various reasons, compared to blindly committing everything that's changed in your repository:
 
