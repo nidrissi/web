@@ -1,59 +1,59 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="245px" height="191px" viewBox="-0.5 -0.5 245 191" content="&lt;mxfile&gt;&lt;diagram id=&quot;74YVRFs4sZE2L4hSMblx&quot; name=&quot;Page-1&quot;&gt;5ZbBkpNAEIafhqsFTDCba0hcD3rKQfc4BQ2MDjQ1aRLw6Z2BZoFCt1zXrWiZQyr9dTeZ/uk/wRNx2d4bWRcfMQXthX7aeuLgheE22Nh3B7oBbMJoALlR6YCCCZzUN2DoM21UCudFISFqUvUSJlhVkNCCSWPwuizLUC+/tZY5rMApkXpNP6mUioHehduJvweVF+M3B293Q6aUYzFPci5kitcZEkdPxAaRhk9lG4N22o26DH3vfpJ9PJiBin6lgW/EReqGZ+NzUTcOC6mdnUM0VGCOldTHie4NNlUK7oq+jaaaD4i1hYGFX4Co4xspG0KLCio1Z5PGXPp+F2RYEVcGWxuvR+Ipz9iYhA/JxyZpcuAqMSB3/Fkby3APWAKZzhYY0JLUZXlrJW9I/lg3iWg/sI4/1jRcaRpjWSpaK6u13Vin4LVQBKda9uNcrWeW+shzPaxxplqn0z5TWseo0fQXEr4f+ZBZfiaDX2GRCQ77mFWd8ax/PUftCxiC9kklOSsELze7O7jj+DrzCqNiZpORvUT78RfiWfu7WL8XLzO0ij679jcRRw+zzKHlK/dBNwaVnXPW5MKHeW5q66Ox77e8ItZeiW7lFbHyiv2zUFn3v3hls9vczivBWuV/2CvBa3glWnslvJVXopVXTuQeVP6cVVJlLFBYWWZVcAv4l9snWNon3L2afWw4PZb1udmzrTh+Bw==&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="456px" height="109px" viewBox="-0.5 -0.5 456 109" content="&lt;mxfile&gt;&lt;diagram id=&quot;74YVRFs4sZE2L4hSMblx&quot; name=&quot;Page-1&quot;&gt;5VbBjpswEP2aXCvAIUmPDUm3h1aqlEN3jxYYcGsYZIYE+vW18RBAtNvt7qqp1Bwiz/OMmXm8GbxiUdHeaV7lnyARahV4Sbtih1UQbD3P/Fugc8Da9x2QaZk4aAKc5HdBIMVljUxEPXNEAIWymoMxlKWIcYZxreEyd0tBzZ9a8UwsgFPM1RL9IhPMHboLtiP+QcgsH57sb966nYIPzlRJnfMELhOIHVcs0gDoVkUbCWW5G3hxce9/sXtNTIsSnxKwdgFnrhqqjfLCbihWJKZ2MkFjDhmUXB1HdK+hKRNhT/SMNfp8BKgM6Bvwq0Ds6EXyBsFAORaKduNGn/t4a6RQInn6G2MvS6Iqa2h0TElS2sh1JsiLOcimPwkjGu4EFAJ1Zxy0UBzlef5qOSkku/qNJJoF8fhzToMFpxEUhcQls0oZxVoGL7lEcap4X87F9MycH15XTsapbC1P+1QqFYEC3R/EPC/0RGrwGjV8E7Md/7CPiNUJnva/P2H7LDSK9lEmaZcxEjd1t78j+zLpFYLySZsM2Eu4HwbJjQX9LA2zpYbDW2mYLWg0Q1ym3f+i4fUuvJ2GbyJZ0Uq8t+FvQrIe6DC7PrRToxuM0pR2PzUexhOsOYb11hD3rPYIl+0RvHZ79KHvtObdxKECWWI9OfmzBUatbNfzebf45v7Of/e4P/Ne6D/PxyxchaMYr1Q9SZ/hYjac0F6YXm80JFIbQEJpMCMB23D/9rjYrP/aJ8+Y4/XQvb3xjs2OPwA=&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
-        <path d="M 80 40 Q 80 40 157.63 40" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 162.88 40 L 155.88 43.5 L 157.63 40 L 155.88 36.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="40" cy="40" rx="40" ry="40" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
+        <path d="M 117 40 Q 117 40 185.63 40" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 190.88 40 L 183.88 43.5 L 185.63 40 L 183.88 36.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="77" cy="40" rx="40" ry="40" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 1px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 38px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 17px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
                                 Commit
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="40" y="45" fill="#ffffff" font-family="Helvetica" font-size="17px" text-anchor="middle">
+                <text x="77" y="45" fill="#ffffff" font-family="Helvetica" font-size="16px" text-anchor="middle">
                     Commit
                 </text>
             </switch>
         </g>
-        <path d="M 204 80 Q 204 150 170.37 150" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 165.12 150 L 172.12 146.5 L 170.37 150 L 172.12 153.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="204" cy="40" rx="40" ry="40" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
+        <path d="M 272 40 L 340.63 40" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 345.88 40 L 338.88 43.5 L 340.63 40 L 338.88 36.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="232" cy="40" rx="40" ry="40" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 165px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 193px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 17px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
                                 Modify
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="204" y="45" fill="#ffffff" font-family="Helvetica" font-size="17px" text-anchor="middle">
+                <text x="232" y="45" fill="#ffffff" font-family="Helvetica" font-size="16px" text-anchor="middle">
                     Modify
                 </text>
             </switch>
         </g>
-        <path d="M 84 150 Q 40 150 40 86.37" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 40 81.12 L 43.5 88.12 L 40 86.37 L 36.5 88.12 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
-        <ellipse cx="124" cy="150" rx="40" ry="40" fill="#0050ef" stroke="#001dbc" transform="rotate(90,124,150)" pointer-events="all"/>
+        <path d="M 427 40 L 447 40 L 447 100 L 7 100 L 7 40 L 30.63 40" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 35.88 40 L 28.88 43.5 L 30.63 40 L 28.88 36.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all"/>
+        <ellipse cx="387" cy="40" rx="40" ry="40" fill="#0050ef" stroke="#001dbc" transform="rotate(90,387,40)" pointer-events="all"/>
         <g transform="translate(-0.5 -0.5)">
             <switch>
                 <foreignObject style="overflow: visible; text-align: left;" pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 150px; margin-left: 85px;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 348px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
-                            <div style="display: inline-block; font-size: 17px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
+                            <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
                                 Stage
                             </div>
                         </div>
                     </div>
                 </foreignObject>
-                <text x="124" y="155" fill="#ffffff" font-family="Helvetica" font-size="17px" text-anchor="middle">
+                <text x="387" y="45" fill="#ffffff" font-family="Helvetica" font-size="16px" text-anchor="middle">
                     Stage
                 </text>
             </switch>
