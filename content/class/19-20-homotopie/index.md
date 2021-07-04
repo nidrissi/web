@@ -14,9 +14,9 @@ urls:
       url: https://master-math-fonda.imj-prg.fr/
   customFile:
     - label: Exam
-      file: examen-corrigé.pdf
+      file: examen.pdf
     - label: Solved exam
-      file: examen-corrigé.pdf
+      file: examen-corrige.pdf
 ---
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

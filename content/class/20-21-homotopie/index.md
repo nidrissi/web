@@ -21,7 +21,7 @@ urls:
     - label: Exam (fr)
       file: examen-fr.pdf
     - label: Solved exam (fr)
-      file: examen-fr-corrigé.pdf
+      file: examen-fr-corrige.pdf
 ---
 
 import HomotopyCard from "./HomotopyCard.tsx";
