@@ -223,6 +223,10 @@ You can essentially do two things with a remote:
 
   Again, this sounds complex, but in practice Git can figure it all out on its own.
 
+This is illustrated in the following diagram:
+
+![Working with remotes](cycle-remote.drawio.svg)
+
 Now, what's a good choice for a remote?
 Strictly speaking, a remote doesn't have to be a central server that all your collaborators work with.
 You could work on your local copy of the repository, then you could meet with your collaborator and exchange commits and merge branches using some flash drive or whatever.

@@ -1,4 +1,4 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="456px" height="109px" viewBox="-0.5 -0.5 456 109" content="&lt;mxfile&gt;&lt;diagram id=&quot;74YVRFs4sZE2L4hSMblx&quot; name=&quot;Page-1&quot;&gt;5VbBjpswEP2aXCvAIUmPDUm3h1aqlEN3jxYYcGsYZIYE+vW18RBAtNvt7qqp1Bwiz/OMmXm8GbxiUdHeaV7lnyARahV4Sbtih1UQbD3P/Fugc8Da9x2QaZk4aAKc5HdBIMVljUxEPXNEAIWymoMxlKWIcYZxreEyd0tBzZ9a8UwsgFPM1RL9IhPMHboLtiP+QcgsH57sb966nYIPzlRJnfMELhOIHVcs0gDoVkUbCWW5G3hxce9/sXtNTIsSnxKwdgFnrhqqjfLCbihWJKZ2MkFjDhmUXB1HdK+hKRNhT/SMNfp8BKgM6Bvwq0Ds6EXyBsFAORaKduNGn/t4a6RQInn6G2MvS6Iqa2h0TElS2sh1JsiLOcimPwkjGu4EFAJ1Zxy0UBzlef5qOSkku/qNJJoF8fhzToMFpxEUhcQls0oZxVoGL7lEcap4X87F9MycH15XTsapbC1P+1QqFYEC3R/EPC/0RGrwGjV8E7Md/7CPiNUJnva/P2H7LDSK9lEmaZcxEjd1t78j+zLpFYLySZsM2Eu4HwbJjQX9LA2zpYbDW2mYLWg0Q1ym3f+i4fUuvJ2GbyJZ0Uq8t+FvQrIe6DC7PrRToxuM0pR2PzUexhOsOYb11hD3rPYIl+0RvHZ79KHvtObdxKECWWI9OfmzBUatbNfzebf45v7Of/e4P/Ne6D/PxyxchaMYr1Q9SZ/hYjac0F6YXm80JFIbQEJpMCMB23D/9rjYrP/aJ8+Y4/XQvb3xjs2OPwA=&lt;/diagram&gt;&lt;/mxfile&gt;">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="456px" height="109px" viewBox="-0.5 -0.5 456 109" content="&lt;mxfile&gt;&lt;diagram id=&quot;74YVRFs4sZE2L4hSMblx&quot; name=&quot;Page-1&quot;&gt;5VbBjpswEP2aXCvAIWmODUm3h1aqlEN3j1Yw4F3DIDMk0K+vjYcApd1u01VTqTlEnucZM/P8ZmDBory507zMPkEs1CLw4mbBdosgWHue+bdA64Cl7zsg1TJ20Ag4yK+CQIpLaxmLauKIAAplOQWPUBTiiBOMaw3nqVsCavrUkqdiBhyOXM3RLzLGzKFvg/WAfxAyzfon+6uN28l570yVVBmP4TyC2H7BIg2AbpU3kVCWu54XF/f+J7uXxLQo8CUBSxdw4qqm2igvbPtiRWxqJxM0ZpBCwdV+QLca6iIW9kTPWIPPR4DSgL4BHwViSxfJawQDZZgr2j3W+tTFWyOBAsnTXxl7XhJVWUGtj5QkpY1cp4K8mINs+qMwouFOQC5Qt8ZBC8VRnqZXy0kh6cVvINEsiMcfcxrMODUNIJN2zqxSRrGWwXMmURxK3pVzNj0z5YdXpZNxIhvL0zaRSkWgQHcHMc8LPZEYvEINT2Ky4++2EbE6wpPu9ztsn4RG0TzLJO2yXtzU3cGG7POoVwjKRm3SY3/CfT9IbizoqzTM5hoOb6VhNqPxgHYo/icSXq7D20n4JooVjcR7G/4mJOuBDrPrXTM22t4oTGn3Y+NhOMGaQ1hn9XFXdUc4747gtbujC32nNW9HDiXIAqvRyZ8tMGhlzabjjrHvXrm/8t8873/R3rX+03zMwlU4iPFC1Yv0Gc5GQwR5LvEVZ0MstQEkFAYzGrAd92/PixX7a688Yw6fh+76hm9stv8G&lt;/diagram&gt;&lt;/mxfile&gt;">
     <defs/>
     <g>
         <path d="M 117 40 Q 117 40 185.63 40" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke"/>
@@ -10,13 +10,13 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 38px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Commit
+                                Modify
                             </div>
                         </div>
                     </div>
                 </foreignObject>
                 <text x="77" y="45" fill="#ffffff" font-family="Helvetica" font-size="16px" text-anchor="middle">
-                    Commit
+                    Modify
                 </text>
             </switch>
         </g>
@@ -29,13 +29,13 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 193px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Modify
+                                Stage
                             </div>
                         </div>
                     </div>
                 </foreignObject>
                 <text x="232" y="45" fill="#ffffff" font-family="Helvetica" font-size="16px" text-anchor="middle">
-                    Modify
+                    Stage
                 </text>
             </switch>
         </g>
@@ -48,13 +48,13 @@
                     <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 40px; margin-left: 348px;">
                         <div style="box-sizing: border-box; font-size: 0; text-align: center; ">
                             <div style="display: inline-block; font-size: 16px; font-family: Helvetica; color: #ffffff; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; ">
-                                Stage
+                                Commit
                             </div>
                         </div>
                     </div>
                 </foreignObject>
                 <text x="387" y="45" fill="#ffffff" font-family="Helvetica" font-size="16px" text-anchor="middle">
-                    Stage
+                    Commit
                 </text>
             </switch>
         </g>
