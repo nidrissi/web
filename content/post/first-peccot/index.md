@@ -11,4 +11,4 @@ I mainly talked about the background for my course: what are configuration space
 
 I also got this medal 🙂.
 
-![Peccot Lecture medal.](médaille.jpeg)
+![Peccot Lecture medal.](medaille.jpg)
