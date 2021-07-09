@@ -733,7 +733,23 @@ Fall 2013: Research internship in algebraic topology, Massachusetts Institute of
 
 <div class="sm:flex my-1">
 <div class="sm:w-1/6 font-semibold"></div>
-<div class="sm:w-5/6">Mathematical Reasoning 2 (lectures &amp; organisation, 23 h)</div>
+<div class="sm:w-5/6">Mathematical Reasoning 2, L1 MIASHS (lectures, organisation, exercise sessions, 18+5+18 h)</div>
+</div>
+
+
+
+
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold"></div>
+<div class="sm:w-5/6"><em>Affine and Euclidean geometry 5</em>, L3 Maths (exercise sessions, 18 h)</div>
+</div>
+
+
+
+
+<div class="sm:flex my-1">
+<div class="sm:w-1/6 font-semibold"></div>
+<div class="sm:w-5/6"><em>Elementary mathematics 1</em>, L1 (exercise sessions, 54 h)</div>
 </div>
 
 

@@ -417,7 +417,13 @@ section:
           b: "*Algorithmes et Programmation*, L2 (TD+TP, 42\ h) ! *Algorithms and Programming*, L2 (Exercise sessions & Labs, 42\ h)"
       - item:
           a: ""
-          b: "*Raisonnement Mathématique 2* (cours & organisation, 23\ h) ! Mathematical Reasoning 2 (lectures & organisation, 23\ h)"
+          b: "*Raisonnement Mathématique 2*, L1 MIASHS (cours, organisation, TD, 18+5+18\ h) ! Mathematical Reasoning 2, L1 MIASHS (lectures, organisation, exercise sessions, 18+5+18\ h)"
+      - item:
+          a: ""
+          b: "*Géométrie affine et euclidienne 5*, L3 Maths (TD, 18\ h) ! *Affine and Euclidean geometry 5*, L3 Maths (exercise sessions, 18\ h)"
+      - item:
+          a: ""
+          b: "*Mathématiques élémentaires 1*, L1 (TD, 54\ h) ! *Elementary mathematics 1*, L1 (exercise sessions, 54\ h)"
       - item:
           a: "2020--2021"
           b: '*Homotopie II*, M2 Maths fondas (cours, 24\ h) ! *Homotopy II*, M2 Fundam.\ Math (lectures, 24\ h)'
