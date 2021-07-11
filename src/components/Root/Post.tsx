@@ -9,7 +9,7 @@ query RootPostQuery {
   allMdx(
     filter: {fields: {type: {eq: "post"}}}
     sort: {fields: frontmatter___date, order: DESC}
-    limit: 5
+    limit: 6
   ) {
     nodes {
       slug
@@ -29,13 +29,15 @@ query RootPostQuery {
   return (
     <section>
       <h2 className="text-4xl font-bold mb-3">Posts</h2>
-      <div className="flex flex-col gap-4">
+      <div className="grid gap-4" style={{
+        gridTemplateColumns: "repeat(auto-fit, minmax(24rem, 1fr))"
+      }}>
         {nodes.map(({ frontmatter, slug, excerpt }) => (
           <Mini key={slug} type="post" slug={slug} frontmatter={frontmatter} excerpt={excerpt} />
         ))}
-        <SeeMore to="/post">posts</SeeMore>
       </div>
+      <SeeMore to="/post">posts</SeeMore>
     </section>
   );
-}
+};
 export default Post;

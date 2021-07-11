@@ -3,7 +3,7 @@ import { ImageDataLike } from "gatsby-plugin-image";
 
 import MetaClass from "./class";
 import MetaData from "./data";
-import { actualTitle } from "../Page"
+import { actualTitle } from "../Page";
 import Links, { Urls } from "./links";
 import MetaResearch from "./research";
 import MetaTalk from "./talk";
@@ -43,28 +43,26 @@ export type Frontmatter = {
   TBA?: boolean;
 };
 
-const Meta: React.FC<{ frontmatter: Frontmatter, type: string }> = ({
+const Meta: React.FC<{ frontmatter: Frontmatter, type: string; }> = ({
   frontmatter,
   type
 }) => {
   return (
-    <div className="flex flex-col gap-1">
-      <div className="flex flex-row flex-wrap gap-x-2 gap-y-1 content-center text-gray-700 dark:text-gray-400">
-        {
-          type === 'research' ? (
-            <MetaResearch frontmatter={frontmatter} />
-          ) : type === 'class' ? (
-            <MetaClass frontmatter={frontmatter} />
-          ) : type === 'talk' ? (
-            <MetaTalk frontmatter={frontmatter} />
-          ) : (
-            <MetaData frontmatter={frontmatter} />
-          )
-        }
+    <div>
+      <div className="flex flex-row flex-wrap gap-x-2 gap-y-1 content-center text-gray-700 dark:text-gray-400 mb-2">
+        {type === 'research' ? (
+          <MetaResearch frontmatter={frontmatter} />
+        ) : type === 'class' ? (
+          <MetaClass frontmatter={frontmatter} />
+        ) : type === 'talk' ? (
+          <MetaTalk frontmatter={frontmatter} />
+        ) : (
+          <MetaData frontmatter={frontmatter} />
+        )}
       </div>
       <Links urls={frontmatter.urls} title={actualTitle(frontmatter, type)} />
     </div>
   );
-}
+};
 
-export default Meta
+export default Meta;

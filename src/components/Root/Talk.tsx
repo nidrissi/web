@@ -11,7 +11,7 @@ type RootTalkQuery = {
       wordCount: { words: Number; };
       frontmatter: Frontmatter;
     }[];
-  }
+  };
 };
 
 const Talk: React.FC<{}> = () => {
@@ -20,7 +20,7 @@ query RootTalkQuery {
   allMdx(
     filter: {fields: {type: {eq: "talk"}}}
     sort: {fields: frontmatter___date, order: DESC}
-    limit: 5
+    limit: 6
   ) {
     nodes {
       slug
@@ -46,13 +46,15 @@ query RootTalkQuery {
   return (
     <section>
       <h2 className="text-4xl font-bold mb-3">Talks</h2>
-      <div className="flex flex-col gap-4">
+      <div className="grid gap-4" style={{
+        gridTemplateColumns: "repeat(auto-fit, minmax(24rem, 1fr))"
+      }}>
         {nodes.map(({ frontmatter, slug, wordCount: { words } }) => (
           <Mini key={slug} type="talk" slug={slug} frontmatter={frontmatter} noLink={words === 0} />
         ))}
-        <SeeMore to="/talk">talks</SeeMore>
       </div>
+      <SeeMore to="/talk">talks</SeeMore>
     </section>
   );
-}
+};
 export default Talk;

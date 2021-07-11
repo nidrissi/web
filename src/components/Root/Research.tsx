@@ -10,7 +10,7 @@ type RootResearchQuery = {
       slug: string;
       frontmatter: Frontmatter;
     }[];
-  }
+  };
 };
 
 const Research: React.FC<{}> = () => {
@@ -47,9 +47,9 @@ query RootResearchQuery {
             <Mini key={slug} type="research" slug={slug} frontmatter={frontmatter} />
           );
         })}
-        <SeeMore to="/research">research</SeeMore>
       </div>
+      <SeeMore to="/research">research</SeeMore>
     </section>
   );
-}
+};
 export default Research;

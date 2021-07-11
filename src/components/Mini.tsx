@@ -25,12 +25,12 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   );
 
   const header = levelUp ? (
-    <h2 className="text-2xl font-semibold max-w-3xl">
+    <h2 className="text-2xl font-semibold">
       {linkedTitle}
       {heldOnline(type, frontmatter)}
     </h2>
   ) : (
-    <h3 className="text-xl font-semibold max-w-3xl">
+    <h3 className="text-xl font-semibold">
       {linkedTitle}
       {heldOnline(type, frontmatter)}
     </h3 >
@@ -48,13 +48,16 @@ const Mini: React.FC<MiniProps> = ({ frontmatter, slug, levelUp, excerpt, type, 
   );
 
   return (
-    <article lang={frontmatter?.lang}>
+    <article
+      lang={frontmatter?.lang}
+      className="border border-gray-400 border-opacity-20 rounded-md p-2"
+    >
       {header}
       <div className="mb-2">
         <Meta frontmatter={frontmatter} type={type} />
       </div>
       {fullExcerpt}
     </article>
-  )
-}
+  );
+};
 export default Mini;
