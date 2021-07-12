@@ -36,7 +36,7 @@
     "@types/react-redux": "^7.1.16",
     "autoprefixer": "^10.2.6",
     "formik": "^2.2.8",
-    "gatsby": "^3.8.1",
+    "gatsby": "^3.9.1",
     "gatsby-plugin-catch-links": "^3.8.0",
     "gatsby-plugin-google-gtag": "^3.8.0",
     "gatsby-plugin-image": "^1.8.0",
